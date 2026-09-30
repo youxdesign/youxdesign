@@ -1,0 +1,15 @@
+youXdesign · dossier à mettre sur GitHub
+
+1. Créez un dépôt GitHub (ex. "youxdesign").
+2. Mettez TOUT le contenu de ce dossier à la racine du dépôt
+   (bouton "Add file" > "Upload files", glissez tout, puis "Commit changes").
+3. Cloudflare > Workers & Pages > Create > Pages > Connect to Git
+   Choisissez le dépôt. Framework : None. Build command : vide. Output directory : vide.
+   Deploy.
+
+Adresses obtenues (remplacez youxdesign par le nom choisi) :
+  Configurateur : https://youxdesign.pages.dev/
+  Démo          : https://youxdesign.pages.dev/demo/
+  GIF (email)   : https://youxdesign.pages.dev/apercu-demo.gif
+
+Ensuite, chaque fichier modifié sur GitHub est mis en ligne automatiquement.

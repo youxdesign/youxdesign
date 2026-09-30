@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Politique de confidentialité | Claire Morel, psychologue à Lille</title>
+  <meta name="description" content="Politique de confidentialité et de protection des données du site de Claire Morel, psychologue clinicienne à Lille.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&amp;display=swap">
+  <link rel="stylesheet" href="theme.css">
+  <script src="cabinet.js"></script>
+  <script src="site.js"></script>
+</helmet>
+<dc-import name="Header" current="aucune" hint-size="100%,92px"></dc-import>
+<main id="contenu" style="padding:clamp(152px,18vw,200px) clamp(20px,4vw,40px) clamp(80px,10vw,136px);">
+  <article style="max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(40px,5vw,56px);">
+    <header style="display:flex;flex-direction:column;gap:18px;">
+      <p style="font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:var(--primary);font-weight:500;">Vos données</p>
+      <h1 style="font-family:var(--font-serif);font-weight:500;font-size:clamp(46px,6vw,80px);line-height:1.02;letter-spacing:-0.015em;">Politique de confidentialité</h1>
+      <p style="font-size:15px;color:var(--ink-2);">Dernière mise à jour : {{ c.miseAJour }}</p>
+    </header>
+
+    <div style="display:flex;gap:14px;align-items:flex-start;background:var(--primary-tint);border-radius:20px;padding:22px 26px;">
+      <span aria-hidden="true" style="flex:none;width:10px;height:10px;margin-top:9px;border-radius:50%;background:var(--primary);"></span>
+      <p style="font-size:16.5px;line-height:1.7;color:var(--ink);text-wrap:pretty;">En bref : ce site ne comporte aucun formulaire et ne collecte aucune donnée de santé. Il n'utilise pas de cookie publicitaire ni d'outil de mesure d'audience.</p>
+    </div>
+
+    <section style="display:flex;flex-direction:column;gap:14px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-family:var(--font-serif);font-weight:500;font-size:32px;line-height:1.15;">Responsable du traitement</h2>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);">{{ c.nom }}, {{ c.titre }}<br>{{ c.adresse }}, {{ c.codePostal }} {{ c.ville }}<br>{{ c.email }}</p>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:14px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-family:var(--font-serif);font-weight:500;font-size:32px;line-height:1.15;">Données collectées</h2>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">Le site ne collecte directement aucune donnée personnelle. Si vous me contactez par téléphone ou par e-mail, les informations que vous transmettez (nom, coordonnées, message) sont utilisées uniquement pour vous répondre et organiser un rendez-vous.</p>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">Merci de ne pas transmettre d'informations médicales par e-mail : nous les aborderons en séance, dans un cadre confidentiel.</p>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:14px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-family:var(--font-serif);font-weight:500;font-size:32px;line-height:1.15;">Prise de rendez-vous</h2>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">La prise de rendez-vous en ligne s'effectue sur la plateforme Doctolib, qui dispose de sa propre politique de confidentialité et héberge les données selon les exigences applicables aux données de santé.</p>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:14px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-family:var(--font-serif);font-weight:500;font-size:32px;line-height:1.15;">Services tiers</h2>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">Pour afficher le site, votre navigateur contacte des services externes, qui peuvent recevoir votre adresse IP : Google Fonts (polices de caractères) et OpenStreetMap (carte de la page Contact). Aucun cookie n'est déposé à cette occasion par le site.</p>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:14px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-family:var(--font-serif);font-weight:500;font-size:32px;line-height:1.15;">Stockage local</h2>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">Le site peut enregistrer dans votre navigateur vos préférences d'affichage. Ces informations restent sur votre appareil et ne sont transmises à personne.</p>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:14px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-family:var(--font-serif);font-weight:500;font-size:32px;line-height:1.15;">Durée de conservation</h2>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">Les échanges de prise de contact sont conservés le temps nécessaire pour y répondre, puis supprimés s'ils ne donnent pas lieu à un suivi. Le dossier des patients suivis est conservé de manière sécurisée, conformément aux obligations professionnelles.</p>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:14px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-family:var(--font-serif);font-weight:500;font-size:32px;line-height:1.15;">Vos droits</h2>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">Conformément au Règlement général sur la protection des données (RGPD), vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition sur vos données. Pour l'exercer, écrivez à {{ c.email }}.</p>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">Si vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL (<a href="https://www.cnil.fr/" target="_blank" rel="noopener">cnil.fr</a>).</p>
+    </section>
+
+    <section style="display:flex;flex-direction:column;gap:14px;padding-top:32px;border-top:1px solid var(--line);">
+      <h2 style="font-family:var(--font-serif);font-weight:500;font-size:32px;line-height:1.15;">Secret professionnel</h2>
+      <p style="font-size:16.5px;line-height:1.8;color:var(--ink-2);text-wrap:pretty;">Tout ce qui est confié en séance est couvert par le secret professionnel, conformément au Code de déontologie des psychologues.</p>
+    </section>
+  </article>
+</main>
+<dc-import name="Footer" hint-size="100%,420px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { c: {} };
+  componentDidMount() {
+    const t = () => window.Site ? window.Site.cabinet().then(c => this.setState({ c })) : setTimeout(t, 30);
+    t();
+  }
+  renderVals() {
+    return { c: this.state.c || {} };
+  }
+}
+</script>
+</body>
+</html>

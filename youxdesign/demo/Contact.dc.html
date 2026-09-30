@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Contact et accès | Claire Morel, psychologue TCC à Lille</title>
+  <meta name="description" content="Cabinet de psychologie au 12 rue Esquermoise, Lille (Vieux-Lille). Accès métro Rihour, parking Nouveau Siècle, cabinet de plain-pied. Horaires, téléphone et prise de rendez-vous en ligne.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&amp;display=swap">
+  <link rel="stylesheet" href="theme.css">
+  <script src="cabinet.js"></script>
+  <script src="site.js"></script>
+</helmet>
+<dc-import name="Header" current="contact" hint-size="100%,92px"></dc-import>
+<main id="contenu" style="overflow-x:hidden;">
+
+  <section aria-labelledby="page-title" style="position:relative;overflow:hidden;padding:clamp(152px,18vw,200px) clamp(20px,4vw,40px) clamp(56px,7vw,88px);">
+    {{ heroBlob }}
+    <div data-stagger="" style="position:relative;max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:32px 64px;align-items:end;">
+      <div style="display:flex;flex-direction:column;gap:24px;">
+        <p data-reveal="" style="font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:var(--primary);font-weight:500;">Contact &amp; accès</p>
+        <h1 id="page-title" data-reveal="" style="font-family:var(--font-serif);font-weight:500;font-size:clamp(48px,6.4vw,92px);line-height:1.02;letter-spacing:-0.015em;text-wrap:balance;">Venir au <em style="font-style:italic;color:var(--primary);">cabinet</em></h1>
+      </div>
+      <div data-reveal="" style="display:flex;flex-direction:column;gap:22px;max-width:520px;">
+        <p style="font-size:clamp(17px,1.35vw,19px);line-height:1.7;color:var(--ink-2);text-wrap:pretty;">Le cabinet se trouve au cœur du {{ c.quartier }}, à quelques minutes de la Grand-Place. Les consultations sont aussi possibles en visio.</p>
+        <a href="{{ doctolib }}" target="_blank" rel="noopener" aria-label="Prendre rendez-vous sur Doctolib (nouvel onglet)" style="align-self:flex-start;display:inline-flex;align-items:center;gap:12px;min-height:64px;padding:0 36px;border-radius:999px;background:var(--primary);color:var(--on-primary);font-size:17px;font-weight:500;text-decoration:none;transition:transform 500ms var(--ease), box-shadow 500ms var(--ease), background-color 500ms var(--ease);" style-hover="transform:translateY(-2px);box-shadow:0 18px 32px -16px var(--primary);background:var(--primary-hover);color:var(--on-primary);">Prendre rendez-vous sur Doctolib <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="coord-title" style="padding:0 clamp(12px,2vw,24px);">
+    <div style="max-width:1320px;margin:0 auto;display:grid;grid-template-columns:{{ gridCols }};gap:{{ gridGap }};">
+      <div data-reveal="" style="display:flex;flex-direction:column;gap:32px;background:{{ cardBg }};border:{{ cardBorder }};border-radius:clamp(28px,3vw,40px);padding:{{ cardPad }};max-width:{{ cardMax }};">
+        <h2 id="coord-title" style="font-family:var(--font-serif);font-weight:500;font-size:clamp(34px,3.6vw,46px);line-height:1.1;">Coordonnées</h2>
+        <dl style="margin:0;display:flex;flex-direction:column;">
+          <div style="display:grid;grid-template-columns:minmax(96px,120px) 1fr;gap:4px 20px;padding:18px 0;border-top:1px solid var(--line);">
+            <dt style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-2);padding-top:4px;">Adresse</dt>
+            <dd style="margin:0;font-size:17px;line-height:1.6;">{{ c.adresse }}<br>{{ c.codePostal }} {{ c.ville }}<br><span style="font-size:15px;color:var(--ink-2);">{{ c.etage }}</span></dd>
+          </div>
+          <div style="display:grid;grid-template-columns:minmax(96px,120px) 1fr;gap:4px 20px;padding:18px 0;border-top:1px solid var(--line);">
+            <dt style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-2);padding-top:4px;">Téléphone</dt>
+            <dd style="margin:0;font-size:17px;line-height:1.6;"><a href="tel:{{ c.telephoneLien }}" style="color:var(--ink);text-decoration:none;" style-hover="color:var(--primary);">{{ c.telephone }}</a><br><span style="font-size:15px;color:var(--ink-2);">Je ne décroche pas pendant les séances : laissez un message, je vous rappelle.</span></dd>
+          </div>
+          <div style="display:grid;grid-template-columns:minmax(96px,120px) 1fr;gap:4px 20px;padding:18px 0;border-top:1px solid var(--line);">
+            <dt style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-2);padding-top:4px;">E-mail</dt>
+            <dd style="margin:0;font-size:17px;line-height:1.6;word-break:break-word;"><a href="mailto:{{ c.email }}" style="color:var(--ink);text-decoration:none;" style-hover="color:var(--primary);">{{ c.email }}</a></dd>
+          </div>
+          <div style="display:grid;grid-template-columns:minmax(96px,120px) 1fr;gap:4px 20px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+            <dt style="font-size:13px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-2);padding-top:4px;">Horaires</dt>
+            <dd style="margin:0;display:flex;flex-direction:column;gap:4px;font-size:17px;line-height:1.6;">
+              <sc-for list="{{ horaires }}" as="h" hint-placeholder-count="2">
+                <p style="display:flex;justify-content:space-between;gap:16px;"><span>{{ h.jours }}</span><span style="color:var(--ink-2);">{{ h.heures }}</span></p>
+              </sc-for>
+              <span style="font-size:15px;color:var(--ink-2);">Sur rendez-vous uniquement</span>
+            </dd>
+          </div>
+        </dl>
+        <p style="font-size:14.5px;line-height:1.6;color:var(--ink-2);text-wrap:pretty;">Pour protéger votre confidentialité, ce site ne propose pas de formulaire. Merci de ne pas transmettre d'informations médicales par e-mail : nous en parlerons en séance.</p>
+      </div>
+      <div data-reveal="" style="position:relative;min-height:{{ mapHeight }};order:{{ mapOrder }};border-radius:clamp(28px,3vw,40px);overflow:hidden;background:var(--bg-alt);border:1px solid var(--line);">
+        <sc-if value="{{ mapOk }}" hint-placeholder-val="{{ false }}">
+          <iframe src="{{ mapSrc }}" title="Carte interactive : emplacement du cabinet" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+        </sc-if>
+        <sc-if value="{{ mapFallback }}" hint-placeholder-val="{{ false }}">
+          <div style="position:absolute;inset:0;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:32px;text-align:center;background:var(--primary-tint);">
+            <div aria-hidden="true" style="position:absolute;top:-20%;left:-20%;width:80%;aspect-ratio:1;border-radius:58% 42% 55% 45% / 48% 56% 44% 52%;background:var(--primary-soft);"></div>
+            <div aria-hidden="true" style="position:absolute;bottom:-25%;right:-15%;width:70%;aspect-ratio:1;border-radius:45% 55% 40% 60% / 58% 42% 58% 42%;background:var(--terra-soft);"></div>
+            <span aria-hidden="true" style="position:relative;width:22px;height:22px;border-radius:50%;background:var(--primary);border:3px solid var(--on-primary);box-shadow:0 0 0 12px color-mix(in srgb, var(--primary) 18%, transparent);"></span>
+            <p style="position:relative;font-family:var(--font-serif);font-size:30px;font-weight:500;line-height:1.2;">{{ c.adresse }}<br>{{ c.codePostal }} {{ c.ville }}</p>
+            <div style="position:relative;display:flex;flex-wrap:wrap;justify-content:center;gap:10px;">
+              <a href="{{ osmLink }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border-radius:999px;background:var(--surface);color:var(--ink);font-size:15px;font-weight:500;text-decoration:none;border:1px solid var(--line);">Voir le plan <span aria-hidden="true" style="margin-left:8px;">↗</span></a>
+              <a href="{{ routeLink }}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border-radius:999px;background:var(--primary);color:var(--on-primary);font-size:15px;font-weight:500;text-decoration:none;">Itinéraire <span aria-hidden="true" style="margin-left:8px;">↗</span></a>
+            </div>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="acces-title" style="padding:clamp(96px,12vw,152px) clamp(20px,4vw,40px) 0;">
+    <div style="max-width:1240px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(40px,5vw,64px);">
+      <div data-stagger="" style="display:flex;flex-direction:column;gap:18px;max-width:640px;">
+        <p data-reveal="" style="font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:var(--primary);font-weight:500;">Accès</p>
+        <h2 id="acces-title" data-reveal="" style="font-family:var(--font-serif);font-weight:500;font-size:clamp(40px,5vw,60px);line-height:1.05;letter-spacing:-0.01em;">Comment venir</h2>
+      </div>
+      <ul data-stagger="" style="list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:18px;">
+        <li data-reveal="" style="display:flex;flex-direction:column;gap:12px;padding:30px 28px 32px;background:var(--surface);border:1px solid var(--line);border-radius:28px;">
+          <span aria-hidden="true" style="width:40px;height:40px;border-radius:60% 40% 55% 45% / 50% 58% 42% 50%;background:var(--primary-soft);margin-bottom:6px;"></span>
+          <h3 style="font-family:var(--font-serif);font-weight:500;font-size:27px;line-height:1.15;">En métro</h3>
+          <p style="font-size:15.5px;line-height:1.6;color:var(--ink-2);">{{ c.acces.metro }}</p>
+        </li>
+        <li data-reveal="" style="display:flex;flex-direction:column;gap:12px;padding:30px 28px 32px;background:var(--surface);border:1px solid var(--line);border-radius:28px;">
+          <span aria-hidden="true" style="width:40px;height:40px;border-radius:45% 55% 42% 58% / 56% 44% 56% 44%;background:var(--terra-soft);margin-bottom:6px;"></span>
+          <h3 style="font-family:var(--font-serif);font-weight:500;font-size:27px;line-height:1.15;">En voiture</h3>
+          <p style="font-size:15.5px;line-height:1.6;color:var(--ink-2);">{{ c.acces.parking }}. Le Vieux-Lille est peu adapté au stationnement dans la rue.</p>
+        </li>
+        <li data-reveal="" style="display:flex;flex-direction:column;gap:12px;padding:30px 28px 32px;background:var(--surface);border:1px solid var(--line);border-radius:28px;">
+          <span aria-hidden="true" style="width:40px;height:40px;border-radius:55% 45% 60% 40% / 45% 55% 45% 55%;background:var(--sand);margin-bottom:6px;"></span>
+          <h3 style="font-family:var(--font-serif);font-weight:500;font-size:27px;line-height:1.15;">Accessibilité</h3>
+          <p style="font-size:15.5px;line-height:1.6;color:var(--ink-2);">Cabinet de plain-pied, sans marche, accessible en fauteuil roulant.</p>
+        </li>
+        <li data-reveal="" style="display:flex;flex-direction:column;gap:12px;padding:30px 28px 32px;background:var(--surface);border:1px solid var(--line);border-radius:28px;">
+          <span aria-hidden="true" style="width:40px;height:40px;border-radius:50% 50% 40% 60% / 60% 40% 60% 40%;background:var(--primary-soft);margin-bottom:6px;"></span>
+          <h3 style="font-family:var(--font-serif);font-weight:500;font-size:27px;line-height:1.15;">À votre arrivée</h3>
+          <p style="font-size:15.5px;line-height:1.6;color:var(--ink-2);">{{ c.acces.entree }}. Je viens vous chercher à l'heure du rendez-vous.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="visio-title" style="padding:clamp(96px,12vw,152px) clamp(12px,2vw,24px) 0;">
+    <div data-reveal="" style="position:relative;overflow:hidden;max-width:1320px;margin:0 auto;background:var(--primary-tint);border-radius:clamp(28px,4vw,48px);padding:clamp(48px,7vw,96px) clamp(24px,6vw,96px);">
+      {{ sectionBlob }}
+      <div style="position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:24px 64px;align-items:center;">
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <p style="font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:var(--primary);font-weight:500;">Consultations à distance</p>
+          <h2 id="visio-title" style="font-family:var(--font-serif);font-weight:500;font-size:clamp(38px,4.6vw,56px);line-height:1.05;letter-spacing:-0.01em;">Vous préférez la visio ?</h2>
+        </div>
+        <p style="font-size:17px;line-height:1.75;color:var(--ink-2);text-wrap:pretty;">Les séances en visio se déroulent via une plateforme sécurisée. Il suffit d'un endroit calme où vous pouvez parler librement, et d'une connexion stable. Le lien vous est envoyé à la réservation sur Doctolib.</p>
+      </div>
+    </div>
+  </section>
+
+  <aside aria-label="Urgence" style="padding:clamp(40px,5vw,64px) clamp(20px,4vw,40px) clamp(72px,9vw,120px);">
+    <div data-reveal="" style="max-width:1240px;margin:0 auto;display:flex;gap:14px;align-items:flex-start;background:var(--terra-soft);border-radius:20px;padding:18px 24px;">
+      <span aria-hidden="true" style="flex:none;width:10px;height:10px;margin-top:8px;border-radius:50%;background:var(--terra);"></span>
+      <p style="font-size:15.5px;line-height:1.6;color:var(--ink);">En cas d'urgence, appelez le <a href="tel:15" style="color:var(--ink);font-weight:600;">15</a> ou le <a href="tel:3114" style="color:var(--ink);font-weight:600;">3114</a> (numéro national de prévention du suicide).</p>
+    </div>
+  </aside>
+
+</main>
+<dc-import name="Footer" hint-size="100%,420px"></dc-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;layout&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Carte à côté&quot;,&quot;Carte panoramique&quot;],&quot;default&quot;:&quot;Carte à côté&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Mise en page&quot;},&quot;infoStyle&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Encadré&quot;,&quot;Éditorial&quot;],&quot;default&quot;:&quot;Encadré&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Mise en page&quot;},&quot;mapStyle&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Doux&quot;,&quot;Monochrome&quot;,&quot;Couleurs d'origine&quot;],&quot;default&quot;:&quot;Doux&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Carte&quot;}}">
+class Component extends DCLogic {
+  state = { c: {} };
+  site() { return new Promise(r => { const t = () => window.Site ? r(window.Site) : setTimeout(t, 30); t(); }); }
+  componentDidMount() {
+    fetch('Carte.html', { method: 'HEAD' })
+      .then(r => this.setState({ mapOk: r.ok }))
+      .catch(() => this.setState({ mapOk: false }));
+    this.site().then(S => {
+      S.cabinet().then(c => this.setState({ c }));
+      requestAnimationFrame(() => S.reveal(document));
+      setTimeout(() => S.reveal(document), 800);
+    });
+  }
+  blob(style) {
+    return React.createElement('div', {
+      'aria-hidden': true,
+      style: Object.assign({ position: 'absolute', pointerEvents: 'none', borderRadius: '58% 42% 55% 45% / 48% 56% 44% 52%', animation: 'breathe 20s ease-in-out infinite' }, style)
+    });
+  }
+  renderVals() {
+    const c = this.state.c || {};
+    const wide = (this.props.layout ?? 'Carte à côté') === 'Carte panoramique';
+    const plain = (this.props.infoStyle ?? 'Encadré') === 'Éditorial';
+    const mapStyle = { 'Doux': 'doux', 'Monochrome': 'mono', "Couleurs d'origine": 'origine' }[this.props.mapStyle ?? 'Doux'] || 'doux';
+    return {
+      gridCols: wide ? (plain ? 'repeat(auto-fit,minmax(min(100%,380px),1fr))' : '1fr') : 'repeat(auto-fit,minmax(min(100%,380px),1fr))',
+      gridGap: plain ? 'clamp(24px,5vw,72px)' : 'clamp(12px,1.5vw,20px)',
+      cardBg: plain ? 'transparent' : 'var(--surface)',
+      cardBorder: plain ? '0' : '1px solid var(--line)',
+      cardPad: plain ? 'clamp(8px,2vw,24px) clamp(8px,2vw,16px)' : 'clamp(32px,4vw,56px)',
+      cardMax: wide && !plain ? '760px' : 'none',
+      mapHeight: wide ? 'clamp(420px,56vw,720px)' : 'clamp(380px,50vw,620px)',
+      mapOrder: wide ? -1 : 0,
+      mapSrc: 'Carte.html?style=' + mapStyle,
+      mapOk: this.state.mapOk === true,
+      mapFallback: this.state.mapOk === false,
+      osmLink: c.coordonnees ? 'https://www.openstreetmap.org/?mlat=' + c.coordonnees.lat + '&mlon=' + c.coordonnees.lng + '#map=17/' + c.coordonnees.lat + '/' + c.coordonnees.lng : 'https://www.openstreetmap.org/',
+      routeLink: 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent([c.adresse, c.codePostal, c.ville].filter(Boolean).join(' ')),
+      c: Object.assign({ acces: {} }, c),
+      horaires: c.horaires || [],
+      doctolib: c.doctolib || 'https://www.doctolib.fr/',
+      heroBlob: this.blob({ top: '-20%', right: '-12%', width: 'min(640px, 90vw)', height: 'min(640px, 90vw)', background: 'var(--primary-soft)', opacity: 0.7 }),
+      sectionBlob: this.blob({ top: '-50%', right: '-14%', width: '560px', height: '560px', background: 'var(--primary-soft)', opacity: 0.8, animationDuration: '26s' })
+    };
+  }
+}
+</script>
+</body>
+</html>
