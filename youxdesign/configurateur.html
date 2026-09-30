@@ -12,13 +12,34 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&amp;family=Schibsted+Grotesk:wght@400;500;600;700&amp;family=Instrument+Sans:wght@400;500;600;700&amp;family=Bricolage+Grotesque:wght@400;500;600;700&amp;family=Young+Serif&amp;family=Gloock&amp;family=DM+Serif+Display&amp;family=Figtree:wght@400;500;600;700&amp;family=Shippori+Mincho:wght@400;500&amp;family=Cormorant+Garamond:wght@400;500;600&amp;family=Zen+Old+Mincho:wght@400;500&amp;family=Zen+Kaku+Gothic+New:wght@400;500&amp;family=Onest:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;family=Bodoni+Moda:wght@400;500&amp;family=Marcellus&amp;family=Italiana&amp;family=Jost:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;family=Newsreader:ital,wght@0,400;1,400&amp;family=Libre+Caslon+Text:ital,wght@0,400;1,400&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=Nunito:wght@400;600;700;800&amp;family=Varela+Round&amp;family=Quicksand:wght@500;600;700&amp;family=Spectral:wght@300;400&amp;family=Tenor+Sans&amp;family=Libre+Bodoni:wght@400;500&amp;family=Karla:wght@400;500;600&amp;display=swap&amp;text=%20!%22%23%24%25%26'()*%2B%2C-.%2F0123456789%3A%3B%3C%3D%3E%3F%40ABCDEFGHIJKLMNOPQRSTUVWXYZ%5B%5C%5D%5E_%60abcdefghijklmnopqrstuvwxyz%7B%7C%7D~%C3%A0%C3%A2%C3%A4%C3%A7%C3%A9%C3%A8%C3%AA%C3%AB%C3%AE%C3%AF%C3%B4%C3%B6%C3%B9%C3%BB%C3%BC%C3%BF%C5%93%C3%A6%C3%80%C3%82%C3%84%C3%87%C3%89%C3%88%C3%8A%C3%8B%C3%8E%C3%8F%C3%94%C3%96%C3%99%C3%9B%C3%9C%C5%B8%C5%92%C3%86%C2%AB%C2%BB%E2%80%99%E2%80%98%E2%80%9C%E2%80%9D%E2%80%93%E2%80%94%C2%B7%E2%80%A6%E2%82%AC%C2%B0%C3%97%E2%88%92%E2%86%97%E2%86%92%E2%9C%93%E2%97%8F">
-<style>*{box-sizing:border-box;margin:0;padding:0}html,body{height:100%}body{margin:0;background:#EDE7F8;-webkit-font-smoothing:antialiased}a{color:#5B3FC0}a:hover{color:#2B1A4E}ul,ol{list-style:none}input,textarea,button{font:inherit}textarea{resize:vertical}::placeholder{color:#A99FC0}</style>
+<style>*{box-sizing:border-box;margin:0;padding:0}html,body{height:100%}body{margin:0;background:#EDE7F8;-webkit-font-smoothing:antialiased}a{color:#5B3FC0}a:hover{color:#2B1A4E}ul,ol{list-style:none}input,textarea,button{font:inherit}textarea{resize:vertical}::placeholder{color:#A99FC0}
+@media (max-width:820px){
+[data-shell]{flex-direction:column!important;height:100vh!important;height:100dvh!important;min-height:0!important}
+[data-main]{order:-1;flex:none!important;height:36vh;height:36dvh;padding:10px 12px 8px!important;gap:8px!important}
+[data-main] [data-hint]{display:none}
+[data-main]>div:first-child>span{min-width:0!important;flex:1 1 auto!important;font-size:12px!important}
+[data-preview]{border-radius:10px!important}
+[data-aside]{width:100%!important;flex:1 1 auto!important;min-height:0;border-right:0!important;border-top:1px solid #DDD3F0;border-radius:16px 16px 0 0;overflow:hidden}
+[data-head]{padding:14px 16px 12px!important;gap:10px!important}
+[data-head] button{width:26px!important;height:26px!important;font-size:11px!important}
+[data-panel]{padding:20px 16px 28px!important;gap:20px!important;-webkit-overflow-scrolling:touch}
+[data-panel] h1{font-size:22px!important}
+[data-foot]{padding:10px 16px calc(10px + env(safe-area-inset-bottom))!important;gap:8px!important}
+[data-foot]>span{font-size:0!important}
+[data-panel] input,[data-panel] textarea,[data-panel] select{font-size:16px!important}
+[data-panel] label,[data-panel] input,[data-panel] textarea{min-width:0}
+[data-panel] label>input{width:100%}
+[data-head]>div:last-child{flex-wrap:nowrap!important;overflow-x:auto;scrollbar-width:none;margin:0 -16px;padding:0 16px}
+[data-head]>div:last-child::-webkit-scrollbar{display:none}
+[data-head]>div:last-child>*{flex:none}
+}
+</style>
 </helmet>
 <template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#2B1A4E"></rect><text x="50" y="62" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="700" fill="#CDBDF5">yX</text></svg></template>
-<div style="display:flex;height:100vh;min-height:640px;background:#EDE7F8;font-family:'Familjen Grotesk',sans-serif;color:#2B1A4E;">
+<div data-shell="" style="display:flex;height:100vh;min-height:640px;background:#EDE7F8;font-family:'Familjen Grotesk',sans-serif;color:#2B1A4E;">
 
-  <aside style="flex:none;width:470px;display:flex;flex-direction:column;background:#FBFAFE;border-right:1px solid #DDD3F0;">
-    <div style="display:flex;flex-direction:column;gap:16px;padding:22px 32px 18px;background:#2B1A4E;color:#FFFFFF;">
+  <aside data-aside="" style="flex:none;width:470px;display:flex;flex-direction:column;background:#FBFAFE;border-right:1px solid #DDD3F0;">
+    <div data-head="" style="display:flex;flex-direction:column;gap:16px;padding:22px 32px 18px;background:#2B1A4E;color:#FFFFFF;">
       <div style="display:flex;justify-content:space-between;align-items:baseline;">
         <p style="font-size:19px;font-weight:700;letter-spacing:-0.02em;color:#CDBDF5;">{{ studio }}</p>
         <p style="font-size:13px;color:#CDBDF5;">{{ stepCount }}</p>
@@ -318,18 +339,18 @@
       </sc-if>
     </div>
 
-    <div style="display:flex;align-items:center;gap:12px;padding:16px 32px;border-top:1px solid #E4DCF3;background:#FFFFFF;">
+    <div data-foot="" style="display:flex;align-items:center;gap:12px;padding:16px 32px;border-top:1px solid #E4DCF3;background:#FFFFFF;">
       <button type="button" onClick="{{ prev }}" style="height:46px;padding:0 18px;border-radius:10px;border:1.5px solid #DCD3EE;background:#FFFFFF;color:#2B1A4E;font-size:15px;font-weight:600;cursor:pointer;opacity:{{ prevOpacity }};">Précédent</button>
       <span style="flex:1;font-size:12.5px;color:#7A6E98;">Enregistré automatiquement</span>
       <sc-if value="{{ showNext }}" hint-placeholder-val="{{ true }}"><button type="button" onClick="{{ next }}" style="height:46px;padding:0 20px;border:0;border-radius:10px;background:#2B1A4E;color:#FFFFFF;font-size:15px;font-weight:600;cursor:pointer;" style-hover="background:#5B3FC0;">{{ nextLabel }}</button></sc-if>
     </div>
   </aside>
 
-  <main style="flex:1;min-width:0;display:flex;flex-direction:column;gap:12px;padding:18px 24px 24px;">
+  <main data-main="" style="flex:1;min-width:0;display:flex;flex-direction:column;gap:12px;padding:18px 24px 24px;">
     <div style="display:flex;align-items:center;gap:14px;">
       <div style="display:flex;gap:6px;"><span style="width:11px;height:11px;border-radius:50%;background:#CDBDF5;"></span><span style="width:11px;height:11px;border-radius:50%;background:#CDBDF5;"></span><span style="width:11px;height:11px;border-radius:50%;background:#CDBDF5;"></span></div>
       <span style="flex:0 1 420px;min-width:180px;padding:7px 14px;border-radius:999px;background:#FFFFFF;font-size:13px;color:#5E5280;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{ p.url }}</span>
-      <span style="margin-left:auto;min-width:0;font-size:13px;color:#5E5280;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Aperçu en direct · champs vides = exemple</span>
+      <span data-hint="" style="margin-left:auto;min-width:0;font-size:13px;color:#5E5280;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Aperçu en direct · champs vides = exemple</span>
     </div>
     <div data-preview="" style="flex:1;min-height:0;overflow:auto;border-radius:12px;background:#FFFFFF;box-shadow:0 1px 2px rgba(43,26,78,.08), 0 20px 50px -24px rgba(43,26,78,.35);">
       <div style="width:1280px;zoom:{{ scale }};">
