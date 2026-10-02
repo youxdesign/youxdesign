@@ -5,7 +5,7 @@
    ========================================================================== */
 window.YX = window.YX || {};
 
-YX.EMAIL = 'youxdesign@gmail.com';
+YX.EMAIL = 'contact.youxdesign@gmail.com';
 YX.STUDIO = 'youXdesign';
 
 /* [nom court, titre, introduction, section de l'aperçu à montrer] */
