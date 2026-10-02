@@ -56,9 +56,11 @@ a { color: var(--yx-brand); }
 .side__head::after { content: ''; position: absolute; width: 380px; height: 380px; right: -160px; top: -220px; border-radius: 50%; background: radial-gradient(circle, rgba(205, 189, 245, .35), transparent 65%); pointer-events: none; animation: glow 12s ease-in-out infinite; }
 @keyframes glow { 50% { transform: translate(-40px, 30px) scale(1.15); } }
 .side__top { display: flex; align-items: center; justify-content: space-between; gap: 12px; position: relative; z-index: 1; }
-.logo { display: flex; align-items: center; gap: 10px; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: -0.02em; }
-.logo b { color: var(--yx-lilac); }
-.logo__mark { width: 30px; height: 30px; border-radius: 9px; background: var(--yx-lilac); color: var(--yx-violet); display: grid; place-items: center; font-size: 13px; font-weight: 800; letter-spacing: -0.04em; }
+.logo { display: flex; align-items: center; gap: 10px; color: #FFFFFF; text-decoration: none; }
+.logo__mark { width: 26px; height: 26px; transition: transform .6s var(--ease); }
+.logo:hover .logo__mark { transform: rotate(90deg); }
+.logo__word { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 25px; line-height: 1; letter-spacing: -0.01em; }
+.logo__word i { font-weight: 500; color: var(--yx-lilac); }
 .side__meta { display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--yx-lilac); }
 .saved { display: inline-flex; align-items: center; gap: 6px; opacity: 0; transform: translateY(4px); transition: opacity .3s, transform .4s var(--ease); color: #BFF0D5; }
 .saved.is-on { opacity: 1; transform: none; }
