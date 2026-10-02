@@ -1,5 +1,75 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><title>youXdesign</title>
-<meta http-equiv="refresh" content="0; url=configurateur.html">
-<script>location.replace('configurateur.html'+location.search+location.hash)</script>
-</head><body><a href="configurateur.html">Ouvrir le configurateur</a></body></html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Configurez votre site de psychologue · youXdesign</title>
+<meta name="description" content="Configurez en 10 minutes le site de votre cabinet de psychologue : style, couleurs, textes et photos. L'aperçu se construit en direct, puis vous envoyez votre demande en un clic.">
+<meta name="theme-color" content="#2B1A4E">
+<meta property="og:title" content="Configurez votre site de psychologue · youXdesign">
+<meta property="og:description" content="Un site professionnel, conforme RGPD et pensé pour les psychologues. Aperçu en direct.">
+<meta property="og:image" content="https://youxdesign.pages.dev/apercu-demov2.gif">
+<link rel="icon" href="config/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&amp;family=Instrument+Serif&amp;family=Cormorant+Garamond:ital,wght@0,600;1,500&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@600&amp;family=Young+Serif&amp;family=Shippori+Mincho&amp;family=Onest:wght@600&amp;family=Bodoni+Moda&amp;family=Instrument+Serif&amp;family=Nunito:wght@800&amp;family=Spectral:wght@300&amp;text=Aa&amp;display=swap">
+<link rel="stylesheet" href="config/config.css">
+<script src="config/data.js" defer></script>
+<script src="config/preview.js" defer></script>
+<script src="config/app.js" defer></script>
+</head>
+<body>
+<div class="app">
+
+  <aside class="side" aria-label="Questionnaire de configuration">
+    <header class="side__head">
+      <div class="side__top">
+        <a class="logo" href="./" aria-label="youXdesign, accueil"><svg class="logo__mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M20 20 L41 41 M59 59 L80 80" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/><path d="M80 20 L20 80" stroke="#CDBDF5" stroke-width="10" stroke-linecap="round"/></svg><span class="logo__word">you<i>X</i>design</span></a>
+        <div class="side__meta">
+          <span class="saved" data-saved aria-live="polite"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7"/></svg>Enregistré</span>
+          <span data-step-count>Configurateur de site</span>
+        </div>
+      </div>
+      <nav class="stepper" aria-label="Étapes">
+        <button type="button" data-goto title="Bienvenue"><span>Bienvenue</span></button><button type="button" data-goto title="Identité"><span>Identité</span></button><button type="button" data-goto title="Cabinet"><span>Cabinet</span></button><button type="button" data-goto title="Tarifs"><span>Tarifs</span></button><button type="button" data-goto title="Style"><span>Style</span></button><button type="button" data-goto title="Couleurs"><span>Couleurs</span></button><button type="button" data-goto title="Typographie"><span>Typographie</span></button><button type="button" data-goto title="Photos"><span>Photos</span></button><button type="button" data-goto title="Pages"><span>Pages</span></button><button type="button" data-goto title="Fonctions"><span>Fonctions</span></button><button type="button" data-goto title="Ton"><span>Ton</span></button><button type="button" data-goto title="Envoi"><span>Envoi</span></button>
+      </nav>
+      <div class="progress" data-progress></div>
+    </header>
+
+    <div class="side__panel" data-panel>
+      <div class="side__body" data-body></div>
+    </div>
+
+    <footer class="side__foot">
+      <button type="button" class="btn btn--ghost" data-prev>Précédent</button>
+      <span class="spacer"></span>
+      <button type="button" class="btn btn--ghost only-mobile" data-show-preview>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>Aperçu
+      </button>
+      <button type="button" class="btn btn--primary" data-next>Suivant <span aria-hidden="true">→</span></button>
+    </footer>
+  </aside>
+
+  <main class="stage" aria-label="Aperçu en direct de votre site">
+    <div class="stage__bar">
+      <button type="button" class="btn btn--ghost btn--sm stage__close" data-hide-preview aria-label="Fermer l'aperçu">← Retour</button>
+      <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="urlbar"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span data-url>camille-martin-psychologue.fr</span></span>
+      <span class="stage__hint">Aperçu en direct · champs vides = exemple</span>
+      <div class="devices" role="group" aria-label="Format de l'aperçu">
+        <button type="button" class="is-on" aria-pressed="true" data-device="desktop"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span>Ordinateur</span></button>
+        <button type="button" aria-pressed="false" data-device="mobile"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg><span>Mobile</span></button>
+      </div>
+    </div>
+    <div class="frame" data-frame data-device="desktop">
+      <div class="frame__scroll" data-preview>
+        <div class="pv" data-pv></div>
+      </div>
+    </div>
+  </main>
+
+</div>
+<noscript><p style="padding:24px;font-family:sans-serif">Le configurateur a besoin de JavaScript. Écrivez-nous à youxdesign@gmail.com.</p></noscript>
+</body>
+</html>

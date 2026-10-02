@@ -1,0 +1,10 @@
+# Anciennes adresses de la démo -> nouvelles pages
+/demo/Accueil.dc.html            /demo/                       301
+/demo/A-propos.dc.html           /demo/a-propos               301
+/demo/Approche.dc.html           /demo/approche               301
+/demo/Consultations.dc.html      /demo/consultations          301
+/demo/FAQ.dc.html                /demo/faq                    301
+/demo/Contact.dc.html            /demo/contact                301
+/demo/Mentions-legales.dc.html   /demo/mentions-legales       301
+/demo/Confidentialite.dc.html    /demo/confidentialite        301
+/demo/Carte.html                 /demo/contact                301
