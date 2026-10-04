@@ -14,6 +14,7 @@ import Erreur from '../gabarits/Erreur.astro';
 import YouxAccueil from '../gabarits/youx/Accueil.astro';
 import YouxErreur from '../gabarits/youx/Erreur.astro';
 import { routes } from '../lib/site.mjs';
+import { pages as pagesDesStyles } from '../themes/registre.mjs';
 
 export function getStaticPaths() {
   return routes().map((r) => ({ params: { chemin: r.chemin }, props: { route: r } }));
@@ -31,7 +32,21 @@ const GABARITS = {
   confidentialite: Confidentialite,
   404: Erreur
 };
-const Gabarit = route.type === 'page' ? GABARITS[route.page] : null;
+/* Nom des gabarits propres à un style (src/themes/<style>/pages/<Nom>.astro) */
+const NOMS = {
+  accueil: 'Accueil',
+  'a-propos': 'APropos',
+  approche: 'Approche',
+  consultations: 'Consultations',
+  faq: 'Faq',
+  contact: 'Contact',
+  'mentions-legales': 'MentionsLegales',
+  confidentialite: 'Confidentialite',
+  404: 'Erreur'
+};
+const Gabarit = route.type === 'page'
+  ? pagesDesStyles[route.site.theme]?.[NOMS[route.page]] || GABARITS[route.page]
+  : null;
 ---
 {route.type === 'page' && <Gabarit site={route.site} />}
 {route.type === 'configurateur' && <YouxAccueil />}

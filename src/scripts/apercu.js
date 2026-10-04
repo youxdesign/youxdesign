@@ -37,7 +37,8 @@ function effacerCouleurs() {
 function appliquer(params) {
   if (params.palette != null) racine.dataset.palette = params.palette;
   if (params.police != null) racine.dataset.police = params.police;
-  if (params.couleurs) couleurs(params.couleurs);
+  /* Couleurs personnalisées : on quitte les teintes propres à une palette */
+  if (params.couleurs && couleurs(params.couleurs)) racine.dataset.palette = 'perso';
   else if (params.couleurs === '') effacerCouleurs();
 }
 

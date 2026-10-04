@@ -5,22 +5,27 @@
    pour chaque police, une police de repli ajustée (Arial ou Times New Roman
    redimensionnée) qui évite que le texte « saute » au chargement.
 
+   Deux sortes de polices :
+   - statiques : un fichier par graisse (paquets @fontsource/…) ;
+   - variables : un seul fichier pour plusieurs graisses (paquets
+     @fontsource-variable/…), réduit aux graisses réellement utilisées
+     pour rester léger.
+
    Ce script ne sert qu'à ajouter ou changer une police. Les fichiers produits
    sont enregistrés dans le dépôt : le site n'en a plus besoin pour se générer.
 
-   Utilisation :
-     npm install --no-save @fontsource/fraunces @fontsource/figtree …
+   Utilisation (installer tous les paquets en une seule commande) :
+     npm install --no-save subset-font @fontsource/figtree … @fontsource-variable/fraunces …
      node scripts/polices.mjs
    ========================================================================== */
 import { copyFile, mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fromBuffer } from '@capsizecss/unpack';
+import subsetFont from 'subset-font';
 
-/* [identifiant Fontsource, nom de la famille, type, fichiers « poids-style »] */
-const POLICES = [
-  ['fraunces', 'Fraunces', 'serif', ['400-normal', '400-italic']],
+/* Polices statiques : [identifiant Fontsource, famille, type, fichiers « poids-style »] */
+const STATIQUES = [
   ['cormorant-garamond', 'Cormorant Garamond', 'serif', ['500-normal', '500-italic', '600-normal']],
   ['instrument-serif', 'Instrument Serif', 'serif', ['400-normal', '400-italic']],
-  ['instrument-sans', 'Instrument Sans', 'sans-serif', ['400-normal', '500-normal', '600-normal']],
   ['young-serif', 'Young Serif', 'serif', ['400-normal']],
   ['gloock', 'Gloock', 'serif', ['400-normal']],
   ['dm-serif-display', 'DM Serif Display', 'serif', ['400-normal', '400-italic']],
@@ -34,6 +39,20 @@ const POLICES = [
   ['zen-old-mincho', 'Zen Old Mincho', 'serif', ['400-normal']],
   ['zen-kaku-gothic-new', 'Zen Kaku Gothic New', 'sans-serif', ['400-normal', '500-normal']]
 ];
+
+/* Polices variables : [identifiant, famille, type, fichier source, { style: axes conservés }, graisses annoncées]
+   Fraunces : taille optique variable (finesse des grands titres), graisse
+   fixée à 350 en romain et 300 en italique, comme la démo d'origine.
+   Instrument Sans : graisses 400 à 600. */
+const VARIABLES = [
+  ['fraunces', 'Fraunces', 'serif', 'opsz', { normal: { wght: 350, opsz: { min: 24, max: 144 } }, italic: { wght: 300, opsz: { min: 24, max: 144 } } }, '300 400'],
+  ['instrument-sans', 'Instrument Sans', 'sans-serif', 'wght', { normal: { wght: { min: 400, max: 600 } } }, '400 600']
+];
+
+/* Caractères du sous-ensemble « latin » (français compris : œ, €, guillemets…) */
+const LATIN = [[0x20, 0xFF], [0x131, 0x131], [0x152, 0x153], [0x2BB, 0x2BC], [0x2C6, 0x2C6], [0x2DA, 0x2DA], [0x2DC, 0x2DC], [0x304, 0x304], [0x308, 0x308], [0x329, 0x329], [0x2000, 0x206F], [0x20AC, 0x20AC], [0x2122, 0x2122], [0x2191, 0x2191], [0x2193, 0x2193], [0x2212, 0x2212], [0x2215, 0x2215], [0xFEFF, 0xFEFF], [0xFFFD, 0xFFFD]];
+let caracteres = '';
+for (const [a, b] of LATIN) for (let c = a; c <= b; c++) caracteres += String.fromCodePoint(c);
 
 /* Mesures des polices système servant de repli (source : Capsize) */
 const SYSTEME = {
@@ -61,7 +80,7 @@ function repli(m, type) {
 await mkdir('public/fonts', { recursive: true });
 const catalogue = {};
 
-for (const [id, famille, type, variantes] of POLICES) {
+for (const [id, famille, type, variantes] of STATIQUES) {
   const fichiers = [];
   let mesures = null;
   for (const v of variantes) {
@@ -75,5 +94,20 @@ for (const [id, famille, type, variantes] of POLICES) {
   catalogue[id] = { famille, type, fichiers, repli: repli(mesures, type) };
 }
 
+for (const [id, famille, type, axe, styles, poids] of VARIABLES) {
+  const fichiers = [];
+  let mesures = null;
+  for (const [style, axes] of Object.entries(styles)) {
+    const source = await readFile(`node_modules/@fontsource-variable/${id}/files/${id}-latin-${axe}-${style}.woff2`);
+    const reduit = await subsetFont(source, caracteres, { targetFormat: 'woff2', variationAxes: axes });
+    const nom = `${id}-variable${style === 'italic' ? '-italique' : ''}.woff2`;
+    await writeFile(`public/fonts/${nom}`, reduit);
+    fichiers.push({ poids, style, url: `/fonts/${nom}` });
+    if (!mesures && style === 'normal') mesures = await fromBuffer(reduit);
+    console.log(`  ${nom} : ${Math.round(reduit.length / 1024)} Ko`);
+  }
+  catalogue[id] = { famille, type, fichiers, repli: repli(mesures, type), variable: true };
+}
+
 await writeFile('src/config/polices.json', JSON.stringify(catalogue, null, 2) + '\n');
-console.log(`${POLICES.length} familles copiées dans public/fonts/ et décrites dans src/config/polices.json`);
+console.log(`${STATIQUES.length + VARIABLES.length} familles dans public/fonts/, décrites dans src/config/polices.json`);

@@ -1,27 +1,4 @@
 {
-  "fraunces": {
-    "famille": "Fraunces",
-    "type": "serif",
-    "fichiers": [
-      {
-        "poids": 400,
-        "style": "normal",
-        "url": "/fonts/fraunces-400.woff2"
-      },
-      {
-        "poids": 400,
-        "style": "italic",
-        "url": "/fonts/fraunces-400-italique.woff2"
-      }
-    ],
-    "repli": {
-      "local": "Times New Roman",
-      "sizeAdjust": "115.45%",
-      "ascentOverride": "84.71%",
-      "descentOverride": "22.09%",
-      "lineGapOverride": "0%"
-    }
-  },
   "cormorant-garamond": {
     "famille": "Cormorant Garamond",
     "type": "serif",
@@ -70,34 +47,6 @@
       "sizeAdjust": "83.94%",
       "ascentOverride": "117.94%",
       "descentOverride": "36.93%",
-      "lineGapOverride": "0%"
-    }
-  },
-  "instrument-sans": {
-    "famille": "Instrument Sans",
-    "type": "sans-serif",
-    "fichiers": [
-      {
-        "poids": 400,
-        "style": "normal",
-        "url": "/fonts/instrument-sans-400.woff2"
-      },
-      {
-        "poids": 500,
-        "style": "normal",
-        "url": "/fonts/instrument-sans-500.woff2"
-      },
-      {
-        "poids": 600,
-        "style": "normal",
-        "url": "/fonts/instrument-sans-600.woff2"
-      }
-    ],
-    "repli": {
-      "local": "Arial",
-      "sizeAdjust": "102.74%",
-      "ascentOverride": "94.42%",
-      "descentOverride": "24.33%",
       "lineGapOverride": "0%"
     }
   },
@@ -361,5 +310,48 @@
       "descentOverride": "29.05%",
       "lineGapOverride": "0%"
     }
+  },
+  "fraunces": {
+    "famille": "Fraunces",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": "300 400",
+        "style": "normal",
+        "url": "/fonts/fraunces-variable.woff2"
+      },
+      {
+        "poids": "300 400",
+        "style": "italic",
+        "url": "/fonts/fraunces-variable-italique.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "112.25%",
+      "ascentOverride": "87.13%",
+      "descentOverride": "22.72%",
+      "lineGapOverride": "0%"
+    },
+    "variable": true
+  },
+  "instrument-sans": {
+    "famille": "Instrument Sans",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": "400 600",
+        "style": "normal",
+        "url": "/fonts/instrument-sans-variable.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "102.74%",
+      "ascentOverride": "94.42%",
+      "descentOverride": "24.33%",
+      "lineGapOverride": "0%"
+    },
+    "variable": true
   }
 }

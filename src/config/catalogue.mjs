@@ -12,17 +12,24 @@
      doux    surfaces teintées (encarts, cartes, formes décoratives)
      texte2  texte secondaire
      accent2 seconde couleur, utilisée avec parcimonie (facultative)
+   Réglages fins facultatifs (sinon calculés) : fond2, surface, doux2, clair,
+   profond, surProfond, accent2Doux.
    Les contrastes sont vérifiés et corrigés automatiquement (src/lib/couleurs.mjs).
+
+   autonome : le style a sa propre feuille de style complète et ses propres
+   gabarits de pages (src/themes/<style>/pages/), sans la base commune.
    ========================================================================== */
 
 export const STYLES = [
   {
     id: 'sauge',
     nom: 'Sauge',
+    autonome: true,
     resume: 'Doux et lumineux : arches, serif élégante, beaucoup d’air.',
     detail: 'Le style de la démo Claire Morel. Des formes en arche, une typographie à empattements très lisible et des teintes apaisantes.',
     palettes: [
-      { nom: 'Sauge & crème', fond: '#F6F3EE', encre: '#1D2925', accent: '#2E4A3F', doux: '#E6EDE6', texte2: '#4F5B56', accent2: '#B86E4E' },
+      { nom: 'Sauge & crème', fond: '#F6F3EE', encre: '#1D2925', accent: '#2E4A3F', doux: '#EAF0EA', texte2: '#4F5B56', accent2: '#B86E4E', fond2: '#EEE9E1', surface: '#FFFDFA', doux2: '#DCE6DD', clair: '#9FB5A4', profond: '#18291F', surProfond: '#F3EFE8', accent2Doux: '#F2E1D6',
+        variables: { '--arche-1': '#E9DCCB', '--arche-2': '#E3CDB7', '--arche-3': '#C9A58B', '--arche-4': '#9C735C', '--soleil-1': '#FFF5E6', '--soleil-2': '#F7DCC0', '--soleil-3': '#EBC3A0', '--colline-1a': '#B9C9BC', '--colline-1b': '#9FB5A4', '--colline-2a': '#7F9C89', '--colline-2b': '#5F7E6B', '--colline-3a': '#3F5F50', '--colline-3b': '#2E4A3F', '--portrait-2': '#C8D6CB', '--portrait-3': '#A9BEAF', '--souffle-1': '#CFE0D3', '--souffle-3': '#5E8170' } },
       { nom: 'Eucalyptus', fond: '#F4F5F1', encre: '#1B2828', accent: '#335C5D', doux: '#E1EBE8', texte2: '#4C5C5B', accent2: '#B07A52' },
       { nom: 'Argile', fond: '#F8F3EE', encre: '#2B211C', accent: '#8A4B31', doux: '#F1E3D8', texte2: '#5E4F47', accent2: '#4E6A56' },
       { nom: 'Lavande', fond: '#F6F4F8', encre: '#241F33', accent: '#544586', doux: '#EAE6F3', texte2: '#575168', accent2: '#B9785B' }
@@ -152,3 +159,12 @@ export const PAGES = [
 ];
 
 export const style = (id) => STYLES.find((s) => s.id === id);
+
+/* Palette effective d'un site : couleurs personnalisées, palette libre
+   (« l3 ») ou palette du style (numéro) */
+export function paletteDe(site) {
+  const s = style(site.theme);
+  if (site.couleurs) return site.couleurs;
+  if (typeof site.palette === 'string' && site.palette.startsWith('l')) return PALETTES_LIBRES[Number(site.palette.slice(1))] || s.palettes[0];
+  return s.palettes[site.palette] || s.palettes[0];
+}

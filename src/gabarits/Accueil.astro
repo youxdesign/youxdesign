@@ -9,6 +9,7 @@ import AppelFinal from '../components/AppelFinal.astro';
 import { ouvertures } from '../themes/registre.mjs';
 import { lien } from '../lib/site.mjs';
 import { meta, donneesCabinet } from '../lib/seo.mjs';
+import { enrichi } from '../lib/texte.mjs';
 
 interface Props { site: any }
 const { site } = Astro.props;
@@ -44,7 +45,7 @@ const reperes = [
   {cab.motifs.length > 0 && (
     <section class="section section-motifs" aria-labelledby="motifs-titre">
       <div class="conteneur">
-        <TitreSection surtitre="Motifs de consultation" numero={1} titre={t.motifsTitre} intro={t.motifsIntro} id="motifs-titre" />
+        <TitreSection surtitre={t.motifsSurtitre || 'Motifs de consultation'} numero={1} titre={t.motifsTitre} intro={t.motifsIntro} id="motifs-titre" />
         <ul class="grille cartes motifs">
           {cab.motifs.map((x, i) => (
             <li class="carte motif apparait">
@@ -62,8 +63,8 @@ const reperes = [
     <div class="conteneur deux-colonnes presentation">
       <Visuel site={site} type="portrait" legende={`${cab.nomComplet} · ${p.titre}${p.depuis ? ` depuis ${p.depuis}` : ''}`} />
       <div class="presentation__texte">
-        <p class="surtitre"><span class="surtitre__num" aria-hidden="true">02</span><span>Présentation</span></p>
-        <h2 id="presentation-titre">{t.presentationTitre}</h2>
+        <p class="surtitre"><span class="surtitre__num" aria-hidden="true">02</span><span>{t.presentationSurtitre || 'Présentation'}</span></p>
+        <h2 id="presentation-titre" set:html={enrichi(t.presentationTitre)} />
         <div class="texte">
           {t.presentation.map((x) => <p>{x}</p>)}
         </div>
@@ -74,7 +75,7 @@ const reperes = [
 
   <section class="section section-etapes" aria-labelledby="etapes-titre">
     <div class="conteneur">
-      <TitreSection surtitre="Première séance" numero={3} titre={t.etapesTitre} intro={t.etapesIntro} id="etapes-titre" />
+      <TitreSection surtitre={t.etapesSurtitre || 'Première séance'} numero={3} titre={t.etapesTitre} intro={t.etapesIntro} id="etapes-titre" />
       <ol class="etapes">
         {t.etapes.map((e, i) => (
           <li class="etape apparait">
@@ -87,7 +88,7 @@ const reperes = [
     </div>
   </section>
 
-  {cab.a('respiration') && <Respiration titre={t.respirationTitre} texte={t.respirationTexte} />}
+  {cab.a('respiration') && <Respiration surtitre={t.respirationSurtitre} titre={t.respirationTitre} texte={t.respirationTexte} />}
 
   <div class="section section-urgence-accueil">
     <div class="conteneur"><Urgence cab={cab} /></div>

@@ -69,10 +69,14 @@ export function deriver(p) {
   const boutonSurvol = assurerContraste(melange(bouton, versBouton, 0.16), surBouton, 4.6, versBouton);
 
   /* Section sombre (bandeau d'appel, pied de page) */
-  const profond = sombre ? melange(fond, '#000000', 0.35) : melange(accent, encre, 0.55);
-  const surProfond = assurerContraste(sombre ? encre : fond, profond, 7, '#FFFFFF');
+  const profond = (p.profond || (sombre ? melange(fond, '#000000', 0.35) : melange(accent, encre, 0.55))).toUpperCase();
+  const surProfond = assurerContraste(p.surProfond || (sombre ? encre : fond), profond, 7, '#FFFFFF');
   const surProfond2 = assurerContraste(melange(profond, surProfond, 0.78), profond, 4.6, surProfond);
-  const accentProfond = assurerContraste(melange(accent, fond, 0.45), profond, 4.6, surProfond);
+  /* Accent clair : décor, et texte sur les sections sombres */
+  const accentClair = (p.clair || melange(accent, fond, 0.5)).toUpperCase();
+  const accentProfond = assurerContraste(p.clair || melange(accent, fond, 0.45), profond, 4.6, surProfond);
+  const fond2 = (p.fond2 || melange(fond, encre, sombre ? 0.06 : 0.045)).toUpperCase();
+  const accent2Doux = (p.accent2Doux || melange(fond, accent2, sombre ? 0.2 : 0.14)).toUpperCase();
 
   return {
     fond,
@@ -85,9 +89,14 @@ export function deriver(p) {
     bouton,
     'sur-bouton': surBouton,
     'bouton-survol': boutonSurvol,
-    surface: sombre ? melange(fond, encre, 0.05) : melange(fond, '#FFFFFF', 0.6),
+    surface: (p.surface || (sombre ? melange(fond, encre, 0.05) : melange(fond, '#FFFFFF', 0.6))).toUpperCase(),
+    fond2,
+    texte3: assurerContraste(melange(texte2, fond, 0.22), [fond, fond2, doux], 4.6, encre),
+    doux2: (p.doux2 || melange(doux, accent, 0.1)).toUpperCase(),
+    clair: accentClair,
     'accent-doux': melange(fond, accent, sombre ? 0.2 : 0.1),
-    'accent2-doux': melange(fond, accent2, sombre ? 0.2 : 0.12),
+    'accent2-doux': accent2Doux,
+    'accent2-texte': assurerContraste(melange(accent2, encre, 0.55), [accent2Doux], 4.6, encre),
     ligne: melange(fond, encre, 0.14),
     'ligne-forte': assurerContraste(melange(fond, encre, 0.4), [fond], 3.1, encre),
     profond,

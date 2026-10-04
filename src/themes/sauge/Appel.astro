@@ -1,0 +1,23 @@
+---
+/* Bandeau d'appel à prendre rendez-vous, avec halos lumineux */
+import Rdv from './Rdv.astro';
+import { enrichi } from '../../lib/texte.mjs';
+interface Props { cab: any; titre: string; texte?: string; secondaire?: { href: string; texte: string } }
+const { cab, titre, texte, secondaire } = Astro.props;
+const c = cab.cabinet;
+---
+<section class="section section--tight" aria-labelledby="appel-titre">
+  <div class="container">
+    <div class="cta" data-reveal="scale">
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="cta__glow cta__glow--2" aria-hidden="true"></div>
+      <h2 class="h2" id="appel-titre" set:html={enrichi(titre)} />
+      {texte && <p class="lead">{texte}</p>}
+      <div class="btns">
+        <Rdv cab={cab} classe="btn btn--light" texte={cab.rdv ? `Prendre rendez-vous sur ${cab.rdv.plateforme}` : undefined} />
+        {secondaire && <a class="btn btn--outline-light" href={secondaire.href}>{secondaire.texte}</a>}
+      </div>
+      <p class="cta__note">{cab.adresse.uneLigne}{c.visio ? ' · Consultations au cabinet et en visio' : ''}</p>
+    </div>
+  </div>
+</section>

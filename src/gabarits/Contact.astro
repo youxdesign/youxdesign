@@ -16,7 +16,7 @@ const m = meta(site, 'contact');
 const scripts = [cab.a('carte') && 'carte', cab.a('statut') && 'statut'].filter(Boolean);
 ---
 <Site site={site} page="contact" titre={m.titre} description={m.description} chemin={lien(site, 'contact')} jsonld={[donneesCabinet(site), donneesFil(site, 'contact')]} scripts={scripts}>
-  <TetePage surtitre="Contact" titre={t.titre} intro={t.intro}>
+  <TetePage surtitre={t.surtitre || 'Contact'} titre={t.titre} intro={t.intro}>
     <div slot="texte" class="boutons"><BoutonRdv cab={cab} /></div>
   </TetePage>
 
@@ -75,7 +75,7 @@ const scripts = [cab.a('carte') && 'carte', cab.a('statut') && 'statut'].filter(
   <section class="section section--teinte" aria-labelledby="acces-titre">
     <div class="conteneur deux-colonnes deux-colonnes--haut acces">
       <div>
-        <TitreSection surtitre="Accès" titre={t.accesTitre || 'Comment venir'} id="acces-titre" />
+        <TitreSection surtitre={t.accesSurtitre || 'Accès'} titre={t.accesTitre || 'Comment venir'} id="acces-titre" />
         <ul class="points acces__liste">
           {c.acces.map((a) => (
             <li class="apparait">
@@ -94,7 +94,7 @@ const scripts = [cab.a('carte') && 'carte', cab.a('statut') && 'statut'].filter(
   {c.visio && t.visio && (
     <section class="section" aria-labelledby="visio-titre">
       <div class="conteneur deux-colonnes deux-colonnes--texte">
-        <TitreSection surtitre="À distance" titre={t.visioTitre || 'Vous préférez la visio ?'} id="visio-titre" />
+        <TitreSection surtitre={t.visioSurtitre || 'À distance'} titre={t.visioTitre || 'Vous préférez la visio ?'} id="visio-titre" />
         <div class="texte">{t.visio.map((x) => <p>{x}</p>)}</div>
       </div>
     </section>

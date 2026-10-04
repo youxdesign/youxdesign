@@ -11,7 +11,7 @@ import { STYLES } from '../config/catalogue.mjs';
 
 const texte = z.string().trim().min(1);
 const paragraphes = z.array(texte);
-const element = z.object({ titre: texte, texte: texte.optional(), date: texte.optional() });
+const element = z.object({ titre: texte, texte: texte.optional(), date: texte.optional(), icone: texte.optional() });
 const horaire = z.string().regex(/^(\s*\d{1,2}[:h]\d{2}\s*-\s*\d{1,2}[:h]\d{2}\s*)(,\s*\d{1,2}[:h]\d{2}\s*-\s*\d{1,2}[:h]\d{2}\s*)*$|^$/, 'format attendu « 9:00-20:00 » ou « 9:00-12:30, 14:00-19:00 », ou vide si fermé');
 
 const pageTextes = z.object({ seoTitre: texte, seoDescription: texte }).passthrough();
@@ -41,7 +41,8 @@ const schema = z.object({
     siret: texte.optional(),
     statut: texte.optional(),
     ars: texte.optional(),
-    public: texte.optional()
+    public: texte.optional(),
+    citation: texte.optional()
   }),
   contact: z.object({
     telephone: texte,
@@ -65,7 +66,7 @@ const schema = z.object({
     horairesNote: texte.optional(),
     acces: z.array(element).default([])
   }),
-  tarifs: z.array(z.object({ nom: texte, lieu: texte.optional(), prix: texte, duree: texte.optional(), texte: texte.optional() })).min(1, 'indiquez au moins un tarif'),
+  tarifs: z.array(z.object({ nom: texte, lieu: texte.optional(), prix: texte, duree: texte.optional(), texte: texte.optional(), miseEnAvant: z.boolean().optional() })).min(1, 'indiquez au moins un tarif'),
   motifs: z.array(element).default([]),
   pages: z.object({
     accueil: pageTextes,

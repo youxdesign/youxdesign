@@ -3,7 +3,7 @@ import type { APIRoute } from 'astro';
 import sharp from 'sharp';
 import { sites } from '../../lib/site.mjs';
 import { deriver } from '../../lib/couleurs.mjs';
-import { style as trouverStyle, PALETTES_LIBRES } from '../../config/catalogue.mjs';
+import { paletteDe } from '../../config/catalogue.mjs';
 
 export function getStaticPaths() {
   return sites().map((site) => ({ params: { fichier: `${site.cle}.png` }, props: { site } }));
@@ -11,9 +11,7 @@ export function getStaticPaths() {
 
 export const GET: APIRoute = async ({ props }) => {
   const { site } = props;
-  const s = trouverStyle(site.theme);
-  const p = site.couleurs || (typeof site.palette === 'string' ? PALETTES_LIBRES[Number(site.palette.slice(1))] : s.palettes[site.palette]) || s.palettes[0];
-  const c = deriver(p);
+  const c = deriver(paletteDe(site));
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
     <rect width="1200" height="630" fill="${c.fond}"/>
     <path d="M700 630V300a210 210 0 0 1 420 0v330z" fill="${c.doux}"/>

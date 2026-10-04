@@ -1,0 +1,10 @@
+---
+import Legal from '../Legal.astro';
+import { lien } from '../../../lib/site.mjs';
+import { meta } from '../../../lib/seo.mjs';
+import { confidentialite } from '../../../lib/legal.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const m = meta(site, 'confidentialite');
+---
+<Legal site={site} page="confidentialite" titre={m.titre} description={m.description} chemin={lien(site, 'confidentialite')} titrePage="Politique de confidentialité" rubriques={confidentialite(site.cab)} />

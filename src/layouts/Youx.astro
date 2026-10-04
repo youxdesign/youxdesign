@@ -25,7 +25,7 @@ const js = await Promise.all(scripts.map((s) => script(s)));
   <meta property="og:image" content={`${DOMAINE}/apercu-demov3.gif`} />
   <meta name="theme-color" content="#2B1A4E" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="preload" href="/fonts/instrument-sans-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/instrument-sans-variable.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href={css.url} />
   {js.map((s) => <script is:inline src={s.url} defer></script>)}
 </head>

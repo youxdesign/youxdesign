@@ -1,74 +1,27 @@
 ---
-/* Mentions légales, entièrement générées à partir de la fiche du cabinet. */
+/* Mentions légales (textes : src/lib/legal.mjs) */
 import Site from '../layouts/Site.astro';
 import TetePage from '../components/TetePage.astro';
 import { lien } from '../lib/site.mjs';
 import { meta } from '../lib/seo.mjs';
-import { DOMAINE, STUDIO } from '../config/youxdesign.mjs';
+import { mentionsLegales } from '../lib/legal.mjs';
 
 interface Props { site: any }
 const { site } = Astro.props;
-const cab = site.cab, p = cab.praticien, l = cab.legal;
+const cab = site.cab;
 const m = meta(site, 'mentions-legales');
-const directeur = p.accord === 'f' ? 'Directrice de la publication' : p.accord === 'm' ? 'Directeur de la publication' : 'Direction de la publication';
-const externes = [cab.rdv?.plateforme, cab.estPsychologue && 'ameli.fr', cab.a('carte') && 'OpenStreetMap'].filter(Boolean);
+const rubriques = mentionsLegales(cab, { confidentialite: lien(site, 'confidentialite') });
 ---
 <Site site={site} page="mentions-legales" titre={m.titre} description={m.description} chemin={lien(site, 'mentions-legales')} indexable={false}>
-  <TetePage titre="Mentions légales" intro={`Dernière mise à jour : ${l.miseAJour}`} classe="tete-page--legal" />
+  <TetePage surtitre="Informations légales" titre="Mentions légales" intro={`Dernière mise à jour : ${cab.legal.miseAJour}`} classe="tete-page--legal" />
   <section class="section section--serree">
     <div class="conteneur legal">
-      <div>
-        <h2>Éditeur du site</h2>
-        <p>
-          {cab.nomComplet}, {p.statut || p.titre.toLowerCase()}<br />
-          {cab.adresse.uneLigne}<br />
-          Téléphone : <a href={cab.tel.lien}>{cab.tel.affiche}</a> · E-mail : <a href={`mailto:${cab.contact.email}`}>{cab.contact.email}</a>
-          {p.siret && <><br />SIRET : {p.siret}</>}
-          {(p.adeli || p.rpps) && <><br />{[p.adeli && `N° ADELI : ${p.adeli}`, p.rpps && `N° RPPS : ${p.rpps}`].filter(Boolean).join(' · ')}</>}
-        </p>
-        <p>{directeur} : {l.directeurPublication || cab.nomComplet}.</p>
-      </div>
-
-      <div>
-        <h2>Hébergement</h2>
-        <p>Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, États-Unis · <a href="https://www.cloudflare.com/" target="_blank" rel="noopener">cloudflare.com<span class="sr-only"> (nouvel onglet)</span></a></p>
-      </div>
-
-      <div>
-        <h2>Conception et réalisation</h2>
-        <p>{STUDIO} · <a href={`${DOMAINE}/`}>{DOMAINE.replace('https://', '')}</a></p>
-      </div>
-
-      {cab.estPsychologue && (
-        <div>
-          <h2>Activité réglementée</h2>
-          <p>Le titre de psychologue est protégé par l’article 44 de la loi n° 85-772 du 25 juillet 1985. {cab.nomComplet} est {cab.accord('enregistré')} auprès de l’Agence régionale de santé{p.ars ? ` ${p.ars}` : ''}{p.adeli || p.rpps ? ', sous le numéro indiqué ci-dessus' : ''}. Sa pratique s’inscrit dans le respect du Code de déontologie des psychologues.</p>
+      {rubriques.map((r) => (
+        <div id={r.id}>
+          <h2>{r.titre}</h2>
+          <Fragment set:html={r.html} />
         </div>
-      )}
-
-      {l.mediateur && (
-        <div>
-          <h2>Médiation</h2>
-          <p>{l.mediateur}</p>
-        </div>
-      )}
-
-      <div>
-        <h2>Propriété intellectuelle</h2>
-        <p>L’ensemble des contenus de ce site (textes, images, mise en page) est protégé par le droit d’auteur. Toute reproduction, même partielle, est soumise à l’autorisation préalable de l’éditeur.</p>
-      </div>
-
-      <div>
-        <h2>Responsabilité</h2>
-        <p>Les informations publiées sur ce site sont données à titre général. Elles ne remplacent en aucun cas une consultation individuelle ni un avis médical. En cas d’urgence, appelez le <a href="tel:15">15</a> ou le <a href="tel:3114">3114</a>.</p>
-        {externes.length > 0 && <p>Le site contient des liens vers des services extérieurs ({externes.join(', ')}). L’éditeur n’est pas responsable de leur contenu ni de leur fonctionnement.</p>}
-      </div>
-
-      <div>
-        <h2>Crédits</h2>
-        <p>Conception, illustrations et réalisation : {STUDIO}.{cab.a('carte') && ' Fond de carte : © contributeurs OpenStreetMap.'}</p>
-        <p>Pour en savoir plus sur le traitement de vos données, consultez la <a href={lien(site, 'confidentialite')}>politique de confidentialité</a>.</p>
-      </div>
+      ))}
     </div>
   </section>
 </Site>

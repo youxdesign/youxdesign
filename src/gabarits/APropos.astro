@@ -14,15 +14,15 @@ const m = meta(site, 'a-propos');
 const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps}`].filter(Boolean);
 ---
 <Site site={site} page="a-propos" titre={m.titre} description={m.description} chemin={lien(site, 'a-propos')} jsonld={[donneesFil(site, 'a-propos')]}>
-  <TetePage surtitre="À propos" titre={t.titre} titreSuite={t.titreSuite} intro={t.intro} classe="tete-page--visuel">
+  <TetePage surtitre="À propos" titre={t.titre} intro={t.intro} classe="tete-page--visuel">
     {numeros.length > 0 && <p slot="texte" class="numeros">{numeros.map((n) => <span>{n}</span>)}</p>}
-    <Visuel site={site} type="cabinet" legende={t.cabinetLegende} prioritaire tailles="(min-width: 56rem) 45vw, 100vw" />
+    <Visuel site={site} type="cabinet" legende={[t.cabinetLegende, t.cabinetDetail].filter(Boolean).join(', ')} prioritaire tailles="(min-width: 56rem) 45vw, 100vw" />
   </TetePage>
 
   {t.demarche && (
     <section class="section section--teinte" aria-labelledby="demarche-titre">
       <div class="conteneur deux-colonnes deux-colonnes--texte demarche">
-        <TitreSection surtitre="Ma démarche" titre={t.demarcheTitre} id="demarche-titre" />
+        <TitreSection surtitre={t.demarcheSurtitre || 'Ma démarche'} titre={t.demarcheTitre} id="demarche-titre" />
         <div class="texte demarche__texte">
           {t.demarche.map((x) => <p>{x}</p>)}
           <p class="signature">{cab.nomComplet}</p>
@@ -34,7 +34,7 @@ const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps
   {t.parcours && (
     <section class="section" aria-labelledby="parcours-titre">
       <div class="conteneur">
-        <TitreSection surtitre="Parcours" numero={1} titre={t.parcoursTitre} intro={t.parcoursIntro} id="parcours-titre" />
+        <TitreSection surtitre={t.parcoursSurtitre || 'Parcours'} numero={1} titre={t.parcoursTitre} intro={t.parcoursIntro} id="parcours-titre" />
         <ol class="chronologie">
           {t.parcours.map((j) => (
             <li class="jalon apparait">
@@ -51,7 +51,7 @@ const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps
   {t.formations && (
     <section class="section" aria-labelledby="formations-titre">
       <div class="conteneur">
-        <TitreSection surtitre="Formations complémentaires" numero={2} titre={t.formationsTitre} intro={t.formationsIntro} id="formations-titre" />
+        <TitreSection surtitre={t.formationsSurtitre || 'Formations complémentaires'} numero={2} titre={t.formationsTitre} intro={t.formationsIntro} id="formations-titre" />
         <ul class="grille cartes formations">
           {t.formations.map((f) => (
             <li class="carte apparait">
@@ -68,7 +68,7 @@ const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps
   {t.valeurs && (
     <section class="section section--teinte" aria-labelledby="valeurs-titre">
       <div class="conteneur deux-colonnes deux-colonnes--texte valeurs">
-        <TitreSection surtitre="Valeurs" numero={3} titre={t.valeursTitre} id="valeurs-titre" />
+        <TitreSection surtitre={t.valeursSurtitre || 'Valeurs'} numero={3} titre={t.valeursTitre} id="valeurs-titre" />
         <ol class="points">
           {t.valeurs.map((v, i) => (
             <li class="point apparait">

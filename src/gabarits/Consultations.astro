@@ -5,6 +5,7 @@ import TitreSection from '../components/TitreSection.astro';
 import AppelFinal from '../components/AppelFinal.astro';
 import { lien } from '../lib/site.mjs';
 import { meta, donneesFil } from '../lib/seo.mjs';
+import { enrichi } from '../lib/texte.mjs';
 
 interface Props { site: any }
 const { site } = Astro.props;
@@ -13,7 +14,7 @@ const m = meta(site, 'consultations');
 const partenaire = t.monSoutienPsy === true;
 ---
 <Site site={site} page="consultations" titre={m.titre} description={m.description} chemin={lien(site, 'consultations')} jsonld={[donneesFil(site, 'consultations')]}>
-  <TetePage surtitre="Consultations & tarifs" titre={t.titre} titreSuite={t.titreSuite} intro={t.intro}>
+  <TetePage surtitre={t.surtitre || 'Consultations & tarifs'} titre={t.titre} intro={t.intro}>
     <p slot="texte" class="tete-page__contact">Téléphone : <a href={cab.tel.lien}>{cab.tel.affiche}</a></p>
   </TetePage>
 
@@ -39,14 +40,15 @@ const partenaire = t.monSoutienPsy === true;
       <div class="conteneur deux-colonnes deux-colonnes--haut modalites">
         {t.paiement && (
           <div class="modalite apparait">
-            <h2>{t.paiementTitre || 'Moyens de paiement'}</h2>
+            <h2 set:html={enrichi(t.paiementTitre || 'Moyens de paiement')} />
             <p>{t.paiement}</p>
+            {t.moyensPaiement && <p class="discret">{t.moyensPaiement.map((m) => m.titre).join(' · ')}</p>}
           </div>
         )}
         {t.annulation && (
           <div class="modalite apparait">
-            <h2>{t.annulationTitre || 'Annuler ou déplacer'}</h2>
-            <div class="texte">{t.annulation.map((x) => <p>{x}</p>)}</div>
+            <h2 set:html={enrichi(t.annulationTitre || 'Annuler ou déplacer')} />
+            <div class="texte">{t.annulation.map((x) => <p set:html={enrichi(x)} />)}</div>
           </div>
         )}
       </div>

@@ -1,0 +1,106 @@
+---
+/* À propos du style « Sauge » */
+import Cadre from '../Cadre.astro';
+import TetePage from '../TetePage.astro';
+import Appel from '../Appel.astro';
+import Portrait from '../Portrait.astro';
+import Picto from '../../../components/Picto.astro';
+import { lien } from '../../../lib/site.mjs';
+import { meta, donneesFil } from '../../../lib/seo.mjs';
+import { enrichi } from '../../../lib/texte.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien, t = cab.pages['a-propos'];
+const m = meta(site, 'a-propos');
+---
+<Cadre site={site} page="a-propos" titre={m.titre} description={m.description} chemin={lien(site, 'a-propos')} jsonld={[donneesFil(site, 'a-propos')]}>
+  <TetePage surtitre="À propos" titre={t.titre} intro={t.intro}>
+    {(p.adeli || p.rpps) && (
+      <p class="hero__meta fade-in fade-in--3">
+        {p.adeli && <span>N° ADELI {p.adeli}</span>}
+        {p.rpps && <span>N° RPPS {p.rpps}</span>}
+      </p>
+    )}
+  </TetePage>
+
+  {t.demarche && (
+    <section class="section section--paper2" aria-labelledby="demarche-titre">
+      <div class="container intro">
+        <Portrait site={site} type="cabinet" titre={t.cabinetLegende || 'Le cabinet'} detail={t.cabinetDetail} complement={cab.cabinet.quartier || cab.cabinet.ville} />
+        <div class="intro__text">
+          <span class="eyebrow" data-reveal>{t.demarcheSurtitre || 'Ma manière d’accompagner'}</span>
+          <h2 class="h2" id="demarche-titre" data-reveal set:html={enrichi(t.demarcheTitre)} />
+          {t.demarche.map((x) => <p data-reveal set:html={enrichi(x)} />)}
+          <p class="signature" data-reveal>{cab.nomComplet}</p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {t.parcours && (
+    <section class="section" aria-labelledby="parcours-titre">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div class="stack">
+            <span class="eyebrow" data-reveal>{t.parcoursSurtitre || 'Mon parcours'}</span>
+            <h2 class="h2" id="parcours-titre" data-reveal set:html={enrichi(t.parcoursTitre)} />
+          </div>
+          {t.parcoursIntro && <p class="lead" data-reveal>{t.parcoursIntro}</p>}
+        </div>
+        <ol class="timeline" data-progress>
+          {t.parcours.map((j) => (
+            <li class="tl-item" data-progress-item data-reveal>
+              <span class="tl-item__date">{j.date}</span>
+              <div><h3>{j.titre}</h3>{j.texte && <p>{j.texte}</p>}</div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )}
+
+  {t.formations && (
+    <section class="section section--tint" aria-labelledby="formations-titre">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-reveal>{t.formationsSurtitre || 'Formations complémentaires'}</span>
+          <h2 class="h2" id="formations-titre" data-reveal set:html={enrichi(t.formationsTitre)} />
+          {t.formationsIntro && <p class="lead" data-reveal>{t.formationsIntro}</p>}
+        </div>
+        <ul class="cards cards--2" data-stagger>
+          {t.formations.map((f) => (
+            <li class="card" data-reveal>
+              <span class="card__icon"><Picto nom={f.icone} /></span>
+              {f.date && <span class="card__tag">{f.date}</span>}
+              <h3>{f.titre}</h3>
+              {f.texte && <p>{f.texte}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  {t.valeurs && (
+    <section class="section" aria-labelledby="valeurs-titre">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-reveal>{t.valeursSurtitre || 'Mes valeurs'}</span>
+          <h2 class="h2" id="valeurs-titre" data-reveal set:html={enrichi(t.valeursTitre)} />
+        </div>
+        <ol class="values" data-stagger>
+          {t.valeurs.map((v, i) => (
+            <li class="value" data-reveal>
+              <span class="value__n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+              <h3>{v.titre}</h3>
+              {v.texte && <p>{v.texte}</p>}
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )}
+
+  <Appel cab={cab} titre={t.finTitre} texte={t.finTexte} secondaire={{ href: lien(site, 'consultations'), texte: 'Voir les tarifs' }} />
+</Cadre>

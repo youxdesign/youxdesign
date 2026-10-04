@@ -1,0 +1,29 @@
+---
+/* ==========================================================================
+   Portrait (ou photo du cabinet) du style « Sauge » : un dégradé sauge avec
+   les initiales en grand, ou la vraie photo si elle a été déposée dans
+   cabinets/<cabinet>/images/ (portrait.jpg, cabinet.jpg…). Légende en verre
+   dépoli, dévoilement de haut en bas et léger effet de profondeur.
+   ========================================================================== */
+import { Picture } from 'astro:assets';
+const images = import.meta.glob<{ default: ImageMetadata }>('/cabinets/*/images/*.{jpg,jpeg,png,webp,avif}', { eager: true });
+
+interface Props { site: any; type: 'portrait' | 'cabinet'; titre: string; detail?: string; complement?: string }
+const { site, type, titre, detail, complement } = Astro.props;
+const cab = site.cab;
+const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`));
+const photo = trouve ? trouve[1].default : null;
+const mono = cab.initiales[0] + cab.initiales.slice(1).toLowerCase();
+const alt = type === 'portrait' ? `Portrait de ${cab.nomComplet}` : `Le cabinet de ${cab.nomComplet}`;
+---
+<figure class="portrait" data-mask>
+  {photo ? (
+    <Picture src={photo} alt={alt} formats={['avif', 'webp']} fallbackFormat="jpg" widths={[400, 640, 900]} sizes="(min-width: 900px) 40vw, 92vw" loading="lazy" />
+  ) : (
+    <div class="portrait__mono" data-parallax="0.12" aria-hidden="true">{mono}</div>
+  )}
+  <figcaption class="portrait__caption">
+    <span><strong>{titre}</strong>{detail && <><br />{detail}</>}</span>
+    {complement && <span class="muted">{complement}</span>}
+  </figcaption>
+</figure>

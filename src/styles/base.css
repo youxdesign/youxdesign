@@ -139,7 +139,7 @@ p, li, dd { text-wrap: pretty; }
 p + p { margin-top: 1em; }
 strong { font-weight: 600; }
 
-.titre-suite { display: block; color: var(--c-lien); }
+h1 em, h2 em, h3 em, .titre em { color: var(--c-lien); }
 
 .surtitre {
   display: flex;
@@ -347,10 +347,18 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .bouton-menu svg { width: 1.25rem; height: 1.25rem; }
 
-@media (min-width: 70rem) {
+/* Menu toujours visible sur ordinateur (dès 820 px) ; le bouton de
+   rendez-vous de l'en-tête apparaît lorsqu'il y a la place */
+@media (min-width: 51.3rem) {
   .nav { display: block; }
-  .entete__rdv { display: inline-flex; }
   .bouton-menu { display: none; }
+  .entete__barre { gap: var(--e-4); }
+  .nav a { padding-inline: .5rem; font-size: .9375rem; }
+}
+@media (min-width: 70rem) {
+  .entete__rdv { display: inline-flex; }
+  .entete__barre { gap: var(--e-5); }
+  .nav a { padding-inline: .7rem; }
 }
 
 /* Menu mobile : fenêtre « popover » native, sans JavaScript.
@@ -706,11 +714,11 @@ figure.cadre-visuel { display: grid; }
 .respiration__aide { font-size: var(--t-petit); color: var(--c-texte2); }
 @media (min-width: 56rem) { .respiration { grid-template-columns: 1fr 1fr; } }
 @media (prefers-reduced-motion: no-preference) {
-  .respiration[data-actif] .respiration__cercle::after { animation: souffle 10s ease-in-out infinite; }
+  .respiration[data-actif] .respiration__cercle::after { animation: souffle 12s ease-in-out infinite; }
 }
 @keyframes souffle {
   0%, 100% { transform: scale(.72); }
-  40%, 50% { transform: scale(1.3); }
+  33%, 50% { transform: scale(1.3); }
 }
 
 /* --------------------------------------------------------------------------
@@ -778,6 +786,8 @@ figure.cadre-visuel { display: grid; }
   max-width: 48rem;
 }
 .encadre p { color: var(--c-texte2); }
+.encadre__chiffres { display: grid; gap: .35rem; }
+.encadre__chiffres strong { font-family: var(--f-titres); font-weight: var(--fw-titres); color: var(--c-lien); }
 
 /* Schéma des TCC */
 .cercle-tcc { max-width: 26rem; margin-inline: auto; width: 100%; }

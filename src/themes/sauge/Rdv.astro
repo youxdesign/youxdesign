@@ -1,0 +1,18 @@
+---
+/* Bouton de rendez-vous du style « Sauge » (flèche oblique, nouvel onglet) */
+interface Props { cab: any; classe?: string; texte?: string }
+const { cab, classe = 'btn', texte } = Astro.props;
+const rdv = cab.rdv;
+---
+{rdv ? (
+  <a class={classe} href={rdv.url} target="_blank" rel="noopener">
+    {texte || 'Prendre rendez-vous'}
+    <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+    <span class="sr-only"> ({rdv.plateforme}, nouvel onglet)</span>
+  </a>
+) : (
+  <a class={classe} href={cab.tel.lien}>
+    {texte || `Appeler le ${cab.tel.affiche}`}
+    <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
+  </a>
+)}

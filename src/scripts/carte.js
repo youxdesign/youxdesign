@@ -1,7 +1,7 @@
 /* Carte interactive à la demande : rien n'est chargé tant que le visiteur
    n'a pas cliqué sur « Afficher la carte interactive ». */
 document.querySelectorAll('[data-plan-afficher]').forEach((bouton) => {
-  const cadre = bouton.closest('.plan').querySelector('[data-plan]');
+  const cadre = bouton.closest('[data-plan]') || bouton.closest('.plan').querySelector('[data-plan]');
   bouton.addEventListener('click', () => {
     const actif = cadre.hasAttribute('data-interactif');
     if (actif) {

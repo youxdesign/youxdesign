@@ -1,0 +1,25 @@
+---
+/* Page introuvable du style « Sauge » */
+import Cadre from '../Cadre.astro';
+import Rdv from '../Rdv.astro';
+import { lien } from '../../../lib/site.mjs';
+import { meta } from '../../../lib/seo.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const m = meta(site, '404');
+---
+<Cadre site={site} page="404" titre={m.titre} description={m.description} chemin={null} indexable={false}>
+  <section class="page-hero" aria-labelledby="titre-page">
+    <div class="blob" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <p class="erreur__code fade-in" aria-hidden="true">404</p>
+      <h1 class="h1" id="titre-page"><span class="split-line"><span>Cette page</span></span><span class="split-line"><span><em>est introuvable</em></span></span></h1>
+      <p class="lead fade-in fade-in--2">L’adresse a peut-être changé, ou la page n’existe plus. Voici quelques pistes pour retrouver votre chemin.</p>
+      <div class="btns fade-in fade-in--3">
+        <a class="btn" href={site.base}>Retour à l’accueil</a>
+        <a class="btn btn--ghost" href={lien(site, 'consultations')}>Consultations & tarifs</a>
+        <a class="btn btn--ghost" href={lien(site, 'contact')}>Contact</a>
+      </div>
+    </div>
+  </section>
+</Cadre>

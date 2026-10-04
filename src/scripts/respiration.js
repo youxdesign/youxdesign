@@ -1,8 +1,8 @@
-/* Respiration guidée : 6 cycles de 10 secondes (4 s inspiration, 1 s pause, 5 s expiration). */
+/* Respiration guidée : 5 cycles de 12 secondes (4 s inspiration, 2 s pause, 6 s expiration). */
 document.querySelectorAll('[data-respiration]').forEach((bloc) => {
   const bouton = bloc.querySelector('[data-respiration-bouton]');
   const consigne = bloc.querySelector('[data-consigne]');
-  const PHASES = [['Inspirez…', 4000], ['Gardez l’air', 1000], ['Expirez…', 5000]];
+  const PHASES = [['Inspirez…', 4000], ['Retenez', 2000], ['Expirez…', 6000]];
   let minuteurs = [];
 
   const arreter = (texte) => {
@@ -18,7 +18,7 @@ document.querySelectorAll('[data-respiration]').forEach((bloc) => {
     bloc.setAttribute('data-actif', '');
     bouton.textContent = 'Arrêter';
     let t = 0;
-    for (let cycle = 0; cycle < 6; cycle++) {
+    for (let cycle = 0; cycle < 5; cycle++) {
       for (const [texte, duree] of PHASES) {
         minuteurs.push(setTimeout(() => { consigne.textContent = texte; }, t));
         t += duree;

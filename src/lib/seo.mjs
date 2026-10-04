@@ -3,6 +3,7 @@
    ========================================================================== */
 import { PAGES } from '../config/catalogue.mjs';
 import { lien, adresseComplete } from './site.mjs';
+import { brut } from './texte.mjs';
 
 /* Titre et description d'une page */
 export function meta(site, pageId) {
@@ -63,7 +64,7 @@ export function donneesFaq(site) {
     mainEntity: groupes.flatMap((g) => g.questions.map((q) => ({
       '@type': 'Question',
       name: q.question,
-      acceptedAnswer: { '@type': 'Answer', text: q.reponse.join(' ') }
+      acceptedAnswer: { '@type': 'Answer', text: brut(q.reponse.join(' ')) }
     })))
   };
 }

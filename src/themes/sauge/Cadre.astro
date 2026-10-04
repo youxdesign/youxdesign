@@ -1,0 +1,126 @@
+---
+/* ==========================================================================
+   Habillage du style « Sauge » : en-tête transparent qui se teinte au
+   défilement, menu mobile plein écran, pied de page avec la signature
+   « à votre rythme », bouton de rendez-vous flottant sur mobile.
+   ========================================================================== */
+import Document from '../../layouts/Document.astro';
+import { PAGES } from '../../config/catalogue.mjs';
+import { lien } from '../../lib/site.mjs';
+import { brut } from '../../lib/texte.mjs';
+import Rdv from './Rdv.astro';
+import { DOMAINE } from '../../config/youxdesign.mjs';
+
+interface Props {
+  site: any;
+  page: string;
+  titre: string;
+  description: string;
+  chemin: string | null;
+  indexable?: boolean;
+  jsonld?: object[];
+  scripts?: string[];
+  classe?: string;
+}
+const props = Astro.props;
+const { site, page, scripts = [] } = props;
+const cab = site.cab, p = cab.praticien, c = cab.cabinet;
+const menu = PAGES.filter((x) => !x.legal && (x.id !== 'faq' || cab.a('faq')));
+const role = `${cab.metier} · ${c.ville}`;
+/* Mot en filigrane du pied de page : la partie en italique du titre d'accueil */
+const filigrane = (cab.pages.accueil.titre.match(/\*([^*]+)\*/) || [])[1] || cab.nomComplet;
+const formulaires = ['rappel', 'newsletter', 'questionnaires'].some((o) => cab.a(o));
+const annee = new Date().getFullYear();
+---
+<Document {...props} scripts={['sauge', ...scripts]}>
+  <header class="header" data-entete>
+    <div class="container header__inner">
+      <a class="brand" href={site.base}>
+        <span class="brand__name">{cab.nomComplet}</span>
+        <span class="brand__role">{role}<span class="sr-only">, retour à l’accueil</span></span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <ul>
+          {menu.filter((x) => x.id !== 'accueil').map((x) => (
+            <li><a href={lien(site, x.id)} aria-current={x.id === page ? 'page' : undefined}>{x.menu}</a></li>
+          ))}
+        </ul>
+      </nav>
+      <Rdv cab={cab} />
+      <button class="burger" type="button" popovertarget="menu-mobile" aria-label="Ouvrir le menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="menu-mobile" popover>
+    <div class="mobile-menu__top">
+      <a class="brand" href={site.base}>
+        <span class="brand__name">{cab.nomComplet}</span>
+        <span class="brand__role">{role}</span>
+      </a>
+      <button class="burger burger--fermer" type="button" popovertarget="menu-mobile" popovertargetaction="hide" aria-label="Fermer le menu"><span></span><span></span></button>
+    </div>
+    <nav aria-label="Navigation mobile">
+      {menu.map((x, i) => (
+        <a href={lien(site, x.id)} aria-current={x.id === page ? 'page' : undefined}>{x.menu}<span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span></a>
+      ))}
+    </nav>
+    <div class="mobile-menu__foot">
+      <Rdv cab={cab} />
+      <a class="link" href={cab.tel.lien}>{cab.tel.affiche}</a>
+    </div>
+  </div>
+
+  <main id="contenu" tabindex="-1">
+    <slot />
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="brand__name">{cab.nomComplet}</span>
+          <p>{p.titre}{p.specialite ? `, ${p.specialite.replace(/\s*\(.*\)$/, '')}` : ''}. {p.public ? `${p.public}, ` : ''}{c.visio ? `au cabinet ${c.quartier ? `du ${c.quartier}` : `de ${c.ville}`} et en visio.` : `au cabinet de ${c.ville}.`}</p>
+          <div><Rdv cab={cab} classe="btn btn--light btn--sm" /></div>
+        </div>
+        <nav aria-labelledby="pied-cabinet">
+          <h2 id="pied-cabinet">Le cabinet</h2>
+          <ul>
+            {menu.map((x) => <li><a href={lien(site, x.id)}>{x.menu}</a></li>)}
+          </ul>
+        </nav>
+        <div>
+          <h2>Coordonnées</h2>
+          <address>
+            <span>{c.adresse}<br />{cab.adresse.ville}</span>
+            <a href={cab.tel.lien}>{cab.tel.affiche}</a>
+            <a href={`mailto:${cab.contact.email}`}>{cab.contact.email}</a>
+          </address>
+        </div>
+        <div>
+          <h2>Informations</h2>
+          <ul>
+            {p.adeli && <li>N° ADELI : {p.adeli}</li>}
+            {p.rpps && <li>N° RPPS : {p.rpps}</li>}
+            <li><a href={lien(site, 'mentions-legales')}>Mentions légales</a></li>
+            <li><a href={lien(site, 'confidentialite')}>Confidentialité</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__word" aria-hidden="true" data-mot={brut(filigrane)}></p>
+      <div class="footer__bottom">
+        <span>© {annee} {cab.nomComplet} · {p.titre} à {c.ville}</span>
+        <span>Site sans cookie{formulaires ? '' : ' · Aucune donnée de santé collectée'} · Conçu par <a href={`${DOMAINE}/`}>youXdesign</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta" data-mobile-cta><Rdv cab={cab} /></div>
+
+  {site.vitrine && (
+    <div class="demo-bar" role="complementary" aria-label="Site de démonstration" data-demo-bar>
+      <span>Site de démonstration réalisé par <b>youXdesign</b></span>
+      <a href="/">Créer le mien</a>
+      <button type="button" aria-label="Masquer ce bandeau" data-demo-fermer>×</button>
+    </div>
+  )}
+</Document>

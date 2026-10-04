@@ -14,7 +14,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { build, transform } from 'esbuild';
-import { STYLES, PALETTES_LIBRES, style as trouverStyle } from '../config/catalogue.mjs';
+import { STYLES, PALETTES_LIBRES, style as trouverStyle, paletteDe } from '../config/catalogue.mjs';
 import { variablesCss } from './couleurs.mjs';
 import polices from '../config/polices.json' with { type: 'json' };
 
@@ -58,6 +58,9 @@ export function prechargements(site) {
   return [...new Set([fichier(choix.titres, choix.poids), fichier(choix.texte, 400)])];
 }
 
+/* Variables propres à une palette (teintes exactes d'illustration…) */
+const extras = (p) => Object.entries(p.variables || {}).map(([k, v]) => `;${k}:${v}`).join('');
+
 const varsPolice = (choix) => `--f-titres:${pilePolice(choix.titres)};--f-texte:${pilePolice(choix.texte)};--fw-titres:${choix.poids}`;
 
 /* --- Feuille de style d'un site ----------------------------------------- */
@@ -68,17 +71,15 @@ function reglages(site) {
     /* Démo : toutes les palettes et polices, pour l'aperçu du configurateur */
     css += fontFaces(s.polices.flatMap((p) => [p.titres, p.texte]));
     css += `:root{${variablesCss(s.palettes[0])};${varsPolice(s.polices[0])}}`;
-    s.palettes.forEach((p, i) => { css += `:root[data-palette="${i}"]{${variablesCss(p)}}`; });
+    s.palettes.forEach((p, i) => { css += `:root[data-palette="${i}"]{${variablesCss(p)}${extras(p)}}`; });
     PALETTES_LIBRES.forEach((p, i) => { css += `:root[data-palette="l${i}"]{${variablesCss(p)}}`; });
     s.polices.forEach((p, i) => { css += `:root[data-police="${i}"]{${varsPolice(p)}}`; });
   } else {
     /* Site client : uniquement la palette et la police choisies */
     const choix = s.polices[site.police] || s.polices[0];
-    const palette = site.couleurs
-      || (typeof site.palette === 'string' && site.palette.startsWith('l') ? PALETTES_LIBRES[Number(site.palette.slice(1))] : s.palettes[site.palette])
-      || s.palettes[0];
+    const palette = paletteDe(site);
     css += fontFaces([choix.titres, choix.texte]);
-    css += `:root{${variablesCss(palette)};${varsPolice(choix)}}`;
+    css += `:root{${variablesCss(palette)}${extras(palette)};${varsPolice(choix)}}`;
   }
   return css;
 }
@@ -94,7 +95,8 @@ export async function feuilleSite(site) {
   const cle = `site:${site.cle}`;
   if (!memo.has(cle)) {
     const theme = `src/themes/${site.theme}/theme.css`;
-    const brut = reglages(site) + lire('src/styles/base.css') + (existsSync(join(racine, theme)) ? lire(theme) : '');
+    const autonome = trouverStyle(site.theme).autonome;
+    const brut = reglages(site) + (autonome ? '' : lire('src/styles/base.css')) + (existsSync(join(racine, theme)) ? lire(theme) : '');
     const contenu = await compresser(brut);
     const nom = `${site.theme}.${empreinte(contenu)}.css`;
     memo.set(cle, { nom, url: `/css/${nom}`, contenu });
