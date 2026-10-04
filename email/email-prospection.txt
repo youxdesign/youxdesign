@@ -1,0 +1,63 @@
+Bonjour {{civilite}} {{nom}},
+
+{{detail_personnalisation}} Je suis Younes, psychologue. Je connais les questions que se posent nos patients avant d’appeler, les règles de notre code de déontologie et le temps que prennent les appels pour un simple renseignement.
+
+J’ai créé youXdesign pour proposer aux psychologues un site clair, rapide et respectueux de leurs patients, pensé pour notre métier. Je vous propose de découvrir à quoi pourrait ressembler le vôtre.
+
+Choisissez un style, vos couleurs et les fonctionnalités utiles à votre pratique : l’aperçu de votre futur site se construit en direct. Je m’occupe ensuite de tout le reste.
+
+> Configurer mon site : https://youxdesign.pages.dev/
+> Découvrir un site réalisé : https://youxdesign.pages.dev/demo/
+
+
+NEUF STYLES, UN MÊME SOIN
+
+Sauge, Terre, Santé, Wabi-sabi, Suisse, Immersif, Éditorial, Pastel doux, Nocturne : chaque style est un vrai site, avec toutes ses pages. Votre palette, votre typographie et vos photos font le reste.
+
+> Parcourir les neuf styles : https://youxdesign.pages.dev/styles/
+
+
+CE QUE VOTRE SITE CHANGE
+
+I. Pensé pour être trouvé
+Un site rapide et lisible sur téléphone, avec des titres, des descriptions et des informations structurées pour Google : votre adresse, vos horaires, votre approche.
+
+II. Le cadre de notre métier
+Mentions légales et page de confidentialité rédigées pour votre cabinet, numéro ADELI ou RPPS affiché, encart d’urgence avec le 15 et le 3114. Ni témoignages, ni promesse de résultat.
+
+III. Respectueux de vos patients
+Aucun cookie, aucun traceur publicitaire, aucune bannière à accepter. La carte interactive ne se charge que si le visiteur le demande.
+
+IV. Moins d’appels, plus de temps clinique
+Tarifs, horaires, accès, remboursement et déroulé des séances sont clairs avant le premier contact, avec un lien direct vers Doctolib ou votre outil de réservation. En option : créneaux visibles, plan d’accès, exercice de respiration guidé, questions fréquentes.
+
+
+COMMENT ÇA SE PASSE
+
+1. Vous configurez : style, couleurs, textes, photos ; l’aperçu se construit sous vos yeux, en dix minutes.
+2. Je conçois et rédige toutes vos pages, avec vos retours. Vous validez chaque étape.
+3. Votre site est en ligne, avec un nom de domaine à votre nom : vous en restez propriétaire.
+
+
+TARIF DE LANCEMENT : 199 € au lieu de 299 €, réservé aux 10 premiers cabinets
+puis 5 € par mois pour l’hébergement et les modifications mineures
+
+- Design sur mesure et rédaction de vos pages
+- Référencement local et fiche Google optimisée
+- Mentions légales et confidentialité rédigées pour vous
+- Lien vers Doctolib ou votre outil de réservation
+- Site adapté au téléphone et rapide à charger
+
+> Je configure mon site : https://youxdesign.pages.dev/
+
+
+Une question avant de vous lancer ? Répondez simplement à ce message ou appelez-moi au 07 61 84 57 91. Je serai heureux d’en parler avec vous.
+
+Bien confraternellement,
+
+Younes
+Psychologue · Fondateur de youXdesign
+contact.youxdesign@gmail.com | youxdesign.pages.dev
+
+--
+Je vous écris car votre adresse professionnelle figure sur {{source}}. Pour ne plus recevoir de message de ma part, répondez simplement « STOP ».
