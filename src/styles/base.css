@@ -195,7 +195,7 @@ a:hover { text-decoration-thickness: 2px; }
   --c-ligne: var(--c-ligne-profond);
   --c-focus: var(--c-sur-profond);
 }
-.section + .section:not(.section--teinte, .section--profonde) { padding-top: 0; }
+.section:not(.section--teinte, .section--profonde) + .section:not(.section--teinte, .section--profonde) { padding-top: 0; }
 .section--teinte + .section--teinte { padding-top: 0; }
 
 .titre-section { display: grid; gap: var(--e-4); margin-bottom: clamp(2.25rem, 1.6rem + 2.6vw, 4rem); max-width: 46rem; }
