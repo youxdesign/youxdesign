@@ -1,16 +1,19 @@
 ---
-/* Ressources à télécharger */
+/* Ressources à télécharger.
+   Démos : trois exemples. Site d'un cabinet : la liste « ressources » de la
+   fiche, fichiers déposés dans cabinets/<cabinet>/fichiers/. */
 import Bloc from './Bloc.astro';
 import Picto from '../Picto.astro';
 interface Props { site: any }
 const { site } = Astro.props;
-const liste = [
+const exemples = [
   { titre: 'Le journal des pensées', detail: 'Fiche à imprimer · PDF', icone: 'livre' },
   { titre: 'Respiration guidée, 5 minutes', detail: 'Audio · MP3', icone: 'poumons' },
   { titre: 'Planifier des activités agréables', detail: 'Fiche à imprimer · PDF', icone: 'calendrier' }
 ];
+const liste = site.vitrine ? exemples : site.cab.ressources.map((r) => ({ ...r, icone: r.icone || 'livre', lien: `/fichiers/${r.fichier}` }));
 ---
-<Bloc site={site} id="ressources" titre="Ressources">
+{liste.length > 0 && <Bloc site={site} id="ressources" titre="Ressources">
   <div class="opt-conteneur">
     <div class="opt-carte">
       <div class="opt-tete">
@@ -23,11 +26,13 @@ const liste = [
           <li class="opt-element">
             <span class="opt-pictogramme"><Picto nom={r.icone} /></span>
             <span class="opt-element__titre">{r.titre}</span>
-            <span class="opt-element__detail">{r.detail}</span>
-            <button class="opt-bouton opt-bouton--clair" type="button" data-demo-action>Télécharger</button>
+            {r.detail && <span class="opt-element__detail">{r.detail}</span>}
+            {r.lien
+              ? <a class="opt-bouton opt-bouton--clair" href={r.lien} download>Télécharger<span class="sr-only"> : {r.titre}</span></a>
+              : <button class="opt-bouton opt-bouton--clair" type="button" data-demo-action>Télécharger</button>}
           </li>
         ))}
       </ul>
     </div>
   </div>
-</Bloc>
+</Bloc>}

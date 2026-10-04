@@ -54,7 +54,11 @@ const schema = z.object({
     emailNote: texte.optional(),
     rendezVous: z.object({ plateforme: texte, url: z.string().url() }).optional(),
     /* Adresses des services qui reçoivent les formulaires (rappel, lettre d'information) */
-    formulaires: z.object({ rappel: z.string().url().optional(), newsletter: z.string().url().optional() }).optional()
+    formulaires: z.object({ rappel: z.string().url().optional(), newsletter: z.string().url().optional() }).optional(),
+    /* Option « questionnaires » : adresse de l'outil sécurisé où les remplir */
+    questionnaires: z.string().url().optional(),
+    /* Option « version anglaise » : adresse de la version anglaise du site */
+    versionAnglaise: z.string().url().optional()
   }),
   cabinet: z.object({
     adresse: texte,
@@ -73,6 +77,10 @@ const schema = z.object({
   }),
   tarifs: z.array(z.object({ nom: texte, lieu: texte.optional(), prix: texte, duree: texte.optional(), texte: texte.optional(), miseEnAvant: z.boolean().optional() })).min(1, 'indiquez au moins un tarif'),
   motifs: z.array(element).default([]),
+  /* Option « ressources » : fichiers déposés dans cabinets/<cabinet>/fichiers/ */
+  ressources: z.array(z.object({ titre: texte, detail: texte.optional(), icone: texte.optional(), fichier: texte })).default([]),
+  /* Option « ateliers » : groupes et ateliers proposés par le cabinet */
+  ateliers: z.array(z.object({ titre: texte, detail: texte.optional() })).default([]),
   pages: z.object({
     accueil: pageTextes,
     'a-propos': pageTextes,

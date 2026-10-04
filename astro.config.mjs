@@ -8,6 +8,10 @@ import youx from './src/integrations/youx.mjs';
 import { MODE, domaine, sites } from './src/lib/site.mjs';
 
 const carte = sites().some((s) => s.cab.site.options.includes('carte'));
+/* Services qui reçoivent les formulaires des sites de cabinet (rappel, lettre d'information) */
+const formulaires = MODE === 'client'
+  ? [...new Set(sites().flatMap((s) => Object.values(s.cab.contact.formulaires || {}).map((u) => new URL(u).origin)))]
+  : [];
 
 export default defineConfig({
   site: domaine(),
@@ -19,5 +23,5 @@ export default defineConfig({
   },
   compressHTML: true,
   devToolbar: { enabled: false },
-  integrations: [youx({ mode: MODE, carte })]
+  integrations: [youx({ mode: MODE, carte, formulaires })]
 });

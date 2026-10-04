@@ -1,12 +1,17 @@
 ---
-/* Sélecteur de langue (option « Version anglaise ») */
+/* Sélecteur de langue (option « Version anglaise »). Site d'un cabinet :
+   affiché seulement si l'adresse de la version anglaise est renseignée
+   (contact.versionAnglaise dans la fiche). */
 interface Props { site: any }
 const { site } = Astro.props;
 const actif = site.cab.a('multilingue');
+const anglais = site.cab.contact.versionAnglaise;
 ---
-{(actif || site.vitrine) && (
+{(site.vitrine || (actif && anglais)) && (
   <p class="opt-langues" data-option="multilingue" hidden={!actif}>
     <span aria-current="true">FR</span>
-    <a href="#" lang="en" hreflang="en" data-demo-action>EN<span class="sr-only"> English version</span></a>
+    {site.vitrine
+      ? <a href="#" lang="en" hreflang="en" data-demo-action>EN<span class="sr-only"> English version</span></a>
+      : <a href={anglais} lang="en" hreflang="en">EN<span class="sr-only"> English version</span></a>}
   </p>
 )}

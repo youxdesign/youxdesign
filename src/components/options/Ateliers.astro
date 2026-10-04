@@ -1,15 +1,17 @@
 ---
-/* Ateliers et groupes */
+/* Ateliers et groupes. Démos : deux exemples. Site d'un cabinet : la
+   liste « ateliers » de la fiche (le bloc n'apparaît que si elle existe). */
 import Bloc from './Bloc.astro';
 interface Props { site: any }
 const { site } = Astro.props;
 const cab = site.cab;
-const liste = [
+const exemples = [
   { titre: 'Groupe « Apprivoiser son stress »', detail: '6 séances · les jeudis à 18 h 30 · 8 personnes au plus' },
   { titre: 'Atelier pleine conscience', detail: 'Un samedi par mois · 10 h – 12 h · débutants bienvenus' }
 ];
+const liste = site.vitrine ? exemples : cab.ateliers;
 ---
-<Bloc site={site} id="ateliers" titre="Ateliers">
+{liste.length > 0 && <Bloc site={site} id="ateliers" titre="Ateliers">
   <div class="opt-conteneur">
     <div class="opt-carte">
       <div class="opt-tete">
@@ -18,9 +20,9 @@ const liste = [
         <p class="opt-texte">Des séances collectives en petit groupe, au cabinet. Inscription par téléphone ou par e-mail.</p>
       </div>
       <ul class="opt-liste">
-        {liste.map((a) => <li><span class="opt-element__titre">{a.titre}</span><span class="opt-element__detail">{a.detail}</span></li>)}
+        {liste.map((a) => <li><span class="opt-element__titre">{a.titre}</span>{a.detail && <span class="opt-element__detail">{a.detail}</span>}</li>)}
       </ul>
       <p class="opt-actions"><a class="opt-bouton" href={cab.tel.lien}>Appeler pour s’inscrire</a><a class="opt-lien" href={`mailto:${cab.contact.email}`}>Écrire un e-mail</a></p>
     </div>
   </div>
-</Bloc>
+</Bloc>}
