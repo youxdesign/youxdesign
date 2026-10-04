@@ -17,6 +17,7 @@ import Plan from '../components/Plan.astro';
 import BoutonRdv from '../components/BoutonRdv.astro';
 import { ouvertures, reglages } from '../themes/registre.mjs';
 import Questionnaires from '../components/options/Questionnaires.astro';
+import Creneaux from '../components/options/Creneaux.astro';
 import Newsletter from '../components/options/Newsletter.astro';
 import { lien, textes } from '../lib/site.mjs';
 import { meta, donneesCabinet } from '../lib/seo.mjs';
@@ -177,6 +178,8 @@ const questions = (choisies.length ? choisies : toutes).slice(0, 4);
       </aside>
     </div>
   </section>
+
+  {!site.vitrine && <Creneaux site={site} />}
 
   {bloc('carte').rendre && (
     <section class="section section-plan" aria-labelledby="plan-titre" data-option="carte" hidden={bloc('carte').cache}>

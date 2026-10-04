@@ -1,17 +1,22 @@
 ---
-/* Module de créneaux : prochains horaires libres, qui renvoient vers la réservation.
-   Les horaires affichés sont des exemples : le bloc n'existe que dans les
-   démos. Sur le site d'un cabinet, il faudra le brancher sur le vrai agenda. */
+/* Module de créneaux (option gratuite).
+   - Démos : des horaires d'exemple, calculés à partir des horaires du cabinet.
+   - Site d'un cabinet : jamais d'horaires inventés. Si la plateforme permet
+     d'intégrer son agenda (contact.rendezVous.agenda : Calendly, Cal.com,
+     Google Agenda…), il s'affiche dans la page au clic, comme la carte ;
+     sinon (Doctolib…), un bouton mène directement aux disponibilités. */
 import Bloc from './Bloc.astro';
 import { creneaux, heure } from '../../lib/creneaux.mjs';
 interface Props { site: any }
 const { site } = Astro.props;
 const cab = site.cab;
 const url = cab.rdv?.url || cab.tel.lien;
+const agenda = cab.rdv?.agenda;
 const plateforme = cab.rdv?.plateforme || 'téléphone';
 const jours = creneaux(cab);
 ---
-{site.vitrine && <Bloc site={site} id="creneaux" titre="Prochains créneaux">
+{site.vitrine ? (
+<Bloc site={site} id="creneaux" titre="Prochains créneaux">
   <div class="opt-conteneur">
     <div class="opt-carte opt-creneaux">
       <div class="opt-tete">
@@ -29,7 +34,34 @@ const jours = creneaux(cab);
           </li>
         ))}
       </ul>
-      {site.vitrine && <p class="opt-note">Exemple : sur votre site, les créneaux s’affichent en direct depuis votre agenda.</p>}
+      <p class="opt-note">Exemple : sur votre site, ce module affiche les disponibilités de votre agenda en ligne, ou y mène directement.</p>
     </div>
   </div>
-</Bloc>}
+</Bloc>
+) : cab.rdv && (
+<Bloc site={site} id="creneaux" titre="Prochains créneaux">
+  <div class="opt-conteneur">
+    <div class="opt-carte opt-creneaux">
+      <div class="opt-tete">
+        <p class="opt-surtitre">Rendez-vous</p>
+        <h2 class="opt-titre" id="opt-creneaux-titre">Prochains créneaux disponibles</h2>
+        <p class="opt-texte">Les disponibilités sont tenues à jour en temps réel sur {plateforme}{cab.cabinet.visio ? ', pour une séance au cabinet ou en visio' : ''}.</p>
+      </div>
+      {agenda ? (
+        <div class="opt-agenda">
+          <div class="opt-agenda__cadre" data-plan data-src={agenda} data-titre={`Agenda de réservation ${plateforme}`}>
+            <p class="opt-agenda__attente">L’agenda s’affichera ici.</p>
+          </div>
+          <p class="opt-actions">
+            <button class="opt-bouton" type="button" data-plan-afficher data-texte-afficher="Afficher les créneaux disponibles" data-texte-masquer="Masquer l’agenda" aria-pressed="false">Afficher les créneaux disponibles</button>
+            <a class="opt-lien" href={url} target="_blank" rel="noopener">Réserver sur {plateforme}<span class="sr-only"> (nouvel onglet)</span></a>
+          </p>
+          <p class="opt-note">L’agenda est fourni par {plateforme} : il ne se charge que si vous cliquez, votre adresse IP lui est alors transmise.</p>
+        </div>
+      ) : (
+        <p class="opt-actions"><a class="opt-bouton" href={url} target="_blank" rel="noopener">Voir les créneaux disponibles<span class="sr-only"> sur {plateforme} (nouvel onglet)</span></a></p>
+      )}
+    </div>
+  </div>
+</Bloc>
+)}

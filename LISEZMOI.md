@@ -142,7 +142,7 @@ Toutes les pages du site sont construites à partir de ce seul fichier : `cabine
 | --- | --- |
 | `site` | adresse du site, style, palette, police, fonctionnalités (voir parties 5 et 7) |
 | `praticien` | prénom, nom, `accord` (`"f"`, `"m"` ou `"n"` pour les accords : « diplômée »…), profession (`psychologue`, `sophrologue`, `coach` ou `autre`), titre, spécialité, diplôme, année d'installation, n° ADELI, n° RPPS, SIRET, statut, ARS, public reçu, citation |
-| `contact` | téléphone et sa note, e-mail et sa note, plateforme de rendez-vous (`rendezVous` : nom et lien), adresses des services en ligne (partie 7) |
+| `contact` | téléphone et sa note, e-mail et sa note, plateforme de rendez-vous (`rendezVous` : nom, lien et, si possible, agenda intégrable), adresses des services en ligne (partie 7) |
 | `cabinet` | adresse, complément, code postal, ville, quartier, coordonnées GPS (pour le plan), accès PMR, visio, horaires et façons de venir (`acces`) |
 | `tarifs` | chaque type de séance : nom, lieu, prix, durée, texte ; `miseEnAvant: true` pour celle à mettre en avant |
 | `motifs` | motifs de consultation : titre, texte, icône |
@@ -245,11 +245,20 @@ Elles se choisissent dans la liste `"options"` de la partie `site` :
 | `questionnaires` | questionnaires avant ou entre les séances | un outil hébergé chez un hébergeur certifié pour les données de santé (HDS) : son adresse dans `contact.questionnaires`. Ajoutez l'option `hds` seulement si c'est vraiment le cas. |
 | `paiement` | encart sur le paiement en ligne | le paiement passe par la plateforme de rendez-vous ou un prestataire, à mettre en place avec le client |
 | `multilingue` | lien « EN » vers la version anglaise | la version anglaise, à réaliser à part : son adresse dans `contact.versionAnglaise` |
-| `creneaux` | prochains créneaux libres (démos seulement) | voir ci-dessous |
+| `creneaux` | prochains créneaux libres (option gratuite) | voir ci-dessous |
 
 Une option qui dépend d'un service n'apparaît sur le site du client que si l'adresse de ce service est renseignée : jamais de bouton qui ne mène nulle part. La politique de sécurité du site autorise automatiquement l'envoi des formulaires vers ces services, et vers eux seulement.
 
-**Module de créneaux.** Dans les démos, il affiche des horaires d'exemple, calculés à partir des horaires du cabinet. Sur le site d'un client, ces horaires inventés ne sont pas affichés : un patient pourrait les prendre pour de vraies disponibilités. Le module ne peut montrer les vrais créneaux qu'une fois branché sur l'agenda en ligne du praticien, ce qui se prépare au cas par cas. En attendant, le site garde ses boutons « Prendre rendez-vous ».
+**Module de créneaux** (option gratuite). Il affiche les vraies disponibilités du praticien, jamais des horaires inventés :
+
+- si sa plateforme permet d'intégrer son agenda dans un site (c'est le cas de Calendly, Cal.com ou des pages de réservation de Google Agenda), indiquez l'adresse de cet agenda dans `contact.rendezVous.agenda`. Le site affiche alors un bouton « Afficher les créneaux disponibles » : l'agenda s'ouvre dans la page, seulement si le visiteur clique, comme la carte ;
+- sinon (Doctolib, par exemple, ne le permet pas), le bloc affiche un bouton « Voir les créneaux disponibles » qui ouvre directement la page de réservation.
+
+```json
+"rendezVous": { "plateforme": "Calendly", "url": "https://calendly.com/julie-bernard", "agenda": "https://calendly.com/julie-bernard/seance" }
+```
+
+Dans les démos, le module montre des horaires d'exemple, calculés à partir des horaires du cabinet, pour que les prospects voient à quoi il ressemble.
 
 **Ce qui n'est jamais ajouté** : cookies, outils de mesure d'audience, bannière de consentement, polices ou images chargées depuis un autre site, formulaire demandant des informations de santé (en dehors de l'outil HDS des questionnaires). C'est ce qui permet d'écrire, dans la politique de confidentialité, que le site ne dépose aucun cookie.
 
