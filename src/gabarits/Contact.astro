@@ -1,0 +1,102 @@
+---
+import Site from '../layouts/Site.astro';
+import TetePage from '../components/TetePage.astro';
+import TitreSection from '../components/TitreSection.astro';
+import Urgence from '../components/Urgence.astro';
+import Plan from '../components/Plan.astro';
+import Statut from '../components/Statut.astro';
+import BoutonRdv from '../components/BoutonRdv.astro';
+import { lien } from '../lib/site.mjs';
+import { meta, donneesCabinet, donneesFil } from '../lib/seo.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, c = cab.cabinet, t = cab.pages.contact;
+const m = meta(site, 'contact');
+const scripts = [cab.a('carte') && 'carte', cab.a('statut') && 'statut'].filter(Boolean);
+---
+<Site site={site} page="contact" titre={m.titre} description={m.description} chemin={lien(site, 'contact')} jsonld={[donneesCabinet(site), donneesFil(site, 'contact')]} scripts={scripts}>
+  <TetePage surtitre="Contact" titre={t.titre} intro={t.intro}>
+    <div slot="texte" class="boutons"><BoutonRdv cab={cab} /></div>
+  </TetePage>
+
+  <section class="section section--serree" aria-label="Coordonnées et horaires">
+    <div class="conteneur contact">
+      <dl class="coordonnees">
+        <div>
+          <dt>Adresse</dt>
+          <dd>
+            <address>{c.adresse}<br />{cab.adresse.ville}</address>
+            {(c.complement || c.accessiblePMR) && <p class="note">{[c.complement, c.accessiblePMR && 'accessible aux personnes à mobilité réduite'].filter(Boolean).join(', ')}</p>}
+          </dd>
+        </div>
+        <div>
+          <dt>Téléphone</dt>
+          <dd>
+            <a href={cab.tel.lien}>{cab.tel.affiche}</a>
+            {cab.contact.telephoneNote && <p class="note">{cab.contact.telephoneNote}</p>}
+          </dd>
+        </div>
+        <div>
+          <dt>E-mail</dt>
+          <dd>
+            <a href={`mailto:${cab.contact.email}`}>{cab.contact.email}</a>
+            {cab.contact.emailNote && <p class="note">{cab.contact.emailNote}</p>}
+          </dd>
+        </div>
+        {cab.rdv && (
+          <div>
+            <dt>Rendez-vous</dt>
+            <dd>
+              <a href={cab.rdv.url} target="_blank" rel="noopener">Réserver sur {cab.rdv.plateforme}<span class="sr-only"> (nouvel onglet)</span></a>
+              <p class="note">Au cabinet{c.visio ? ' ou en visio' : ''}, confirmation immédiate.</p>
+            </dd>
+          </div>
+        )}
+      </dl>
+      <div class="contact__horaires">
+        <h2 class="contact__titre">Horaires</h2>
+        {c.horairesNote && <p class="discret">{c.horairesNote}</p>}
+        <ul class="horaires">
+          {cab.horaires.groupes.map((g) => (
+            <li class:list={{ ferme: g.ferme }}><span>{g.libelle}</span><span>{g.texte}</span></li>
+          ))}
+        </ul>
+        {cab.a('statut') && <Statut cab={cab} />}
+        <p class="sans-formulaire">Pour protéger votre confidentialité, ce site ne propose pas de formulaire de contact : appelez ou écrivez directement.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section section--serree">
+    <div class="conteneur"><Urgence cab={cab} compact /></div>
+  </div>
+
+  <section class="section section--teinte" aria-labelledby="acces-titre">
+    <div class="conteneur deux-colonnes deux-colonnes--haut acces">
+      <div>
+        <TitreSection surtitre="Accès" titre={t.accesTitre || 'Comment venir'} id="acces-titre" />
+        <ul class="points acces__liste">
+          {c.acces.map((a) => (
+            <li class="apparait">
+              <h3>{a.titre}</h3>
+              {a.texte && <p>{a.texte}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+      {cab.a('carte') ? <Plan cab={cab} /> : (
+        <p><a class="lien-fleche" href={`https://www.openstreetmap.org/search?query=${encodeURIComponent(cab.adresse.uneLigne)}`} target="_blank" rel="noopener">Voir le plan<span class="sr-only"> (nouvel onglet)</span></a></p>
+      )}
+    </div>
+  </section>
+
+  {c.visio && t.visio && (
+    <section class="section" aria-labelledby="visio-titre">
+      <div class="conteneur deux-colonnes deux-colonnes--texte">
+        <TitreSection surtitre="À distance" titre={t.visioTitre || 'Vous préférez la visio ?'} id="visio-titre" />
+        <div class="texte">{t.visio.map((x) => <p>{x}</p>)}</div>
+      </div>
+    </section>
+  )}
+</Site>

@@ -1,0 +1,365 @@
+{
+  "fraunces": {
+    "famille": "Fraunces",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/fraunces-400.woff2"
+      },
+      {
+        "poids": 400,
+        "style": "italic",
+        "url": "/fonts/fraunces-400-italique.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "115.45%",
+      "ascentOverride": "84.71%",
+      "descentOverride": "22.09%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "cormorant-garamond": {
+    "famille": "Cormorant Garamond",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 500,
+        "style": "normal",
+        "url": "/fonts/cormorant-garamond-500.woff2"
+      },
+      {
+        "poids": 500,
+        "style": "italic",
+        "url": "/fonts/cormorant-garamond-500-italique.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/cormorant-garamond-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "97.23%",
+      "ascentOverride": "95.03%",
+      "descentOverride": "29.52%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "instrument-serif": {
+    "famille": "Instrument Serif",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/instrument-serif-400.woff2"
+      },
+      {
+        "poids": 400,
+        "style": "italic",
+        "url": "/fonts/instrument-serif-400-italique.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "83.94%",
+      "ascentOverride": "117.94%",
+      "descentOverride": "36.93%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "instrument-sans": {
+    "famille": "Instrument Sans",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/instrument-sans-400.woff2"
+      },
+      {
+        "poids": 500,
+        "style": "normal",
+        "url": "/fonts/instrument-sans-500.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/instrument-sans-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "102.74%",
+      "ascentOverride": "94.42%",
+      "descentOverride": "24.33%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "young-serif": {
+    "famille": "Young Serif",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/young-serif-400.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "125.78%",
+      "ascentOverride": "83.16%",
+      "descentOverride": "29.1%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "gloock": {
+    "famille": "Gloock",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/gloock-400.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "114.95%",
+      "ascentOverride": "84.82%",
+      "descentOverride": "19.57%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "dm-serif-display": {
+    "famille": "DM Serif Display",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/dm-serif-display-400.woff2"
+      },
+      {
+        "poids": 400,
+        "style": "italic",
+        "url": "/fonts/dm-serif-display-400-italique.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "109.78%",
+      "ascentOverride": "94.37%",
+      "descentOverride": "30.51%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "figtree": {
+    "famille": "Figtree",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/figtree-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/figtree-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "100.72%",
+      "ascentOverride": "94.32%",
+      "descentOverride": "24.82%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "schibsted-grotesk": {
+    "famille": "Schibsted Grotesk",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/schibsted-grotesk-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/schibsted-grotesk-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "104.49%",
+      "ascentOverride": "93.46%",
+      "descentOverride": "24.67%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "bricolage-grotesque": {
+    "famille": "Bricolage Grotesque",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/bricolage-grotesque-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/bricolage-grotesque-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "105.43%",
+      "ascentOverride": "88.21%",
+      "descentOverride": "25.61%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "onest": {
+    "famille": "Onest",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/onest-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/onest-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "105.2%",
+      "ascentOverride": "92.2%",
+      "descentOverride": "28.99%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "plus-jakarta-sans": {
+    "famille": "Plus Jakarta Sans",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/plus-jakarta-sans-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/plus-jakarta-sans-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "104.98%",
+      "ascentOverride": "98.88%",
+      "descentOverride": "21.15%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "manrope": {
+    "famille": "Manrope",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/manrope-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/manrope-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "103.19%",
+      "ascentOverride": "103.31%",
+      "descentOverride": "29.07%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "shippori-mincho": {
+    "famille": "Shippori Mincho",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/shippori-mincho-400.woff2"
+      },
+      {
+        "poids": 500,
+        "style": "normal",
+        "url": "/fonts/shippori-mincho-500.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "117.66%",
+      "ascentOverride": "98.59%",
+      "descentOverride": "24.48%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "zen-old-mincho": {
+    "famille": "Zen Old Mincho",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/zen-old-mincho-400.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "107.82%",
+      "ascentOverride": "107.59%",
+      "descentOverride": "26.71%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "zen-kaku-gothic-new": {
+    "famille": "Zen Kaku Gothic New",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/zen-kaku-gothic-new-400.woff2"
+      },
+      {
+        "poids": 500,
+        "style": "normal",
+        "url": "/fonts/zen-kaku-gothic-new-500.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "99.15%",
+      "ascentOverride": "117%",
+      "descentOverride": "29.05%",
+      "lineGapOverride": "0%"
+    }
+  }
+}

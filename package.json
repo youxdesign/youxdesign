@@ -1,0 +1,17 @@
+{
+  "name": "youxdesign",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "apercu": "node scripts/serveur.mjs",
+    "client": "node scripts/client.mjs",
+    "carte": "node scripts/carte.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.3.5",
+    "esbuild": "^0.28.2",
+    "sharp": "^0.35.5"
+  }
+}

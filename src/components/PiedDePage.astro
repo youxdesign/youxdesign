@@ -1,0 +1,52 @@
+---
+/* Pied de page : présentation, plan du site, coordonnées, informations légales. */
+import { PAGES } from '../config/catalogue.mjs';
+import { lien } from '../lib/site.mjs';
+import { DOMAINE } from '../config/youxdesign.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab;
+const p = cab.praticien;
+const menu = PAGES.filter((x) => !x.legal && (x.id !== 'faq' || cab.a('faq')));
+const annee = new Date().getFullYear();
+---
+<footer class="pied">
+  <div class="conteneur">
+    <div class="pied__grille">
+      <div class="pied__marque">
+        <p class="pied__nom">{cab.nomComplet}</p>
+        <p class="pied__presentation">
+          {p.titre}{p.specialite ? `, ${p.specialite}` : ''}. {p.public ? `${p.public}, ` : ''}{cab.cabinet.visio ? `au cabinet de ${cab.cabinet.ville} et en visio.` : `au cabinet de ${cab.cabinet.ville}.`}
+        </p>
+      </div>
+      <nav aria-labelledby="pied-plan">
+        <h2 id="pied-plan">Le cabinet</h2>
+        <ul>
+          {menu.map((x) => <li><a href={lien(site, x.id)}>{x.menu}</a></li>)}
+        </ul>
+      </nav>
+      <div>
+        <h2>Coordonnées</h2>
+        <address>
+          <span>{cab.adresse.rue}</span>
+          <span>{cab.adresse.ville}</span>
+          <a href={cab.tel.lien}>{cab.tel.affiche}</a>
+          <a href={`mailto:${cab.contact.email}`}>{cab.contact.email}</a>
+        </address>
+      </div>
+      <div>
+        <h2>Informations</h2>
+        <ul>
+          {p.adeli && <li><span>N° ADELI : {p.adeli}</span></li>}
+          {p.rpps && <li><span>N° RPPS : {p.rpps}</span></li>}
+          <li><a href={lien(site, 'mentions-legales')}>Mentions légales</a></li>
+          <li><a href={lien(site, 'confidentialite')}>Confidentialité</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pied__bas">
+      <p>© {annee} {cab.nomComplet}. Ce site ne dépose aucun cookie.</p>
+      <p>Site conçu par <a href={`${DOMAINE}/`}>youXdesign</a></p>
+    </div>
+  </div>
+</footer>

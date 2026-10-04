@@ -1,0 +1,32 @@
+---
+/* Bloc d'ouverture de l'accueil, version commune.
+   Chaque style peut le remplacer par src/themes/<style>/Ouverture.astro. */
+import BoutonRdv from './BoutonRdv.astro';
+import Visuel from './Visuel.astro';
+import Statut from './Statut.astro';
+import { lien } from '../lib/site.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien, t = cab.pages.accueil;
+const tarif = cab.tarifs[0];
+---
+<section class="ouverture" aria-labelledby="titre-page">
+  <div class="conteneur ouverture__grille">
+    <div class="ouverture__texte">
+      <p class="surtitre">{p.titre} · {cab.lieuCourt}</p>
+      <h1 id="titre-page">{t.titre} <span class="titre-suite">{t.titreSuite}</span></h1>
+      <p class="chapeau">{t.intro}</p>
+      <div class="boutons">
+        <BoutonRdv cab={cab} />
+        <a class="bouton bouton--secondaire" href={lien(site, 'approche')}>Découvrir mon approche</a>
+      </div>
+      <ul class="ouverture__faits">
+        <li>Séance de {tarif.duree} · {tarif.prix}</li>
+        {p.public && <li>{p.public}</li>}
+        {cab.cabinet.visio && <li>Visio possible</li>}
+      </ul>
+      {cab.a('statut') && <Statut cab={cab} />}
+    </div>
+    <Visuel site={site} type="ambiance" prioritaire />
+  </div>
+</section>

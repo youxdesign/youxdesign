@@ -1,0 +1,25 @@
+---
+/* Page introuvable (404) d'un site de cabinet. */
+import Site from '../layouts/Site.astro';
+import { lien } from '../lib/site.mjs';
+import { meta } from '../lib/seo.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab;
+const m = meta(site, '404');
+---
+<Site site={site} page="404" titre={m.titre} description={m.description} chemin={null} indexable={false}>
+  <section class="erreur" aria-labelledby="titre-page">
+    <div class="conteneur">
+      <p class="erreur__code" aria-hidden="true">404</p>
+      <h1 id="titre-page">Cette page est introuvable</h1>
+      <p class="chapeau">L’adresse a peut-être changé, ou la page n’existe plus. Voici quelques pistes pour retrouver votre chemin.</p>
+      <div class="erreur__liens">
+        <a class="bouton" href={site.base}>Retour à l’accueil</a>
+        <a class="bouton bouton--secondaire" href={lien(site, 'consultations')}>Consultations & tarifs</a>
+        <a class="bouton bouton--secondaire" href={lien(site, 'contact')}>Contact</a>
+      </div>
+    </div>
+  </section>
+</Site>

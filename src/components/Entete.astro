@@ -1,0 +1,61 @@
+---
+/* En-tête : nom du cabinet, navigation, bouton de rendez-vous.
+   Sur mobile, le menu s'ouvre dans une fenêtre « popover » native :
+   aucun JavaScript, fermeture par Échap ou par le bouton. */
+import Icone from './Icone.astro';
+import BoutonRdv from './BoutonRdv.astro';
+import { PAGES } from '../config/catalogue.mjs';
+import { lien } from '../lib/site.mjs';
+interface Props { site: any; page: string }
+const { site, page } = Astro.props;
+const cab = site.cab;
+const menu = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && (p.id !== 'faq' || cab.a('faq')));
+const sousTitre = `${cab.metier} · ${cab.cabinet.ville}`;
+---
+<header class="entete">
+  <div class="conteneur entete__barre">
+    <a class="marque" href={site.base}>
+      <span class="marque__nom">{cab.nomComplet}</span>
+      <span class="marque__metier">{sousTitre}<span class="sr-only">, retour à l’accueil</span></span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <ul>
+        {menu.map((p) => (
+          <li><a href={lien(site, p.id)} aria-current={p.id === page ? 'page' : undefined}>{p.menu}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <BoutonRdv cab={cab} classe="bouton bouton--petit entete__rdv" />
+    <button class="bouton-menu" type="button" popovertarget="menu-mobile" aria-label="Ouvrir le menu">
+      <Icone nom="menu" />
+    </button>
+  </div>
+  <div class="menu-mobile" id="menu-mobile" popover>
+    <div class="conteneur">
+      <div class="menu-mobile__haut">
+        <a class="marque" href={site.base}>
+          <span class="marque__nom">{cab.nomComplet}</span>
+          <span class="marque__metier">{sousTitre}</span>
+        </a>
+        <button class="bouton-menu" type="button" popovertarget="menu-mobile" popovertargetaction="hide" aria-label="Fermer le menu">
+          <Icone nom="fermer" />
+        </button>
+      </div>
+      <nav aria-label="Menu">
+        <ul>
+          <li><a href={site.base} aria-current={page === 'accueil' ? 'page' : undefined}>Accueil</a></li>
+          {menu.map((p) => (
+            <li><a href={lien(site, p.id)} aria-current={p.id === page ? 'page' : undefined}>{p.menu}</a></li>
+          ))}
+        </ul>
+      </nav>
+      <div class="menu-mobile__pied">
+        <BoutonRdv cab={cab} />
+        <p class="menu-mobile__contact">
+          <a href={cab.tel.lien}>{cab.tel.affiche}</a>
+          <span>{cab.adresse.uneLigne}</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,21 @@
+---
+/* Page introuvable du site youXdesign */
+import Youx from '../../layouts/Youx.astro';
+import Logo from '../../components/youx/Logo.astro';
+---
+<Youx titre="Page introuvable · youXdesign" description="Cette page n’existe pas ou a été déplacée." chemin={null} indexable={false}>
+  <header class="yx-entete">
+    <div class="yx-conteneur"><Logo clair /></div>
+  </header>
+  <main id="contenu" tabindex="-1" class="yx-hub">
+    <section class="yx-conteneur yx-hub__tete">
+      <p class="yx-surtitre">Erreur 404</p>
+      <h1>Cette page est <em>introuvable</em></h1>
+      <p class="yx-chapeau">L’adresse a peut-être changé. Vous pouvez configurer votre site ou découvrir la démonstration.</p>
+      <p class="yx-boutons">
+        <a class="yx-bouton" href="/">Configurer mon site</a>
+        <a class="yx-bouton yx-bouton--secondaire" href="/demo/">Voir la démo</a>
+      </p>
+    </section>
+  </main>
+</Youx>

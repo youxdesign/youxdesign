@@ -1,0 +1,41 @@
+---
+/* ==========================================================================
+   Carte d'accès
+   - L'image du plan est hébergée sur le site (générée par scripts/carte.mjs) :
+     aucune requête vers un service extérieur à l'affichage de la page.
+   - La carte interactive OpenStreetMap ne se charge que si le visiteur
+     clique sur « Afficher la carte interactive ».
+   ========================================================================== */
+import { Picture } from 'astro:assets';
+import Icone from './Icone.astro';
+const plans = import.meta.glob<{ default: ImageMetadata }>('/cabinets/*/images/carte.png', { eager: true });
+
+interface Props { cab: any }
+const { cab } = Astro.props;
+const geo = cab.adresse.geo;
+const image = plans[`/cabinets/${cab.id}/images/carte.png`]?.default;
+const adresse = cab.adresse.uneLigne;
+const dLat = 0.0045, dLng = 0.0075;
+const integration = geo ? `https://www.openstreetmap.org/export/embed.html?bbox=${geo.lng - dLng}%2C${geo.lat - dLat}%2C${geo.lng + dLng}%2C${geo.lat + dLat}&layer=mapnik&marker=${geo.lat}%2C${geo.lng}` : null;
+const voir = geo ? `https://www.openstreetmap.org/?mlat=${geo.lat}&mlon=${geo.lng}#map=17/${geo.lat}/${geo.lng}` : `https://www.openstreetmap.org/search?query=${encodeURIComponent(adresse)}`;
+const itineraire = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(adresse)}`;
+---
+<div class="plan">
+  <div class="plan__cadre" data-plan data-src={integration} data-titre={`Carte interactive : ${adresse}`}>
+    {image ? (
+      <Picture class="plan__image" src={image} alt={`Plan du quartier autour du ${adresse}. Le cabinet est au centre de la carte.`} formats={['avif', 'webp']} fallbackFormat="jpg" widths={[480, 640, 800, 1024, 1280]} sizes="(min-width: 56rem) 50vw, 100vw" loading="lazy" />
+    ) : (
+      <svg class="plan__image" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <rect class="art-fond" width="800" height="500" />
+        <path class="art-trait" d="M-20 120C200 100 380 180 820 140M120-20c40 180 140 320 180 520M520-20c-40 140 40 320 120 520M-20 360c240-30 540 20 840-30" />
+      </svg>
+    )}
+    <span class="plan__repere"><Icone nom="repere" /></span>
+  </div>
+  <div class="plan__actions">
+    {integration && <button class="bouton bouton--secondaire bouton--petit" type="button" data-plan-afficher aria-pressed="false">Afficher la carte interactive</button>}
+    <a class="lien-fleche" href={voir} target="_blank" rel="noopener">Voir le plan<span class="sr-only"> sur OpenStreetMap (nouvel onglet)</span></a>
+    <a class="lien-fleche" href={itineraire} target="_blank" rel="noopener">Itinéraire<span class="sr-only"> (nouvel onglet)</span></a>
+  </div>
+  <p class="plan__note">Fond de carte © contributeurs OpenStreetMap. La carte interactive est fournie par OpenStreetMap : elle ne se charge que si vous cliquez, votre adresse IP leur est alors transmise.</p>
+</div>

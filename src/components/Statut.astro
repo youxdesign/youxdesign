@@ -1,0 +1,9 @@
+---
+/* Statut d'ouverture en direct (option « statut »), calculé dans le
+   navigateur à partir des horaires de la fiche, à l'heure de Paris.
+   La place est réservée d'avance (pas de décalage de la page) ;
+   sans JavaScript, la ligne reste vide. */
+interface Props { cab: any; classe?: string }
+const { cab, classe } = Astro.props;
+---
+<p class:list={['statut', classe]} data-statut data-horaires={JSON.stringify(cab.horaires.compact)}></p>

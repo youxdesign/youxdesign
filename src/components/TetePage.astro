@@ -1,0 +1,16 @@
+---
+/* Haut des pages intérieures : surtitre, grand titre en deux temps, introduction. */
+interface Props { surtitre?: string; titre: string; titreSuite?: string; intro?: string; classe?: string }
+const { surtitre, titre, titreSuite, intro, classe } = Astro.props;
+---
+<section class:list={['tete-page', classe]} aria-labelledby="titre-page">
+  <div class="conteneur tete-page__grille">
+    <div class="tete-page__texte">
+      {surtitre && <p class="surtitre">{surtitre}</p>}
+      <h1 id="titre-page">{titre}{titreSuite && <> <span class="titre-suite">{titreSuite}</span></>}</h1>
+      {intro && <p class="chapeau">{intro}</p>}
+      <slot name="texte" />
+    </div>
+    <slot />
+  </div>
+</section>

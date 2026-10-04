@@ -1,0 +1,36 @@
+---
+/* Page d'accueil provisoire du site youXdesign pendant la refonte :
+   elle sera remplacée par le configurateur (étape 5). */
+import Youx from '../../layouts/Youx.astro';
+import Logo from '../../components/youx/Logo.astro';
+import { sites } from '../../lib/site.mjs';
+import { STYLES } from '../../config/catalogue.mjs';
+
+const liste = sites().map((s) => ({ site: s, style: STYLES.find((x) => x.id === s.theme) }));
+---
+<Youx titre="youXdesign · Sites pour psychologues, sophrologues et coachs" description="Le site de votre cabinet, conçu par un psychologue : confidentiel, sans cookie, rapide et accessible." indexable={false}>
+  <header class="yx-entete">
+    <div class="yx-conteneur"><Logo clair /></div>
+  </header>
+  <main id="contenu" tabindex="-1" class="yx-hub">
+    <section class="yx-conteneur yx-hub__tete">
+      <p class="yx-surtitre">Refonte en cours</p>
+      <h1>Le site de votre cabinet, <em>conçu par un psychologue</em></h1>
+      <p class="yx-chapeau">Cette page provisoire réunit les démonstrations en cours de construction. Le configurateur reprendra sa place ici à l’étape 5.</p>
+    </section>
+    <section class="yx-conteneur" aria-labelledby="styles-titre">
+      <h2 id="styles-titre" class="yx-h2">Les styles</h2>
+      <ul class="yx-styles">
+        {liste.map(({ site, style }) => (
+          <li class="yx-style">
+            <a href={site.base}>
+              <span class="yx-style__nom">{style.nom}</span>
+              <span class="yx-style__desc">{style.resume}</span>
+              <span class="yx-style__adresse">{site.base}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</Youx>

@@ -1,0 +1,22 @@
+---
+/* Exercice de respiration guidé (option « respiration ») : une minute,
+   inspiration de 4 secondes, pause, expiration de 5 secondes.
+   Si le visiteur a demandé à réduire les animations, seules les consignes
+   écrites changent. */
+import TitreSection from './TitreSection.astro';
+interface Props { titre: string; texte?: string }
+const { titre, texte } = Astro.props;
+---
+<section class="section section--teinte" aria-labelledby="respiration-titre">
+  <div class="conteneur respiration" data-respiration>
+    <TitreSection surtitre="Exercice d’une minute" titre={titre} intro={texte} id="respiration-titre">
+      <p class="respiration__aide">Inspirez pendant 4 secondes, gardez l’air un instant, puis expirez pendant 5 secondes.</p>
+    </TitreSection>
+    <div class="respiration__zone">
+      <div class="respiration__cercle" aria-hidden="true">
+        <span class="respiration__consigne" data-consigne>Prêt ?</span>
+      </div>
+      <button class="bouton" type="button" data-respiration-bouton>Commencer · 1 minute</button>
+    </div>
+  </div>
+</section>

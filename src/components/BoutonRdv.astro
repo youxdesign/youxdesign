@@ -1,0 +1,17 @@
+---
+/* Bouton de prise de rendez-vous : lien vers la plateforme (Doctolib…)
+   ou, à défaut, vers le téléphone du cabinet. */
+import Icone from './Icone.astro';
+interface Props { cab: any; classe?: string; texte?: string }
+const { cab, classe = 'bouton', texte = 'Prendre rendez-vous' } = Astro.props;
+const rdv = cab.rdv;
+---
+{rdv ? (
+  <a class={classe} href={rdv.url} target="_blank" rel="noopener">
+    {texte}<Icone nom="externe" /><span class="sr-only"> sur {rdv.plateforme} (nouvel onglet)</span>
+  </a>
+) : (
+  <a class={classe} href={cab.tel.lien}>
+    <Icone nom="telephone" />Appeler le {cab.tel.affiche}
+  </a>
+)}
