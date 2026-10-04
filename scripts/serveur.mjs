@@ -3,13 +3,15 @@
    applique _headers (dont la politique de sécurité) et _redirects, sert les
    pages 404 les plus proches et ajoute la barre finale aux adresses.
    Utilisation : npm run apercu   (puis ouvrir http://localhost:4321)
+                 npm run apercu -- clients/dupont   (site d'un client)
+   Le port peut être changé avec la variable PORT.
    ========================================================================== */
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
-import { join, extname, normalize } from 'node:path';
+import { join, extname, normalize, resolve } from 'node:path';
 import { brotliCompressSync, gzipSync, constants } from 'node:zlib';
 
-const RACINE = join(process.cwd(), process.argv[2] || 'dist');
+const RACINE = resolve(process.cwd(), process.argv[2] || 'dist');
 const PORT = Number(process.env.PORT || 4321);
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
