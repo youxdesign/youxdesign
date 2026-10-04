@@ -1,0 +1,21 @@
+---
+/* Confort de lecture : taille du texte et contraste, réglables par le visiteur.
+   Rien n'est enregistré : le réglage vaut pour la page affichée. */
+interface Props { site: any }
+const { site } = Astro.props;
+const actif = site.cab.a('accessibilite');
+---
+{(actif || site.vitrine) && (
+  <div class="opt-confort" data-option="accessibilite" hidden={!actif}>
+    <button class="opt-confort__bouton" type="button" popovertarget="confort-lecture" aria-label="Confort de lecture">Aa</button>
+    <div class="opt-confort__panneau" id="confort-lecture" popover>
+      <p class="opt-confort__titre">Confort de lecture</p>
+      <div class="opt-confort__ligne" role="group" aria-label="Taille du texte">
+        <button type="button" data-confort-taille="-1" aria-label="Réduire le texte">A−</button>
+        <button type="button" data-confort-taille="0" aria-label="Taille normale">A</button>
+        <button type="button" data-confort-taille="1" aria-label="Agrandir le texte">A+</button>
+      </div>
+      <label class="opt-confort__contraste"><input type="checkbox" data-confort-contraste /> Contraste renforcé</label>
+    </div>
+  </div>
+)}

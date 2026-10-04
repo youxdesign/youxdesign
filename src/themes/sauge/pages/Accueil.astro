@@ -8,6 +8,9 @@ import Appel from '../Appel.astro';
 import Urgence from '../Urgence.astro';
 import Picto from '../../../components/Picto.astro';
 import Portrait from '../Portrait.astro';
+import Creneaux from '../../../components/options/Creneaux.astro';
+import Questionnaires from '../../../components/options/Questionnaires.astro';
+import Newsletter from '../../../components/options/Newsletter.astro';
 import { lien } from '../../../lib/site.mjs';
 import { meta, donneesCabinet } from '../../../lib/seo.mjs';
 import { enrichi } from '../../../lib/texte.mjs';
@@ -25,6 +28,7 @@ const reperes = [
   { icone: 'lieu', titre: `Cabinet à ${c.ville}${c.visio ? ' et visio' : ''}`, texte: `${c.adresse}${c.quartier ? ', ' + c.quartier : ''}` },
   cab.rdv ? { icone: 'calendrier', titre: 'Rendez-vous en ligne', texte: `Réservation à toute heure sur ${cab.rdv.plateforme}` } : { icone: 'telephone', titre: 'Rendez-vous par téléphone', texte: cab.tel.affiche }
 ].filter(Boolean);
+const statut = cab.bloc('statut', site.vitrine), respiration = cab.bloc('respiration', site.vitrine);
 const badge = `${p.titre.split(' ')[0]} · ${p.specialiteCourte ? p.specialiteCourte + ' · ' : ''}${c.ville}${c.visio ? ' · Visio' : ''} ·`;
 ---
 <Cadre site={site} page="accueil" titre={m.titre} description={m.description} chemin={site.base} jsonld={[donneesCabinet(site)]}>
@@ -65,8 +69,8 @@ const badge = `${p.titre.split(' ')[0]} · ${p.specialiteCourte ? p.specialiteCo
               <rect class="grain" width="400" height="500" filter="url(#grain)" />
             </svg>
           </div>
-          {cab.a('statut') && (
-            <div class="status-card" data-statut data-horaires={JSON.stringify(cab.horaires.compact)} data-depth="8">
+          {statut.rendre && (
+            <div class="status-card" data-statut data-option="statut" hidden={statut.cache} data-horaires={JSON.stringify(cab.horaires.compact)} data-depth="8">
               <span class="dot" aria-hidden="true"></span>
               <span><strong data-statut-texte>Cabinet {c.quartier ? `du ${c.quartier}` : `de ${c.ville}`}</strong><span data-statut-detail>{premierGroupe ? `${premierGroupe.libelle} ${premierGroupe.texte}` : 'Sur rendez-vous'}</span></span>
             </div>
@@ -85,6 +89,8 @@ const badge = `${p.titre.split(' ')[0]} · ${p.specialiteCourte ? p.specialiteCo
       </ul>
     </div>
   </section>
+
+  <Creneaux site={site} />
 
   {cab.motifs.length > 0 && (
     <section class="section" id="motifs" aria-labelledby="motifs-titre">
@@ -145,8 +151,10 @@ const badge = `${p.titre.split(' ')[0]} · ${p.specialiteCourte ? p.specialiteCo
     </div>
   </section>
 
-  {cab.a('respiration') && (
-    <section class="section section--dark" id="respiration" aria-labelledby="respiration-titre">
+  <Questionnaires site={site} />
+
+  {respiration.rendre && (
+    <section class="section section--dark" id="respiration" aria-labelledby="respiration-titre" data-option="respiration" hidden={respiration.cache}>
       <div class="container breath" data-breath>
         <div class="breath__text">
           <span class="eyebrow" data-reveal>{t.respirationSurtitre || 'Une minute pour vous'}</span>
@@ -168,6 +176,8 @@ const badge = `${p.titre.split(' ')[0]} · ${p.specialiteCourte ? p.specialiteCo
       </div>
     </section>
   )}
+
+  <Newsletter site={site} />
 
   <div class="container urgent-wrap"><Urgence /></div>
   <Appel cab={cab} titre={t.finTitre} texte={t.finTexte} secondaire={{ href: lien(site, 'contact'), texte: 'Me contacter' }} />

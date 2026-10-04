@@ -27,7 +27,8 @@ const cab = site.cab;
 const css = await feuilleSite(site);
 const polices = prechargements(site);
 const apercu = site.vitrine ? await script('apercu') : null;
-const autres = await Promise.all([...new Set(scripts.filter(Boolean))].map((s) => script(s)));
+const confort = site.vitrine || cab.a('accessibilite') ? ['confort'] : [];
+const autres = await Promise.all([...new Set([...scripts, ...confort].filter(Boolean))].map((s) => script(s)));
 
 const couleurs = deriver(paletteDe(site));
 const canonique = chemin ? adresseComplete(chemin) : null;

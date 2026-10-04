@@ -49,7 +49,9 @@ const schema = z.object({
     telephoneNote: texte.optional(),
     email: z.string().email('adresse e-mail invalide'),
     emailNote: texte.optional(),
-    rendezVous: z.object({ plateforme: texte, url: z.string().url() }).optional()
+    rendezVous: z.object({ plateforme: texte, url: z.string().url() }).optional(),
+    /* Adresses des services qui reçoivent les formulaires (rappel, lettre d'information) */
+    formulaires: z.object({ rappel: z.string().url().optional(), newsletter: z.string().url().optional() }).optional()
   }),
   cabinet: z.object({
     adresse: texte,
@@ -185,6 +187,8 @@ function enrichir(id, d) {
     horaires: horaires(c.horaires),
     rdv: d.contact.rendezVous || null,
     options: new Set(d.site.options),
-    a: (option) => d.site.options.includes(option)
+    a: (option) => d.site.options.includes(option),
+    /* Bloc d'option à produire ? (toujours dans les démos, masqué si inactif) */
+    bloc: (option, vitrine) => ({ rendre: d.site.options.includes(option) || Boolean(vitrine), cache: !d.site.options.includes(option) })
   };
 }

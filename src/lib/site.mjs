@@ -74,6 +74,7 @@ export function routes() {
   }
   if (MODE === 'vitrine') {
     liste.push({ chemin: undefined, type: 'configurateur' });
+    liste.push({ chemin: 'styles', type: 'galerie' });
     liste.push({ chemin: '404', type: 'erreur-youx' });
   }
   return liste;

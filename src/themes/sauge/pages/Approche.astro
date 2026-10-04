@@ -4,6 +4,8 @@ import Cadre from '../Cadre.astro';
 import TetePage from '../TetePage.astro';
 import Appel from '../Appel.astro';
 import Picto from '../../../components/Picto.astro';
+import Ressources from '../../../components/options/Ressources.astro';
+import Ateliers from '../../../components/options/Ateliers.astro';
 import { lien } from '../../../lib/site.mjs';
 import { meta, donneesFil } from '../../../lib/seo.mjs';
 import { enrichi } from '../../../lib/texte.mjs';
@@ -120,6 +122,9 @@ const schema = noeuds.length === 3
       </div>
     </section>
   )}
+
+  <Ressources site={site} />
+  <Ateliers site={site} />
 
   <Appel cab={cab} titre={t.finTitre} texte={t.finTexte} secondaire={cab.a('faq') ? { href: lien(site, 'faq'), texte: 'Questions fréquentes' } : { href: lien(site, 'contact'), texte: 'Me contacter' }} />
 </Cadre>

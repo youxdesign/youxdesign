@@ -37,7 +37,10 @@ export const STYLES = [
     polices: [
       { nom: 'Fraunces', titres: 'fraunces', texte: 'instrument-sans', poids: 400 },
       { nom: 'Cormorant Garamond', titres: 'cormorant-garamond', texte: 'instrument-sans', poids: 500 },
-      { nom: 'Instrument Serif', titres: 'instrument-serif', texte: 'instrument-sans', poids: 400 }
+      { nom: 'Instrument Serif', titres: 'instrument-serif', texte: 'instrument-sans', poids: 400 },
+      { nom: 'Playfair Display', titres: 'playfair-display', texte: 'instrument-sans', poids: 400 },
+      { nom: 'Lora', titres: 'lora', texte: 'instrument-sans', poids: 400 },
+      { nom: 'EB Garamond', titres: 'eb-garamond', texte: 'instrument-sans', poids: 400 }
     ]
   },
   {
@@ -54,7 +57,10 @@ export const STYLES = [
     polices: [
       { nom: 'Young Serif', titres: 'young-serif', texte: 'figtree', poids: 400 },
       { nom: 'Gloock', titres: 'gloock', texte: 'figtree', poids: 400 },
-      { nom: 'DM Serif Display', titres: 'dm-serif-display', texte: 'figtree', poids: 400 }
+      { nom: 'DM Serif Display', titres: 'dm-serif-display', texte: 'figtree', poids: 400 },
+      { nom: 'Corben', titres: 'corben', texte: 'figtree', poids: 400 },
+      { nom: 'Yeseva One', titres: 'yeseva-one', texte: 'figtree', poids: 400 },
+      { nom: 'Rufina', titres: 'rufina', texte: 'figtree', poids: 400 }
     ]
   },
   {
@@ -71,7 +77,10 @@ export const STYLES = [
     polices: [
       { nom: 'Onest', titres: 'onest', texte: 'onest', poids: 600 },
       { nom: 'Plus Jakarta Sans', titres: 'plus-jakarta-sans', texte: 'plus-jakarta-sans', poids: 600 },
-      { nom: 'Manrope', titres: 'manrope', texte: 'manrope', poids: 600 }
+      { nom: 'Manrope', titres: 'manrope', texte: 'manrope', poids: 600 },
+      { nom: 'DM Sans', titres: 'dm-sans', texte: 'dm-sans', poids: 600 },
+      { nom: 'Outfit', titres: 'outfit', texte: 'outfit', poids: 600 },
+      { nom: 'Public Sans', titres: 'public-sans', texte: 'public-sans', poids: 600 }
     ]
   },
   {
@@ -88,7 +97,10 @@ export const STYLES = [
     polices: [
       { nom: 'Shippori Mincho', titres: 'shippori-mincho', texte: 'zen-kaku-gothic-new', poids: 400 },
       { nom: 'Cormorant Garamond', titres: 'cormorant-garamond', texte: 'zen-kaku-gothic-new', poids: 500 },
-      { nom: 'Zen Old Mincho', titres: 'zen-old-mincho', texte: 'zen-kaku-gothic-new', poids: 400 }
+      { nom: 'Zen Old Mincho', titres: 'zen-old-mincho', texte: 'zen-kaku-gothic-new', poids: 400 },
+      { nom: 'Kaisei Tokumin', titres: 'kaisei-tokumin', texte: 'zen-kaku-gothic-new', poids: 400 },
+      { nom: 'Zen Antique', titres: 'zen-antique', texte: 'zen-kaku-gothic-new', poids: 400 },
+      { nom: 'Hina Mincho', titres: 'hina-mincho', texte: 'zen-kaku-gothic-new', poids: 400 }
     ]
   },
   {
@@ -105,7 +117,10 @@ export const STYLES = [
     polices: [
       { nom: 'Schibsted Grotesk', titres: 'schibsted-grotesk', texte: 'schibsted-grotesk', poids: 600 },
       { nom: 'Instrument Sans', titres: 'instrument-sans', texte: 'instrument-sans', poids: 600 },
-      { nom: 'Bricolage Grotesque', titres: 'bricolage-grotesque', texte: 'bricolage-grotesque', poids: 600 }
+      { nom: 'Bricolage Grotesque', titres: 'bricolage-grotesque', texte: 'bricolage-grotesque', poids: 600 },
+      { nom: 'Inter Tight', titres: 'inter-tight', texte: 'inter-tight', poids: 600 },
+      { nom: 'Space Grotesk', titres: 'space-grotesk', texte: 'space-grotesk', poids: 600 },
+      { nom: 'Archivo', titres: 'archivo', texte: 'archivo', poids: 600 }
     ]
   }
 ];
@@ -130,19 +145,19 @@ export const PALETTES_LIBRES = [
    tiers : l'option repose sur un service extérieur ; la politique de
    confidentialité du cabinet le mentionne automatiquement si elle est active. */
 export const OPTIONS = [
-  { id: 'creneaux', nom: 'Module de créneaux', groupe: 'Rendez-vous et contact', description: 'Un aperçu des prochains créneaux libres, qui renvoie vers la réservation.', tiers: 'votre plateforme de rendez-vous' },
-  { id: 'rappel', nom: 'Formulaire de rappel', groupe: 'Rendez-vous et contact', description: 'Le visiteur laisse son prénom et son numéro, vous le rappelez. Aucune question sur le motif.', tiers: 'un service d’envoi de formulaires' },
-  { id: 'paiement', nom: 'Paiement en ligne', groupe: 'Rendez-vous et contact', description: 'Règlement ou acompte à la réservation, facture envoyée automatiquement.', tiers: 'un prestataire de paiement' },
-  { id: 'statut', nom: 'Statut d’ouverture en direct', groupe: 'Rendez-vous et contact', description: 'Indique si le cabinet est ouvert en ce moment, d’après vos horaires.' },
-  { id: 'questionnaires', nom: 'Questionnaires en ligne', groupe: 'Contenus et outils', description: 'Auto-évaluations et fiche de pré-consultation, remplies avant ou entre les séances.', tiers: 'un hébergeur certifié pour les données de santé (HDS)' },
-  { id: 'faq', nom: 'Questions fréquentes', groupe: 'Contenus et outils', description: 'Remboursement, durée, confidentialité : les réponses aux questions habituelles.' },
-  { id: 'respiration', nom: 'Exercice de respiration guidé', groupe: 'Contenus et outils', description: 'Un cercle animé d’une minute que vos visiteurs peuvent suivre.' },
-  { id: 'ressources', nom: 'Ressources à télécharger', groupe: 'Contenus et outils', description: 'Fiches, exercices et audios que vos patients retrouvent en ligne.' },
-  { id: 'ateliers', nom: 'Ateliers et groupes', groupe: 'Contenus et outils', description: 'Agenda de séances collectives, avec inscription par téléphone ou par e-mail.' },
-  { id: 'newsletter', nom: 'Lettre d’information', groupe: 'Contenus et outils', description: 'Les visiteurs s’inscrivent pour recevoir vos articles.', tiers: 'un service d’envoi d’e-mails' },
-  { id: 'carte', nom: 'Carte d’accès', groupe: 'Pratique et accessibilité', description: 'Plan du quartier avec votre adresse, et carte interactive à la demande.', tiers: 'OpenStreetMap, seulement si le visiteur affiche la carte interactive' },
-  { id: 'accessibilite', nom: 'Confort de lecture', groupe: 'Pratique et accessibilité', description: 'Taille du texte et contraste réglables par le visiteur.' },
-  { id: 'multilingue', nom: 'Version anglaise', groupe: 'Pratique et accessibilité', description: 'Le site traduit, avec un sélecteur de langue.' }
+  { id: 'creneaux', nom: 'Module de créneaux', groupe: 'Rendez-vous et contact', page: 'accueil', description: 'Un aperçu des prochains créneaux libres, qui renvoie vers la réservation.', tiers: 'votre plateforme de rendez-vous' },
+  { id: 'rappel', nom: 'Formulaire de rappel', groupe: 'Rendez-vous et contact', page: 'contact', description: 'Le visiteur laisse son prénom et son numéro, vous le rappelez. Aucune question sur le motif.', tiers: 'un service d’envoi de formulaires' },
+  { id: 'paiement', nom: 'Paiement en ligne', groupe: 'Rendez-vous et contact', page: 'consultations', description: 'Règlement ou acompte à la réservation, facture envoyée automatiquement.', tiers: 'un prestataire de paiement' },
+  { id: 'statut', nom: 'Statut d’ouverture en direct', groupe: 'Rendez-vous et contact', page: 'accueil', description: 'Indique si le cabinet est ouvert en ce moment, d’après vos horaires.' },
+  { id: 'questionnaires', nom: 'Questionnaires en ligne', groupe: 'Contenus et outils', page: 'accueil', description: 'Auto-évaluations et fiche de pré-consultation, remplies avant ou entre les séances.', tiers: 'un hébergeur certifié pour les données de santé (HDS)' },
+  { id: 'faq', nom: 'Questions fréquentes', groupe: 'Contenus et outils', page: 'faq', description: 'Remboursement, durée, confidentialité : les réponses aux questions habituelles.' },
+  { id: 'respiration', nom: 'Exercice de respiration guidé', groupe: 'Contenus et outils', page: 'accueil', description: 'Un cercle animé d’une minute que vos visiteurs peuvent suivre.' },
+  { id: 'ressources', nom: 'Ressources à télécharger', groupe: 'Contenus et outils', page: 'approche', description: 'Fiches, exercices et audios que vos patients retrouvent en ligne.' },
+  { id: 'ateliers', nom: 'Ateliers et groupes', groupe: 'Contenus et outils', page: 'approche', description: 'Agenda de séances collectives, avec inscription par téléphone ou par e-mail.' },
+  { id: 'newsletter', nom: 'Lettre d’information', groupe: 'Contenus et outils', page: 'accueil', description: 'Les visiteurs s’inscrivent pour recevoir vos articles.', tiers: 'un service d’envoi d’e-mails' },
+  { id: 'carte', nom: 'Carte d’accès', groupe: 'Pratique et accessibilité', page: 'contact', description: 'Plan du quartier avec votre adresse, et carte interactive à la demande.', tiers: 'OpenStreetMap, seulement si le visiteur affiche la carte interactive' },
+  { id: 'accessibilite', nom: 'Confort de lecture', groupe: 'Pratique et accessibilité', page: null, description: 'Taille du texte et contraste réglables par le visiteur.' },
+  { id: 'multilingue', nom: 'Version anglaise', groupe: 'Pratique et accessibilité', page: null, description: 'Le site traduit, avec un sélecteur de langue.' }
 ];
 
 /* Pages d'un site de cabinet, dans l'ordre du menu.

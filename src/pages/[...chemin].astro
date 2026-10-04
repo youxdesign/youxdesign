@@ -12,6 +12,7 @@ import MentionsLegales from '../gabarits/MentionsLegales.astro';
 import Confidentialite from '../gabarits/Confidentialite.astro';
 import Erreur from '../gabarits/Erreur.astro';
 import YouxAccueil from '../gabarits/youx/Accueil.astro';
+import Configurateur from '../gabarits/youx/Configurateur.astro';
 import YouxErreur from '../gabarits/youx/Erreur.astro';
 import { routes } from '../lib/site.mjs';
 import { pages as pagesDesStyles } from '../themes/registre.mjs';
@@ -49,5 +50,6 @@ const Gabarit = route.type === 'page'
   : null;
 ---
 {route.type === 'page' && <Gabarit site={route.site} />}
-{route.type === 'configurateur' && <YouxAccueil />}
+{route.type === 'configurateur' && <Configurateur />}
+{route.type === 'galerie' && <YouxAccueil />}
 {route.type === 'erreur-youx' && <YouxErreur />}

@@ -4,6 +4,8 @@ import TetePage from '../components/TetePage.astro';
 import TitreSection from '../components/TitreSection.astro';
 import Cercle from '../components/Cercle.astro';
 import AppelFinal from '../components/AppelFinal.astro';
+import Ressources from '../components/options/Ressources.astro';
+import Ateliers from '../components/options/Ateliers.astro';
 import { lien } from '../lib/site.mjs';
 import { meta, donneesFil } from '../lib/seo.mjs';
 import { enrichi } from '../lib/texte.mjs';
@@ -78,6 +80,9 @@ const m = meta(site, 'approche');
       </div>
     </section>
   )}
+
+  <Ressources site={site} />
+  <Ateliers site={site} />
 
   <AppelFinal cab={cab} titre={t.finTitre} texte={t.finTexte} />
 </Site>

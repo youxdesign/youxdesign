@@ -3,6 +3,7 @@ import Site from '../layouts/Site.astro';
 import TetePage from '../components/TetePage.astro';
 import TitreSection from '../components/TitreSection.astro';
 import AppelFinal from '../components/AppelFinal.astro';
+import Paiement from '../components/options/Paiement.astro';
 import { lien } from '../lib/site.mjs';
 import { meta, donneesFil } from '../lib/seo.mjs';
 import { enrichi } from '../lib/texte.mjs';
@@ -34,6 +35,8 @@ const partenaire = t.monSoutienPsy === true;
       {t.tarifsNote && <p class="note-tarifs">{t.tarifsNote}</p>}
     </div>
   </section>
+
+  <Paiement site={site} />
 
   {(t.paiement || t.annulation) && (
     <section class="section" aria-label="Paiement et annulation">

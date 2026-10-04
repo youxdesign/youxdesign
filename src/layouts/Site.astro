@@ -8,6 +8,7 @@ import Document from './Document.astro';
 import Entete from '../components/Entete.astro';
 import PiedDePage from '../components/PiedDePage.astro';
 import { cadres } from '../themes/registre.mjs';
+import Confort from '../components/options/Confort.astro';
 
 interface Props {
   site: any;
@@ -41,5 +42,6 @@ const Cadre = cadres[site.theme];
       <slot />
     </main>
     <PiedDePage site={site} />
+    <Confort site={site} />
   </Document>
 )}

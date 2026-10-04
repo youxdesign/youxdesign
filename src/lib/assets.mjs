@@ -17,6 +17,7 @@ import { build, transform } from 'esbuild';
 import { STYLES, PALETTES_LIBRES, style as trouverStyle, paletteDe } from '../config/catalogue.mjs';
 import { variablesCss } from './couleurs.mjs';
 import polices from '../config/polices.json' with { type: 'json' };
+const polices_ = polices;
 
 const racine = process.cwd();
 const lire = (chemin) => readFileSync(join(racine, chemin), 'utf8');
@@ -96,7 +97,7 @@ export async function feuilleSite(site) {
   if (!memo.has(cle)) {
     const theme = `src/themes/${site.theme}/theme.css`;
     const autonome = trouverStyle(site.theme).autonome;
-    const brut = reglages(site) + (autonome ? '' : lire('src/styles/base.css')) + (existsSync(join(racine, theme)) ? lire(theme) : '');
+    const brut = reglages(site) + (autonome ? '' : lire('src/styles/base.css')) + lire('src/styles/options.css') + (existsSync(join(racine, theme)) ? lire(theme) : '');
     const contenu = await compresser(brut);
     const nom = `${site.theme}.${empreinte(contenu)}.css`;
     memo.set(cle, { nom, url: `/css/${nom}`, contenu });
@@ -104,11 +105,17 @@ export async function feuilleSite(site) {
   return memo.get(cle);
 }
 
-/* Feuille de style d'un outil youXdesign (configurateur, page d'erreur…) */
+/* Feuille de style d'un outil youXdesign : « youx » (pages d'information) ou
+   « configurateur » (qui déclare aussi toutes les polices des styles, pour
+   les exemples de typographie ; seules celles affichées sont téléchargées). */
 export async function feuilleOutil(nom) {
   const cle = `outil:${nom}`;
   if (!memo.has(cle)) {
-    const brut = fontFaces(['instrument-sans', 'instrument-serif', 'cormorant-garamond']) + lire(`src/styles/${nom}.css`);
+    const polices = nom === 'configurateur'
+      ? Object.keys(polices_)
+      : ['instrument-sans', 'instrument-serif', 'cormorant-garamond'];
+    const fichiers = nom === 'configurateur' ? ['src/styles/youx.css', 'src/styles/configurateur.css'] : [`src/styles/${nom}.css`];
+    const brut = fontFaces(polices) + fichiers.map(lire).join('\n');
     const contenu = await compresser(brut);
     const fichier = `${nom}.${empreinte(contenu)}.css`;
     memo.set(cle, { nom: fichier, url: `/css/${fichier}`, contenu });

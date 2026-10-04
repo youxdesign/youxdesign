@@ -9,6 +9,8 @@ import { PAGES } from '../../config/catalogue.mjs';
 import { lien } from '../../lib/site.mjs';
 import { brut } from '../../lib/texte.mjs';
 import Rdv from './Rdv.astro';
+import Langues from '../../components/options/Langues.astro';
+import Confort from '../../components/options/Confort.astro';
 import { DOMAINE } from '../../config/youxdesign.mjs';
 
 interface Props {
@@ -25,7 +27,9 @@ interface Props {
 const props = Astro.props;
 const { site, page, scripts = [] } = props;
 const cab = site.cab, p = cab.praticien, c = cab.cabinet;
-const menu = PAGES.filter((x) => !x.legal && (x.id !== 'faq' || cab.a('faq')));
+const menu = PAGES.filter((x) => !x.legal && (x.id !== 'faq' || cab.a('faq') || site.vitrine));
+/* Lien vers la FAQ : masqué (démos) ou absent (sites) si l'option n'est pas choisie */
+const attributs = (x) => ({ 'data-page-lien': x.id, ...(x.id === 'faq' ? { 'data-option': 'faq', hidden: !cab.a('faq') } : {}) });
 const role = `${cab.metier} · ${c.ville}`;
 /* Mot en filigrane du pied de page : la partie en italique du titre d'accueil */
 const filigrane = (cab.pages.accueil.titre.match(/\*([^*]+)\*/) || [])[1] || cab.nomComplet;
@@ -35,17 +39,18 @@ const annee = new Date().getFullYear();
 <Document {...props} scripts={['sauge', ...scripts]}>
   <header class="header" data-entete>
     <div class="container header__inner">
-      <a class="brand" href={site.base}>
+      <a class="brand" href={site.base} data-visuel="logo">
         <span class="brand__name">{cab.nomComplet}</span>
         <span class="brand__role">{role}<span class="sr-only">, retour à l’accueil</span></span>
       </a>
       <nav class="nav" aria-label="Navigation principale">
         <ul>
           {menu.filter((x) => x.id !== 'accueil').map((x) => (
-            <li><a href={lien(site, x.id)} aria-current={x.id === page ? 'page' : undefined}>{x.menu}</a></li>
+            <li {...attributs(x)}><a href={lien(site, x.id)} aria-current={x.id === page ? 'page' : undefined}>{x.menu}</a></li>
           ))}
         </ul>
       </nav>
+      <Langues site={site} />
       <Rdv cab={cab} />
       <button class="burger" type="button" popovertarget="menu-mobile" aria-label="Ouvrir le menu"><span></span><span></span></button>
     </div>
@@ -61,7 +66,7 @@ const annee = new Date().getFullYear();
     </div>
     <nav aria-label="Navigation mobile">
       {menu.map((x, i) => (
-        <a href={lien(site, x.id)} aria-current={x.id === page ? 'page' : undefined}>{x.menu}<span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span></a>
+        <a href={lien(site, x.id)} aria-current={x.id === page ? 'page' : undefined} {...attributs(x)}>{x.menu}<span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span></a>
       ))}
     </nav>
     <div class="mobile-menu__foot">
@@ -85,7 +90,7 @@ const annee = new Date().getFullYear();
         <nav aria-labelledby="pied-cabinet">
           <h2 id="pied-cabinet">Le cabinet</h2>
           <ul>
-            {menu.map((x) => <li><a href={lien(site, x.id)}>{x.menu}</a></li>)}
+            {menu.map((x) => <li {...attributs(x)}><a href={lien(site, x.id)}>{x.menu}</a></li>)}
           </ul>
         </nav>
         <div>
@@ -115,6 +120,7 @@ const annee = new Date().getFullYear();
   </footer>
 
   <div class="mobile-cta" data-mobile-cta><Rdv cab={cab} /></div>
+  <Confort site={site} />
 
   {site.vitrine && (
     <div class="demo-bar" role="complementary" aria-label="Site de démonstration" data-demo-bar>

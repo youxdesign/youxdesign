@@ -1,0 +1,12 @@
+---
+/* Sélecteur de langue (option « Version anglaise ») */
+interface Props { site: any }
+const { site } = Astro.props;
+const actif = site.cab.a('multilingue');
+---
+{(actif || site.vitrine) && (
+  <p class="opt-langues" data-option="multilingue" hidden={!actif}>
+    <span aria-current="true">FR</span>
+    <a href="#" lang="en" hreflang="en" data-demo-action>EN<span class="sr-only"> English version</span></a>
+  </p>
+)}

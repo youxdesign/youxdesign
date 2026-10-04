@@ -7,6 +7,9 @@ import Urgence from '../components/Urgence.astro';
 import Respiration from '../components/Respiration.astro';
 import AppelFinal from '../components/AppelFinal.astro';
 import { ouvertures } from '../themes/registre.mjs';
+import Creneaux from '../components/options/Creneaux.astro';
+import Questionnaires from '../components/options/Questionnaires.astro';
+import Newsletter from '../components/options/Newsletter.astro';
 import { lien } from '../lib/site.mjs';
 import { meta, donneesCabinet } from '../lib/seo.mjs';
 import { enrichi } from '../lib/texte.mjs';
@@ -16,7 +19,8 @@ const { site } = Astro.props;
 const cab = site.cab, p = cab.praticien, c = cab.cabinet, t = cab.pages.accueil;
 const Ouverture = ouvertures[site.theme] || OuvertureBase;
 const m = meta(site, 'accueil');
-const scripts = [cab.a('statut') && 'statut', cab.a('respiration') && 'respiration'].filter(Boolean);
+const scripts = [cab.bloc('statut', site.vitrine).rendre && 'statut', cab.bloc('respiration', site.vitrine).rendre && 'respiration'].filter(Boolean);
+const respiration = cab.bloc('respiration', site.vitrine);
 
 const reperes = [
   p.diplome && { titre: `${cab.metier} ${cab.accord('diplômé')}`, texte: p.diplome },
@@ -41,6 +45,8 @@ const reperes = [
       </ul>
     </div>
   </section>
+
+  <Creneaux site={site} />
 
   {cab.motifs.length > 0 && (
     <section class="section section-motifs" aria-labelledby="motifs-titre">
@@ -88,7 +94,11 @@ const reperes = [
     </div>
   </section>
 
-  {cab.a('respiration') && <Respiration surtitre={t.respirationSurtitre} titre={t.respirationTitre} texte={t.respirationTexte} />}
+  <Questionnaires site={site} />
+
+  {respiration.rendre && <Respiration surtitre={t.respirationSurtitre} titre={t.respirationTitre} texte={t.respirationTexte} cache={respiration.cache} />}
+
+  <Newsletter site={site} />
 
   <div class="section section-urgence-accueil">
     <div class="conteneur"><Urgence cab={cab} /></div>

@@ -35,7 +35,7 @@ const textes = {
 };
 ---
 <figure class:list={['cadre-visuel', classe]}>
-  <div class:list={['visuel', `visuel--${type}`, { 'visuel--illustration': !photo }]}>
+  <div class:list={['visuel', `visuel--${type}`, { 'visuel--illustration': !photo }]} data-visuel={type}>
     {photo ? (
       <Picture
         src={photo}

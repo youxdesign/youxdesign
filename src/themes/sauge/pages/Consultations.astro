@@ -5,6 +5,7 @@ import TetePage from '../TetePage.astro';
 import Appel from '../Appel.astro';
 import Fleche from '../Fleche.astro';
 import Picto from '../../../components/Picto.astro';
+import Paiement from '../../../components/options/Paiement.astro';
 import { lien } from '../../../lib/site.mjs';
 import { meta, donneesFil } from '../../../lib/seo.mjs';
 import { enrichi } from '../../../lib/texte.mjs';
@@ -38,6 +39,8 @@ const intro = (t.intro || '').replace(/\s*Joignez-moi par téléphone\.?$/, '');
       {t.tarifsNote && <p class="muted prices-note" data-reveal>{t.tarifsNote}</p>}
     </div>
   </section>
+
+  <Paiement site={site} />
 
   {(t.paiement || t.annulation) && (
     <section class="section section--paper2" aria-label="Paiement et annulation">

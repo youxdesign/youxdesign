@@ -1,0 +1,23 @@
+---
+/* Lettre d'information */
+import Bloc from './Bloc.astro';
+interface Props { site: any }
+const { site } = Astro.props;
+const action = site.cab.contact.formulaires?.newsletter;
+const afficher = site.vitrine || Boolean(action);
+---
+{afficher && <Bloc site={site} id="newsletter" titre="Lettre d’information">
+  <div class="opt-conteneur">
+    <div class="opt-carte opt-newsletter">
+      <div class="opt-tete">
+        <p class="opt-surtitre">Lettre d’information</p>
+        <h2 class="opt-titre" id="opt-newsletter-titre">Recevoir mes articles</h2>
+        <p class="opt-texte">Un e-mail par mois, des repères simples pour prendre soin de soi. Désinscription en un clic.</p>
+      </div>
+      <form class="opt-formulaire opt-formulaire--ligne" method="post" action={site.vitrine ? undefined : action} data-demo-formulaire={site.vitrine ? '' : undefined}>
+        <label class="opt-champ"><span>Adresse e-mail</span><input type="email" name="email" autocomplete="email" required /></label>
+        <button class="opt-bouton" type={site.vitrine ? 'button' : 'submit'} data-demo-action={site.vitrine ? '' : undefined}>S’inscrire</button>
+      </form>
+    </div>
+  </div>
+</Bloc>}

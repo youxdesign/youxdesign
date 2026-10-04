@@ -26,7 +26,7 @@ const tarif = cab.tarifs[0];
         {p.public && <li>{p.public}</li>}
         {cab.cabinet.visio && <li>Visio possible</li>}
       </ul>
-      {cab.a('statut') && <Statut cab={cab} />}
+      {cab.bloc('statut', site.vitrine).rendre && <Statut cab={cab} cache={cab.bloc('statut', site.vitrine).cache} />}
     </div>
     <Visuel site={site} type="ambiance" prioritaire />
   </div>

@@ -1,0 +1,30 @@
+---
+/* Formulaire de rappel : prénom, téléphone, moment préféré. Jamais le motif. */
+import Bloc from './Bloc.astro';
+interface Props { site: any }
+const { site } = Astro.props;
+const action = site.cab.contact.formulaires?.rappel;
+const afficher = site.vitrine || Boolean(action);
+---
+{afficher && <Bloc site={site} id="rappel" titre="Être rappelé">
+  <div class="opt-conteneur">
+    <div class="opt-carte opt-rappel">
+      <div class="opt-tete">
+        <p class="opt-surtitre">Être rappelé</p>
+        <h2 class="opt-titre" id="opt-rappel-titre">Laissez votre numéro, je vous rappelle</h2>
+        <p class="opt-texte">Ne précisez pas le motif de votre demande : nous en parlerons de vive voix.</p>
+      </div>
+      <form class="opt-formulaire" method="post" action={site.vitrine ? undefined : action} data-demo-formulaire={site.vitrine ? '' : undefined}>
+        <label class="opt-champ"><span>Prénom</span><input name="prenom" autocomplete="given-name" required /></label>
+        <label class="opt-champ"><span>Téléphone</span><input type="tel" name="telephone" autocomplete="tel" required /></label>
+        <fieldset class="opt-choix">
+          <legend>Moment préféré</legend>
+          <label><input type="radio" name="moment" value="matin" checked /> Matin</label>
+          <label><input type="radio" name="moment" value="midi" /> Midi</label>
+          <label><input type="radio" name="moment" value="soir" /> Fin de journée</label>
+        </fieldset>
+        <button class="opt-bouton" type={site.vitrine ? 'button' : 'submit'} data-demo-action={site.vitrine ? '' : undefined}>Être rappelé</button>
+      </form>
+    </div>
+  </div>
+</Bloc>}

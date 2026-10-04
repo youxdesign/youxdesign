@@ -16,7 +16,7 @@ const photo = trouve ? trouve[1].default : null;
 const mono = cab.initiales[0] + cab.initiales.slice(1).toLowerCase();
 const alt = type === 'portrait' ? `Portrait de ${cab.nomComplet}` : `Le cabinet de ${cab.nomComplet}`;
 ---
-<figure class="portrait" data-mask>
+<figure class="portrait" data-mask data-visuel={type}>
   {photo ? (
     <Picture src={photo} alt={alt} formats={['avif', 'webp']} fallbackFormat="jpg" widths={[400, 640, 900]} sizes="(min-width: 900px) 40vw, 92vw" loading="lazy" />
   ) : (

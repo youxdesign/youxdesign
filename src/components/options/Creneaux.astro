@@ -1,0 +1,47 @@
+---
+/* Module de créneaux : prochains horaires libres, qui renvoient vers la réservation */
+import Bloc from './Bloc.astro';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab;
+const url = cab.rdv?.url || cab.tel.lien;
+const plateforme = cab.rdv?.plateforme || 'téléphone';
+/* Créneaux d'exemple : les trois prochains jours ouverts, à partir des horaires de la fiche */
+const JOURS = ['Lun.', 'Mar.', 'Mer.', 'Jeu.', 'Ven.', 'Sam.', 'Dim.'];
+const MOIS = ['janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'];
+const heure = (m) => `${Math.floor(m / 60)} h ${String(m % 60).padStart(2, '0')}`;
+const jours = [];
+const d = new Date();
+for (let i = 1; jours.length < 3 && i < 14; i++) {
+  const j = new Date(d.getFullYear(), d.getMonth(), d.getDate() + i);
+  const index = (j.getDay() + 6) % 7;
+  const plages = cab.horaires.compact[index] || [];
+  if (!plages.length) continue;
+  const [debut, fin] = plages[0];
+  const pas = Math.max(60, Math.floor((fin - debut) / 4 / 30) * 30);
+  const heures = [debut + 60, debut + 60 + pas, debut + 60 + 2 * pas].filter((h) => h + 50 <= fin).slice(0, 3);
+  jours.push({ libelle: `${JOURS[index]} ${j.getDate()} ${MOIS[j.getMonth()]}`, heures });
+}
+---
+<Bloc site={site} id="creneaux" titre="Prochains créneaux">
+  <div class="opt-conteneur">
+    <div class="opt-carte opt-creneaux">
+      <div class="opt-tete">
+        <p class="opt-surtitre">Rendez-vous</p>
+        <h2 class="opt-titre" id="opt-creneaux-titre">Prochains créneaux disponibles</h2>
+        <p class="opt-texte">Choisissez un horaire : la réservation se termine sur {plateforme}{cab.cabinet.visio ? ', au cabinet ou en visio' : ''}.</p>
+      </div>
+      <ul class="opt-creneaux__jours">
+        {jours.map((j) => (
+          <li>
+            <span class="opt-creneaux__jour">{j.libelle}</span>
+            <span class="opt-creneaux__heures">
+              {j.heures.map((h) => <a class="opt-pastille" href={url} target="_blank" rel="noopener">{heure(h)}<span class="sr-only"> le {j.libelle}, réserver sur {plateforme} (nouvel onglet)</span></a>)}
+            </span>
+          </li>
+        ))}
+      </ul>
+      {site.vitrine && <p class="opt-note">Exemple : sur votre site, les créneaux s’affichent en direct depuis votre agenda.</p>}
+    </div>
+  </div>
+</Bloc>

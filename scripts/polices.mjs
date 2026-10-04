@@ -37,7 +37,23 @@ const STATIQUES = [
   ['manrope', 'Manrope', 'sans-serif', ['400-normal', '600-normal']],
   ['shippori-mincho', 'Shippori Mincho', 'serif', ['400-normal', '500-normal']],
   ['zen-old-mincho', 'Zen Old Mincho', 'serif', ['400-normal']],
-  ['zen-kaku-gothic-new', 'Zen Kaku Gothic New', 'sans-serif', ['400-normal', '500-normal']]
+  ['zen-kaku-gothic-new', 'Zen Kaku Gothic New', 'sans-serif', ['400-normal', '500-normal']],
+  /* Choix supplémentaires proposés dans le configurateur */
+  ['playfair-display', 'Playfair Display', 'serif', ['400-normal', '400-italic']],
+  ['lora', 'Lora', 'serif', ['400-normal', '400-italic']],
+  ['eb-garamond', 'EB Garamond', 'serif', ['400-normal', '400-italic']],
+  ['corben', 'Corben', 'serif', ['400-normal']],
+  ['yeseva-one', 'Yeseva One', 'serif', ['400-normal']],
+  ['rufina', 'Rufina', 'serif', ['400-normal']],
+  ['dm-sans', 'DM Sans', 'sans-serif', ['400-normal', '600-normal']],
+  ['outfit', 'Outfit', 'sans-serif', ['400-normal', '600-normal']],
+  ['public-sans', 'Public Sans', 'sans-serif', ['400-normal', '600-normal']],
+  ['kaisei-tokumin', 'Kaisei Tokumin', 'serif', ['400-normal']],
+  ['zen-antique', 'Zen Antique', 'serif', ['400-normal']],
+  ['hina-mincho', 'Hina Mincho', 'serif', ['400-normal']],
+  ['inter-tight', 'Inter Tight', 'sans-serif', ['400-normal', '600-normal']],
+  ['space-grotesk', 'Space Grotesk', 'sans-serif', ['400-normal', '600-normal']],
+  ['archivo', 'Archivo', 'sans-serif', ['400-normal', '600-normal']]
 ];
 
 /* Polices variables : [identifiant, famille, type, fichier source, { style: axes conservés }, graisses annoncées]

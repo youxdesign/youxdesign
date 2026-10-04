@@ -3,9 +3,9 @@
 import { feuilleOutil, script } from '../lib/assets.mjs';
 import { DOMAINE } from '../config/youxdesign.mjs';
 
-interface Props { titre: string; description: string; chemin?: string | null; scripts?: string[]; indexable?: boolean; classe?: string }
-const { titre, description, chemin = '/', scripts = [], indexable = true, classe } = Astro.props;
-const css = await feuilleOutil('youx');
+interface Props { titre: string; description: string; chemin?: string | null; scripts?: string[]; indexable?: boolean; classe?: string; feuille?: 'youx' | 'configurateur' }
+const { titre, description, chemin = '/', scripts = [], indexable = true, classe, feuille = 'youx' } = Astro.props;
+const css = await feuilleOutil(feuille);
 const js = await Promise.all(scripts.map((s) => script(s)));
 ---
 <!doctype html>

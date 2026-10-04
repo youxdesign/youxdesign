@@ -6,25 +6,29 @@ import Icone from './Icone.astro';
 import BoutonRdv from './BoutonRdv.astro';
 import { PAGES } from '../config/catalogue.mjs';
 import { lien } from '../lib/site.mjs';
+import Langues from './options/Langues.astro';
 interface Props { site: any; page: string }
 const { site, page } = Astro.props;
 const cab = site.cab;
-const menu = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && (p.id !== 'faq' || cab.a('faq')));
+const menu = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && (p.id !== 'faq' || cab.a('faq') || site.vitrine));
+/* Lien vers la FAQ : masqué (démos) ou absent (sites) si l'option n'est pas choisie */
+const attributs = (p) => ({ 'data-page-lien': p.id, ...(p.id === 'faq' ? { 'data-option': 'faq', hidden: !cab.a('faq') } : {}) });
 const sousTitre = `${cab.metier} · ${cab.cabinet.ville}`;
 ---
 <header class="entete">
   <div class="conteneur entete__barre">
-    <a class="marque" href={site.base}>
+    <a class="marque" href={site.base} data-visuel="logo">
       <span class="marque__nom">{cab.nomComplet}</span>
       <span class="marque__metier">{sousTitre}<span class="sr-only">, retour à l’accueil</span></span>
     </a>
     <nav class="nav" aria-label="Navigation principale">
       <ul>
         {menu.map((p) => (
-          <li><a href={lien(site, p.id)} aria-current={p.id === page ? 'page' : undefined}>{p.menu}</a></li>
+          <li {...attributs(p)}><a href={lien(site, p.id)} aria-current={p.id === page ? 'page' : undefined}>{p.menu}</a></li>
         ))}
       </ul>
     </nav>
+    <Langues site={site} />
     <BoutonRdv cab={cab} classe="bouton bouton--petit entete__rdv" />
     <button class="bouton-menu" type="button" popovertarget="menu-mobile" aria-label="Ouvrir le menu">
       <Icone nom="menu" />
@@ -45,7 +49,7 @@ const sousTitre = `${cab.metier} · ${cab.cabinet.ville}`;
         <ul>
           <li><a href={site.base} aria-current={page === 'accueil' ? 'page' : undefined}>Accueil</a></li>
           {menu.map((p) => (
-            <li><a href={lien(site, p.id)} aria-current={p.id === page ? 'page' : undefined}>{p.menu}</a></li>
+            <li {...attributs(p)}><a href={lien(site, p.id)} aria-current={p.id === page ? 'page' : undefined}>{p.menu}</a></li>
           ))}
         </ul>
       </nav>

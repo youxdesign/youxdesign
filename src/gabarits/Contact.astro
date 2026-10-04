@@ -6,6 +6,7 @@ import Urgence from '../components/Urgence.astro';
 import Plan from '../components/Plan.astro';
 import Statut from '../components/Statut.astro';
 import BoutonRdv from '../components/BoutonRdv.astro';
+import Rappel from '../components/options/Rappel.astro';
 import { lien } from '../lib/site.mjs';
 import { meta, donneesCabinet, donneesFil } from '../lib/seo.mjs';
 
@@ -13,7 +14,8 @@ interface Props { site: any }
 const { site } = Astro.props;
 const cab = site.cab, c = cab.cabinet, t = cab.pages.contact;
 const m = meta(site, 'contact');
-const scripts = [cab.a('carte') && 'carte', cab.a('statut') && 'statut'].filter(Boolean);
+const carte = cab.bloc('carte', site.vitrine), statut = cab.bloc('statut', site.vitrine);
+const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Boolean);
 ---
 <Site site={site} page="contact" titre={m.titre} description={m.description} chemin={lien(site, 'contact')} jsonld={[donneesCabinet(site), donneesFil(site, 'contact')]} scripts={scripts}>
   <TetePage surtitre={t.surtitre || 'Contact'} titre={t.titre} intro={t.intro}>
@@ -62,11 +64,13 @@ const scripts = [cab.a('carte') && 'carte', cab.a('statut') && 'statut'].filter(
             <li class:list={{ ferme: g.ferme }}><span>{g.libelle}</span><span>{g.texte}</span></li>
           ))}
         </ul>
-        {cab.a('statut') && <Statut cab={cab} />}
+        {statut.rendre && <Statut cab={cab} cache={statut.cache} />}
         <p class="sans-formulaire">Pour protéger votre confidentialité, ce site ne propose pas de formulaire de contact : appelez ou écrivez directement.</p>
       </div>
     </div>
   </section>
+
+  <Rappel site={site} />
 
   <div class="section section--serree">
     <div class="conteneur"><Urgence cab={cab} compact /></div>
@@ -85,7 +89,7 @@ const scripts = [cab.a('carte') && 'carte', cab.a('statut') && 'statut'].filter(
           ))}
         </ul>
       </div>
-      {cab.a('carte') ? <Plan cab={cab} /> : (
+      {carte.rendre ? <div data-option="carte" hidden={carte.cache}><Plan cab={cab} /></div> : (
         <p><a class="lien-fleche" href={`https://www.openstreetmap.org/search?query=${encodeURIComponent(cab.adresse.uneLigne)}`} target="_blank" rel="noopener">Voir le plan<span class="sr-only"> (nouvel onglet)</span></a></p>
       )}
     </div>

@@ -7,6 +7,7 @@ import Rdv from '../Rdv.astro';
 import Fleche from '../Fleche.astro';
 import Urgence from '../Urgence.astro';
 import Picto from '../../../components/Picto.astro';
+import Rappel from '../../../components/options/Rappel.astro';
 import { lien } from '../../../lib/site.mjs';
 import { meta, donneesCabinet, donneesFil } from '../../../lib/seo.mjs';
 import { enrichi } from '../../../lib/texte.mjs';
@@ -23,6 +24,7 @@ const dLat = 0.0045, dLng = 0.0075;
 const integration = geo ? `https://www.openstreetmap.org/export/embed.html?bbox=${geo.lng - dLng}%2C${geo.lat - dLat}%2C${geo.lng + dLng}%2C${geo.lat + dLat}&layer=mapnik&marker=${geo.lat}%2C${geo.lng}` : null;
 const itineraire = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(adresse)}`;
 /* Jours de chaque ligne d'horaires (0 = dimanche), pour surligner le jour même */
+const statut = cab.bloc('statut', site.vitrine), carte = cab.bloc('carte', site.vitrine);
 const joursJs = (g) => g.jours.map((j) => (j.index + 1) % 7).join(',');
 ---
 <Cadre site={site} page="contact" titre={m.titre} description={m.description} chemin={lien(site, 'contact')} jsonld={[donneesCabinet(site), donneesFil(site, 'contact')]}>
@@ -33,8 +35,8 @@ const joursJs = (g) => g.jours.map((j) => (j.index + 1) % 7).join(',');
   <section class="section section--flush" aria-label="Coordonnées et horaires">
     <div class="container contact-grid">
       <div class="contact-card" data-reveal>
-        {cab.a('statut') && (
-          <p class="open-status" data-statut data-horaires={JSON.stringify(cab.horaires.compact)}>
+        {statut.rendre && (
+          <p class="open-status" data-statut data-option="statut" hidden={statut.cache} data-horaires={JSON.stringify(cab.horaires.compact)}>
             <span class="dot" aria-hidden="true"></span><span><span data-statut-texte>Sur rendez-vous</span> · <span data-statut-detail>{c.horairesNote || 'voir les horaires'}</span></span>
           </p>
         )}
@@ -66,6 +68,8 @@ const joursJs = (g) => g.jours.map((j) => (j.index + 1) % 7).join(',');
     </div>
   </section>
 
+  <Rappel site={site} />
+
   <section class="section section--paper2" aria-labelledby="acces-titre">
     <div class="container">
       <div class="section-head section-head--split">
@@ -76,8 +80,8 @@ const joursJs = (g) => g.jours.map((j) => (j.index + 1) % 7).join(',');
         <p class="lead" data-reveal>{adresse}. Le lien vers l’itinéraire s’ouvre dans votre application de cartes.</p>
       </div>
 
-      {cab.a('carte') && (
-        <div class="map plan" data-plan data-src={integration} data-titre={`Carte interactive : ${adresse}`} data-reveal="fade">
+      {carte.rendre && (
+        <div class="map plan" data-option="carte" hidden={carte.cache} data-plan data-src={integration} data-titre={`Carte interactive : ${adresse}`} data-reveal="fade">
           {plan && <Picture src={plan} alt={`Plan du quartier autour du ${adresse}. Le cabinet est au centre de la carte.`} formats={['avif', 'webp']} fallbackFormat="jpg" widths={[480, 640, 800, 1024, 1280]} sizes="(min-width: 1248px) 1200px, 94vw" loading="lazy" />}
           <div class="map__pin" aria-hidden="true"><i></i><span></span></div>
           <div class="map__panel">

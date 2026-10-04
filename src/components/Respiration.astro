@@ -4,10 +4,10 @@
    Si le visiteur a demandé à réduire les animations, seules les consignes
    écrites changent. */
 import TitreSection from './TitreSection.astro';
-interface Props { surtitre?: string; titre: string; texte?: string }
-const { surtitre = 'Exercice d’une minute', titre, texte } = Astro.props;
+interface Props { surtitre?: string; titre: string; texte?: string; cache?: boolean }
+const { surtitre = 'Exercice d’une minute', titre, texte, cache = false } = Astro.props;
 ---
-<section class="section section--teinte" aria-labelledby="respiration-titre">
+<section class="section section--teinte" aria-labelledby="respiration-titre" data-option="respiration" hidden={cache}>
   <div class="conteneur respiration" data-respiration>
     <TitreSection surtitre={surtitre} titre={titre} intro={texte} id="respiration-titre">
       <p class="respiration__aide">Inspirez pendant 4 secondes, retenez votre souffle 2 secondes, puis expirez pendant 6 secondes.</p>

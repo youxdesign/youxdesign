@@ -5,7 +5,7 @@ import { feuilleSite, feuilleOutil } from '../../lib/assets.mjs';
 
 export async function getStaticPaths() {
   const feuilles = await Promise.all(sites().map((s) => feuilleSite(s)));
-  if (MODE === 'vitrine') feuilles.push(await feuilleOutil('youx'));
+  if (MODE === 'vitrine') feuilles.push(await feuilleOutil('youx'), await feuilleOutil('configurateur'));
   return feuilles.map((f) => ({ params: { fichier: f.nom }, props: { contenu: f.contenu } }));
 }
 
