@@ -1,0 +1,27 @@
+---
+/* Éditorial : comme la une d'un magazine. Colonne de repères, grand titre
+   en italique, puis le portrait légendé. */
+import BoutonRdv from '../../components/BoutonRdv.astro';
+import Visuel from '../../components/Visuel.astro';
+import { textes } from '../../lib/site.mjs';
+import { enrichi } from '../../lib/texte.mjs';
+import { choisir } from '../../lib/faits.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, c = cab.cabinet;
+const t = textes(site, 'accueil');
+const reperes = choisir(cab, ['approche', 'public', 'lieu', 'horaires', 'numero']);
+---
+<section class="une" aria-labelledby="titre-page">
+  <div class="conteneur une__grille">
+    <dl class="une__reperes">
+      {reperes.map((r) => <div><dt>{r.cle}</dt><dd>{r.valeur}</dd></div>)}
+    </dl>
+    <div class="une__texte">
+      <h1 id="titre-page" set:html={enrichi(t.titre)} />
+      <p class="chapeau">{t.intro}</p>
+      <BoutonRdv cab={cab} classe="bouton une__bouton" />
+    </div>
+    <Visuel site={site} type="portrait" prioritaire classe="une__portrait" legende={`${cab.nomComplet}, au cabinet du ${c.quartier || c.ville}`} tailles="(min-width: 56rem) 28vw, 90vw" />
+  </div>
+</section>

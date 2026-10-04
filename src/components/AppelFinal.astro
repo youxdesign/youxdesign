@@ -1,0 +1,21 @@
+---
+/* Bandeau d'appel en bas de page : titre, texte, bouton de rendez-vous. */
+import BoutonRdv from './BoutonRdv.astro';
+import { enrichi } from '../lib/texte.mjs';
+interface Props { cab: any; titre: string; texte?: string; secondaire?: { href: string; texte: string } }
+const { cab, titre, texte, secondaire } = Astro.props;
+const c = cab.cabinet;
+---
+<section class="section section--profonde appel-final" aria-labelledby="appel-titre">
+  <div class="conteneur appel">
+    <div class="appel__texte">
+      <h2 id="appel-titre" set:html={enrichi(titre)} />
+      {texte && <p class="chapeau">{texte}</p>}
+      <p class="appel__lieu">{cab.adresse.uneLigne}{c.visio ? ' · Consultations au cabinet et en visio' : ''}</p>
+    </div>
+    <div class="boutons">
+      <BoutonRdv cab={cab} />
+      {secondaire ? <a class="bouton bouton--secondaire" href={secondaire.href}>{secondaire.texte}</a> : <a class="bouton bouton--secondaire" href={cab.tel.lien}>{cab.tel.affiche}</a>}
+    </div>
+  </div>
+</section>

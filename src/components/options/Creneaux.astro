@@ -1,0 +1,33 @@
+---
+/* Module de créneaux : prochains horaires libres, qui renvoient vers la réservation */
+import Bloc from './Bloc.astro';
+import { creneaux, heure } from '../../lib/creneaux.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab;
+const url = cab.rdv?.url || cab.tel.lien;
+const plateforme = cab.rdv?.plateforme || 'téléphone';
+const jours = creneaux(cab);
+---
+<Bloc site={site} id="creneaux" titre="Prochains créneaux">
+  <div class="opt-conteneur">
+    <div class="opt-carte opt-creneaux">
+      <div class="opt-tete">
+        <p class="opt-surtitre">Rendez-vous</p>
+        <h2 class="opt-titre" id="opt-creneaux-titre">Prochains créneaux disponibles</h2>
+        <p class="opt-texte">Choisissez un horaire : la réservation se termine sur {plateforme}{cab.cabinet.visio ? ', au cabinet ou en visio' : ''}.</p>
+      </div>
+      <ul class="opt-creneaux__jours">
+        {jours.map((j) => (
+          <li>
+            <span class="opt-creneaux__jour">{j.libelle}</span>
+            <span class="opt-creneaux__heures">
+              {j.heures.map((h) => <a class="opt-pastille" href={url} target="_blank" rel="noopener">{heure(h)}<span class="sr-only"> le {j.libelle}, réserver sur {plateforme} (nouvel onglet)</span></a>)}
+            </span>
+          </li>
+        ))}
+      </ul>
+      {site.vitrine && <p class="opt-note">Exemple : sur votre site, les créneaux s’affichent en direct depuis votre agenda.</p>}
+    </div>
+  </div>
+</Bloc>

@@ -1,0 +1,88 @@
+---
+import Site from '../layouts/Site.astro';
+import TetePage from '../components/TetePage.astro';
+import TitreSection from '../components/TitreSection.astro';
+import Cercle from '../components/Cercle.astro';
+import AppelFinal from '../components/AppelFinal.astro';
+import Ressources from '../components/options/Ressources.astro';
+import Ateliers from '../components/options/Ateliers.astro';
+import { lien } from '../lib/site.mjs';
+import { meta, donneesFil } from '../lib/seo.mjs';
+import { enrichi } from '../lib/texte.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, t = cab.pages.approche;
+const m = meta(site, 'approche');
+---
+<Site site={site} page="approche" titre={m.titre} description={m.description} chemin={lien(site, 'approche')} jsonld={[donneesFil(site, 'approche')]}>
+  <TetePage surtitre="Mon approche" titre={t.titre} intro={t.intro} />
+
+  {t.cercle && (
+    <section class="section section--teinte" aria-labelledby="cercle-titre-section">
+      <div class="conteneur deux-colonnes">
+        <div>
+          <TitreSection surtitre={t.cercleSurtitre || 'Le principe'} numero={1} titre={t.cercleTitre} id="cercle-titre-section" />
+          <div class="texte">{t.cercle.map((x) => <p>{x}</p>)}</div>
+        </div>
+        {t.cercleNoeuds && <Cercle etiquettes={t.cercleNoeuds.map((n) => n.titre)} />}
+      </div>
+    </section>
+  )}
+
+  {t.deroule && (
+    <section class="section" aria-labelledby="deroule-titre">
+      <div class="conteneur">
+        <TitreSection surtitre={t.derouleSurtitre || 'Le déroulé'} numero={2} titre={t.derouleTitre} intro={t.derouleIntro} id="deroule-titre" />
+        <ol class="chronologie">
+          {t.deroule.map((j) => (
+            <li class="jalon apparait">
+              <span class="jalon__date">{j.date}</span>
+              <h3>{j.titre}</h3>
+              {j.texte && <p>{j.texte}</p>}
+            </li>
+          ))}
+        </ol>
+        {t.dureeTitre && (
+          <div class="encadre apparait">
+            <h3 set:html={enrichi(t.dureeTitre)} />
+            {t.duree && <ul class="encadre__chiffres">{t.duree.map((d) => <li><strong>{d.de} à {d.a}</strong> {d.texte}</li>)}</ul>}
+            {t.dureeTexte && <p>{t.dureeTexte}</p>}
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  {t.outils && (
+    <section class="section section--teinte" aria-labelledby="outils-titre">
+      <div class="conteneur">
+        <TitreSection surtitre={t.outilsSurtitre || 'Les outils'} numero={3} titre={t.outilsTitre} intro={t.outilsIntro} id="outils-titre" />
+        <ul class="grille cartes outils">
+          {t.outils.map((o) => (
+            <li class="carte apparait">
+              <h3>{o.titre}</h3>
+              {o.texte && <p>{o.texte}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  {t.cadre && (
+    <section class="section" aria-labelledby="cadre-titre">
+      <div class="conteneur deux-colonnes deux-colonnes--texte">
+        <TitreSection surtitre={t.cadreSurtitre || 'Le cadre'} numero={4} titre={t.cadreTitre} intro={t.cadreIntro} id="cadre-titre" />
+        <ul class="coches">
+          {t.cadre.map((x) => <li class="apparait" set:html={enrichi(x)} />)}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <Ressources site={site} />
+  <Ateliers site={site} />
+
+  <AppelFinal cab={cab} titre={t.finTitre} texte={t.finTexte} />
+</Site>

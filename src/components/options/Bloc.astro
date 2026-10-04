@@ -1,0 +1,18 @@
+---
+/* ==========================================================================
+   Enveloppe d'un bloc d'option (créneaux, rappel, questionnaires…).
+   - Site d'un cabinet : le bloc n'existe que si l'option est choisie.
+   - Démos youXdesign : tous les blocs sont présents, masqués si l'option
+     n'est pas active, pour que le configurateur puisse les montrer.
+   ========================================================================== */
+interface Props { site: any; id: string; titre?: string; classe?: string; balise?: 'section' | 'div' | 'aside' }
+const { site, id, titre, classe, balise = 'section' } = Astro.props;
+const actif = site.cab.a(id);
+const Balise = balise;
+const idTitre = titre ? `opt-${id}-titre` : undefined;
+---
+{(actif || site.vitrine) && (
+  <Balise class:list={['opt', `opt--${id}`, classe]} data-option={id} hidden={!actif} aria-labelledby={idTitre}>
+    <slot />
+  </Balise>
+)}

@@ -1,0 +1,20 @@
+---
+/* Paiement en ligne à la réservation */
+import Bloc from './Bloc.astro';
+import Picto from '../Picto.astro';
+interface Props { site: any }
+const { site } = Astro.props;
+---
+<Bloc site={site} id="paiement" titre="Paiement en ligne">
+  <div class="opt-conteneur">
+    <div class="opt-carte opt-paiement">
+      <span class="opt-pictogramme"><Picto nom="cb" /></span>
+      <div class="opt-tete">
+        <p class="opt-surtitre">Paiement en ligne</p>
+        <h2 class="opt-titre" id="opt-paiement-titre">Réglez votre séance en quelques secondes</h2>
+        <p class="opt-texte">Vous pouvez régler votre séance, ou un acompte, au moment de la réservation, par carte bancaire. La facture vous est envoyée par e-mail.</p>
+        <p class="opt-note">Le paiement est assuré par un prestataire spécialisé : vos données bancaires ne transitent pas par ce site.</p>
+      </div>
+    </div>
+  </div>
+</Bloc>

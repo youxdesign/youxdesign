@@ -1,0 +1,32 @@
+---
+/* Pastel doux : formes rondes et tendres (soleil, collines douces, plante,
+   fauteuil arrondi), en attendant les vraies photos. */
+interface Props { type: 'portrait' | 'cabinet' | 'ambiance'; cab: any; variante?: number }
+const { type, cab } = Astro.props;
+---
+{type === 'portrait' ? (
+  <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="400" height="500" />
+    <circle class="il-surface" cx="200" cy="180" r="110" opacity=".7" />
+    <circle class="il-clair" cx="200" cy="200" r="62" />
+    <path class="il-accent" d="M80 500c0-90 54-150 120-150s120 60 120 150z" />
+    <text class="il-texte" x="200" y="218" text-anchor="middle" font-size="44">{cab.initiales}</text>
+  </svg>
+) : type === 'cabinet' ? (
+  <svg viewBox="0 0 600 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="600" height="450" />
+    <circle class="il-surface" cx="440" cy="140" r="80" />
+    <path class="il-doux2" d="M0 340c100-30 200-30 300 0s200 30 300 0v110H0z" />
+    <rect class="il-accent" x="110" y="220" width="200" height="110" rx="55" />
+    <rect class="il-clair" x="130" y="180" width="160" height="80" rx="40" />
+    <path class="il-accent2" d="M450 330c-10-60 10-110 50-140 10 50-4 100-30 140z" opacity=".7" />
+    <rect class="il-encre" x="430" y="320" width="70" height="60" rx="18" opacity=".2" />
+  </svg>
+) : (
+  <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="600" height="400" />
+    <circle class="il-surface" cx="180" cy="140" r="80" />
+    <path class="il-clair" d="M0 280c120-50 240-50 360-10s170 30 240 0v130H0z" />
+    <path class="il-accent" d="M0 330c150-40 290-36 410 0s130 20 190 0v70H0z" opacity=".75" />
+  </svg>
+)}

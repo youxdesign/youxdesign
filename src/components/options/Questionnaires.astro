@@ -1,0 +1,33 @@
+---
+/* Questionnaires en ligne : avant ou entre les séances */
+import Bloc from './Bloc.astro';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab;
+const liste = [
+  { titre: 'Fiche de premier rendez-vous', detail: 'Vos attentes et vos disponibilités · 5 min' },
+  { titre: 'Anxiété (GAD-7)', detail: 'Auto-évaluation · 7 questions · 2 min' },
+  { titre: 'Humeur (PHQ-9)', detail: 'Auto-évaluation · 9 questions · 3 min' }
+];
+---
+<Bloc site={site} id="questionnaires" titre="Questionnaires">
+  <div class="opt-conteneur">
+    <div class="opt-carte">
+      <div class="opt-tete">
+        <p class="opt-surtitre">Avant votre premier rendez-vous</p>
+        <h2 class="opt-titre" id="opt-questionnaires-titre">Questionnaires en ligne</h2>
+        <p class="opt-texte">Si vous le souhaitez, vous pouvez remplir ces questionnaires avant une séance. Ils sont facultatifs et nous en reparlerons ensemble.</p>
+      </div>
+      <ul class="opt-grille">
+        {liste.map((q) => (
+          <li class="opt-element">
+            <span class="opt-element__titre">{q.titre}</span>
+            <span class="opt-element__detail">{q.detail}</span>
+            <button class="opt-bouton opt-bouton--clair" type="button" data-demo-action>Remplir</button>
+          </li>
+        ))}
+      </ul>
+      <p class="opt-note" data-option="hds" hidden={!cab.a('hds')}>Vos réponses sont chiffrées et hébergées chez un hébergeur certifié pour les données de santé (HDS), en France.</p>
+    </div>
+  </div>
+</Bloc>

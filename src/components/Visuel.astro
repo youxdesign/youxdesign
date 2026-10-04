@@ -1,0 +1,59 @@
+---
+/* ==========================================================================
+   Visuel : photo du cabinet si elle existe, illustration provisoire sinon.
+
+   Pour remplacer une illustration par une vraie photo, déposez le fichier
+   dans cabinets/<cabinet>/images/ avec l'un de ces noms :
+     portrait.jpg   ·   cabinet.jpg   ·   ambiance.jpg
+   (jpg, png ou webp). La photo est automatiquement redimensionnée et
+   convertie en AVIF et WebP, avec repli JPEG pour les anciens navigateurs.
+   Variantes (diaporama du style Immersif) : ambiance-2.jpg, ambiance-3.jpg…
+   ========================================================================== */
+import { Picture } from 'astro:assets';
+import { illustrations } from '../themes/registre.mjs';
+import IllustrationBase from './IllustrationBase.astro';
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/cabinets/*/images/*.{jpg,jpeg,png,webp,avif}', { eager: true });
+
+interface Props {
+  site: any;
+  type: 'portrait' | 'cabinet' | 'ambiance';
+  alt?: string;
+  legende?: string;
+  prioritaire?: boolean;
+  tailles?: string;
+  classe?: string;
+  variante?: number;
+}
+const { site, type, alt, legende, prioritaire = false, tailles = '(min-width: 56rem) 40vw, 100vw', classe, variante = 1 } = Astro.props;
+const cab = site.cab;
+const fichier = variante > 1 ? `${type}-${variante}` : type;
+const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${fichier}.`))
+  || (variante > 1 ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`)) : undefined);
+const photo = trouve ? trouve[1].default : null;
+const Illustration = illustrations[site.theme] || IllustrationBase;
+const textes = {
+  portrait: `Portrait de ${cab.nomComplet}`,
+  cabinet: `Le cabinet de ${cab.nomComplet}`,
+  ambiance: ''
+};
+---
+<figure class:list={['cadre-visuel', classe]}>
+  <div class:list={['visuel', `visuel--${type}`, { 'visuel--illustration': !photo }]} data-visuel={type}>
+    {photo ? (
+      <Picture
+        src={photo}
+        alt={alt ?? textes[type]}
+        formats={['avif', 'webp']}
+        fallbackFormat="jpg"
+        widths={[480, 800, 1200]}
+        sizes={tailles}
+        loading={prioritaire ? 'eager' : 'lazy'}
+        fetchpriority={prioritaire ? 'high' : undefined}
+      />
+    ) : (
+      <Illustration type={type} cab={cab} variante={variante} />
+    )}
+  </div>
+  {legende && <figcaption class="legende">{legende}</figcaption>}
+</figure>

@@ -1,0 +1,88 @@
+---
+import Site from '../layouts/Site.astro';
+import TetePage from '../components/TetePage.astro';
+import TitreSection from '../components/TitreSection.astro';
+import Visuel from '../components/Visuel.astro';
+import AppelFinal from '../components/AppelFinal.astro';
+import { lien } from '../lib/site.mjs';
+import { meta, donneesFil } from '../lib/seo.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien, t = cab.pages['a-propos'];
+const m = meta(site, 'a-propos');
+const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps}`].filter(Boolean);
+---
+<Site site={site} page="a-propos" titre={m.titre} description={m.description} chemin={lien(site, 'a-propos')} jsonld={[donneesFil(site, 'a-propos')]}>
+  <TetePage surtitre="À propos" titre={t.titre} intro={t.intro} classe="tete-page--visuel">
+    {numeros.length > 0 && <p slot="texte" class="numeros">{numeros.map((n) => <span>{n}</span>)}</p>}
+    <Visuel site={site} type="cabinet" legende={[t.cabinetLegende, t.cabinetDetail].filter(Boolean).join(', ')} prioritaire tailles="(min-width: 56rem) 45vw, 100vw" />
+  </TetePage>
+
+  {t.demarche && (
+    <section class="section section--teinte" aria-labelledby="demarche-titre">
+      <div class="conteneur deux-colonnes deux-colonnes--texte demarche">
+        <TitreSection surtitre={t.demarcheSurtitre || 'Ma démarche'} titre={t.demarcheTitre} id="demarche-titre" />
+        <div class="texte demarche__texte">
+          {t.demarche.map((x) => <p>{x}</p>)}
+          <p class="signature">{cab.nomComplet}</p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  {t.parcours && (
+    <section class="section" aria-labelledby="parcours-titre">
+      <div class="conteneur">
+        <TitreSection surtitre={t.parcoursSurtitre || 'Parcours'} numero={1} titre={t.parcoursTitre} intro={t.parcoursIntro} id="parcours-titre" />
+        <ol class="chronologie">
+          {t.parcours.map((j) => (
+            <li class="jalon apparait">
+              <span class="jalon__date">{j.date}</span>
+              <h3>{j.titre}</h3>
+              {j.texte && <p>{j.texte}</p>}
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )}
+
+  {t.formations && (
+    <section class="section" aria-labelledby="formations-titre">
+      <div class="conteneur">
+        <TitreSection surtitre={t.formationsSurtitre || 'Formations complémentaires'} numero={2} titre={t.formationsTitre} intro={t.formationsIntro} id="formations-titre" />
+        <ul class="grille cartes formations">
+          {t.formations.map((f) => (
+            <li class="carte apparait">
+              <span class="jalon__date">{f.date}</span>
+              <h3>{f.titre}</h3>
+              {f.texte && <p>{f.texte}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  {t.valeurs && (
+    <section class="section section--teinte" aria-labelledby="valeurs-titre">
+      <div class="conteneur deux-colonnes deux-colonnes--texte valeurs">
+        <TitreSection surtitre={t.valeursSurtitre || 'Valeurs'} numero={3} titre={t.valeursTitre} id="valeurs-titre" />
+        <ol class="points">
+          {t.valeurs.map((v, i) => (
+            <li class="point apparait">
+              <span class="point__marque" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+              <div>
+                <h3>{v.titre}</h3>
+                {v.texte && <p>{v.texte}</p>}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )}
+
+  <AppelFinal cab={cab} titre={t.finTitre} texte={t.finTexte} />
+</Site>

@@ -1,0 +1,160 @@
+/* ==========================================================================
+   Style « Wabi-sabi »
+   L'esthétique japonaise de l'imperfection : asymétrie, matières naturelles
+   (lin, encre, rouille), typographie fine et beaucoup de silence visuel.
+   ========================================================================== */
+:root {
+  --r-petit: 2px;
+  --r: 2px;
+  --r-grand: 2px;
+  --r-bouton: 2px;
+  --r-visuel: 0;
+  --lh-titres: 1.22;
+  --ls-titres: .005em;
+  --ls-surtitre: .3em;
+  --lh-texte: 1.85;
+  --t-h1: clamp(2.25rem, 1.55rem + 2.9vw, 3.875rem);
+  --t-h2: clamp(1.75rem, 1.4rem + 1.5vw, 2.625rem);
+  --t-h3: clamp(1.125rem, 1.08rem + .25vw, 1.3125rem);
+  --e-section: clamp(5rem, 3rem + 7vw, 10rem);
+  --numeros: lower-roman;
+  --ombre: none;
+}
+
+h1 em, h2 em, h3 em, .titre em { font-style: normal; color: var(--c-lien); }
+.surtitre { font-weight: 400; font-size: .75rem; }
+.surtitre__num { color: var(--c-lien); }
+.chapeau { line-height: 1.75; }
+
+/* --- En-tête : sobre, sans bouton ------------------------------------------ */
+.entete { border-bottom-color: transparent; }
+.marque__nom { font-size: 1.375rem; letter-spacing: .01em; }
+.marque__metier { font-weight: 400; letter-spacing: .2em; }
+.nav a { font-size: .875rem; letter-spacing: .04em; }
+.nav a:hover { background: none; text-decoration: underline; text-underline-offset: .4em; }
+.nav a[aria-current='page'] { font-weight: 400; text-decoration: underline; text-underline-offset: .4em; }
+@media (min-width: 70rem) { .entete__rdv { display: none; } }
+
+/* --- Boutons et liens ------------------------------------------------------ */
+.bouton { font-weight: 500; letter-spacing: .03em; }
+.lien-fleche { font-weight: 500; letter-spacing: .02em; }
+
+/* --- Ouverture : mention verticale, image décalée, cercle ensō ------------- */
+.une { padding-block: clamp(3rem, 2rem + 5vw, 7rem) clamp(2rem, 1rem + 4vw, 5rem); overflow-x: clip; }
+.une__grille { display: grid; gap: clamp(2.5rem, 1.5rem + 4vw, 5rem); align-items: center; }
+.une__vertical {
+  font-size: .6875rem;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  color: var(--c-texte2);
+}
+.une__texte { display: grid; gap: var(--e-6); justify-items: start; max-width: 34rem; }
+.une__texte h1 { font-weight: 400; }
+.une__liens { display: flex; flex-wrap: wrap; align-items: center; gap: var(--e-3) var(--e-6); }
+.une__lien {
+  display: inline-flex;
+  align-items: center;
+  gap: .6em;
+  min-height: 2.75rem;
+  color: var(--c-encre);
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-decoration: none;
+  border-bottom: 1px solid var(--c-encre);
+}
+.une__lien::after { content: ''; width: 1.75rem; height: 1px; background: currentColor; transition: width var(--duree) var(--courbe); }
+.une__lien:hover::after { width: 2.5rem; }
+.une__lien svg { width: .9em; height: .9em; }
+.une__lien--discret { font-weight: 400; color: var(--c-texte2); border-bottom-color: transparent; }
+.une__lien--discret::after { display: none; }
+.une__lien--discret:hover { color: var(--c-encre); border-bottom-color: currentColor; }
+.une__visuel { position: relative; isolation: isolate; }
+.une__visuel .visuel { --ratio: 4 / 5; }
+.une__enso {
+  position: absolute;
+  z-index: -1;
+  top: -9%;
+  left: -14%;
+  width: 62%;
+  overflow: visible;
+}
+.une__enso path { fill: none; stroke: var(--c-accent-doux); stroke-width: 9; stroke-linecap: round; }
+@media (min-width: 56rem) {
+  .une__grille { grid-template-columns: auto minmax(0, 6fr) minmax(0, 5fr); column-gap: clamp(2rem, 1rem + 3vw, 4.5rem); }
+  .une__vertical { writing-mode: vertical-rl; transform: rotate(180deg); align-self: center; }
+  .une__visuel { margin-top: -2rem; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .une__enso path { stroke-dasharray: 520; stroke-dashoffset: 520; animation: wabi-enso 2.4s var(--courbe) .3s forwards; }
+}
+@keyframes wabi-enso { to { stroke-dashoffset: 0; } }
+
+/* --- Repères : filets fins ------------------------------------------------- */
+.repere { border-top-color: var(--c-ligne-forte); }
+.repere__titre { font-weight: 500; }
+
+/* --- Cartes : de simples filets ------------------------------------------- */
+.cartes, .motifs { gap: 2.5rem var(--e-6); }
+.carte { gap: var(--e-2); padding: var(--e-5) 0 0; border: 0; border-top: 1px solid var(--c-ligne-forte); border-radius: 0; background: none; }
+.carte h3 { font-weight: 400; }
+.motif__num { display: none; }
+
+/* --- Présentation ---------------------------------------------------------- */
+.section--teinte { background: var(--c-fond2); }
+
+/* --- Étapes : chiffres romains couleur rouille ----------------------------- */
+.etapes { gap: 2.5rem var(--e-6); }
+.etape__num {
+  width: auto;
+  height: auto;
+  place-items: start;
+  background: none;
+  font-size: clamp(1.75rem, 1.5rem + 1vw, 2.25rem);
+  font-weight: 400;
+  line-height: 1;
+  color: var(--c-lien);
+}
+.etape h3 { font-weight: 400; }
+
+/* --- Respiration : encre, sphère rouille ----------------------------------- */
+.section-respiration { --sphere-1: var(--c-clair); --sphere-2: var(--c-accent); --sphere-3: var(--c-accent2-texte); }
+.respiration h2 { font-weight: 400; }
+
+/* --- Tarifs et carte de lin ------------------------------------------------ */
+.ligne-tarif__nom, .ligne-tarif__prix { font-weight: 400; }
+.infos { background: var(--c-doux); }
+
+/* --- Plan ------------------------------------------------------------------ */
+.plan__cadre { border: 0; }
+.plan__image { filter: grayscale(.85) sepia(.25) contrast(.95); }
+
+/* --- Questions ------------------------------------------------------------- */
+.question summary { font-weight: 400; font-family: var(--f-titres); font-size: clamp(1.0625rem, 1rem + .3vw, 1.25rem); }
+.question, .question:first-of-type { border-color: var(--c-ligne-forte); }
+
+/* --- Urgence --------------------------------------------------------------- */
+.urgence { background: var(--c-doux); }
+
+/* --- Appel final : une phrase, un cercle ----------------------------------- */
+.appel-final { overflow: clip; isolation: isolate; }
+.appel-final::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: -6rem;
+  top: 50%;
+  width: clamp(14rem, 10rem + 18vw, 26rem);
+  aspect-ratio: 1;
+  translate: 0 -50%;
+  border: 8px solid var(--c-ligne);
+  border-radius: 50%;
+}
+.appel-final h2 { font-weight: 400; }
+
+/* --- Pages intérieures ----------------------------------------------------- */
+.tete-page { padding-block: clamp(3.5rem, 2rem + 6vw, 8rem) clamp(2.5rem, 1.8rem + 3vw, 5rem); }
+.tete-page h1 { font-weight: 400; }
+.tete-page .surtitre::before { content: ''; width: 2.5rem; height: 1px; background: currentColor; }
+.encadre { border-left-width: 1px; border-radius: 0; background: var(--c-doux); }
+.faq__sommaire a { border-color: var(--c-ligne-forte); }
+.chiffre { font-weight: 400; }

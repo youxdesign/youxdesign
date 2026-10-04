@@ -1,0 +1,32 @@
+---
+/* Illustration provisoire par défaut : une fenêtre en arche, un soleil
+   et des collines, dans les couleurs de la palette. Purement décorative. */
+interface Props { type: 'portrait' | 'cabinet' | 'ambiance'; cab: any }
+const { type, cab } = Astro.props;
+---
+{type === 'portrait' ? (
+  <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="art-fond" width="400" height="500" />
+    <path class="art-a" d="M60 500V230a140 140 0 0 1 280 0v270z" />
+    <circle class="art-c" cx="200" cy="250" r="78" />
+    <path class="art-b" d="M60 380c60-40 120-50 170-30s70 20 110 0v150H60z" />
+    <path class="art-d" d="M60 430c80-30 150-30 280 10v60H60z" />
+    <text class="art-texte" x="200" y="140" text-anchor="middle">{cab.initiales}</text>
+  </svg>
+) : type === 'cabinet' ? (
+  <svg viewBox="0 0 600 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="art-fond" width="600" height="450" />
+    <rect class="art-a" x="70" y="60" width="200" height="270" rx="100" />
+    <rect class="art-c" x="330" y="120" width="190" height="210" rx="16" />
+    <path class="art-b" d="M0 330h600v120H0z" />
+    <circle class="art-d" cx="430" cy="200" r="34" />
+    <path class="art-trait" d="M100 330V200M240 330V200M370 330v-60h110v60" />
+  </svg>
+) : (
+  <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="art-fond" width="600" height="400" />
+    <circle class="art-c" cx="420" cy="150" r="90" />
+    <path class="art-a" d="M0 260c120-60 220-70 330-30s170 30 270-10v180H0z" />
+    <path class="art-b" d="M0 320c140-40 260-30 380 10s160 20 220 0v70H0z" />
+  </svg>
+)}

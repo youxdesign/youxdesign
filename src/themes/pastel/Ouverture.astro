@@ -1,0 +1,30 @@
+---
+/* Pastel doux : « Bonjour, je suis… », titre rond et généreux ; à droite,
+   le portrait dans une forme organique, une bulle et une petite carte. */
+import BoutonRdv from '../../components/BoutonRdv.astro';
+import Visuel from '../../components/Visuel.astro';
+import { lien, textes } from '../../lib/site.mjs';
+import { enrichi } from '../../lib/texte.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien, c = cab.cabinet;
+const t = textes(site, 'accueil');
+---
+<section class="une" aria-labelledby="titre-page">
+  <div class="conteneur une__grille">
+    <div class="une__texte">
+      <p class="une__bonjour"><span class="une__pastille" aria-hidden="true">{cab.initiales}</span>{t.surtitre || `Bonjour, je suis ${p.prenom}`}</p>
+      <h1 id="titre-page" set:html={enrichi(t.titre)} />
+      <p class="chapeau">{t.intro}</p>
+      <div class="boutons">
+        <BoutonRdv cab={cab} />
+        <a class="bouton bouton--doux" href={lien(site, 'a-propos')}>Faire connaissance</a>
+      </div>
+    </div>
+    <div class="une__visuel">
+      <Visuel site={site} type="portrait" prioritaire classe="une__forme" tailles="(min-width: 56rem) 36vw, 85vw" />
+      <span class="une__bulle" aria-hidden="true"></span>
+      <p class="une__carte"><strong>Cabinet à {c.ville}{c.visio ? ' & visio' : ''}</strong>{p.public && <span>{p.public}</span>}</p>
+    </div>
+  </div>
+</section>

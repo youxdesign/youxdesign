@@ -1,0 +1,14 @@
+---
+/* Encart d'urgence, présent sur l'accueil, la FAQ et la page contact. */
+import Icone from './Icone.astro';
+interface Props { cab: any; compact?: boolean }
+const { cab, compact = false } = Astro.props;
+const lieu = cab.estPsychologue ? 'Un cabinet de psychologue' : 'Un cabinet libéral';
+---
+<aside class="urgence" aria-label="En cas d'urgence">
+  <Icone nom="alerte" />
+  <p>
+    <strong>En cas d’urgence, appelez le <a href="tel:15">15</a> (SAMU) ou le <a href="tel:3114">3114</a></strong>, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7.
+    {!compact && <> {lieu} n’est pas un service d’urgence.</>}
+  </p>
+</aside>

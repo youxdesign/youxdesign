@@ -1,0 +1,12 @@
+---
+/* Logo youXdesign : le X « tissé » et le nom en Cormorant Garamond */
+interface Props { clair?: boolean; lien?: string }
+const { clair = false, lien = '/' } = Astro.props;
+---
+<a class:list={['logo', { 'logo--clair': clair }]} href={lien} aria-label="youXdesign, accueil">
+  <svg class="logo__x" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+    <path class="logo__x1" d="M20 20 41 41M59 59 80 80" />
+    <path class="logo__x2" d="M80 20 20 80" />
+  </svg>
+  <span class="logo__mot">you<i>X</i>design</span>
+</a>

@@ -1,0 +1,27 @@
+---
+/* Mentions légales (textes : src/lib/legal.mjs) */
+import Site from '../layouts/Site.astro';
+import TetePage from '../components/TetePage.astro';
+import { lien } from '../lib/site.mjs';
+import { meta } from '../lib/seo.mjs';
+import { mentionsLegales } from '../lib/legal.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab;
+const m = meta(site, 'mentions-legales');
+const rubriques = mentionsLegales(cab, { confidentialite: lien(site, 'confidentialite') });
+---
+<Site site={site} page="mentions-legales" titre={m.titre} description={m.description} chemin={lien(site, 'mentions-legales')} indexable={false}>
+  <TetePage surtitre="Informations légales" titre="Mentions légales" intro={`Dernière mise à jour : ${cab.legal.miseAJour}`} classe="tete-page--legal" />
+  <section class="section section--serree">
+    <div class="conteneur legal">
+      {rubriques.map((r) => (
+        <div id={r.id}>
+          <h2>{r.titre}</h2>
+          <Fragment set:html={r.html} />
+        </div>
+      ))}
+    </div>
+  </section>
+</Site>

@@ -1,0 +1,23 @@
+---
+/* Schéma « pensées, émotions, comportements » : trois pôles reliés en cercle.
+   Le texte du schéma est repris dans une liste lisible par les lecteurs d'écran. */
+interface Props { etiquettes: string[] }
+const { etiquettes } = Astro.props;
+const [a, b, c] = etiquettes;
+---
+<figure class="cercle-tcc">
+  <svg viewBox="0 0 420 380" role="img" aria-labelledby="cercle-titre">
+    <title id="cercle-titre">{`${a}, ${b.toLowerCase()} et ${c.toLowerCase()} s’influencent mutuellement`}</title>
+    <defs>
+      <marker id="cercle-pointe" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path class="cercle-tcc__pointe" d="M0 0 10 5 0 10z" />
+      </marker>
+    </defs>
+    <path class="cercle-tcc__fleche" d="M250 78a150 150 0 0 1 92 168" marker-end="url(#cercle-pointe)" />
+    <path class="cercle-tcc__fleche" d="M300 312a150 150 0 0 1-180 0" marker-end="url(#cercle-pointe)" />
+    <path class="cercle-tcc__fleche" d="M78 246a150 150 0 0 1 92-168" marker-end="url(#cercle-pointe)" />
+    <g class="cercle-tcc__pole"><circle cx="210" cy="64" r="56" /><text x="210" y="70" text-anchor="middle">{a}</text></g>
+    <g class="cercle-tcc__pole"><circle cx="346" cy="300" r="56" /><text x="346" y="306" text-anchor="middle">{b}</text></g>
+    <g class="cercle-tcc__pole"><circle cx="74" cy="300" r="56" /><text x="74" y="306" text-anchor="middle">{c}</text></g>
+  </svg>
+</figure>

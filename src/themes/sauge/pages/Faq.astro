@@ -1,0 +1,45 @@
+---
+/* Questions fréquentes du style « Sauge » */
+import Cadre from '../Cadre.astro';
+import TetePage from '../TetePage.astro';
+import Appel from '../Appel.astro';
+import Urgence from '../Urgence.astro';
+import { lien } from '../../../lib/site.mjs';
+import { meta, donneesFaq, donneesFil } from '../../../lib/seo.mjs';
+import { enrichi } from '../../../lib/texte.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, t = cab.pages.faq;
+const m = meta(site, 'faq');
+const ancre = (i) => `theme-${i + 1}`;
+---
+<Cadre site={site} page="faq" titre={m.titre} description={m.description} chemin={lien(site, 'faq')} jsonld={[donneesFaq(site), donneesFil(site, 'faq')]}>
+  <TetePage surtitre="Questions fréquentes" titre={t.titre} intro={t.intro} />
+
+  <section class="section section--flush" aria-label="Questions et réponses">
+    <div class="container faq-layout">
+      <nav class="faq-nav" data-toc aria-label="Thèmes">
+        {t.groupes.map((g, i) => <a href={`#${ancre(i)}`}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{g.titre}</a>)}
+      </nav>
+      <div>
+        {t.groupes.map((g, i) => (
+          <section class="faq-group" id={ancre(i)} aria-labelledby={`${ancre(i)}-titre`}>
+            <h2 class="faq-group__title h3" id={`${ancre(i)}-titre`} data-reveal><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{g.titre}</h2>
+            <div data-reveal>
+              {g.questions.map((q, j) => (
+                <details class="acc" open={i === 0 && j === 0}>
+                  <summary>{q.question}<span class="acc__icon" aria-hidden="true"></span></summary>
+                  <div class="acc__body"><div class="prose">{q.reponse.map((x) => <p set:html={enrichi(x)} />)}</div></div>
+                </details>
+              ))}
+            </div>
+          </section>
+        ))}
+        <div class="faq-urgent"><Urgence /></div>
+      </div>
+    </div>
+  </section>
+
+  <Appel cab={cab} titre={t.finTitre} texte={t.finTexte} secondaire={{ href: lien(site, 'contact'), texte: 'Me contacter' }} />
+</Cadre>

@@ -1,0 +1,36 @@
+---
+/* Gabarit des pages youXdesign (configurateur, page d'erreur). */
+import { feuilleOutil, script } from '../lib/assets.mjs';
+import { DOMAINE } from '../config/youxdesign.mjs';
+
+interface Props { titre: string; description: string; chemin?: string | null; scripts?: string[]; indexable?: boolean; classe?: string; feuille?: 'youx' | 'configurateur' }
+const { titre, description, chemin = '/', scripts = [], indexable = true, classe, feuille = 'youx' } = Astro.props;
+const css = await feuilleOutil(feuille);
+const js = await Promise.all(scripts.map((s) => script(s)));
+---
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>{titre}</title>
+  <meta name="description" content={description} />
+  {!indexable && <meta name="robots" content="noindex, follow" />}
+  {chemin && <link rel="canonical" href={`${DOMAINE}${chemin}`} />}
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="youXdesign" />
+  <meta property="og:title" content={titre} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={`${DOMAINE}/apercu-demov3.gif`} />
+  <meta name="theme-color" content="#2B1A4E" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="/fonts/instrument-sans-variable.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href={css.url} />
+  {js.map((s) => <script is:inline src={s.url} defer></script>)}
+</head>
+<body class={classe}>
+  <a class="evitement" href="#contenu">Aller au contenu</a>
+  <slot />
+</body>
+</html>

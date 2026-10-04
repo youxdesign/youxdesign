@@ -1,0 +1,354 @@
+{
+  "_lisezmoi": "Fiche du cabinet : toutes les pages du site sont construites à partir de ce fichier. Dans les textes, *mot* met en italique, **mot** met en gras, et \\n passe à la ligne. Les champs qui commencent par _ sont des commentaires.",
+
+  "site": {
+    "domaine": "https://www.claire-morel-psychologue.fr",
+    "style": "sauge",
+    "palette": 0,
+    "police": 0,
+    "demo": true,
+    "options": ["statut", "respiration", "carte", "faq"]
+  },
+
+  "praticien": {
+    "prenom": "Claire",
+    "nom": "Morel",
+    "accord": "f",
+    "profession": "psychologue",
+    "titre": "Psychologue clinicienne",
+    "specialite": "thérapies cognitives et comportementales (TCC)",
+    "specialiteCourte": "TCC",
+    "diplome": "Master 2 de psychologie clinique",
+    "depuis": 2013,
+    "adeli": "59 93 1234 5",
+    "rpps": "10 00 1234 567",
+    "siret": "123 456 789 00012",
+    "statut": "psychologue clinicienne exerçant en libéral (entrepreneur individuel)",
+    "ars": "Hauts-de-France",
+    "public": "Adultes et ados dès 15 ans",
+    "citation": "Mon rôle n’est pas de vous dire quoi faire, mais de vous aider à retrouver ce qui vous fait du bien."
+  },
+
+  "contact": {
+    "telephone": "03 20 00 00 00",
+    "telephoneNote": "Je ne décroche pas pendant les séances : laissez un message, je vous rappelle.",
+    "email": "contact@claire-morel-psychologue.fr",
+    "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+    "rendezVous": {
+      "plateforme": "Doctolib",
+      "url": "https://www.doctolib.fr/"
+    }
+  },
+
+  "cabinet": {
+    "adresse": "12 rue Esquermoise",
+    "complement": "Rez-de-chaussée",
+    "codePostal": "59000",
+    "ville": "Lille",
+    "quartier": "Vieux-Lille",
+    "zone": "Métropole européenne de Lille",
+    "latitude": 50.63755,
+    "longitude": 3.06245,
+    "accessiblePMR": true,
+    "visio": true,
+    "horaires": {
+      "lundi": "9:00-20:00",
+      "mardi": "9:00-20:00",
+      "mercredi": "9:00-20:00",
+      "jeudi": "9:00-20:00",
+      "vendredi": "9:00-20:00",
+      "samedi": "9:00-13:00",
+      "dimanche": ""
+    },
+    "horairesNote": "Sur rendez-vous uniquement",
+    "acces": [
+      { "titre": "En métro", "texte": "Ligne 1, station Rihour, à 5 minutes à pied.", "icone": "metro" },
+      { "titre": "En voiture", "texte": "Parking Nouveau Siècle, à 3 minutes à pied. Le Vieux-Lille est peu adapté au stationnement dans la rue.", "icone": "voiture" },
+      { "titre": "Accessibilité", "texte": "Cabinet de plain-pied, sans marche, accessible en fauteuil roulant.", "icone": "fauteuil" },
+      { "titre": "À votre arrivée", "texte": "Interphone « Morel », porte de droite. Je viens vous chercher à l’heure du rendez-vous.", "icone": "porte" }
+    ]
+  },
+
+  "tarifs": [
+    { "nom": "Séance individuelle adulte", "lieu": "Au cabinet", "prix": "60 €", "duree": "50 min", "texte": "Pour toute personne majeure. Première séance et séances de suivi au même tarif.", "miseEnAvant": true },
+    { "nom": "Séance adolescent", "lieu": "15 – 17 ans, au cabinet", "prix": "55 €", "duree": "45 min", "texte": "Le premier rendez-vous peut se faire en partie en présence d’un parent." },
+    { "nom": "Séance en visio", "lieu": "À distance", "prix": "60 €", "duree": "50 min", "texte": "Le même accompagnement, depuis chez vous, via une plateforme sécurisée." }
+  ],
+
+  "motifs": [
+    { "titre": "Anxiété", "texte": "Inquiétudes envahissantes, crises d’angoisse, tension permanente : apprendre à apaiser l’anxiété au quotidien.", "icone": "vagues" },
+    { "titre": "Stress et burn-out", "texte": "Épuisement professionnel ou personnel, surcharge mentale : retrouver de l’énergie et poser vos limites.", "icone": "batterie" },
+    { "titre": "Dépression", "texte": "Tristesse qui dure, perte d’envie, fatigue : reprendre peu à peu goût à ce qui compte pour vous.", "icone": "nuage" },
+    { "titre": "Troubles du sommeil", "texte": "Endormissement difficile, réveils nocturnes, ruminations : retrouver un sommeil plus serein.", "icone": "lune" },
+    { "titre": "Phobies", "texte": "Transports, foule, animaux, prise de parole : apprivoiser vos peurs progressivement, en sécurité.", "icone": "plume" },
+    { "titre": "TOC", "texte": "Pensées obsédantes, vérifications, rituels : desserrer l’emprise des compulsions.", "icone": "boucle" },
+    { "titre": "Estime de soi", "texte": "Doute, autocritique, peur du jugement : porter sur vous un regard plus juste et plus bienveillant.", "icone": "soleil" },
+    { "titre": "Relations", "texte": "Couple, famille, travail : comprendre ce qui se joue et vous affirmer sereinement.", "icone": "personnes" }
+  ],
+
+  "pages": {
+    "accueil": {
+      "seoTitre": "Claire Morel, psychologue TCC à Lille · Vieux-Lille et visio",
+      "seoDescription": "Claire Morel, psychologue clinicienne à Lille, formée aux TCC : anxiété, stress, burn-out, dépression, sommeil, phobies, TOC. Adultes et adolescents dès 15 ans, au cabinet ou en visio.",
+      "surtitre": "Psychologue clinicienne · Lille & visio",
+      "titre": "Retrouver\nde l’apaisement,\n*à votre rythme*",
+      "intro": "Je suis Claire Morel, psychologue spécialisée en thérapies cognitives et comportementales (TCC). Je reçois adultes et adolescents dès 15 ans, au cabinet du Vieux-Lille ou en visio.",
+      "motifsSurtitre": "Motifs de consultation",
+      "motifsTitre": "Je vous accompagne *pour…*",
+      "motifsIntro": "Chaque histoire est singulière. Voici les difficultés pour lesquelles on me consulte le plus souvent. Si la vôtre n’y figure pas, parlons-en lors d’un premier rendez-vous.",
+      "presentationSurtitre": "Votre psychologue",
+      "presentationTitre": "Bonjour, *je suis Claire*",
+      "presentation": [
+        "Psychologue clinicienne formée aux thérapies cognitives et comportementales, je reçois adultes et adolescents à partir de 15 ans dans mon cabinet du Vieux-Lille, ainsi qu’en visio.",
+        "Mon travail associe une écoute attentive et des outils concrets, dont l’efficacité est reconnue, pour vous aider à comprendre ce que vous vivez et à retrouver des marges de manœuvre au quotidien."
+      ],
+      "etapesSurtitre": "Votre première séance",
+      "etapesTitre": "Comment se passe *une première séance ?*",
+      "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+      "etapes": [
+        { "titre": "Vous prenez rendez-vous", "texte": "En ligne sur Doctolib, au moment qui vous convient, au cabinet ou en visio." },
+        { "titre": "Nous faisons connaissance", "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme." },
+        { "titre": "Nous posons un cadre", "texte": "Je partage ma compréhension de la situation et nous fixons des objectifs réalistes." },
+        { "titre": "Vous avancez pas à pas", "texte": "Au fil des séances, vous expérimentez des outils concrets et mesurez vos progrès." }
+      ],
+      "respirationSurtitre": "Une minute pour vous",
+      "respirationTitre": "Respirer, *avant toute chose*",
+      "respirationTexte": "Suivez le cercle : inspirez quand il s’ouvre, expirez quand il se referme. C’est l’un des premiers outils que l’on apprend en séance, à utiliser partout.",
+      "finTitre": "Et si vous faisiez *le premier pas ?*",
+      "finTexte": "La prise de rendez-vous se fait en ligne, en quelques clics. Une question avant de réserver ? Je vous réponds volontiers.",
+      "questionsAccueil": [
+        "Les séances sont-elles remboursées ?",
+        "Combien de séances faut-il prévoir ?",
+        "Les séances en visio sont-elles aussi efficaces ?",
+        "Ce que je dis reste-t-il confidentiel ?"
+      ],
+      "_variantes": "Démonstrations : titres propres à chaque style (le site d'un cabinet n'en a pas besoin).",
+      "variantes": {
+        "terre": { "surtitre": "Cabinet à Lille & visio", "titre": "Un lieu chaleureux\npour déposer\nce qui pèse", "finTitre": "Prenons le temps\n*d’en parler*" },
+        "sante": { "titre": "Un soutien psychologique bienveillant, *à Lille ou en visio*", "finTitre": "Réservez votre première séance" },
+        "wabi": { "titre": "Prendre le temps\nde comprendre,\npuis d’avancer.", "finTitre": "Quand le moment sera venu,\nil suffit d’un premier pas." },
+        "suisse": { "titre": "Aller mieux,\npas à pas", "finTitre": "Prendre\nrendez-vous" },
+        "immersif": { "titre": "Retrouver de la clarté,\npas à pas", "finTitre": "Faire le premier pas" },
+        "editorial": { "titre": "Parler, comprendre,\nse sentir mieux", "finTitre": "Prendre rendez-vous" },
+        "pastel": { "surtitre": "Bonjour, je suis Claire", "titre": "Un espace doux\npour aller mieux", "finTitre": "Parlons-en" },
+        "nocturne": { "titre": "Un espace calme pour déposer ce qui pèse", "finTitre": "Un premier pas,\n*en douceur*" }
+      }
+    },
+
+    "a-propos": {
+      "seoTitre": "À propos · Claire Morel, psychologue clinicienne à Lille",
+      "seoDescription": "Parcours, formations et façon de travailler de Claire Morel, psychologue clinicienne formée aux TCC, installée dans le Vieux-Lille depuis 2019.",
+      "titre": "Accompagner avec\n*justesse et bienveillance*",
+      "intro": "Je suis Claire Morel, psychologue clinicienne. Depuis plus de 10 ans, j’accompagne des adultes et des adolescents qui traversent une période difficile, d’abord à l’hôpital, puis dans mon cabinet du Vieux-Lille.",
+      "cabinetLegende": "Le cabinet",
+      "cabinetDetail": "12 rue Esquermoise, rez-de-chaussée",
+      "demarcheSurtitre": "Ma manière d’accompagner",
+      "demarcheTitre": "Un travail d’équipe, *à deux*",
+      "demarche": [
+        "Je crois qu’on peut aller mieux sans tout comprendre d’un coup, et qu’un cadre clair aide à se sentir en sécurité pour avancer.",
+        "En séance, nous partons de votre quotidien : ce qui vous pèse, ce qui a déjà changé, ce que vous aimeriez retrouver. Je vous propose des pistes et des exercices simples, à tester entre deux rendez-vous. Vous restez libre de dire ce qui vous convient ou non."
+      ],
+      "parcoursSurtitre": "Mon parcours",
+      "parcoursTitre": "De l’hôpital *au cabinet*",
+      "parcoursIntro": "Une formation universitaire solide, une longue pratique en psychiatrie adulte, puis le choix du libéral pour proposer un suivi plus personnalisé.",
+      "parcours": [
+        { "date": "2012", "titre": "Master 2 de psychologie clinique et psychopathologie", "texte": "Université de Lille. Stages en centre médico-psychologique et en service de psychiatrie." },
+        { "date": "2013", "titre": "Diplôme universitaire de thérapies cognitives et comportementales", "texte": "Deux années de formation clinique aux TCC, avec supervision de cas." },
+        { "date": "2013 – 2019", "titre": "Psychologue en milieu hospitalier", "texte": "Service de psychiatrie adulte à Lille : troubles anxieux, dépression, troubles obsessionnels, épuisement professionnel. Consultations individuelles et groupes thérapeutiques." },
+        { "date": "Depuis 2019", "titre": "Installation en libéral, Vieux-Lille", "texte": "Consultations au cabinet et en visio, pour adultes et adolescents dès 15 ans." }
+      ],
+      "formationsSurtitre": "Formations complémentaires",
+      "formationsTitre": "Des outils *choisis pour vous*",
+      "formationsIntro": "Je continue de me former pour adapter l’accompagnement à chaque personne. Selon vos besoins, je peux m’appuyer sur ces approches, toutes compatibles avec les TCC.",
+      "formations": [
+        { "date": "2020", "titre": "Thérapie d’acceptation et d’engagement (ACT)", "texte": "Faire de la place aux émotions difficiles, plutôt que de lutter contre elles, pour agir selon ce qui compte pour vous.", "icone": "feuille" },
+        { "date": "2021", "titre": "Pleine conscience (MBCT)", "texte": "Des exercices d’attention au moment présent, utiles pour prévenir les rechutes dépressives et apaiser les ruminations.", "icone": "poumons" },
+        { "date": "2022", "titre": "Thérapie des schémas", "texte": "Comprendre les scénarios qui se répètent dans votre vie et construire de nouvelles façons de réagir.", "icone": "puzzle" },
+        { "date": "2023", "titre": "EMDR", "texte": "Une méthode reconnue pour apaiser l’impact de souvenirs difficiles ou d’événements marquants.", "icone": "eclat" }
+      ],
+      "valeursSurtitre": "Mes valeurs",
+      "valeursTitre": "Ce qui guide *mon travail*",
+      "valeurs": [
+        { "titre": "Bienveillance et non-jugement", "texte": "Vous pouvez tout dire ici. Ce que vous ressentez a du sens, même quand cela vous semble confus ou excessif." },
+        { "titre": "Une approche fondée sur les preuves", "texte": "Je m’appuie sur des méthodes dont l’efficacité a été étudiée, et je me tiens à jour des recommandations actuelles." },
+        { "titre": "Transparence sur le déroulé", "texte": "Je vous explique ce que nous faisons et pourquoi. Nous faisons régulièrement le point ensemble sur vos progrès." },
+        { "titre": "Le respect de votre rythme", "texte": "Rien n’est imposé. Vous choisissez ce que vous souhaitez aborder, et quand." },
+        { "titre": "Un accompagnement accessible", "texte": "Des séances en visio pour plus de souplesse, et un tarif adapté possible sur demande pour les étudiants et les demandeurs d’emploi." }
+      ],
+      "finTitre": "Faisons *connaissance*",
+      "finTexte": "Le premier rendez-vous permet de voir ensemble si mon approche vous convient, sans engagement pour la suite."
+    },
+
+    "approche": {
+      "seoTitre": "Mon approche : les TCC · Claire Morel, psychologue à Lille",
+      "seoDescription": "Comment se déroule une thérapie cognitive et comportementale (TCC) avec Claire Morel, psychologue à Lille : les étapes, la durée, les exercices et le cadre du suivi.",
+      "titre": "Les TCC, une thérapie\n*concrète et active*",
+      "intro": "Les thérapies cognitives et comportementales vous aident à comprendre ce qui entretient vos difficultés, puis à expérimenter, pas à pas, de nouvelles façons de penser et d’agir.",
+      "cercleSurtitre": "Le principe",
+      "cercleTitre": "Pensées, émotions et comportements *sont liés*",
+      "cercle": [
+        "Ce que nous pensons d’une situation influence ce que nous ressentons, et ce que nous ressentons influence ce que nous faisons. Parfois, ces trois éléments s’entretiennent et forment un cercle qui fait souffrir.",
+        "Par exemple : « je vais échouer » provoque de l’anxiété, qui pousse à éviter la situation. L’évitement soulage sur le moment, mais renforce la peur. Les TCC permettent d’agir sur chacun de ces maillons pour desserrer le cercle."
+      ],
+      "cercleNoeuds": [
+        { "titre": "Pensées", "texte": "« je vais échouer »" },
+        { "titre": "Émotions", "texte": "anxiété, tension" },
+        { "titre": "Comportements", "texte": "éviter, reporter" }
+      ],
+      "derouleSurtitre": "Le déroulement",
+      "derouleTitre": "Comment se déroule *une thérapie ?*",
+      "derouleIntro": "Une thérapie TCC suit généralement quatre temps. Leur durée varie d’une personne à l’autre, et nous faisons le point régulièrement.",
+      "deroule": [
+        { "date": "Séances 1 à 3", "titre": "Faire le point", "texte": "Nous prenons le temps de comprendre votre situation, votre histoire et ce que vous souhaitez changer." },
+        { "date": "Ensuite", "titre": "Comprendre le mécanisme", "texte": "Nous identifions ce qui déclenche et entretient la difficulté, puis nous fixons des objectifs précis." },
+        { "date": "Au cœur du suivi", "titre": "Expérimenter", "texte": "Vous testez des outils en séance et dans votre quotidien, à votre rythme. Nous ajustons selon vos observations." },
+        { "date": "Dernières séances", "titre": "Consolider", "texte": "Nous faisons le bilan de vos progrès et préparons la suite, pour que vous restiez autonome." }
+      ],
+      "dureeSurtitre": "Durée moyenne",
+      "dureeTitre": "Une thérapie *limitée dans le temps*",
+      "duree": [
+        { "de": 5, "a": 10, "texte": "séances en moyenne, selon les besoins" },
+        { "de": 45, "a": 50, "texte": "minutes par séance" },
+        { "de": 7, "a": 15, "texte": "jours entre deux séances, en général" }
+      ],
+      "dureeTexte": "Ces repères sont indicatifs. Certaines difficultés demandent moins de séances, d’autres un suivi plus long. Nous en parlons ouvertement dès le début.",
+      "outilsSurtitre": "Exemples d’outils",
+      "outilsTitre": "Des exercices simples, *adaptés à vous*",
+      "outilsIntro": "Aucun outil n’est obligatoire. Je vous propose ceux qui correspondent à votre situation, et nous les ajustons ensemble.",
+      "outils": [
+        { "titre": "Le journal des pensées", "texte": "Noter une situation, ce que vous avez pensé et ressenti, pour prendre du recul et repérer les pensées qui reviennent.", "icone": "livre" },
+        { "titre": "L’exposition progressive", "texte": "Se rapprocher petit à petit de ce qui fait peur, en commençant par le plus facile, pour que l’anxiété diminue d’elle-même.", "icone": "marches" },
+        { "titre": "La restructuration cognitive", "texte": "Examiner une pensée difficile comme une hypothèse, et chercher d’autres façons, plus nuancées, de voir la situation.", "icone": "cerveau" },
+        { "titre": "Respiration et relaxation", "texte": "Des techniques courtes pour apaiser le corps dans les moments de tension, à utiliser partout.", "icone": "poumons" },
+        { "titre": "L’activation comportementale", "texte": "Réintroduire progressivement des activités agréables ou porteuses de sens, pour retrouver de l’élan.", "icone": "soleil" },
+        { "titre": "La résolution de problèmes", "texte": "Décomposer une situation qui semble insurmontable en étapes concrètes et réalisables.", "icone": "puzzle" }
+      ],
+      "cadreSurtitre": "Ce que vous pouvez attendre",
+      "cadreTitre": "Un cadre clair, *du début à la fin*",
+      "cadreIntro": "Les TCC font partie des psychothérapies dont l’efficacité est la mieux étudiée, notamment pour les troubles anxieux et la dépression.",
+      "cadre": [
+        "**Des objectifs définis ensemble**, formulés avec vos mots et revus au fil du suivi.",
+        "**Des explications à chaque étape**, pour que vous sachiez toujours ce que nous faisons et pourquoi.",
+        "**Des exercices entre les séances**, courts et adaptés à votre emploi du temps.",
+        "**Des bilans réguliers**, pour mesurer vos progrès et ajuster le rythme.",
+        "**La liberté d’arrêter**, à tout moment, sans avoir à vous justifier."
+      ],
+      "finTitre": "Envie d’essayer *cette approche ?*",
+      "finTexte": "Lors du premier rendez-vous, nous verrons ensemble si les TCC répondent à votre situation."
+    },
+
+    "consultations": {
+      "seoTitre": "Consultations et tarifs · Claire Morel, psychologue à Lille",
+      "seoDescription": "Tarifs et durée des séances avec Claire Morel, psychologue à Lille : adulte, adolescent, visio. Paiement, annulation, remboursement par les mutuelles.",
+      "surtitre": "Consultations & tarifs",
+      "titre": "Des séances claires,\n*sans surprise*",
+      "intro": "Voici les différents types de séances, leur durée et leur tarif. Une question avant de réserver ? Joignez-moi par téléphone.",
+      "tarifsNote": "Tarif adapté possible sur demande (étudiants, demandeurs d’emploi). N’hésitez pas à en parler lors de la prise de contact, en toute discrétion.",
+      "paiementSurtitre": "Règlement",
+      "paiementTitre": "Moyens *de paiement*",
+      "paiement": "Le règlement se fait à la fin de chaque séance. Une facture vous est remise, que vous pouvez transmettre à votre mutuelle.",
+      "moyensPaiement": [
+        { "titre": "Carte bancaire", "icone": "cb" },
+        { "titre": "Espèces", "icone": "especes" },
+        { "titre": "Virement", "icone": "virement" }
+      ],
+      "annulationSurtitre": "Annulation",
+      "annulationTitre": "Annuler ou *déplacer*",
+      "annulation": [
+        "Vous pouvez annuler ou déplacer votre rendez-vous sans frais jusqu’à **48 h avant**, directement sur Doctolib ou par téléphone.",
+        "Passé ce délai, la séance reste due, sauf cas de force majeure. Ce délai me permet de proposer le créneau à une autre personne qui attend un rendez-vous."
+      ],
+      "monSoutienPsy": false,
+      "finTitre": "Réserver une *première séance*",
+      "finTexte": "Choisissez le créneau qui vous convient, au cabinet ou en visio. La confirmation est immédiate."
+    },
+
+    "faq": {
+      "seoTitre": "Questions fréquentes · Claire Morel, psychologue à Lille",
+      "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+      "titre": "Vos questions,\n*mes réponses*",
+      "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+      "groupes": [
+        {
+          "titre": "Avant de consulter",
+          "questions": [
+            { "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?", "reponse": [
+              "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques, comme les TCC. Il ne prescrit pas de médicaments.",
+              "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+              "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+            ] },
+            { "question": "Faut-il une ordonnance pour consulter ?", "reponse": [
+              "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+            ] },
+            { "question": "Que se passe-t-il lors de la première séance ?", "reponse": [
+              "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+              "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+            ] },
+            { "question": "Recevez-vous les mineurs de moins de 15 ans ?", "reponse": [
+              "Je reçois les adolescents à partir de 15 ans. Pour un enfant ou un adolescent plus jeune, je peux vous orienter vers des confrères spécialisés. Pour tout patient mineur, l’accord des parents est nécessaire."
+            ] },
+            { "question": "Proposez-vous des séances en couple ?", "reponse": [
+              "Non, je propose uniquement des séances individuelles. Si vous souhaitez une thérapie de couple, je peux vous indiquer des professionnels formés à cette approche.",
+              "Les difficultés relationnelles peuvent en revanche tout à fait être abordées en séance individuelle."
+            ] }
+          ]
+        },
+        {
+          "titre": "Pendant le suivi",
+          "questions": [
+            { "question": "Combien de séances faut-il prévoir ?", "reponse": [
+              "Cela dépend de votre situation et de vos objectifs. En TCC, un suivi compte souvent entre 5 et 10 séances, parfois davantage. Nous faisons le point régulièrement pour ajuster le rythme."
+            ] },
+            { "question": "Ce que je dis reste-t-il confidentiel ?", "reponse": [
+              "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui.",
+              "Les notes que je prends sont conservées de façon sécurisée et ne sont communiquées à personne."
+            ] },
+            { "question": "Les séances en visio sont-elles aussi efficaces ?", "reponse": [
+              "Pour de nombreuses difficultés, les séances en visio donnent des résultats comparables aux séances au cabinet. Il suffit d’un endroit calme où vous pouvez parler librement et d’une connexion stable.",
+              "Il est aussi possible d’alterner séances au cabinet et en visio."
+            ] },
+            { "question": "Puis-je arrêter quand je le souhaite ?", "reponse": [
+              "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+            ] }
+          ]
+        },
+        {
+          "titre": "Remboursement et urgences",
+          "questions": [
+            { "question": "Les séances sont-elles remboursées ?", "reponse": [
+              "Je ne suis pas partenaire du dispositif Mon soutien psy : mes séances ne sont donc pas remboursées par l’Assurance Maladie.",
+              "De nombreuses mutuelles prennent en charge une partie des séances chez un psychologue : renseignez-vous auprès de la vôtre. Une facture vous est remise à chaque séance. Un tarif adapté est possible sur demande."
+            ] },
+            { "question": "Que faire en cas d’urgence ?", "urgence": true, "reponse": [
+              "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+              "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+            ] }
+          ]
+        }
+      ],
+      "finTitre": "Une autre *question ?*",
+      "finTexte": "Vous pouvez m’appeler au 03 20 00 00 00 ou m’écrire. Je vous réponds dans les meilleurs délais."
+    },
+
+    "contact": {
+      "seoTitre": "Contact et accès · Claire Morel, psychologue à Lille",
+      "seoDescription": "Adresse, téléphone, horaires et accès au cabinet de Claire Morel, psychologue dans le Vieux-Lille (métro Rihour). Consultations aussi en visio.",
+      "surtitre": "Contact & accès",
+      "titre": "Venir *au cabinet*",
+      "intro": "Le cabinet se trouve au cœur du Vieux-Lille, à quelques minutes de la Grand-Place. Les consultations sont aussi possibles en visio.",
+      "accesSurtitre": "Accès",
+      "accesTitre": "Comment *venir*",
+      "visioSurtitre": "Consultations à distance",
+      "visioTitre": "Vous préférez *la visio ?*",
+      "visio": [
+        "Les séances en visio se déroulent via une plateforme sécurisée. Il suffit d’un endroit calme où vous pouvez parler librement, et d’une connexion stable.",
+        "Le lien vous est envoyé à la réservation sur Doctolib. Il est possible d’alterner séances au cabinet et en visio."
+      ]
+    }
+  },
+
+  "legal": {
+    "miseAJour": "octobre 2026",
+    "directeurPublication": "Claire Morel"
+  }
+}

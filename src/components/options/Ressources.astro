@@ -1,0 +1,33 @@
+---
+/* Ressources à télécharger */
+import Bloc from './Bloc.astro';
+import Picto from '../Picto.astro';
+interface Props { site: any }
+const { site } = Astro.props;
+const liste = [
+  { titre: 'Le journal des pensées', detail: 'Fiche à imprimer · PDF', icone: 'livre' },
+  { titre: 'Respiration guidée, 5 minutes', detail: 'Audio · MP3', icone: 'poumons' },
+  { titre: 'Planifier des activités agréables', detail: 'Fiche à imprimer · PDF', icone: 'calendrier' }
+];
+---
+<Bloc site={site} id="ressources" titre="Ressources">
+  <div class="opt-conteneur">
+    <div class="opt-carte">
+      <div class="opt-tete">
+        <p class="opt-surtitre">Ressources</p>
+        <h2 class="opt-titre" id="opt-ressources-titre">À télécharger</h2>
+        <p class="opt-texte">Des fiches et des exercices à retrouver entre les séances.</p>
+      </div>
+      <ul class="opt-grille">
+        {liste.map((r) => (
+          <li class="opt-element">
+            <span class="opt-pictogramme"><Picto nom={r.icone} /></span>
+            <span class="opt-element__titre">{r.titre}</span>
+            <span class="opt-element__detail">{r.detail}</span>
+            <button class="opt-bouton opt-bouton--clair" type="button" data-demo-action>Télécharger</button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</Bloc>

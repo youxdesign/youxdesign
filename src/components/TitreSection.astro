@@ -1,0 +1,19 @@
+---
+/* Titre de section : surtitre (avec numéro facultatif), titre, introduction.
+   Le titre accepte la mise en forme de la fiche (*italique*, **gras**). */
+import { enrichi } from '../lib/texte.mjs';
+interface Props { surtitre?: string; titre: string; intro?: string; numero?: number; id?: string; centre?: boolean; niveau?: 2 | 3 }
+const { surtitre, titre, intro, numero, id, centre = false, niveau = 2 } = Astro.props;
+const Balise = `h${niveau}`;
+---
+<header class:list={['titre-section', { 'titre-section--centre': centre }]}>
+  {surtitre && (
+    <p class="surtitre">
+      {numero != null && <span class="surtitre__num" aria-hidden="true">{String(numero).padStart(2, '0')}</span>}
+      <span>{surtitre}</span>
+    </p>
+  )}
+  <Balise id={id} set:html={enrichi(titre)} />
+  {intro && <p class="chapeau">{intro}</p>}
+  <slot />
+</header>

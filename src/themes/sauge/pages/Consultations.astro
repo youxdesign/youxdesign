@@ -1,0 +1,98 @@
+---
+/* Consultations et tarifs du style « Sauge » */
+import Cadre from '../Cadre.astro';
+import TetePage from '../TetePage.astro';
+import Appel from '../Appel.astro';
+import Fleche from '../Fleche.astro';
+import Picto from '../../../components/Picto.astro';
+import Paiement from '../../../components/options/Paiement.astro';
+import { lien } from '../../../lib/site.mjs';
+import { meta, donneesFil } from '../../../lib/seo.mjs';
+import { enrichi } from '../../../lib/texte.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, t = cab.pages.consultations;
+const m = meta(site, 'consultations');
+const partenaire = t.monSoutienPsy === true;
+const intro = (t.intro || '').replace(/\s*Joignez-moi par téléphone\.?$/, '');
+---
+<Cadre site={site} page="consultations" titre={m.titre} description={m.description} chemin={lien(site, 'consultations')} jsonld={[donneesFil(site, 'consultations')]}>
+  <TetePage surtitre={t.surtitre || 'Consultations & tarifs'} titre={t.titre} intro={t.intro}>
+    <Fragment slot="intro">{intro} Joignez-moi au <a class="inline-link" href={cab.tel.lien}>{cab.tel.affiche}</a>.</Fragment>
+  </TetePage>
+
+  <section class="section section--flush" aria-labelledby="tarifs-titre">
+    <div class="container">
+      <h2 class="sr-only" id="tarifs-titre">Types de séances et tarifs</h2>
+      <ul class="prices" data-stagger>
+        {cab.tarifs.map((x) => (
+          <li class:list={['price', { 'price--featured': x.miseEnAvant }]} data-reveal>
+            {x.lieu && <span class="card__tag">{x.lieu}</span>}
+            <h3>{x.nom}</h3>
+            <p class="price__amount"><strong>{x.prix}</strong>{x.duree && <span class="price__meta">· {x.duree}</span>}</p>
+            <hr />
+            {x.texte && <p>{x.texte}</p>}
+          </li>
+        ))}
+      </ul>
+      {t.tarifsNote && <p class="muted prices-note" data-reveal>{t.tarifsNote}</p>}
+    </div>
+  </section>
+
+  <Paiement site={site} />
+
+  {(t.paiement || t.annulation) && (
+    <section class="section section--paper2" aria-label="Paiement et annulation">
+      <div class="container two-col">
+        {t.paiement && (
+          <div class="stack">
+            <span class="eyebrow" data-reveal>{t.paiementSurtitre || 'Règlement'}</span>
+            <h2 class="h2" data-reveal set:html={enrichi(t.paiementTitre || 'Moyens *de paiement*')} />
+            <p class="muted" data-reveal set:html={enrichi(t.paiement)} />
+            {t.moyensPaiement && (
+              <ul class="chips" data-reveal>
+                {t.moyensPaiement.map((x) => <li class="chip"><Picto nom={x.icone} />{x.titre}</li>)}
+              </ul>
+            )}
+          </div>
+        )}
+        {t.annulation && (
+          <div class="stack">
+            <span class="eyebrow" data-reveal>{t.annulationSurtitre || 'Annulation'}</span>
+            <h2 class="h2" data-reveal set:html={enrichi(t.annulationTitre || 'Annuler ou *déplacer*')} />
+            {t.annulation.map((x) => <p class="muted" data-reveal set:html={enrichi(x)} />)}
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  {cab.estPsychologue && (
+    <section class="section" aria-labelledby="msp-titre">
+      <div class="container">
+        <div class="info-panel" data-reveal>
+          <div class="stack">
+            <span class="eyebrow">Bon à savoir</span>
+            <h2 class="h2" id="msp-titre">Le dispositif <em>Mon soutien psy</em></h2>
+            <p class="muted">Mon soutien psy permet d’être remboursé de séances chez un psychologue partenaire de l’Assurance Maladie.</p>
+            {partenaire
+              ? <p class="muted">Je suis partenaire de ce dispositif : vos séances peuvent être prises en charge dans les conditions ci-contre. Précisez-le lors de la prise de rendez-vous.</p>
+              : <p class="muted">Je ne suis pas partenaire de ce dispositif : mes séances ne sont donc pas remboursées par l’Assurance Maladie. De nombreuses mutuelles en prennent toutefois une partie en charge.</p>}
+            <div><a class="link" href="https://www.ameli.fr/assure/remboursements/rembourse/remboursement-seance-psychologue-mon-soutien-psy" target="_blank" rel="noopener">{partenaire ? 'En savoir plus sur ameli.fr' : 'Trouver un psychologue partenaire sur ameli.fr'} <Fleche /><span class="sr-only"> (nouvel onglet)</span></a></div>
+          </div>
+          <div class="stack">
+            <ul class="facts">
+              <li><strong>12</strong><span>séances par an : un entretien d’évaluation, puis jusqu’à 11 séances de suivi.</span></li>
+              <li><strong>50 €</strong><span>la séance, remboursés à 60 % par l’Assurance Maladie, le reste pouvant être pris en charge par la mutuelle.</span></li>
+              <li><strong>Dès 3 ans</strong><span>sans ordonnance, pour une souffrance psychique d’intensité légère à modérée.</span></li>
+            </ul>
+            <p class="small muted">Informations données à titre indicatif ; les conditions peuvent évoluer : référez-vous à ameli.fr.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <Appel cab={cab} titre={t.finTitre} texte={t.finTexte} secondaire={cab.a('faq') ? { href: lien(site, 'faq'), texte: 'Questions fréquentes' } : { href: lien(site, 'contact'), texte: 'Me contacter' }} />
+</Cadre>

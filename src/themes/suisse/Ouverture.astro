@@ -1,0 +1,37 @@
+---
+/* Minimalisme suisse : titre immense, filet noir, puis trois colonnes
+   sur la grille (repères, introduction et boutons, portrait). */
+import BoutonRdv from '../../components/BoutonRdv.astro';
+import Visuel from '../../components/Visuel.astro';
+import { lien, textes } from '../../lib/site.mjs';
+import { enrichi } from '../../lib/texte.mjs';
+import { choisir } from '../../lib/faits.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab;
+const t = textes(site, 'accueil');
+const reperes = choisir(cab, ['approche', 'public', 'lieu', 'numero']);
+---
+<section class="une" aria-labelledby="titre-page">
+  <div class="conteneur">
+    <h1 id="titre-page" class="une__titre" set:html={enrichi(t.titre)} />
+    <div class="une__grille">
+      <dl class="une__reperes">
+        {reperes.map((r) => (
+          <div>
+            <dt>{r.cle}</dt>
+            <dd>{r.valeur}{r.detail && <span class="une__detail">{r.detail}</span>}</dd>
+          </div>
+        ))}
+      </dl>
+      <div class="une__texte">
+        <p class="chapeau">{t.intro}</p>
+        <div class="boutons">
+          <BoutonRdv cab={cab} />
+          <a class="bouton bouton--secondaire" href={lien(site, 'approche')}>Mon approche</a>
+        </div>
+      </div>
+      <Visuel site={site} type="cabinet" prioritaire classe="une__visuel" tailles="(min-width: 56rem) 30vw, 100vw" />
+    </div>
+  </div>
+</section>

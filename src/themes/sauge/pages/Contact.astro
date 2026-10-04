@@ -1,0 +1,126 @@
+---
+/* Contact et accès du style « Sauge » */
+import { Picture } from 'astro:assets';
+import Cadre from '../Cadre.astro';
+import TetePage from '../TetePage.astro';
+import Rdv from '../Rdv.astro';
+import Fleche from '../Fleche.astro';
+import Urgence from '../Urgence.astro';
+import Picto from '../../../components/Picto.astro';
+import Rappel from '../../../components/options/Rappel.astro';
+import { lien } from '../../../lib/site.mjs';
+import { meta, donneesCabinet, donneesFil } from '../../../lib/seo.mjs';
+import { enrichi } from '../../../lib/texte.mjs';
+const plans = import.meta.glob<{ default: ImageMetadata }>('/cabinets/*/images/carte.png', { eager: true });
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, c = cab.cabinet, t = cab.pages.contact;
+const m = meta(site, 'contact');
+const adresse = cab.adresse.uneLigne;
+const geo = cab.adresse.geo;
+const plan = plans[`/cabinets/${cab.id}/images/carte.png`]?.default;
+const dLat = 0.0045, dLng = 0.0075;
+const integration = geo ? `https://www.openstreetmap.org/export/embed.html?bbox=${geo.lng - dLng}%2C${geo.lat - dLat}%2C${geo.lng + dLng}%2C${geo.lat + dLat}&layer=mapnik&marker=${geo.lat}%2C${geo.lng}` : null;
+const itineraire = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(adresse)}`;
+/* Jours de chaque ligne d'horaires (0 = dimanche), pour surligner le jour même */
+const statut = cab.bloc('statut', site.vitrine), carte = cab.bloc('carte', site.vitrine);
+const joursJs = (g) => g.jours.map((j) => (j.index + 1) % 7).join(',');
+---
+<Cadre site={site} page="contact" titre={m.titre} description={m.description} chemin={lien(site, 'contact')} jsonld={[donneesCabinet(site), donneesFil(site, 'contact')]}>
+  <TetePage surtitre={t.surtitre || 'Contact & accès'} titre={t.titre} intro={t.intro}>
+    <div class="btns fade-in fade-in--3"><Rdv cab={cab} texte={cab.rdv ? `Prendre rendez-vous sur ${cab.rdv.plateforme}` : undefined} /></div>
+  </TetePage>
+
+  <section class="section section--flush" aria-label="Coordonnées et horaires">
+    <div class="container contact-grid">
+      <div class="contact-card" data-reveal>
+        {statut.rendre && (
+          <p class="open-status" data-statut data-option="statut" hidden={statut.cache} data-horaires={JSON.stringify(cab.horaires.compact)}>
+            <span class="dot" aria-hidden="true"></span><span><span data-statut-texte>Sur rendez-vous</span> · <span data-statut-detail>{c.horairesNote || 'voir les horaires'}</span></span>
+          </p>
+        )}
+        <ul class="contact-lines">
+          <li class="contact-line">
+            <span class="card__icon"><Picto nom="lieu" /></span>
+            <div><h2 class="contact-line__titre">Adresse</h2><p>{c.adresse}<br />{cab.adresse.ville}</p>{(c.complement || c.accessiblePMR) && <small>{[c.complement, c.accessiblePMR && 'accessible aux personnes à mobilité réduite'].filter(Boolean).join(', ')}</small>}</div>
+          </li>
+          <li class="contact-line">
+            <span class="card__icon"><Picto nom="telephone" /></span>
+            <div><h2 class="contact-line__titre">Téléphone</h2><a href={cab.tel.lien}>{cab.tel.affiche}</a>{cab.contact.telephoneNote && <small>{cab.contact.telephoneNote}</small>}</div>
+          </li>
+          <li class="contact-line">
+            <span class="card__icon"><Picto nom="email" /></span>
+            <div><h2 class="contact-line__titre">E-mail</h2><a href={`mailto:${cab.contact.email}`}>{cab.contact.email}</a>{cab.contact.emailNote && <small>{cab.contact.emailNote}</small>}</div>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-card" data-reveal>
+        <div class="contact-line">
+          <span class="card__icon"><Picto nom="horloge" /></span>
+          <div><h2 class="contact-line__titre">Horaires</h2><p>{c.horairesNote || 'Sur rendez-vous'}</p></div>
+        </div>
+        <ul class="hours">
+          {cab.horaires.groupes.map((g) => <li data-jours={joursJs(g)}><span>{g.libelle}</span><span>{g.texte}</span></li>)}
+        </ul>
+        <p class="small muted">Pour protéger votre confidentialité, ce site ne propose pas de formulaire de contact.</p>
+      </div>
+    </div>
+  </section>
+
+  <Rappel site={site} />
+
+  <section class="section section--paper2" aria-labelledby="acces-titre">
+    <div class="container">
+      <div class="section-head section-head--split">
+        <div class="stack">
+          <span class="eyebrow" data-reveal>{t.accesSurtitre || 'Accès'}</span>
+          <h2 class="h2" id="acces-titre" data-reveal set:html={enrichi(t.accesTitre || 'Comment *venir*')} />
+        </div>
+        <p class="lead" data-reveal>{adresse}. Le lien vers l’itinéraire s’ouvre dans votre application de cartes.</p>
+      </div>
+
+      {carte.rendre && (
+        <div class="map plan" data-option="carte" hidden={carte.cache} data-plan data-src={integration} data-titre={`Carte interactive : ${adresse}`} data-reveal="fade">
+          {plan && <Picture src={plan} alt={`Plan du quartier autour du ${adresse}. Le cabinet est au centre de la carte.`} formats={['avif', 'webp']} fallbackFormat="jpg" widths={[480, 640, 800, 1024, 1280]} sizes="(min-width: 1248px) 1200px, 94vw" loading="lazy" />}
+          <div class="map__pin" aria-hidden="true"><i></i><span></span></div>
+          <div class="map__panel">
+            <p>Fond de carte © contributeurs OpenStreetMap. La carte interactive ne se charge qu’à votre demande : votre adresse IP est alors transmise à OpenStreetMap.</p>
+            <div class="btns">
+              {integration && <button class="btn btn--sm" type="button" data-plan-afficher aria-pressed="false">Afficher la carte interactive</button>}
+              <a class="btn btn--ghost btn--sm" href={itineraire} target="_blank" rel="noopener">Itinéraire <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg><span class="sr-only"> (nouvel onglet)</span></a>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {c.acces.length > 0 && (
+        <ul class="cards cards--auto" data-stagger>
+          {c.acces.map((a) => (
+            <li class="card" data-reveal>
+              <span class="card__icon"><Picto nom={a.icone} /></span>
+              <h3>{a.titre}</h3>
+              {a.texte && <p>{a.texte}</p>}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="visio-titre">
+    <div class="container two-col">
+      <div class="stack">
+        {c.visio && <span class="eyebrow" data-reveal>{t.visioSurtitre || 'Consultations à distance'}</span>}
+        {c.visio
+          ? <h2 class="h2" id="visio-titre" data-reveal set:html={enrichi(t.visioTitre || 'Vous préférez *la visio ?*')} />
+          : <h2 class="h2" id="visio-titre" data-reveal>Une question <em>avant de venir ?</em></h2>}
+      </div>
+      <div class="stack">
+        {c.visio && t.visio && t.visio.map((x, i) => <p class:list={[i === 0 ? 'lead' : 'muted']} data-reveal set:html={enrichi(x)} />)}
+        {!c.visio && <p class="lead" data-reveal>Appelez-moi au <a class="inline-link" href={cab.tel.lien}>{cab.tel.affiche}</a> ou écrivez-moi : je vous réponds dans les meilleurs délais.</p>}
+        <div data-reveal><Urgence /></div>
+      </div>
+    </div>
+  </section>
+</Cadre>

@@ -1,0 +1,184 @@
+---
+/* Accueil du style « Sauge » (démo Claire Morel) */
+import Cadre from '../Cadre.astro';
+import Titre from '../Titre.astro';
+import Rdv from '../Rdv.astro';
+import Fleche from '../Fleche.astro';
+import Appel from '../Appel.astro';
+import Urgence from '../Urgence.astro';
+import Picto from '../../../components/Picto.astro';
+import Portrait from '../Portrait.astro';
+import Creneaux from '../../../components/options/Creneaux.astro';
+import Questionnaires from '../../../components/options/Questionnaires.astro';
+import Newsletter from '../../../components/options/Newsletter.astro';
+import { lien } from '../../../lib/site.mjs';
+import { meta, donneesCabinet } from '../../../lib/seo.mjs';
+import { enrichi } from '../../../lib/texte.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien, c = cab.cabinet, t = cab.pages.accueil;
+const m = meta(site, 'accueil');
+const tarif = cab.tarifs[0];
+const premierGroupe = cab.horaires.groupes.find((g) => !g.ferme);
+
+const reperes = [
+  p.diplome && { icone: 'diplome', titre: `${cab.metier} ${cab.accord('diplômé')}`, texte: p.diplome },
+  (p.adeli || p.rpps) && { icone: 'carte', titre: p.adeli ? `N° ADELI ${p.adeli}` : `N° RPPS ${p.rpps}`, texte: cab.estPsychologue ? 'Titre de psychologue enregistré à l’ARS' : 'Numéro professionnel' },
+  { icone: 'lieu', titre: `Cabinet à ${c.ville}${c.visio ? ' et visio' : ''}`, texte: `${c.adresse}${c.quartier ? ', ' + c.quartier : ''}` },
+  cab.rdv ? { icone: 'calendrier', titre: 'Rendez-vous en ligne', texte: `Réservation à toute heure sur ${cab.rdv.plateforme}` } : { icone: 'telephone', titre: 'Rendez-vous par téléphone', texte: cab.tel.affiche }
+].filter(Boolean);
+const statut = cab.bloc('statut', site.vitrine), respiration = cab.bloc('respiration', site.vitrine);
+const badge = `${p.titre.split(' ')[0]} · ${p.specialiteCourte ? p.specialiteCourte + ' · ' : ''}${c.ville}${c.visio ? ' · Visio' : ''} ·`;
+---
+<Cadre site={site} page="accueil" titre={m.titre} description={m.description} chemin={site.base} jsonld={[donneesCabinet(site)]}>
+  <section class="hero" aria-labelledby="titre-page">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__text">
+          <span class="eyebrow fade-in">{t.surtitre || `${p.titre} · ${cab.lieuCourt}`}</span>
+          <Titre texte={t.titre} classe="display" />
+          <p class="lead fade-in fade-in--1">{t.intro}</p>
+          <div class="btns fade-in fade-in--2">
+            <Rdv cab={cab} />
+            <a class="btn btn--ghost" href={lien(site, 'approche')}>Découvrir mon approche</a>
+          </div>
+          <p class="hero__meta fade-in fade-in--3">
+            <span>Séance de {tarif.duree} · {tarif.prix}</span>
+            {p.public && <span>{p.public}</span>}
+            {c.visio && <span>Visio possible</span>}
+          </p>
+        </div>
+
+        <div class="hero__art" data-tilt>
+          <div class="blob blob--a" data-depth="-14" aria-hidden="true"></div>
+          <div class="blob blob--b" data-depth="10" aria-hidden="true"></div>
+          <div class="arch" role="img" aria-label="Illustration : un soleil se lève doucement sur des collines">
+            <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <radialGradient id="soleil-degrade" cx="50%" cy="45%" r="55%"><stop class="s1" offset="0" /><stop class="s2" offset=".6" /><stop class="s3" offset="1" /></radialGradient>
+                <linearGradient id="colline-1" x1="0" y1="0" x2="0" y2="1"><stop class="c1a" offset="0" /><stop class="c1b" offset="1" /></linearGradient>
+                <linearGradient id="colline-2" x1="0" y1="0" x2="0" y2="1"><stop class="c2a" offset="0" /><stop class="c2b" offset="1" /></linearGradient>
+                <linearGradient id="colline-3" x1="0" y1="0" x2="0" y2="1"><stop class="c3a" offset="0" /><stop class="c3b" offset="1" /></linearGradient>
+                <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch" /><feColorMatrix values="0 0 0 0 .3  0 0 0 0 .25  0 0 0 0 .2  0 0 0 .55 0" /></filter>
+              </defs>
+              <circle class="sun" cx="200" cy="250" r="92" fill="url(#soleil-degrade)" />
+              <path class="hill hill--1" d="M-20 330 C 80 270, 170 300, 240 290 S 380 250, 430 280 V520 H-20Z" fill="url(#colline-1)" />
+              <path class="hill hill--2" d="M-20 380 C 60 340, 140 350, 210 372 S 340 330, 430 350 V520 H-20Z" fill="url(#colline-2)" />
+              <path class="hill hill--3" d="M-20 430 C 90 400, 180 440, 260 425 S 380 400, 430 415 V520 H-20Z" fill="url(#colline-3)" />
+              <rect class="grain" width="400" height="500" filter="url(#grain)" />
+            </svg>
+          </div>
+          {statut.rendre && (
+            <div class="status-card" data-statut data-option="statut" hidden={statut.cache} data-horaires={JSON.stringify(cab.horaires.compact)} data-depth="8">
+              <span class="dot" aria-hidden="true"></span>
+              <span><strong data-statut-texte>Cabinet {c.quartier ? `du ${c.quartier}` : `de ${c.ville}`}</strong><span data-statut-detail>{premierGroupe ? `${premierGroupe.libelle} ${premierGroupe.texte}` : 'Sur rendez-vous'}</span></span>
+            </div>
+          )}
+          <div class="badge-rotate" data-depth="-8" aria-hidden="true">
+            <svg viewBox="0 0 120 120"><defs><path id="badge-cercle" d="M60 60 m-48 0 a48 48 0 1 1 96 0 a48 48 0 1 1 -96 0" /></defs><text><textPath href="#badge-cercle" textLength="298" lengthAdjust="spacing">{badge}</textPath></text></svg>
+            <b>{cab.initiales}</b>
+          </div>
+        </div>
+      </div>
+
+      <ul class="trust" data-stagger>
+        {reperes.map((r) => (
+          <li data-reveal><Picto nom={r.icone} /><strong>{r.titre}</strong><span>{r.texte}</span></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <Creneaux site={site} />
+
+  {cab.motifs.length > 0 && (
+    <section class="section" id="motifs" aria-labelledby="motifs-titre">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div class="stack">
+            <span class="eyebrow" data-reveal>{t.motifsSurtitre || 'Motifs de consultation'}</span>
+            <h2 class="h2" id="motifs-titre" data-reveal set:html={enrichi(t.motifsTitre)} />
+          </div>
+          {t.motifsIntro && <p class="lead" data-reveal>{t.motifsIntro}</p>}
+        </div>
+        <ul class="motifs" data-stagger>
+          {cab.motifs.map((x) => (
+            <li class="motif" data-reveal>
+              <span class="motif__icon"><Picto nom={x.icone} /></span>
+              <h3>{x.titre}</h3>
+              {x.texte && <p>{x.texte}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--paper2" aria-labelledby="presentation-titre">
+    <div class="container intro">
+      <Portrait site={site} type="portrait" titre={cab.nomComplet} detail={p.titre} complement={p.depuis ? `Depuis ${p.depuis}` : ''} />
+      <div class="intro__text">
+        <span class="eyebrow" data-reveal>{t.presentationSurtitre || 'Présentation'}</span>
+        <h2 class="h2" id="presentation-titre" data-reveal set:html={enrichi(t.presentationTitre)} />
+        {t.presentation.map((x) => <p data-reveal set:html={enrichi(x)} />)}
+        {p.citation && <blockquote class="quote" data-reveal>« {p.citation} »</blockquote>}
+        <div data-reveal><a class="link" href={lien(site, 'a-propos')}>Découvrir mon parcours <Fleche /></a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="etapes-titre">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow" data-reveal>{t.etapesSurtitre || 'Première séance'}</span>
+        <h2 class="h2" id="etapes-titre" data-reveal set:html={enrichi(t.etapesTitre)} />
+        {t.etapesIntro && <p class="lead" data-reveal>{t.etapesIntro}</p>}
+      </div>
+      <div class="steps-wrap" data-progress>
+        <div class="steps__track" aria-hidden="true"></div>
+        <ol class="steps" data-stagger>
+          {t.etapes.map((e, i) => (
+            <li class="step" data-progress-item data-reveal>
+              <span class="step__num" aria-hidden="true">{i + 1}</span>
+              <h3>{e.titre}</h3>
+              <p>{e.texte}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+      <div class="more" data-reveal><a class="link" href={lien(site, 'approche')}>En savoir plus {p.specialiteCourte ? `sur les ${p.specialiteCourte}` : 'sur mon approche'} <Fleche /></a></div>
+    </div>
+  </section>
+
+  <Questionnaires site={site} />
+
+  {respiration.rendre && (
+    <section class="section section--dark" id="respiration" aria-labelledby="respiration-titre" data-option="respiration" hidden={respiration.cache}>
+      <div class="container breath" data-breath>
+        <div class="breath__text">
+          <span class="eyebrow" data-reveal>{t.respirationSurtitre || 'Une minute pour vous'}</span>
+          <h2 class="h2" id="respiration-titre" data-reveal set:html={enrichi(t.respirationTitre)} />
+          {t.respirationTexte && <p class="lead" data-reveal>{t.respirationTexte}</p>}
+          <div class="breath__controls" data-reveal>
+            <button class="btn btn--light" type="button" data-breath-toggle>Commencer</button>
+            <p class="breath__pattern"><span>4 s inspiration</span><span>2 s pause</span><span>6 s expiration</span></p>
+          </div>
+        </div>
+        <div class="breath__stage" data-reveal="scale">
+          <span class="breath__ring" aria-hidden="true"></span>
+          <span class="breath__ring breath__ring--2" aria-hidden="true"></span>
+          <span class="breath__ring breath__ring--3" aria-hidden="true"></span>
+          <svg class="breath__progress" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49.5" pathLength="1" /></svg>
+          <span class="breath__circle" aria-hidden="true"></span>
+          <p class="breath__label" aria-live="polite"><strong data-breath-label>Prêt ?</strong><span data-breath-sub>1 minute</span></p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <Newsletter site={site} />
+
+  <div class="container urgent-wrap"><Urgence /></div>
+  <Appel cab={cab} titre={t.finTitre} texte={t.finTexte} secondaire={{ href: lien(site, 'contact'), texte: 'Me contacter' }} />
+</Cadre>

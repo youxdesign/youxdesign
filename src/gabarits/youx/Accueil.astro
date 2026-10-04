@@ -1,0 +1,36 @@
+---
+/* Galerie des styles youXdesign (/styles/) : un lien vers chaque démo */
+import Youx from '../../layouts/Youx.astro';
+import Logo from '../../components/youx/Logo.astro';
+import { sites } from '../../lib/site.mjs';
+import { STYLES } from '../../config/catalogue.mjs';
+
+const liste = sites().map((s) => ({ site: s, style: STYLES.find((x) => x.id === s.theme) }));
+---
+<Youx titre="Les styles · youXdesign" description={`${liste.length} styles de site pour psychologues, sophrologues et coachs : ${liste.map((x) => x.style.nom).join(', ')}. Chacun est un vrai site à parcourir.`} chemin="/styles/">
+  <header class="yx-entete">
+    <div class="yx-conteneur"><Logo clair /></div>
+  </header>
+  <main id="contenu" tabindex="-1" class="yx-hub">
+    <section class="yx-conteneur yx-hub__tete">
+      <p class="yx-surtitre">Les styles</p>
+      <h1>Neuf univers, <em>un même soin</em></h1>
+      <p class="yx-chapeau">Chaque style est un vrai site, avec toutes ses pages. Parcourez-les, puis composez le vôtre dans le configurateur : palette, typographie, fonctionnalités.</p>
+      <p class="yx-boutons"><a class="yx-bouton" href="/">Configurer mon site</a></p>
+    </section>
+    <section class="yx-conteneur" aria-labelledby="styles-titre">
+      <h2 id="styles-titre" class="yx-h2">Les démonstrations</h2>
+      <ul class="yx-styles">
+        {liste.map(({ site, style }) => (
+          <li class="yx-style">
+            <a href={site.base}>
+              <span class="yx-style__nom">{style.nom}</span>
+              <span class="yx-style__desc">{style.resume}</span>
+              <span class="yx-style__adresse">Voir la démo →</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</Youx>

@@ -1,0 +1,85 @@
+---
+import Site from '../layouts/Site.astro';
+import TetePage from '../components/TetePage.astro';
+import TitreSection from '../components/TitreSection.astro';
+import AppelFinal from '../components/AppelFinal.astro';
+import Paiement from '../components/options/Paiement.astro';
+import { lien } from '../lib/site.mjs';
+import { meta, donneesFil } from '../lib/seo.mjs';
+import { enrichi } from '../lib/texte.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, t = cab.pages.consultations;
+const m = meta(site, 'consultations');
+const partenaire = t.monSoutienPsy === true;
+---
+<Site site={site} page="consultations" titre={m.titre} description={m.description} chemin={lien(site, 'consultations')} jsonld={[donneesFil(site, 'consultations')]}>
+  <TetePage surtitre={t.surtitre || 'Consultations & tarifs'} titre={t.titre} intro={t.intro}>
+    <p slot="texte" class="tete-page__contact">Téléphone : <a href={cab.tel.lien}>{cab.tel.affiche}</a></p>
+  </TetePage>
+
+  <section class="section section--teinte" aria-labelledby="tarifs-titre">
+    <div class="conteneur">
+      <TitreSection surtitre="Séances" numero={1} titre={t.tarifsTitre || 'Types de séances et tarifs'} id="tarifs-titre" />
+      <ul class="grille tarifs">
+        {cab.tarifs.map((x) => (
+          <li class="carte tarif apparait">
+            {x.lieu && <span class="tarif__lieu">{x.lieu}</span>}
+            <h3>{x.nom}</h3>
+            <p class="tarif__prix"><span class="tarif__montant">{x.prix}</span>{x.duree && <span class="tarif__duree">· {x.duree}</span>}</p>
+            {x.texte && <p>{x.texte}</p>}
+          </li>
+        ))}
+      </ul>
+      {t.tarifsNote && <p class="note-tarifs">{t.tarifsNote}</p>}
+    </div>
+  </section>
+
+  <Paiement site={site} />
+
+  {(t.paiement || t.annulation) && (
+    <section class="section" aria-label="Paiement et annulation">
+      <div class="conteneur deux-colonnes deux-colonnes--haut modalites">
+        {t.paiement && (
+          <div class="modalite apparait">
+            <h2 set:html={enrichi(t.paiementTitre || 'Moyens de paiement')} />
+            <p>{t.paiement}</p>
+            {t.moyensPaiement && <p class="discret">{t.moyensPaiement.map((m) => m.titre).join(' · ')}</p>}
+          </div>
+        )}
+        {t.annulation && (
+          <div class="modalite apparait">
+            <h2 set:html={enrichi(t.annulationTitre || 'Annuler ou déplacer')} />
+            <div class="texte">{t.annulation.map((x) => <p set:html={enrichi(x)} />)}</div>
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  {cab.estPsychologue && (
+    <section class="section section--teinte" aria-labelledby="msp-titre">
+      <div class="conteneur deux-colonnes deux-colonnes--texte">
+        <div>
+          <TitreSection surtitre="Remboursement" numero={2} titre="Le dispositif Mon soutien psy" id="msp-titre" />
+          <div class="texte">
+            <p>Mon soutien psy permet d’être remboursé de séances chez un psychologue partenaire de l’Assurance Maladie.</p>
+            {partenaire
+              ? <p>Je suis partenaire de ce dispositif : les séances peuvent être prises en charge dans les conditions ci-contre. Précisez-le lors de la prise de rendez-vous.</p>
+              : <p>Je ne suis pas partenaire de ce dispositif : mes séances ne sont donc pas remboursées par l’Assurance Maladie. De nombreuses mutuelles en prennent toutefois une partie en charge.</p>}
+          </div>
+        </div>
+        <div>
+          <ul class="chiffres">
+            <li><span class="chiffre">12</span><span>séances par an au maximum, sur prescription ou en accès direct selon les conditions en vigueur.</span></li>
+            <li><span class="chiffre">60 %</span><span>du tarif conventionné remboursé par l’Assurance Maladie, le reste pouvant être pris en charge par la mutuelle.</span></li>
+          </ul>
+          <p class="discret">Conditions susceptibles d’évoluer : vérifiez-les sur <a href="https://www.ameli.fr/assure/remboursements/rembourse/remboursement-seance-psychologue-mon-soutien-psy" target="_blank" rel="noopener">ameli.fr<span class="sr-only"> (nouvel onglet)</span></a>.</p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <AppelFinal cab={cab} titre={t.finTitre} texte={t.finTexte} />
+</Site>

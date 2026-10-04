@@ -1,0 +1,206 @@
+/* ==========================================================================
+   Style « Santé contemporaine »
+   Net, clair et rassurant : typographie sans empattements, cartes bordées,
+   bleu franc, et la prise de rendez-vous mise en avant dès l'ouverture.
+   ========================================================================== */
+:root {
+  --r-petit: .5rem;
+  --r: .875rem;
+  --r-grand: 1.25rem;
+  --r-bouton: .625rem;
+  --r-visuel: 1.25rem;
+  --lh-titres: 1.1;
+  --ls-titres: -.025em;
+  --t-h1: clamp(2.25rem, 1.55rem + 2.9vw, 3.75rem);
+  --t-h2: clamp(1.75rem, 1.4rem + 1.5vw, 2.5rem);
+  --t-h3: clamp(1.0625rem, 1rem + .3vw, 1.25rem);
+  --numeros: decimal-leading-zero;
+  --ombre: 0 1px 2px rgb(15 43 70 / .06), 0 20px 44px -24px rgb(15 43 70 / .32);
+}
+
+h1 em, h2 em, h3 em, .titre em { font-style: normal; color: var(--c-lien); }
+.surtitre { color: var(--c-lien); letter-spacing: .1em; }
+
+/* --- En-tête : initiales, téléphone, bouton ------------------------------- */
+.marque__nom { font-size: 1.125rem; letter-spacing: -.015em; }
+.marque__metier { font-size: .8125rem; font-weight: 400; letter-spacing: 0; text-transform: none; }
+.nav a { font-weight: 500; }
+.nav a:hover { background: var(--c-doux); }
+.bouton { font-weight: 600; }
+
+/* --- Ouverture ------------------------------------------------------------- */
+.une { padding-block: clamp(2rem, 1.2rem + 3.5vw, 4.5rem) clamp(3rem, 2rem + 4vw, 6rem); }
+.une__grille { display: grid; gap: clamp(2.5rem, 1.5rem + 4vw, 4.5rem); align-items: start; }
+.une__texte { display: grid; gap: var(--e-5); justify-items: start; }
+.une__puces { display: flex; flex-wrap: wrap; gap: .5rem; }
+.une__puces li {
+  padding: .3rem .8rem;
+  border-radius: 999px;
+  background: var(--c-doux);
+  color: var(--c-accent2-texte);
+  font-size: var(--t-mini);
+  font-weight: 600;
+}
+.une__texte h1 { font-weight: 600; }
+.une__garanties { font-size: var(--t-petit); font-weight: 500; }
+.une__garanties li::before { background: var(--c-bouton); }
+.une__garanties li::after { border-color: var(--c-sur-bouton); }
+.une__profil {
+  display: flex;
+  align-items: center;
+  gap: var(--e-4);
+  width: 100%;
+  padding-top: var(--e-5);
+  border-top: 1px solid var(--c-ligne);
+  font-size: var(--t-petit);
+  line-height: 1.4;
+}
+.une__profil > span:last-child { display: grid; color: var(--c-texte2); }
+.une__profil strong { color: var(--c-encre); }
+.une__avatar {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--c-doux);
+  color: var(--c-lien);
+  font-weight: 700;
+}
+
+/* Carte de réservation */
+.une__resa {
+  display: grid;
+  gap: var(--e-4);
+  padding: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+  border: 1px solid var(--c-ligne);
+  border-radius: var(--r-grand);
+  background: var(--c-surface);
+  box-shadow: var(--ombre);
+}
+.une__resa-tete { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .25rem 1rem; }
+.une__resa-tete h2 { font-size: 1.125rem; letter-spacing: -.01em; }
+.une__resa-tete p { color: var(--c-texte2); font-size: var(--t-petit); }
+.une__creneaux { display: grid; gap: var(--e-3); }
+.une__jours { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .4rem; }
+.une__jours li {
+  display: grid;
+  justify-items: center;
+  gap: .1rem;
+  padding: .45rem .25rem;
+  border: 1px solid var(--c-ligne);
+  border-radius: var(--r-petit);
+  font-size: .75rem;
+  color: var(--c-texte2);
+  line-height: 1.2;
+}
+.une__jours strong { font-size: 1rem; color: var(--c-encre); }
+.une__jours .est-choisi { background: var(--c-bouton); border-color: var(--c-bouton); color: var(--c-sur-bouton); }
+.une__jours .est-choisi strong { color: var(--c-sur-bouton); }
+.une__heures { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .4rem; }
+.une__heure {
+  display: grid;
+  place-items: center;
+  min-height: 2.75rem;
+  border: 1px solid var(--c-ligne-forte);
+  border-radius: var(--r-petit);
+  color: var(--c-lien);
+  font-size: var(--t-petit);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-decoration: none;
+}
+.une__heure:hover { background: var(--c-doux); }
+.une__heure.est-choisi { background: var(--c-bouton); border-color: var(--c-bouton); color: var(--c-sur-bouton); }
+.une__resa-infos { display: grid; gap: var(--e-3); font-size: var(--t-petit); }
+.une__resa-infos div { display: grid; grid-template-columns: 6.5rem 1fr; gap: var(--e-3); padding-bottom: var(--e-3); border-bottom: 1px solid var(--c-ligne); }
+.une__resa-infos dt { color: var(--c-texte2); }
+.une__resa-infos a { font-weight: 600; }
+.une__creneaux:not([hidden]) + .une__resa-infos { display: none; }
+.une__resa-bouton { width: 100%; }
+@media (min-width: 60rem) {
+  .une__grille { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
+  .une__resa { position: sticky; top: calc(var(--entete-h) + 1.5rem); }
+}
+
+/* --- Cartes : blanches, bordées -------------------------------------------- */
+.carte { background: var(--c-surface); border-color: var(--c-ligne); transition: box-shadow var(--duree) var(--courbe), border-color var(--duree) var(--courbe); }
+.carte:hover { box-shadow: var(--ombre); border-color: var(--c-ligne-forte); }
+.motif__num { display: none; }
+
+/* --- Présentation ---------------------------------------------------------- */
+.section-presentation { background: var(--c-fond2); }
+
+/* --- Étapes : bande grise, cartes bleu pâle -------------------------------- */
+.section-etapes { background: var(--c-fond2); padding-top: var(--e-section); }
+.section-presentation + .section-etapes { padding-top: 0; }
+.etape { padding: var(--e-5); border-radius: var(--r); background: var(--c-doux); }
+.etape__num {
+  width: auto;
+  height: auto;
+  place-items: start;
+  background: none;
+  color: var(--c-lien);
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* --- Respiration : bleu nuit, sphère bleue --------------------------------- */
+.section-respiration { --sphere-1: var(--c-doux2); --sphere-2: var(--c-accent); --sphere-3: var(--c-inverse); }
+
+/* --- Tarifs et carte bleu pâle --------------------------------------------- */
+.ligne-tarif__nom { font-weight: 600; font-size: 1.0625rem; }
+.ligne-tarif__prix { font-weight: 600; }
+.infos { background: var(--c-doux); border-radius: var(--r-grand); }
+
+/* --- Plan ------------------------------------------------------------------ */
+.plan__cadre { border-radius: var(--r-grand); }
+.plan__image { filter: saturate(.25) contrast(1.02) brightness(1.03); }
+
+/* --- Questions ------------------------------------------------------------- */
+.question summary { font-weight: 600; }
+
+/* --- Urgence --------------------------------------------------------------- */
+.urgence { border: 1px solid var(--c-ligne); background: var(--c-doux); }
+
+/* --- Appel final : un bloc bleu aux coins arrondis ------------------------- */
+.appel-final {
+  background: none;
+  color: var(--c-encre);
+  --c-encre: inherit;
+  --c-texte2: inherit;
+  --c-lien: inherit;
+  --c-ligne: inherit;
+  --c-ligne-forte: inherit;
+  --c-doux: inherit;
+  --c-surface: inherit;
+  --c-accent-doux: inherit;
+  --c-focus: inherit;
+  padding-top: 0;
+}
+.appel-final .appel {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: clamp(2.5rem, 1.5rem + 4vw, 4.5rem) clamp(1.25rem, .5rem + 3vw, 3rem);
+  border-radius: var(--r-grand);
+  background: var(--c-bouton);
+  color: var(--c-sur-bouton);
+  text-align: center;
+  --c-encre: var(--c-sur-bouton);
+  --c-texte2: var(--c-sur-bouton);
+  --c-focus: var(--c-sur-bouton);
+}
+.appel-final .appel__texte { justify-items: center; }
+.appel-final .chapeau { margin-inline: auto; }
+.appel-final .boutons { justify-content: center; }
+.appel-final .bouton { background: var(--c-sur-bouton); color: var(--c-bouton); }
+.appel-final .bouton:hover { background: var(--c-sur-bouton); color: var(--c-bouton); text-decoration: underline; }
+.appel-final .bouton--secondaire { background: transparent; color: var(--c-sur-bouton); border-color: var(--c-sur-bouton); }
+
+/* --- Pages intérieures : bandeau bleu pâle --------------------------------- */
+.tete-page { background: var(--c-doux); }
+.tete-page h1 { font-weight: 600; }
+.tete-page + .section:not(.section--teinte, .section--profonde) { padding-top: var(--e-section); }
+.encadre { border-left-color: var(--c-bouton); }

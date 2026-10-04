@@ -1,0 +1,130 @@
+---
+/* Mon approche du style « Sauge » */
+import Cadre from '../Cadre.astro';
+import TetePage from '../TetePage.astro';
+import Appel from '../Appel.astro';
+import Picto from '../../../components/Picto.astro';
+import Ressources from '../../../components/options/Ressources.astro';
+import Ateliers from '../../../components/options/Ateliers.astro';
+import { lien } from '../../../lib/site.mjs';
+import { meta, donneesFil } from '../../../lib/seo.mjs';
+import { enrichi } from '../../../lib/texte.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, t = cab.pages.approche;
+const m = meta(site, 'approche');
+const noeuds = t.cercleNoeuds || [];
+const schema = noeuds.length === 3
+  ? `Schéma : ${noeuds.map((n) => n.titre.toLowerCase()).join(', ')} s’influencent mutuellement et forment un cercle.`
+  : '';
+---
+<Cadre site={site} page="approche" titre={m.titre} description={m.description} chemin={lien(site, 'approche')} jsonld={[donneesFil(site, 'approche')]}>
+  <TetePage surtitre="Mon approche" titre={t.titre} intro={t.intro} />
+
+  {t.cercle && (
+    <section class="section section--paper2" aria-labelledby="cercle-titre">
+      <div class="container cycle-wrap">
+        <div class="stack">
+          <span class="eyebrow" data-reveal>{t.cercleSurtitre || 'Le principe'}</span>
+          <h2 class="h2" id="cercle-titre" data-reveal set:html={enrichi(t.cercleTitre)} />
+          {t.cercle.map((x, i) => <p class:list={[i === 0 ? 'lead' : 'muted']} data-reveal set:html={enrichi(x)} />)}
+        </div>
+        {noeuds.length === 3 && (
+          <div class="cycle" data-reveal="scale" role="img" aria-label={schema}>
+            <svg viewBox="0 0 400 400" aria-hidden="true">
+              <circle class="cycle__path" cx="200" cy="230" r="128" />
+              <circle class="cycle__flow" pathLength="960" cx="200" cy="230" r="128" transform="rotate(-90 200 230)" />
+              <circle class="cycle__flow cycle__flow--2" pathLength="960" cx="200" cy="230" r="128" transform="rotate(30 200 230)" />
+              <circle class="cycle__flow cycle__flow--3" pathLength="960" cx="200" cy="230" r="128" transform="rotate(150 200 230)" />
+            </svg>
+            {noeuds.map((n, i) => (
+              <div class={`cycle__node cycle__node--${i + 1}`} aria-hidden="true">{n.titre}{n.texte && <small>{n.texte}</small>}</div>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  )}
+
+  {t.deroule && (
+    <section class="section" aria-labelledby="deroule-titre">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-reveal>{t.derouleSurtitre || 'Le déroulement'}</span>
+          <h2 class="h2" id="deroule-titre" data-reveal set:html={enrichi(t.derouleTitre)} />
+          {t.derouleIntro && <p class="lead" data-reveal>{t.derouleIntro}</p>}
+        </div>
+        <ol class="phases" data-stagger>
+          {t.deroule.map((j) => (
+            <li class="phase" data-reveal>
+              <span class="phase__when">{j.date}</span>
+              <h3>{j.titre}</h3>
+              {j.texte && <p>{j.texte}</p>}
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  )}
+
+  {t.duree && (
+    <section class="section section--dark" aria-labelledby="duree-titre">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-reveal>{t.dureeSurtitre || 'Durée moyenne'}</span>
+          <h2 class="h2" id="duree-titre" data-reveal set:html={enrichi(t.dureeTitre)} />
+        </div>
+        <div class="stats" data-stagger>
+          {t.duree.map((d) => (
+            <div class="stat" data-reveal><span class="stat__n" data-count={`${d.de}-${d.a}`}>{d.de} à {d.a}</span><span class="stat__l">{d.texte}</span></div>
+          ))}
+        </div>
+        {t.dureeTexte && <p class="lead stats-note" data-reveal>{t.dureeTexte}</p>}
+      </div>
+    </section>
+  )}
+
+  {t.outils && (
+    <section class="section" aria-labelledby="outils-titre">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-reveal>{t.outilsSurtitre || 'Exemples d’outils'}</span>
+          <h2 class="h2" id="outils-titre" data-reveal set:html={enrichi(t.outilsTitre)} />
+          {t.outilsIntro && <p class="lead" data-reveal>{t.outilsIntro}</p>}
+        </div>
+        <ul class="cards" data-stagger>
+          {t.outils.map((o) => (
+            <li class="card" data-reveal>
+              <span class="card__icon"><Picto nom={o.icone} /></span>
+              <h3>{o.titre}</h3>
+              {o.texte && <p>{o.texte}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  {t.cadre && (
+    <section class="section section--tint" aria-labelledby="cadre-titre">
+      <div class="container two-col">
+        <div class="stack">
+          <span class="eyebrow" data-reveal>{t.cadreSurtitre || 'Ce que vous pouvez attendre'}</span>
+          <h2 class="h2" id="cadre-titre" data-reveal set:html={enrichi(t.cadreTitre)} />
+          {t.cadreIntro && <p class="lead" data-reveal>{t.cadreIntro}</p>}
+        </div>
+        <ul class="checks" data-stagger>
+          {t.cadre.map((x) => (
+            <li><Picto nom="coche" /><p set:html={enrichi(x)} /></li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <Ressources site={site} />
+  <Ateliers site={site} />
+
+  <Appel cab={cab} titre={t.finTitre} texte={t.finTexte} secondaire={cab.a('faq') ? { href: lien(site, 'faq'), texte: 'Questions fréquentes' } : { href: lien(site, 'contact'), texte: 'Me contacter' }} />
+</Cadre>

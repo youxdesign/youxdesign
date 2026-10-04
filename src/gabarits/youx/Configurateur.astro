@@ -1,0 +1,460 @@
+---
+/* ==========================================================================
+   Configurateur youXdesign
+   --------------------------------------------------------------------------
+   Le prospect décrit son cabinet et ses goûts en douze étapes ; à droite,
+   l'aperçu affiche le VRAI site de démonstration dans le style, la palette
+   et la police choisis, avec ses informations et ses photos. Cocher une
+   fonctionnalité fait défiler l'aperçu jusqu'au bloc correspondant.
+   Rien n'est envoyé ni enregistré ailleurs que sur l'appareil du visiteur :
+   la demande part de sa propre messagerie.
+   ========================================================================== */
+import Youx from '../../layouts/Youx.astro';
+import Logo from '../../components/youx/Logo.astro';
+import { STYLES, PALETTES_LIBRES, OPTIONS, PAGES, FONDS, VOILES } from '../../config/catalogue.mjs';
+import { EMAIL } from '../../config/youxdesign.mjs';
+import { pilePolice } from '../../lib/assets.mjs';
+import { deriver } from '../../lib/couleurs.mjs';
+import { sites } from '../../lib/site.mjs';
+
+const demo = sites().find((s) => s.theme === 'sauge').cab;
+const ETAPES = [
+  { id: 'bienvenue', nom: 'Bienvenue' },
+  { id: 'identite', nom: 'Identité' },
+  { id: 'cabinet', nom: 'Cabinet' },
+  { id: 'tarifs', nom: 'Tarifs' },
+  { id: 'style', nom: 'Style' },
+  { id: 'couleurs', nom: 'Couleurs' },
+  { id: 'typographie', nom: 'Typographie' },
+  { id: 'photos', nom: 'Photos' },
+  { id: 'pages', nom: 'Pages' },
+  { id: 'fonctions', nom: 'Fonctions' },
+  { id: 'ton', nom: 'Ton' },
+  { id: 'envoi', nom: 'Envoi' }
+];
+const PUBLICS = ['Adultes', 'Adolescents', 'Enfants', 'Couples', 'Seniors'];
+const MOTIFS = ['Anxiété', 'Stress et burn-out', 'Dépression', 'Sommeil', 'Phobies', 'TOC', 'Estime de soi', 'Relations', 'Deuil', 'Troubles alimentaires', 'Addictions', 'Parentalité'];
+const AMBIANCES = ['Apaisant', 'Lumineux', 'Chaleureux', 'Doux', 'Minimaliste', 'Élégant', 'Moderne', 'Intemporel', 'Nature', 'Poétique', 'Artistique', 'Audacieux', 'Coloré', 'Rassurant', 'Professionnel', 'Accueillant'];
+const PISTES = ['Mélanger plusieurs styles', 'Illustrations sur mesure', 'Logo ou identité à créer', 'Photos ou textures de matières', 'Animations plus présentes', 'Mode sombre', 'Couleurs vives', 'Univers enfant ou famille'];
+const JOURS = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
+const HEURES = [];
+for (let m = 7 * 60; m <= 22 * 60; m += 30) HEURES.push(`${Math.floor(m / 60)}:${m % 60 ? '30' : '00'}`);
+const affHeure = (h) => h.replace(':00', ' h').replace(':30', ' h 30');
+const QUESTIONNAIRES = [
+  ['pre', 'Fiche de premier rendez-vous'], ['gad7', 'Anxiété · GAD-7'], ['phq9', 'Humeur · PHQ-9'],
+  ['pss10', 'Stress perçu · PSS-10'], ['isi', 'Sommeil · ISI'], ['suivi', 'Point entre les séances']
+];
+const groupesOptions = [...new Set(OPTIONS.map((o) => o.groupe))];
+const PAGES_CHOIX = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && p.id !== 'faq');
+const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent, d.encre]; };
+---
+<Youx titre="Configurez le site de votre cabinet · youXdesign" description="Configurez en dix minutes le site de votre cabinet : style, couleurs, typographie, fonctionnalités. Le vrai site s’affiche en direct, puis vous envoyez votre demande depuis votre messagerie." scripts={['configurateur']} classe="cfg-page" feuille="configurateur">
+  <div class="cfg" data-cfg data-email={EMAIL}>
+    <header class="cfg-barre">
+      <Logo />
+      <p class="cfg-barre__etape" aria-live="polite"><span data-etape-nom>Bienvenue</span><span class="cfg-barre__compte" data-etape-compte>1 / 12</span></p>
+      <p class="cfg-barre__memoire" data-memoire hidden>Enregistré sur cet appareil</p>
+      <a class="cfg-lien-discret" href="/demo/" target="_blank" rel="noopener">Voir un site réalisé<span class="sr-only"> (nouvel onglet)</span> ↗</a>
+    </header>
+
+    <nav class="cfg-progression" aria-label="Étapes du configurateur">
+      <ol>
+        {ETAPES.map((e, i) => (
+          <li><button type="button" data-aller={i} aria-current={i === 0 ? 'step' : undefined} aria-label={`Étape ${i + 1} : ${e.nom}`}><span class="cfg-progression__num" aria-hidden="true">{i + 1}</span><span class="cfg-progression__nom">{e.nom}</span></button></li>
+        ))}
+      </ol>
+    </nav>
+
+    <main id="contenu" tabindex="-1" class="cfg-corps">
+      <form class="cfg-panneau" data-formulaire novalidate>
+
+        <!-- 1. Bienvenue -->
+        <section class="cfg-etape" data-etape="0" aria-labelledby="t-0">
+          <p class="cfg-surtitre">Configurateur · 10 minutes</p>
+          <h1 class="cfg-titre" id="t-0" tabindex="-1">Le site de votre cabinet, <em>conçu par un psychologue.</em></h1>
+          <p class="cfg-intro">Décrivez votre cabinet et vos goûts : le vrai site se construit sous vos yeux, dans l’aperçu. À la fin, vous envoyez votre demande depuis votre propre messagerie.</p>
+          <ol class="cfg-plan">
+            <li><span>1</span><div><strong>Vos informations</strong><p>Identité, cabinet, horaires et tarifs.</p></div></li>
+            <li><span>2</span><div><strong>Votre style</strong><p>Univers, couleurs, typographie et photos.</p></div></li>
+            <li><span>3</span><div><strong>Votre contenu</strong><p>Pages, fonctionnalités et ton des textes.</p></div></li>
+          </ol>
+          <div class="cfg-encart">
+            <p class="cfg-encart__titre">À préparer si possible</p>
+            <ul>
+              <li>Vos coordonnées et votre numéro ADELI ou RPPS</li>
+              <li>Vos horaires et vos tarifs</li>
+              <li>Une photo de vous, du cabinet et votre logo si vous en avez</li>
+            </ul>
+          </div>
+          <p class="cfg-discret">Confidentialité : vos réponses restent dans ce navigateur, rien n’est envoyé tant que vous ne l’avez pas décidé. Aucun cookie, aucun outil de suivi.</p>
+        </section>
+
+        <!-- 2. Identité -->
+        <section class="cfg-etape" data-etape="1" aria-labelledby="t-1" hidden>
+          <p class="cfg-surtitre">Étape 2 · Vos informations</p>
+          <h2 class="cfg-titre" id="t-1" tabindex="-1">Qui êtes-vous ?</h2>
+          <p class="cfg-intro">Ces informations apparaissent en haut de votre site et dans le pied de page.</p>
+          <div class="cfg-grille2">
+            <label class="cfg-champ"><span>Prénom</span><input data-champ="prenom" autocomplete="given-name" placeholder={demo.praticien.prenom} /></label>
+            <label class="cfg-champ"><span>Nom</span><input data-champ="nom" autocomplete="family-name" placeholder={demo.praticien.nom} /></label>
+          </div>
+          <fieldset class="cfg-groupe">
+            <legend>Profession</legend>
+            <div class="cfg-segment" role="radiogroup" aria-label="Profession">
+              {[['psychologue', 'Psychologue'], ['sophrologue', 'Sophrologue'], ['coach', 'Coach'], ['autre', 'Autre']].map(([v, l], i) => (
+                <label><input type="radio" name="profession" value={v} data-choix="profession" checked={i === 0} /><span>{l}</span></label>
+              ))}
+            </div>
+          </fieldset>
+          <label class="cfg-champ"><span>Titre</span><input data-champ="titre" placeholder={demo.praticien.titre} /></label>
+          <label class="cfg-champ"><span>Approche ou spécialité</span><input data-champ="approche" placeholder="TCC, thérapie systémique, EMDR…" /></label>
+          <label class="cfg-champ" data-si-profession="psychologue"><span>N° ADELI ou RPPS</span><input data-champ="numero" inputmode="numeric" placeholder={demo.praticien.adeli} /></label>
+          <div class="cfg-grille2">
+            <label class="cfg-champ"><span>Téléphone</span><input data-champ="telephone" type="tel" autocomplete="tel" placeholder={demo.contact.telephone} /></label>
+            <label class="cfg-champ"><span>E-mail professionnel</span><input data-champ="email" type="email" autocomplete="email" placeholder="contact@votre-cabinet.fr" /></label>
+          </div>
+          <fieldset class="cfg-groupe">
+            <legend>Public accueilli</legend>
+            <div class="cfg-pastilles">
+              {PUBLICS.map((p, i) => <label><input type="checkbox" data-liste="publics" value={p} checked={i < 2} /><span>{p}</span></label>)}
+            </div>
+          </fieldset>
+          <fieldset class="cfg-groupe">
+            <legend>Motifs de consultation principaux</legend>
+            <div class="cfg-pastilles">
+              {MOTIFS.map((m, i) => <label><input type="checkbox" data-liste="motifs" value={m} checked={i < 8} /><span>{m}</span></label>)}
+            </div>
+          </fieldset>
+        </section>
+
+        <!-- 3. Cabinet -->
+        <section class="cfg-etape" data-etape="2" aria-labelledby="t-2" hidden>
+          <p class="cfg-surtitre">Étape 3 · Vos informations</p>
+          <h2 class="cfg-titre" id="t-2" tabindex="-1">Votre cabinet</h2>
+          <p class="cfg-intro">Adresse, accès et horaires, pour que vos patients vous trouvent facilement.</p>
+          <label class="cfg-champ"><span>Adresse</span><input data-champ="adresse" autocomplete="street-address" placeholder={demo.cabinet.adresse} /></label>
+          <div class="cfg-grille-cp">
+            <label class="cfg-champ"><span>Code postal</span><input data-champ="cp" inputmode="numeric" autocomplete="postal-code" placeholder={demo.cabinet.codePostal} /></label>
+            <label class="cfg-champ"><span>Ville</span><input data-champ="ville" autocomplete="address-level2" placeholder={demo.cabinet.ville} /></label>
+          </div>
+          <label class="cfg-champ"><span>Accès</span><input data-champ="acces" placeholder="Métro République, parking à 100 m, 2e étage" /></label>
+          <fieldset class="cfg-groupe">
+            <legend>Horaires d’ouverture</legend>
+            <ul class="cfg-horaires">
+              {JOURS.map((j, i) => (
+                <li class="cfg-jour" data-jour={i}>
+                  <label class="cfg-interrupteur"><input type="checkbox" role="switch" data-jour-ouvert={i} checked={i < 6} /><span class="cfg-interrupteur__piste" aria-hidden="true"></span><span class="cfg-jour__nom">{j}</span></label>
+                  <span class="cfg-jour__heures">
+                    <select data-jour-debut={i} aria-label={`Ouverture le ${j.toLowerCase()}`}>{HEURES.map((h) => <option value={h} selected={h === '9:00'}>{affHeure(h)}</option>)}</select>
+                    <span aria-hidden="true">–</span>
+                    <select data-jour-fin={i} aria-label={`Fermeture le ${j.toLowerCase()}`}>{HEURES.map((h) => <option value={h} selected={h === (i === 5 ? '13:00' : '19:00')}>{affHeure(h)}</option>)}</select>
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <button type="button" class="cfg-bouton-texte" data-copier-horaires>Appliquer les horaires du lundi aux autres jours ouverts</button>
+          </fieldset>
+          <div class="cfg-reglages">
+            <label class="cfg-interrupteur cfg-interrupteur--ligne"><span class="cfg-interrupteur__texte"><strong>Consultations en visio</strong></span><input type="checkbox" role="switch" data-champ="visio" checked /><span class="cfg-interrupteur__piste" aria-hidden="true"></span></label>
+            <label class="cfg-interrupteur cfg-interrupteur--ligne"><span class="cfg-interrupteur__texte"><strong>Accessible aux personnes à mobilité réduite</strong></span><input type="checkbox" role="switch" data-champ="pmr" /><span class="cfg-interrupteur__piste" aria-hidden="true"></span></label>
+          </div>
+        </section>
+
+        <!-- 4. Tarifs -->
+        <section class="cfg-etape" data-etape="3" aria-labelledby="t-3" hidden>
+          <p class="cfg-surtitre">Étape 4 · Vos informations</p>
+          <h2 class="cfg-titre" id="t-3" tabindex="-1">Tarifs et rendez-vous</h2>
+          <p class="cfg-intro">Vos séances, et la façon dont vos patients réservent.</p>
+          <fieldset class="cfg-groupe">
+            <legend>Vos séances</legend>
+            <div class="cfg-tarifs" data-tarifs></div>
+            <template data-modele-tarif>
+              <div class="cfg-tarif">
+                <label class="cfg-champ"><span>Type de séance</span><input data-tarif-champ="type" placeholder="Séance individuelle" /></label>
+                <label class="cfg-champ"><span>Durée</span><input data-tarif-champ="duree" placeholder="50 min" /></label>
+                <label class="cfg-champ"><span>Prix</span><input data-tarif-champ="prix" placeholder="60 €" /></label>
+                <button type="button" class="cfg-retirer" data-retirer-tarif aria-label="Retirer cette séance">×</button>
+              </div>
+            </template>
+            <button type="button" class="cfg-bouton-texte" data-ajouter-tarif>+ Ajouter une séance</button>
+          </fieldset>
+          <fieldset class="cfg-groupe">
+            <legend>Prise de rendez-vous</legend>
+            <div class="cfg-segment" role="radiogroup" aria-label="Prise de rendez-vous">
+              {['Doctolib', 'Autre plateforme', 'Téléphone'].map((v, i) => (
+                <label><input type="radio" name="rdv" value={v} data-choix="rdvMode" checked={i === 0} /><span>{v}</span></label>
+              ))}
+            </div>
+          </fieldset>
+          <label class="cfg-champ" data-si-rdv><span>Lien de réservation</span><input data-champ="rdvLien" type="url" placeholder="https://www.doctolib.fr/…" /></label>
+        </section>
+
+        <!-- 5. Style -->
+        <section class="cfg-etape" data-etape="4" aria-labelledby="t-4" hidden>
+          <p class="cfg-surtitre">Étape 5 · Votre style</p>
+          <h2 class="cfg-titre" id="t-4" tabindex="-1">Choisissez un point de départ</h2>
+          <p class="cfg-intro">Chaque style est un vrai site, visible dans l’aperçu. La direction artistique peut aller plus loin : mélange de styles, univers illustré, identité sur mesure.</p>
+          <div class="cfg-styles" role="radiogroup" aria-label="Style du site">
+            {STYLES.map((s, i) => (
+              <label class="cfg-style">
+                <input type="radio" name="style" value={s.id} data-choix="style" checked={i === 0} />
+                <span class={`cfg-style__vignette cfg-style__vignette--${s.id}`} aria-hidden="true">
+                  <span class="cfg-style__aa">Aa</span>
+                  {nuancier(s.palettes[0]).map((c) => <i data-couleur={c}></i>)}
+                </span>
+                <span class="cfg-style__texte"><strong>{s.nom}</strong><span>{s.resume}</span></span>
+              </label>
+            ))}
+          </div>
+          <div class="cfg-reglages-style" data-si-style="immersif" hidden>
+            <fieldset class="cfg-groupe">
+              <legend>Animation de l’image d’accueil <span class="cfg-legende">style Immersif</span></legend>
+              <div class="cfg-choix-liste" role="radiogroup" aria-label="Animation de l’image d’accueil">
+                {FONDS.map((f, i) => (
+                  <label class="cfg-choix">
+                    <input type="radio" name="fond" value={f.id} data-choix="fond" checked={i === 0} />
+                    <span><strong>{f.nom}</strong><span>{f.description}</span></span>
+                  </label>
+                ))}
+              </div>
+            </fieldset>
+            <fieldset class="cfg-groupe">
+              <legend>Voile sur l’image <span class="cfg-legende">pour que le titre reste lisible</span></legend>
+              <div class="cfg-segment" role="radiogroup" aria-label="Voile sur l’image">
+                {VOILES.map((v) => <label><input type="radio" name="voile" value={v.id} data-choix="voile" checked={v.id === 'moyen'} /><span>{v.nom}</span></label>)}
+              </div>
+            </fieldset>
+          </div>
+          <div class="cfg-reglages">
+            <label class="cfg-interrupteur cfg-interrupteur--ligne"><span class="cfg-interrupteur__texte"><strong>Je veux une direction artistique sur mesure</strong><span>Le style choisi sert de repère : on construit ensemble un univers propre à votre pratique.</span></span><input type="checkbox" role="switch" data-champ="surMesure" /><span class="cfg-interrupteur__piste" aria-hidden="true"></span></label>
+          </div>
+          <fieldset class="cfg-groupe">
+            <legend>L’ambiance que vous imaginez</legend>
+            <div class="cfg-pastilles">{AMBIANCES.map((a) => <label><input type="checkbox" data-liste="ambiances" value={a} /><span>{a}</span></label>)}</div>
+          </fieldset>
+          <fieldset class="cfg-groupe">
+            <legend>Pistes à explorer</legend>
+            <div class="cfg-pastilles">{PISTES.map((a) => <label><input type="checkbox" data-liste="pistes" value={a} /><span>{a}</span></label>)}</div>
+          </fieldset>
+          <label class="cfg-champ"><span>Vos envies et références</span><textarea data-champ="envies" rows="3" placeholder="Un site, une marque, un lieu, une matière, une couleur qui vous parle…"></textarea></label>
+          <label class="cfg-champ"><span>Ce que vous ne voulez surtout pas</span><textarea data-champ="eviter" rows="2" placeholder="Trop médical, trop sombre, photos de banque d’images…"></textarea></label>
+        </section>
+
+        <!-- 6. Couleurs -->
+        <section class="cfg-etape" data-etape="5" aria-labelledby="t-5" hidden>
+          <p class="cfg-surtitre">Étape 6 · Votre style</p>
+          <h2 class="cfg-titre" id="t-5" tabindex="-1">Palette de couleurs</h2>
+          <p class="cfg-intro">Des palettes pensées pour le style choisi, ou vos propres couleurs. Les contrastes sont vérifiés automatiquement pour rester lisibles.</p>
+          {STYLES.map((s) => (
+            <div class="cfg-palettes" data-palettes-de={s.id} role="radiogroup" aria-label={`Palettes du style ${s.nom}`} hidden={s.id !== 'sauge'}>
+              {s.palettes.map((p, i) => (
+                <label class="cfg-palette">
+                  <input type="radio" name={`palette-${s.id}`} value={String(i)} data-palette checked={i === 0} />
+                  <span class="cfg-nuancier" aria-hidden="true">{nuancier(p).map((c) => <i data-couleur={c}></i>)}</span>
+                  <span>{p.nom}</span>
+                </label>
+              ))}
+            </div>
+          ))}
+          <fieldset class="cfg-groupe">
+            <legend>Plus de palettes <span class="cfg-legende">utilisables avec tous les styles</span></legend>
+            <div class="cfg-palettes cfg-palettes--petites" role="radiogroup" aria-label="Palettes libres">
+              {PALETTES_LIBRES.map((p, i) => (
+                <label class="cfg-palette">
+                  <input type="radio" name="palette-libre" value={`l${i}`} data-palette />
+                  <span class="cfg-nuancier" aria-hidden="true">{nuancier(p).map((c) => <i data-couleur={c}></i>)}</span>
+                  <span>{p.nom}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+          <fieldset class="cfg-groupe">
+            <legend>Vos couleurs <span class="cfg-legende">celles de votre logo, par exemple</span></legend>
+            <div class="cfg-couleurs">
+              <label class="cfg-couleur"><input type="color" data-couleur-perso="accent" value="#2E4A3F" /><span><strong>Couleur principale</strong><span data-couleur-valeur="accent">Celle de la palette</span></span></label>
+              <label class="cfg-couleur"><input type="color" data-couleur-perso="fond" value="#F6F3EE" /><span><strong>Fond</strong><span data-couleur-valeur="fond">Celui de la palette</span></span></label>
+            </div>
+            <button type="button" class="cfg-bouton-texte" data-couleurs-reinit hidden>Revenir aux couleurs de la palette</button>
+          </fieldset>
+        </section>
+
+        <!-- 7. Typographie -->
+        <section class="cfg-etape" data-etape="6" aria-labelledby="t-6" hidden>
+          <p class="cfg-surtitre">Étape 7 · Votre style</p>
+          <h2 class="cfg-titre" id="t-6" tabindex="-1">Typographie des titres</h2>
+          <p class="cfg-intro">La police donne le ton du site. Six choix adaptés à chaque style, tous hébergés sur votre site.</p>
+          {STYLES.map((s) => (
+            <div class="cfg-polices" data-polices-de={s.id} role="radiogroup" aria-label={`Polices du style ${s.nom}`} hidden={s.id !== 'sauge'}>
+              {s.polices.map((p, i) => (
+                <label class="cfg-police">
+                  <input type="radio" name={`police-${s.id}`} value={String(i)} data-police checked={i === 0} />
+                  <span class="cfg-police__aa" data-pile={pilePolice(p.titres)} data-poids={p.poids} aria-hidden="true">Aa</span>
+                  <span class="cfg-police__texte"><strong>{p.nom}</strong><span class="cfg-police__exemple" data-pile={pilePolice(p.titres)} data-poids={p.poids}>Retrouver de l’apaisement</span></span>
+                </label>
+              ))}
+            </div>
+          ))}
+        </section>
+
+        <!-- 8. Photos -->
+        <section class="cfg-etape" data-etape="7" aria-labelledby="t-7" hidden>
+          <p class="cfg-surtitre">Étape 8 · Votre style</p>
+          <h2 class="cfg-titre" id="t-7" tabindex="-1">Photos et logo</h2>
+          <p class="cfg-intro">Déposez vos images pour les voir dans l’aperçu. Elles restent sur votre appareil : vous les joindrez à votre e-mail.</p>
+          <fieldset class="cfg-groupe">
+            <legend>Vos photos aujourd’hui</legend>
+            <div class="cfg-pastilles">
+              {['J’ai des photos professionnelles', 'Je vais en faire faire', 'Photos d’ambiance (banque d’images)', 'Pas de photo : un design typographique'].map((v) => (
+                <label><input type="radio" name="photos" value={v} data-choix="photosStatut" /><span>{v}</span></label>
+              ))}
+            </div>
+          </fieldset>
+          <div class="cfg-depots">
+            {[['portrait', 'Portrait', 'Photo de vous, lumineuse, cadrage buste'], ['cabinet', 'Cabinet ou ambiance', 'Votre cabinet, un détail, une lumière'], ['logo', 'Logo', 'PNG ou SVG, fond transparent de préférence']].map(([id, nom, aide]) => (
+              <div class="cfg-depot" data-depot={id}>
+                <span class="cfg-depot__vignette" aria-hidden="true"></span>
+                <span class="cfg-depot__texte"><strong>{nom}</strong><span data-depot-nom>{aide}</span></span>
+                <label class="cfg-bouton cfg-bouton--secondaire cfg-bouton--petit">Choisir<input type="file" accept="image/*" data-fichier={id} class="sr-only" /></label>
+                <button type="button" class="cfg-bouton-texte" data-retirer-photo={id} hidden>Retirer</button>
+              </div>
+            ))}
+          </div>
+          <p class="cfg-discret">Les images sont seulement affichées dans votre navigateur. Joignez les originaux en haute définition à l’e-mail final.</p>
+        </section>
+
+        <!-- 9. Pages -->
+        <section class="cfg-etape" data-etape="8" aria-labelledby="t-8" hidden>
+          <p class="cfg-surtitre">Étape 9 · Votre contenu</p>
+          <h2 class="cfg-titre" id="t-8" tabindex="-1">Pages du site</h2>
+          <p class="cfg-intro">Les pages qui apparaîtront dans le menu. L’accueil, le contact et les pages légales sont toujours inclus.</p>
+          <div class="cfg-reglages">
+            {PAGES_CHOIX.filter((p) => p.id !== 'contact').map((p) => (
+              <label class="cfg-interrupteur cfg-interrupteur--ligne"><span class="cfg-interrupteur__texte"><strong>{p.menu}</strong></span><input type="checkbox" role="switch" data-liste="pages" value={p.id} checked /><span class="cfg-interrupteur__piste" aria-hidden="true"></span></label>
+            ))}
+            <label class="cfg-interrupteur cfg-interrupteur--ligne"><span class="cfg-interrupteur__texte"><strong>Blog ou ressources</strong><span>Des articles pour vos patients (rédigés ensemble).</span></span><input type="checkbox" role="switch" data-liste="pages" value="blog" /><span class="cfg-interrupteur__piste" aria-hidden="true"></span></label>
+          </div>
+          <p class="cfg-discret">La page « Questions fréquentes » se règle à l’étape suivante, avec les fonctionnalités.</p>
+        </section>
+
+        <!-- 10. Fonctionnalités -->
+        <section class="cfg-etape" data-etape="9" aria-labelledby="t-9" hidden>
+          <p class="cfg-surtitre">Étape 10 · Votre contenu</p>
+          <h2 class="cfg-titre" id="t-9" tabindex="-1">Fonctionnalités</h2>
+          <p class="cfg-intro">Activez les blocs qui vous intéressent : l’aperçu se place aussitôt dessus.</p>
+          {groupesOptions.map((g) => (
+            <fieldset class="cfg-groupe">
+              <legend>{g}</legend>
+              <div class="cfg-reglages">
+                {OPTIONS.filter((o) => o.groupe === g).map((o) => (
+                  <>
+                    <div class="cfg-option">
+                      <label class="cfg-interrupteur cfg-interrupteur--ligne">
+                        <span class="cfg-interrupteur__texte"><strong>{o.nom}</strong><span>{o.description}</span>{o.tiers && <span class="cfg-option__tiers">Repose sur {o.tiers}.</span>}</span>
+                        <input type="checkbox" role="switch" data-option-choix={o.id} checked={demo.a(o.id)} />
+                        <span class="cfg-interrupteur__piste" aria-hidden="true"></span>
+                      </label>
+                      <button type="button" class="cfg-voir" data-voir={o.id} aria-label={`Voir « ${o.nom} » dans l’aperçu`}>Voir</button>
+                    </div>
+                    {o.id === 'questionnaires' && (
+                      <div class="cfg-sous" data-sous-questionnaires hidden>
+                        <fieldset class="cfg-groupe">
+                          <legend>Questionnaires proposés</legend>
+                          <div class="cfg-pastilles">{QUESTIONNAIRES.map(([v, l], i) => <label><input type="checkbox" data-liste="questionnaires" value={l} checked={i < 3} /><span>{l}</span></label>)}</div>
+                        </fieldset>
+                        <label class="cfg-champ"><span>Vos propres questionnaires <span class="cfg-legende">un par ligne</span></span><textarea data-champ="questionnairesPerso" rows="2" placeholder="Bilan de couple, questionnaire d’accueil enfant…"></textarea></label>
+                        <fieldset class="cfg-groupe">
+                          <legend>Les résultats sont</legend>
+                          <div class="cfg-segment" role="radiogroup" aria-label="Destination des résultats">
+                            {['Envoyés au praticien', 'Affichés au patient', 'Les deux'].map((v, i) => <label><input type="radio" name="resultats" value={v} data-choix="resultats" checked={i === 0} /><span>{v}</span></label>)}
+                          </div>
+                        </fieldset>
+                        <label class="cfg-interrupteur cfg-interrupteur--ligne cfg-hds">
+                          <span class="cfg-interrupteur__texte"><strong>Hébergement certifié HDS des réponses <span class="cfg-badge">Option payante</span></strong><span>Les réponses aux questionnaires sont des données de santé : elles doivent être hébergées chez un hébergeur certifié HDS (hébergeur de données de santé). Tarif sur devis.</span></span>
+                          <input type="checkbox" role="switch" data-option-choix="hds" />
+                          <span class="cfg-interrupteur__piste" aria-hidden="true"></span>
+                        </label>
+                      </div>
+                    )}
+                  </>
+                ))}
+              </div>
+            </fieldset>
+          ))}
+          <p class="cfg-discret">Les options qui reposent sur un service extérieur sont mentionnées dans la politique de confidentialité de votre site.</p>
+        </section>
+
+        <!-- 11. Ton -->
+        <section class="cfg-etape" data-etape="10" aria-labelledby="t-10" hidden>
+          <p class="cfg-surtitre">Étape 11 · Votre contenu</p>
+          <h2 class="cfg-titre" id="t-10" tabindex="-1">Ton des textes</h2>
+          <p class="cfg-intro">La façon de vous adresser à vos patients. Les textes de l’aperçu sont ceux de la démo : les vôtres seront rédigés dans le ton choisi.</p>
+          <fieldset class="cfg-groupe">
+            <legend>S’adresser aux patients</legend>
+            <div class="cfg-segment" role="radiogroup" aria-label="Vouvoiement ou tutoiement">
+              <label><input type="radio" name="ton" value="vous" data-choix="ton" checked /><span>Vouvoiement</span></label>
+              <label><input type="radio" name="ton" value="tu" data-choix="ton" /><span>Tutoiement</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="cfg-groupe">
+            <legend>Registre</legend>
+            <div class="cfg-registres" role="radiogroup" aria-label="Registre">
+              {[['chaleureux', 'Chaleureux', 'Un espace bienveillant pour déposer ce qui vous pèse, à votre rythme.'], ['sobre', 'Sobre', 'Consultations de psychologie au cabinet et en visio, sur rendez-vous.'], ['dynamique', 'Dynamique', 'Des outils concrets pour avancer, séance après séance.']].map(([v, l, ex], i) => (
+                <label class="cfg-registre"><input type="radio" name="registre" value={v} data-choix="registre" checked={i === 0} /><span><strong>{l}</strong><span>« {ex} »</span></span></label>
+              ))}
+            </div>
+          </fieldset>
+          <label class="cfg-champ"><span>Mots, valeurs ou phrases à faire passer</span><textarea data-champ="motsCles" rows="3" placeholder="Bienveillance, pas de jugement, concret…"></textarea></label>
+          <label class="cfg-champ"><span>Autres remarques</span><textarea data-champ="remarques" rows="3" placeholder="Un site que vous aimez, une contrainte, une date de lancement…"></textarea></label>
+        </section>
+
+        <!-- 12. Envoi -->
+        <section class="cfg-etape" data-etape="11" aria-labelledby="t-11" hidden>
+          <p class="cfg-surtitre">Étape 12 · Envoi</p>
+          <h2 class="cfg-titre" id="t-11" tabindex="-1">Votre récapitulatif</h2>
+          <p class="cfg-intro">Vérifiez vos réponses, puis envoyez-les depuis votre messagerie à <strong>{EMAIL}</strong>.</p>
+          <dl class="cfg-recap" data-recap></dl>
+          <p class="cfg-alerte" data-rappel-photos hidden></p>
+          <div class="cfg-envoi">
+            <a class="cfg-bouton cfg-bouton--grand" href={`mailto:${EMAIL}`} data-mailto>Envoyer par e-mail</a>
+            <button type="button" class="cfg-bouton cfg-bouton--secondaire cfg-bouton--grand" data-copier>Copier le récapitulatif</button>
+            <button type="button" class="cfg-bouton cfg-bouton--secondaire cfg-bouton--grand" data-telecharger>Télécharger (.txt)</button>
+          </div>
+          <p class="cfg-discret">Votre messagerie s’ouvre avec le récapitulatif prêt à envoyer. Si rien ne s’ouvre, copiez le récapitulatif et collez-le dans un e-mail à {EMAIL}.</p>
+          <button type="button" class="cfg-bouton-texte cfg-bouton-texte--danger" data-effacer>Tout effacer et recommencer</button>
+        </section>
+      </form>
+
+      <!-- Aperçu -->
+      <section class="cfg-scene" data-scene aria-label="Aperçu en direct du site">
+        <div class="cfg-scene__barre">
+          <button type="button" class="cfg-fermer-apercu" data-fermer-apercu>Fermer l’aperçu</button>
+          <div class="cfg-segment cfg-segment--petit" role="radiogroup" aria-label="Format de l’aperçu" data-format>
+            <label><input type="radio" name="format" value="ordinateur" checked /><span>Ordinateur</span></label>
+            <label><input type="radio" name="format" value="mobile" /><span>Mobile</span></label>
+          </div>
+          <label class="cfg-select-page"><span class="sr-only">Page affichée</span>
+            <select data-page-apercu>
+              {PAGES.filter((p) => !p.legal).map((p) => <option value={p.id}>{p.menu}</option>)}
+            </select>
+          </label>
+          <a class="cfg-lien-discret" data-ouvrir-apercu href="/demo/" target="_blank" rel="noopener">Ouvrir<span class="sr-only"> l’aperçu dans un nouvel onglet</span> ↗</a>
+        </div>
+        <div class="cfg-ecran" data-ecran data-format-actif="ordinateur">
+          <div class="cfg-appareil" data-appareil>
+            <div class="cfg-appareil__barre" aria-hidden="true"><i></i><i></i><i></i><span data-adresse>votre-cabinet.fr</span></div>
+            <iframe class="cfg-iframe" data-iframe title="Aperçu du site" src="/demo/?apercu=1" loading="eager"></iframe>
+          </div>
+        </div>
+        <p class="sr-only" aria-live="polite" data-annonce></p>
+      </section>
+    </main>
+
+    <footer class="cfg-pied" data-pied>
+      <button type="button" class="cfg-bouton cfg-bouton--secondaire" data-precedent disabled>Retour</button>
+      <button type="button" class="cfg-bouton cfg-bouton--secondaire cfg-bouton-apercu" data-ouvrir-scene aria-label="Afficher l’aperçu">Aperçu</button>
+      <button type="button" class="cfg-bouton" data-suivant>Commencer</button>
+    </footer>
+    <p class="cfg-toast" data-toast role="status" hidden></p>
+  </div>
+  <noscript><p class="cfg-sansjs">Le configurateur a besoin de JavaScript. Vous pouvez aussi nous écrire directement à <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p></noscript>
+</Youx>

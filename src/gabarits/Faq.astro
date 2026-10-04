@@ -1,0 +1,45 @@
+---
+import Site from '../layouts/Site.astro';
+import TetePage from '../components/TetePage.astro';
+import Urgence from '../components/Urgence.astro';
+import AppelFinal from '../components/AppelFinal.astro';
+import { lien } from '../lib/site.mjs';
+import { meta, donneesFaq, donneesFil } from '../lib/seo.mjs';
+import { enrichi } from '../lib/texte.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, t = cab.pages.faq;
+const m = meta(site, 'faq');
+---
+<Site site={site} page="faq" titre={m.titre} description={m.description} chemin={lien(site, 'faq')} jsonld={[donneesFaq(site), donneesFil(site, 'faq')]}>
+  <TetePage surtitre="Questions fréquentes" titre={t.titre} intro={t.intro} />
+
+  <section class="section section--serree faq" aria-label="Questions et réponses">
+    <div class="conteneur faq__grille">
+      <nav class="faq__sommaire" aria-label="Thèmes des questions">
+        <ol>
+          {t.groupes.map((g, i) => <li><a href={`#faq-${i + 1}`}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span> {g.titre}</a></li>)}
+        </ol>
+      </nav>
+      <div class="faq__groupes">
+        {t.groupes.map((g, i) => (
+          <div class="faq-groupe" id={`faq-${i + 1}`}>
+            <h2><span class="faq-groupe__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span> {g.titre}</h2>
+            {g.questions.map((q) => (
+              <details class="question" name={`faq-${i + 1}`}>
+                <summary>{q.question}</summary>
+                <div class="question__reponse texte">
+                  {q.reponse.map((x) => <p set:html={enrichi(x)} />)}
+                </div>
+              </details>
+            ))}
+          </div>
+        ))}
+        <Urgence cab={cab} />
+      </div>
+    </div>
+  </section>
+
+  <AppelFinal cab={cab} titre={t.finTitre} texte={t.finTexte} secondaire={{ href: lien(site, 'contact'), texte: 'Me contacter' }} />
+</Site>

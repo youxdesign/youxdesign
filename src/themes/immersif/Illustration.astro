@@ -1,0 +1,85 @@
+---
+/* Immersif : paysages du soir (lac et montagnes, forêt dans la brume, dunes
+   sous la lune), sombres et profonds comme une photo d'ambiance, dans les
+   teintes de la palette. Trois variantes pour le diaporama. */
+interface Props { type: 'portrait' | 'cabinet' | 'ambiance'; cab: any; variante?: number }
+const { type, variante = 1 } = Astro.props;
+const id = `im-${type}-${variante}`;
+---
+{type === 'ambiance' && variante === 2 ? (
+  <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" class="im-s-encre" /><stop offset=".55" class="im-s-sombre" /><stop offset="1" class="im-s-clair" />
+      </linearGradient>
+    </defs>
+    <rect width="1600" height="1000" fill={`url(#${id})`} />
+    <circle class="im-astre" cx="420" cy="300" r="70" />
+    <path class="im-loin" d="M0 640l60-120 50 90 70-170 60 130 50-80 70 150 60-110 80 140 60-90 70 120 70-160 60 130 50-70 80 140 70-120 60 100 80-150 60 120 70-90 60 110 80-140 70 130 60-80 70 120V1000H0z" />
+    <rect class="im-brume" y="640" width="1600" height="120" />
+    <path class="im-milieu" d="M0 760l90-200 70 150 90-240 80 210 70-130 90 220 80-180 100 230 70-150 90 200 80-250 80 230 70-120 100 190 80-170 90 180 70-110 90 160V1000H0z" />
+    <path class="im-proche" d="M0 1000V840l120-260 60 170 110-300 90 300 80-180 120 270h80l100-320 90 240 90-190 120 290 80-230 110 240 90-160 80 200 60-110V1000z" />
+  </svg>
+) : type === 'ambiance' && variante === 3 ? (
+  <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id={id} cx=".7" cy=".3" r=".9">
+        <stop offset="0" class="im-s-clair" /><stop offset=".35" class="im-s-sombre" /><stop offset="1" class="im-s-encre" />
+      </radialGradient>
+    </defs>
+    <rect width="1600" height="1000" fill={`url(#${id})`} />
+    <circle class="im-lune" cx="1120" cy="300" r="56" />
+    <path class="im-loin" d="M0 700c200-60 420-80 640-40s420 50 620 0 260-20 340 0v340H0z" />
+    <path class="im-milieu" d="M0 790c240-70 500-80 760-30s440 40 840-20v260H0z" />
+    <path class="im-proche" d="M0 880c300-60 620-60 900-10s500 30 700 0v130H0z" />
+  </svg>
+) : type === 'ambiance' ? (
+  <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" class="im-s-encre" /><stop offset=".46" class="im-s-sombre" /><stop offset=".72" class="im-s-clair" />
+      </linearGradient>
+      <radialGradient id={`${id}-h`}>
+        <stop offset="0" class="im-h-1" /><stop offset="1" class="im-h-0" />
+      </radialGradient>
+      <linearGradient id={`${id}-e`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" class="im-e-1" /><stop offset="1" class="im-s-encre" />
+      </linearGradient>
+    </defs>
+    <rect width="1600" height="1000" fill={`url(#${id})`} />
+    <circle cx="1090" cy="650" r="460" fill={`url(#${id}-h)`} />
+    <circle class="im-astre" cx="1090" cy="650" r="84" />
+    <path class="im-loin" d="M0 620l150-80 120 46 170-130 150 104 120-56 160 110 190-150 150 120 140-64 200 128 50-20V1000H0z" />
+    <path class="im-milieu" d="M0 690l200-104 140 66 220-140 180 132 130-46 200 100 170-84 190 92 170-56V1000H0z" />
+    <rect y="732" width="1600" height="268" fill={`url(#${id}-e)`} />
+    <path class="im-reflet" d="M1010 770h160M1040 800h100M1060 830h60M1030 862h120" />
+    <path class="im-proche" d="M0 1000V870c160-40 300-50 460-20s240 26 340 70l120 80z" />
+  </svg>
+) : type === 'portrait' ? (
+  <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id={id} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" class="im-s-encre" /><stop offset=".7" class="im-s-sombre" /><stop offset="1" class="im-s-clair" />
+      </linearGradient>
+    </defs>
+    <rect width="400" height="500" fill={`url(#${id})`} />
+    <circle class="im-astre" cx="200" cy="300" r="64" />
+    <path class="im-milieu" d="M0 360l80-60 60 30 90-80 80 70 90-40v220H0z" />
+    <path class="im-proche" d="M0 500V420c80-30 160-36 240-14s120 10 160-6v100z" />
+    <path class="im-cadre" d="M60 500V190a140 140 0 0 1 280 0v310" />
+  </svg>
+) : (
+  <svg viewBox="0 0 600 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id={id} cx=".72" cy=".42" r=".7">
+        <stop offset="0" class="im-s-clair" /><stop offset=".45" class="im-s-sombre" /><stop offset="1" class="im-s-encre" />
+      </radialGradient>
+    </defs>
+    <rect width="600" height="450" fill={`url(#${id})`} />
+    <rect class="im-fenetre" x="70" y="70" width="170" height="230" rx="85" />
+    <path class="im-loin" d="M70 250l40-30 40 20 50-40 40 30v80H70z" />
+    <circle class="im-lampe" cx="430" cy="190" r="38" />
+    <path class="im-proche" d="M0 360h600v90H0z" />
+    <path class="im-meuble" d="M380 360v-90h100v90M430 228v42" />
+  </svg>
+)}

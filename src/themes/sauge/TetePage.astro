@@ -1,0 +1,15 @@
+---
+/* Haut des pages intérieures : forme qui respire, surtitre, titre révélé, introduction */
+import Titre from './Titre.astro';
+interface Props { surtitre: string; titre: string; intro?: string }
+const { surtitre, titre, intro } = Astro.props;
+---
+<section class="page-hero" aria-labelledby="titre-page">
+  <div class="blob" aria-hidden="true"></div>
+  <div class="container page-hero__inner">
+    <span class="eyebrow fade-in">{surtitre}</span>
+    <Titre texte={titre} />
+    {intro && <p class="lead fade-in fade-in--2"><slot name="intro">{intro}</slot></p>}
+    <slot />
+  </div>
+</section>

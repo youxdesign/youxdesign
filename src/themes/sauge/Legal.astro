@@ -1,0 +1,27 @@
+---
+/* Mise en page des pages légales du style « Sauge » : sommaire collant et texte */
+import Cadre from './Cadre.astro';
+import TetePage from './TetePage.astro';
+interface Props { site: any; page: string; titre: string; description: string; chemin: string; titrePage: string; rubriques: { id: string; titre: string; html: string; resume?: boolean }[] }
+const { site, page, titre, description, chemin, titrePage, rubriques } = Astro.props;
+---
+<Cadre site={site} page={page} titre={titre} description={description} chemin={chemin} indexable={false}>
+  <TetePage surtitre="Informations légales" titre={titrePage} intro={`Dernière mise à jour : ${site.cab.legal.miseAJour}`} />
+  <section class="section section--flush">
+    <div class="container legal">
+      <nav class="faq-nav" data-toc aria-label="Sommaire">
+        {rubriques.filter((r) => !r.resume).map((r) => <a href={`#${r.id}`}>{r.titre}</a>)}
+      </nav>
+      <div class="prose">
+        {rubriques.map((r) => r.resume ? (
+          <div class="summary-box"><strong>{r.titre} :</strong> <Fragment set:html={r.html.replace(/^<p>|<\/p>$/g, '')} /></div>
+        ) : (
+          <>
+            <h2 id={r.id}>{r.titre}</h2>
+            <Fragment set:html={r.html} />
+          </>
+        ))}
+      </div>
+    </div>
+  </section>
+</Cadre>

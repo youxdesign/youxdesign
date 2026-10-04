@@ -1,0 +1,50 @@
+---
+/* Immersif : image plein écran, animée lentement selon le réglage « fond »
+   de la fiche (zoom, diaporama, parallaxe, dégradé ou vidéo), un voile
+   pour la lisibilité, le titre posé dessus et une bande d'informations.
+   Vidéo : déposer cabinets/<cabinet>/images/fond.mp4 (courte, muette). */
+import BoutonRdv from '../../components/BoutonRdv.astro';
+import Visuel from '../../components/Visuel.astro';
+import Statut from '../../components/Statut.astro';
+import { lien, textes } from '../../lib/site.mjs';
+import { enrichi } from '../../lib/texte.mjs';
+import { choisir } from '../../lib/faits.mjs';
+const videos = import.meta.glob('/cabinets/*/images/fond.{mp4,webm}', { eager: true, query: '?url', import: 'default' });
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien, c = cab.cabinet;
+const t = textes(site, 'accueil');
+const infos = choisir(cab, ['approche', 'lieu', 'horaires']);
+const statut = cab.bloc('statut', site.vitrine);
+const video = Object.entries(videos).find(([k]) => k.startsWith(`/cabinets/${cab.id}/images/fond.`))?.[1] as string | undefined;
+---
+<section class="une" aria-labelledby="titre-page">
+  <div class="une__fond">
+    <div class="une__couche une__couche--1"><Visuel site={site} type="ambiance" prioritaire tailles="100vw" /></div>
+    <div class="une__couche une__couche--2"><Visuel site={site} type="ambiance" variante={2} tailles="100vw" /></div>
+    <div class="une__couche une__couche--3"><Visuel site={site} type="ambiance" variante={3} tailles="100vw" /></div>
+    {video && <video class="une__video" data-fond data-src={video} muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>}
+  </div>
+  <div class="conteneur une__contenu">
+    <p class="surtitre">{t.surtitre || `${p.titre} · ${cab.lieuCourt}`}</p>
+    <h1 id="titre-page" set:html={enrichi(t.titre)} />
+    <p class="chapeau">{t.intro}</p>
+    <div class="boutons">
+      <BoutonRdv cab={cab} />
+      <a class="bouton bouton--secondaire" href={lien(site, 'approche')}>Découvrir mon approche</a>
+    </div>
+  </div>
+  <div class="une__bande">
+    <div class="conteneur une__bande-grille">
+      <dl class="une__infos">
+        {infos.map((f) => <div><dt>{f.cle}</dt><dd>{f.valeur}{f.id === 'lieu' && c.visio ? ' · visio' : ''}</dd></div>)}
+      </dl>
+      <div class="une__actions">
+        {statut.rendre && <Statut cab={cab} classe="une__statut" cache={statut.cache} />}
+        <button class="une__pause" type="button" data-pause aria-pressed="false" hidden>Mettre l’animation en pause</button>
+        <a class="une__defiler" href="#contenu-accueil">Défiler<span aria-hidden="true"> ↓</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+<span id="contenu-accueil" class="une__ancre"></span>

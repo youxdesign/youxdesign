@@ -1,0 +1,71 @@
+---
+/* ==========================================================================
+   Document HTML commun à tous les sites de cabinet : en-tête <head>
+   (référencement, partage, polices, feuille de style, scripts) et lien
+   d'évitement. L'habillage (en-tête, pied de page) dépend du style.
+   Aucun script ni style n'est écrit dans la page : tout est chargé depuis
+   des fichiers du site, conformément à la politique de sécurité (CSP).
+   ========================================================================== */
+import { feuilleSite, prechargements, script } from '../lib/assets.mjs';
+import { adresseComplete } from '../lib/site.mjs';
+import { deriver } from '../lib/couleurs.mjs';
+import { paletteDe, style as trouverStyle } from '../config/catalogue.mjs';
+
+interface Props {
+  site: any;
+  page: string;
+  titre: string;
+  description: string;
+  chemin: string | null;
+  indexable?: boolean;
+  jsonld?: object[];
+  scripts?: string[];
+  classe?: string;
+}
+const { site, page, titre, description, chemin, indexable = site.indexable, jsonld = [], scripts = [], classe } = Astro.props;
+const cab = site.cab;
+const css = await feuilleSite(site);
+const polices = prechargements(site);
+const apercu = site.vitrine ? await script('apercu') : null;
+const confort = site.vitrine || cab.a('accessibilite') ? ['confort'] : [];
+/* Styles communs : apparitions douces au défilement (Sauge a son propre script) */
+const apparitions = trouverStyle(site.theme).autonome ? [] : ['apparitions'];
+const autres = await Promise.all([...new Set([...apparitions, ...scripts, ...confort].filter(Boolean))].map((s) => script(s)));
+
+const couleurs = deriver(paletteDe(site));
+const canonique = chemin ? adresseComplete(chemin) : null;
+const image = adresseComplete(`/og/${site.cle}.png`);
+const json = (o: object) => JSON.stringify(o).replace(/</g, '\\u003c');
+---
+<!doctype html>
+<html lang="fr" data-theme={site.theme} data-page={page} data-palette={site.vitrine ? String(site.palette) : undefined} data-police={site.vitrine ? String(site.police) : undefined} data-fond={site.theme === 'immersif' ? cab.site.fond : undefined} data-voile={site.theme === 'immersif' ? cab.site.voile : undefined}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>{titre}</title>
+  <meta name="description" content={description} />
+  {!indexable && <meta name="robots" content="noindex, follow" />}
+  {canonique && <link rel="canonical" href={canonique} />}
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content={`${cab.nomComplet}, ${cab.metier.toLowerCase()}`} />
+  <meta property="og:title" content={titre} />
+  <meta property="og:description" content={description} />
+  {canonique && <meta property="og:url" content={canonique} />}
+  <meta property="og:image" content={image} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content={couleurs.fond} />
+  <link rel="icon" href={`/icones/${site.cle}.svg`} type="image/svg+xml" />
+  {polices.map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
+  <link rel="stylesheet" href={css.url} />
+  {apercu && <script is:inline src={apercu.url}></script>}
+  {autres.map((s) => <script is:inline src={s.url} defer></script>)}
+  {jsonld.filter(Boolean).map((j) => <script is:inline type="application/ld+json" set:html={json(j)} />)}
+</head>
+<body class={classe}>
+  <a class="evitement" href="#contenu">Aller au contenu</a>
+  <slot />
+</body>
+</html>
