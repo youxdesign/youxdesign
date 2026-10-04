@@ -228,6 +228,33 @@ h1.cfg-titre { font-size: clamp(32px, 3vw, 44px); }
 .cfg-style__vignette--sante .cfg-style__aa { font-family: 'Onest', sans-serif; font-weight: 600; }
 .cfg-style__vignette--wabi .cfg-style__aa { font-family: 'Shippori Mincho', serif; }
 .cfg-style__vignette--suisse .cfg-style__aa { font-family: 'Schibsted Grotesk', sans-serif; font-weight: 600; letter-spacing: -.04em; }
+.cfg-style__vignette--immersif .cfg-style__aa { font-family: 'Bodoni Moda', serif; }
+.cfg-style__vignette--editorial .cfg-style__aa { font-family: 'Instrument Serif', serif; font-style: italic; }
+.cfg-style__vignette--pastel .cfg-style__aa { font-family: 'Nunito', sans-serif; font-weight: 800; }
+.cfg-style__vignette--nocturne .cfg-style__aa { font-family: 'Spectral', serif; font-weight: 300; }
+/* Un détail graphique propre à chaque style */
+.cfg-style__aa { position: relative; z-index: 1; }
+.cfg-style__vignette::before { content: ''; position: absolute; pointer-events: none; }
+.cfg-style__vignette--sauge::before { right: 10px; top: 12px; width: 26px; height: 34px; border-radius: 13px 13px 3px 3px; background: var(--v-doux); }
+.cfg-style__vignette--terre::before { left: -10px; top: -14px; width: 48px; height: 48px; border-radius: 50%; background: var(--v-accent); opacity: .85; }
+.cfg-style__vignette--sante::before { right: 10px; top: 10px; width: 30px; height: 12px; border-radius: 4px; background: var(--v-accent); }
+.cfg-style__vignette--wabi::before { left: 50%; top: 50%; width: 58px; height: 58px; translate: -50% -62%; border: 4px solid var(--v-clair); border-radius: 50%; opacity: .5; }
+.cfg-style__vignette--suisse .cfg-style__aa::after { content: ''; display: inline-block; width: .16em; height: .16em; margin-left: .03em; border-radius: 50%; background: var(--v-accent); }
+.cfg-style__vignette--immersif { background: linear-gradient(165deg, #161A1D 30%, #5F4C31 75%, #B8894A) !important; color: #F5F2EC !important; }
+.cfg-style__vignette--editorial::before { left: 12px; right: 12px; top: 64%; border-top: 3px double currentColor; opacity: .55; }
+.cfg-style__vignette--pastel::before { right: -14px; top: -10px; width: 56px; height: 52px; border-radius: 58% 42% 50% 50% / 50% 46% 54% 50%; background: var(--v-doux); }
+.cfg-style__vignette--nocturne::before { left: 50%; top: 42%; width: 90px; height: 90px; translate: -50% -50%; border-radius: 50%; background: radial-gradient(circle, var(--v-accent) 0, transparent 66%); opacity: .4; }
+
+/* Réglages propres à un style (image d'accueil du style Immersif) */
+.cfg-reglages-style { display: grid; gap: 24px; margin-top: 8px; padding: 18px; border-radius: var(--rayon-grand); background: var(--surface); box-shadow: var(--ombre); }
+.cfg-reglages-style[hidden] { display: none; }
+.cfg-choix-liste { display: grid; gap: 8px; }
+.cfg-choix { position: relative; display: grid; padding: 12px 14px 12px 46px; border-radius: var(--rayon); background: var(--fond); cursor: pointer; transition: box-shadow .3s var(--doux), background-color .3s var(--doux); }
+.cfg-choix input { position: absolute; left: 16px; top: 15px; width: 18px; height: 18px; margin: 0; accent-color: var(--accent); cursor: pointer; }
+.cfg-choix > span { display: grid; gap: 2px; }
+.cfg-choix strong { font-size: 15px; font-weight: 600; }
+.cfg-choix > span > span { color: var(--texte-2); font-size: 13px; line-height: 1.4; }
+.cfg-choix:has(input:checked) { background: var(--surface); box-shadow: 0 0 0 2px var(--accent); }
 .cfg-style__texte { display: grid; gap: 2px; }
 .cfg-style__texte strong { font-size: 17px; font-weight: 600; }
 .cfg-style__texte span { color: var(--texte-2); font-size: 14px; }

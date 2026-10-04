@@ -10,8 +10,8 @@ import { Picture } from 'astro:assets';
 import Icone from './Icone.astro';
 const plans = import.meta.glob<{ default: ImageMetadata }>('/cabinets/*/images/carte.png', { eager: true });
 
-interface Props { cab: any }
-const { cab } = Astro.props;
+interface Props { cab: any; etiquette?: boolean }
+const { cab, etiquette = false } = Astro.props;
 const geo = cab.adresse.geo;
 const image = plans[`/cabinets/${cab.id}/images/carte.png`]?.default;
 const adresse = cab.adresse.uneLigne;
@@ -31,6 +31,12 @@ const itineraire = `https://www.google.com/maps/dir/?api=1&destination=${encodeU
       </svg>
     )}
     <span class="plan__repere"><Icone nom="repere" /></span>
+    {etiquette && (
+      <span class="plan__etiquette" aria-hidden="true">
+        <strong>{cab.nomComplet}</strong>
+        <span>{cab.adresse.rue}, {cab.cabinet.ville}</span>
+      </span>
+    )}
   </div>
   <div class="plan__actions">
     {integration && <button class="bouton bouton--secondaire bouton--petit" type="button" data-plan-afficher aria-pressed="false">Afficher la carte interactive</button>}

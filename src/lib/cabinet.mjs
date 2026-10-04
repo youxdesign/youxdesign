@@ -24,7 +24,10 @@ const schema = z.object({
     police: z.number().int().min(0).default(0),
     couleurs: z.object({ fond: texte, encre: texte, accent: texte, doux: texte, texte2: texte.optional(), accent2: texte.optional() }).optional(),
     demo: z.boolean().default(false),
-    options: z.array(z.string()).default([])
+    options: z.array(z.string()).default([]),
+    /* Style Immersif : animation du fond de l'accueil et voile sur l'image */
+    fond: z.enum(['zoom', 'diaporama', 'parallaxe', 'degrade', 'video']).default('zoom'),
+    voile: z.enum(['leger', 'moyen', 'fort']).default('moyen')
   }),
   praticien: z.object({
     prenom: texte,

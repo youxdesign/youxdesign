@@ -10,7 +10,7 @@
    - La demande part de la messagerie du visiteur (lien mailto), ou se copie,
      ou se télécharge en .txt.
    ========================================================================== */
-import { STYLES, PALETTES_LIBRES, OPTIONS, PAGES } from '../config/catalogue.mjs';
+import { STYLES, PALETTES_LIBRES, OPTIONS, PAGES, FONDS, VOILES } from '../config/catalogue.mjs';
 import { EMAIL } from '../config/youxdesign.mjs';
 import { deriver } from '../lib/couleurs.mjs';
 /* Seuls les champs utiles de la fiche de démo sont embarqués */
@@ -44,6 +44,7 @@ const defaut = () => ({
   ],
   rdvMode: 'Doctolib', rdvLien: '',
   style: 'sauge', palette: '0', police: '0', couleurs: { accent: '', fond: '' },
+  fond: 'zoom', voile: 'moyen',
   surMesure: false, ambiances: [], pistes: [], envies: '', eviter: '',
   photosStatut: '',
   pages: ['a-propos', 'approche', 'consultations'],
@@ -103,6 +104,9 @@ function peindreNuanciers() {
     const d = deriver(s.palettes[0]);
     v.style.background = d.fond;
     v.style.color = d.encre;
+    v.style.setProperty('--v-accent', d.accent);
+    v.style.setProperty('--v-doux', d.doux);
+    v.style.setProperty('--v-clair', d.clair);
   });
 }
 
@@ -133,6 +137,7 @@ function remplirFormulaire() {
 function majConditionnels() {
   $$('[data-si-profession]').forEach((el) => { el.hidden = etat.profession !== el.dataset.siProfession; });
   $$('[data-si-rdv]').forEach((el) => { el.hidden = etat.rdvMode === 'Téléphone'; });
+  $$('[data-si-style]').forEach((el) => { el.hidden = etat.style !== el.dataset.siStyle; });
   const sous = $('[data-sous-questionnaires]');
   if (sous) sous.hidden = !etat.options.includes('questionnaires');
   $$('[data-voir]').forEach((b) => { b.disabled = !etat.options.includes(b.dataset.voir); });
@@ -168,6 +173,7 @@ function brancherFormulaire() {
       const cle = el.dataset.choix;
       etat[cle] = el.value;
       if (cle === 'style') changerStyle();
+      if (cle === 'fond' || cle === 'voile') montrerFond(cle);
       majConditionnels();
     } else if (el.matches('[data-liste]')) {
       const cle = el.dataset.liste;
@@ -298,6 +304,16 @@ function couleursPerso() {
   return [fond, encre, accent, doux, texte2].map((c) => c.replace('#', '').toUpperCase()).join('.');
 }
 
+/* Style Immersif : animation du fond et voile, montrés en haut de l'accueil */
+function montrerFond(cle) {
+  if (pageApercu !== 'accueil') return chargerApercu('accueil');
+  apercuAppliquer({ [cle]: etat[cle] });
+  const a = api();
+  if (a && a.haut) a.haut();
+  const nom = cle === 'fond' ? FONDS.find((f) => f.id === etat.fond)?.nom : `Voile ${VOILES.find((v) => v.id === etat.voile)?.nom.toLowerCase()}`;
+  annoncer(`${nom} : appliqué à l’aperçu.`);
+}
+
 function changerStyle() {
   etat.palette = String(etat.palette).startsWith('l') ? etat.palette : '0';
   etat.police = '0';
@@ -305,6 +321,12 @@ function changerStyle() {
   majCouleursPerso();
   chargerApercu(pageApercu);
   annoncer(`Style ${STYLES.find((s) => s.id === etat.style).nom} affiché dans l’aperçu.`);
+  /* Style Immersif : ses réglages apparaissent sous la liste, on les amène à l'écran */
+  const reglages = $(`[data-si-style="${etat.style}"]`);
+  if (reglages) {
+    majConditionnels();
+    setTimeout(() => reglages.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' }), 250);
+  }
 }
 
 /* ==========================================================================
@@ -370,6 +392,7 @@ const cheminPage = (page) => {
 
 function parametres() {
   const q = new URLSearchParams({ apercu: '1', palette: String(etat.palette), police: String(etat.police), options: etat.options.join(',') });
+  if (etat.style === 'immersif') { q.set('fond', etat.fond); q.set('voile', etat.voile); }
   const c = couleursPerso();
   if (c) q.set('couleurs', c);
   return q.toString();
@@ -446,7 +469,7 @@ function synchroniser() {
   const a = api();
   if (!a) return;
   const c = couleursPerso();
-  a.appliquer({ palette: String(etat.palette), police: String(etat.police), options: etat.options, couleurs: c || '' });
+  a.appliquer({ palette: String(etat.palette), police: String(etat.police), options: etat.options, couleurs: c || '', fond: etat.fond, voile: etat.voile });
   if (c) a.appliquer({ couleurs: c });
   apercuPages();
   apercuTextes();
@@ -654,6 +677,7 @@ function lignesRecap() {
     ['Rendez-vous', etat.rdvMode + (etat.rdvMode !== 'Téléphone' && etat.rdvLien.trim() ? ` : ${etat.rdvLien.trim()}` : '')],
     ['Style', s.nom + (etat.surMesure ? ' (direction artistique sur mesure souhaitée)' : '')],
     ['Palette', nomDeLaPalette()], ['Police des titres', police.nom],
+    ...(etat.style === 'immersif' ? [['Image d’accueil', `${FONDS.find((f) => f.id === etat.fond)?.nom || ''}, voile ${(VOILES.find((v) => v.id === etat.voile)?.nom || '').toLowerCase()}`]] : []),
     ['Ambiance', etat.ambiances], ['Pistes', etat.pistes], ['Envies', etat.envies], ['À éviter', etat.eviter],
     ['Photos', [etat.photosStatut, Object.keys(photos).length ? `Déposées dans l’aperçu : ${Object.values(photos).map((p) => p.nom).join(', ')}` : ''].filter(Boolean).join('\n')],
     ['Pages', pagesChoisies],

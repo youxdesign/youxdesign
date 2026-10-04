@@ -122,7 +122,101 @@ export const STYLES = [
       { nom: 'Space Grotesk', titres: 'space-grotesk', texte: 'space-grotesk', poids: 600 },
       { nom: 'Archivo', titres: 'archivo', texte: 'archivo', poids: 600 }
     ]
+  },
+  {
+    id: 'immersif',
+    nom: 'Immersif',
+    resume: 'Image plein écran animée, titre sur la photo.',
+    detail: 'Une grande image d’ambiance en fond, animée avec lenteur, et un titre posé dessus : une entrée en matière sensorielle.',
+    palettes: [
+      { nom: 'Nuit & laiton', fond: '#F5F2EC', encre: '#161A1D', accent: '#B8894A', doux: '#E6DED0', texte2: '#555A5E' },
+      { nom: 'Ardoise & sauge', fond: '#F2F3EF', encre: '#1B2422', accent: '#6F8F7A', doux: '#DDE3DA', texte2: '#4E5955' },
+      { nom: 'Brume & bleu', fond: '#F1F3F6', encre: '#131C28', accent: '#3F6EA8', doux: '#DCE3EC', texte2: '#4F5A68' },
+      { nom: 'Sable & corail', fond: '#F7F1EA', encre: '#221A16', accent: '#D0674A', doux: '#EED9C9', texte2: '#5E514A' }
+    ],
+    polices: [
+      { nom: 'Bodoni Moda', titres: 'bodoni-moda', texte: 'jost', poids: 400 },
+      { nom: 'Marcellus', titres: 'marcellus', texte: 'jost', poids: 400 },
+      { nom: 'Italiana', titres: 'italiana', texte: 'jost', poids: 400 },
+      { nom: 'Playfair Display', titres: 'playfair-display', texte: 'jost', poids: 400 },
+      { nom: 'Cormorant Garamond', titres: 'cormorant-garamond', texte: 'jost', poids: 500 },
+      { nom: 'Gilda Display', titres: 'gilda-display', texte: 'jost', poids: 400 }
+    ]
+  },
+  {
+    id: 'editorial',
+    nom: 'Éditorial',
+    resume: 'Esprit magazine : serif italique, filets, portrait légendé.',
+    detail: 'La mise en page d’un beau magazine : nom en manchette, colonnes, filets fins et grands titres en italique.',
+    palettes: [
+      { nom: 'Papier & encre', fond: '#F6F1E7', encre: '#1A1714', accent: '#B23A26', doux: '#E9DFCB', texte2: '#5B544A' },
+      { nom: 'Crème & vert', fond: '#F4F0E4', encre: '#16211B', accent: '#2F6B4A', doux: '#E2DCC8', texte2: '#4E5850' },
+      { nom: 'Ivoire & bleu', fond: '#F7F4EC', encre: '#141A2A', accent: '#27408B', doux: '#E5E0D1', texte2: '#50566A' },
+      { nom: 'Rose & bordeaux', fond: '#F8EEEA', encre: '#2A1419', accent: '#8C2440', doux: '#EFD9D3', texte2: '#634B50' }
+    ],
+    polices: [
+      { nom: 'Instrument Serif', titres: 'instrument-serif', texte: 'hanken-grotesk', poids: 400 },
+      { nom: 'Newsreader', titres: 'newsreader', texte: 'hanken-grotesk', poids: 400 },
+      { nom: 'Libre Caslon', titres: 'libre-caslon-text', texte: 'hanken-grotesk', poids: 400 },
+      { nom: 'DM Serif Display', titres: 'dm-serif-display', texte: 'hanken-grotesk', poids: 400 },
+      { nom: 'Lora', titres: 'lora', texte: 'hanken-grotesk', poids: 400 },
+      { nom: 'EB Garamond', titres: 'eb-garamond', texte: 'hanken-grotesk', poids: 400 }
+    ]
+  },
+  {
+    id: 'pastel',
+    nom: 'Pastel doux',
+    resume: 'Couleurs tendres, formes rondes, très accueillant.',
+    detail: 'Des tons tendres, des formes arrondies et une typographie ronde : un site qui met à l’aise dès le premier regard.',
+    palettes: [
+      { nom: 'Pêche', fond: '#FFF6F0', encre: '#3A2A2A', accent: '#E07A5F', doux: '#FFE0D1', texte2: '#6B5656' },
+      { nom: 'Lavande', fond: '#F7F4FF', encre: '#2A2545', accent: '#7B61D9', doux: '#E4DCFF', texte2: '#5D5878' },
+      { nom: 'Menthe', fond: '#F2FBF7', encre: '#1F3A31', accent: '#2E9C78', doux: '#CFF0E2', texte2: '#4F6A61' },
+      { nom: 'Ciel', fond: '#F3F8FF', encre: '#1D2F48', accent: '#3C7FD9', doux: '#D6E7FF', texte2: '#51627A' }
+    ],
+    polices: [
+      { nom: 'Nunito', titres: 'nunito', texte: 'nunito', poids: 800 },
+      { nom: 'Quicksand', titres: 'quicksand', texte: 'nunito', poids: 700 },
+      { nom: 'Varela Round', titres: 'varela-round', texte: 'nunito', poids: 400 },
+      { nom: 'Fredoka', titres: 'fredoka', texte: 'nunito', poids: 600 },
+      { nom: 'Comfortaa', titres: 'comfortaa', texte: 'nunito', poids: 700 },
+      { nom: 'Outfit', titres: 'outfit', texte: 'nunito', poids: 600 }
+    ]
+  },
+  {
+    id: 'nocturne',
+    nom: 'Nocturne',
+    resume: 'Fond sombre et feutré, halo lumineux qui respire.',
+    detail: 'Une ambiance du soir, calme et enveloppante : fond sombre, lumière dorée qui respire doucement, typographie fine.',
+    palettes: [
+      { nom: 'Minuit & or', fond: '#12141C', encre: '#ECE6DA', accent: '#C9A66B', doux: '#1C2030', texte2: '#A7A3AE' },
+      { nom: 'Forêt nocturne', fond: '#0F1714', encre: '#E4EAE3', accent: '#8FBF9F', doux: '#18241F', texte2: '#9DAAA2' },
+      { nom: 'Prune', fond: '#17121A', encre: '#EFE6EE', accent: '#D291B8', doux: '#231B27', texte2: '#AFA3AE' },
+      { nom: 'Océan', fond: '#0D1520', encre: '#E3EAF2', accent: '#7FB3D5', doux: '#152131', texte2: '#9CA9B8' }
+    ],
+    polices: [
+      { nom: 'Spectral', titres: 'spectral', texte: 'karla', poids: 300 },
+      { nom: 'Tenor Sans', titres: 'tenor-sans', texte: 'karla', poids: 400 },
+      { nom: 'Libre Bodoni', titres: 'libre-bodoni', texte: 'karla', poids: 400 },
+      { nom: 'Cormorant Garamond', titres: 'cormorant-garamond', texte: 'karla', poids: 500 },
+      { nom: 'Marcellus', titres: 'marcellus', texte: 'karla', poids: 400 },
+      { nom: 'Fraunces', titres: 'fraunces', texte: 'karla', poids: 400 }
+    ]
   }
+];
+
+/* Style Immersif : animation du fond de l'accueil et voile sur l'image */
+export const FONDS = [
+  { id: 'zoom', nom: 'Zoom lent', description: 'L’image s’approche très lentement, comme une respiration.' },
+  { id: 'diaporama', nom: 'Diaporama', description: 'Deux ou trois images se succèdent en fondu.' },
+  { id: 'parallaxe', nom: 'Parallaxe', description: 'L’image défile plus lentement que le texte.' },
+  { id: 'degrade', nom: 'Dégradé animé', description: 'Les couleurs de la palette ondulent doucement. Aucune photo nécessaire.' },
+  { id: 'video', nom: 'Vidéo en boucle', description: 'Une courte vidéo muette (10 à 20 s) tourne en fond. L’aperçu montre une image : joignez la vidéo à l’e-mail.' }
+];
+export const VOILES = [
+  { id: 'leger', nom: 'Léger' },
+  { id: 'moyen', nom: 'Moyen' },
+  { id: 'fort', nom: 'Fort' }
 ];
 
 /* Palettes libres, utilisables avec n'importe quel style */

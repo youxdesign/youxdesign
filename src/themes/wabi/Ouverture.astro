@@ -1,0 +1,31 @@
+---
+/* Wabi-sabi : mention verticale, titre fin, lien sobre ; une image forte,
+   décalée, et le cercle ensō tracé d'un seul geste. */
+import BoutonRdv from '../../components/BoutonRdv.astro';
+import Visuel from '../../components/Visuel.astro';
+import { lien, textes } from '../../lib/site.mjs';
+import { enrichi } from '../../lib/texte.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien, c = cab.cabinet;
+const t = textes(site, 'accueil');
+---
+<section class="une" aria-labelledby="titre-page">
+  <div class="conteneur une__grille">
+    <p class="une__vertical">{[p.titre, c.ville, c.visio && 'Visio'].filter(Boolean).join(' · ')}</p>
+    <div class="une__texte">
+      <h1 id="titre-page" set:html={enrichi(t.titre)} />
+      <p class="chapeau">{t.intro}</p>
+      <p class="une__liens">
+        <BoutonRdv cab={cab} classe="une__lien" />
+        <a class="une__lien une__lien--discret" href={lien(site, 'approche')}>Mon approche</a>
+      </p>
+    </div>
+    <div class="une__visuel">
+      <svg class="une__enso" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+        <path d="M150 38c-24-20-62-24-92-6C26 52 14 94 30 130c15 34 54 52 92 44 36-8 60-40 58-78-1-18-8-34-18-46" />
+      </svg>
+      <Visuel site={site} type="ambiance" prioritaire tailles="(min-width: 56rem) 40vw, 90vw" />
+    </div>
+  </div>
+</section>

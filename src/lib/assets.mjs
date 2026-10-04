@@ -35,12 +35,19 @@ export const pilePolice = (id) => {
   return `'${p.famille}','${p.famille} repli',${GENERIQUES[p.type]}`;
 };
 
+/* Polices japonaises : leurs points de suspension (centrés) et leur signe
+   degré (« N° ») ne conviennent pas au français ; ces deux caractères sont
+   pris dans la police de repli. */
+const JAPONAISES = new Set(['shippori-mincho', 'zen-old-mincho', 'zen-kaku-gothic-new', 'kaisei-tokumin', 'zen-antique', 'hina-mincho']);
+const SANS_SUSPENSION = 'U+0000-00AF,U+00B1-2025,U+2027-FFFF';
+
 function fontFaces(ids) {
   let css = '';
   for (const id of new Set(ids)) {
     const p = polices[id];
+    const plage = JAPONAISES.has(id) ? `;unicode-range:${SANS_SUSPENSION}` : '';
     for (const f of p.fichiers) {
-      css += `@font-face{font-family:'${p.famille}';src:url(${f.url}) format('woff2');font-weight:${f.poids};font-style:${f.style};font-display:swap}`;
+      css += `@font-face{font-family:'${p.famille}';src:url(${f.url}) format('woff2');font-weight:${f.poids};font-style:${f.style};font-display:swap${plage}}`;
     }
     const r = p.repli;
     css += `@font-face{font-family:'${p.famille} repli';src:local('${r.local}');size-adjust:${r.sizeAdjust};ascent-override:${r.ascentOverride};descent-override:${r.descentOverride};line-gap-override:${r.lineGapOverride}}`;

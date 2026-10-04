@@ -7,14 +7,14 @@ import { STYLES } from '../../config/catalogue.mjs';
 
 const liste = sites().map((s) => ({ site: s, style: STYLES.find((x) => x.id === s.theme) }));
 ---
-<Youx titre="Les styles · youXdesign" description="Cinq styles de site pour psychologues, sophrologues et coachs : Sauge, Terre & organique, Santé contemporaine, Wabi-sabi, Minimalisme suisse. Chacun est un vrai site à parcourir." chemin="/styles/">
+<Youx titre="Les styles · youXdesign" description={`${liste.length} styles de site pour psychologues, sophrologues et coachs : ${liste.map((x) => x.style.nom).join(', ')}. Chacun est un vrai site à parcourir.`} chemin="/styles/">
   <header class="yx-entete">
     <div class="yx-conteneur"><Logo clair /></div>
   </header>
   <main id="contenu" tabindex="-1" class="yx-hub">
     <section class="yx-conteneur yx-hub__tete">
       <p class="yx-surtitre">Les styles</p>
-      <h1>Cinq univers, <em>un même soin</em></h1>
+      <h1>Neuf univers, <em>un même soin</em></h1>
       <p class="yx-chapeau">Chaque style est un vrai site, avec toutes ses pages. Parcourez-les, puis composez le vôtre dans le configurateur : palette, typographie, fonctionnalités.</p>
       <p class="yx-boutons"><a class="yx-bouton" href="/">Configurer mon site</a></p>
     </section>

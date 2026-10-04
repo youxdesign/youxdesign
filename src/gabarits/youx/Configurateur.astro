@@ -11,7 +11,7 @@
    ========================================================================== */
 import Youx from '../../layouts/Youx.astro';
 import Logo from '../../components/youx/Logo.astro';
-import { STYLES, PALETTES_LIBRES, OPTIONS, PAGES } from '../../config/catalogue.mjs';
+import { STYLES, PALETTES_LIBRES, OPTIONS, PAGES, FONDS, VOILES } from '../../config/catalogue.mjs';
 import { EMAIL } from '../../config/youxdesign.mjs';
 import { pilePolice } from '../../lib/assets.mjs';
 import { deriver } from '../../lib/couleurs.mjs';
@@ -205,6 +205,25 @@ const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent
                 <span class="cfg-style__texte"><strong>{s.nom}</strong><span>{s.resume}</span></span>
               </label>
             ))}
+          </div>
+          <div class="cfg-reglages-style" data-si-style="immersif" hidden>
+            <fieldset class="cfg-groupe">
+              <legend>Animation de l’image d’accueil <span class="cfg-legende">style Immersif</span></legend>
+              <div class="cfg-choix-liste" role="radiogroup" aria-label="Animation de l’image d’accueil">
+                {FONDS.map((f, i) => (
+                  <label class="cfg-choix">
+                    <input type="radio" name="fond" value={f.id} data-choix="fond" checked={i === 0} />
+                    <span><strong>{f.nom}</strong><span>{f.description}</span></span>
+                  </label>
+                ))}
+              </div>
+            </fieldset>
+            <fieldset class="cfg-groupe">
+              <legend>Voile sur l’image <span class="cfg-legende">pour que le titre reste lisible</span></legend>
+              <div class="cfg-segment" role="radiogroup" aria-label="Voile sur l’image">
+                {VOILES.map((v) => <label><input type="radio" name="voile" value={v.id} data-choix="voile" checked={v.id === 'moyen'} /><span>{v.nom}</span></label>)}
+              </div>
+            </fieldset>
           </div>
           <div class="cfg-reglages">
             <label class="cfg-interrupteur cfg-interrupteur--ligne"><span class="cfg-interrupteur__texte"><strong>Je veux une direction artistique sur mesure</strong><span>Le style choisi sert de repère : on construit ensemble un univers propre à votre pratique.</span></span><input type="checkbox" role="switch" data-champ="surMesure" /><span class="cfg-interrupteur__piste" aria-hidden="true"></span></label>

@@ -76,6 +76,13 @@ export function deriver(p) {
   const accentClair = (p.clair || melange(accent, fond, 0.5)).toUpperCase();
   const accentProfond = assurerContraste(p.clair || melange(accent, fond, 0.45), profond, 4.6, surProfond);
   const fond2 = (p.fond2 || melange(fond, encre, sombre ? 0.06 : 0.045)).toUpperCase();
+
+  /* Section inversée : la couleur du texte en fond, celle du fond en texte
+     (sections sombres des styles clairs, bandeau clair des styles sombres) */
+  const inverse = encre;
+  const surInverse = assurerContraste(fond, inverse, 7, sombre ? '#000000' : '#FFFFFF');
+  const surInverse2 = assurerContraste(melange(inverse, surInverse, 0.74), inverse, 4.6, surInverse);
+  const accentInverse = assurerContraste(accent, inverse, 4.6, surInverse);
   const accent2Doux = (p.accent2Doux || melange(fond, accent2, sombre ? 0.2 : 0.14)).toUpperCase();
 
   return {
@@ -104,6 +111,12 @@ export function deriver(p) {
     'sur-profond2': surProfond2,
     'accent-profond': accentProfond,
     'ligne-profond': melange(profond, surProfond, 0.2),
+    inverse,
+    'sur-inverse': surInverse,
+    'sur-inverse2': surInverse2,
+    'accent-inverse': accentInverse,
+    'doux-inverse': melange(inverse, surInverse, 0.07),
+    'ligne-inverse': melange(inverse, surInverse, 0.22),
     focus: assurerContraste(accent, [fond, doux], 3.2, encre),
     schema: sombre ? 'dark' : 'light'
   };

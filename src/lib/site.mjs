@@ -63,6 +63,13 @@ export function lien(site, pageId) {
 
 export const adresseComplete = (chemin) => domaine() + chemin;
 
+/* Textes d'une page, avec les variantes propres au style s'il y en a :
+   "variantes": { "suisse": { "titre": "…" } } dans la fiche (démos). */
+export function textes(site, pageId) {
+  const t = site.cab.pages[pageId] || {};
+  return { ...t, ...(t.variantes?.[site.theme] || {}) };
+}
+
 /* Toutes les routes générées par src/pages/[...chemin].astro */
 export function routes() {
   const liste = [];

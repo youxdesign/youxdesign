@@ -1,0 +1,174 @@
+/* ==========================================================================
+   Style « Éditorial »
+   L'esprit d'un beau magazine : nom en manchette, colonnes, filets doubles,
+   grands titres en italique, chiffres romains et portrait légendé.
+   ========================================================================== */
+:root {
+  --r-petit: 0;
+  --r: 0;
+  --r-grand: 0;
+  --r-bouton: 0;
+  --r-visuel: 0;
+  --lh-titres: 1.04;
+  --ls-titres: -.015em;
+  --ls-surtitre: .2em;
+  --t-h1: clamp(2.5rem, 1.6rem + 3.8vw, 4.75rem);
+  --t-h2: clamp(2rem, 1.45rem + 2.4vw, 3.4rem);
+  --t-h3: clamp(1.25rem, 1.15rem + .45vw, 1.5rem);
+  --numeros: upper-roman;
+  --ombre: none;
+}
+
+h1 { font-style: italic; }
+h1 em, h2 em, h3 em, .titre em { font-style: italic; color: var(--c-lien); }
+.surtitre { font-weight: 600; font-size: .6875rem; }
+.surtitre__num { color: var(--c-lien); }
+
+/* --- En-tête : rubrique à gauche, lien de rendez-vous à droite ------------- */
+.entete { border-bottom-color: var(--c-encre); }
+.marque__nom { font-size: 1.375rem; font-style: italic; }
+[data-page='accueil'] .entete .marque__nom { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+[data-page='accueil'] .entete .marque__metier { font-size: .8125rem; color: var(--c-encre); }
+.marque__metier { letter-spacing: .14em; }
+.nav a { font-size: .9375rem; }
+.nav a:hover { background: none; text-decoration: underline; text-underline-offset: .35em; }
+.nav a[aria-current='page'] { color: var(--c-encre); text-decoration: underline; text-underline-offset: .35em; }
+.entete__rdv {
+  min-height: 2.75rem;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--c-encre);
+  background: none;
+  color: var(--c-encre);
+}
+.entete__rdv:hover { background: none; text-decoration: none; border-bottom-width: 2px; }
+.bouton-menu { border-color: var(--c-encre); }
+
+/* Manchette : le nom en très grand, centré, souligné d'un filet double */
+.manchette { border-bottom: 3px double var(--c-encre); }
+.manchette__nom {
+  padding-block: clamp(.9rem, .5rem + 1.8vw, 2rem);
+  font-family: var(--f-titres);
+  font-weight: var(--fw-titres);
+  font-size: clamp(2.75rem, 1.2rem + 6.4vw, 7rem);
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: -.02em;
+  text-align: center;
+  hyphens: manual;
+}
+
+/* --- Ouverture : trois colonnes -------------------------------------------- */
+.une { padding-block: clamp(2rem, 1rem + 3.5vw, 4rem) clamp(3rem, 2rem + 4vw, 6rem); }
+.une__grille { display: grid; gap: 2.5rem; }
+.une__reperes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1.5rem; align-content: start; font-size: var(--t-petit); line-height: 1.45; }
+.une__reperes div { padding-block: .7rem; border-top: 1px solid var(--c-encre); }
+.une__reperes dt { margin-bottom: .15rem; font-size: .6875rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--c-texte2); }
+.une__texte { display: grid; gap: var(--e-5); align-content: start; order: -1; }
+.une__texte h1 { font-size: clamp(2.6rem, 1.5rem + 4vw, 4.75rem); }
+.une__bouton { width: 100%; max-width: 26rem; }
+.une__portrait .visuel { --ratio: 4 / 5; }
+.une__portrait .legende { padding-top: .6rem; border-top: 1px solid var(--c-encre); font-family: var(--f-titres); font-style: italic; font-size: 1rem; color: var(--c-encre); }
+@media (min-width: 56rem) {
+  .une__grille { grid-template-columns: 3fr 6fr 4fr; gap: 3rem; }
+  .une__texte { order: 0; }
+  .une__reperes { grid-template-columns: 1fr; }
+}
+
+/* --- Titres de section : filet double au-dessus ---------------------------- */
+.titre-section { max-width: none; padding-top: var(--e-4); border-top: 3px double var(--c-encre); }
+.titre-section > :is(h2, h3) { max-width: 22ch; }
+.titre-section .chapeau { max-width: 40rem; }
+
+/* --- Cartes : colonnes sous filet fin ------------------------------------- */
+.cartes, .motifs { gap: 2.25rem var(--e-6); }
+.carte { gap: var(--e-2); padding: var(--e-4) 0 0; border: 0; border-top: 1px solid var(--c-encre); border-radius: 0; background: none; }
+.motif__num { font-family: var(--f-titres); font-style: italic; font-size: 1rem; font-weight: 400; }
+
+/* --- Présentation ---------------------------------------------------------- */
+.section--teinte { background: var(--c-doux); }
+.section-presentation .legende { font-family: var(--f-titres); font-style: italic; font-size: 1rem; }
+
+/* --- Étapes : grands chiffres romains -------------------------------------- */
+.etapes { gap: 2.5rem var(--e-6); }
+.etape { padding-top: var(--e-4); border-top: 1px solid var(--c-encre); }
+.etape__num {
+  width: auto;
+  height: auto;
+  place-items: start;
+  background: none;
+  font-size: clamp(2.75rem, 2.2rem + 2vw, 3.75rem);
+  line-height: 1;
+  color: var(--c-lien);
+}
+
+/* --- Respiration ----------------------------------------------------------- */
+.section-respiration { --sphere-1: var(--c-clair); --sphere-2: var(--c-accent); --sphere-3: var(--c-accent2-texte); }
+.section-respiration .surtitre { color: var(--c-lien); }
+
+/* --- Tarifs : filets et encart beige --------------------------------------- */
+.lignes-tarifs { border-top: 3px double var(--c-encre); }
+.ligne-tarif__prix { font-style: italic; }
+.infos { background: var(--c-doux); }
+
+/* --- Plan ------------------------------------------------------------------ */
+.plan__cadre { border: 0; }
+.plan__image { filter: grayscale(.7) sepia(.3) contrast(1.02); }
+
+/* --- Questions ------------------------------------------------------------- */
+.question, .question:first-of-type { border-color: var(--c-encre); }
+.question summary { font-family: var(--f-titres); font-weight: var(--fw-titres); font-size: clamp(1.1875rem, 1.1rem + .4vw, 1.4375rem); }
+.question summary::after { color: var(--c-encre); }
+
+/* --- Urgence --------------------------------------------------------------- */
+.urgence { border: 1px solid var(--c-encre); background: none; }
+
+/* --- Appel final : bandeau beige, très grand titre italique --------------- */
+.appel-final {
+  background: var(--c-doux);
+  color: var(--c-encre);
+  --c-encre: inherit;
+  --c-texte2: inherit;
+  --c-lien: inherit;
+  --c-ligne: inherit;
+  --c-ligne-forte: inherit;
+  --c-doux: inherit;
+  --c-surface: inherit;
+  --c-accent-doux: inherit;
+  --c-focus: inherit;
+  border-top: 3px double var(--c-encre);
+}
+.appel-final h2 { font-size: clamp(2.75rem, 1.2rem + 6.4vw, 7rem); font-style: italic; line-height: .98; }
+.appel-final .appel { grid-template-columns: 1fr; }
+.appel-final .appel__texte { max-width: none; }
+.appel-final .bouton { background: var(--c-encre); color: var(--c-fond); }
+.appel-final .bouton:hover { background: var(--c-lien); }
+.appel-final .bouton--secondaire { background: transparent; color: var(--c-encre); border-color: var(--c-encre); }
+.appel-final .bouton--secondaire:hover { background: var(--c-encre); color: var(--c-fond); }
+
+/* --- Pied de page : clair, comme une dernière page ------------------------ */
+.pied {
+  background: var(--c-fond);
+  color: var(--c-encre);
+  --c-encre: inherit;
+  --c-texte2: inherit;
+  --c-lien: inherit;
+  --c-ligne: inherit;
+  --c-focus: inherit;
+  border-top: 1px solid var(--c-encre);
+}
+.pied__nom { font-style: italic; font-size: 2rem; }
+
+/* --- Pages intérieures ----------------------------------------------------- */
+.tete-page { border-bottom: 3px double var(--c-encre); text-align: center; }
+.tete-page__texte { margin-inline: auto; justify-items: center; }
+.tete-page .chapeau { margin-inline: auto; }
+.tete-page--visuel { text-align: left; }
+.tete-page--visuel .tete-page__texte { margin-inline: 0; justify-items: start; }
+.tete-page--visuel .chapeau { margin-inline: 0; }
+.tete-page .boutons { justify-content: center; }
+.tete-page--visuel .boutons { justify-content: flex-start; }
+.encadre { border-radius: 0; border-left-color: var(--c-encre); background: var(--c-doux); }
+.faq__sommaire a { border-color: var(--c-encre); }
+.chiffre { font-style: italic; }
+.jalon__date { font-family: var(--f-titres); font-style: italic; font-size: 1.125rem; font-weight: 400; }

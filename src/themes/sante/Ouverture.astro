@@ -1,0 +1,65 @@
+---
+/* Santé contemporaine : pastilles, titre net, garanties cochées, profil ;
+   à droite, une carte de réservation (créneaux si l'option est choisie,
+   informations pratiques sinon). */
+import BoutonRdv from '../../components/BoutonRdv.astro';
+import { textes } from '../../lib/site.mjs';
+import { enrichi } from '../../lib/texte.mjs';
+import { choisir } from '../../lib/faits.mjs';
+import { creneaux, heureCourte } from '../../lib/creneaux.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien, c = cab.cabinet;
+const t = textes(site, 'accueil');
+const [numero] = choisir(cab, ['numero']);
+const tarif = cab.tarifs.find((x) => x.miseEnAvant) || cab.tarifs[0];
+const option = cab.bloc('creneaux', site.vitrine);
+const jours = creneaux(cab, 5, 8);
+const url = cab.rdv?.url || cab.tel.lien;
+const plateforme = cab.rdv?.plateforme || 'téléphone';
+const puces = ['Au cabinet', c.visio && 'En visio', p.public, p.specialiteCourte].filter(Boolean);
+---
+<section class="une" aria-labelledby="titre-page">
+  <div class="conteneur une__grille">
+    <div class="une__texte">
+      <ul class="une__puces" aria-label="En bref">
+        {puces.map((x) => <li>{x}</li>)}
+      </ul>
+      <h1 id="titre-page" set:html={enrichi(t.titre)} />
+      <p class="chapeau">{t.intro}</p>
+      <ul class="coches une__garanties">
+        <li>{p.titre}{numero && `, ${numero.cle} ${numero.valeur}`}</li>
+        <li>{cab.rdv ? `Réservation en ligne à toute heure sur ${cab.rdv.plateforme}` : `Rendez-vous par téléphone au ${cab.tel.affiche}`}</li>
+        {c.accessiblePMR && <li>Cabinet accessible aux personnes à mobilité réduite</li>}
+      </ul>
+      <p class="une__profil">
+        <span class="une__avatar" aria-hidden="true">{cab.initiales}</span>
+        <span><strong>{cab.nomComplet}</strong><span>{[p.titre, p.specialiteCourte].filter(Boolean).join(' · ')}</span></span>
+      </p>
+    </div>
+    <aside class="une__resa" aria-labelledby="resa-titre">
+      <div class="une__resa-tete">
+        <h2 id="resa-titre">Prendre rendez-vous</h2>
+        <p>{tarif.duree} · {tarif.prix}</p>
+      </div>
+      {option.rendre && jours.length > 0 && (
+        <div class="une__creneaux" data-option="creneaux" hidden={option.cache}>
+          <ul class="une__jours" aria-label="Prochains jours de consultation">
+            {jours.map((j, i) => <li class:list={{ 'est-choisi': i === 0 }}><span>{j.jour}</span><strong>{j.date}</strong></li>)}
+          </ul>
+          <ul class="une__heures" aria-label={`Créneaux libres le ${jours[0].libelle}`}>
+            {jours[0].heures.map((h, i) => (
+              <li><a class:list={['une__heure', { 'est-choisi': i === 4 }]} href={url} target="_blank" rel="noopener">{heureCourte(h)}<span class="sr-only"> le {jours[0].libelle}, réserver sur {plateforme} (nouvel onglet)</span></a></li>
+            ))}
+          </ul>
+        </div>
+      )}
+      <dl class="une__resa-infos">
+        <div><dt>Adresse</dt><dd>{cab.adresse.uneLigne}</dd></div>
+        {c.visio && <div><dt>À distance</dt><dd>Séances en visio sécurisée</dd></div>}
+        <div><dt>Téléphone</dt><dd><a href={cab.tel.lien}>{cab.tel.affiche}</a></dd></div>
+      </dl>
+      <BoutonRdv cab={cab} classe="bouton une__resa-bouton" />
+    </aside>
+  </div>
+</section>

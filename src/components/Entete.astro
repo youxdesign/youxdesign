@@ -1,8 +1,13 @@
 ---
 /* En-tête : nom du cabinet, navigation, bouton de rendez-vous.
    Sur mobile, le menu s'ouvre dans une fenêtre « popover » native :
-   aucun JavaScript, fermeture par Échap ou par le bouton. */
+   aucun JavaScript, fermeture par Échap ou par le bouton.
+   Selon le style (src/themes/<style>/reglages.mjs) : bandeau d'information
+   au-dessus (statut d'ouverture, téléphone), initiales, téléphone, nom en
+   manchette sous l'en-tête de l'accueil. */
 import Icone from './Icone.astro';
+import Statut from './Statut.astro';
+import { reglages } from '../themes/registre.mjs';
 import BoutonRdv from './BoutonRdv.astro';
 import { PAGES } from '../config/catalogue.mjs';
 import { lien } from '../lib/site.mjs';
@@ -14,10 +19,22 @@ const menu = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && (p.id !== 'fa
 /* Lien vers la FAQ : masqué (démos) ou absent (sites) si l'option n'est pas choisie */
 const attributs = (p) => ({ 'data-page-lien': p.id, ...(p.id === 'faq' ? { 'data-option': 'faq', hidden: !cab.a('faq') } : {}) });
 const sousTitre = `${cab.metier} · ${cab.cabinet.ville}`;
+const r = reglages(site.theme);
+const statut = cab.bloc('statut', site.vitrine);
 ---
+{r.bandeau && (
+  <div class="bandeau-haut">
+    <div class="conteneur bandeau-haut__barre">
+      {statut.rendre && <Statut cab={cab} classe="bandeau-haut__statut" cache={statut.cache} />}
+      <p class="bandeau-haut__lieu">{cab.praticien.titre} · {cab.lieuCourt}</p>
+      <a class="bandeau-haut__tel" href={cab.tel.lien}><span class="sr-only">Téléphone : </span>{cab.tel.affiche}</a>
+    </div>
+  </div>
+)}
 <header class="entete">
   <div class="conteneur entete__barre">
-    <a class="marque" href={site.base} data-visuel="logo">
+    <a class:list={['marque', { 'marque--avatar': r.avatar }]} href={site.base} data-visuel="logo">
+      {r.avatar && <span class="marque__avatar" aria-hidden="true">{cab.initiales}</span>}
       <span class="marque__nom">{cab.nomComplet}</span>
       <span class="marque__metier">{sousTitre}<span class="sr-only">, retour à l’accueil</span></span>
     </a>
@@ -29,6 +46,7 @@ const sousTitre = `${cab.metier} · ${cab.cabinet.ville}`;
       </ul>
     </nav>
     <Langues site={site} />
+    {r.telephone && <a class="entete__tel" href={cab.tel.lien}><span class="sr-only">Téléphone : </span>{cab.tel.affiche}</a>}
     <BoutonRdv cab={cab} classe="bouton bouton--petit entete__rdv" />
     <button class="bouton-menu" type="button" popovertarget="menu-mobile" aria-label="Ouvrir le menu">
       <Icone nom="menu" />
@@ -63,3 +81,8 @@ const sousTitre = `${cab.metier} · ${cab.cabinet.ville}`;
     </div>
   </div>
 </header>
+{r.manchette && page === 'accueil' && (
+  <div class="manchette" aria-hidden="true">
+    <p class="conteneur manchette__nom">{cab.nomComplet}</p>
+  </div>
+)}

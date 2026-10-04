@@ -1,4 +1,11 @@
 ---
+/* ==========================================================================
+   Accueil commun aux styles (hors Sauge, qui a ses propres pages).
+   Chaque style fournit son bloc d'ouverture (src/themes/<style>/Ouverture.astro)
+   et sa feuille de style ; l'ordre des sections est le même partout :
+   ouverture · repères · motifs · présentation · étapes · respiration ·
+   tarifs et infos pratiques · plan · questions fréquentes · urgence · appel.
+   ========================================================================== */
 import Site from '../layouts/Site.astro';
 import OuvertureBase from '../components/Ouverture.astro';
 import TitreSection from '../components/TitreSection.astro';
@@ -6,21 +13,25 @@ import Visuel from '../components/Visuel.astro';
 import Urgence from '../components/Urgence.astro';
 import Respiration from '../components/Respiration.astro';
 import AppelFinal from '../components/AppelFinal.astro';
-import { ouvertures } from '../themes/registre.mjs';
-import Creneaux from '../components/options/Creneaux.astro';
+import Plan from '../components/Plan.astro';
+import BoutonRdv from '../components/BoutonRdv.astro';
+import { ouvertures, reglages } from '../themes/registre.mjs';
 import Questionnaires from '../components/options/Questionnaires.astro';
 import Newsletter from '../components/options/Newsletter.astro';
-import { lien } from '../lib/site.mjs';
+import { lien, textes } from '../lib/site.mjs';
 import { meta, donneesCabinet } from '../lib/seo.mjs';
 import { enrichi } from '../lib/texte.mjs';
+import { creneaux, heureCourte } from '../lib/creneaux.mjs';
 
 interface Props { site: any }
 const { site } = Astro.props;
-const cab = site.cab, p = cab.praticien, c = cab.cabinet, t = cab.pages.accueil;
+const cab = site.cab, p = cab.praticien, c = cab.cabinet;
+const t = textes(site, 'accueil');
+const r = reglages(site.theme);
 const Ouverture = ouvertures[site.theme] || OuvertureBase;
 const m = meta(site, 'accueil');
-const scripts = [cab.bloc('statut', site.vitrine).rendre && 'statut', cab.bloc('respiration', site.vitrine).rendre && 'respiration'].filter(Boolean);
-const respiration = cab.bloc('respiration', site.vitrine);
+const bloc = (id) => cab.bloc(id, site.vitrine);
+const scripts = [bloc('statut').rendre && 'statut', bloc('respiration').rendre && 'respiration', bloc('carte').rendre && 'carte', ...r.scripts].filter(Boolean);
 
 const reperes = [
   p.diplome && { titre: `${cab.metier} ${cab.accord('diplômé')}`, texte: p.diplome },
@@ -29,24 +40,36 @@ const reperes = [
   { titre: `Cabinet à ${c.ville}${c.visio ? ' et visio' : ''}`, texte: `${c.adresse}${c.quartier ? ', ' + c.quartier : ''}` },
   cab.rdv ? { titre: 'Rendez-vous en ligne', texte: `Réservation à toute heure sur ${cab.rdv.plateforme}` } : { titre: 'Rendez-vous par téléphone', texte: cab.tel.affiche }
 ].filter(Boolean);
+
+/* Infos pratiques : horaires, adresse, visio, prochains créneaux */
+const horaires = cab.horaires.groupes.filter((g) => !g.ferme);
+const acces = c.acces?.[0];
+const prochain = creneaux(cab, 1, 4)[0];
+const urlRdv = cab.rdv?.url || cab.tel.lien;
+const plateforme = cab.rdv?.plateforme || 'téléphone';
+
+/* Questions fréquentes : celles choisies dans la fiche, sinon les quatre premières */
+const toutes = (cab.pages.faq?.groupes || []).flatMap((g) => g.questions);
+const choisies = (t.questionsAccueil || []).map((q) => toutes.find((x) => x.question === q)).filter(Boolean);
+const questions = (choisies.length ? choisies : toutes).slice(0, 4);
 ---
 <Site site={site} page="accueil" titre={m.titre} description={m.description} chemin={site.base} jsonld={[donneesCabinet(site)]} scripts={scripts}>
   <Ouverture site={site} />
 
-  <section class="section section--serree section-reperes" aria-label="En bref">
-    <div class="conteneur">
-      <ul class="reperes">
-        {reperes.map((r) => (
-          <li class="repere">
-            <span class="repere__titre">{r.titre}</span>
-            <span class="repere__texte">{r.texte}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </section>
-
-  <Creneaux site={site} />
+  {r.reperes && (
+    <section class="section section--serree section-reperes" aria-label="En bref">
+      <div class="conteneur">
+        <ul class="reperes">
+          {reperes.map((x) => (
+            <li class="repere">
+              <span class="repere__titre">{x.titre}</span>
+              <span class="repere__texte">{x.texte}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
 
   {cab.motifs.length > 0 && (
     <section class="section section-motifs" aria-labelledby="motifs-titre">
@@ -67,7 +90,7 @@ const reperes = [
 
   <section class="section section--teinte section-presentation" aria-labelledby="presentation-titre">
     <div class="conteneur deux-colonnes presentation">
-      <Visuel site={site} type="portrait" legende={`${cab.nomComplet} · ${p.titre}${p.depuis ? ` depuis ${p.depuis}` : ''}`} />
+      <Visuel site={site} type={r.presentation} legende={r.presentation === 'portrait' ? `${cab.nomComplet} · ${p.titre}${p.depuis ? ` depuis ${p.depuis}` : ''}` : `Le cabinet, ${c.quartier || c.ville}`} />
       <div class="presentation__texte">
         <p class="surtitre"><span class="surtitre__num" aria-hidden="true">02</span><span>{t.presentationSurtitre || 'Présentation'}</span></p>
         <h2 id="presentation-titre" set:html={enrichi(t.presentationTitre)} />
@@ -83,9 +106,9 @@ const reperes = [
     <div class="conteneur">
       <TitreSection surtitre={t.etapesSurtitre || 'Première séance'} numero={3} titre={t.etapesTitre} intro={t.etapesIntro} id="etapes-titre" />
       <ol class="etapes">
-        {t.etapes.map((e, i) => (
+        {t.etapes.map((e) => (
           <li class="etape apparait">
-            <span class="etape__num" aria-hidden="true">{i + 1}</span>
+            <span class="etape__num" aria-hidden="true"></span>
             <h3>{e.titre}</h3>
             <p>{e.texte}</p>
           </li>
@@ -96,7 +119,89 @@ const reperes = [
 
   <Questionnaires site={site} />
 
-  {respiration.rendre && <Respiration surtitre={t.respirationSurtitre} titre={t.respirationTitre} texte={t.respirationTexte} cache={respiration.cache} />}
+  {bloc('respiration').rendre && <Respiration surtitre={t.respirationSurtitre} titre={t.respirationTitre} texte={t.respirationTexte} cache={bloc('respiration').cache} />}
+
+  <section class="section section-tarifs-accueil" aria-labelledby="tarifs-titre">
+    <div class="conteneur tarifs-accueil">
+      <div class="tarifs-accueil__liste">
+        <TitreSection surtitre={t.tarifsSurtitre || 'Séances'} numero={4} titre={t.tarifsTitre || 'Consultations *et tarifs*'} id="tarifs-titre" />
+        <ul class="lignes-tarifs">
+          {cab.tarifs.map((x) => (
+            <li class="ligne-tarif">
+              <span class="ligne-tarif__nom">{x.nom}</span>
+              <span class="ligne-tarif__detail">{[x.duree, x.lieu].filter(Boolean).join(' · ')}</span>
+              <span class="ligne-tarif__prix">{x.prix}</span>
+            </li>
+          ))}
+        </ul>
+        <a class="lien-fleche" href={lien(site, 'consultations')}>Paiement, annulation et remboursement</a>
+      </div>
+      <aside class="infos" aria-labelledby="infos-titre">
+        <h3 id="infos-titre" class="sr-only">Informations pratiques</h3>
+        <dl class="infos__liste">
+          {horaires.length > 0 && (
+            <div>
+              <dt>Horaires</dt>
+              <dd>{horaires.map((g) => <span>{g.libelle} : {g.texte}</span>)}</dd>
+            </div>
+          )}
+          <div>
+            <dt>Adresse</dt>
+            <dd>
+              <span>{cab.adresse.rue}</span>
+              <span>{cab.adresse.ville}</span>
+              {acces && <span class="infos__note">{acces.titre} : {acces.texte}</span>}
+            </dd>
+          </div>
+          {c.visio && (
+            <div>
+              <dt>À distance</dt>
+              <dd>Séances en visio, sur une plateforme sécurisée</dd>
+            </div>
+          )}
+          {bloc('creneaux').rendre && prochain && (
+            <div class="infos__creneaux" data-option="creneaux" hidden={bloc('creneaux').cache}>
+              <dt>Prochains créneaux · {prochain.libelle}</dt>
+              <dd>
+                <ul class="pastilles">
+                  {prochain.heures.map((h, i) => (
+                    <li><a class:list={['pastille', { 'pastille--pleine': i === 0 }]} href={urlRdv} target="_blank" rel="noopener">{heureCourte(h)}<span class="sr-only"> le {prochain.libelle}, réserver sur {plateforme} (nouvel onglet)</span></a></li>
+                  ))}
+                </ul>
+              </dd>
+            </div>
+          )}
+        </dl>
+        <BoutonRdv cab={cab} classe="bouton infos__bouton" />
+      </aside>
+    </div>
+  </section>
+
+  {bloc('carte').rendre && (
+    <section class="section section-plan" aria-labelledby="plan-titre" data-option="carte" hidden={bloc('carte').cache}>
+      <div class="conteneur">
+        <h2 id="plan-titre" class="sr-only">Plan d’accès au cabinet</h2>
+        <Plan cab={cab} etiquette />
+      </div>
+    </section>
+  )}
+
+  {bloc('faq').rendre && questions.length > 0 && (
+    <section class="section section-faq-accueil" aria-labelledby="faq-accueil-titre" data-option="faq" hidden={bloc('faq').cache}>
+      <div class="conteneur faq-accueil">
+        <TitreSection surtitre={t.faqSurtitre || 'Vos questions'} numero={5} titre={t.faqTitre || 'Questions *fréquentes*'} id="faq-accueil-titre" />
+        <div class="faq-accueil__questions">
+          {questions.map((q) => (
+            <details class="question">
+              <summary>{q.question}</summary>
+              <div class="question__reponse">{q.reponse.map((x) => <p set:html={enrichi(x)} />)}</div>
+            </details>
+          ))}
+          <a class="lien-fleche faq-accueil__tout" href={lien(site, 'faq')}>Toutes les questions</a>
+        </div>
+      </div>
+    </section>
+  )}
 
   <Newsletter site={site} />
 

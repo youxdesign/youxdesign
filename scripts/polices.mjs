@@ -53,7 +53,25 @@ const STATIQUES = [
   ['hina-mincho', 'Hina Mincho', 'serif', ['400-normal']],
   ['inter-tight', 'Inter Tight', 'sans-serif', ['400-normal', '600-normal']],
   ['space-grotesk', 'Space Grotesk', 'sans-serif', ['400-normal', '600-normal']],
-  ['archivo', 'Archivo', 'sans-serif', ['400-normal', '600-normal']]
+  ['archivo', 'Archivo', 'sans-serif', ['400-normal', '600-normal']],
+  /* Styles Immersif, Éditorial, Pastel doux et Nocturne */
+  ['bodoni-moda', 'Bodoni Moda', 'serif', ['400-normal', '400-italic']],
+  ['marcellus', 'Marcellus', 'serif', ['400-normal']],
+  ['italiana', 'Italiana', 'serif', ['400-normal']],
+  ['gilda-display', 'Gilda Display', 'serif', ['400-normal']],
+  ['jost', 'Jost', 'sans-serif', ['400-normal', '500-normal', '600-normal']],
+  ['newsreader', 'Newsreader', 'serif', ['400-normal', '400-italic']],
+  ['libre-caslon-text', 'Libre Caslon Text', 'serif', ['400-normal', '400-italic']],
+  ['hanken-grotesk', 'Hanken Grotesk', 'sans-serif', ['400-normal', '600-normal']],
+  ['nunito', 'Nunito', 'sans-serif', ['400-normal', '600-normal', '800-normal']],
+  ['quicksand', 'Quicksand', 'sans-serif', ['600-normal', '700-normal']],
+  ['varela-round', 'Varela Round', 'sans-serif', ['400-normal']],
+  ['fredoka', 'Fredoka', 'sans-serif', ['500-normal', '600-normal']],
+  ['comfortaa', 'Comfortaa', 'sans-serif', ['600-normal', '700-normal']],
+  ['spectral', 'Spectral', 'serif', ['300-normal', '400-normal', '300-italic']],
+  ['tenor-sans', 'Tenor Sans', 'sans-serif', ['400-normal']],
+  ['libre-bodoni', 'Libre Bodoni', 'serif', ['400-normal', '500-normal']],
+  ['karla', 'Karla', 'sans-serif', ['400-normal', '600-normal']]
 ];
 
 /* Polices variables : [identifiant, famille, type, fichier source, { style: axes conservés }, graisses annoncées]

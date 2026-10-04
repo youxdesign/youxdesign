@@ -7,7 +7,7 @@
 import Document from './Document.astro';
 import Entete from '../components/Entete.astro';
 import PiedDePage from '../components/PiedDePage.astro';
-import { cadres } from '../themes/registre.mjs';
+import { cadres, reglages } from '../themes/registre.mjs';
 import Confort from '../components/options/Confort.astro';
 
 interface Props {
@@ -21,9 +21,11 @@ interface Props {
   scripts?: string[];
   classe?: string;
 }
-const props = Astro.props;
-const { site, page } = props;
+const { site, page, scripts = [], ...reste } = Astro.props;
 const Cadre = cadres[site.theme];
+/* Le bandeau d'information affiche le statut d'ouverture sur toutes les pages */
+const statut = reglages(site.theme).bandeau && site.cab.bloc('statut', site.vitrine).rendre;
+const props = { ...reste, site, page, scripts: statut ? [...scripts, 'statut'] : scripts };
 ---
 {Cadre ? (
   <Cadre {...props}><slot /></Cadre>

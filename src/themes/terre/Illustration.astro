@@ -1,0 +1,37 @@
+---
+/* Terre & organique : dunes au soleil couchant, vase et branche d'olivier,
+   dans les teintes de la palette, en attendant les vraies photos. */
+interface Props { type: 'portrait' | 'cabinet' | 'ambiance'; cab: any; variante?: number }
+const { type } = Astro.props;
+---
+{type === 'portrait' ? (
+  <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="400" height="500" />
+    <circle class="il-surface" cx="200" cy="205" r="132" />
+    <path class="il-tige" d="M202 338c-4-62-22-112-56-160M192 262c22-34 50-58 84-72M172 210c-22-6-42-20-56-40M224 220c10-20 26-34 44-40" />
+    <ellipse class="il-accent2" cx="146" cy="176" rx="18" ry="7" transform="rotate(-50 146 176)" />
+    <ellipse class="il-accent2" cx="118" cy="168" rx="16" ry="6" transform="rotate(-30 118 168)" />
+    <ellipse class="il-accent2" cx="276" cy="190" rx="18" ry="7" transform="rotate(-20 276 190)" />
+    <ellipse class="il-accent2" cx="262" cy="178" rx="15" ry="6" transform="rotate(-60 262 178)" />
+    <ellipse class="il-accent2" cx="168" cy="228" rx="15" ry="6" transform="rotate(30 168 228)" />
+    <path class="il-accent" d="M172 334h56c0 22 26 40 26 76 0 40-26 58-54 58s-54-18-54-58c0-36 26-54 26-76z" />
+    <path class="il-doux2" d="M0 462h400v38H0z" />
+  </svg>
+) : type === 'cabinet' ? (
+  <svg viewBox="0 0 600 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="600" height="450" />
+    <circle class="il-surface" cx="300" cy="178" r="82" />
+    <path class="il-doux2" d="M0 300c120-60 230-50 330-15s190 15 270-25v190H0z" />
+    <path class="il-clair" d="M0 348c140-46 260-36 380 0s160 14 220-18v120H0z" />
+    <path class="il-accent" d="M0 398c160-36 300-26 420 4s140 6 180-8v56H0z" />
+    <path class="il-accent2" opacity=".6" d="M330 450c50-30 130-40 270-26v26z" />
+  </svg>
+) : (
+  <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="600" height="400" />
+    <circle class="il-surface" cx="190" cy="150" r="74" />
+    <path class="il-doux2" d="M0 250c110-50 220-46 320-12s180 16 280-24v186H0z" />
+    <path class="il-clair" d="M0 300c150-40 270-30 390 4s150 10 210-16v112H0z" />
+    <path class="il-accent" d="M0 350c170-30 310-22 430 6s130 4 170-6v50H0z" />
+  </svg>
+)}

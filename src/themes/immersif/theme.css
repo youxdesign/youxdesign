@@ -1,0 +1,259 @@
+/* ==========================================================================
+   Style « Immersif »
+   Une grande image d'ambiance plein écran, animée avec lenteur, le titre
+   posé dessus ; ensuite, une alternance de sections claires et sombres,
+   une serif didone et des touches de laiton.
+   Réglages de l'accueil (fiche : site.fond et site.voile) :
+     data-fond  = zoom | diaporama | parallaxe | degrade | video
+     data-voile = leger | moyen | fort
+   ========================================================================== */
+:root {
+  --r-petit: .25rem;
+  --r: .375rem;
+  --r-grand: .75rem;
+  --r-bouton: 999px;
+  --r-visuel: .375rem;
+  --lh-titres: 1.06;
+  --ls-titres: -.01em;
+  --ls-surtitre: .22em;
+  --t-h1: clamp(2.6rem, 1.5rem + 4.6vw, 5.25rem);
+  --t-h2: clamp(2rem, 1.45rem + 2.4vw, 3.4rem);
+  --numeros: decimal-leading-zero;
+  --voile-haut: .3;
+  --voile-bas: .62;
+}
+:root[data-voile='leger'] { --voile-haut: .16; --voile-bas: .48; }
+:root[data-voile='fort'] { --voile-haut: .5; --voile-bas: .8; }
+
+h1 em, h2 em, h3 em, .titre em { color: var(--c-lien); }
+.surtitre { font-weight: 500; }
+.surtitre__num { color: var(--c-lien); }
+
+/* Sections sombres : en-tête, présentation, encart d'informations, haut des
+   pages intérieures (mêmes couleurs que les sections inversées) */
+.entete, .section-presentation, .infos, .tete-page, .appel-final .appel {
+  background: var(--c-inverse);
+  color: var(--c-sur-inverse);
+  --c-encre: var(--c-sur-inverse);
+  --c-texte2: var(--c-sur-inverse2);
+  --c-lien: var(--c-accent-inverse);
+  --c-ligne: var(--c-ligne-inverse);
+  --c-ligne-forte: var(--c-sur-inverse2);
+  --c-doux: var(--c-doux-inverse);
+  --c-surface: var(--c-doux-inverse);
+  --c-accent-doux: var(--c-doux-inverse);
+  --c-focus: var(--c-sur-inverse);
+}
+
+/* --- En-tête sombre (transparent sur l'image de l'accueil) ---------------- */
+.entete { border-bottom-color: var(--c-ligne-inverse); }
+.marque__nom { font-size: 1.375rem; }
+.marque__metier { font-weight: 500; letter-spacing: .18em; }
+.nav a:hover { background: var(--c-doux-inverse); }
+.entete__rdv { background: transparent; color: var(--c-sur-inverse); border-color: var(--c-sur-inverse2); }
+.entete__rdv:hover { background: var(--c-doux-inverse); }
+.menu-mobile { background: var(--c-inverse); }
+.menu-mobile .bouton { background: var(--c-bouton); color: var(--c-sur-bouton); }
+
+/* Accueil : l'en-tête glisse au-dessus de l'image ; transparent en haut de
+   page puis sombre au défilement (navigateurs récents), sombre sinon */
+[data-page='accueil'] .entete { margin-bottom: calc(-1 * var(--entete-h) - 1px); }
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    [data-page='accueil'] .entete {
+      background: transparent;
+      border-bottom-color: rgb(255 255 255 / .16);
+      animation: immersif-entete linear both;
+      animation-timeline: scroll(root);
+      animation-range: 40vh 70vh;
+    }
+  }
+}
+@keyframes immersif-entete {
+  from { background-color: transparent; }
+  to { background-color: var(--c-inverse); border-bottom-color: var(--c-ligne-inverse); }
+}
+
+/* --- Ouverture : image plein écran ---------------------------------------- */
+.une {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: min(100vh, 58rem);
+  min-height: min(100svh, 58rem);
+  padding-top: var(--entete-h);
+  isolation: isolate;
+  overflow: clip;
+  background: var(--c-inverse);
+  color: var(--c-sur-inverse);
+  --c-encre: var(--c-sur-inverse);
+  --c-texte2: var(--c-sur-inverse2);
+  --c-lien: var(--c-accent-inverse);
+  --c-ligne-forte: var(--c-sur-inverse2);
+  --c-focus: var(--c-sur-inverse);
+}
+.une__fond { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+.une__fond::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgb(0 0 0 / calc(var(--voile-haut) * .9)), transparent 65%),
+    linear-gradient(180deg, rgb(0 0 0 / var(--voile-haut)), rgb(0 0 0 / var(--voile-bas)));
+}
+.une__couche, .une__couche .cadre-visuel, .une__couche .visuel { position: absolute; inset: 0; margin: 0; }
+.une__couche .visuel { height: 100%; aspect-ratio: auto; border-radius: 0; background: var(--c-inverse); }
+.une__couche--2, .une__couche--3 { display: none; }
+.une__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1s var(--courbe); }
+.une__video.est-lue { opacity: 1; }
+:root:not([data-fond='video']) .une__video { display: none; }
+
+.une__contenu { align-self: end; display: grid; gap: var(--e-5); justify-items: start; padding-block: clamp(3rem, 2rem + 6vw, 7rem) clamp(2.25rem, 1.5rem + 3vw, 4rem); }
+.une__contenu .surtitre { margin-bottom: 0; color: var(--c-sur-inverse); }
+.une h1 { max-width: 15ch; font-size: clamp(2.75rem, 1.4rem + 5.4vw, 6.25rem); line-height: 1.02; color: var(--c-sur-inverse); text-shadow: 0 2px 28px rgb(0 0 0 / .3); }
+.une .chapeau { max-width: 34rem; color: var(--c-sur-inverse); }
+.une .bouton--secondaire { background: rgb(255 255 255 / .08); color: var(--c-sur-inverse); border-color: rgb(255 255 255 / .5); }
+.une .bouton--secondaire:hover { background: rgb(255 255 255 / .16); border-color: var(--c-sur-inverse); }
+.une__bande { border-top: 1px solid rgb(255 255 255 / .18); background: rgb(0 0 0 / .22); }
+.une__bande-grille { display: grid; gap: var(--e-3) var(--e-6); padding-block: var(--e-4); }
+.une__infos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--e-3) var(--e-6); font-size: var(--t-petit); line-height: 1.45; }
+.une__infos dt { margin-bottom: .15rem; font-size: .6875rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--c-sur-inverse2); }
+.une__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0 var(--e-5); font-size: var(--t-petit); }
+.une .statut { color: var(--c-sur-inverse2); }
+.une__pause, .une__defiler {
+  display: inline-flex;
+  align-items: center;
+  gap: .35em;
+  min-height: 2.75rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--c-sur-inverse);
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: .3em;
+  cursor: pointer;
+}
+.une__pause[hidden] { display: none; }
+@media (min-width: 64rem) {
+  .une__bande-grille { grid-template-columns: 1fr auto; align-items: center; }
+}
+
+/* Animations du fond (jamais si le visiteur préfère réduire les animations) */
+@media (prefers-reduced-motion: no-preference) {
+  .une__couche--1 { animation: immersif-zoom 26s ease-in-out infinite alternate; }
+  [data-fond='diaporama'] .une__couche--2, [data-fond='diaporama'] .une__couche--3 { display: block; opacity: 0; }
+  [data-fond='diaporama'] .une__couche--2 { animation: immersif-diapo-2 24s ease-in-out infinite; }
+  [data-fond='diaporama'] .une__couche--3 { animation: immersif-diapo-3 24s ease-in-out infinite; }
+  [data-fond='degrade'] .une__couche { display: none; }
+  [data-fond='degrade'] .une__fond {
+    background: linear-gradient(125deg, var(--c-inverse) 10%, var(--c-accent2-texte), var(--c-inverse) 55%, var(--c-profond) 80%, var(--c-inverse));
+    background-size: 320% 320%;
+    animation: immersif-degrade 20s ease-in-out infinite alternate;
+  }
+  @supports (animation-timeline: scroll()) {
+    [data-fond='parallaxe'] .une__couche--1 { animation: immersif-parallaxe linear both; animation-timeline: scroll(root); animation-range: 0 100vh; }
+  }
+  [data-animations='pause'] .une__fond, [data-animations='pause'] .une__fond * { animation-play-state: paused !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-fond='degrade'] .une__couche { display: none; }
+  [data-fond='degrade'] .une__fond { background: linear-gradient(125deg, var(--c-inverse), var(--c-accent2-texte)); }
+}
+@keyframes immersif-zoom { from { transform: scale(1); } to { transform: scale(1.12); } }
+@keyframes immersif-diapo-2 {
+  0%, 28% { opacity: 0; transform: scale(1.08); }
+  36%, 61% { opacity: 1; }
+  69%, 100% { opacity: 0; transform: scale(1); }
+}
+@keyframes immersif-diapo-3 {
+  0%, 61% { opacity: 0; transform: scale(1.08); }
+  69%, 94% { opacity: 1; }
+  100% { opacity: 0; transform: scale(1); }
+}
+@keyframes immersif-degrade { from { background-position: 0% 40%; } to { background-position: 100% 60%; } }
+@keyframes immersif-parallaxe { to { transform: translateY(26%) scale(1.08); } }
+
+/* Couleurs des paysages (illustrations provisoires) */
+.im-s-encre { stop-color: var(--c-inverse); }
+.im-s-sombre { stop-color: var(--c-accent2-texte); }
+.im-s-clair { stop-color: var(--c-accent); }
+.im-astre { fill: var(--c-clair); opacity: .9; }
+.im-lune { fill: var(--c-fond); opacity: .85; }
+.im-loin { fill: var(--c-accent2-texte); opacity: .9; }
+.im-brume { fill: var(--c-clair); opacity: .14; }
+.im-milieu { fill: var(--c-inverse); opacity: .72; }
+.im-proche { fill: var(--c-inverse); }
+.im-eau { fill: var(--c-inverse); opacity: .8; }
+.im-reflet { fill: none; stroke: var(--c-clair); stroke-opacity: .22; stroke-width: 4; stroke-linecap: round; }
+.im-h-1 { stop-color: var(--c-clair); stop-opacity: .75; }
+.im-h-0 { stop-color: var(--c-clair); stop-opacity: 0; }
+.im-e-1 { stop-color: var(--c-accent2-texte); }
+.im-cadre { fill: none; stroke: var(--c-clair); stroke-opacity: .55; stroke-width: 2; }
+.im-fenetre { fill: var(--c-accent2-texte); opacity: .7; }
+.im-lampe { fill: var(--c-clair); opacity: .6; }
+.im-meuble { fill: none; stroke: var(--c-clair); stroke-opacity: .45; stroke-width: 3; }
+
+/* --- Cartes : filets ------------------------------------------------------- */
+.carte { gap: var(--e-2); padding: var(--e-5) 0 0; border: 0; border-top: 1px solid var(--c-ligne-forte); border-radius: 0; background: none; }
+.carte h3 { font-size: clamp(1.25rem, 1.15rem + .45vw, 1.5rem); }
+.motif__num { display: none; }
+
+/* --- Présentation : section sombre ---------------------------------------- */
+.section-presentation .visuel { border-radius: var(--r-visuel); }
+
+/* --- Étapes : bande claire, grands chiffres de laiton --------------------- */
+.section-etapes { background: var(--c-fond2); padding-top: var(--e-section); }
+.etape__num {
+  width: auto;
+  height: auto;
+  place-items: start;
+  background: none;
+  font-size: clamp(2.75rem, 2.2rem + 2vw, 3.75rem);
+  line-height: 1;
+  color: var(--c-lien);
+}
+
+/* --- Respiration : nuit, sphère de laiton ---------------------------------- */
+.section-respiration { --sphere-1: var(--c-clair); --sphere-2: var(--c-accent); --sphere-3: var(--c-accent2-texte); }
+.section-respiration .surtitre { color: var(--c-lien); }
+
+/* --- Tarifs ---------------------------------------------------------------- */
+.ligne-tarif__nom, .ligne-tarif__prix { font-weight: 400; }
+.infos { border-radius: var(--r-grand); }
+
+/* --- Plan ------------------------------------------------------------------ */
+.plan__cadre { border: 0; border-radius: var(--r-grand); }
+.plan__image { filter: sepia(.3) saturate(.55) contrast(1.02); }
+
+/* --- Appel final : bloc sombre aux coins arrondis -------------------------- */
+.appel-final {
+  background: none;
+  color: var(--c-encre);
+  --c-encre: inherit;
+  --c-texte2: inherit;
+  --c-lien: inherit;
+  --c-ligne: inherit;
+  --c-ligne-forte: inherit;
+  --c-doux: inherit;
+  --c-surface: inherit;
+  --c-accent-doux: inherit;
+  --c-focus: inherit;
+  padding-top: 0;
+}
+.appel-final .appel {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: clamp(2.75rem, 1.5rem + 5vw, 5.5rem) clamp(1.25rem, .5rem + 3vw, 3rem);
+  border-radius: var(--r-grand);
+  text-align: center;
+}
+.appel-final .appel__texte { justify-items: center; }
+.appel-final .chapeau { margin-inline: auto; }
+.appel-final .boutons { justify-content: center; }
+
+/* --- Pages intérieures : bandeau sombre, lueur de laiton ------------------ */
+.tete-page { background: radial-gradient(ellipse at 85% 0%, var(--c-accent2-texte), var(--c-inverse) 62%); }
+.tete-page .surtitre { color: var(--c-sur-inverse2); }
+.tete-page + .section:not(.section--teinte, .section--profonde) { padding-top: var(--e-section); }
+.encadre { border-left-color: var(--c-accent); }

@@ -7,6 +7,7 @@
      portrait.jpg   ·   cabinet.jpg   ·   ambiance.jpg
    (jpg, png ou webp). La photo est automatiquement redimensionnée et
    convertie en AVIF et WebP, avec repli JPEG pour les anciens navigateurs.
+   Variantes (diaporama du style Immersif) : ambiance-2.jpg, ambiance-3.jpg…
    ========================================================================== */
 import { Picture } from 'astro:assets';
 import { illustrations } from '../themes/registre.mjs';
@@ -22,10 +23,13 @@ interface Props {
   prioritaire?: boolean;
   tailles?: string;
   classe?: string;
+  variante?: number;
 }
-const { site, type, alt, legende, prioritaire = false, tailles = '(min-width: 56rem) 40vw, 100vw', classe } = Astro.props;
+const { site, type, alt, legende, prioritaire = false, tailles = '(min-width: 56rem) 40vw, 100vw', classe, variante = 1 } = Astro.props;
 const cab = site.cab;
-const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`));
+const fichier = variante > 1 ? `${type}-${variante}` : type;
+const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${fichier}.`))
+  || (variante > 1 ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`)) : undefined);
 const photo = trouve ? trouve[1].default : null;
 const Illustration = illustrations[site.theme] || IllustrationBase;
 const textes = {
@@ -48,7 +52,7 @@ const textes = {
         fetchpriority={prioritaire ? 'high' : undefined}
       />
     ) : (
-      <Illustration type={type} cab={cab} />
+      <Illustration type={type} cab={cab} variante={variante} />
     )}
   </div>
   {legende && <figcaption class="legende">{legende}</figcaption>}

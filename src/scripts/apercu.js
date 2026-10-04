@@ -2,7 +2,8 @@
    Aperçu des démos (site youXdesign uniquement, jamais sur un site client)
    --------------------------------------------------------------------------
    1. Applique la palette, la police et les options passées dans l'adresse,
-      par exemple /styles/terre/?palette=2&police=1&options=creneaux,carte,
+      par exemple /styles/terre/?palette=2&police=1&options=creneaux,carte
+      (style Immersif : &fond=diaporama&voile=fort),
       ou des couleurs personnalisées (?couleurs=F4F1E8.243028.7C9A7E.DFE6D6.56625A :
       fond, encre, accent, doux, texte secondaire). Ces réglages suivent le
       visiteur d'une page à l'autre.
@@ -14,7 +15,9 @@
 import { deriver } from '../lib/couleurs.mjs';
 
 const racine = document.documentElement;
-const CLES = ['palette', 'police', 'couleurs', 'options'];
+const CLES = ['palette', 'police', 'couleurs', 'options', 'fond', 'voile'];
+const FONDS = ['zoom', 'diaporama', 'parallaxe', 'degrade', 'video'];
+const VOILES = ['leger', 'moyen', 'fort'];
 const HEXA = /^[0-9a-f]{6}$/i;
 const reduire = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -92,7 +95,9 @@ function textes(remplacements) {
 
 /* --- Photos déposées dans le configurateur (adresses blob: locales) ------ */
 function photo(type, url) {
-  document.querySelectorAll(`[data-visuel="${type}"]`).forEach((el) => {
+  /* La photo du cabinet sert aussi d'image d'ambiance (grandes images d'accueil) */
+  const selecteur = type === 'cabinet' ? '[data-visuel="cabinet"], [data-visuel="ambiance"]' : `[data-visuel="${type}"]`;
+  document.querySelectorAll(selecteur).forEach((el) => {
     let img = el.querySelector('img.apercu-photo');
     if (!url) { if (img) img.remove(); el.classList.remove('a-photo'); return; }
     if (!img) {
@@ -110,6 +115,9 @@ function photo(type, url) {
 function appliquer(params) {
   if (params.palette != null) racine.dataset.palette = params.palette;
   if (params.police != null) racine.dataset.police = params.police;
+  /* Style Immersif : animation du fond et voile */
+  if (FONDS.includes(params.fond) && racine.dataset.theme === 'immersif') racine.dataset.fond = params.fond;
+  if (VOILES.includes(params.voile) && racine.dataset.theme === 'immersif') racine.dataset.voile = params.voile;
   /* Couleurs personnalisées : on quitte les teintes propres à une palette */
   if (params.couleurs && couleurs(params.couleurs)) racine.dataset.palette = 'perso';
   else if (params.couleurs === '') effacerCouleurs();
@@ -163,4 +171,7 @@ document.addEventListener('submit', (e) => {
   if (e.target.closest('[data-demo-formulaire]')) e.preventDefault();
 });
 
-window.youxApercu = { appliquer, effacerCouleurs, options, pages, focus, textes, photo };
+/* Retour en haut de page (réglages de l'image d'accueil) */
+function haut() { window.scrollTo({ top: 0, behavior: reduire() ? 'auto' : 'smooth' }); }
+
+window.youxApercu = { appliquer, effacerCouleurs, options, pages, focus, textes, photo, haut };

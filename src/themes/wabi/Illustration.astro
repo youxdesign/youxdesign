@@ -1,0 +1,36 @@
+---
+/* Wabi-sabi : galets, branche et brume, peu de formes et beaucoup de vide,
+   dans les teintes de la palette, en attendant les vraies photos. */
+interface Props { type: 'portrait' | 'cabinet' | 'ambiance'; cab: any; variante?: number }
+const { type } = Astro.props;
+---
+{type === 'portrait' ? (
+  <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="400" height="500" />
+    <circle class="il-surface" cx="250" cy="170" r="74" />
+    <path class="il-tige" d="M60 120c70 20 130 60 170 130M140 160c10-30 30-48 58-56M196 206c26-6 50 0 70 16" />
+    <path class="il-doux2" d="M0 390c80-24 170-26 250-6 60 15 110 14 150 4v112H0z" />
+    <ellipse class="il-encre" cx="150" cy="392" rx="58" ry="24" opacity=".85" />
+    <ellipse class="il-accent" cx="232" cy="402" rx="34" ry="15" />
+    <ellipse class="il-clair" cx="196" cy="368" rx="30" ry="13" />
+  </svg>
+) : type === 'cabinet' ? (
+  <svg viewBox="0 0 600 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="600" height="450" />
+    <rect class="il-surface" x="350" y="60" width="170" height="240" />
+    <path class="il-trait" d="M435 60v240M350 180h170" />
+    <path class="il-doux2" d="M0 330h600v120H0z" />
+    <ellipse class="il-encre" cx="190" cy="330" rx="70" ry="18" opacity=".8" />
+    <path class="il-tige" d="M190 312c-6-60 10-120 52-170M214 200c20-14 44-18 66-12" />
+    <circle class="il-accent" cx="250" cy="150" r="8" />
+  </svg>
+) : (
+  <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <rect class="il-fond" width="600" height="400" />
+    <circle class="il-surface" cx="420" cy="130" r="64" />
+    <path class="il-doux2" d="M0 230c90-40 170-50 260-20s170 30 340-10v200H0z" opacity=".8" />
+    <path class="il-clair" d="M0 290c120-30 230-30 330 0s170 20 270 0v110H0z" opacity=".55" />
+    <ellipse class="il-encre" cx="200" cy="330" rx="74" ry="22" opacity=".85" />
+    <ellipse class="il-accent" cx="300" cy="340" rx="40" ry="14" />
+  </svg>
+)}

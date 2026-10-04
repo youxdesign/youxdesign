@@ -1,0 +1,28 @@
+---
+/* Nocturne : composition centrée, un halo doré qui respire derrière le
+   titre, puis une large image du cabinet, lumière du soir. */
+import BoutonRdv from '../../components/BoutonRdv.astro';
+import Visuel from '../../components/Visuel.astro';
+import { lien, textes } from '../../lib/site.mjs';
+import { enrichi } from '../../lib/texte.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien;
+const t = textes(site, 'accueil');
+---
+<section class="une" aria-labelledby="titre-page">
+  <div class="une__halo" aria-hidden="true"></div>
+  <div class="conteneur une__texte">
+    <p class="surtitre">{t.surtitre || `${p.titre} · ${cab.lieuCourt}`}</p>
+    <h1 id="titre-page" set:html={enrichi(t.titre)} />
+    <p class="chapeau">{t.intro}</p>
+    <div class="boutons">
+      <BoutonRdv cab={cab} />
+      <a class="bouton bouton--secondaire" href={lien(site, 'approche')}>Mon approche</a>
+    </div>
+    <button class="une__pause" type="button" data-pause aria-pressed="false" hidden>Mettre l’animation en pause</button>
+  </div>
+  <div class="conteneur une__visuel">
+    <Visuel site={site} type="cabinet" prioritaire tailles="(min-width: 76rem) 76rem, 100vw" />
+  </div>
+</section>

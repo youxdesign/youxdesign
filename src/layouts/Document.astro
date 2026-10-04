@@ -9,7 +9,7 @@
 import { feuilleSite, prechargements, script } from '../lib/assets.mjs';
 import { adresseComplete } from '../lib/site.mjs';
 import { deriver } from '../lib/couleurs.mjs';
-import { paletteDe } from '../config/catalogue.mjs';
+import { paletteDe, style as trouverStyle } from '../config/catalogue.mjs';
 
 interface Props {
   site: any;
@@ -28,7 +28,9 @@ const css = await feuilleSite(site);
 const polices = prechargements(site);
 const apercu = site.vitrine ? await script('apercu') : null;
 const confort = site.vitrine || cab.a('accessibilite') ? ['confort'] : [];
-const autres = await Promise.all([...new Set([...scripts, ...confort].filter(Boolean))].map((s) => script(s)));
+/* Styles communs : apparitions douces au défilement (Sauge a son propre script) */
+const apparitions = trouverStyle(site.theme).autonome ? [] : ['apparitions'];
+const autres = await Promise.all([...new Set([...apparitions, ...scripts, ...confort].filter(Boolean))].map((s) => script(s)));
 
 const couleurs = deriver(paletteDe(site));
 const canonique = chemin ? adresseComplete(chemin) : null;
@@ -36,7 +38,7 @@ const image = adresseComplete(`/og/${site.cle}.png`);
 const json = (o: object) => JSON.stringify(o).replace(/</g, '\\u003c');
 ---
 <!doctype html>
-<html lang="fr" data-theme={site.theme} data-page={page} data-palette={site.vitrine ? String(site.palette) : undefined} data-police={site.vitrine ? String(site.police) : undefined}>
+<html lang="fr" data-theme={site.theme} data-page={page} data-palette={site.vitrine ? String(site.palette) : undefined} data-police={site.vitrine ? String(site.police) : undefined} data-fond={site.theme === 'immersif' ? cab.site.fond : undefined} data-voile={site.theme === 'immersif' ? cab.site.voile : undefined}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />

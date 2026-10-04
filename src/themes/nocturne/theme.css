@@ -1,0 +1,182 @@
+/* ==========================================================================
+   Style « Nocturne »
+   Une ambiance du soir, calme et enveloppante : fond sombre, lumière dorée
+   qui respire doucement, typographie fine et une bande crème pour respirer.
+   ========================================================================== */
+:root {
+  --r-petit: .5rem;
+  --r: .875rem;
+  --r-grand: 1.5rem;
+  --r-bouton: 999px;
+  --r-visuel: 1.5rem;
+  --lh-titres: 1.12;
+  --ls-titres: -.005em;
+  --ls-surtitre: .24em;
+  --t-h1: clamp(2.5rem, 1.6rem + 3.8vw, 4.75rem);
+  --t-h2: clamp(1.875rem, 1.45rem + 1.9vw, 3rem);
+  --numeros: decimal-leading-zero;
+  --ombre: 0 24px 60px -30px rgb(0 0 0 / .7);
+}
+
+h1, h2, h3 { font-weight: var(--fw-titres); }
+h1 em, h2 em, h3 em, .titre em { color: var(--c-lien); }
+.surtitre { color: var(--c-lien); font-weight: 500; }
+.surtitre__num { color: var(--c-lien); }
+
+/* --- En-tête --------------------------------------------------------------- */
+.entete { background: var(--c-fond); border-bottom-color: var(--c-ligne); }
+.marque__nom { font-size: 1.375rem; }
+.nav a:hover { background: var(--c-doux); }
+.entete__rdv { background: transparent; color: var(--c-encre); border-color: var(--c-ligne-forte); }
+.entete__rdv:hover { background: var(--c-doux); border-color: var(--c-encre); }
+
+/* --- Ouverture : texte centré, halo, grande image -------------------------- */
+.une { position: relative; padding-block: clamp(3.5rem, 2rem + 6vw, 7.5rem) clamp(3rem, 2rem + 4vw, 6rem); overflow-x: clip; isolation: isolate; text-align: center; }
+.une__halo {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: clamp(-6rem, -6vw, -1rem);
+  width: min(110vw, 52rem);
+  aspect-ratio: 1;
+  translate: -50% 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--c-accent) 0, transparent 64%);
+  opacity: .22;
+}
+.une__texte { display: grid; justify-items: center; gap: var(--e-5); }
+.une__texte .surtitre { margin-bottom: 0; }
+.une h1 { max-width: 17ch; font-size: clamp(2.6rem, 1.6rem + 4vw, 4.875rem); }
+.une .chapeau { margin-inline: auto; }
+.une .boutons { justify-content: center; }
+.une__pause {
+  min-height: 2.75rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--c-texte2);
+  font: inherit;
+  font-size: var(--t-mini);
+  text-decoration: underline;
+  text-underline-offset: .3em;
+  cursor: pointer;
+}
+.une__pause[hidden] { display: none; }
+.une__visuel { margin-top: clamp(3rem, 2rem + 4vw, 5rem); }
+.une__visuel .visuel { --ratio: 4 / 3; border-radius: var(--r-grand); box-shadow: var(--ombre); }
+@media (min-width: 48rem) { .une__visuel .visuel { --ratio: 16 / 7; } }
+@media (prefers-reduced-motion: no-preference) {
+  .une__halo { animation: nocturne-halo 7s ease-in-out infinite alternate; }
+  [data-animations='pause'] .une__halo { animation-play-state: paused; }
+}
+@keyframes nocturne-halo {
+  from { transform: scale(.86); opacity: .14; }
+  to { transform: scale(1.06); opacity: .28; }
+}
+
+/* Couleurs des illustrations du soir */
+.no-s-lueur { stop-color: var(--c-accent-doux); }
+.no-s-nuit { stop-color: var(--c-doux); }
+.no-fenetre { fill: var(--c-doux2); }
+.no-lune { fill: var(--c-encre); opacity: .85; }
+.no-colline { fill: var(--c-fond); opacity: .85; }
+.no-sol { fill: var(--c-fond); }
+.no-meuble { fill: none; stroke: var(--c-accent); stroke-opacity: .5; stroke-width: 4; stroke-linecap: round; }
+.no-pied { fill: none; stroke: var(--c-accent); stroke-opacity: .5; stroke-width: 4; stroke-linecap: round; }
+.no-lampe { fill: var(--c-accent); opacity: .55; }
+.no-tapis { fill: var(--c-accent-doux); opacity: .8; }
+
+/* --- Repères --------------------------------------------------------------- */
+.repere { border-top-color: var(--c-ligne-forte); }
+
+/* --- Cartes : sombres, bord fin -------------------------------------------- */
+.carte { background: var(--c-surface); border-color: var(--c-ligne); }
+.carte h3 { font-weight: var(--fw-titres); }
+.motif__num { display: none; }
+
+/* --- Présentation ---------------------------------------------------------- */
+.section--teinte { background: var(--c-fond2); }
+
+/* --- Étapes : bande plus claire, cartes bordées ----------------------------- */
+.section-etapes { background: var(--c-doux); padding-top: var(--e-section); }
+.etape { padding: var(--e-5); border: 1px solid var(--c-ligne-forte); border-radius: var(--r); }
+.etape__num {
+  width: auto;
+  height: auto;
+  place-items: start;
+  background: none;
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--c-lien);
+}
+
+/* --- Respiration : bande crème, sphère de nuit ----------------------------- */
+.section-respiration { --sphere-1: var(--c-doux2); --sphere-2: var(--c-fond); --sphere-3: var(--c-accent); --sphere-texte: var(--c-inverse); }
+
+/* --- Tarifs ---------------------------------------------------------------- */
+.ligne-tarif__nom, .ligne-tarif__prix { font-weight: var(--fw-titres); }
+.infos { border: 1px solid var(--c-ligne); border-radius: var(--r-grand); }
+
+/* --- Plan : version de nuit ------------------------------------------------ */
+.plan__cadre { border-color: var(--c-ligne); border-radius: var(--r-grand); }
+.plan__image { filter: invert(.9) hue-rotate(180deg) saturate(.3) brightness(.95) contrast(.92); }
+
+/* --- Urgence --------------------------------------------------------------- */
+.urgence { border: 1px solid var(--c-ligne-forte); background: var(--c-doux); }
+
+/* --- Appel final : une lueur dorée au ras de l'horizon --------------------- */
+.appel-final {
+  background: radial-gradient(ellipse at 50% 130%, var(--c-accent-doux), var(--c-fond) 68%);
+  color: var(--c-encre);
+  --c-encre: inherit;
+  --c-texte2: inherit;
+  --c-lien: inherit;
+  --c-ligne: inherit;
+  --c-ligne-forte: inherit;
+  --c-doux: inherit;
+  --c-surface: inherit;
+  --c-accent-doux: inherit;
+  --c-focus: inherit;
+  text-align: center;
+}
+.appel-final .appel { grid-template-columns: 1fr; justify-items: center; }
+.appel-final .appel__texte { justify-items: center; }
+.appel-final .chapeau { margin-inline: auto; }
+.appel-final .boutons { justify-content: center; }
+
+/* --- Pied de page : plus sombre encore ------------------------------------- */
+.pied {
+  background: var(--c-profond);
+  color: var(--c-sur-profond);
+  --c-encre: var(--c-sur-profond);
+  --c-texte2: var(--c-sur-profond2);
+  --c-lien: var(--c-sur-profond);
+  --c-ligne: var(--c-ligne-profond);
+  --c-focus: var(--c-sur-profond);
+}
+
+/* --- Pages intérieures : centrées sous une lueur --------------------------- */
+.tete-page { position: relative; overflow-x: clip; isolation: isolate; text-align: center; }
+.tete-page::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: -40%;
+  width: min(100vw, 44rem);
+  aspect-ratio: 1;
+  translate: -50% 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--c-accent) 0, transparent 62%);
+  opacity: .16;
+}
+.tete-page__texte { margin-inline: auto; justify-items: center; }
+.tete-page .chapeau { margin-inline: auto; }
+.tete-page .boutons { justify-content: center; }
+.tete-page--visuel { text-align: left; }
+.tete-page--visuel .tete-page__texte { margin-inline: 0; justify-items: start; }
+.tete-page--visuel .chapeau { margin-inline: 0; }
+.tete-page--visuel .boutons { justify-content: flex-start; }
+.encadre { background: var(--c-doux); }
+.legal .en-bref { background: var(--c-doux); }
+.erreur__code { color: var(--c-accent-doux); }

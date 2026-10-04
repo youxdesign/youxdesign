@@ -1,0 +1,163 @@
+/* ==========================================================================
+   Style « Minimalisme suisse »
+   Grille stricte, typographie grotesque imposante, filets noirs, angles
+   droits et une seule couleur vive, utilisée avec parcimonie.
+   ========================================================================== */
+:root {
+  --r-petit: 0;
+  --r: 0;
+  --r-grand: 0;
+  --r-bouton: 0;
+  --r-visuel: 0;
+  --lh-titres: 1;
+  --ls-titres: -.035em;
+  --ls-surtitre: .16em;
+  --t-h1: clamp(2.75rem, 1.4rem + 5.6vw, 6.5rem);
+  --t-h2: clamp(2rem, 1.35rem + 2.9vw, 3.75rem);
+  --t-h3: clamp(1.125rem, 1.05rem + .35vw, 1.375rem);
+  --ombre: 0 18px 40px -24px rgb(0 0 0 / .35);
+  --entete-h: 4.25rem;
+}
+
+h1 em, h2 em, h3 em, .titre em { font-style: normal; color: var(--c-lien); }
+h3 { letter-spacing: -.015em; }
+.surtitre { font-weight: 500; }
+.surtitre__num { color: var(--c-encre); }
+
+/* --- En-tête -------------------------------------------------------------- */
+.entete { border-bottom-color: var(--c-encre); }
+.marque__nom { font-size: 1.1875rem; letter-spacing: -.025em; }
+.marque__metier { font-size: .75rem; font-weight: 400; letter-spacing: .01em; text-transform: none; }
+.nav a { border-radius: 0; }
+.nav a:hover { background: none; text-decoration: underline; text-underline-offset: .35em; }
+.nav a[aria-current='page'] { color: var(--c-encre); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .35em; }
+.bouton-menu { border-color: var(--c-encre); }
+
+/* --- Boutons : rectangles nets --------------------------------------------- */
+.bouton { border-width: 1px; letter-spacing: -.005em; }
+.bouton--secondaire { border-color: var(--c-encre); }
+.bouton--secondaire:hover { background: var(--c-encre); color: var(--c-fond); }
+.lien-fleche { text-decoration: underline; text-underline-offset: .3em; }
+
+/* --- Ouverture : titre immense, filet, trois colonnes ---------------------- */
+.une { padding-block: clamp(2.25rem, 1rem + 4.5vw, 4.5rem) clamp(1rem, .5rem + 2vw, 2.5rem); }
+.une__titre {
+  font-size: clamp(3rem, 1.25rem + 7.4vw, 8.25rem);
+  line-height: .94;
+  letter-spacing: -.05em;
+  padding-bottom: clamp(1.75rem, 1rem + 2.5vw, 3.25rem);
+  border-bottom: 1px solid var(--c-encre);
+}
+/* Le point final, signature du style : une pastille de couleur */
+.une__titre::after {
+  content: '';
+  display: inline-block;
+  width: .15em;
+  height: .15em;
+  margin-left: .05em;
+  border-radius: 50%;
+  background: var(--c-accent);
+}
+.une__grille { display: grid; gap: 2rem 1.5rem; margin-top: clamp(1.5rem, 1rem + 1.6vw, 2.5rem); }
+.une__texte { display: grid; gap: var(--e-5); align-content: start; order: -1; }
+.une__texte .chapeau { color: var(--c-encre); }
+.une__reperes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 1.5rem; align-content: start; font-size: var(--t-petit); line-height: 1.45; }
+.une__reperes dt { margin-bottom: .2rem; font-size: .6875rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--c-texte2); }
+.une__detail { display: block; color: var(--c-texte2); }
+.une__visuel .visuel { --ratio: 4 / 5; }
+@media (min-width: 56rem) {
+  .une__grille { grid-template-columns: 3fr 5fr 4fr; gap: 2.5rem; }
+  .une__texte { order: 0; }
+  .une__reperes { grid-template-columns: 1fr; }
+}
+
+/* --- Titres de section : filet, puis titre et introduction côte à côte ---- */
+.titre-section { max-width: none; padding-top: var(--e-4); border-top: 1px solid var(--c-encre); }
+@media (min-width: 56rem) {
+  .conteneur:not(.respiration) > .titre-section {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    column-gap: var(--e-7);
+    align-items: end;
+  }
+  .conteneur:not(.respiration) > .titre-section > .surtitre { grid-column: 1 / -1; }
+  .conteneur:not(.respiration) > .titre-section > :is(h2, h3) { grid-column: 1; }
+  .conteneur:not(.respiration) > .titre-section > :not(.surtitre, h2, h3) { grid-column: 2; }
+}
+
+/* --- Cartes : de simples colonnes sous un filet ---------------------------- */
+.cartes, .motifs { --grille-min: 14rem; gap: 2.5rem 1.5rem; }
+.carte { gap: var(--e-2); padding: var(--e-4) 0 0; border: 0; border-top: 1px solid var(--c-encre); border-radius: 0; background: none; }
+.motif__num { color: var(--c-texte2); font-weight: 500; }
+
+/* --- Étapes : grands chiffres de couleur ----------------------------------- */
+.etapes { gap: 2.5rem 1.5rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
+.etape { padding-top: var(--e-4); border-top: 1px solid var(--c-encre); }
+.etape__num {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-bottom: var(--e-2);
+  border-radius: 0;
+  background: none;
+  color: var(--c-accent);
+  font-size: clamp(3.75rem, 2.75rem + 3.5vw, 6rem);
+  font-weight: 500;
+  line-height: .9;
+  letter-spacing: -.05em;
+}
+
+/* --- Respiration : noir et sphère de couleur ------------------------------- */
+.section-respiration { --sphere-1: var(--c-clair); --sphere-2: var(--c-accent); --sphere-3: var(--c-accent2-texte); }
+.section--profonde .surtitre, .section--profonde .surtitre__num { color: var(--c-lien); }
+
+/* --- Tarifs et carte d'informations noire ---------------------------------- */
+.lignes-tarifs { border-top-color: var(--c-encre); }
+.ligne-tarif__nom, .ligne-tarif__prix { font-weight: 500; }
+.infos {
+  background: var(--c-inverse);
+  color: var(--c-sur-inverse);
+  --c-encre: var(--c-sur-inverse);
+  --c-texte2: var(--c-sur-inverse2);
+  --c-ligne-forte: var(--c-sur-inverse2);
+  --c-focus: var(--c-sur-inverse);
+}
+
+/* --- Plan : noir et blanc -------------------------------------------------- */
+.plan__cadre { border: 0; }
+.plan__image { filter: grayscale(1) contrast(1.05); }
+
+/* --- Questions fréquentes -------------------------------------------------- */
+.question, .question:first-of-type { border-color: var(--c-encre); }
+.question summary { font-weight: 500; font-size: clamp(1.0625rem, 1rem + .3vw, 1.25rem); }
+.question summary::after { color: var(--c-encre); }
+
+/* --- Urgence --------------------------------------------------------------- */
+.urgence { border-left: 4px solid var(--c-accent); background: var(--c-doux); }
+
+/* --- Appel final : un aplat de couleur vive -------------------------------- */
+.appel-final {
+  background: var(--c-bouton);
+  color: var(--c-sur-bouton);
+  --c-encre: var(--c-sur-bouton);
+  --c-texte2: var(--c-sur-bouton);
+  --c-lien: var(--c-sur-bouton);
+  --c-ligne: var(--c-sur-bouton);
+  --c-focus: var(--c-sur-bouton);
+}
+.appel-final h2 { font-size: clamp(2.5rem, 1.3rem + 5vw, 6rem); line-height: .95; letter-spacing: -.045em; }
+.appel-final .bouton { background: var(--c-sur-bouton); color: var(--c-bouton); }
+.appel-final .bouton:hover { background: var(--c-sur-bouton); color: var(--c-bouton); text-decoration: underline; }
+.appel-final .bouton--secondaire { background: transparent; color: var(--c-sur-bouton); border-color: var(--c-sur-bouton); }
+.appel-final .bouton--secondaire:hover { background: var(--c-sur-bouton); color: var(--c-bouton); }
+
+/* --- Pages intérieures ----------------------------------------------------- */
+.tete-page { border-bottom: 1px solid var(--c-encre); }
+.tete-page h1 { font-size: clamp(2.6rem, 1.2rem + 6vw, 6.5rem); line-height: .96; letter-spacing: -.045em; }
+.tete-page__texte { max-width: none; }
+.tete-page .chapeau { max-width: 42rem; }
+.encadre { border-radius: 0; }
+.faq__sommaire a { border-radius: 0; }
+.legal .en-bref { border-left: 4px solid var(--c-accent); }
+
+/* --- Pied de page ---------------------------------------------------------- */
+.pied__nom { font-size: clamp(1.75rem, 1.4rem + 1.5vw, 2.5rem); letter-spacing: -.035em; }

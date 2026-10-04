@@ -1,0 +1,215 @@
+/* ==========================================================================
+   Style « Pastel doux »
+   Des tons tendres, des formes arrondies, une typographie ronde et
+   généreuse : un site qui met à l'aise dès le premier regard.
+   ========================================================================== */
+:root {
+  --r-petit: .875rem;
+  --r: 1.375rem;
+  --r-grand: 2rem;
+  --r-bouton: 999px;
+  --r-visuel: 2rem;
+  --lh-titres: 1.08;
+  --ls-titres: -.018em;
+  --t-h1: clamp(2.5rem, 1.6rem + 3.6vw, 4.5rem);
+  --t-h2: clamp(1.875rem, 1.45rem + 1.9vw, 3rem);
+  --ombre: 0 2px 6px rgb(58 42 42 / .05), 0 22px 44px -26px rgb(58 42 42 / .3);
+}
+
+h1 em, h2 em, h3 em, .titre em { font-style: normal; color: var(--c-lien); }
+.surtitre { letter-spacing: .1em; color: var(--c-lien); }
+.il-texte { fill: var(--c-encre); }
+.respiration__consigne { font-style: normal; font-weight: 700; }
+
+/* --- En-tête : nom dans une pastille blanche ------------------------------- */
+.entete { border-bottom-color: transparent; }
+.marque { margin-block: .35rem; padding: .3rem 1.1rem .3rem .3rem; border-radius: 999px; background: var(--c-surface); box-shadow: var(--ombre); }
+.marque__nom { font-size: 1.0625rem; letter-spacing: -.01em; }
+.marque__metier { font-size: .6875rem; letter-spacing: .08em; }
+.marque__avatar { width: 2.5rem; height: 2.5rem; }
+.marque--avatar .marque__metier { display: none; }
+.marque--avatar .marque__avatar { grid-row: auto; }
+.nav a { border-radius: 999px; font-weight: 600; }
+.nav a:hover { background: var(--c-surface); }
+
+/* --- Boutons --------------------------------------------------------------- */
+.bouton { font-weight: 700; }
+.bouton--secondaire { border-color: transparent; background: var(--c-surface); }
+.bouton--doux { background: var(--c-doux); color: var(--c-encre); }
+.bouton--doux:hover { background: var(--c-doux2); }
+
+/* --- Ouverture ------------------------------------------------------------- */
+.une { padding-block: clamp(2rem, 1rem + 4vw, 5rem) clamp(3rem, 2rem + 4vw, 6rem); overflow-x: clip; }
+.une__grille { display: grid; gap: clamp(3rem, 2rem + 4vw, 5rem); align-items: center; }
+.une__texte { display: grid; gap: var(--e-5); justify-items: start; }
+.une__bonjour {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  padding: .3rem 1rem .3rem .3rem;
+  border-radius: 999px;
+  background: var(--c-surface);
+  box-shadow: var(--ombre);
+  font-size: var(--t-petit);
+  font-weight: 700;
+}
+.une__pastille {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--c-bouton);
+  color: var(--c-sur-bouton);
+  font-size: .75rem;
+  font-weight: 800;
+}
+.une__visuel { position: relative; width: min(100%, 30rem); justify-self: center; }
+.une__forme .visuel { --ratio: 1; border-radius: 58% 42% 50% 50% / 50% 46% 54% 50%; background: var(--c-doux); }
+.une__bulle {
+  position: absolute;
+  top: 2%;
+  right: 4%;
+  width: 18%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--c-accent);
+  opacity: .9;
+}
+.une__carte {
+  position: absolute;
+  left: -2%;
+  bottom: 6%;
+  display: grid;
+  gap: .15rem;
+  padding: .85rem 1.15rem;
+  border-radius: var(--r);
+  background: var(--c-surface);
+  box-shadow: var(--ombre);
+  font-size: var(--t-petit);
+  line-height: 1.35;
+}
+.une__carte span { color: var(--c-texte2); font-size: var(--t-mini); }
+@media (min-width: 56rem) {
+  .une__grille { grid-template-columns: 6fr 5fr; }
+  .une__visuel { justify-self: end; }
+  .une__carte { left: -10%; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .une__forme .visuel { animation: pastel-forme 4.5s ease-in-out both; }
+  .une__bulle { animation: pastel-bulle 1.2s var(--courbe) .3s both; }
+  .une__carte { animation: pastel-carte 900ms var(--courbe) .6s both; }
+}
+@keyframes pastel-forme { from { border-radius: 50%; } }
+@keyframes pastel-bulle { from { transform: scale(0); } }
+@keyframes pastel-carte { from { opacity: 0; transform: translateY(1rem); } }
+
+/* --- Repères : pastilles blanches ------------------------------------------ */
+.repere { padding: var(--e-4) var(--e-5); border: 0; border-radius: var(--r); background: var(--c-surface); box-shadow: var(--ombre); }
+
+/* --- Cartes : blanches, ombre légère --------------------------------------- */
+.carte { border: 0; background: var(--c-surface); box-shadow: var(--ombre); }
+.carte h3 { font-weight: 800; }
+.motif__num { display: none; }
+
+/* --- Présentation ---------------------------------------------------------- */
+.section-presentation .visuel { border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%; }
+
+/* --- Étapes : bande pêche, cartes blanches --------------------------------- */
+.section-etapes { background: var(--c-doux); padding-top: var(--e-section); }
+.etape { padding: var(--e-5); border-radius: var(--r); background: var(--c-surface); }
+.etape__num {
+  width: auto;
+  height: auto;
+  place-items: start;
+  background: none;
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--c-lien);
+}
+
+/* --- Respiration : brun doux, sphère corail -------------------------------- */
+.section-respiration { --sphere-1: var(--c-clair); --sphere-2: var(--c-accent); --sphere-3: var(--c-lien); }
+.section-respiration .surtitre { color: var(--c-lien); }
+
+/* --- Tarifs et carte pêche ------------------------------------------------- */
+.ligne-tarif__nom, .ligne-tarif__prix { font-weight: 800; }
+.infos { background: var(--c-doux); border-radius: var(--r-grand); }
+
+/* --- Plan ------------------------------------------------------------------ */
+.plan__cadre { border: 0; border-radius: var(--r-grand); }
+.plan__image { filter: saturate(.35) sepia(.15) brightness(1.04); }
+
+/* --- Questions ------------------------------------------------------------- */
+.question summary { font-weight: 700; }
+
+/* --- Urgence --------------------------------------------------------------- */
+.urgence { border-radius: var(--r); }
+
+/* --- Appel final : un bloc corail tout rond -------------------------------- */
+.appel-final {
+  background: none;
+  color: var(--c-encre);
+  --c-encre: inherit;
+  --c-texte2: inherit;
+  --c-lien: inherit;
+  --c-ligne: inherit;
+  --c-ligne-forte: inherit;
+  --c-doux: inherit;
+  --c-surface: inherit;
+  --c-accent-doux: inherit;
+  --c-focus: inherit;
+  padding-top: 0;
+}
+.appel-final .appel {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: clamp(2.75rem, 1.5rem + 5vw, 5rem) clamp(1.25rem, .5rem + 3vw, 3rem);
+  border-radius: var(--r-grand);
+  background: var(--c-bouton);
+  color: var(--c-sur-bouton);
+  text-align: center;
+  --c-encre: var(--c-sur-bouton);
+  --c-texte2: var(--c-sur-bouton);
+  --c-focus: var(--c-sur-bouton);
+}
+.appel-final .appel__texte { justify-items: center; }
+.appel-final .chapeau { margin-inline: auto; }
+.appel-final .boutons { justify-content: center; }
+.appel-final .bouton { background: var(--c-sur-bouton); color: var(--c-bouton); }
+.appel-final .bouton:hover { background: var(--c-sur-bouton); color: var(--c-bouton); text-decoration: underline; }
+.appel-final .bouton--secondaire { background: transparent; color: var(--c-sur-bouton); border-color: var(--c-sur-bouton); }
+
+/* --- Pages intérieures : bulles en décor ----------------------------------- */
+.tete-page { position: relative; overflow: clip; isolation: isolate; }
+.tete-page:not(.tete-page--visuel, .tete-page--legal)::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: max(-8rem, -10vw);
+  top: -20%;
+  width: clamp(12rem, 8rem + 20vw, 26rem);
+  aspect-ratio: 1;
+  border-radius: 58% 42% 50% 50% / 50% 46% 54% 50%;
+  background: var(--c-doux);
+}
+.tete-page:not(.tete-page--visuel, .tete-page--legal)::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: clamp(8rem, 5rem + 16vw, 22rem);
+  bottom: 18%;
+  width: clamp(2.5rem, 2rem + 2vw, 4rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--c-accent);
+  opacity: .8;
+}
+@media (max-width: 47.99rem) {
+  .tete-page::before, .tete-page::after { opacity: .45; }
+}
+.tete-page--visuel .visuel { border-radius: 46% 54% 42% 58% / 52% 44% 56% 48%; }
+.encadre { border-left: 0; border-radius: var(--r); background: var(--c-surface); box-shadow: var(--ombre); }
+.faq__sommaire a { border-color: transparent; background: var(--c-surface); box-shadow: var(--ombre); }
+.urgence, .legal .en-bref { border-radius: var(--r); }

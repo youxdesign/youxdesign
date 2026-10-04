@@ -1,0 +1,30 @@
+---
+/* Terre & organique : grand titre à empattements, photo dans une arche,
+   une arche plus grande en écho et un soleil terracotta. */
+import BoutonRdv from '../../components/BoutonRdv.astro';
+import Visuel from '../../components/Visuel.astro';
+import { lien, textes } from '../../lib/site.mjs';
+import { enrichi } from '../../lib/texte.mjs';
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, p = cab.praticien;
+const t = textes(site, 'accueil');
+---
+<section class="une" aria-labelledby="titre-page">
+  <div class="conteneur une__grille">
+    <div class="une__texte">
+      <p class="surtitre">{t.surtitre || `${p.titre} · ${cab.lieuCourt}`}</p>
+      <h1 id="titre-page" set:html={enrichi(t.titre)} />
+      <p class="chapeau">{t.intro}</p>
+      <div class="boutons">
+        <BoutonRdv cab={cab} />
+        <a class="bouton bouton--secondaire" href={lien(site, 'a-propos')}>Faire connaissance</a>
+      </div>
+    </div>
+    <div class="une__visuel">
+      <span class="une__echo" aria-hidden="true"></span>
+      <Visuel site={site} type="cabinet" prioritaire classe="une__arche" tailles="(min-width: 56rem) 38vw, 90vw" />
+      <span class="une__soleil" aria-hidden="true"></span>
+    </div>
+  </div>
+</section>

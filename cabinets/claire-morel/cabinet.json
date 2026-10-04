@@ -115,7 +115,24 @@
       "respirationTitre": "Respirer, *avant toute chose*",
       "respirationTexte": "Suivez le cercle : inspirez quand il s’ouvre, expirez quand il se referme. C’est l’un des premiers outils que l’on apprend en séance, à utiliser partout.",
       "finTitre": "Et si vous faisiez *le premier pas ?*",
-      "finTexte": "La prise de rendez-vous se fait en ligne, en quelques clics. Une question avant de réserver ? Je vous réponds volontiers."
+      "finTexte": "La prise de rendez-vous se fait en ligne, en quelques clics. Une question avant de réserver ? Je vous réponds volontiers.",
+      "questionsAccueil": [
+        "Les séances sont-elles remboursées ?",
+        "Combien de séances faut-il prévoir ?",
+        "Les séances en visio sont-elles aussi efficaces ?",
+        "Ce que je dis reste-t-il confidentiel ?"
+      ],
+      "_variantes": "Démonstrations : titres propres à chaque style (le site d'un cabinet n'en a pas besoin).",
+      "variantes": {
+        "terre": { "surtitre": "Cabinet à Lille & visio", "titre": "Un lieu chaleureux\npour déposer\nce qui pèse", "finTitre": "Prenons le temps\n*d’en parler*" },
+        "sante": { "titre": "Un soutien psychologique bienveillant, *à Lille ou en visio*", "finTitre": "Réservez votre première séance" },
+        "wabi": { "titre": "Prendre le temps\nde comprendre,\npuis d’avancer.", "finTitre": "Quand le moment sera venu,\nil suffit d’un premier pas." },
+        "suisse": { "titre": "Aller mieux,\npas à pas", "finTitre": "Prendre\nrendez-vous" },
+        "immersif": { "titre": "Retrouver de la clarté,\npas à pas", "finTitre": "Faire le premier pas" },
+        "editorial": { "titre": "Parler, comprendre,\nse sentir mieux", "finTitre": "Prendre rendez-vous" },
+        "pastel": { "surtitre": "Bonjour, je suis Claire", "titre": "Un espace doux\npour aller mieux", "finTitre": "Parlons-en" },
+        "nocturne": { "titre": "Un espace calme pour déposer ce qui pèse", "finTitre": "Un premier pas,\n*en douceur*" }
+      }
     },
 
     "a-propos": {

@@ -626,6 +626,387 @@
       "lineGapOverride": "0%"
     }
   },
+  "bodoni-moda": {
+    "famille": "Bodoni Moda",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/bodoni-moda-400.woff2"
+      },
+      {
+        "poids": 400,
+        "style": "italic",
+        "url": "/fonts/bodoni-moda-400-italique.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "114.22%",
+      "ascentOverride": "98.5%",
+      "descentOverride": "35.02%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "marcellus": {
+    "famille": "Marcellus",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/marcellus-400.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "112.5%",
+      "ascentOverride": "86.59%",
+      "descentOverride": "24.87%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "italiana": {
+    "famille": "Italiana",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/italiana-400.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "106.58%",
+      "ascentOverride": "87.07%",
+      "descentOverride": "23.46%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "gilda-display": {
+    "famille": "Gilda Display",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/gilda-display-400.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "111.02%",
+      "ascentOverride": "80.35%",
+      "descentOverride": "25.67%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "jost": {
+    "famille": "Jost",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/jost-400.woff2"
+      },
+      {
+        "poids": 500,
+        "style": "normal",
+        "url": "/fonts/jost-500.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/jost-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "96.01%",
+      "ascentOverride": "111.45%",
+      "descentOverride": "39.06%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "newsreader": {
+    "famille": "Newsreader",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/newsreader-400.woff2"
+      },
+      {
+        "poids": 400,
+        "style": "italic",
+        "url": "/fonts/newsreader-400-italique.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "105.48%",
+      "ascentOverride": "69.68%",
+      "descentOverride": "25.12%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "libre-caslon-text": {
+    "famille": "Libre Caslon Text",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/libre-caslon-text-400.woff2"
+      },
+      {
+        "poids": 400,
+        "style": "italic",
+        "url": "/fonts/libre-caslon-text-400-italique.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "117.66%",
+      "ascentOverride": "82.44%",
+      "descentOverride": "22.1%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "hanken-grotesk": {
+    "famille": "Hanken Grotesk",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/hanken-grotesk-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/hanken-grotesk-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "100.94%",
+      "ascentOverride": "99.07%",
+      "descentOverride": "30.02%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "nunito": {
+    "famille": "Nunito",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/nunito-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/nunito-600.woff2"
+      },
+      {
+        "poids": 800,
+        "style": "normal",
+        "url": "/fonts/nunito-800.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "101.39%",
+      "ascentOverride": "99.71%",
+      "descentOverride": "34.82%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "quicksand": {
+    "famille": "Quicksand",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/quicksand-600.woff2"
+      },
+      {
+        "poids": 700,
+        "style": "normal",
+        "url": "/fonts/quicksand-700.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "107.9%",
+      "ascentOverride": "92.68%",
+      "descentOverride": "23.17%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "varela-round": {
+    "famille": "Varela Round",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/varela-round-400.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "107.22%",
+      "ascentOverride": "85.62%",
+      "descentOverride": "26.67%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "fredoka": {
+    "famille": "Fredoka",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 500,
+        "style": "normal",
+        "url": "/fonts/fredoka-500.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/fredoka-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "102.06%",
+      "ascentOverride": "95.43%",
+      "descentOverride": "23.12%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "comfortaa": {
+    "famille": "Comfortaa",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/comfortaa-600.woff2"
+      },
+      {
+        "poids": 700,
+        "style": "normal",
+        "url": "/fonts/comfortaa-700.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "118.21%",
+      "ascentOverride": "74.53%",
+      "descentOverride": "19.79%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "spectral": {
+    "famille": "Spectral",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 300,
+        "style": "normal",
+        "url": "/fonts/spectral-300.woff2"
+      },
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/spectral-400.woff2"
+      },
+      {
+        "poids": 300,
+        "style": "italic",
+        "url": "/fonts/spectral-300-italique.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "107.82%",
+      "ascentOverride": "98.22%",
+      "descentOverride": "42.94%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "tenor-sans": {
+    "famille": "Tenor Sans",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/tenor-sans-400.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "109.24%",
+      "ascentOverride": "84.22%",
+      "descentOverride": "22.89%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "libre-bodoni": {
+    "famille": "Libre Bodoni",
+    "type": "serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/libre-bodoni-400.woff2"
+      },
+      {
+        "poids": 500,
+        "style": "normal",
+        "url": "/fonts/libre-bodoni-500.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Times New Roman",
+      "sizeAdjust": "110.77%",
+      "ascentOverride": "83.42%",
+      "descentOverride": "29.43%",
+      "lineGapOverride": "0%"
+    }
+  },
+  "karla": {
+    "famille": "Karla",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": 400,
+        "style": "normal",
+        "url": "/fonts/karla-400.woff2"
+      },
+      {
+        "poids": 600,
+        "style": "normal",
+        "url": "/fonts/karla-600.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "102.4%",
+      "ascentOverride": "89.55%",
+      "descentOverride": "24.61%",
+      "lineGapOverride": "0%"
+    }
+  },
   "fraunces": {
     "famille": "Fraunces",
     "type": "serif",
