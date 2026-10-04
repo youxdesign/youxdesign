@@ -41,7 +41,8 @@ const reperes = [
   cab.rdv ? { titre: 'Rendez-vous en ligne', texte: `Réservation à toute heure sur ${cab.rdv.plateforme}` } : { titre: 'Rendez-vous par téléphone', texte: cab.tel.affiche }
 ].filter(Boolean);
 
-/* Infos pratiques : horaires, adresse, visio, prochains créneaux */
+/* Infos pratiques : horaires, adresse, visio, prochains créneaux (exemples,
+   montrés seulement dans les démos : voir options/Creneaux.astro) */
 const horaires = cab.horaires.groupes.filter((g) => !g.ferme);
 const acces = c.acces?.[0];
 const prochain = creneaux(cab, 1, 4)[0];
@@ -159,7 +160,7 @@ const questions = (choisies.length ? choisies : toutes).slice(0, 4);
               <dd>Séances en visio, sur une plateforme sécurisée</dd>
             </div>
           )}
-          {bloc('creneaux').rendre && prochain && (
+          {site.vitrine && bloc('creneaux').rendre && prochain && (
             <div class="infos__creneaux" data-option="creneaux" hidden={bloc('creneaux').cache}>
               <dt>Prochains créneaux · {prochain.libelle}</dt>
               <dd>

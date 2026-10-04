@@ -1,5 +1,7 @@
 ---
-/* Module de créneaux : prochains horaires libres, qui renvoient vers la réservation */
+/* Module de créneaux : prochains horaires libres, qui renvoient vers la réservation.
+   Les horaires affichés sont des exemples : le bloc n'existe que dans les
+   démos. Sur le site d'un cabinet, il faudra le brancher sur le vrai agenda. */
 import Bloc from './Bloc.astro';
 import { creneaux, heure } from '../../lib/creneaux.mjs';
 interface Props { site: any }
@@ -9,7 +11,7 @@ const url = cab.rdv?.url || cab.tel.lien;
 const plateforme = cab.rdv?.plateforme || 'téléphone';
 const jours = creneaux(cab);
 ---
-<Bloc site={site} id="creneaux" titre="Prochains créneaux">
+{site.vitrine && <Bloc site={site} id="creneaux" titre="Prochains créneaux">
   <div class="opt-conteneur">
     <div class="opt-carte opt-creneaux">
       <div class="opt-tete">
@@ -30,4 +32,4 @@ const jours = creneaux(cab);
       {site.vitrine && <p class="opt-note">Exemple : sur votre site, les créneaux s’affichent en direct depuis votre agenda.</p>}
     </div>
   </div>
-</Bloc>
+</Bloc>}

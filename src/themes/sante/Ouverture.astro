@@ -42,7 +42,7 @@ const puces = ['Au cabinet', c.visio && 'En visio', p.public, p.specialiteCourte
         <h2 id="resa-titre">Prendre rendez-vous</h2>
         <p>{tarif.duree} · {tarif.prix}</p>
       </div>
-      {option.rendre && jours.length > 0 && (
+      {site.vitrine && option.rendre && jours.length > 0 && (
         <div class="une__creneaux" data-option="creneaux" hidden={option.cache}>
           <ul class="une__jours" aria-label="Prochains jours de consultation">
             {jours.map((j, i) => <li class:list={{ 'est-choisi': i === 0 }}><span>{j.jour}</span><strong>{j.date}</strong></li>)}

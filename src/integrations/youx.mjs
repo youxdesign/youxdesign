@@ -24,7 +24,7 @@ async function placer404(dossier) {
   }
 }
 
-function enTetes({ vitrine, carte }) {
+function enTetes({ vitrine, carte, formulaires = [] }) {
   const csp = [
     "default-src 'self'",
     "script-src 'self'",
@@ -34,7 +34,7 @@ function enTetes({ vitrine, carte }) {
     "connect-src 'self'",
     carte ? "frame-src 'self' https://www.openstreetmap.org" : "frame-src 'self'",
     vitrine ? "frame-ancestors 'self'" : "frame-ancestors 'none'",
-    "form-action 'self'",
+    ["form-action 'self'", ...formulaires].join(' '),
     "base-uri 'self'",
     "object-src 'none'",
     'upgrade-insecure-requests'
@@ -82,7 +82,7 @@ const REDIRECTIONS_VITRINE = `# Anciennes adresses -> nouvelles pages
 /demo/confidentialite.html       /demo/confidentialite/       301
 `;
 
-export default function youx({ mode, carte }) {
+export default function youx({ mode, carte, formulaires = [] }) {
   return {
     name: 'youx-finitions',
     hooks: {
@@ -90,11 +90,15 @@ export default function youx({ mode, carte }) {
         const dist = fileURLToPath(dir);
         const vitrine = mode === 'vitrine';
         await placer404(dist);
-        await writeFile(join(dist, '_headers'), enTetes({ vitrine, carte }));
+        await writeFile(join(dist, '_headers'), enTetes({ vitrine, carte, formulaires }));
         if (vitrine) {
           await writeFile(join(dist, '_redirects'), REDIRECTIONS_VITRINE);
           const statique = join(process.cwd(), 'youx-statique');
           if (await stat(statique).catch(() => null)) await cp(statique, dist, { recursive: true });
+        } else {
+          /* Site d'un cabinet : fichiers à télécharger (option « ressources ») */
+          const fichiers = join(process.cwd(), 'cabinets', process.env.CABINET || '', 'fichiers');
+          if (await stat(fichiers).catch(() => null)) await cp(fichiers, join(dist, 'fichiers'), { recursive: true });
         }
         logger.info(`Finitions : pages 404, _headers${vitrine ? ', _redirects et fichiers youXdesign' : ''}.`);
       }

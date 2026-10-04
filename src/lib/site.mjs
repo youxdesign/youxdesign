@@ -67,7 +67,7 @@ export const adresseComplete = (chemin) => domaine() + chemin;
    "variantes": { "suisse": { "titre": "…" } } dans la fiche (démos). */
 export function textes(site, pageId) {
   const t = site.cab.pages[pageId] || {};
-  return { ...t, ...(t.variantes?.[site.theme] || {}) };
+  return site.vitrine ? { ...t, ...(t.variantes?.[site.theme] || {}) } : t;
 }
 
 /* Toutes les routes générées par src/pages/[...chemin].astro */
