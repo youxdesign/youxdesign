@@ -7,7 +7,8 @@
     "build": "astro build",
     "apercu": "node scripts/serveur.mjs",
     "client": "node scripts/client.mjs",
-    "carte": "node scripts/carte.mjs"
+    "carte": "node scripts/carte.mjs",
+    "email": "node scripts/email.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5",
