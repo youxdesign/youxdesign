@@ -19,7 +19,7 @@ II. Le cadre de notre métier
 Mentions légales et page de confidentialité rédigées pour votre cabinet, numéro ADELI ou RPPS affiché, encart d’urgence avec le 15 et le 3114. Ni témoignages, ni promesse de résultat.
 
 III. Respectueux de vos patients
-Aucun cookie, aucun traceur publicitaire, aucune bannière à accepter. La carte interactive ne se charge que si le visiteur le demande.
+Votre site ne recueille aucune donnée de santé. Aucun cookie, aucun traceur publicitaire, aucune bannière à accepter. La carte interactive ne se charge que si le visiteur le demande.
 
 IV. Moins d’appels, plus de temps clinique
 Tarifs, horaires, accès, remboursement et déroulé des séances sont clairs avant le premier contact, avec un lien direct vers Doctolib ou votre outil de réservation. En option : créneaux visibles, plan d’accès, exercice de respiration guidé, questions fréquentes.
@@ -33,7 +33,7 @@ COMMENT ÇA SE PASSE
 
 
 TARIF DE LANCEMENT : 199 € au lieu de 299 €, réservé aux 10 premiers cabinets
-puis 5 € par mois pour l’hébergement et les modifications mineures
+puis 10 € par mois pour l’hébergement et les modifications mineures
 
 - Design sur mesure et rédaction de vos pages
 - Référencement local et fiche Google optimisée

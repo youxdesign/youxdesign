@@ -22,7 +22,7 @@ III. Des informations que Google comprend
 Adresse, horaires, spécialités et questions fréquentes décrits en « données structurées », cohérents avec votre fiche Google, que je vous aide à mettre à jour.
 
 IV. Ce que votre site a déjà acquis est préservé
-Votre adresse reste la même et les anciennes adresses de vos pages sont redirigées vers les nouvelles. Site sécurisé (HTTPS), sans cookie ni bannière.
+Votre adresse reste la même et les anciennes adresses de vos pages sont redirigées vers les nouvelles. Site sécurisé (HTTPS), sans cookie ni bannière, et qui ne recueille aucune donnée de santé.
 
 Et pour vos patients : tarifs, horaires, accès et remboursement clairs avant le premier appel, lien direct vers Doctolib, encart d’urgence avec le 15 et le 3114, ni témoignages ni promesse de résultat.
 
@@ -35,7 +35,7 @@ COMMENT ÇA SE PASSE
 
 
 TARIF DE LANCEMENT : 199 € au lieu de 299 €, réservé aux 10 premiers cabinets
-puis 5 € par mois pour l’hébergement et les modifications mineures
+puis 10 € par mois pour l’hébergement et les modifications mineures
 
 - Design sur mesure et rédaction de vos pages
 - Référencement local et mise à jour de votre fiche Google
