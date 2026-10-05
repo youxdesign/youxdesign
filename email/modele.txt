@@ -1,4 +1,4 @@
-Bonjour {{civilite}} {{nom}},
+Bonjour {{prenom}},
 
 {{detail_personnalisation}} Je suis Younes, psychologue. Je connais les questions que se posent nos patients avant d’appeler, les règles de notre code de déontologie et le temps que prennent les appels pour un simple renseignement.
 

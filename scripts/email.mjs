@@ -10,13 +10,16 @@
      email/email-prospection.txt    version texte, à joindre au même envoi
      email/apercu-exemple.html      exemple rempli, pour relire le rendu
 
+   Deux e-mails : email-prospection (création d'un site) et email-refonte
+   (refonte d'un site existant, l'adresse du praticien est conservée).
    Variables à remplir par l'outil d'envoi (publipostage), une par prospect :
-     {{civilite}}                 Madame, Monsieur, Docteur…
-     {{nom}}                      nom de famille
+     {{prenom}}                   prénom
      {{detail_personnalisation}}  une phrase complète sur le cabinet du
                                   prospect (peut rester vide)
      {{source}}                   où l'adresse a été trouvée, par exemple
-                                  « votre page professionnelle sur Google »
+                                  « votre site psyroubaix.fr »
+     {{site_actuel}}              (e-mail « refonte » seulement) l'adresse
+                                  actuelle de son site, par exemple psyroubaix.fr
 
    Vérifications : poids de l'e-mail (moins de 100 Ko, sinon Gmail le coupe),
    aucune adresse oubliée, images bien présentes dans le site.
@@ -33,45 +36,46 @@ const remplacer = (texte) => texte
   .replaceAll('%DOMAINE%', domaine)
   .replaceAll('%EMAIL%', EMAIL);
 
-const html = remplacer(readFileSync(join(dossier, 'modele.html'), 'utf8'));
-const texte = remplacer(readFileSync(join(dossier, 'modele.txt'), 'utf8'));
-writeFileSync(join(dossier, 'email-prospection.html'), html);
-writeFileSync(join(dossier, 'email-prospection.txt'), texte);
-
-/* Exemple rempli, pour relire */
+/* Deux e-mails : création d'un site, et refonte d'un site existant (adresse conservée) */
+const MODELES = [
+  { modele: 'modele', sortie: 'email-prospection', exemple: 'apercu-exemple', variables: ['prenom', 'detail_personnalisation', 'source'] },
+  { modele: 'modele-refonte', sortie: 'email-refonte', exemple: 'apercu-exemple-refonte', variables: ['prenom', 'detail_personnalisation', 'source', 'site_actuel'] }
+];
 const EXEMPLE = {
-  civilite: 'Madame',
-  nom: 'Durand',
+  prenom: 'Julie',
   detail_personnalisation: 'J’ai découvert votre cabinet de Roubaix en cherchant une psychologue qui reçoit les adolescents.',
-  source: 'votre page professionnelle sur Google'
+  source: 'votre page professionnelle sur Google',
+  site_actuel: 'julie-durand-psychologue.fr'
 };
-const exemple = html.replace(/\{\{(\w+)\}\}/g, (_, v) => EXEMPLE[v] ?? `{{${v}}}`);
-writeFileSync(join(dossier, 'apercu-exemple.html'), exemple);
-
-/* Vérifications */
 const erreurs = [];
-const poids = Buffer.byteLength(html);
-if (poids > 100 * 1024) erreurs.push(`l'e-mail pèse ${Math.round(poids / 1024)} Ko : au-delà de 100 Ko, Gmail le coupe`);
-for (const [nom, contenu] of [['HTML', html], ['texte', texte]]) {
-  const oublis = contenu.match(/%[A-Z_]+%/g);
-  if (oublis) erreurs.push(`version ${nom} : réglage non remplacé ${[...new Set(oublis)].join(', ')}`);
-}
-const variables = [...new Set(html.match(/\{\{\w+\}\}/g))];
-for (const v of ['{{civilite}}', '{{nom}}', '{{detail_personnalisation}}', '{{source}}']) {
-  if (!variables.includes(v) || !texte.includes(v)) erreurs.push(`variable ${v} absente d'une des deux versions`);
-}
-/* Chaque image doit exister dans le site (youx-statique/ ou public/) */
-const images = [...html.matchAll(/src="([^"]+)"/g)].map((m) => m[1]);
-for (const src of images) {
-  if (!src.startsWith(domaine)) { erreurs.push(`image hors du site : ${src}`); continue; }
-  const chemin = src.slice(domaine.length);
-  if (!existsSync(join(racine, 'youx-statique', chemin)) && !existsSync(join(racine, 'public', chemin))) erreurs.push(`image introuvable dans le projet : ${chemin}`);
-}
-const sansAlt = [...html.matchAll(/<img(?![^>]*\balt=)[^>]*>/g)];
-if (sansAlt.length) erreurs.push(`${sansAlt.length} image(s) sans texte alternatif`);
+const resume = [];
+for (const m of MODELES) {
+  const html = remplacer(readFileSync(join(dossier, `${m.modele}.html`), 'utf8'));
+  const texte = remplacer(readFileSync(join(dossier, `${m.modele}.txt`), 'utf8'));
+  writeFileSync(join(dossier, `${m.sortie}.html`), html);
+  writeFileSync(join(dossier, `${m.sortie}.txt`), texte);
+  writeFileSync(join(dossier, `${m.exemple}.html`), html.replace(/\{\{(\w+)\}\}/g, (_, v) => EXEMPLE[v] ?? `{{${v}}}`));
 
-console.log(`\nE-mail de prospection généré dans email/ (${Math.round(poids / 1024)} Ko, ${images.length} images, adresse du site : ${domaine})`);
-console.log(`Variables : ${variables.join(' ')}`);
+  const poids = Buffer.byteLength(html);
+  if (poids > 100 * 1024) erreurs.push(`${m.sortie} pèse ${Math.round(poids / 1024)} Ko : au-delà de 100 Ko, Gmail le coupe`);
+  for (const [nom, contenu] of [['HTML', html], ['texte', texte]]) {
+    const oublis = contenu.match(/%[A-Z_]+%/g);
+    if (oublis) erreurs.push(`${m.sortie}, version ${nom} : réglage non remplacé ${[...new Set(oublis)].join(', ')}`);
+    const presentes = [...new Set((contenu.match(/\{\{\w+\}\}/g) || []).map((v) => v.slice(2, -2)))];
+    for (const v of m.variables) if (!presentes.includes(v)) erreurs.push(`${m.sortie}, version ${nom} : variable {{${v}}} absente`);
+    for (const v of presentes) if (!m.variables.includes(v)) erreurs.push(`${m.sortie}, version ${nom} : variable inconnue {{${v}}}`);
+  }
+  const images = [...html.matchAll(/src="([^"]+)"/g)].map((x) => x[1]);
+  for (const src of images) {
+    if (!src.startsWith(domaine)) { erreurs.push(`image hors du site : ${src}`); continue; }
+    const chemin = src.slice(domaine.length);
+    if (!existsSync(join(racine, 'youx-statique', chemin)) && !existsSync(join(racine, 'public', chemin))) erreurs.push(`image introuvable dans le projet : ${chemin}`);
+  }
+  if ([...html.matchAll(/<img(?![^>]*\balt=)[^>]*>/g)].length) erreurs.push(`${m.sortie} : image sans texte alternatif`);
+  resume.push(`  ${m.sortie} : ${Math.round(poids / 1024)} Ko, variables ${m.variables.map((v) => `{{${v}}}`).join(' ')}`);
+}
+
+console.log(`\nE-mails de prospection générés dans email/ (adresse du site : ${domaine})\n${resume.join('\n')}`);
 if (erreurs.length) {
   console.error(`\nÀ corriger :\n${erreurs.map((e) => `  • ${e}`).join('\n')}\n`);
   process.exit(1);

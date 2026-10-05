@@ -1,0 +1,58 @@
+Bonjour {{prenom}},
+
+{{detail_personnalisation}} Je suis Younes, psychologue. Je connais les questions que se posent nos patients avant d’appeler, les règles de notre code de déontologie et le temps que prennent les appels pour un simple renseignement.
+
+Votre site existe déjà : c’est un atout. Je vous propose de lui donner une nouvelle version, construite pour être bien comprise par Google et rassurante pour vos futurs patients, sans changer d’adresse.
+
+Je refais le site de votre cabinet sur votre adresse actuelle, {{site_actuel}} : vos patients et Google vous retrouvent au même endroit, sur un site plus rapide, plus clair et pensé pour être trouvé.
+
+> Imaginer mon nouveau site : https://youxdesign.pages.dev/
+> Découvrir un site réalisé : https://youxdesign.pages.dev/demo/
+
+
+CE QUE GOOGLE REGARDE, ET CE QUE VOTRE NOUVEAU SITE LUI DONNERA
+
+I. Rapidité et téléphone
+Des pages légères qui s’affichent tout de suite, même sur mobile. Nos sites de démonstration obtiennent 100/100 aux tests Lighthouse de Google, en performance comme en référencement.
+
+II. Les bons mots, au bon endroit
+Une page pour chaque grand sujet (approche, consultations, questions fréquentes), avec des titres et des descriptions rédigés pour les recherches « psychologue + votre ville » et vos spécialités.
+
+III. Des informations que Google comprend
+Adresse, horaires, spécialités et questions fréquentes décrits en « données structurées », cohérents avec votre fiche Google, que je vous aide à mettre à jour.
+
+IV. Ce que votre site a déjà acquis est préservé
+Votre adresse reste la même et les anciennes adresses de vos pages sont redirigées vers les nouvelles. Site sécurisé (HTTPS), sans cookie ni bannière.
+
+Et pour vos patients : tarifs, horaires, accès et remboursement clairs avant le premier appel, lien direct vers Doctolib, encart d’urgence avec le 15 et le 3114, ni témoignages ni promesse de résultat.
+
+
+COMMENT ÇA SE PASSE
+
+1. Vous configurez : style, couleurs, textes, photos ; l’aperçu se construit sous vos yeux, en dix minutes.
+2. Je conçois et rédige toutes vos pages, avec vos retours. Vous validez chaque étape.
+3. Mise en ligne sur votre adresse : je m’occupe du branchement sur votre adresse actuelle, rien de technique pour vous.
+
+
+TARIF DE LANCEMENT : 199 € au lieu de 299 €, réservé aux 10 premiers cabinets
+puis 5 € par mois pour l’hébergement et les modifications mineures
+
+- Design sur mesure et rédaction de vos pages
+- Référencement local et mise à jour de votre fiche Google
+- Mentions légales et confidentialité rédigées pour vous
+- Lien vers Doctolib ou votre outil de réservation
+- Votre nom de domaine actuel conservé
+
+> Imaginer mon nouveau site : https://youxdesign.pages.dev/
+
+
+Envie d’en parler avant ? Je peux aussi vous dire, sans engagement, ce que je changerais en priorité sur votre site actuel. Répondez simplement à ce message ou appelez-moi au 07 61 84 57 91. Je serai heureux d’en parler avec vous.
+
+Bien confraternellement,
+
+Younes
+Psychologue · Fondateur de youXdesign
+contact.youxdesign@gmail.com | youxdesign.pages.dev
+
+--
+Je vous écris car votre adresse professionnelle figure sur {{source}}. Pour ne plus recevoir de message de ma part, répondez simplement « STOP ».
