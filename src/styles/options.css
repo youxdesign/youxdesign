@@ -147,3 +147,19 @@
 @media (prefers-reduced-motion: reduce) {
   .opt-surbrillance { animation: none; box-shadow: 0 0 0 4px color-mix(in srgb, var(--c-accent) 45%, transparent); }
 }
+
+/* Agenda de réservation intégré (option « créneaux », site d'un cabinet) */
+.opt-agenda { display: grid; gap: 1rem; margin-top: 1.25rem; }
+.opt-agenda__cadre {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: clamp(32rem, 68vh, 44rem);
+  overflow: hidden;
+  border: 1px solid var(--c-ligne);
+  border-radius: var(--opt-rayon, 1rem);
+  background: var(--c-doux);
+}
+.opt-agenda__cadre iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: #FFFFFF; }
+.opt-agenda__attente { padding: 1.5rem; text-align: center; color: var(--c-texte2); font-size: .9375rem; }
+.opt-agenda__cadre[data-interactif] .opt-agenda__attente { display: none; }

@@ -52,7 +52,9 @@ const schema = z.object({
     telephoneNote: texte.optional(),
     email: z.string().email('adresse e-mail invalide'),
     emailNote: texte.optional(),
-    rendezVous: z.object({ plateforme: texte, url: z.string().url() }).optional(),
+    /* agenda : page de réservation intégrable dans le site (Calendly, Cal.com,
+       Google Agenda…), affichée au clic par l'option « créneaux » */
+    rendezVous: z.object({ plateforme: texte, url: z.string().url(), agenda: z.string().url().optional() }).optional(),
     /* Adresses des services qui reçoivent les formulaires (rappel, lettre d'information) */
     formulaires: z.object({ rappel: z.string().url().optional(), newsletter: z.string().url().optional() }).optional(),
     /* Option « questionnaires » : adresse de l'outil sécurisé où les remplir */

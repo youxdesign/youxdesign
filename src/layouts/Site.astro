@@ -25,7 +25,9 @@ const { site, page, scripts = [], ...reste } = Astro.props;
 const Cadre = cadres[site.theme];
 /* Le bandeau d'information affiche le statut d'ouverture sur toutes les pages */
 const statut = reglages(site.theme).bandeau && site.cab.bloc('statut', site.vitrine).rendre;
-const props = { ...reste, site, page, scripts: statut ? [...scripts, 'statut'] : scripts };
+/* Agenda de réservation intégré (option « créneaux ») : chargé au clic */
+const agenda = !site.vitrine && site.cab.a('creneaux') && site.cab.rdv?.agenda;
+const props = { ...reste, site, page, scripts: [...scripts, statut && 'statut', agenda && 'carte'].filter(Boolean) };
 ---
 {Cadre ? (
   <Cadre {...props}><slot /></Cadre>

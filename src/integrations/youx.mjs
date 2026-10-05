@@ -24,7 +24,7 @@ async function placer404(dossier) {
   }
 }
 
-function enTetes({ vitrine, carte, formulaires = [] }) {
+function enTetes({ vitrine, carte, formulaires = [], agendas = [] }) {
   const csp = [
     "default-src 'self'",
     "script-src 'self'",
@@ -32,7 +32,7 @@ function enTetes({ vitrine, carte, formulaires = [] }) {
     vitrine ? "img-src 'self' blob:" : "img-src 'self'",
     "font-src 'self'",
     "connect-src 'self'",
-    carte ? "frame-src 'self' https://www.openstreetmap.org" : "frame-src 'self'",
+    ["frame-src 'self'", carte && 'https://www.openstreetmap.org', ...agendas].filter(Boolean).join(' '),
     vitrine ? "frame-ancestors 'self'" : "frame-ancestors 'none'",
     ["form-action 'self'", ...formulaires].join(' '),
     "base-uri 'self'",
@@ -82,7 +82,7 @@ const REDIRECTIONS_VITRINE = `# Anciennes adresses -> nouvelles pages
 /demo/confidentialite.html       /demo/confidentialite/       301
 `;
 
-export default function youx({ mode, carte, formulaires = [] }) {
+export default function youx({ mode, carte, formulaires = [], agendas = [] }) {
   return {
     name: 'youx-finitions',
     hooks: {
@@ -90,7 +90,7 @@ export default function youx({ mode, carte, formulaires = [] }) {
         const dist = fileURLToPath(dir);
         const vitrine = mode === 'vitrine';
         await placer404(dist);
-        await writeFile(join(dist, '_headers'), enTetes({ vitrine, carte, formulaires }));
+        await writeFile(join(dist, '_headers'), enTetes({ vitrine, carte, formulaires, agendas }));
         if (vitrine) {
           await writeFile(join(dist, '_redirects'), REDIRECTIONS_VITRINE);
           const statique = join(process.cwd(), 'youx-statique');
