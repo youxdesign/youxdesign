@@ -593,15 +593,17 @@ html.lenis, html.lenis body { height: auto; }
 .vt-option {
   position: relative; isolation: isolate; overflow: hidden;
   display: grid; grid-template-rows: auto 1fr;
-  border: 1px solid var(--vt-ligne); border-radius: var(--vt-rayon); background: #FFFFFF;
+  border: 1px solid var(--vt-ligne-forte); border-radius: var(--vt-rayon); background: #FFFFFF;
+  /* Encart bien détaché du fond, même au repos */
+  box-shadow: 0 1px 2px rgb(28 21 48 / .06), 0 10px 28px -18px rgb(43 26 78 / .32);
   transition: transform .7s var(--vt-ease), box-shadow .7s var(--vt-ease), border-color .5s;
 }
-.vt-option:hover { transform: translateY(-4px); box-shadow: var(--vt-ombre); border-color: transparent; }
+.vt-option:hover { transform: translateY(-4px); box-shadow: var(--vt-ombre-forte); border-color: rgb(106 79 208 / .35); }
 .vt-option--large { grid-column: span 2; }
 .vt-option__visuel {
   position: relative; display: grid; place-items: center; height: 12.5rem; overflow: hidden;
-  border-bottom: 1px solid var(--vt-ligne);
-  background: radial-gradient(130% 120% at 20% 0%, #F1ECFD 0%, #F7F5F1 58%, #F4F1EC 100%);
+  border-bottom: 1px solid var(--vt-ligne-forte);
+  background: radial-gradient(130% 120% at 20% 0%, #E6DDFB 0%, #EEE9F8 50%, #ECE7F0 100%);
 }
 .vt-option__texte { display: grid; gap: .3rem; align-content: start; padding: 1.15rem 1.3rem 1.4rem; }
 .vt-option__groupe { font-size: .76rem; font-weight: 600; color: var(--vt-accent-texte); }
