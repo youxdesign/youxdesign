@@ -20,7 +20,23 @@ import { DOMAINE, EMAIL, TELEPHONE, TELEPHONE_LIEN, TARIF, FONDATEUR } from '../
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine/*.webp', { eager: true });
 const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
 
-const styles = sites().map((s) => ({ ...STYLES.find((x) => x.id === s.theme)!, base: s.base }));
+/* Ce que l'on voit sous la grande capture : une phrase simple par style,
+   sans vocabulaire de graphiste */
+const DESCRIPTIONS: Record<string, string> = {
+  sauge: 'Un site doux et lumineux, aux couleurs naturelles, qui inspire le calme dès la première page.',
+  terre: 'Un site chaleureux aux tons de terre et de sable, avec des formes tout en rondeur.',
+  sante: 'Un site clair et rassurant, qui met l’essentiel en avant : tarifs, accès et prise de rendez-vous.',
+  wabi: 'Un site sobre et apaisant, inspiré du Japon, qui laisse beaucoup de place au vide.',
+  suisse: 'Un site net et moderne, avec de grands titres et une seule couleur forte.',
+  immersif: 'Un site qui s’ouvre sur une grande image d’ambiance, pour une première impression marquante.',
+  editorial: 'Un site élégant, mis en page comme un beau magazine.',
+  pastel: 'Un site tendre et accueillant, aux couleurs pastel et aux formes rondes.',
+  nocturne: 'Un site sombre et feutré, éclairé par une lumière douce.'
+};
+const styles = sites().map((s) => {
+  const style = STYLES.find((x) => x.id === s.theme)!;
+  return { ...style, base: s.base, description: DESCRIPTIONS[style.id] ?? style.detail };
+});
 const mots = (texte: string) => texte.split(' ');
 
 const TITRE = [
@@ -231,7 +247,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
         <div class="vt-galerie" data-galerie>
           <div class="vt-galerie__liste" role="tablist" aria-label="Styles de site" aria-orientation="vertical" data-apparait>
             {styles.map((s, i) => (
-              <button class="vt-galerie__onglet" type="button" role="tab" id={`onglet-${s.id}`} aria-controls="galerie-vue" aria-selected={i === 0 ? 'true' : 'false'} tabindex={i === 0 ? 0 : -1} data-onglet={s.id} data-detail={s.detail} data-lien={s.base} data-nom={s.nom}>
+              <button class="vt-galerie__onglet" type="button" role="tab" id={`onglet-${s.id}`} aria-controls="galerie-vue" aria-selected={i === 0 ? 'true' : 'false'} tabindex={i === 0 ? 0 : -1} data-onglet={s.id} data-detail={s.description} data-lien={s.base} data-nom={s.nom}>
                 <span class="vt-galerie__num">{String(i + 1).padStart(2, '0')}</span>
                 <span class="vt-galerie__nom">{s.nom}</span>
                 <span class="vt-galerie__resume">{s.resume}</span>
@@ -249,7 +265,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
               </div>
             </div>
             <div class="vt-galerie__legende">
-              <p data-galerie-detail>{styles[0].detail}</p>
+              <p data-galerie-detail>{styles[0].description}</p>
               <a class="vt-lien" href={styles[0].base} data-galerie-lien>Visiter la démo <span data-galerie-nom>{styles[0].nom}</span><svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>
             </div>
           </div>
