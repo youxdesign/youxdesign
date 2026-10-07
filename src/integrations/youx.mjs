@@ -59,8 +59,8 @@ function enTetes({ vitrine, carte, formulaires = [], agendas = [] }) {
 /_astro/*
   ${immuable}
 
-# Adresse technique de Cloudflare (….pages.dev) : jamais dans Google,
-# seul le nom de domaine du site doit y apparaître
+# Adresse technique de Cloudflare (*.pages.dev) : jamais dans Google,
+# seul le nom de domaine du site doit y apparaitre
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
 `;
