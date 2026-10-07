@@ -28,9 +28,10 @@ const css = await feuilleSite(site);
 const polices = prechargements(site);
 const apercu = site.vitrine ? await script('apercu') : null;
 const confort = site.vitrine || cab.a('accessibilite') ? ['confort'] : [];
-/* Styles communs : apparitions douces au défilement (Sauge a son propre script) */
-const apparitions = trouverStyle(site.theme).autonome ? [] : ['apparitions'];
-const autres = await Promise.all([...new Set([...apparitions, ...scripts, ...confort].filter(Boolean))].map((s) => script(s)));
+/* Styles communs : finitions (en-tête au défilement, apparitions, profondeur,
+   bouton de rendez-vous mobile, bandeau de démo). Sauge a son propre script. */
+const finitions = trouverStyle(site.theme).autonome ? [] : ['finitions'];
+const autres = await Promise.all([...new Set([...finitions, ...scripts, ...confort].filter(Boolean))].map((s) => script(s)));
 
 const couleurs = deriver(paletteDe(site));
 const canonique = chemin ? adresseComplete(chemin) : null;

@@ -9,6 +9,7 @@ import Entete from '../components/Entete.astro';
 import PiedDePage from '../components/PiedDePage.astro';
 import { cadres, reglages } from '../themes/registre.mjs';
 import Confort from '../components/options/Confort.astro';
+import BoutonRdv from '../components/BoutonRdv.astro';
 
 interface Props {
   site: any;
@@ -33,19 +34,20 @@ const props = { ...reste, site, page, scripts: [...scripts, statut && 'statut', 
   <Cadre {...props}><slot /></Cadre>
 ) : (
   <Document {...props}>
-    {site.vitrine && (
-      <div class="bandeau-demo">
-        <div class="conteneur">
-          <p>Exemple de site réalisé par youXdesign : le cabinet présenté est fictif.</p>
-          <a href="/configurateur/">Créer le site de mon cabinet →</a>
-        </div>
-      </div>
-    )}
     <Entete site={site} page={page} />
     <main id="contenu" tabindex="-1">
       <slot />
     </main>
     <PiedDePage site={site} />
+    <!-- Sur téléphone : bouton de rendez-vous qui reste à portée de pouce (finitions.js) -->
+    <div class="cta-mobile" data-cta-mobile><BoutonRdv cab={site.cab} classe="bouton" /></div>
     <Confort site={site} />
+    {site.vitrine && (
+      <div class="demo-bar" role="complementary" aria-label="Site de démonstration" data-demo-bar>
+        <span>Site de démonstration réalisé par <b>youXdesign</b></span>
+        <a href="/configurateur/">Créer le mien</a>
+        <button type="button" aria-label="Masquer ce bandeau" data-demo-fermer>×</button>
+      </div>
+    )}
   </Document>
 )}
