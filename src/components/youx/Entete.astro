@@ -6,7 +6,7 @@
    téléphone : menu plein écran, fermeture par Échap ou par un lien.
    ========================================================================== */
 import Logo from './Logo.astro';
-import { EMAIL, TELEPHONE, TELEPHONE_LIEN } from '../../config/youxdesign.mjs';
+import { EMAIL } from '../../config/youxdesign.mjs';
 
 interface Props { actif?: string }
 const { actif } = Astro.props;
@@ -53,7 +53,6 @@ const LIENS = [
       </a>
       <p class="vt-menu__contact">
         <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-        <a href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a>
       </p>
     </div>
   </div>

@@ -8,7 +8,7 @@
 import Youx from '../../layouts/Youx.astro';
 import Entete from '../../components/youx/Entete.astro';
 import Pied from '../../components/youx/Pied.astro';
-import { DOMAINE, EMAIL, TELEPHONE, TELEPHONE_LIEN } from '../../config/youxdesign.mjs';
+import { DOMAINE, EMAIL } from '../../config/youxdesign.mjs';
 
 const SUJETS = ['Créer le site de mon cabinet', 'Refaire mon site actuel', 'Une direction artistique sur mesure', 'Une question'];
 const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
@@ -16,10 +16,10 @@ const jsonld = [{
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
   url: `${DOMAINE}/contact/`,
-  mainEntity: { '@type': 'Organization', name: 'youXdesign', email: EMAIL, telephone: `+33 ${TELEPHONE.slice(1)}` }
+  mainEntity: { '@type': 'Organization', name: 'youXdesign', email: EMAIL }
 }];
 ---
-<Youx titre="Contact · youXdesign" description="Une question sur votre futur site ? Écrivez à youXdesign ou appelez Younes, psychologue et fondateur du studio." chemin="/contact/" scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
+<Youx titre="Contact · youXdesign" description="Une question sur votre futur site ? Écrivez à Younes, psychologue et fondateur de youXdesign." chemin="/contact/" scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
   <Entete actif="contact" />
 
   <main id="contenu" tabindex="-1" class="vt-page">
@@ -34,10 +34,6 @@ const jsonld = [{
             <span class="vt-contact__etiquette">E-mail</span>
             <a class="vt-contact__valeur" href={`mailto:${EMAIL}`}>{EMAIL}</a>
             <button type="button" class="vt-copier" data-copier={EMAIL}><span data-copier-texte>Copier</span></button>
-          </li>
-          <li>
-            <span class="vt-contact__etiquette">Téléphone</span>
-            <a class="vt-contact__valeur" href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a>
           </li>
           <li>
             <span class="vt-contact__etiquette">Le plus rapide</span>

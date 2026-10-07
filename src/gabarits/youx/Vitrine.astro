@@ -16,7 +16,7 @@ import Pied from '../../components/youx/Pied.astro';
 import OptionVisuel from '../../components/youx/OptionVisuel.astro';
 import { sites } from '../../lib/site.mjs';
 import { STYLES, OPTIONS } from '../../config/catalogue.mjs';
-import { DOMAINE, EMAIL, TELEPHONE, TELEPHONE_LIEN, TARIF, FONDATEUR } from '../../config/youxdesign.mjs';
+import { DOMAINE, EMAIL, TARIF, FONDATEUR } from '../../config/youxdesign.mjs';
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine/*.webp', { eager: true });
 const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
@@ -44,10 +44,11 @@ const mots = (texte: string) => texte.split(' ');
    encarts larges, soit quatre rangées pleines) et nom court du groupe */
 const ORDRE_OPTIONS = ['creneaux', 'rappel', 'paiement', 'statut', 'questionnaires', 'faq', 'ressources', 'respiration', 'ateliers', 'newsletter', 'accessibilite', 'multilingue', 'carte'];
 const LARGES = new Set(['creneaux', 'respiration', 'carte']);
-const GROUPES: Record<string, string> = {
-  'Rendez-vous et contact': 'Rendez-vous',
-  'Contenus et outils': 'Contenus',
-  'Pratique et accessibilité': 'Pratique'
+/* Libellé court et teinte de l'encart (dégradé), par groupe d'options */
+const GROUPES: Record<string, { nom: string; teinte: string }> = {
+  'Rendez-vous et contact': { nom: 'Rendez-vous', teinte: 'lilas' },
+  'Contenus et outils': { nom: 'Contenus', teinte: 'peche' },
+  'Pratique et accessibilité': { nom: 'Pratique', teinte: 'ciel' }
 };
 const OPTIONS_VITRINE = [
   ...ORDRE_OPTIONS.map((id) => OPTIONS.find((o) => o.id === id)).filter((o) => !!o),
@@ -202,7 +203,6 @@ const jsonld = [
     image: `${DOMAINE}/og-youxdesign.png`,
     description,
     email: EMAIL,
-    telephone: `+33 ${TELEPHONE.slice(1)}`,
     areaServed: { '@type': 'Country', name: 'France' },
     founder: { '@type': 'Person', name: FONDATEUR, jobTitle: 'Psychologue' },
     makesOffer: [
@@ -439,12 +439,14 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
           </div>
           <ul class="vt-options__grille">
             {OPTIONS_VITRINE.map((o) => (
-              <li class:list={['vt-option', { 'vt-option--large': LARGES.has(o.id) }]} data-option={o.id} data-apparait>
-                <OptionVisuel id={o.id} />
-                <div class="vt-option__texte">
-                  <span class="vt-option__groupe">{GROUPES[o.groupe] ?? o.groupe}</span>
-                  <h4>{o.nom}</h4>
-                  <p>{o.description}</p>
+              <li class:list={['vt-option', { 'vt-option--large': LARGES.has(o.id) }]} data-option={o.id} data-teinte={GROUPES[o.groupe]?.teinte ?? 'lilas'} data-apparait>
+                <div class="vt-option__carte">
+                  <OptionVisuel id={o.id} />
+                  <div class="vt-option__texte">
+                    <span class="vt-option__groupe">{GROUPES[o.groupe]?.nom ?? o.groupe}</span>
+                    <h4>{o.nom}</h4>
+                    <p>{o.description}</p>
+                  </div>
                 </div>
               </li>
             ))}
@@ -540,7 +542,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
         <header class="vt-tete">
           <p class="vt-surtitre" data-apparait>Questions</p>
           <h2 class="vt-h2" id="questions-titre" data-apparait>Ce que l’on me demande <em>souvent.</em></h2>
-          <p class="vt-chapeau" data-apparait>Une autre question ? Écrivez-moi à <a class="vt-lien" href={`mailto:${EMAIL}`}>{EMAIL}</a> ou appelez le <a class="vt-lien" href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a>.</p>
+          <p class="vt-chapeau" data-apparait>Une autre question ? Écrivez-moi à <a class="vt-lien" href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
         </header>
         <div class="vt-faq">
           {FAQ.map((f) => (
@@ -564,7 +566,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
             Configurer mon site
             <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
           </a>
-          <a class="vt-bouton vt-bouton--grand vt-bouton--contour-clair" href="/contact/">Me poser une question</a>
+          <a class="vt-bouton vt-bouton--grand vt-bouton--contour-clair" href="/contact/">Une question ?</a>
         </p>
       </div>
     </section>

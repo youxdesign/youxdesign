@@ -1,7 +1,7 @@
 ---
 /* Pied de page de la vitrine youXdesign */
 import Logo from './Logo.astro';
-import { EMAIL, TELEPHONE, TELEPHONE_LIEN } from '../../config/youxdesign.mjs';
+import { EMAIL } from '../../config/youxdesign.mjs';
 
 const annee = new Date().getFullYear();
 ---
@@ -38,7 +38,6 @@ const annee = new Date().getFullYear();
         <p class="vt-pied__titre">Contact</p>
         <ul>
           <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
-          <li><a href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a></li>
           <li><a href="/contact/">Écrire un message</a></li>
         </ul>
       </div>
