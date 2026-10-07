@@ -5,7 +5,7 @@ import { join } from 'node:path';
 import { MODE } from '../../lib/site.mjs';
 import { script } from '../../lib/assets.mjs';
 
-const RESERVES_VITRINE = ['apercu', 'configurateur'];
+const RESERVES_VITRINE = ['apercu', 'configurateur', 'vitrine'];
 
 export async function getStaticPaths() {
   const noms = readdirSync(join(process.cwd(), 'src/scripts'))

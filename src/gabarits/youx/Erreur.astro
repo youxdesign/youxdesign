@@ -1,21 +1,21 @@
 ---
 /* Page introuvable du site youXdesign */
 import Youx from '../../layouts/Youx.astro';
-import Logo from '../../components/youx/Logo.astro';
+import Entete from '../../components/youx/Entete.astro';
+import Pied from '../../components/youx/Pied.astro';
 ---
-<Youx titre="Page introuvable · youXdesign" description="Cette page n’existe pas ou a été déplacée." chemin={null} indexable={false}>
-  <header class="yx-entete">
-    <div class="yx-conteneur"><Logo clair /></div>
-  </header>
-  <main id="contenu" tabindex="-1" class="yx-hub">
-    <section class="yx-conteneur yx-hub__tete">
-      <p class="yx-surtitre">Erreur 404</p>
-      <h1>Cette page est <em>introuvable</em></h1>
-      <p class="yx-chapeau">L’adresse a peut-être changé. Vous pouvez configurer votre site ou découvrir la démonstration.</p>
-      <p class="yx-boutons">
-        <a class="yx-bouton" href="/">Configurer mon site</a>
-        <a class="yx-bouton yx-bouton--secondaire" href="/demo/">Voir la démo</a>
+<Youx titre="Page introuvable · youXdesign" description="Cette page n’existe pas ou a été déplacée." chemin={null} indexable={false} scripts={['vitrine']} classe="vt" feuille="vitrine" polices={['/fonts/inter-variable.woff2']}>
+  <Entete />
+  <main id="contenu" tabindex="-1" class="vt-page vt-erreur">
+    <div class="vt-conteneur">
+      <p class="vt-surtitre vt-entree">Erreur 404</p>
+      <h1 class="vt-page__titre vt-entree">Cette page est <em>introuvable.</em></h1>
+      <p class="vt-chapeau vt-entree">L’adresse a peut-être changé. Revenez à l’accueil ou configurez directement votre site.</p>
+      <p class="vt-boutons vt-entree">
+        <a class="vt-bouton vt-bouton--grand" href="/">Revenir à l’accueil</a>
+        <a class="vt-bouton vt-bouton--grand vt-bouton--contour" href="/configurateur/">Configurer mon site</a>
       </p>
-    </section>
+    </div>
   </main>
+  <Pied />
 </Youx>

@@ -1,36 +1,54 @@
 ---
-/* Galerie des styles youXdesign (/styles/) : un lien vers chaque démo */
+/* Galerie des styles youXdesign (/styles/) : un aperçu et un lien vers chaque démo */
+import { Picture } from 'astro:assets';
 import Youx from '../../layouts/Youx.astro';
-import Logo from '../../components/youx/Logo.astro';
+import Entete from '../../components/youx/Entete.astro';
+import Pied from '../../components/youx/Pied.astro';
 import { sites } from '../../lib/site.mjs';
 import { STYLES } from '../../config/catalogue.mjs';
 
-const liste = sites().map((s) => ({ site: s, style: STYLES.find((x) => x.id === s.theme) }));
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine/*.webp', { eager: true });
+const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
+const liste = sites().map((s) => ({ site: s, style: STYLES.find((x) => x.id === s.theme)! }));
+const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
 ---
-<Youx titre="Les styles · youXdesign" description={`${liste.length} styles de site pour psychologues, sophrologues et coachs : ${liste.map((x) => x.style.nom).join(', ')}. Chacun est un vrai site à parcourir.`} chemin="/styles/">
-  <header class="yx-entete">
-    <div class="yx-conteneur"><Logo clair /></div>
-  </header>
-  <main id="contenu" tabindex="-1" class="yx-hub">
-    <section class="yx-conteneur yx-hub__tete">
-      <p class="yx-surtitre">Les styles</p>
-      <h1>Neuf univers, <em>un même soin</em></h1>
-      <p class="yx-chapeau">Chaque style est un vrai site, avec toutes ses pages. Parcourez-les, puis composez le vôtre dans le configurateur : palette, typographie, fonctionnalités.</p>
-      <p class="yx-boutons"><a class="yx-bouton" href="/">Configurer mon site</a></p>
-    </section>
-    <section class="yx-conteneur" aria-labelledby="styles-titre">
-      <h2 id="styles-titre" class="yx-h2">Les démonstrations</h2>
-      <ul class="yx-styles">
-        {liste.map(({ site, style }) => (
-          <li class="yx-style">
+<Youx titre="Les styles · youXdesign" description={`${liste.length} styles de site pour psychologues, sophrologues et coachs : ${liste.map((x) => x.style.nom).join(', ')}. Chacun est un vrai site à parcourir.`} chemin="/styles/" scripts={['vitrine']} classe="vt" feuille="vitrine" polices={['/fonts/inter-variable.woff2']}>
+  <Entete actif="realisations" />
+
+  <main id="contenu" tabindex="-1" class="vt-page">
+    <div class="vt-conteneur">
+      <header class="vt-page__tete">
+        <p class="vt-surtitre vt-entree">Les styles</p>
+        <h1 class="vt-page__titre vt-entree">Neuf univers, <em>un même soin.</em></h1>
+        <p class="vt-chapeau vt-entree">Chaque style est un vrai site, avec toutes ses pages. Parcourez-les, puis composez le vôtre dans le configurateur : palette, typographie, fonctionnalités.</p>
+        <p class="vt-boutons vt-entree">
+          <a class="vt-bouton vt-bouton--grand" href="/configurateur/">
+            Configurer mon site
+            <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+          </a>
+        </p>
+      </header>
+
+      <ul class="vt-cartes">
+        {liste.map(({ site, style }, i) => (
+          <li class="vt-carte" data-apparait>
             <a href={site.base}>
-              <span class="yx-style__nom">{style.nom}</span>
-              <span class="yx-style__desc">{style.resume}</span>
-              <span class="yx-style__adresse">Voir la démo →</span>
+              <span class="vt-carte__visuel">
+                <Picture class="vt-carte__image" src={img(`${style.id}-ordinateur`)} alt="" formats={['avif', 'webp']} widths={[480, 720, 960, 1280]} sizes="(min-width: 64rem) 30vw, (min-width: 40rem) 46vw, 92vw" loading={i < 3 ? 'eager' : 'lazy'} />
+                <span class="vt-carte__tel"><Picture class="vt-carte__image" src={img(`${style.id}-mobile`)} alt="" formats={['avif', 'webp']} widths={[160, 240, 320]} sizes="8rem" loading="lazy" /></span>
+              </span>
+              <span class="vt-carte__texte">
+                <span class="vt-carte__num">{String(i + 1).padStart(2, '0')}</span>
+                <strong class="vt-carte__nom">{style.nom}</strong>
+                <span class="vt-carte__resume">{style.resume}</span>
+                <span class="vt-carte__lien">Voir la démo <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></span>
+              </span>
             </a>
           </li>
         ))}
       </ul>
-    </section>
+    </div>
   </main>
+
+  <Pied />
 </Youx>

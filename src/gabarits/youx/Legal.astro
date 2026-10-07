@@ -1,0 +1,59 @@
+---
+/* ==========================================================================
+   Mentions légales et confidentialité du site youXdesign
+   À compléter dès l'immatriculation : forme juridique, adresse, SIRET.
+   ========================================================================== */
+import Youx from '../../layouts/Youx.astro';
+import Entete from '../../components/youx/Entete.astro';
+import Pied from '../../components/youx/Pied.astro';
+import { DOMAINE, EMAIL, EDITEUR, TELEPHONE, TELEPHONE_LIEN } from '../../config/youxdesign.mjs';
+
+const domaineCourt = DOMAINE.replace('https://', '');
+---
+<Youx titre="Mentions légales et confidentialité · youXdesign" description="Éditeur, hébergeur et données personnelles du site youXdesign : aucun cookie, aucun traceur, rien n'est enregistré sur le site." chemin="/mentions-legales/" scripts={['vitrine']} classe="vt" feuille="vitrine" polices={['/fonts/inter-variable.woff2']}>
+  <Entete />
+
+  <main id="contenu" tabindex="-1" class="vt-page">
+    <article class="vt-conteneur vt-legal">
+      <header class="vt-legal__tete">
+        <p class="vt-surtitre vt-entree">Informations légales</p>
+        <h1 class="vt-page__titre vt-entree">Mentions légales <em>et confidentialité</em></h1>
+      </header>
+
+      <div class="vt-legal__corps vt-entree">
+        <section aria-labelledby="l-editeur">
+          <h2 id="l-editeur">Éditeur du site</h2>
+          <p>Le site {domaineCourt} est édité par {EDITEUR}, psychologue, fondateur de youXdesign.</p>
+          <p>E-mail : <a href={`mailto:${EMAIL}`}>{EMAIL}</a><br />Téléphone : <a href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a></p>
+          <p>Directeur de la publication : {EDITEUR}.</p>
+        </section>
+
+        <section aria-labelledby="l-hebergeur">
+          <h2 id="l-hebergeur">Hébergeur</h2>
+          <p>Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, États-Unis (cloudflare.com).</p>
+        </section>
+
+        <section aria-labelledby="l-donnees">
+          <h2 id="l-donnees">Vos données personnelles</h2>
+          <p><strong>Ce site ne dépose aucun cookie et n’utilise aucun outil de mesure d’audience, de publicité ni de suivi.</strong> Il ne contient aucun formulaire qui enverrait des informations à un serveur.</p>
+          <p><strong>Le configurateur</strong> conserve vos réponses dans votre navigateur, le temps de votre visite : elles disparaissent quand vous fermez l’onglet. Les photos que vous y déposez sont seulement affichées sur votre appareil. Rien n’est transmis tant que vous n’envoyez pas vous-même le récapitulatif depuis votre messagerie.</p>
+          <p><strong>Le formulaire de contact</strong> prépare un e-mail dans votre propre messagerie : c’est vous qui l’envoyez, et ce site n’en garde aucune trace.</p>
+          <p><strong>Les e-mails que vous m’adressez</strong> sont reçus dans ma messagerie professionnelle (Google Workspace). Ils servent uniquement à vous répondre et à préparer votre site, et sont conservés au plus trois ans après notre dernier échange. Ils ne sont jamais vendus ni cédés.</p>
+          <p>Vous pouvez à tout moment demander à consulter, corriger ou supprimer vos données, ou vous opposer à leur utilisation, en écrivant à <a href={`mailto:${EMAIL}`}>{EMAIL}</a>. Vous pouvez aussi adresser une réclamation à la CNIL (cnil.fr).</p>
+        </section>
+
+        <section aria-labelledby="l-demos">
+          <h2 id="l-demos">Sites de démonstration</h2>
+          <p>Les sites de démonstration présentent un cabinet fictif : Claire Morel, ses coordonnées et ses textes sont inventés pour illustrer les styles proposés. Ces pages ne sont pas indexées par les moteurs de recherche.</p>
+        </section>
+
+        <section aria-labelledby="l-propriete">
+          <h2 id="l-propriete">Propriété intellectuelle</h2>
+          <p>Le nom youXdesign, le logo, les textes et les visuels de ce site sont protégés. Toute reproduction sans autorisation est interdite.</p>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <Pied />
+</Youx>

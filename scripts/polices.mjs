@@ -77,10 +77,13 @@ const STATIQUES = [
 /* Polices variables : [identifiant, famille, type, fichier source, { style: axes conservés }, graisses annoncées]
    Fraunces : taille optique variable (finesse des grands titres), graisse
    fixée à 350 en romain et 300 en italique, comme la démo d'origine.
-   Instrument Sans : graisses 400 à 600. */
+   Instrument Sans : graisses 400 à 600.
+   Inter (vitrine youXdesign) : graisses 400 à 700 et taille optique 14 à 32
+   (dessin « Display », plus serré, pour les grands titres). */
 const VARIABLES = [
   ['fraunces', 'Fraunces', 'serif', 'opsz', { normal: { wght: 350, opsz: { min: 24, max: 144 } }, italic: { wght: 300, opsz: { min: 24, max: 144 } } }, '300 400'],
-  ['instrument-sans', 'Instrument Sans', 'sans-serif', 'wght', { normal: { wght: { min: 400, max: 600 } } }, '400 600']
+  ['instrument-sans', 'Instrument Sans', 'sans-serif', 'wght', { normal: { wght: { min: 400, max: 600 } } }, '400 600'],
+  ['inter', 'Inter', 'sans-serif', 'opsz', { normal: { wght: { min: 400, max: 700 }, opsz: { min: 14, max: 32 } } }, '400 700']
 ];
 
 /* Caractères du sous-ensemble « latin » (français compris : œ, €, guillemets…) */

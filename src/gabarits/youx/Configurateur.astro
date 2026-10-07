@@ -48,7 +48,7 @@ const groupesOptions = [...new Set(OPTIONS.map((o) => o.groupe))];
 const PAGES_CHOIX = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && p.id !== 'faq');
 const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent, d.encre]; };
 ---
-<Youx titre="Configurez le site de votre cabinet · youXdesign" description="Configurez en dix minutes le site de votre cabinet : style, couleurs, typographie, fonctionnalités. Le vrai site s’affiche en direct, puis vous envoyez votre demande depuis votre messagerie." scripts={['configurateur']} classe="cfg-page" feuille="configurateur">
+<Youx titre="Configurez le site de votre cabinet · youXdesign" chemin="/configurateur/" description="Configurez en dix minutes le site de votre cabinet : style, couleurs, typographie, fonctionnalités. Le vrai site s’affiche en direct, puis vous envoyez votre demande depuis votre messagerie." scripts={['configurateur']} classe="cfg-page" feuille="configurateur">
   <div class="cfg" data-cfg data-email={EMAIL}>
     <header class="cfg-barre">
       <Logo />

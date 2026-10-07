@@ -1,12 +1,28 @@
 ---
-/* Gabarit des pages youXdesign (configurateur, page d'erreur). */
+/* Gabarit des pages youXdesign (vitrine, configurateur, contact, pages d'information). */
 import { feuilleOutil, script } from '../lib/assets.mjs';
 import { DOMAINE } from '../config/youxdesign.mjs';
 
-interface Props { titre: string; description: string; chemin?: string | null; scripts?: string[]; indexable?: boolean; classe?: string; feuille?: 'youx' | 'configurateur' }
-const { titre, description, chemin = '/', scripts = [], indexable = true, classe, feuille = 'youx' } = Astro.props;
+interface Props {
+  titre: string;
+  description: string;
+  chemin?: string | null;
+  scripts?: string[];
+  indexable?: boolean;
+  classe?: string;
+  feuille?: 'youx' | 'configurateur' | 'vitrine';
+  image?: string;
+  jsonld?: object[];
+  polices?: string[];
+}
+const {
+  titre, description, chemin = '/', scripts = [], indexable = true, classe, feuille = 'youx',
+  image = '/og-youxdesign.png', jsonld = [], polices = ['/fonts/instrument-sans-variable.woff2']
+} = Astro.props;
 const css = await feuilleOutil(feuille);
 const js = await Promise.all(scripts.map((s) => script(s)));
+/* Données structurées : « < » échappé pour ne jamais fermer la balise script */
+const json = (o: object) => JSON.stringify(o).replace(/</g, '\\u003c');
 ---
 <!doctype html>
 <html lang="fr">
@@ -22,12 +38,16 @@ const js = await Promise.all(scripts.map((s) => script(s)));
   <meta property="og:site_name" content="youXdesign" />
   <meta property="og:title" content={titre} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={`${DOMAINE}/apercu-demov3.gif`} />
-  <meta name="theme-color" content="#2B1A4E" />
+  {chemin && <meta property="og:url" content={`${DOMAINE}${chemin}`} />}
+  <meta property="og:image" content={`${DOMAINE}${image}`} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#F4F1EC" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="preload" href="/fonts/instrument-sans-variable.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="apple-touch-icon" href="/brand/symbole-rond.png" />
+  {polices.map((p) => <link rel="preload" href={p} as="font" type="font/woff2" crossorigin />)}
   <link rel="stylesheet" href={css.url} />
   {js.map((s) => <script is:inline src={s.url} defer></script>)}
+  {jsonld.map((j) => <script is:inline type="application/ld+json" set:html={json(j)} />)}
 </head>
 <body class={classe}>
   <a class="evitement" href="#contenu">Aller au contenu</a>

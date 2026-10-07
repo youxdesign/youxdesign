@@ -62,7 +62,7 @@ function enTetes({ vitrine, carte, formulaires = [], agendas = [] }) {
 
 /* Anciennes adresses du site youXdesign (e-mails déjà envoyés, favoris) */
 const REDIRECTIONS_VITRINE = `# Anciennes adresses -> nouvelles pages
-/configurateur.html              /                            301
+/configurateur.html              /configurateur/              301
 /demo/index.html                 /demo/                       301
 /demo/Accueil.dc.html            /demo/                       301
 /demo/A-propos.dc.html           /demo/a-propos/              301

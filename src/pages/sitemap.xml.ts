@@ -6,7 +6,7 @@ import { PAGES } from '../config/catalogue.mjs';
 
 export const GET: APIRoute = () => {
   const adresses = [];
-  if (MODE === 'vitrine') adresses.push(adresseComplete('/'), adresseComplete('/styles/'));
+  if (MODE === 'vitrine') adresses.push(adresseComplete('/'), adresseComplete('/configurateur/'), adresseComplete('/styles/'), adresseComplete('/contact/'));
   for (const site of sites().filter((s) => s.indexable)) {
     for (const page of PAGES.filter((p) => !p.legal && (p.id !== 'faq' || site.cab.a('faq')))) {
       adresses.push(adresseComplete(lien(site, page.id)));

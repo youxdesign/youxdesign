@@ -1,0 +1,442 @@
+---
+/* ==========================================================================
+   Vitrine youXdesign (page d'accueil du site)
+   --------------------------------------------------------------------------
+   Présentation du studio : réalisations (les neuf styles), vidéo du
+   configurateur, fonctionnalités, méthode, tarif, questions fréquentes.
+   Les textes reprennent les engagements des e-mails de prospection :
+   rien qui ne puisse être tenu (pas de « 100 % conforme », pas de délai).
+   Animations : vitrine.js et vitrine.css (désactivées si le visiteur a
+   demandé à réduire les animations).
+   ========================================================================== */
+import { Picture } from 'astro:assets';
+import Youx from '../../layouts/Youx.astro';
+import Entete from '../../components/youx/Entete.astro';
+import Pied from '../../components/youx/Pied.astro';
+import { sites } from '../../lib/site.mjs';
+import { STYLES, OPTIONS } from '../../config/catalogue.mjs';
+import { DOMAINE, EMAIL, TELEPHONE, TELEPHONE_LIEN, TARIF, FONDATEUR } from '../../config/youxdesign.mjs';
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine/*.webp', { eager: true });
+const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
+
+const styles = sites().map((s) => ({ ...STYLES.find((x) => x.id === s.theme)!, base: s.base }));
+const mots = (texte: string) => texte.split(' ');
+
+const TITRE = [
+  { texte: 'Un site à la hauteur', em: false },
+  { texte: 'de votre pratique.', em: true }
+];
+
+/* Chapitres de la vidéo (secondes) */
+const CHAPITRES = [
+  { debut: 0, titre: 'Vos informations', texte: 'Votre nom apparaît aussitôt sur le site.' },
+  { debut: 9.3, titre: 'Un style', texte: 'Neuf univers, chacun un vrai site.' },
+  { debut: 24.4, titre: 'Couleurs et typographie', texte: 'Palettes et polices, contrastes vérifiés.' },
+  { debut: 43.2, titre: 'Fonctionnalités', texte: 'Respiration guidée, plan d’accès, aperçu mobile.' },
+  { debut: 60.6, titre: 'Envoi', texte: 'Le récapitulatif part de votre messagerie.' }
+];
+
+const PILIERS = [
+  {
+    icone: 'trouve',
+    titre: 'Pensé pour être trouvé',
+    texte: 'Un site rapide et lisible sur téléphone, avec des titres, des descriptions et des informations structurées pour Google : votre adresse, vos horaires, votre approche.'
+  },
+  {
+    icone: 'cadre',
+    titre: 'Le cadre de notre métier',
+    texte: 'Mentions légales et confidentialité rédigées pour votre cabinet, numéro ADELI ou RPPS affiché, encart d’urgence avec le 15 et le 3114. Ni témoignages, ni promesse de résultat.'
+  },
+  {
+    icone: 'respect',
+    titre: 'Respectueux de vos patients',
+    texte: 'Aucune donnée de santé recueillie, aucun cookie, aucun traceur, aucune bannière à accepter. La carte interactive ne se charge que si le visiteur le demande.'
+  },
+  {
+    icone: 'temps',
+    titre: 'Moins d’appels, plus de temps clinique',
+    texte: 'Tarifs, horaires, accès, remboursement et déroulé des séances sont clairs avant le premier contact, avec un lien direct vers Doctolib ou votre outil de réservation.'
+  }
+];
+
+const ETAPES = [
+  { titre: 'Vous configurez', texte: 'Style, couleurs, textes, photos : l’aperçu se construit sous vos yeux, en dix minutes.' },
+  { titre: 'Je conçois et rédige', texte: 'Toutes vos pages, avec vos retours. Vous validez chaque étape.' },
+  { titre: 'Votre site est en ligne', texte: 'Avec un nom de domaine à votre nom : vous en restez propriétaire.' }
+];
+
+const OFFRES = {
+  creation: {
+    nom: 'Nouveau site',
+    cta: 'Configurer mon site',
+    note: 'Votre site est mis en ligne avec un nom de domaine à votre nom.',
+    liste: [
+      'Design sur mesure et rédaction de vos pages',
+      'Référencement local et fiche Google optimisée',
+      'Mentions légales et confidentialité rédigées pour vous',
+      'Lien vers Doctolib ou votre outil de réservation',
+      'Site adapté au téléphone et rapide à charger'
+    ]
+  },
+  refonte: {
+    nom: 'Refonte de mon site',
+    cta: 'Imaginer mon nouveau site',
+    note: 'Je refais votre site sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit.',
+    liste: [
+      'Design sur mesure et rédaction de vos pages',
+      'Référencement local et mise à jour de votre fiche Google',
+      'Mentions légales et confidentialité rédigées pour vous',
+      'Anciennes adresses de vos pages redirigées vers les nouvelles',
+      'Votre nom de domaine actuel conservé'
+    ]
+  }
+};
+
+const FAQ = [
+  {
+    q: 'Le configurateur m’engage-t-il à quelque chose ?',
+    r: 'Non. Vos réponses restent dans votre navigateur et rien n’est envoyé tant que vous ne l’avez pas décidé. À la fin, vous m’adressez le récapitulatif depuis votre propre messagerie.'
+  },
+  {
+    q: 'Combien de temps faut-il pour configurer son site ?',
+    r: 'Une dizaine de minutes. Vous pouvez faire une pause : vos réponses restent dans l’onglet tant que vous ne le fermez pas. Et vous pouvez revenir en arrière à chaque étape.'
+  },
+  {
+    q: 'Mon site recueillera-t-il des données de santé ?',
+    r: 'Non. Votre site ne recueille aucune donnée de santé, ne dépose aucun cookie et n’utilise aucun traceur. Seuls les questionnaires en ligne, proposés en option, recueillent des réponses : ils reposent alors sur un hébergeur certifié pour les données de santé (HDS).'
+  },
+  {
+    q: 'Le nom de domaine m’appartient-il ?',
+    r: 'Oui. Votre site est mis en ligne avec un nom de domaine à votre nom : vous en restez propriétaire.'
+  },
+  {
+    q: 'J’ai déjà un site : pouvez-vous le refaire ?',
+    r: 'Oui. Je refais le site de votre cabinet sur votre adresse actuelle. Les anciennes adresses de vos pages sont redirigées vers les nouvelles : vos patients et Google vous retrouvent au même endroit.'
+  },
+  {
+    q: 'Que comprend l’abonnement mensuel ?',
+    r: `${TARIF.mensuel} € par mois couvrent l’hébergement de votre site et les modifications mineures, comme un changement d’horaires ou de tarifs.`
+  },
+  {
+    q: 'Mes patients pourront-ils prendre rendez-vous en ligne ?',
+    r: 'Oui : votre site mène directement à Doctolib ou à votre outil de réservation. En option, le module de créneaux affiche vos prochaines disponibilités sur le site.'
+  },
+  {
+    q: 'À qui s’adresse youXdesign ?',
+    r: 'Aux psychologues en priorité : tout est pensé pour notre code de déontologie. Le configurateur accueille aussi les sophrologues et les coachs.'
+  }
+];
+
+const CITATION = 'Je suis Younes, psychologue. Je connais les questions que se posent nos patients avant d’appeler, les règles de notre code de déontologie et le temps que prennent les appels pour un simple renseignement. J’ai créé youXdesign pour proposer aux psychologues un site clair, rapide et respectueux de leurs patients.';
+
+const description = 'Sites web pour psychologues, conçus par un psychologue : clairs, rapides, sans cookie et pensés pour être trouvés. Configurez le vôtre en dix minutes et voyez-le se construire en direct.';
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ProfessionalService',
+    name: 'youXdesign',
+    url: `${DOMAINE}/`,
+    logo: `${DOMAINE}/brand/symbole-rond.png`,
+    image: `${DOMAINE}/og-youxdesign.png`,
+    description,
+    email: EMAIL,
+    telephone: `+33 ${TELEPHONE.slice(1)}`,
+    areaServed: { '@type': 'Country', name: 'France' },
+    founder: { '@type': 'Person', name: FONDATEUR, jobTitle: 'Psychologue' },
+    makesOffer: {
+      '@type': 'Offer',
+      name: 'Site web pour cabinet de psychologue',
+      price: TARIF.lancement,
+      priceCurrency: 'EUR',
+      description: `Tarif de lancement réservé aux ${TARIF.places} premiers cabinets, puis ${TARIF.mensuel} € par mois pour l’hébergement et les modifications mineures.`
+    }
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: FAQ.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.r } }))
+  }
+];
+const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
+---
+<Youx titre="youXdesign · Sites web pour psychologues, pensés par un psychologue" {description} chemin="/" scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
+  <Entete />
+
+  <main id="contenu" tabindex="-1">
+    <!-- ===== Ouverture ===== -->
+    <section class="vt-heros" aria-labelledby="heros-titre">
+      <div class="vt-heros__fond" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="vt-conteneur vt-heros__grille">
+        <div class="vt-heros__texte">
+          <p class="vt-surtitre vt-heros__surtitre"><span class="vt-point" aria-hidden="true"></span>Sites web pour psychologues</p>
+          <h1 class="vt-heros__titre" id="heros-titre" aria-label={TITRE.map((t) => t.texte).join(' ')}>
+            {TITRE.map((seg) => mots(seg.texte).map((m) => (
+              <><span class:list={['vt-mot', { 'vt-mot--em': seg.em }]} aria-hidden="true"><span>{m}</span></span>{' '}</>
+            )))}
+          </h1>
+          <p class="vt-heros__chapeau">youXdesign conçoit des sites clairs, rapides et respectueux de vos patients. Pensés par un psychologue, construits pour être trouvés.</p>
+          <p class="vt-boutons vt-heros__boutons">
+            <a class="vt-bouton vt-bouton--grand" href="/configurateur/" data-aimant>
+              Configurer mon site
+              <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+            </a>
+            <a class="vt-bouton vt-bouton--grand vt-bouton--contour" href="#realisations">Voir les réalisations</a>
+          </p>
+          <ul class="vt-heros__garanties" aria-label="Engagements">
+            <li>Sans cookie ni traceur</li>
+            <li>Aucune donnée de santé</li>
+            <li>Nom de domaine à votre nom</li>
+          </ul>
+        </div>
+
+        <div class="vt-heros__visuel" data-parallaxe>
+          <div class="vt-heros__scene">
+            <figure class="vt-fenetre vt-heros__ordi">
+              <div class="vt-fenetre__barre" aria-hidden="true"><i></i><i></i><i></i><span>claire-morel-psychologue.fr</span></div>
+              <Picture class="vt-fenetre__image" src={img('sauge-ordinateur')} alt="Page d’accueil du site de démonstration de Claire Morel, psychologue à Lille, dans le style Sauge." formats={['avif', 'webp']} widths={[640, 960, 1280, 1600, 2000]} sizes="(min-width: 64rem) 56vw, 92vw" loading="eager" fetchpriority="high" />
+            </figure>
+            <figure class="vt-telephone vt-heros__tel" data-profondeur>
+              <Picture class="vt-telephone__image" src={img('nocturne-mobile')} alt="Le même site dans le style Nocturne, sur téléphone." formats={['avif', 'webp']} widths={[300, 450, 600, 900]} sizes="(min-width: 64rem) 15vw, 34vw" loading="eager" />
+            </figure>
+            <p class="vt-pastille vt-heros__pastille" aria-hidden="true"><span class="vt-point"></span>Aperçu en direct</p>
+          </div>
+        </div>
+      </div>
+      <a class="vt-heros__defiler" href="#realisations"><span class="sr-only">Découvrir les réalisations</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <!-- ===== Bandeau des styles ===== -->
+    <div class="vt-defile" aria-hidden="true">
+      <div class="vt-defile__piste">
+        {[0, 1].map(() => (
+          <div class="vt-defile__groupe">
+            {styles.map((s) => (
+              <><span>{s.nom}</span><svg class="vt-defile__x" viewBox="0 0 100 100"><path d="M20 20 41 41M59 59 80 80" /><path class="vt-defile__x2" d="M80 20 20 80" /></svg></>
+            ))}
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- ===== Réalisations ===== -->
+    <section class="vt-section vt-realisations" id="realisations" aria-labelledby="realisations-titre">
+      <div class="vt-conteneur">
+        <header class="vt-tete">
+          <p class="vt-surtitre" data-apparait>Réalisations</p>
+          <h2 class="vt-h2" id="realisations-titre" data-apparait>Neuf univers, <em>un même soin.</em></h2>
+          <p class="vt-chapeau" data-apparait>Chaque style est un vrai site, avec toutes ses pages. Votre site part de celui qui vous ressemble, avec vos couleurs, vos textes et vos photos.</p>
+        </header>
+
+        <div class="vt-galerie" data-galerie>
+          <div class="vt-galerie__liste" role="tablist" aria-label="Styles de site" aria-orientation="vertical" data-apparait>
+            {styles.map((s, i) => (
+              <button class="vt-galerie__onglet" type="button" role="tab" id={`onglet-${s.id}`} aria-controls="galerie-vue" aria-selected={i === 0 ? 'true' : 'false'} tabindex={i === 0 ? 0 : -1} data-onglet={s.id} data-detail={s.detail} data-lien={s.base} data-nom={s.nom}>
+                <span class="vt-galerie__num">{String(i + 1).padStart(2, '0')}</span>
+                <span class="vt-galerie__nom">{s.nom}</span>
+                <span class="vt-galerie__resume">{s.resume}</span>
+              </button>
+            ))}
+          </div>
+
+          <div class="vt-galerie__scene" id="galerie-vue" role="tabpanel" aria-labelledby={`onglet-${styles[0].id}`} data-apparait>
+            <div class="vt-fenetre">
+              <div class="vt-fenetre__barre" aria-hidden="true"><i></i><i></i><i></i><span>youxdesign.fr<b data-galerie-adresse>{styles[0].base}</b></span></div>
+              <div class="vt-galerie__images">
+                {styles.map((s, i) => (
+                  <Picture class:list={['vt-galerie__image', { 'est-actif': i === 0 }]} data-image={s.id} src={img(`${s.id}-ordinateur`)} alt={`Page d’accueil du style ${s.nom}.`} formats={['avif', 'webp']} widths={[640, 960, 1280, 1600]} sizes="(min-width: 64rem) 58vw, 92vw" loading="lazy" />
+                ))}
+              </div>
+            </div>
+            <div class="vt-galerie__legende">
+              <p data-galerie-detail>{styles[0].detail}</p>
+              <a class="vt-lien" href={styles[0].base} data-galerie-lien>Visiter la démo <span data-galerie-nom>{styles[0].nom}</span><svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>
+            </div>
+          </div>
+        </div>
+        <p class="vt-centre" data-apparait><a class="vt-bouton vt-bouton--contour" href="/styles/">Parcourir tous les styles</a></p>
+      </div>
+    </section>
+
+    <!-- ===== Vidéo et fonctionnalités ===== -->
+    <section class="vt-section vt-fonctions" id="fonctionnalites" aria-labelledby="fonctions-titre">
+      <div class="vt-conteneur">
+        <header class="vt-tete vt-tete--centre">
+          <p class="vt-surtitre" data-apparait>Le configurateur en vidéo</p>
+          <h2 class="vt-h2" id="fonctions-titre" data-apparait>Votre site prend forme <em>sous vos yeux.</em></h2>
+          <p class="vt-chapeau" data-apparait>Vos informations, un style, vos couleurs, les fonctionnalités utiles à votre pratique : à chaque réponse, l’aperçu affiche le vrai site.</p>
+        </header>
+
+        <div class="vt-video" data-video data-apparait>
+          <div class="vt-fenetre vt-video__fenetre">
+            <div class="vt-fenetre__barre" aria-hidden="true"><i></i><i></i><i></i><span>youxdesign.fr/configurateur</span></div>
+            <div class="vt-video__cadre">
+              <video class="vt-video__media" data-media muted playsinline loop preload="none" width="1920" height="1200" poster="/video/configurateur-affiche.jpg" aria-label="Démonstration du configurateur youXdesign : saisie du nom, choix du style, des couleurs, de la typographie et des fonctionnalités, puis envoi de la demande.">
+                <source src="/video/configurateur-1280.mp4" type="video/mp4" media="(max-width: 48rem)" />
+                <source src="/video/configurateur.webm" type="video/webm" />
+                <source src="/video/configurateur.mp4" type="video/mp4" />
+              </video>
+              <button class="vt-video__lecture" type="button" data-lecture aria-label="Lire la vidéo">
+                <svg class="vt-video__icone-lire" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" /></svg>
+                <svg class="vt-video__icone-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.5h3v13h-3zM13.5 5.5h3v13h-3z" /></svg>
+              </button>
+            </div>
+          </div>
+          <ol class="vt-chapitres" data-chapitres>
+            {CHAPITRES.map((c, i) => (
+              <li>
+                <button type="button" class="vt-chapitre" data-debut={c.debut} data-fin={CHAPITRES[i + 1]?.debut ?? ''}>
+                  <span class="vt-chapitre__barre" aria-hidden="true"><i></i></span>
+                  <span class="vt-chapitre__num">{String(i + 1).padStart(2, '0')}</span>
+                  <strong>{c.titre}</strong>
+                  <span class="vt-chapitre__texte">{c.texte}</span>
+                </button>
+              </li>
+            ))}
+          </ol>
+        </div>
+
+        <ul class="vt-piliers">
+          {PILIERS.map((p) => (
+            <li class="vt-pilier" data-apparait data-lueur>
+              <span class="vt-pilier__icone" aria-hidden="true">
+                {p.icone === 'trouve' && <svg viewBox="0 0 24 24"><circle pathLength="1" cx="10.5" cy="10.5" r="6" /><path pathLength="1" d="m15 15 5.5 5.5" /></svg>}
+                {p.icone === 'cadre' && <svg viewBox="0 0 24 24"><path pathLength="1" d="M12 3.2 19 6v5.2c0 4.3-2.9 7.8-7 9.6-4.1-1.8-7-5.3-7-9.6V6z" /><path pathLength="1" d="m9 12 2.2 2.2L15.5 10" /></svg>}
+                {p.icone === 'respect' && <svg viewBox="0 0 24 24"><rect pathLength="1" x="5" y="10.5" width="14" height="10" rx="2.5" /><path pathLength="1" d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5" /></svg>}
+                {p.icone === 'temps' && <svg viewBox="0 0 24 24"><circle pathLength="1" cx="12" cy="12" r="8.5" /><path pathLength="1" d="M12 7.5V12l3 2" /></svg>}
+              </span>
+              <h3>{p.titre}</h3>
+              <p>{p.texte}</p>
+            </li>
+          ))}
+        </ul>
+
+        <div class="vt-options">
+          <div class="vt-options__tete" data-apparait>
+            <h3 class="vt-h3">Et selon votre pratique</h3>
+            <p>Des blocs à activer dans le configurateur, en un geste.</p>
+          </div>
+          <ul class="vt-options__liste">
+            {OPTIONS.map((o) => (
+              <li data-apparait><strong>{o.nom}</strong><span>{o.description}</span></li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Méthode ===== -->
+    <section class="vt-section vt-methode" id="methode" aria-labelledby="methode-titre">
+      <div class="vt-conteneur">
+        <header class="vt-tete">
+          <p class="vt-surtitre" data-apparait>Méthode</p>
+          <h2 class="vt-h2" id="methode-titre" data-apparait>Simple pour vous, <em>soigné jusqu’au bout.</em></h2>
+        </header>
+        <ol class="vt-etapes" data-etapes>
+          <li class="vt-etapes__ligne" aria-hidden="true"><i data-ligne></i></li>
+          {ETAPES.map((e, i) => (
+            <li class="vt-etape" data-apparait>
+              <span class="vt-etape__num">{String(i + 1).padStart(2, '0')}</span>
+              <h3>{e.titre}</h3>
+              <p>{e.texte}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Par un psy ===== -->
+    <section class="vt-apropos" aria-labelledby="apropos-titre">
+      <div class="vt-conteneur vt-apropos__grille">
+        <p class="vt-surtitre vt-surtitre--clair" id="apropos-titre" data-apparait>Par un psy, pour les psys</p>
+        <figure class="vt-citation">
+          <blockquote data-lecture-mots>
+            <p>{mots(CITATION).map((m) => <><span class="vt-mot-lu">{m}</span>{' '}</>)}</p>
+          </blockquote>
+          <figcaption data-apparait>
+            <span class="vt-citation__symbole" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M20 20 41 41M59 59 80 80" /><path class="vt-citation__x2" d="M80 20 20 80" /></svg></span>
+            <span><strong>{FONDATEUR}</strong>Psychologue, fondateur de youXdesign</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== Tarif ===== -->
+    <section class="vt-section vt-tarifs" id="tarifs" aria-labelledby="tarifs-titre">
+      <div class="vt-conteneur">
+        <header class="vt-tete vt-tete--centre">
+          <p class="vt-surtitre" data-apparait>Tarif de lancement</p>
+          <h2 class="vt-h2" id="tarifs-titre" data-apparait>Un prix clair, <em>sans surprise.</em></h2>
+          <p class="vt-chapeau" data-apparait>Réservé aux {TARIF.places} premiers cabinets, que vous partiez de zéro ou que votre site existe déjà.</p>
+        </header>
+
+        <div class="vt-offre" data-offre data-apparait>
+          <div class="vt-bascule" role="group" aria-label="Type de projet" data-bascule>
+            <span class="vt-bascule__curseur" aria-hidden="true" data-bascule-curseur></span>
+            {Object.entries(OFFRES).map(([id, o], i) => (
+              <button type="button" aria-pressed={i === 0 ? 'true' : 'false'} data-offre-choix={id}>{o.nom}</button>
+            ))}
+          </div>
+          <div class="vt-offre__carte" data-lueur>
+            <div class="vt-offre__prix">
+              <p class="vt-prix"><span class="vt-prix__montant">{TARIF.lancement}</span><span class="vt-prix__devise">€</span></p>
+              <p class="vt-prix__avant">au lieu de <s>{TARIF.normal} €</s></p>
+              <p class="vt-prix__mois">puis <strong>{TARIF.mensuel} € par mois</strong> pour l’hébergement et les modifications mineures</p>
+            </div>
+            <div class="vt-offre__details">
+              {Object.entries(OFFRES).map(([id, o], i) => (
+                <div class="vt-offre__panneau" data-offre-panneau={id} hidden={i !== 0}>
+                  <ul class="vt-coches">
+                    {o.liste.map((l) => <li>{l}</li>)}
+                  </ul>
+                  <p class="vt-offre__note">{o.note}</p>
+                  <a class="vt-bouton vt-bouton--grand" href="/configurateur/">
+                    {o.cta}
+                    <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Questions ===== -->
+    <section class="vt-section vt-questions" id="questions" aria-labelledby="questions-titre">
+      <div class="vt-conteneur vt-questions__grille">
+        <header class="vt-tete">
+          <p class="vt-surtitre" data-apparait>Questions</p>
+          <h2 class="vt-h2" id="questions-titre" data-apparait>Ce que l’on me demande <em>souvent.</em></h2>
+          <p class="vt-chapeau" data-apparait>Une autre question ? Écrivez-moi à <a class="vt-lien" href={`mailto:${EMAIL}`}>{EMAIL}</a> ou appelez le <a class="vt-lien" href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a>.</p>
+        </header>
+        <div class="vt-faq">
+          {FAQ.map((f) => (
+            <details class="vt-faq__item" name="faq" data-apparait>
+              <summary><span>{f.q}</span><i aria-hidden="true"></i></summary>
+              <div class="vt-faq__reponse"><p>{f.r}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Appel final ===== -->
+    <section class="vt-appel" aria-labelledby="appel-titre">
+      <div class="vt-appel__fond" aria-hidden="true"><i></i><i></i></div>
+      <div class="vt-conteneur vt-appel__contenu">
+        <h2 class="vt-appel__titre" id="appel-titre" data-apparait>Votre futur site se dessine <em>en dix minutes.</em></h2>
+        <p data-apparait>Choisissez un style, vos couleurs et vos fonctionnalités : l’aperçu se construit en direct.</p>
+        <p class="vt-boutons" data-apparait>
+          <a class="vt-bouton vt-bouton--grand vt-bouton--clair" href="/configurateur/" data-aimant>
+            Configurer mon site
+            <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+          </a>
+          <a class="vt-bouton vt-bouton--grand vt-bouton--contour-clair" href="/contact/">Me poser une question</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <Pied />
+</Youx>

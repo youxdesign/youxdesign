@@ -1,0 +1,53 @@
+---
+/* Pied de page de la vitrine youXdesign */
+import Logo from './Logo.astro';
+import { EMAIL, TELEPHONE, TELEPHONE_LIEN } from '../../config/youxdesign.mjs';
+
+const annee = new Date().getFullYear();
+---
+<footer class="vt-pied">
+  <div class="vt-conteneur vt-pied__haut">
+    <div class="vt-pied__marque">
+      <Logo />
+      <p>Des sites clairs, rapides et respectueux, pensés par un psychologue pour les psychologues.</p>
+      <a class="vt-bouton vt-bouton--clair" href="/configurateur/">
+        Configurer mon site
+        <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+      </a>
+    </div>
+    <nav class="vt-pied__nav" aria-label="Pied de page">
+      <div>
+        <p class="vt-pied__titre">Le studio</p>
+        <ul>
+          <li><a href="/#realisations">Réalisations</a></li>
+          <li><a href="/#fonctionnalites">Fonctionnalités</a></li>
+          <li><a href="/#methode">Méthode</a></li>
+          <li><a href="/#tarifs">Tarifs</a></li>
+          <li><a href="/#questions">Questions</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="vt-pied__titre">Découvrir</p>
+        <ul>
+          <li><a href="/configurateur/">Configurateur</a></li>
+          <li><a href="/demo/">Site de démonstration</a></li>
+          <li><a href="/styles/">Les neuf styles</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="vt-pied__titre">Contact</p>
+        <ul>
+          <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
+          <li><a href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a></li>
+          <li><a href="/contact/">Écrire un message</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="vt-conteneur vt-pied__bas">
+    <p>© {annee} youXdesign</p>
+    <p>Ce site ne dépose aucun cookie et n’utilise aucun traceur.</p>
+    <p><a href="/mentions-legales/">Mentions légales et confidentialité</a></p>
+  </div>
+  <p class="vt-pied__geant" aria-hidden="true">you<i>X</i>design</p>
+</footer>

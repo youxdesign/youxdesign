@@ -6,7 +6,7 @@ Votre site existe déjà : c’est un atout. Je vous propose de lui donner une n
 
 Je refais le site de votre cabinet sur votre adresse actuelle, {{site_actuel}} : vos patients et Google vous retrouvent au même endroit, sur un site plus rapide, plus clair et pensé pour être trouvé.
 
-> Imaginer mon nouveau site : https://youxdesign.fr/
+> Imaginer mon nouveau site : https://youxdesign.fr/configurateur/
 > Découvrir un site réalisé : https://youxdesign.fr/demo/
 
 
@@ -43,7 +43,7 @@ puis 10 € par mois pour l’hébergement et les modifications mineures
 - Lien vers Doctolib ou votre outil de réservation
 - Votre nom de domaine actuel conservé
 
-> Imaginer mon nouveau site : https://youxdesign.fr/
+> Imaginer mon nouveau site : https://youxdesign.fr/configurateur/
 
 
 Envie d’en parler avant ? Je peux aussi vous dire, sans engagement, ce que je changerais en priorité sur votre site actuel. Répondez simplement à ce message ou appelez-moi au 07 61 84 57 91. Je serai heureux d’en parler avec vous.

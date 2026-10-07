@@ -6,7 +6,7 @@ J’ai créé youXdesign pour proposer aux psychologues un site clair, rapide et
 
 Choisissez un style, vos couleurs et les fonctionnalités utiles à votre pratique : l’aperçu de votre futur site se construit en direct. Je m’occupe ensuite de tout le reste.
 
-> Configurer mon site : %DOMAINE%/
+> Configurer mon site : %DOMAINE%/configurateur/
 > Découvrir un site réalisé : %DOMAINE%/demo/
 
 
@@ -41,7 +41,7 @@ puis 10 € par mois pour l’hébergement et les modifications mineures
 - Lien vers Doctolib ou votre outil de réservation
 - Site adapté au téléphone et rapide à charger
 
-> Je configure mon site : %DOMAINE%/
+> Je configure mon site : %DOMAINE%/configurateur/
 
 
 Une question avant de vous lancer ? Répondez simplement à ce message ou appelez-moi au 07 61 84 57 91. Je serai heureux d’en parler avec vous.

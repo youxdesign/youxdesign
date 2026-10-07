@@ -1,0 +1,60 @@
+---
+/* ==========================================================================
+   En-tête de la vitrine youXdesign
+   Logo, navigation et bouton du configurateur. L'en-tête devient translucide
+   au défilement et s'efface quand on descend (script vitrine.js). Sur
+   téléphone : menu plein écran, fermeture par Échap ou par un lien.
+   ========================================================================== */
+import Logo from './Logo.astro';
+import { EMAIL, TELEPHONE, TELEPHONE_LIEN } from '../../config/youxdesign.mjs';
+
+interface Props { actif?: string }
+const { actif } = Astro.props;
+const LIENS = [
+  { id: 'realisations', href: '/#realisations', texte: 'Réalisations' },
+  { id: 'fonctionnalites', href: '/#fonctionnalites', texte: 'Fonctionnalités' },
+  { id: 'tarifs', href: '/#tarifs', texte: 'Tarifs' },
+  { id: 'contact', href: '/contact/', texte: 'Contact' }
+];
+---
+<header class="vt-entete" data-entete>
+  <div class="vt-entete__barre">
+    <Logo />
+    <nav class="vt-nav" aria-label="Navigation principale">
+      <ul>
+        {LIENS.map((l) => (
+          <li><a href={l.href} aria-current={actif === l.id ? 'page' : undefined}><span>{l.texte}</span></a></li>
+        ))}
+      </ul>
+    </nav>
+    <a class="vt-bouton vt-bouton--petit vt-entete__cta" href="/configurateur/">
+      Configurer mon site
+      <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+    </a>
+    <button type="button" class="vt-burger" aria-expanded="false" aria-controls="vt-menu" data-burger>
+      <span class="sr-only" data-burger-texte>Ouvrir le menu</span>
+      <i aria-hidden="true"></i><i aria-hidden="true"></i>
+    </button>
+  </div>
+
+  <div class="vt-menu" id="vt-menu" data-menu hidden>
+    <nav aria-label="Navigation principale">
+      <ul class="vt-menu__liens">
+        {LIENS.map((l) => (
+          <li><a href={l.href} aria-current={actif === l.id ? 'page' : undefined}>{l.texte}</a></li>
+        ))}
+        <li><a href="/styles/">Tous les styles</a></li>
+      </ul>
+    </nav>
+    <div class="vt-menu__pied">
+      <a class="vt-bouton" href="/configurateur/">
+        Configurer mon site
+        <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+      </a>
+      <p class="vt-menu__contact">
+        <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+        <a href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a>
+      </p>
+    </div>
+  </div>
+</header>

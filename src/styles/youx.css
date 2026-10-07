@@ -115,6 +115,10 @@ main:focus { outline: none; }
 .yx-bouton--secondaire { background: transparent; color: var(--yx-violet); border-color: var(--yx-violet); }
 .yx-bouton--secondaire:hover { background: var(--yx-lilas-doux); }
 
+/* Fondu entre les pages youXdesign (navigateurs compatibles) */
+@view-transition { navigation: auto; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  @view-transition { navigation: none; }
 }

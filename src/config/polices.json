@@ -1049,5 +1049,24 @@
       "lineGapOverride": "0%"
     },
     "variable": true
+  },
+  "inter": {
+    "famille": "Inter",
+    "type": "sans-serif",
+    "fichiers": [
+      {
+        "poids": "400 700",
+        "style": "normal",
+        "url": "/fonts/inter-variable.woff2"
+      }
+    ],
+    "repli": {
+      "local": "Arial",
+      "sizeAdjust": "107.12%",
+      "ascentOverride": "90.44%",
+      "descentOverride": "22.52%",
+      "lineGapOverride": "0%"
+    },
+    "variable": true
   }
 }

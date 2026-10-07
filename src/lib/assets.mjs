@@ -112,16 +112,24 @@ export async function feuilleSite(site) {
   return memo.get(cle);
 }
 
-/* Feuille de style d'un outil youXdesign : « youx » (pages d'information) ou
-   « configurateur » (qui déclare aussi toutes les polices des styles, pour
-   les exemples de typographie ; seules celles affichées sont téléchargées). */
+/* Feuille de style d'un outil youXdesign : « youx » (pages d'information),
+   « vitrine » (page de présentation, contact, galerie) ou « configurateur »
+   (qui déclare aussi toutes les polices des styles, pour les exemples de
+   typographie ; seules celles affichées sont téléchargées). */
+const FICHIERS_OUTIL = {
+  configurateur: ['src/styles/youx.css', 'src/styles/configurateur.css'],
+  vitrine: ['src/styles/youx.css', 'src/styles/vitrine.css']
+};
+
 export async function feuilleOutil(nom) {
   const cle = `outil:${nom}`;
   if (!memo.has(cle)) {
     const polices = nom === 'configurateur'
       ? Object.keys(polices_)
-      : ['instrument-sans', 'instrument-serif', 'cormorant-garamond'];
-    const fichiers = nom === 'configurateur' ? ['src/styles/youx.css', 'src/styles/configurateur.css'] : [`src/styles/${nom}.css`];
+      : nom === 'vitrine'
+        ? ['inter', 'cormorant-garamond']
+        : ['instrument-sans', 'instrument-serif', 'cormorant-garamond'];
+    const fichiers = FICHIERS_OUTIL[nom] || [`src/styles/${nom}.css`];
     const brut = fontFaces(polices) + fichiers.map(lire).join('\n');
     const contenu = await compresser(brut);
     const fichier = `${nom}.${empreinte(contenu)}.css`;

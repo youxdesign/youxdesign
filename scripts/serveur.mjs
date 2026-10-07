@@ -17,7 +17,7 @@ const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg',
   '.gif': 'image/gif', '.webp': 'image/webp', '.avif': 'image/avif', '.woff2': 'font/woff2', '.xml': 'application/xml',
-  '.txt': 'text/plain; charset=utf-8', '.ico': 'image/x-icon'
+  '.txt': 'text/plain; charset=utf-8', '.ico': 'image/x-icon', '.mp4': 'video/mp4', '.webm': 'video/webm'
 };
 
 const lireTexte = (f) => readFile(join(RACINE, f), 'utf8').catch(() => '');
@@ -71,6 +71,18 @@ createServer(async (req, res) => {
   const entetes = { 'Content-Type': TYPES[extname(cible)] || 'application/octet-stream' };
   for (const r of regles) if (correspond(r.motif, chemin)) for (const [n, v] of r.entetes) entetes[n] = v;
   let corps = await readFile(cible);
+  /* Vidéos : lecture par morceaux (Range), indispensable pour se déplacer dans la vidéo */
+  if (entetes['Content-Type'].startsWith('video/')) {
+    entetes['Accept-Ranges'] = 'bytes';
+    const plage = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range || '');
+    if (plage && statut === 200) {
+      const debut = plage[1] ? Number(plage[1]) : corps.length - Number(plage[2]);
+      const fin = plage[1] && plage[2] ? Math.min(Number(plage[2]), corps.length - 1) : corps.length - 1;
+      entetes['Content-Range'] = `bytes ${debut}-${fin}/${corps.length}`;
+      res.writeHead(206, entetes);
+      return res.end(corps.subarray(debut, fin + 1));
+    }
+  }
   /* Compression des fichiers texte, comme Cloudflare */
   const accepte = req.headers['accept-encoding'] || '';
   if (/^(text|application\/(json|xml)|image\/svg)/.test(entetes['Content-Type'])) {

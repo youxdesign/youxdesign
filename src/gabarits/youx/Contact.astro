@@ -1,0 +1,82 @@
+---
+/* ==========================================================================
+   Page Contact de la vitrine youXdesign
+   Pas de serveur ni de service extérieur : le formulaire prépare un e-mail
+   dans la messagerie du visiteur (comme le configurateur). Rien n'est
+   enregistré ni transmis par le site lui-même.
+   ========================================================================== */
+import Youx from '../../layouts/Youx.astro';
+import Entete from '../../components/youx/Entete.astro';
+import Pied from '../../components/youx/Pied.astro';
+import { DOMAINE, EMAIL, TELEPHONE, TELEPHONE_LIEN } from '../../config/youxdesign.mjs';
+
+const SUJETS = ['Créer le site de mon cabinet', 'Refaire mon site actuel', 'Une question'];
+const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
+const jsonld = [{
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  url: `${DOMAINE}/contact/`,
+  mainEntity: { '@type': 'Organization', name: 'youXdesign', email: EMAIL, telephone: `+33 ${TELEPHONE.slice(1)}` }
+}];
+---
+<Youx titre="Contact · youXdesign" description="Une question sur votre futur site ? Écrivez à youXdesign ou appelez Younes, psychologue et fondateur du studio." chemin="/contact/" scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
+  <Entete actif="contact" />
+
+  <main id="contenu" tabindex="-1" class="vt-page">
+    <section class="vt-conteneur vt-contact" aria-labelledby="contact-titre">
+      <div class="vt-contact__intro">
+        <p class="vt-surtitre vt-entree">Contact</p>
+        <h1 class="vt-page__titre vt-entree" id="contact-titre">Parlons de <em>votre cabinet.</em></h1>
+        <p class="vt-chapeau vt-entree">Un projet, une hésitation, une question sur le tarif ou le référencement : je vous réponds personnellement.</p>
+
+        <ul class="vt-contact__moyens vt-entree">
+          <li>
+            <span class="vt-contact__etiquette">E-mail</span>
+            <a class="vt-contact__valeur" href={`mailto:${EMAIL}`}>{EMAIL}</a>
+            <button type="button" class="vt-copier" data-copier={EMAIL}><span data-copier-texte>Copier</span></button>
+          </li>
+          <li>
+            <span class="vt-contact__etiquette">Téléphone</span>
+            <a class="vt-contact__valeur" href={`tel:${TELEPHONE_LIEN}`}>{TELEPHONE}</a>
+          </li>
+          <li>
+            <span class="vt-contact__etiquette">Le plus rapide</span>
+            <a class="vt-contact__valeur" href="/configurateur/">Configurer mon site <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>
+            <span class="vt-contact__aide">Dix minutes, et votre demande part avec un récapitulatif complet.</span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="vt-formulaire vt-entree" data-formulaire-contact data-email={EMAIL} novalidate>
+        <fieldset class="vt-formulaire__sujets">
+          <legend>Votre demande</legend>
+          <div class="vt-puces">
+            {SUJETS.map((s, i) => (
+              <label><input type="radio" name="sujet" value={s} checked={i === 0} /><span>{s}</span></label>
+            ))}
+          </div>
+        </fieldset>
+        <div class="vt-formulaire__ligne">
+          <label class="vt-champ"><span>Prénom et nom</span><input name="nom" autocomplete="name" required /></label>
+          <label class="vt-champ"><span>Ville du cabinet <em>facultatif</em></span><input name="ville" autocomplete="address-level2" /></label>
+        </div>
+        <div class="vt-formulaire__ligne">
+          <label class="vt-champ"><span>E-mail</span><input name="email" type="email" autocomplete="email" required /></label>
+          <label class="vt-champ"><span>Téléphone <em>facultatif</em></span><input name="telephone" type="tel" autocomplete="tel" /></label>
+        </div>
+        <label class="vt-champ vt-champ--site" data-si-refonte hidden><span>Adresse de votre site actuel</span><input name="site" type="url" inputmode="url" placeholder="https://" /></label>
+        <label class="vt-champ"><span>Votre message</span><textarea name="message" rows="5" required></textarea></label>
+        <p class="vt-formulaire__erreur" data-erreur role="alert" hidden></p>
+        <div class="vt-formulaire__envoi">
+          <button class="vt-bouton vt-bouton--grand" type="submit">
+            Préparer mon e-mail
+            <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+          </button>
+          <p>Votre messagerie s’ouvre avec le message prêt à partir. Ce site n’enregistre ni ne transmet rien.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <Pied />
+</Youx>

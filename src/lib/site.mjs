@@ -2,7 +2,8 @@
    Ce que l'on génère, et à quelle adresse.
 
    Deux modes :
-   - « vitrine » (par défaut) : le site youXdesign. Configurateur à la racine,
+   - « vitrine » (par défaut) : le site youXdesign. Page de présentation à la
+     racine, configurateur dans /configurateur/, contact et mentions légales,
      démo de Claire Morel dans /demo/ et un exemple par style dans /styles/…
    - « client » : le site d'un cabinet, à la racine. Activé par la variable
      d'environnement CABINET (nom du dossier dans cabinets/).
@@ -80,7 +81,10 @@ export function routes() {
     liste.push({ chemin: (site.base + '404').replace(/^\//, ''), type: 'page', site, page: '404' });
   }
   if (MODE === 'vitrine') {
-    liste.push({ chemin: undefined, type: 'configurateur' });
+    liste.push({ chemin: undefined, type: 'vitrine' });
+    liste.push({ chemin: 'configurateur', type: 'configurateur' });
+    liste.push({ chemin: 'contact', type: 'contact-youx' });
+    liste.push({ chemin: 'mentions-legales', type: 'legal-youx' });
     liste.push({ chemin: 'styles', type: 'galerie' });
     liste.push({ chemin: '404', type: 'erreur-youx' });
   }

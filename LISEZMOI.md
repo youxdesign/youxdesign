@@ -2,7 +2,7 @@
 
 Ce dossier contient deux choses :
 
-1. **le site youXdesign** : le configurateur, la démo de Claire Morel et les neuf styles, en ligne sur https://youxdesign.fr ;
+1. **le site youXdesign** : la vitrine, le configurateur, la page contact, la démo de Claire Morel et les neuf styles, en ligne sur https://youxdesign.fr ;
 2. **la fabrique des sites de vos clients** : à partir d'une fiche (un fichier texte par cabinet), elle produit un site complet, prêt à mettre en ligne.
 
 Tout est écrit en français, y compris les messages d'erreur. Vous n'avez pas besoin de savoir programmer : il suffit de modifier des fichiers texte et de lancer quelques commandes, toujours les mêmes. Claude Code peut aussi les lancer pour vous.
@@ -31,7 +31,10 @@ Tout est écrit en français, y compris les messages d'erreur. Vous n'avez pas b
 
 | Page | Adresse |
 | --- | --- |
-| Configurateur (page d'accueil) | https://youxdesign.fr/ |
+| Vitrine (page d'accueil) | https://youxdesign.fr/ |
+| Configurateur | https://youxdesign.fr/configurateur/ |
+| Contact | https://youxdesign.fr/contact/ |
+| Mentions légales et confidentialité | https://youxdesign.fr/mentions-legales/ |
 | Démo Claire Morel, style Sauge | https://youxdesign.fr/demo/ |
 | Galerie des styles | https://youxdesign.fr/styles/ |
 | Terre & organique | https://youxdesign.fr/styles/terre/ |
@@ -314,7 +317,17 @@ puis ouvrez http://localhost:4321.
 
 - Les textes et données de la démo : `cabinets/claire-morel/cabinet.json` (cette fiche alimente les neuf styles).
 - Les styles, palettes, polices et options proposés : `src/config/catalogue.mjs`.
-- L'adresse du site youXdesign et l'e-mail qui reçoit les demandes : `src/config/youxdesign.mjs`. Pour passer à un nom de domaine définitif, il suffit de changer la ligne `DOMAINE`. Elle sert aussi aux liens de l'e-mail : relancez ensuite `npm run email`.
+- L'adresse du site youXdesign et l'e-mail qui reçoit les demandes : `src/config/youxdesign.mjs`. Pour passer à un nom de domaine définitif, il suffit de changer la ligne `DOMAINE`. Elle sert aussi aux liens de l'e-mail : relancez ensuite `npm run email`. Le même fichier contient le téléphone, le nom de l'éditeur (mentions légales) et le tarif affiché sur la vitrine (`TARIF`).
+
+**La vitrine (page d'accueil)**
+
+- Les textes de la page d'accueil : `src/gabarits/youx/Vitrine.astro` (réalisations, vidéo, fonctionnalités, méthode, tarif, questions fréquentes). Les autres pages : `Contact.astro`, `Legal.astro` (mentions légales), `Accueil.astro` (galerie des styles) dans le même dossier.
+- En-tête et pied de page : `src/components/youx/Entete.astro` et `Pied.astro`.
+- Le design et les animations : `src/styles/vitrine.css` et `src/scripts/vitrine.js`. Le défilement doux utilise la bibliothèque Lenis ; tout mouvement s'arrête si le visiteur a demandé à réduire les animations.
+- Les captures des neuf styles : `src/assets/vitrine/` (une version ordinateur et une version téléphone par style, en WebP). Si un style change beaucoup, refaites la capture avec la même taille (1440 × 900 en écran double densité pour l'ordinateur, 390 × 844 pour le téléphone).
+- La vidéo du configurateur : `youx-statique/video/` (MP4, MP4 allégé pour téléphone, WebM et image d'attente). Les chapitres (moments clés de la vidéo, en secondes) sont réglés en haut de `Vitrine.astro`.
+- L'image de partage sur les réseaux sociaux : `youx-statique/og-youxdesign.png` (1200 × 630).
+- Le formulaire de contact n'envoie rien lui-même : il prépare un e-mail dans la messagerie du visiteur, adressé à `EMAIL`.
 
 ---
 
@@ -400,7 +413,9 @@ cabinets/            une fiche par cabinet (claire-morel = la démo)
 clients/             sites fabriqués par « npm run client », prêts à mettre en ligne
 dist/                site youXdesign fabriqué par « npm run build »
 email/               e-mail de prospection : modèles et versions prêtes à envoyer
-youx-statique/       fichiers propres au site youXdesign : logo, images des e-mails
+youx-statique/       fichiers propres au site youXdesign : logo, images des e-mails, vidéo, image de partage
+src/assets/vitrine/  captures des neuf styles affichées sur la vitrine
+src/gabarits/youx/   pages du site youXdesign : vitrine, configurateur, contact, mentions légales, galerie
 public/fonts/        polices hébergées sur les sites (aucun appel à Google Fonts)
 scripts/             commandes : client, aperçu, carte, e-mail, polices
 src/config/          catalogue (styles, palettes, polices, options) et réglages youXdesign
