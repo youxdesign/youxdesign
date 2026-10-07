@@ -40,7 +40,7 @@ const morceaux = [];
 for (let ty = ty0; ty <= ty1; ty++) {
   for (let tx = tx0; tx <= tx1; tx++) {
     const url = `https://tile.openstreetmap.org/${ZOOM}/${tx}/${ty}.png`;
-    const rep = await fetch(url, { headers: { 'User-Agent': 'youXdesign-carte/1.0 (contact.youxdesign@gmail.com)' } });
+    const rep = await fetch(url, { headers: { 'User-Agent': 'youXdesign-carte/1.0 (contact@youxdesign.fr)' } });
     if (!rep.ok) throw new Error(`Tuile indisponible (${rep.status}) : ${url}`);
     morceaux.push({ input: Buffer.from(await rep.arrayBuffer()), left: (tx - tx0) * TUILE, top: (ty - ty0) * TUILE });
     await pause(120);

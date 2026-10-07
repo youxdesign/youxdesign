@@ -2,7 +2,7 @@
 
 Ce dossier contient deux choses :
 
-1. **le site youXdesign** : le configurateur, la démo de Claire Morel et les neuf styles, en ligne sur https://youxdesign.pages.dev ;
+1. **le site youXdesign** : le configurateur, la démo de Claire Morel et les neuf styles, en ligne sur https://youxdesign.fr ;
 2. **la fabrique des sites de vos clients** : à partir d'une fiche (un fichier texte par cabinet), elle produit un site complet, prêt à mettre en ligne.
 
 Tout est écrit en français, y compris les messages d'erreur. Vous n'avez pas besoin de savoir programmer : il suffit de modifier des fichiers texte et de lancer quelques commandes, toujours les mêmes. Claude Code peut aussi les lancer pour vous.
@@ -31,19 +31,19 @@ Tout est écrit en français, y compris les messages d'erreur. Vous n'avez pas b
 
 | Page | Adresse |
 | --- | --- |
-| Configurateur (page d'accueil) | https://youxdesign.pages.dev/ |
-| Démo Claire Morel, style Sauge | https://youxdesign.pages.dev/demo/ |
-| Galerie des styles | https://youxdesign.pages.dev/styles/ |
-| Terre & organique | https://youxdesign.pages.dev/styles/terre/ |
-| Santé contemporaine | https://youxdesign.pages.dev/styles/sante/ |
-| Wabi-sabi | https://youxdesign.pages.dev/styles/wabi/ |
-| Minimalisme suisse | https://youxdesign.pages.dev/styles/suisse/ |
-| Immersif | https://youxdesign.pages.dev/styles/immersif/ |
-| Éditorial | https://youxdesign.pages.dev/styles/editorial/ |
-| Pastel doux | https://youxdesign.pages.dev/styles/pastel/ |
-| Nocturne | https://youxdesign.pages.dev/styles/nocturne/ |
+| Configurateur (page d'accueil) | https://youxdesign.fr/ |
+| Démo Claire Morel, style Sauge | https://youxdesign.fr/demo/ |
+| Galerie des styles | https://youxdesign.fr/styles/ |
+| Terre & organique | https://youxdesign.fr/styles/terre/ |
+| Santé contemporaine | https://youxdesign.fr/styles/sante/ |
+| Wabi-sabi | https://youxdesign.fr/styles/wabi/ |
+| Minimalisme suisse | https://youxdesign.fr/styles/suisse/ |
+| Immersif | https://youxdesign.fr/styles/immersif/ |
+| Éditorial | https://youxdesign.fr/styles/editorial/ |
+| Pastel doux | https://youxdesign.fr/styles/pastel/ |
+| Nocturne | https://youxdesign.fr/styles/nocturne/ |
 
-Chaque démo a les mêmes pages : ajoutez à son adresse `a-propos/`, `approche/`, `consultations/`, `faq/`, `contact/`, `mentions-legales/` ou `confidentialite/`. Par exemple : https://youxdesign.pages.dev/styles/terre/contact/
+Chaque démo a les mêmes pages : ajoutez à son adresse `a-propos/`, `approche/`, `consultations/`, `faq/`, `contact/`, `mentions-legales/` ou `confidentialite/`. Par exemple : https://youxdesign.fr/styles/terre/contact/
 
 **Montrer une démo avec d'autres réglages** : ajoutez des paramètres à l'adresse, ils suivent le visiteur de page en page.
 
@@ -52,14 +52,14 @@ Chaque démo a les mêmes pages : ajoutez à son adresse `a-propos/`, `approche/
 - `?options=creneaux,carte,faq` : fonctionnalités affichées ;
 - style Immersif : `?fond=diaporama&voile=fort`.
 
-Exemple : https://youxdesign.pages.dev/styles/terre/?palette=1&police=2&options=statut,carte,faq
+Exemple : https://youxdesign.fr/styles/terre/?palette=1&police=2&options=statut,carte,faq
 
-**Images de l'e-mail** : https://youxdesign.pages.dev/email/apercu-demos.gif. Les images des anciens e-mails restent en place, ne les supprimez pas : `/apercu-demo.gif`, `/apercu-demov2.gif`, `/apercu-demov3.gif` et le dossier `/brand/`.
+**Images de l'e-mail** : https://youxdesign.fr/email/apercu-demos.gif. Les images des anciens e-mails restent en place, ne les supprimez pas : `/apercu-demo.gif`, `/apercu-demov2.gif`, `/apercu-demov3.gif` et le dossier `/brand/`.
 
 **Code et versions de travail**
 
 - Le code est sur GitHub : https://github.com/youxdesign/youxdesign
-- La branche `main` est ce qui est en ligne sur youxdesign.pages.dev.
+- La branche `main` est ce qui est en ligne sur youxdesign.fr.
 - La branche `refonte` sert à travailler : chaque envoi sur cette branche est visible à part, sur https://refonte.youxdesign.pages.dev, sans toucher au site en ligne.
 
 ---
@@ -89,7 +89,7 @@ Vérification : `node -v` doit afficher `v24…`.
 
 Exemple pour une psychologue, Julie Bernard. Le nom de dossier choisi est `julie-bernard` : en minuscules, sans espace ni accent.
 
-1. **Recevoir la demande.** Le prospect remplit le configurateur et envoie le récapitulatif depuis sa messagerie, à l'adresse contact.youxdesign@gmail.com. Ses photos arrivent en pièces jointes.
+1. **Recevoir la demande.** Le prospect remplit le configurateur et envoie le récapitulatif depuis sa messagerie, à l'adresse contact@youxdesign.fr. Ses photos arrivent en pièces jointes.
 
 2. **Copier la fiche d'exemple.** Dupliquez le dossier `cabinets/claire-morel/` et renommez la copie `cabinets/julie-bernard/`.
 
@@ -293,7 +293,7 @@ Le dossier `clients/` n'est pas envoyé sur GitHub : c'est un résultat, que l'o
 Le site youXdesign est relié à GitHub : Cloudflare le reconstruit tout seul à chaque envoi.
 
 - **Branche `refonte`** : pour travailler. Chaque envoi est visible sur https://refonte.youxdesign.pages.dev, sans toucher au site public.
-- **Branche `main`** : ce qui est en ligne sur https://youxdesign.pages.dev. On y fusionne `refonte` quand tout est validé.
+- **Branche `main`** : ce qui est en ligne sur https://youxdesign.fr. On y fusionne `refonte` quand tout est validé.
 
 Réglages de Cloudflare pour ce projet (déjà faits, à ne pas changer) :
 
@@ -351,7 +351,7 @@ La commande vérifie aussi que l'e-mail pèse moins de 100 Ko (au-delà, Gmail l
 - Envoyez par petits lots, depuis une adresse professionnelle.
 - Le pied de l'e-mail indique où l'adresse a été trouvée et propose de répondre « STOP ». Retirez aussitôt de vos listes toute personne qui répond « STOP ».
 
-**Le GIF animé** de l'e-mail montre l'accueil de trois démos qui défile : Sauge, Terre & organique et Nocturne. Il est hébergé sur le site, dans `youx-statique/email/apercu-demos.gif`, à l'adresse https://youxdesign.pages.dev/email/apercu-demos.gif. Une image ajoutée ou changée n'apparaît dans les e-mails qu'une fois envoyée sur la branche `main`.
+**Le GIF animé** de l'e-mail montre l'accueil de trois démos qui défile : Sauge, Terre & organique et Nocturne. Il est hébergé sur le site, dans `youx-statique/email/apercu-demos.gif`, à l'adresse https://youxdesign.fr/email/apercu-demos.gif. Une image ajoutée ou changée n'apparaît dans les e-mails qu'une fois envoyée sur la branche `main`.
 
 **Ce que l'e-mail ne promet pas**, volontairement : « 100 % conforme RGPD », « certifié accessible », « hébergé en France » ou tout autre engagement impossible à prouver. Gardez cette règle si vous modifiez le texte.
 
@@ -382,7 +382,7 @@ La commande vérifie aussi que l'e-mail pèse moins de 100 Ko (au-delà, Gmail l
 | `Fiche introuvable` | Vérifiez le nom du dossier dans `cabinets/` et dans la commande. |
 | Une photo n'apparaît pas | Vérifiez son nom exact (`portrait.jpg`…) et son dossier (`images/`), puis refabriquez le site. |
 | Le plan est celui de Lille | Supprimez `images/carte.png`, renseignez les coordonnées GPS, puis lancez `npm run carte -- <dossier>`. |
-| Cloudflare affiche « Build failed » pour youxdesign.pages.dev | Vérifiez les réglages de la [partie 9](#9-modifier-le-site-youxdesign). Le détail est dans Cloudflare, onglet « Deployments ». |
+| Cloudflare affiche « Build failed » pour youxdesign.fr | Vérifiez les réglages de la [partie 9](#9-modifier-le-site-youxdesign). Le détail est dans Cloudflare, onglet « Deployments ». |
 | Une image n'apparaît pas dans l'e-mail | Elle n'est sans doute pas encore sur la branche `main` : ouvrez son adresse dans un navigateur pour vérifier. |
 
 En cas de doute, demandez à Claude Code : il connaît ce projet et peut lancer les commandes pour vous.

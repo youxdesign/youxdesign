@@ -6,8 +6,8 @@ J’ai créé youXdesign pour proposer aux psychologues un site clair, rapide et
 
 Choisissez un style, vos couleurs et les fonctionnalités utiles à votre pratique : l’aperçu de votre futur site se construit en direct. Je m’occupe ensuite de tout le reste.
 
-> Configurer mon site : https://youxdesign.pages.dev/
-> Découvrir un site réalisé : https://youxdesign.pages.dev/demo/
+> Configurer mon site : https://youxdesign.fr/
+> Découvrir un site réalisé : https://youxdesign.fr/demo/
 
 
 CE QUE VOTRE SITE CHANGE
@@ -41,7 +41,7 @@ puis 10 € par mois pour l’hébergement et les modifications mineures
 - Lien vers Doctolib ou votre outil de réservation
 - Site adapté au téléphone et rapide à charger
 
-> Je configure mon site : https://youxdesign.pages.dev/
+> Je configure mon site : https://youxdesign.fr/
 
 
 Une question avant de vous lancer ? Répondez simplement à ce message ou appelez-moi au 07 61 84 57 91. Je serai heureux d’en parler avec vous.
@@ -50,7 +50,7 @@ Bien confraternellement,
 
 Younes
 Psychologue · Fondateur de youXdesign
-contact.youxdesign@gmail.com | youxdesign.pages.dev
+contact@youxdesign.fr | youxdesign.fr
 
 --
 Je vous écris car votre adresse professionnelle figure sur {{source}}. Pour ne plus recevoir de message de ma part, répondez simplement « STOP ».
