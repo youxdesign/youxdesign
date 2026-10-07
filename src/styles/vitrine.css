@@ -624,7 +624,7 @@ html.lenis, html.lenis body { height: auto; }
 .vt-option__carte::before {
   content: ''; position: absolute; inset: -1.5px; z-index: 3; pointer-events: none;
   padding: 1.5px; border-radius: calc(var(--vt-rayon) + .5px);
-  background: radial-gradient(15rem circle at var(--vt-px, 50%) var(--vt-py, 0%), var(--vt-eclat), rgb(255 255 255 / 0) 70%);
+  background: radial-gradient(15rem circle at var(--vt-px, 50%) var(--vt-py, 0%), var(--vt-eclat), rgb(255 255 255 / 0) 60%);
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor; mask-composite: exclude;
   opacity: 0; transition: opacity .5s var(--vt-ease);
@@ -648,13 +648,13 @@ html.lenis, html.lenis body { height: auto; }
 .vt-option__visuel::before {
   content: ''; position: absolute; z-index: 2; top: -25%; bottom: -25%; left: 0; width: 42%; pointer-events: none;
   /* Cœur blanc et franges irisées (lilas, pêche), visibles même sur le blanc */
-  background: linear-gradient(90deg, rgb(255 255 255 / 0) 8%, rgb(196 176 255 / .34) 34%, rgb(255 255 255 / .85) 50%, rgb(255 206 184 / .32) 66%, rgb(255 255 255 / 0) 92%);
+  background: linear-gradient(90deg, rgb(255 255 255 / 0) 10%, rgb(196 176 255 / .12) 34%, rgb(255 255 255 / .4) 50%, rgb(255 206 184 / .11) 66%, rgb(255 255 255 / 0) 90%);
   transform: translateX(-140%) skewX(-18deg);
 }
 /* Brillance qui suit la souris */
 .vt-option__visuel::after {
   content: ''; position: absolute; inset: 0; z-index: 2; pointer-events: none;
-  background: radial-gradient(14rem circle at calc(var(--vt-px, 50%) - .5rem) calc(var(--vt-py, 0%) - .5rem), rgb(255 255 255 / .8), rgb(255 255 255 / 0) 62%);
+  background: radial-gradient(14rem circle at calc(var(--vt-px, 50%) - .5rem) calc(var(--vt-py, 0%) - .5rem), rgb(255 255 255 / .55), rgb(255 255 255 / 0) 62%);
   mix-blend-mode: soft-light; opacity: 0; transition: opacity .6s var(--vt-ease);
 }
 @media (hover: hover) and (pointer: fine) {
@@ -662,7 +662,7 @@ html.lenis, html.lenis body { height: auto; }
   .vt-option__carte:hover::before, .vt-option__carte:hover::after, .vt-option__carte:hover .vt-option__visuel::after { opacity: 1; }
 }
 @media (prefers-reduced-motion: no-preference) {
-  .vt-option.est-anime .vt-option__visuel::before { animation: vtReflet 1.5s var(--vt-ease-io) .1s both; }
+  .vt-option.est-anime .vt-option__visuel::before { animation: vtReflet 2.2s var(--vt-ease-io) .2s both; }
 }
 @media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine) {
   .vt-option__carte:hover { --vt-lift: -6px; }

@@ -198,7 +198,7 @@ if (pointeurFin && !calme) {
       el.style.setProperty('--vt-ly', `${e.clientY - r.top}px`);
     });
   });
-  /* Encarts d'options : la carte s'incline à peine vers le pointeur (3° au plus),
+  /* Encarts d'options : la carte s'incline à peine vers le pointeur (2° au plus),
      le liseré et la brillance suivent la souris */
   $$('.vt-option__carte').forEach((c) => {
     c.addEventListener('pointermove', (e) => {
@@ -207,8 +207,8 @@ if (pointeurFin && !calme) {
       const y = (e.clientY - r.top) / r.height;
       c.style.setProperty('--vt-px', `${(e.clientX - r.left).toFixed(0)}px`);
       c.style.setProperty('--vt-py', `${(e.clientY - r.top).toFixed(0)}px`);
-      c.style.setProperty('--vt-rx', `${((0.5 - y) * 6).toFixed(2)}deg`);
-      c.style.setProperty('--vt-ry', `${((x - 0.5) * 6).toFixed(2)}deg`);
+      c.style.setProperty('--vt-rx', `${((0.5 - y) * 4).toFixed(2)}deg`);
+      c.style.setProperty('--vt-ry', `${((x - 0.5) * 4).toFixed(2)}deg`);
     });
     c.addEventListener('pointerleave', () => { c.style.setProperty('--vt-rx', '0deg'); c.style.setProperty('--vt-ry', '0deg'); });
   });
