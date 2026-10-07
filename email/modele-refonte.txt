@@ -2,51 +2,59 @@ Bonjour {{prenom}},
 
 {{detail_personnalisation}} Je suis Younes, psychologue. Je connais les questions que se posent nos patients avant d’appeler, les règles de notre code de déontologie et le temps que prennent les appels pour un simple renseignement.
 
-Votre site existe déjà : c’est un atout. Je vous propose de lui donner une nouvelle version, construite pour être bien comprise par Google et rassurante pour vos futurs patients, sans changer d’adresse.
+Votre site existe déjà : c’est un atout. Je vous propose de lui donner une nouvelle version, plus belle et plus rassurante pour vos futurs patients, sans changer d’adresse.
 
-Je refais le site de votre cabinet sur votre adresse actuelle, {{site_actuel}} : vos patients et Google vous retrouvent au même endroit, sur un site plus rapide, plus clair et pensé pour être trouvé.
+Je refais le site de votre cabinet sur votre adresse actuelle, {{site_actuel}} : vos patients et Google vous retrouvent au même endroit, sur un site plus beau, plus clair et plus rapide.
 
 > Imaginer mon nouveau site : %DOMAINE%/configurateur/
-> Découvrir un site réalisé : %DOMAINE%/demo/
+> Réserver un appel gratuit (15 minutes, sans engagement) : %APPEL%
+> Voir les neuf styles : %DOMAINE%/styles/
 
 
-CE QUE GOOGLE REGARDE, ET CE QUE VOTRE NOUVEAU SITE LUI DONNERA
+CE QU’UN BEAU SITE CHANGE POUR VOTRE CABINET
 
-I. Rapidité et téléphone
-Des pages légères qui s’affichent tout de suite, même sur mobile. Nos sites de démonstration obtiennent 100/100 aux tests Lighthouse de Google, en performance comme en référencement.
+1. Rassurer dès le premier regard
+On se fait une idée d’un site en un instant. Un design soigné et apaisant rassure une personne qui hésite à consulter, avant même le premier appel.
 
-II. Les bons mots, au bon endroit
-Une page pour chaque grand sujet (approche, consultations, questions fréquentes), avec des titres et des descriptions rédigés pour les recherches « psychologue + votre ville » et vos spécialités.
+2. Un site qui vous ressemble
+Couleurs, style, photos et textes reflètent votre approche et votre cadre. Pas un modèle générique : un site adapté à votre pratique.
 
-III. Des informations que Google comprend
-Adresse, horaires, spécialités et questions fréquentes décrits en « données structurées », cohérents avec votre fiche Google, que je vous aide à mettre à jour.
+3. Des demandes mieux préparées
+Tarifs, approche, déroulé des séances et remboursement sont clairs : vos futurs patients arrivent informés, et vous passez moins de temps au téléphone.
 
-IV. Ce que votre site a déjà acquis est préservé
-Votre adresse reste la même et les anciennes adresses de vos pages sont redirigées vers les nouvelles. Site sécurisé (HTTPS), sans cookie ni bannière, et qui ne recueille aucune donnée de santé.
+4. Ce que votre site a acquis est préservé
+Même adresse, anciennes pages redirigées vers les nouvelles : Google et vos patients vous retrouvent, sur un site rapide et bien structuré.
 
-Et pour vos patients : tarifs, horaires, accès et remboursement clairs avant le premier appel, lien direct vers Doctolib, encart d’urgence avec le 15 et le 3114, ni témoignages ni promesse de résultat.
+Et toujours dans le cadre de notre métier : sans cookie ni traceur, aucune donnée de santé, mentions légales rédigées pour vous, votre site vous appartient, modifiable sur simple demande, nom de domaine à votre nom.
 
 
 COMMENT ÇA SE PASSE
 
 1. Vous configurez : style, couleurs, textes, photos ; l’aperçu se construit sous vos yeux, en dix minutes.
 2. Je conçois et rédige toutes vos pages, avec vos retours. Vous validez chaque étape.
-3. Mise en ligne sur votre adresse : je m’occupe du branchement sur votre adresse actuelle, rien de technique pour vous.
+3. Mise en ligne sur votre adresse. Je m’occupe du branchement sur votre adresse actuelle : rien de technique pour vous.
 
 
-TARIF DE LANCEMENT : 199 € au lieu de 299 €, réservé aux 10 premiers cabinets
-puis 10 € par mois pour l’hébergement et les modifications mineures
+REFONTE DE VOTRE SITE : %TARIF_REFONTE% €, pour refaire le site que vous avez déjà, sur votre adresse actuelle
+Hébergement en option (%TARIF_MENSUEL% € par mois, modifications mineures comprises) : vous pouvez aussi garder votre hébergeur actuel
 
 - Design sur mesure et rédaction de vos pages
 - Référencement local et mise à jour de votre fiche Google
 - Mentions légales et confidentialité rédigées pour vous
-- Lien vers Doctolib ou votre outil de réservation
+- Anciennes adresses redirigées vers les nouvelles
 - Votre nom de domaine actuel conservé
+
+Envie d’une direction artistique entièrement personnalisée ? C’est possible, sur devis.
 
 > Imaginer mon nouveau site : %DOMAINE%/configurateur/
 
 
-Envie d’en parler avant ? Je peux aussi vous dire, sans engagement, ce que je changerais en priorité sur votre site actuel. Répondez simplement à ce message ou appelez-moi au 07 61 84 57 91. Je serai heureux d’en parler avec vous.
+PARLONS DE VOTRE CABINET
+
+Quinze minutes au téléphone, gratuitement et sans engagement : je vous dis ce que je changerais en priorité sur votre site actuel.
+
+> Réserver un appel gratuit : %APPEL%
+Ou répondez simplement à ce message.
 
 Bien confraternellement,
 

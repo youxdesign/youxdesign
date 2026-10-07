@@ -5,7 +5,9 @@
 
    Lit les modèles email/modele.html et email/modele.txt, y place l'adresse
    du site (réglage DOMAINE de src/config/youxdesign.mjs : c'est la seule
-   chose à changer le jour d'un nom de domaine définitif) et crée :
+   chose à changer le jour d'un nom de domaine définitif), l'e-mail, les
+   tarifs (TARIF) et le lien « Réserver un appel gratuit » (DOMAINE/appel/,
+   qui mène vers LIEN_APPEL), puis crée :
      email/email-prospection.html   version HTML, à envoyer
      email/email-prospection.txt    version texte, à joindre au même envoi
      email/apercu-exemple.html      exemple rempli, pour relire le rendu
@@ -26,15 +28,21 @@
    ========================================================================== */
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { DOMAINE, EMAIL } from '../src/config/youxdesign.mjs';
+import { DOMAINE, EMAIL, TARIF } from '../src/config/youxdesign.mjs';
 
 const racine = process.cwd();
 const dossier = join(racine, 'email');
 const domaine = DOMAINE.replace(/\/$/, '');
 const remplacer = (texte) => texte
   .replaceAll('%DOMAINE_COURT%', domaine.replace(/^https?:\/\//, ''))
+  .replaceAll('%APPEL%', `${domaine}/appel/`)
   .replaceAll('%DOMAINE%', domaine)
-  .replaceAll('%EMAIL%', EMAIL);
+  .replaceAll('%EMAIL%', EMAIL)
+  .replaceAll('%TARIF_LANCEMENT%', String(TARIF.lancement))
+  .replaceAll('%TARIF_NORMAL%', String(TARIF.normal))
+  .replaceAll('%TARIF_PLACES%', String(TARIF.places))
+  .replaceAll('%TARIF_MENSUEL%', String(TARIF.mensuel))
+  .replaceAll('%TARIF_REFONTE%', String(TARIF.refonte));
 
 /* Deux e-mails : création d'un site, et refonte d'un site existant (adresse conservée) */
 const MODELES = [

@@ -2,49 +2,59 @@ Bonjour {{prenom}},
 
 {{detail_personnalisation}} Je suis Younes, psychologue. Je connais les questions que se posent nos patients avant d’appeler, les règles de notre code de déontologie et le temps que prennent les appels pour un simple renseignement.
 
-J’ai créé youXdesign pour proposer aux psychologues un site clair, rapide et respectueux de leurs patients, pensé pour notre métier. Je vous propose de découvrir à quoi pourrait ressembler le vôtre.
+J’ai créé youXdesign pour offrir aux psychologues un site à la hauteur de leur pratique : beau, clair, rapide et respectueux de leurs patients. Je vous propose de découvrir à quoi pourrait ressembler le vôtre.
 
-Choisissez un style, vos couleurs et les fonctionnalités utiles à votre pratique : l’aperçu de votre futur site se construit en direct. Je m’occupe ensuite de tout le reste.
+Vos futurs patients vous découvrent souvent en ligne, avant même de vous appeler. Je crée pour les psychologues des sites soignés, clairs et rassurants : voyez le vôtre prendre forme en direct.
 
 > Configurer mon site : %DOMAINE%/configurateur/
-> Découvrir un site réalisé : %DOMAINE%/demo/
+> Réserver un appel gratuit (15 minutes, sans engagement) : %APPEL%
+> Voir les neuf styles : %DOMAINE%/styles/
 
 
-CE QUE VOTRE SITE CHANGE
+CE QU’UN BEAU SITE CHANGE POUR VOTRE CABINET
 
-I. Pensé pour être trouvé
-Un site rapide et lisible sur téléphone, avec des titres, des descriptions et des informations structurées pour Google : votre adresse, vos horaires, votre approche.
+1. Rassurer dès le premier regard
+On se fait une idée d’un site en un instant. Un design soigné et apaisant rassure une personne qui hésite à consulter, avant même le premier appel.
 
-II. Le cadre de notre métier
-Mentions légales et page de confidentialité rédigées pour votre cabinet, numéro ADELI ou RPPS affiché, encart d’urgence avec le 15 et le 3114. Ni témoignages, ni promesse de résultat.
+2. Un site qui vous ressemble
+Couleurs, style, photos et textes reflètent votre approche et votre cadre. Pas un modèle générique : un site adapté à votre pratique.
 
-III. Respectueux de vos patients
-Votre site ne recueille aucune donnée de santé. Aucun cookie, aucun traceur publicitaire, aucune bannière à accepter. La carte interactive ne se charge que si le visiteur le demande.
+3. Des demandes mieux préparées
+Tarifs, approche, déroulé des séances et remboursement sont clairs : vos futurs patients arrivent informés, et vous passez moins de temps au téléphone.
 
-IV. Moins d’appels, plus de temps clinique
-Tarifs, horaires, accès, remboursement et déroulé des séances sont clairs avant le premier contact, avec un lien direct vers Doctolib ou votre outil de réservation. En option : créneaux visibles, plan d’accès, exercice de respiration guidé, questions fréquentes.
+4. Pensé pour être trouvé
+Rapide, lisible sur téléphone et structuré pour Google : votre adresse, vos horaires et votre approche, pour les recherches « psychologue + votre ville ».
+
+Et toujours dans le cadre de notre métier : sans cookie ni traceur, aucune donnée de santé, mentions légales rédigées pour vous, votre site vous appartient, modifiable sur simple demande, nom de domaine à votre nom.
 
 
 COMMENT ÇA SE PASSE
 
 1. Vous configurez : style, couleurs, textes, photos ; l’aperçu se construit sous vos yeux, en dix minutes.
 2. Je conçois et rédige toutes vos pages, avec vos retours. Vous validez chaque étape.
-3. Votre site est en ligne, avec un nom de domaine à votre nom : vous en restez propriétaire.
+3. Votre site est en ligne. Sur un nom de domaine à votre nom : votre site vous appartient.
 
 
-TARIF DE LANCEMENT : 199 € au lieu de 299 €, réservé aux 10 premiers cabinets
-puis 10 € par mois pour l’hébergement et les modifications mineures
+TARIF DE LANCEMENT : %TARIF_LANCEMENT% €, au lieu de %TARIF_NORMAL% € · réservé aux %TARIF_PLACES% premiers cabinets
+Puis %TARIF_MENSUEL% € par mois pour l’hébergement et les modifications mineures
 
 - Design sur mesure et rédaction de vos pages
 - Référencement local et fiche Google optimisée
 - Mentions légales et confidentialité rédigées pour vous
-- Lien vers Doctolib ou votre outil de réservation
-- Site adapté au téléphone et rapide à charger
+- Site rapide, impeccable sur téléphone
+- Modifications mineures sur simple demande
 
-> Je configure mon site : %DOMAINE%/configurateur/
+Envie d’une direction artistique entièrement personnalisée ? C’est possible, sur devis.
+
+> Configurer mon site : %DOMAINE%/configurateur/
 
 
-Une question avant de vous lancer ? Répondez simplement à ce message ou appelez-moi au 07 61 84 57 91. Je serai heureux d’en parler avec vous.
+PARLONS DE VOTRE CABINET
+
+Quinze minutes au téléphone, gratuitement et sans engagement : vous me parlez de votre pratique, je vous montre ce que votre site pourrait devenir.
+
+> Réserver un appel gratuit : %APPEL%
+Ou répondez simplement à ce message.
 
 Bien confraternellement,
 

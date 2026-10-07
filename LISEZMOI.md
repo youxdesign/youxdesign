@@ -57,7 +57,7 @@ Chaque démo a les mêmes pages : ajoutez à son adresse `a-propos/`, `approche/
 
 Exemple : https://youxdesign.fr/styles/terre/?palette=1&police=2&options=statut,carte,faq
 
-**Images de l'e-mail** : https://youxdesign.fr/email/apercu-demos.gif. Les images des anciens e-mails restent en place, ne les supprimez pas : `/apercu-demo.gif`, `/apercu-demov2.gif`, `/apercu-demov3.gif` et le dossier `/brand/`.
+**Images de l'e-mail** : https://youxdesign.fr/email/apercu-sites.gif. Les images des anciens e-mails restent en place, ne les supprimez pas : `/email/apercu-demos.gif`, `/apercu-demo.gif`, `/apercu-demov2.gif`, `/apercu-demov3.gif` et le dossier `/brand/`.
 
 **Code et versions de travail**
 
@@ -317,7 +317,7 @@ puis ouvrez http://localhost:4321.
 
 - Les textes et données de la démo : `cabinets/claire-morel/cabinet.json` (cette fiche alimente les neuf styles).
 - Les styles, palettes, polices et options proposés : `src/config/catalogue.mjs`.
-- L'adresse du site youXdesign et l'e-mail qui reçoit les demandes : `src/config/youxdesign.mjs`. Pour passer à un nom de domaine définitif, il suffit de changer la ligne `DOMAINE`. Elle sert aussi aux liens de l'e-mail : relancez ensuite `npm run email`. Le même fichier contient le téléphone, le nom de l'éditeur (mentions légales) et le tarif affiché sur la vitrine (`TARIF`).
+- L'adresse du site youXdesign et l'e-mail qui reçoit les demandes : `src/config/youxdesign.mjs`. Pour passer à un nom de domaine définitif, il suffit de changer la ligne `DOMAINE`. Elle sert aussi aux liens de l'e-mail : relancez ensuite `npm run email`. Le même fichier contient le téléphone (affiché seulement dans les mentions légales), le nom de l'éditeur, les tarifs (`TARIF`, repris par la vitrine et par l'e-mail) et le lien « Réserver un appel gratuit » (`RESERVATION_APPEL` : vide, l'adresse courte https://youxdesign.fr/appel/ mène au formulaire de contact, sujet « appel » ; collez-y l'adresse d'une page de réservation Google Agenda ou Calendly le jour où vous en avez une).
 
 **La vitrine (page d'accueil)**
 
@@ -337,25 +337,28 @@ puis ouvrez http://localhost:4321.
 
 | Fichier | Rôle |
 | --- | --- |
-| `email-prospection.html` | la version à envoyer |
-| `email-prospection.txt` | la version texte, à envoyer avec la version HTML (certaines messageries l'affichent) |
-| `apercu-exemple.html` | l'e-mail rempli pour une « Madame Durand », pour relire le rendu |
-| `modele.html`, `modele.txt` | les modèles : c'est là qu'on modifie le texte |
+| `email-prospection.html` | création d'un site : la version à envoyer |
+| `email-prospection.txt` | sa version texte, à envoyer avec la version HTML (certaines messageries l'affichent) |
+| `email-refonte.html`, `email-refonte.txt` | refonte d'un site existant (l'adresse du praticien est conservée) |
+| `apercu-exemple.html`, `apercu-exemple-refonte.html` | les e-mails remplis pour une « Julie », pour relire le rendu |
+| `modele.html`, `modele.txt`, `modele-refonte.html`, `modele-refonte.txt` | les modèles : c'est là qu'on modifie le texte |
+
+Dans les modèles, `%DOMAINE%`, `%EMAIL%`, `%APPEL%` (bouton « Réserver un appel gratuit ») et les tarifs `%TARIF_LANCEMENT%`, `%TARIF_NORMAL%`, `%TARIF_PLACES%`, `%TARIF_MENSUEL%`, `%TARIF_REFONTE%` sont remplacés automatiquement à partir de `src/config/youxdesign.mjs` : un changement de prix se fait là, puis `npm run email`. L'e-mail ne donne pas de numéro de téléphone : le visiteur réserve un appel ou répond au message.
 
 Après toute modification des modèles, régénérez les versions prêtes à envoyer :
 ```bash
 npm run email
 ```
-La commande vérifie aussi que l'e-mail pèse moins de 100 Ko (au-delà, Gmail le coupe), que les quatre variables sont présentes et que toutes les images existent sur le site.
+La commande vérifie aussi que l'e-mail pèse moins de 100 Ko (au-delà, Gmail le coupe), que les variables sont présentes et que toutes les images existent sur le site.
 
 **Les variables**, à remplir pour chaque prospect par l'outil d'envoi :
 
 | Variable | Contenu | Exemple |
 | --- | --- | --- |
-| `{{civilite}}` | Madame, Monsieur, Docteur… | Madame |
-| `{{nom}}` | nom de famille | Durand |
+| `{{prenom}}` | prénom | Julie |
 | `{{detail_personnalisation}}` | une phrase complète sur son cabinet, ou rien | J'ai découvert votre cabinet de Roubaix en cherchant une psychologue qui reçoit les adolescents. |
 | `{{source}}` | où vous avez trouvé l'adresse | votre page professionnelle sur Google |
+| `{{site_actuel}}` | (e-mail « refonte » seulement) l'adresse de son site actuel | julie-durand-psychologue.fr |
 
 **Envoyer**
 
@@ -364,7 +367,7 @@ La commande vérifie aussi que l'e-mail pèse moins de 100 Ko (au-delà, Gmail l
 - Envoyez par petits lots, depuis une adresse professionnelle.
 - Le pied de l'e-mail indique où l'adresse a été trouvée et propose de répondre « STOP ». Retirez aussitôt de vos listes toute personne qui répond « STOP ».
 
-**Le GIF animé** de l'e-mail montre l'accueil de trois démos qui défile : Sauge, Terre & organique et Nocturne. Il est hébergé sur le site, dans `youx-statique/email/apercu-demos.gif`, à l'adresse https://youxdesign.fr/email/apercu-demos.gif. Une image ajoutée ou changée n'apparaît dans les e-mails qu'une fois envoyée sur la branche `main`.
+**Le GIF animé** de l'e-mail présente six démos (Sauge, Terre & organique, Nocturne, Pastel doux, Éditorial, Santé contemporaine) : l'accueil, puis les motifs de consultation, en fondu de l'une à l'autre (environ 1 Mo). Il est hébergé sur le site, dans `youx-statique/email/apercu-sites.gif`, à l'adresse https://youxdesign.fr/email/apercu-sites.gif. Pour le refaire, donnez-lui un nouveau nom de fichier : les e-mails déjà envoyés gardent ainsi l'ancien. Une image ajoutée ou changée n'apparaît dans les e-mails qu'une fois envoyée sur la branche `main`.
 
 **Ce que l'e-mail ne promet pas**, volontairement : « 100 % conforme RGPD », « certifié accessible », « hébergé en France » ou tout autre engagement impossible à prouver. Gardez cette règle si vous modifiez le texte.
 
