@@ -450,6 +450,24 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
                 </div>
               </li>
             ))}
+            <!-- Fin de grille : la liste s'enrichit (bloc « en construction ») -->
+            <li class="vt-option vt-option--avenir" data-apparait>
+              <div class="vt-avenir">
+                <div class="vt-avenir__visuel" aria-hidden="true">
+                  <span class="vt-avenir__squelette"><i></i><i></i><i></i></span>
+                  <span class="vt-avenir__plus">+</span>
+                </div>
+                <div class="vt-avenir__texte">
+                  <span class="vt-option__groupe">Bientôt</span>
+                  <h4>D’autres fonctionnalités à venir</h4>
+                  <p>Le configurateur s’enrichit au fil des besoins des cabinets. Un outil vous manque&nbsp;? Dites-le-moi&nbsp;: je l’étudie pour votre site.</p>
+                </div>
+                <a class="vt-bouton vt-bouton--contour vt-bouton--petit" href="/contact/?sujet=question">
+                  Proposer une idée
+                  <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+                </a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
