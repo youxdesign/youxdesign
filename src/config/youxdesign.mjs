@@ -21,7 +21,7 @@ export const TELEPHONE_LIEN = '+33761845791';
    création : lancement au lieu de normal, pour les « places » premiers cabinets,
    puis « mensuel » par mois (hébergement et modifications mineures) ;
    refonte : prix unique, hébergement en option au même tarif mensuel. */
-export const TARIF = { lancement: 199, normal: 299, places: 10, mensuel: 10, refonte: 149 };
+export const TARIF = { lancement: 249, normal: 299, places: 10, mensuel: 10, refonte: 199 };
 
 /* Fiche utilisée pour toutes les démos */
 export const CABINET_DEMO = 'claire-morel';
