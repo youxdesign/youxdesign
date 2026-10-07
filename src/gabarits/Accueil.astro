@@ -127,12 +127,12 @@ const questions = (choisies.length ? choisies : toutes).slice(0, 4);
     <div class="conteneur tarifs-accueil">
       <div class="tarifs-accueil__liste">
         <TitreSection surtitre={t.tarifsSurtitre || 'Séances'} numero={4} titre={t.tarifsTitre || 'Consultations *et tarifs*'} id="tarifs-titre" />
-        <ul class="lignes-tarifs">
-          {cab.tarifs.map((x) => (
-            <li class="ligne-tarif">
-              <span class="ligne-tarif__nom">{x.nom}</span>
-              <span class="ligne-tarif__detail">{[x.duree, x.lieu].filter(Boolean).join(' · ')}</span>
-              <span class="ligne-tarif__prix">{x.prix}</span>
+        <ul class="lignes-tarifs" data-tarifs-liste>
+          {cab.tarifs.map((x, i) => (
+            <li class="ligne-tarif" data-tarif-index={i}>
+              <span class="ligne-tarif__nom" data-tarif="nom">{x.nom}</span>
+              <span class="ligne-tarif__detail"><span data-tarif="duree">{x.duree}</span>{x.duree && x.lieu && <span data-tarif-bloc="lieu"> · </span>}{x.lieu && <span data-tarif="lieu" data-tarif-bloc="lieu">{x.lieu}</span>}</span>
+              <span class="ligne-tarif__prix" data-tarif="prix">{x.prix}</span>
             </li>
           ))}
         </ul>

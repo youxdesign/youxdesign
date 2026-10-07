@@ -156,6 +156,7 @@ function brancherFormulaire() {
     } else if (el.matches('[data-tarif-champ]')) {
       const i = Number(el.closest('.cfg-tarif').dataset.index);
       etat.tarifs[i][el.dataset.tarifChamp] = el.value;
+      apercuTarifs();
       enregistrer();
     } else if (el.matches('[data-couleur-perso]')) {
       etat.couleurs[el.dataset.couleurPerso] = el.value;
@@ -228,6 +229,7 @@ function brancherFormulaire() {
     if (!bouton) return;
     etat.tarifs.splice(Number(bouton.closest('.cfg-tarif').dataset.index), 1);
     dessinerTarifs();
+    apercuTarifs();
     enregistrer();
   });
 
@@ -451,6 +453,11 @@ function remplacements() {
   /* Les plus longues d'abord, pour ne pas couper un mot déjà remplacé */
   return paires.sort((a, b) => b[0].length - a[0].length);
 }
+/* Séances et tarifs : nom, durée et prix à la place de ceux de la démo */
+function apercuTarifs() {
+  const a = api();
+  if (a && a.tarifs) a.tarifs(etat.tarifs);
+}
 function apercuTextes() {
   const a = api();
   if (a) a.textes(remplacements());
@@ -472,6 +479,7 @@ function synchroniser() {
   a.appliquer({ palette: String(etat.palette), police: String(etat.police), options: etat.options, couleurs: c || '', fond: etat.fond, voile: etat.voile });
   if (c) a.appliquer({ couleurs: c });
   apercuPages();
+  apercuTarifs();
   apercuTextes();
   apercuPhotos();
 }

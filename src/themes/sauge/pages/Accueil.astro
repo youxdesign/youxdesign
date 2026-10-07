@@ -44,7 +44,7 @@ const badge = `${p.titre.split(' ')[0]} · ${p.specialiteCourte ? p.specialiteCo
             <a class="btn btn--ghost" href={lien(site, 'approche')}>Découvrir mon approche</a>
           </div>
           <p class="hero__meta fade-in fade-in--3">
-            <span>Séance de {tarif.duree} · {tarif.prix}</span>
+            <span data-tarif-une="0">Séance de <span data-tarif="duree">{tarif.duree}</span> · <span data-tarif="prix">{tarif.prix}</span></span>
             {p.public && <span>{p.public}</span>}
             {c.visio && <span>Visio possible</span>}
           </p>

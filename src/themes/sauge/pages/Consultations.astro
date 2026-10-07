@@ -25,14 +25,14 @@ const intro = (t.intro || '').replace(/\s*Joignez-moi par téléphone\.?$/, '');
   <section class="section section--flush" aria-labelledby="tarifs-titre">
     <div class="container">
       <h2 class="sr-only" id="tarifs-titre">Types de séances et tarifs</h2>
-      <ul class="prices" data-stagger>
-        {cab.tarifs.map((x) => (
-          <li class:list={['price', { 'price--featured': x.miseEnAvant }]} data-reveal>
-            {x.lieu && <span class="card__tag">{x.lieu}</span>}
-            <h3>{x.nom}</h3>
-            <p class="price__amount"><strong>{x.prix}</strong>{x.duree && <span class="price__meta">· {x.duree}</span>}</p>
+      <ul class="prices" data-stagger data-tarifs-liste>
+        {cab.tarifs.map((x, i) => (
+          <li class:list={['price', { 'price--featured': x.miseEnAvant }]} data-reveal data-tarif-index={i}>
+            {x.lieu && <span class="card__tag" data-tarif="lieu" data-tarif-bloc="lieu">{x.lieu}</span>}
+            <h3 data-tarif="nom">{x.nom}</h3>
+            <p class="price__amount"><strong data-tarif="prix">{x.prix}</strong>{x.duree && <span class="price__meta" data-tarif-bloc="duree">· <span data-tarif="duree">{x.duree}</span></span>}</p>
             <hr />
-            {x.texte && <p>{x.texte}</p>}
+            {x.texte && <p data-tarif="texte" data-tarif-bloc="texte">{x.texte}</p>}
           </li>
         ))}
       </ul>

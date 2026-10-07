@@ -22,13 +22,13 @@ const partenaire = t.monSoutienPsy === true;
   <section class="section section--teinte" aria-labelledby="tarifs-titre">
     <div class="conteneur">
       <TitreSection surtitre="Séances" numero={1} titre={t.tarifsTitre || 'Types de séances et tarifs'} id="tarifs-titre" />
-      <ul class="grille tarifs">
-        {cab.tarifs.map((x) => (
-          <li class="carte tarif apparait">
-            {x.lieu && <span class="tarif__lieu">{x.lieu}</span>}
-            <h3>{x.nom}</h3>
-            <p class="tarif__prix"><span class="tarif__montant">{x.prix}</span>{x.duree && <span class="tarif__duree">· {x.duree}</span>}</p>
-            {x.texte && <p>{x.texte}</p>}
+      <ul class="grille tarifs" data-tarifs-liste>
+        {cab.tarifs.map((x, i) => (
+          <li class="carte tarif apparait" data-tarif-index={i}>
+            {x.lieu && <span class="tarif__lieu" data-tarif="lieu" data-tarif-bloc="lieu">{x.lieu}</span>}
+            <h3 data-tarif="nom">{x.nom}</h3>
+            <p class="tarif__prix"><span class="tarif__montant" data-tarif="prix">{x.prix}</span>{x.duree && <span class="tarif__duree" data-tarif-bloc="duree">· <span data-tarif="duree">{x.duree}</span></span>}</p>
+            {x.texte && <p data-tarif="texte" data-tarif-bloc="texte">{x.texte}</p>}
           </li>
         ))}
       </ul>

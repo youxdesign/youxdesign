@@ -8,8 +8,9 @@
       fond, encre, accent, doux, texte secondaire). Ces réglages suivent le
       visiteur d'une page à l'autre.
    2. Le configurateur (même site) pilote l'aperçu en direct par
-      window.youxApercu : palette, police, options, textes, photos, pages,
-      et « focus » sur un bloc (défilement doux et mise en valeur).
+      window.youxApercu : palette, police, options, textes, séances et
+      tarifs, photos, pages, et « focus » sur un bloc (défilement doux et
+      mise en valeur).
    Rien n'est envoyé ni enregistré.
    ========================================================================== */
 import { deriver } from '../lib/couleurs.mjs';
@@ -174,4 +175,70 @@ document.addEventListener('submit', (e) => {
 /* Retour en haut de page (réglages de l'image d'accueil) */
 function haut() { window.scrollTo({ top: 0, behavior: reduire() ? 'auto' : 'smooth' }); }
 
-window.youxApercu = { appliquer, effacerCouleurs, options, pages, focus, textes, photo, haut };
+/* --- Séances et tarifs saisis dans le configurateur ----------------------
+   Les gabarits marquent chaque séance : liste [data-tarifs-liste], séance
+   [data-tarif-index], champs [data-tarif="nom|duree|prix|lieu|texte"] et
+   blocs facultatifs [data-tarif-bloc]. Les mentions uniques (« Séance de
+   50 min · 60 € » de l'accueil) portent [data-tarif-une="n°"].
+   Nom ou prix laissé vide : le texte de la démo reste affiché ; durée vide :
+   elle disparaît. Les séances ajoutées reprennent la forme de la première,
+   sans le lieu ni la description propres à la démo. */
+const modelesTarifs = new WeakMap();
+const montrer = (el, oui) => { if (el) el.style.display = oui ? '' : 'none'; };
+
+function ecrire(racineTarif, cle, valeur, { copie = false } = {}) {
+  racineTarif.querySelectorAll(`[data-tarif="${cle}"]`).forEach((champ) => {
+    if (champ.dataset.tarifOrigine === undefined) champ.dataset.tarifOrigine = champ.textContent;
+    const texte = valeur || (cle === 'duree' || copie ? '' : champ.dataset.tarifOrigine);
+    if (champ.textContent !== texte) champ.textContent = texte;
+    if (cle === 'duree') montrer(champ.closest('[data-tarif-bloc="duree"]') || champ, Boolean(texte));
+  });
+}
+
+function tarifs(liste) {
+  const seances = (liste || [])
+    .map((t) => ({ nom: (t.type || t.nom || '').trim(), duree: (t.duree || '').trim(), prix: (t.prix || '').trim() }))
+    .filter((t) => t.nom || t.duree || t.prix);
+  if (!seances.length) return;
+
+  document.querySelectorAll('[data-tarifs-liste]').forEach((liste) => {
+    const elements = [...liste.querySelectorAll(':scope > [data-tarif-index]')];
+    if (!modelesTarifs.has(liste) && elements[0]) modelesTarifs.set(liste, elements[0].cloneNode(true));
+    const modele = modelesTarifs.get(liste);
+    seances.forEach((t, i) => {
+      let el = elements[i];
+      if (!el && modele) {
+        el = modele.cloneNode(true);
+        el.dataset.tarifIndex = String(i);
+        el.dataset.tarifCopie = '';
+        el.querySelectorAll('[data-tarif-bloc="lieu"], [data-tarif-bloc="texte"]').forEach((b) => montrer(b, false));
+        el.querySelectorAll('[data-tarif]').forEach((champ) => { champ.dataset.tarifOrigine = ''; });
+        /* Apparition déjà faite : la nouvelle séance est visible tout de suite */
+        el.classList.add('est-visible', 'is-in');
+        liste.append(el);
+      }
+      if (!el) return;
+      montrer(el, true);
+      const copie = el.dataset.tarifCopie !== undefined;
+      ecrire(el, 'nom', t.nom, { copie });
+      ecrire(el, 'duree', t.duree, { copie });
+      ecrire(el, 'prix', t.prix, { copie });
+      /* Lieu et description de la démo : seulement si c'est toujours la même séance */
+      if (!copie) {
+        const origine = el.querySelector('[data-tarif="nom"]')?.dataset.tarifOrigine;
+        const meme = !t.nom || t.nom === origine;
+        el.querySelectorAll('[data-tarif-bloc="lieu"], [data-tarif-bloc="texte"]').forEach((b) => montrer(b, meme));
+      }
+    });
+    /* Séances retirées dans le configurateur : masquées (elles reviennent si on les rajoute) */
+    [...liste.querySelectorAll(':scope > [data-tarif-index]')].slice(seances.length).forEach((el) => montrer(el, false));
+  });
+
+  document.querySelectorAll('[data-tarif-une]').forEach((el) => {
+    const t = seances[Number(el.dataset.tarifUne)] || seances[0];
+    ecrire(el, 'duree', t.duree);
+    ecrire(el, 'prix', t.prix);
+  });
+}
+
+window.youxApercu = { appliquer, effacerCouleurs, options, pages, focus, textes, photo, haut, tarifs };

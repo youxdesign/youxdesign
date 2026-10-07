@@ -40,7 +40,7 @@ const puces = ['Au cabinet', c.visio && 'En visio', p.public, p.specialiteCourte
     <aside class="une__resa" aria-labelledby="resa-titre">
       <div class="une__resa-tete">
         <h2 id="resa-titre">Prendre rendez-vous</h2>
-        <p>{tarif.duree} · {tarif.prix}</p>
+        <p data-tarif-une={cab.tarifs.indexOf(tarif)}><span data-tarif="duree">{tarif.duree}</span> · <span data-tarif="prix">{tarif.prix}</span></p>
       </div>
       {site.vitrine && option.rendre && jours.length > 0 && (
         <div class="une__creneaux" data-option="creneaux" hidden={option.cache}>

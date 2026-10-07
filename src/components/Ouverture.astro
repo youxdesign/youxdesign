@@ -22,7 +22,7 @@ const tarif = cab.tarifs[0];
         <a class="bouton bouton--secondaire" href={lien(site, 'approche')}>Découvrir mon approche</a>
       </div>
       <ul class="ouverture__faits">
-        <li>Séance de {tarif.duree} · {tarif.prix}</li>
+        <li data-tarif-une="0">Séance de <span data-tarif="duree">{tarif.duree}</span> · <span data-tarif="prix">{tarif.prix}</span></li>
         {p.public && <li>{p.public}</li>}
         {cab.cabinet.visio && <li>Visio possible</li>}
       </ul>
