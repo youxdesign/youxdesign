@@ -4,4 +4,4 @@ Sites vitrines pour psychologues, sophrologues et coachs : configurateur, démon
 
 **Mode d'emploi complet, en français : [LISEZMOI.md](LISEZMOI.md).**
 
-Site en ligne : https://youxdesign.pages.dev
+Site en ligne : https://youxdesign.fr
