@@ -1,0 +1,129 @@
+---
+/* ==========================================================================
+   Mini-interface animée d'une option (vitrine youXdesign)
+   Purement décorative (aria-hidden) : le texte de l'encart décrit l'option.
+   Sans JavaScript ou si les animations sont réduites : état final, immobile.
+   Avec JavaScript : l'animation se joue quand l'encart arrive à l'écran,
+   et se rejoue au survol (ou au toucher sur téléphone). Voir vitrine.css.
+   ========================================================================== */
+interface Props { id: string }
+const { id } = Astro.props;
+---
+<div class={`vt-option__visuel vm vm--${id}`} aria-hidden="true">
+  {id === 'creneaux' && (
+    <div class="vm-carte vm-creneaux">
+      <p class="vm-titre">Prochains créneaux disponibles</p>
+      <div class="vm-jours">
+        <div><b>Lun. 14</b><i>9:00</i><i>11:30</i><i>17:00</i></div>
+        <div><b>Mar. 15</b><i>10:00</i><i class="vm-choisi">14:30</i><i>18:00</i></div>
+        <div><b>Mer. 16</b><i>9:30</i><i>16:00</i></div>
+      </div>
+      <span class="vm-lien">Réserver ce créneau →</span>
+    </div>
+  )}
+
+  {id === 'rappel' && (
+    <div class="vm-carte vm-rappel">
+      <p class="vm-titre">Être rappelé</p>
+      <span class="vm-champ"><small>Prénom</small><b class="vm-tape vm-tape--1">Camille</b></span>
+      <span class="vm-champ"><small>Téléphone</small><b class="vm-tape vm-tape--2">06 12 34 56 78</b></span>
+      <span class="vm-bouton"><span class="vm-bouton__txt">Me rappeler</span><span class="vm-bouton__ok">Demande envoyée ✓</span></span>
+    </div>
+  )}
+
+  {id === 'paiement' && (
+    <div class="vm-carte vm-paiement">
+      <p class="vm-ligne"><span>Séance individuelle</span><b>60 €</b></p>
+      <p class="vm-cb"><i></i><span>•••• •••• •••• 4242</span></p>
+      <span class="vm-bouton"><span class="vm-bouton__txt">Payer 60 €</span><span class="vm-bouton__ok">Paiement reçu ✓</span></span>
+      <p class="vm-recu">Facture envoyée par e-mail</p>
+    </div>
+  )}
+
+  {id === 'statut' && (
+    <div class="vm-statut">
+      <span class="vm-pastille"><i></i>Ouvert maintenant · jusqu’à 19 h</span>
+      <ul class="vm-horaires">
+        <li><span>Lundi – vendredi</span><b>9 h – 19 h</b></li>
+        <li><span>Samedi</span><b>9 h – 13 h</b></li>
+      </ul>
+    </div>
+  )}
+
+  {id === 'questionnaires' && (
+    <div class="vm-carte vm-questionnaire">
+      <p class="vm-sur">Question 3 sur 7</p>
+      <p class="vm-question">Ces deux dernières semaines, avez-vous ressenti de la tension ou de l’inquiétude ?</p>
+      <p class="vm-reponses"><i>Jamais</i><i class="vm-choisi">Parfois</i><i>Souvent</i></p>
+      <span class="vm-progression"><i></i></span>
+    </div>
+  )}
+
+  {id === 'faq' && (
+    <div class="vm-faq">
+      <div class="vm-q vm-q--ouverte"><p><span>Les séances sont-elles remboursées ?</span><i></i></p><p class="vm-r">Selon votre mutuelle, une partie peut être prise en charge.</p></div>
+      <div class="vm-q"><p><span>Combien de temps dure une séance ?</span><i></i></p></div>
+
+    </div>
+  )}
+
+  {id === 'respiration' && (
+    <div class="vm-souffle">
+      <span class="vm-souffle__halo"></span>
+      <span class="vm-souffle__cercle"></span>
+      <span class="vm-souffle__txt vm-souffle__txt--in">Inspirez</span>
+      <span class="vm-souffle__txt vm-souffle__txt--out">Expirez</span>
+    </div>
+  )}
+
+  {id === 'ressources' && (
+    <ul class="vm-fichiers">
+      <li><i class="vm-type">PDF</i><span>Agenda du sommeil</span><b class="vm-dl"></b></li>
+      <li><i class="vm-type vm-type--audio">MP3</i><span>Relaxation guidée · 10 min</span><b class="vm-dl"></b></li>
+      <li><i class="vm-type">PDF</i><span>Apaiser une crise d’angoisse</span><b class="vm-dl"></b></li>
+    </ul>
+  )}
+
+  {id === 'ateliers' && (
+    <ul class="vm-agenda">
+      <li><b>14<small>nov.</small></b><span>Gérer son stress<small>Groupe de 6 · jeudi 18 h</small></span><em>2 places</em></li>
+      <li><b>28<small>nov.</small></b><span>Retrouver le sommeil<small>Groupe de 8 · jeudi 18 h</small></span><em class="vm-complet">Complet</em></li>
+    </ul>
+  )}
+
+  {id === 'newsletter' && (
+    <div class="vm-carte vm-lettre">
+      <p class="vm-titre">Recevoir les nouveaux articles</p>
+      <p class="vm-email"><b class="vm-tape vm-tape--1">camille@exemple.fr</b><span class="vm-bouton vm-bouton--mini"><span class="vm-bouton__txt">OK</span><span class="vm-bouton__ok">✓</span></span></p>
+      <p class="vm-confirme">Inscription confirmée</p>
+    </div>
+  )}
+
+  {id === 'carte' && (
+    <div class="vm-plan">
+      <svg class="vm-plan__fond" viewBox="0 0 400 180" preserveAspectRatio="xMidYMid slice">
+        <rect class="vm-plan__sol" width="400" height="180" />
+        <path class="vm-plan__parc" d="M262 108c22-14 58-12 74 4s10 44-14 52-62 4-72-12-10-30 12-44z" />
+        <path class="vm-plan__eau" d="M-10 152c60-26 120-10 170-24s110-40 250-30" />
+        <path class="vm-plan__rue vm-plan__rue--grande" d="M-10 64h420M118-10v200" />
+        <path class="vm-plan__rue" d="M-10 118c80-6 150 4 230-8s120-6 190-2M210-10c-6 60 8 120-4 200M300-10c10 50-6 90 6 130M40-10c8 50-10 110 4 200M-10 24c120 10 260-8 420 6" />
+      </svg>
+      <span class="vm-repere"><i></i></span>
+      <span class="vm-adresse">12 rue Esquermoise, Lille</span>
+    </div>
+  )}
+
+  {id === 'accessibilite' && (
+    <div class="vm-carte vm-confort">
+      <p class="vm-reglages"><i>A−</i><i>A</i><i class="vm-aplus">A+</i><i class="vm-contraste"></i></p>
+      <p class="vm-exemple">Un espace calme pour déposer ce qui pèse.</p>
+    </div>
+  )}
+
+  {id === 'multilingue' && (
+    <div class="vm-carte vm-langues">
+      <p class="vm-bascule"><span class="vm-bascule__curseur"></span><i class="vm-fr">FR</i><i class="vm-en">EN</i></p>
+      <p class="vm-phrase"><span class="vm-phrase__fr">Prendre rendez-vous</span><span class="vm-phrase__en">Book an appointment</span></p>
+    </div>
+  )}
+</div>

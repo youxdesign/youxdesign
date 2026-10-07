@@ -13,6 +13,7 @@ import { Picture } from 'astro:assets';
 import Youx from '../../layouts/Youx.astro';
 import Entete from '../../components/youx/Entete.astro';
 import Pied from '../../components/youx/Pied.astro';
+import OptionVisuel from '../../components/youx/OptionVisuel.astro';
 import { sites } from '../../lib/site.mjs';
 import { STYLES, OPTIONS } from '../../config/catalogue.mjs';
 import { DOMAINE, EMAIL, TELEPHONE, TELEPHONE_LIEN, TARIF, FONDATEUR } from '../../config/youxdesign.mjs';
@@ -39,18 +40,50 @@ const styles = sites().map((s) => {
 });
 const mots = (texte: string) => texte.split(' ');
 
+/* Encarts des options : ordre d'affichage (grille de 4 colonnes, trois
+   encarts larges, soit quatre rangées pleines) et nom court du groupe */
+const ORDRE_OPTIONS = ['creneaux', 'rappel', 'paiement', 'statut', 'questionnaires', 'faq', 'ressources', 'respiration', 'ateliers', 'newsletter', 'accessibilite', 'multilingue', 'carte'];
+const LARGES = new Set(['creneaux', 'respiration', 'carte']);
+const GROUPES: Record<string, string> = {
+  'Rendez-vous et contact': 'Rendez-vous',
+  'Contenus et outils': 'Contenus',
+  'Pratique et accessibilité': 'Pratique'
+};
+const OPTIONS_VITRINE = [
+  ...ORDRE_OPTIONS.map((id) => OPTIONS.find((o) => o.id === id)).filter((o) => !!o),
+  ...OPTIONS.filter((o) => !ORDRE_OPTIONS.includes(o.id))
+];
+
 const TITRE = [
   { texte: 'Un site à la hauteur', em: false },
   { texte: 'de votre pratique.', em: true }
 ];
 
-/* Chapitres de la vidéo (secondes) */
+/* Direction artistique sur mesure : pistes reprises du configurateur (étape Style) */
+const PISTES = ['Mélange de plusieurs styles', 'Illustrations sur mesure', 'Logo et identité visuelle', 'Photos et textures de matières', 'Animations plus présentes', 'Mode sombre', 'Couleurs vives', 'Univers enfant ou famille'];
+
+/* Bandeau qui défile sous l'ouverture : les engagements (mêmes que les e-mails) */
+const BANDEAU = [
+  'Conçu par un psychologue',
+  'Direction artistique sur mesure',
+  'Sans cookie ni traceur',
+  'Aucune donnée de santé',
+  'Référencement local',
+  'Lien direct vers Doctolib',
+  'Encart d’urgence 15 · 3114',
+  'Mentions légales rédigées pour vous',
+  'Rapide sur téléphone',
+  'Nom de domaine à votre nom'
+];
+
+/* Chapitres de la vidéo : une séquence par étape (youx-statique/video/chapitre-N.mp4,
+   version allégée -mobile.mp4 et image d'attente .jpg). Un clic lance la séquence. */
 const CHAPITRES = [
-  { debut: 0, titre: 'Vos informations', texte: 'Votre nom apparaît aussitôt sur le site.' },
-  { debut: 9.3, titre: 'Un style', texte: 'Neuf univers, chacun un vrai site.' },
-  { debut: 24.4, titre: 'Couleurs et typographie', texte: 'Palettes et polices, contrastes vérifiés.' },
-  { debut: 43.2, titre: 'Fonctionnalités', texte: 'Respiration guidée, plan d’accès, aperçu mobile.' },
-  { debut: 60.6, titre: 'Envoi', texte: 'Le récapitulatif part de votre messagerie.' }
+  { titre: 'Vos informations', texte: 'Votre nom apparaît aussitôt sur le site.' },
+  { titre: 'Un style', texte: 'Neuf univers, chacun un vrai site.' },
+  { titre: 'Couleurs et typographie', texte: 'Palettes et polices, contrastes vérifiés.' },
+  { titre: 'Fonctionnalités', texte: 'Respiration guidée, plan d’accès, aperçu mobile.' },
+  { titre: 'Envoi', texte: 'Le récapitulatif part de votre messagerie.' }
 ];
 
 const PILIERS = [
@@ -82,9 +115,13 @@ const ETAPES = [
   { titre: 'Votre site est en ligne', texte: 'Avec un nom de domaine à votre nom : vous en restez propriétaire.' }
 ];
 
+/* Les deux offres : la bascule change le prix (le montant défile) et la liste */
 const OFFRES = {
   creation: {
     nom: 'Nouveau site',
+    prix: TARIF.lancement,
+    avant: `au lieu de <s>${TARIF.normal} €</s> · réservé aux ${TARIF.places} premiers cabinets`,
+    mois: `puis <strong>${TARIF.mensuel} € par mois</strong> pour l’hébergement et les modifications mineures`,
     cta: 'Configurer mon site',
     note: 'Votre site est mis en ligne avec un nom de domaine à votre nom.',
     liste: [
@@ -97,6 +134,9 @@ const OFFRES = {
   },
   refonte: {
     nom: 'Refonte de mon site',
+    prix: TARIF.refonte,
+    avant: 'pour refaire le site que vous avez déjà',
+    mois: `<strong>Hébergement en option</strong> (${TARIF.mensuel} € par mois, modifications mineures comprises) : vous pouvez aussi garder votre hébergeur actuel`,
     cta: 'Imaginer mon nouveau site',
     note: 'Je refais votre site sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit.',
     liste: [
@@ -123,6 +163,10 @@ const FAQ = [
     r: 'Non. Votre site ne recueille aucune donnée de santé, ne dépose aucun cookie et n’utilise aucun traceur. Seuls les questionnaires en ligne, proposés en option, recueillent des réponses : ils reposent alors sur un hébergeur certifié pour les données de santé (HDS).'
   },
   {
+    q: 'Puis-je avoir un design entièrement personnalisé ?',
+    r: 'Oui. Les neuf styles servent de point de départ, mais nous pouvons construire ensemble une direction artistique propre à votre cabinet : couleurs, typographie, illustrations, logo. Elle est étudiée sur devis, selon l’ampleur du projet.'
+  },
+  {
     q: 'Le nom de domaine m’appartient-il ?',
     r: 'Oui. Votre site est mis en ligne avec un nom de domaine à votre nom : vous en restez propriétaire.'
   },
@@ -132,7 +176,7 @@ const FAQ = [
   },
   {
     q: 'Que comprend l’abonnement mensuel ?',
-    r: `${TARIF.mensuel} € par mois couvrent l’hébergement de votre site et les modifications mineures, comme un changement d’horaires ou de tarifs.`
+    r: `Pour un nouveau site, ${TARIF.mensuel} € par mois couvrent l’hébergement et les modifications mineures, comme un changement d’horaires ou de tarifs. Pour une refonte, l’hébergement est en option : vous pouvez garder votre hébergeur actuel.`
   },
   {
     q: 'Mes patients pourront-ils prendre rendez-vous en ligne ?',
@@ -160,13 +204,22 @@ const jsonld = [
     telephone: `+33 ${TELEPHONE.slice(1)}`,
     areaServed: { '@type': 'Country', name: 'France' },
     founder: { '@type': 'Person', name: FONDATEUR, jobTitle: 'Psychologue' },
-    makesOffer: {
-      '@type': 'Offer',
-      name: 'Site web pour cabinet de psychologue',
-      price: TARIF.lancement,
-      priceCurrency: 'EUR',
-      description: `Tarif de lancement réservé aux ${TARIF.places} premiers cabinets, puis ${TARIF.mensuel} € par mois pour l’hébergement et les modifications mineures.`
-    }
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        name: 'Création du site d’un cabinet de psychologue',
+        price: TARIF.lancement,
+        priceCurrency: 'EUR',
+        description: `Tarif de lancement réservé aux ${TARIF.places} premiers cabinets, puis ${TARIF.mensuel} € par mois pour l’hébergement et les modifications mineures.`
+      },
+      {
+        '@type': 'Offer',
+        name: 'Refonte du site d’un cabinet de psychologue',
+        price: TARIF.refonte,
+        priceCurrency: 'EUR',
+        description: `Refonte sur l’adresse actuelle ; hébergement en option (${TARIF.mensuel} € par mois).`
+      }
+    ]
   },
   {
     '@context': 'https://schema.org',
@@ -222,13 +275,13 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
       <a class="vt-heros__defiler" href="#realisations"><span class="sr-only">Découvrir les réalisations</span><i aria-hidden="true"></i></a>
     </section>
 
-    <!-- ===== Bandeau des styles ===== -->
+    <!-- ===== Bandeau des engagements ===== -->
     <div class="vt-defile" aria-hidden="true">
       <div class="vt-defile__piste">
         {[0, 1].map(() => (
           <div class="vt-defile__groupe">
-            {styles.map((s) => (
-              <><span>{s.nom}</span><svg class="vt-defile__x" viewBox="0 0 100 100"><path d="M20 20 41 41M59 59 80 80" /><path class="vt-defile__x2" d="M80 20 20 80" /></svg></>
+            {BANDEAU.map((texte) => (
+              <><span>{texte}</span><svg class="vt-defile__x" viewBox="0 0 100 100"><path d="M20 20 41 41M59 59 80 80" /><path class="vt-defile__x2" d="M80 20 20 80" /></svg></>
             ))}
           </div>
         ))}
@@ -241,7 +294,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
         <header class="vt-tete">
           <p class="vt-surtitre" data-apparait>Réalisations</p>
           <h2 class="vt-h2" id="realisations-titre" data-apparait>Neuf univers, <em>un même soin.</em></h2>
-          <p class="vt-chapeau" data-apparait>Chaque style est un vrai site, avec toutes ses pages. Votre site part de celui qui vous ressemble, avec vos couleurs, vos textes et vos photos.</p>
+          <p class="vt-chapeau" data-apparait>Chaque style est un vrai site, avec toutes ses pages. Votre site part de celui qui vous ressemble, avec vos couleurs, vos textes et vos photos, ou d’un <a class="vt-lien" href="#sur-mesure">univers entièrement sur mesure</a>.</p>
         </header>
 
         <div class="vt-galerie" data-galerie>
@@ -274,6 +327,61 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
       </div>
     </section>
 
+    <!-- ===== Direction artistique sur mesure ===== -->
+    <section class="vt-sur-mesure" id="sur-mesure" aria-labelledby="sur-mesure-titre">
+      <div class="vt-conteneur">
+        <div class="vt-sur-mesure__carte" data-apparait>
+          <div class="vt-sur-mesure__fond" aria-hidden="true"><i></i><i></i></div>
+          <div class="vt-sur-mesure__texte">
+            <p class="vt-surtitre vt-surtitre--clair">Direction artistique sur mesure</p>
+            <h2 class="vt-h2 vt-sur-mesure__titre" id="sur-mesure-titre">Ou un univers <em>rien qu’à vous.</em></h2>
+            <p class="vt-sur-mesure__chapeau">Les neuf styles sont des points de départ. Pour aller plus loin, nous construisons ensemble une identité propre à votre pratique : couleurs, typographie, illustrations, logo, ambiance.</p>
+            <ul class="vt-sur-mesure__pistes" aria-label="Quelques pistes possibles">
+              {PISTES.map((p) => <li>{p}</li>)}
+            </ul>
+            <p class="vt-boutons">
+              <a class="vt-bouton vt-bouton--grand vt-bouton--clair" href="/contact/?sujet=sur-mesure">
+                Parler de mon projet
+                <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+              </a>
+              <a class="vt-bouton vt-bouton--grand vt-bouton--contour-clair" href="/configurateur/">L’indiquer dans le configurateur</a>
+            </p>
+            <p class="vt-sur-mesure__note">Étudiée sur devis, selon l’ampleur du projet. Dans le configurateur, activez « direction artistique sur mesure » à l’étape Style.</p>
+          </div>
+
+          <div class="vt-mood" aria-hidden="true" data-moodboard>
+            <div class="vt-mood__el vt-mood__nuancier">
+              <div class="vt-mood__flotte">
+                <span><i class="vt-mood__c1"></i>Sauge</span>
+                <span><i class="vt-mood__c2"></i>Terracotta</span>
+                <span><i class="vt-mood__c3"></i>Lavande</span>
+                <span><i class="vt-mood__c4"></i>Sable</span>
+              </div>
+            </div>
+            <div class="vt-mood__el vt-mood__typo">
+              <div class="vt-mood__flotte"><b>Aa</b><i>Aa</i><small>Typographie</small></div>
+            </div>
+            <div class="vt-mood__el vt-mood__dessin">
+              <div class="vt-mood__flotte">
+                <svg viewBox="0 0 160 120">
+                  <path pathLength="1" class="vt-mood__trait" d="M34 112V62a46 46 0 0 1 92 0v50" />
+                  <circle pathLength="1" class="vt-mood__trait vt-mood__trait--soleil" cx="80" cy="70" r="17" />
+                  <path pathLength="1" class="vt-mood__trait vt-mood__trait--vague" d="M8 100c24-14 44-14 68 0s46 14 76-2" />
+                </svg>
+                <small>Illustration</small>
+              </div>
+            </div>
+            <div class="vt-mood__el vt-mood__logo">
+              <div class="vt-mood__flotte"><span>CM</span><small>Logo</small></div>
+            </div>
+            <div class="vt-mood__el vt-mood__matiere">
+              <div class="vt-mood__flotte"><small>Matière</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== Vidéo et fonctionnalités ===== -->
     <section class="vt-section vt-fonctions" id="fonctionnalites" aria-labelledby="fonctions-titre">
       <div class="vt-conteneur">
@@ -287,11 +395,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
           <div class="vt-fenetre vt-video__fenetre">
             <div class="vt-fenetre__barre" aria-hidden="true"><i></i><i></i><i></i><span>youxdesign.fr/configurateur</span></div>
             <div class="vt-video__cadre">
-              <video class="vt-video__media" data-media muted playsinline loop preload="none" width="1920" height="1200" poster="/video/configurateur-affiche.jpg" aria-label="Démonstration du configurateur youXdesign : saisie du nom, choix du style, des couleurs, de la typographie et des fonctionnalités, puis envoi de la demande.">
-                <source src="/video/configurateur-1280.mp4" type="video/mp4" media="(max-width: 48rem)" />
-                <source src="/video/configurateur.webm" type="video/webm" />
-                <source src="/video/configurateur.mp4" type="video/mp4" />
-              </video>
+              <video class="vt-video__media" data-media muted playsinline preload="none" width="1600" height="1000" poster="/video/chapitre-1.jpg" aria-label="Démonstration du configurateur youXdesign, en cinq étapes : saisie du nom, choix du style, des couleurs et de la typographie, des fonctionnalités, puis envoi de la demande."></video>
               <button class="vt-video__lecture" type="button" data-lecture aria-label="Lire la vidéo">
                 <svg class="vt-video__icone-lire" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" /></svg>
                 <svg class="vt-video__icone-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.5h3v13h-3zM13.5 5.5h3v13h-3z" /></svg>
@@ -301,7 +405,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
           <ol class="vt-chapitres" data-chapitres>
             {CHAPITRES.map((c, i) => (
               <li>
-                <button type="button" class="vt-chapitre" data-debut={c.debut} data-fin={CHAPITRES[i + 1]?.debut ?? ''}>
+                <button type="button" class="vt-chapitre" aria-pressed={i === 0 ? 'true' : 'false'} data-chapitre={i} data-src={`/video/chapitre-${i + 1}.mp4`} data-src-mobile={`/video/chapitre-${i + 1}-mobile.mp4`} data-affiche={`/video/chapitre-${i + 1}.jpg`}>
                   <span class="vt-chapitre__barre" aria-hidden="true"><i></i></span>
                   <span class="vt-chapitre__num">{String(i + 1).padStart(2, '0')}</span>
                   <strong>{c.titre}</strong>
@@ -330,11 +434,18 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
         <div class="vt-options">
           <div class="vt-options__tete" data-apparait>
             <h3 class="vt-h3">Et selon votre pratique</h3>
-            <p>Des blocs à activer dans le configurateur, en un geste.</p>
+            <p>Des blocs à activer dans le configurateur, en un geste. Survolez un encart pour le voir en action.</p>
           </div>
-          <ul class="vt-options__liste">
-            {OPTIONS.map((o) => (
-              <li data-apparait><strong>{o.nom}</strong><span>{o.description}</span></li>
+          <ul class="vt-options__grille">
+            {OPTIONS_VITRINE.map((o) => (
+              <li class:list={['vt-option', { 'vt-option--large': LARGES.has(o.id) }]} data-option={o.id} data-apparait>
+                <OptionVisuel id={o.id} />
+                <div class="vt-option__texte">
+                  <span class="vt-option__groupe">{GROUPES[o.groupe] ?? o.groupe}</span>
+                  <h4>{o.nom}</h4>
+                  <p>{o.description}</p>
+                </div>
+              </li>
             ))}
           </ul>
         </div>
@@ -381,9 +492,9 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
     <section class="vt-section vt-tarifs" id="tarifs" aria-labelledby="tarifs-titre">
       <div class="vt-conteneur">
         <header class="vt-tete vt-tete--centre">
-          <p class="vt-surtitre" data-apparait>Tarif de lancement</p>
+          <p class="vt-surtitre" data-apparait>Tarifs</p>
           <h2 class="vt-h2" id="tarifs-titre" data-apparait>Un prix clair, <em>sans surprise.</em></h2>
-          <p class="vt-chapeau" data-apparait>Réservé aux {TARIF.places} premiers cabinets, que vous partiez de zéro ou que votre site existe déjà.</p>
+          <p class="vt-chapeau" data-apparait>Un tarif de lancement pour créer votre site, un prix doux pour refaire celui que vous avez déjà.</p>
         </header>
 
         <div class="vt-offre" data-offre data-apparait>
@@ -395,9 +506,13 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
           </div>
           <div class="vt-offre__carte" data-lueur>
             <div class="vt-offre__prix">
-              <p class="vt-prix"><span class="vt-prix__montant">{TARIF.lancement}</span><span class="vt-prix__devise">€</span></p>
-              <p class="vt-prix__avant">au lieu de <s>{TARIF.normal} €</s></p>
-              <p class="vt-prix__mois">puis <strong>{TARIF.mensuel} € par mois</strong> pour l’hébergement et les modifications mineures</p>
+              {Object.entries(OFFRES).map(([id, o], i) => (
+                <div class="vt-offre__tarif" data-offre-tarif={id} hidden={i !== 0}>
+                  <p class="vt-prix"><span class="vt-prix__montant" data-montant={o.prix}>{o.prix}</span><span class="vt-prix__devise">€</span></p>
+                  <p class="vt-prix__avant" set:html={o.avant} />
+                  <p class="vt-prix__mois" set:html={o.mois} />
+                </div>
+              ))}
             </div>
             <div class="vt-offre__details">
               {Object.entries(OFFRES).map(([id, o], i) => (

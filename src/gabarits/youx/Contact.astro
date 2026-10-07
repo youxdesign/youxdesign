@@ -10,7 +10,7 @@ import Entete from '../../components/youx/Entete.astro';
 import Pied from '../../components/youx/Pied.astro';
 import { DOMAINE, EMAIL, TELEPHONE, TELEPHONE_LIEN } from '../../config/youxdesign.mjs';
 
-const SUJETS = ['Créer le site de mon cabinet', 'Refaire mon site actuel', 'Une question'];
+const SUJETS = ['Créer le site de mon cabinet', 'Refaire mon site actuel', 'Une direction artistique sur mesure', 'Une question'];
 const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
 const jsonld = [{
   '@context': 'https://schema.org',
@@ -52,7 +52,7 @@ const jsonld = [{
           <legend>Votre demande</legend>
           <div class="vt-puces">
             {SUJETS.map((s, i) => (
-              <label><input type="radio" name="sujet" value={s} checked={i === 0} /><span>{s}</span></label>
+              <label><input type="radio" name="sujet" value={s} checked={i === 0} data-sujet={["creation", "refonte", "sur-mesure", "question"][i]} /><span>{s}</span></label>
             ))}
           </div>
         </fieldset>

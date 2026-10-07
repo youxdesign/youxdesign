@@ -182,11 +182,12 @@ if ('IntersectionObserver' in window && !calme) {
    Survol : boutons « aimantés » et lueur qui suit le pointeur
    -------------------------------------------------------------------------- */
 if (pointeurFin && !calme) {
+  /* Effet discret : le bouton suit le pointeur de quelques pixels au plus */
   $$('[data-aimant]').forEach((el) => {
     el.addEventListener('pointermove', (e) => {
       const r = el.getBoundingClientRect();
-      el.style.setProperty('--vt-mx', `${((e.clientX - r.left - r.width / 2) * 0.22).toFixed(1)}px`);
-      el.style.setProperty('--vt-my', `${((e.clientY - r.top - r.height / 2) * 0.3).toFixed(1)}px`);
+      el.style.setProperty('--vt-mx', `${borne((e.clientX - r.left - r.width / 2) * 0.06, -5, 5).toFixed(1)}px`);
+      el.style.setProperty('--vt-my', `${borne((e.clientY - r.top - r.height / 2) * 0.1, -3, 3).toFixed(1)}px`);
     });
     el.addEventListener('pointerleave', () => { el.style.setProperty('--vt-mx', '0px'); el.style.setProperty('--vt-my', '0px'); });
   });
@@ -197,6 +198,17 @@ if (pointeurFin && !calme) {
       el.style.setProperty('--vt-ly', `${e.clientY - r.top}px`);
     });
   });
+  /* Planche d'ambiance (direction artistique sur mesure) : légère profondeur au survol */
+  const planche = $('[data-moodboard]');
+  const carte = planche?.closest('.vt-sur-mesure__carte');
+  if (planche && carte) {
+    carte.addEventListener('pointermove', (e) => {
+      const r = carte.getBoundingClientRect();
+      planche.style.setProperty('--vt-ox', ((e.clientX - r.left) / r.width * 2 - 1).toFixed(3));
+      planche.style.setProperty('--vt-oy', ((e.clientY - r.top) / r.height * 2 - 1).toFixed(3));
+    });
+    carte.addEventListener('pointerleave', () => { planche.style.setProperty('--vt-ox', '0'); planche.style.setProperty('--vt-oy', '0'); });
+  }
 }
 
 /* --------------------------------------------------------------------------
@@ -257,13 +269,20 @@ if (galerie) {
 }
 
 /* --------------------------------------------------------------------------
-   Vidéo du configurateur : lecture quand elle est à l'écran, chapitres
+   Vidéo du configurateur : une séquence par étape
+   - lecture quand la vidéo est à l'écran, pause quand elle en sort ;
+   - un clic sur une étape lance aussitôt sa séquence ;
+   - à la fin d'une séquence, la suivante s'enchaîne (puis on recommence).
+   Pas de déplacement dans un long fichier : fonctionne même sur les
+   hébergements qui ne servent pas les vidéos par morceaux.
    -------------------------------------------------------------------------- */
 const blocVideo = $('[data-video]');
 if (blocVideo) {
   const video = $('[data-media]', blocVideo);
   const bouton = $('[data-lecture]', blocVideo);
-  const chapitres = $$('[data-debut]', blocVideo);
+  const chapitres = $$('[data-chapitre]', blocVideo);
+  const petitEcran = window.matchMedia('(max-width: 48rem)').matches;
+  let courant = -1;
   let voulue = !calme;
   let visible = false;
 
@@ -272,38 +291,41 @@ if (blocVideo) {
     bouton.setAttribute('aria-label', e === 'lecture' ? 'Mettre la vidéo en pause' : 'Lire la vidéo');
   };
   etat('pause');
+  const majChapitres = () => {
+    const avance = video.duration ? borne(video.currentTime / video.duration, 0, 1) : 0;
+    chapitres.forEach((c, i) => {
+      c.style.setProperty('--vt-avance', (i < courant ? 1 : i === courant ? avance : 0).toFixed(3));
+    });
+  };
+  const charger = (i) => {
+    courant = i;
+    const c = chapitres[i];
+    video.poster = c.dataset.affiche;
+    video.src = petitEcran ? c.dataset.srcMobile : c.dataset.src;
+    chapitres.forEach((x, j) => {
+      x.classList.toggle('est-actif', j === i);
+      x.setAttribute('aria-pressed', String(j === i));
+    });
+    majChapitres();
+  };
   const lire = () => {
-    if (video.preload === 'none') video.preload = 'auto';
+    if (courant < 0) charger(0);
     const p = video.play();
     if (p) p.catch(() => etat('pause'));
-  };
-  const majChapitres = () => {
-    const t = video.currentTime;
-    const total = video.duration || 0;
-    chapitres.forEach((c) => {
-      const debut = Number(c.dataset.debut);
-      const fin = c.dataset.fin ? Number(c.dataset.fin) : total || debut + 10;
-      const avance = borne((t - debut) / (fin - debut), 0, 1);
-      c.style.setProperty('--vt-avance', avance.toFixed(3));
-      c.classList.toggle('est-actif', t >= debut && t < fin);
-      c.setAttribute('aria-current', t >= debut && t < fin ? 'true' : 'false');
-    });
   };
   const boucle = () => { majChapitres(); if (!video.paused) requestAnimationFrame(boucle); };
 
   video.addEventListener('play', () => { etat('lecture'); requestAnimationFrame(boucle); });
   video.addEventListener('pause', () => etat('pause'));
-  video.addEventListener('seeked', majChapitres);
+  video.addEventListener('ended', () => { charger((courant + 1) % chapitres.length); lire(); });
   bouton.addEventListener('click', () => {
     if (video.paused) { voulue = true; lire(); } else { voulue = false; video.pause(); }
   });
   video.addEventListener('click', () => { if (!video.paused) { voulue = false; video.pause(); } });
-  chapitres.forEach((c) => c.addEventListener('click', () => {
-    const debut = Number(c.dataset.debut);
+  chapitres.forEach((c, i) => c.addEventListener('click', () => {
     voulue = true;
-    const aller = () => { video.currentTime = debut; lire(); };
-    if (video.readyState >= 1) aller();
-    else { video.preload = 'auto'; video.addEventListener('loadedmetadata', aller, { once: true }); video.load(); }
+    charger(i);
+    lire();
   }));
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(([e]) => {
@@ -319,18 +341,63 @@ if (blocVideo) {
 }
 
 /* --------------------------------------------------------------------------
-   Tarif : nouveau site ou refonte
+   Options : la mini-interface s'anime à l'écran, et se rejoue au survol
+   (au toucher sur téléphone)
+   -------------------------------------------------------------------------- */
+const options = $$('[data-option]');
+if (options.length && !calme) {
+  const jouer = (c) => { c.classList.remove('est-anime'); void c.offsetWidth; c.classList.add('est-anime'); };
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entrees) => entrees.forEach((e) => {
+      if (e.isIntersecting) { if (!e.target.classList.contains('est-anime')) e.target.classList.add('est-anime'); }
+      else e.target.classList.remove('est-anime');
+    }), { threshold: 0.3 });
+    options.forEach((c) => io.observe(c));
+  } else {
+    options.forEach((c) => c.classList.add('est-anime'));
+  }
+  options.forEach((c) => c.addEventListener(pointeurFin ? 'pointerenter' : 'click', () => jouer(c)));
+}
+
+/* --------------------------------------------------------------------------
+   Tarif : nouveau site ou refonte (le montant défile d'un prix à l'autre)
    -------------------------------------------------------------------------- */
 const offre = $('[data-offre]');
 if (offre) {
   const bascule = $('[data-bascule]', offre);
   const choix = $$('[data-offre-choix]', offre);
   const panneaux = $$('[data-offre-panneau]', offre);
+  const tarifs = $$('[data-offre-tarif]', offre);
+  let actuel = choix.find((b) => b.getAttribute('aria-pressed') === 'true')?.dataset.offreChoix;
+
+  const defiler = (el, de, a) => {
+    if (calme || de === a) { el.textContent = String(a); return; }
+    const t0 = performance.now(), duree = 650;
+    const pas = (t) => {
+      const k = borne((t - t0) / duree, 0, 1);
+      const e = 1 - Math.pow(1 - k, 3);
+      el.textContent = String(Math.round(de + (a - de) * e));
+      if (k < 1) requestAnimationFrame(pas);
+    };
+    requestAnimationFrame(pas);
+  };
+
   choix.forEach((b) => b.addEventListener('click', () => {
     const id = b.dataset.offreChoix;
+    if (id === actuel) return;
+    const ancien = tarifs.find((t) => t.dataset.offreTarif === actuel);
+    const deMontant = ancien ? Number($('[data-montant]', ancien).dataset.montant) : 0;
+    actuel = id;
     choix.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
     bascule.dataset.choix = id;
     panneaux.forEach((p) => { p.hidden = p.dataset.offrePanneau !== id; });
+    tarifs.forEach((t) => {
+      t.hidden = t.dataset.offreTarif !== id;
+      if (!t.hidden) {
+        const montant = $('[data-montant]', t);
+        defiler(montant, deMontant, Number(montant.dataset.montant));
+      }
+    });
   }));
 }
 
@@ -358,6 +425,10 @@ if (formulaire) {
     champSite.hidden = sujet !== 'Refaire mon site actuel';
   };
   formulaire.addEventListener('change', (e) => { if (e.target.name === 'sujet') majSujet(); });
+  /* Sujet choisi d'avance par le lien suivi (?sujet=sur-mesure, ?sujet=refonte…) */
+  const sujetDemande = new URLSearchParams(location.search).get('sujet');
+  const caseSujet = sujetDemande && formulaire.querySelector(`[data-sujet="${CSS.escape(sujetDemande)}"]`);
+  if (caseSujet) caseSujet.checked = true;
   majSujet();
 
   formulaire.addEventListener('submit', (e) => {
