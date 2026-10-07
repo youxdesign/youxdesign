@@ -8,6 +8,7 @@
 import { readdir, rename, rm, writeFile, cp, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { LIEN_APPEL } from '../config/youxdesign.mjs';
 
 /* Cloudflare Pages cherche « 404.html » dans le dossier le plus proche :
    on transforme chaque « …/404/index.html » en « …/404.html ». */
@@ -61,7 +62,11 @@ function enTetes({ vitrine, carte, formulaires = [], agendas = [] }) {
 }
 
 /* Anciennes adresses du site youXdesign (e-mails déjà envoyés, favoris) */
-const REDIRECTIONS_VITRINE = `# Anciennes adresses -> nouvelles pages
+const REDIRECTIONS_VITRINE = `# Adresse courte de l'e-mail de prospection : réserver un appel gratuit
+/appel                           ${LIEN_APPEL}       302
+/appel/                          ${LIEN_APPEL}       302
+
+# Anciennes adresses -> nouvelles pages
 /configurateur.html              /configurateur/              301
 /demo/index.html                 /demo/                       301
 /demo/Accueil.dc.html            /demo/                       301

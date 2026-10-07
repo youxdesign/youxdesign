@@ -8,9 +8,18 @@
 import Youx from '../../layouts/Youx.astro';
 import Entete from '../../components/youx/Entete.astro';
 import Pied from '../../components/youx/Pied.astro';
-import { DOMAINE, EMAIL } from '../../config/youxdesign.mjs';
+import { DOMAINE, EMAIL, LIEN_APPEL } from '../../config/youxdesign.mjs';
 
-const SUJETS = ['Créer le site de mon cabinet', 'Refaire mon site actuel', 'Une direction artistique sur mesure', 'Une question'];
+/* Sujets du formulaire ; la clé sert aux liens « /contact/?sujet=… » */
+const SUJETS = [
+  { cle: 'creation', libelle: 'Créer le site de mon cabinet' },
+  { cle: 'refonte', libelle: 'Refaire mon site actuel' },
+  { cle: 'sur-mesure', libelle: 'Une direction artistique sur mesure' },
+  { cle: 'appel', libelle: 'Réserver un appel gratuit' },
+  { cle: 'question', libelle: 'Une question' }
+];
+/* Moments proposés pour l'appel découverte */
+const MOMENTS = ['Le matin', 'Entre midi et deux', 'L’après-midi', 'En fin de journée', 'Le samedi'];
 const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
 const jsonld = [{
   '@context': 'https://schema.org',
@@ -36,6 +45,11 @@ const jsonld = [{
             <button type="button" class="vt-copier" data-copier={EMAIL}><span data-copier-texte>Copier</span></button>
           </li>
           <li>
+            <span class="vt-contact__etiquette">Appel gratuit</span>
+            <a class="vt-contact__valeur" href={LIEN_APPEL}>Réserver un appel <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>
+            <span class="vt-contact__aide">Quinze minutes, sans engagement, pour parler de votre cabinet et de votre projet.</span>
+          </li>
+          <li>
             <span class="vt-contact__etiquette">Le plus rapide</span>
             <a class="vt-contact__valeur" href="/configurateur/">Configurer mon site <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>
             <span class="vt-contact__aide">Dix minutes, et votre demande part avec un récapitulatif complet.</span>
@@ -48,7 +62,7 @@ const jsonld = [{
           <legend>Votre demande</legend>
           <div class="vt-puces">
             {SUJETS.map((s, i) => (
-              <label><input type="radio" name="sujet" value={s} checked={i === 0} data-sujet={["creation", "refonte", "sur-mesure", "question"][i]} /><span>{s}</span></label>
+              <label><input type="radio" name="sujet" value={s.libelle} checked={i === 0} data-sujet={s.cle} /><span>{s.libelle}</span></label>
             ))}
           </div>
         </fieldset>
@@ -58,10 +72,16 @@ const jsonld = [{
         </div>
         <div class="vt-formulaire__ligne">
           <label class="vt-champ"><span>E-mail</span><input name="email" type="email" autocomplete="email" required /></label>
-          <label class="vt-champ"><span>Téléphone <em>facultatif</em></span><input name="telephone" type="tel" autocomplete="tel" /></label>
+          <label class="vt-champ"><span>Téléphone <em data-facultatif="telephone">facultatif</em></span><input name="telephone" type="tel" autocomplete="tel" /></label>
         </div>
         <label class="vt-champ vt-champ--site" data-si-refonte hidden><span>Adresse de votre site actuel</span><input name="site" type="url" inputmode="url" placeholder="https://" /></label>
-        <label class="vt-champ"><span>Votre message</span><textarea name="message" rows="5" required></textarea></label>
+        <fieldset class="vt-formulaire__sujets" data-si-appel hidden>
+          <legend>Quand puis-je vous appeler ? <em>plusieurs choix possibles</em></legend>
+          <div class="vt-puces">
+            {MOMENTS.map((m) => <label><input type="checkbox" name="moments" value={m} /><span>{m}</span></label>)}
+          </div>
+        </fieldset>
+        <label class="vt-champ"><span>Votre message <em data-facultatif="message" hidden>facultatif</em></span><textarea name="message" rows="5" required></textarea></label>
         <p class="vt-formulaire__erreur" data-erreur role="alert" hidden></p>
         <div class="vt-formulaire__envoi">
           <button class="vt-bouton vt-bouton--grand" type="submit">
@@ -69,6 +89,15 @@ const jsonld = [{
             <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
           </button>
           <p>Votre messagerie s’ouvre avec le message prêt à partir. Ce site n’enregistre ni ne transmet rien.</p>
+        </div>
+        <!-- Si aucune messagerie ne s'ouvre (Gmail ou Outlook dans le navigateur) : relais affiché à l'envoi -->
+        <div class="vt-formulaire__relais" data-relais role="status" hidden>
+          <p><strong>Rien ne s’est ouvert ?</strong> Envoyez le même message depuis votre messagerie en ligne, ou copiez-le et écrivez à {EMAIL}.</p>
+          <div class="vt-formulaire__relais-boutons">
+            <a class="vt-bouton vt-bouton--contour vt-bouton--petit" data-relais-gmail target="_blank" rel="noopener">Ouvrir dans Gmail</a>
+            <a class="vt-bouton vt-bouton--contour vt-bouton--petit" data-relais-outlook target="_blank" rel="noopener">Ouvrir dans Outlook</a>
+            <button type="button" class="vt-bouton vt-bouton--contour vt-bouton--petit" data-copier=""><span data-copier-texte>Copier le message</span></button>
+          </div>
         </div>
       </form>
     </section>

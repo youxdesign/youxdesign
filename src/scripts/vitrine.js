@@ -420,23 +420,34 @@ if (offre) {
    -------------------------------------------------------------------------- */
 $$('[data-copier]').forEach((b) => b.addEventListener('click', async () => {
   const texte = $('[data-copier-texte]', b);
+  texte.dataset.initial ||= texte.textContent;
   try {
     await navigator.clipboard.writeText(b.dataset.copier);
     b.classList.add('est-copie');
     texte.textContent = 'Copié';
   } catch {
-    texte.textContent = 'Sélectionnez l’adresse';
+    texte.textContent = 'Copie impossible ici';
   }
-  setTimeout(() => { b.classList.remove('est-copie'); texte.textContent = 'Copier'; }, 2200);
+  setTimeout(() => { b.classList.remove('est-copie'); texte.textContent = texte.dataset.initial; }, 2200);
 }));
 
 const formulaire = $('[data-formulaire-contact]');
 if (formulaire) {
   const erreur = $('[data-erreur]', formulaire);
   const champSite = $('[data-si-refonte]', formulaire);
+  const champMoments = $('[data-si-appel]', formulaire);
+  const relais = $('[data-relais]', formulaire);
+  const sujetChoisi = () => formulaire.querySelector('[name="sujet"]:checked')?.dataset.sujet;
+  /* Appel gratuit : le téléphone devient nécessaire, le message facultatif */
   const majSujet = () => {
-    const sujet = formulaire.elements.sujet.value;
-    champSite.hidden = sujet !== 'Refaire mon site actuel';
+    const sujet = sujetChoisi();
+    const appel = sujet === 'appel';
+    champSite.hidden = sujet !== 'refonte';
+    champMoments.hidden = !appel;
+    $('[data-facultatif="telephone"]', formulaire).hidden = appel;
+    $('[data-facultatif="message"]', formulaire).hidden = !appel;
+    formulaire.elements.telephone.required = appel;
+    formulaire.elements.message.required = !appel;
   };
   formulaire.addEventListener('change', (e) => { if (e.target.name === 'sujet') majSujet(); });
   /* Sujet choisi d'avance par le lien suivi (?sujet=sur-mesure, ?sujet=refonte…) */
@@ -448,8 +459,11 @@ if (formulaire) {
   formulaire.addEventListener('submit', (e) => {
     e.preventDefault();
     const f = formulaire.elements;
+    const appel = sujetChoisi() === 'appel';
+    const requis = [['nom', 'votre nom'], ['email', 'votre e-mail'], appel ? ['telephone', 'votre numéro de téléphone'] : ['message', 'votre message']];
     const manquants = [];
-    [['nom', 'votre nom'], ['email', 'votre e-mail'], ['message', 'votre message']].forEach(([n, libelle]) => {
+    [f.telephone, f.message].forEach((champ) => champ.removeAttribute('aria-invalid'));
+    requis.forEach(([n, libelle]) => {
       const champ = f[n];
       const vide = !champ.value.trim() || (n === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(champ.value.trim()));
       champ.setAttribute('aria-invalid', String(vide));
@@ -458,17 +472,28 @@ if (formulaire) {
     if (manquants.length) {
       erreur.textContent = `Merci d’indiquer ${manquants.join(', ').replace(/, ([^,]*)$/, ' et $1')}.`;
       erreur.hidden = false;
-      f[['nom', 'email', 'message'].find((n) => f[n].getAttribute('aria-invalid') === 'true')].focus();
+      f[requis.map(([n]) => n).find((n) => f[n].getAttribute('aria-invalid') === 'true')].focus();
       return;
     }
     erreur.hidden = true;
     const ligne = (libelle, valeur) => (valeur.trim() ? `${libelle} : ${valeur.trim()}\n` : '');
-    const corps = `Bonjour Younes,\n\n${f.message.value.trim()}\n\n${f.nom.value.trim()}\n`
+    const moments = $$('[name="moments"]:checked', formulaire).map((c) => c.value.toLowerCase()).join(', ');
+    const message = f.message.value.trim() || (appel ? 'Je souhaite réserver un appel découverte gratuit pour parler de mon site.' : '');
+    const corps = `Bonjour Younes,\n\n${message}\n\n${f.nom.value.trim()}\n`
+      + (appel ? ligne('Disponibilités pour l’appel', moments) : '')
       + ligne('Ville du cabinet', f.ville.value)
       + ligne('Téléphone', f.telephone.value)
       + ligne('E-mail', f.email.value)
       + (champSite.hidden ? '' : ligne('Site actuel', f.site.value));
     const objet = `${f.sujet.value} · ${f.nom.value.trim()}`;
-    window.location.href = `mailto:${formulaire.dataset.email}?subject=${encodeURIComponent(objet)}&body=${encodeURIComponent(corps)}`;
+    const a = formulaire.dataset.email;
+    const [o, c] = [encodeURIComponent(objet), encodeURIComponent(corps)];
+    /* Relais pour ceux dont la messagerie est un site (Gmail, Outlook) : avec
+       un lien mailto, rien ne s'ouvre si aucune application n'est installée */
+    $('[data-relais-gmail]', relais).href = `https://mail.google.com/mail/?view=cm&fs=1&to=${a}&su=${o}&body=${c}`;
+    $('[data-relais-outlook]', relais).href = `https://outlook.live.com/mail/0/deeplink/compose?to=${a}&subject=${o}&body=${c}`;
+    $('[data-copier]', relais).dataset.copier = `À : ${a}\nObjet : ${objet}\n\n${corps}`;
+    relais.hidden = false;
+    window.location.href = `mailto:${a}?subject=${o}&body=${c}`;
   });
 }

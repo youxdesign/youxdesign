@@ -11,11 +11,20 @@ export const EMAIL = 'contact@youxdesign.fr';
 
 export const STUDIO = 'youXdesign';
 
-/* Coordonnées affichées sur la vitrine (page Contact, pied de page, mentions légales) */
+/* Coordonnées : le téléphone n'apparaît que dans les mentions légales
+   (obligatoire pour un professionnel) ; partout ailleurs, l'e-mail. */
 export const FONDATEUR = 'Younes';
 export const EDITEUR = 'Younes Yagoubi';
 export const TELEPHONE = '07 61 84 57 91';
 export const TELEPHONE_LIEN = '+33761845791';
+
+/* Appel découverte gratuit (bouton de l'e-mail de prospection, page Contact).
+   L'adresse courte youxdesign.fr/appel/ mène vers LIEN_APPEL : par défaut le
+   formulaire de contact, sujet « appel » choisi d'avance. Le jour où une page
+   de réservation existe (Google Agenda, Calendly…), collez son adresse dans
+   RESERVATION_APPEL : les e-mails déjà envoyés y mèneront aussi. */
+export const RESERVATION_APPEL = '';
+export const LIEN_APPEL = RESERVATION_APPEL || '/contact/?sujet=appel';
 
 /* Tarifs affichés sur la vitrine (euros) :
    création : lancement au lieu de normal, pour les « places » premiers cabinets,

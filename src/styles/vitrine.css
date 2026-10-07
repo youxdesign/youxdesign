@@ -1177,6 +1177,13 @@ ol.vt-etapes { position: relative; display: grid; grid-template-columns: repeat(
 .vt-formulaire__erreur { padding: .75rem 1rem; border-radius: .75rem; background: #FDF2EE; color: #A3290A; font-size: .9rem; }
 .vt-formulaire__envoi { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.5rem; }
 .vt-formulaire__envoi p { flex: 1 1 14rem; font-size: .85rem; color: var(--vt-texte-doux); }
+.vt-formulaire__sujets legend em { margin-left: .35rem; font-style: normal; font-weight: 400; color: var(--vt-texte-doux); }
+/* Relais si la messagerie ne s'ouvre pas */
+.vt-formulaire__relais { display: grid; gap: .85rem; padding: 1.1rem 1.25rem; border-radius: 1rem; background: var(--vt-lilas-doux); font-size: .9rem; color: var(--vt-texte); }
+.vt-formulaire__relais strong { color: var(--vt-encre); }
+.vt-formulaire__relais-boutons { display: flex; flex-wrap: wrap; gap: .5rem; }
+.vt-formulaire__relais .vt-bouton--contour { background: #FFFFFF; }
+@media (prefers-reduced-motion: no-preference) { .vt-formulaire__relais:not([hidden]) { animation: vtApparait .6s var(--vt-ease) both; } }
 @media (max-width: 56rem) { .vt-contact { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 34rem) { .vt-formulaire__ligne { grid-template-columns: minmax(0, 1fr); } .vt-formulaire__envoi .vt-bouton { width: 100%; } }
 
