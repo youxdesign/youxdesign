@@ -360,12 +360,51 @@ La commande vérifie aussi que l'e-mail pèse moins de 100 Ko (au-delà, Gmail l
 | `{{source}}` | où vous avez trouvé l'adresse | votre page professionnelle sur Google |
 | `{{site_actuel}}` | (e-mail « refonte » seulement) l'adresse de son site actuel | julie-durand-psychologue.fr |
 
-**Envoyer**
+**Quel e-mail pour qui ?** L'e-mail « refonte » quand le praticien a son propre nom de domaine (psyroubaix.fr…). L'e-mail « création » quand il n'a pas de site, ou seulement une page gratuite (Wix, Jimdo, Weebly, Google Sites…) : lui promettre de « garder son adresse » n'aurait pas de sens.
 
-- Utilisez un outil d'envoi qui accepte le HTML et les variables : Brevo, Mailjet, Mailmeteor ou l'extension de publipostage de votre choix. Collez le contenu de `email-prospection.html` dans l'éditeur « code HTML » de l'outil.
-- Faites toujours un essai vers votre propre adresse, et regardez-le sur ordinateur et sur téléphone.
-- Envoyez par petits lots, depuis une adresse professionnelle.
-- Le pied de l'e-mail indique où l'adresse a été trouvée et propose de répondre « STOP ». Retirez aussitôt de vos listes toute personne qui répond « STOP ».
+**Envoyer : la commande `npm run envoyer`**
+
+Elle envoie les e-mails depuis younes@youxdesign.fr exactement tels qu'ils ont été conçus, images et liens directs compris.
+
+> N'utilisez pas l'outil Gmail de Claude (ni un simple copier-coller du code HTML) pour ces e-mails : il supprime les images et transforme chaque lien en redirection google.com, ce qui affiche un avertissement au destinataire. En dépannage, on peut ouvrir l'aperçu dans Safari, tout sélectionner (Cmd+A), copier (Cmd+C) et coller dans un nouveau message Gmail : images et liens restent intacts.
+
+1. **Une seule fois : le mot de passe d'application.** Dans le compte Google de younes@youxdesign.fr (myaccount.google.com › Sécurité), activez la validation en deux étapes, puis créez un « mot de passe d'application ». Collez ses 16 lettres dans le fichier `~/.config/youxdesign/envoi.env`, hors du projet, jamais sur GitHub :
+   ```
+   SMTP_UTILISATEUR=younes@youxdesign.fr
+   SMTP_MOT_DE_PASSE=<les 16 lettres>
+   ```
+2. **La liste du lot**, un fichier JSON rangé dans le dossier `envois/`, à côté du projet (`YouXdesign/envois/prospects-lot3.json`…). Il contient une entrée par prospect :
+   ```json
+   [
+     { "prenom": "Julie", "email": "contact@julie-durand-psychologue.fr", "modele": "refonte",
+       "site": "julie-durand-psychologue.fr",
+       "detail": "J’ai découvert votre cabinet de Roubaix et votre travail auprès des adolescents." }
+   ]
+   ```
+   `modele` vaut `refonte` ou `creation`. `site` remplit `{{site_actuel}}` et la source du pied de l'e-mail (« votre site … »). `detail` remplit `{{detail_personnalisation}}`.
+3. **Les trois étapes**, depuis le dossier `repo` :
+   ```bash
+   npm run envoyer -- ../envois/prospects-lot3.json
+   ```
+   affiche la liste et l'objet de chaque e-mail, sans rien envoyer.
+   ```bash
+   npm run envoyer -- ../envois/prospects-lot3.json --essai yagoubiyounes@gmail.com
+   ```
+   envoie chaque e-mail personnalisé à votre propre adresse, objet « [Test Julie] … ». Relisez-les sur ordinateur et sur téléphone.
+   ```bash
+   npm run envoyer -- ../envois/prospects-lot3.json --confirmer
+   ```
+   envoie pour de vrai, avec 90 secondes entre deux prospects.
+4. **Le journal** `envois/journal-envois.csv` garde la date de chaque envoi. Une adresse qui y figure n'est jamais relancée par erreur, même si elle réapparaît dans un autre lot.
+
+**Les bonnes habitudes**
+
+- Petits lots, de 10 à 15 e-mails, espacés de quelques jours : le domaine est neuf, et Gmail se méfie des gros envois.
+- Uniquement des adresses publiées par le praticien lui-même, et toujours présentes sur son site le jour de l'envoi.
+- Après l'envoi, passez les lignes en « Envoyé » dans le fichier de suivi Excel. Elles deviennent bleues, puis jaunes au moment de la relance (J+10).
+- Le pied de l'e-mail indique où l'adresse a été trouvée et propose de répondre « STOP ». Retirez aussitôt de vos listes toute personne qui répond « STOP » (onglet « Liste STOP » du fichier de suivi).
+
+**La relance**, une seule fois, environ 10 jours après le premier envoi : un message court, sans image ni lien, envoyé en réponse au premier e-mail (même conversation). Le texte, en version refonte et en version création, est dans `envois/relance.txt`. Une tâche programmée de Claude (barre latérale › « Scheduled ») peut préparer ces réponses en brouillons dans Gmail ; vous les relisez, puis vous les envoyez vous-même.
 
 **Le GIF animé** de l'e-mail présente six démos (Sauge, Terre & organique, Nocturne, Pastel doux, Éditorial, Santé contemporaine) : l'accueil, puis les motifs de consultation, en fondu de l'une à l'autre (environ 1 Mo). Il est hébergé sur le site, dans `youx-statique/email/apercu-sites.gif`, à l'adresse https://youxdesign.fr/email/apercu-sites.gif. Pour le refaire, donnez-lui un nouveau nom de fichier : les e-mails déjà envoyés gardent ainsi l'ancien. Une image ajoutée ou changée n'apparaît dans les e-mails qu'une fois envoyée sur la branche `main`.
 
@@ -399,7 +438,8 @@ La commande vérifie aussi que l'e-mail pèse moins de 100 Ko (au-delà, Gmail l
 | Une photo n'apparaît pas | Vérifiez son nom exact (`portrait.jpg`…) et son dossier (`images/`), puis refabriquez le site. |
 | Le plan est celui de Lille | Supprimez `images/carte.png`, renseignez les coordonnées GPS, puis lancez `npm run carte -- <dossier>`. |
 | Cloudflare affiche « Build failed » pour youxdesign.fr | Vérifiez les réglages de la [partie 9](#9-modifier-le-site-youxdesign). Le détail est dans Cloudflare, onglet « Deployments ». |
-| Une image n'apparaît pas dans l'e-mail | Elle n'est sans doute pas encore sur la branche `main` : ouvrez son adresse dans un navigateur pour vérifier. |
+| Une image n'apparaît pas dans l'e-mail | Elle n'est sans doute pas encore sur la branche `main` : ouvrez son adresse dans un navigateur pour vérifier. Si l'e-mail a été envoyé avec l'outil Gmail de Claude, c'est lui qui a retiré les images : utilisez `npm run envoyer` (partie 10). |
+| `npm run envoyer` : « Invalid login » ou « Username and Password not accepted » | Le mot de passe d'application est faux ou a été supprimé : créez-en un nouveau et remplacez-le dans `~/.config/youxdesign/envoi.env`. |
 
 En cas de doute, demandez à Claude Code : il connaît ce projet et peut lancer les commandes pour vous.
 
@@ -416,11 +456,12 @@ cabinets/            une fiche par cabinet (claire-morel = la démo)
 clients/             sites fabriqués par « npm run client », prêts à mettre en ligne
 dist/                site youXdesign fabriqué par « npm run build »
 email/               e-mail de prospection : modèles et versions prêtes à envoyer
+../envois/           à côté du projet (jamais sur GitHub) : listes des lots, journal des envois, texte de relance
 youx-statique/       fichiers propres au site youXdesign : logo, images des e-mails, vidéo, image de partage
 src/assets/vitrine/  captures des neuf styles affichées sur la vitrine
 src/gabarits/youx/   pages du site youXdesign : vitrine, configurateur, contact, mentions légales, galerie
 public/fonts/        polices hébergées sur les sites (aucun appel à Google Fonts)
-scripts/             commandes : client, aperçu, carte, e-mail, polices
+scripts/             commandes : client, aperçu, carte, e-mail, envoi des e-mails, polices
 src/config/          catalogue (styles, palettes, polices, options) et réglages youXdesign
 src/themes/          le design de chaque style
 src/gabarits/        les pages communes (accueil, à propos, contact…)
