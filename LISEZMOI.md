@@ -381,7 +381,7 @@ Elle envoie les e-mails depuis younes@youxdesign.fr exactement tels qu'ils ont �
        "detail": "J’ai découvert votre cabinet de Roubaix et votre travail auprès des adolescents." }
    ]
    ```
-   `modele` vaut `refonte` ou `creation`. `site` remplit `{{site_actuel}}` et la source du pied de l'e-mail (« votre site … »). `detail` remplit `{{detail_personnalisation}}`.
+   `modele` vaut `refonte` ou `creation`. `site` remplit `{{site_actuel}}` et la source du pied de l'e-mail (« votre site … »). `detail` remplit `{{detail_personnalisation}}`. `source`, facultatif, remplace « votre site … » en bas de l'e-mail quand l'adresse vient d'ailleurs (par exemple « la page du cabinet paramédical Detroy »).
 3. **Les trois étapes**, depuis le dossier `repo` :
    ```bash
    npm run envoyer -- ../envois/prospects-lot3.json

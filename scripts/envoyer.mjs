@@ -9,7 +9,8 @@
 
    Fichier prospects (JSON), une entrée par personne :
      { "prenom": "Nathalie", "email": "…", "modele": "refonte" | "creation",
-       "site": "psychologue-vdascq.fr", "detail": "J’ai découvert…" }
+       "site": "psychologue-vdascq.fr", "detail": "J’ai découvert…",
+       "source": "…" (facultatif, remplace « votre site <site> » en bas de l’e-mail) }
 
    Identifiants : fichier ~/.config/youxdesign/envoi.env (jamais dans le dépôt)
      SMTP_UTILISATEUR=younes@youxdesign.fr
@@ -44,7 +45,7 @@ const echapper = (t) => t.replaceAll('&', '&amp;').replaceAll('<', '&lt;').repla
 function preparer(p) {
   const sortie = MODELES[p.modele];
   if (!sortie) throw new Error(`${p.prenom} : modèle inconnu « ${p.modele} » (refonte ou creation)`);
-  const v = { prenom: p.prenom, detail_personnalisation: p.detail ?? '', source: `votre site ${p.site}`, site_actuel: p.site };
+  const v = { prenom: p.prenom, detail_personnalisation: p.detail ?? '', source: p.source ?? `votre site ${p.site}`, site_actuel: p.site };
   const remplir = (s, html) => s.replace(/\{\{(\w+)\}\}/g, (_, k) => {
     if (!(k in v)) throw new Error(`${p.prenom} : variable {{${k}}} inconnue`);
     return html ? echapper(v[k]) : v[k];
