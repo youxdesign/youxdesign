@@ -72,18 +72,19 @@ body.cfg-page {
   background: transparent; color: var(--texte-3); font-size: 14px; font-weight: 500; cursor: pointer; white-space: nowrap;
   transition: background-color .3s var(--doux), color .3s var(--doux);
 }
-.cfg-progression__num { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: rgb(0 0 0 / .06); font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; transition: background-color .3s var(--doux), color .3s var(--doux); }
+.cfg-progression__num { display: grid; color: var(--texte-2); place-items: center; width: 24px; height: 24px; border-radius: 50%; background: rgb(0 0 0 / .06); font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; transition: background-color .3s var(--doux), color .3s var(--doux); }
 .cfg-progression__nom { max-width: 0; overflow: hidden; opacity: 0; transition: max-width .45s var(--ressort), opacity .3s var(--doux); }
 .cfg-progression button:hover .cfg-progression__nom, .cfg-progression button[aria-current='step'] .cfg-progression__nom { max-width: 12em; opacity: 1; }
 .cfg-progression button[aria-current='step'] { background: var(--surface); color: var(--texte); box-shadow: var(--ombre); }
 .cfg-progression button[aria-current='step'] .cfg-progression__num { background: var(--accent); color: #FFFFFF; }
 .cfg-progression button.est-fait .cfg-progression__num { background: var(--accent-doux); color: var(--accent-fort); }
-@media (hover: none) { .cfg-progression__nom { display: none; } .cfg-progression button[aria-current='step'] .cfg-progression__nom { display: inline; max-width: none; opacity: 1; } }
+@media (hover: none) { .cfg-progression__nom { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; } .cfg-progression button[aria-current='step'] .cfg-progression__nom { position: static; width: auto; height: auto; clip-path: none; max-width: none; opacity: 1; } }
 
 .cfg-corps { display: grid; grid-template-columns: var(--panneau) 1fr; min-height: 0; }
 .cfg-corps:focus { outline: none; }
 
 /* Panneau des questions (défile indépendamment) */
+.cfg-panneau:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .cfg-panneau {
   position: relative; overflow-y: auto; overscroll-behavior: contain;
   padding: 28px 28px 120px; background: var(--surface); border-right: 1px solid var(--ligne);

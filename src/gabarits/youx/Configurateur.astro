@@ -60,13 +60,13 @@ const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent
     <nav class="cfg-progression" aria-label="Étapes du configurateur">
       <ol>
         {ETAPES.map((e, i) => (
-          <li><button type="button" data-aller={i} aria-current={i === 0 ? 'step' : undefined} aria-label={`Étape ${i + 1} : ${e.nom}`}><span class="cfg-progression__num" aria-hidden="true">{i + 1}</span><span class="cfg-progression__nom">{e.nom}</span></button></li>
+          <li><button type="button" data-aller={i} aria-current={i === 0 ? 'step' : undefined}><span class="sr-only">Étape </span><span class="cfg-progression__num">{i + 1}</span><span class="sr-only"> : </span><span class="cfg-progression__nom">{e.nom}</span></button></li>
         ))}
       </ol>
     </nav>
 
     <main id="contenu" tabindex="-1" class="cfg-corps">
-      <form class="cfg-panneau" data-formulaire novalidate>
+      <form class="cfg-panneau" data-formulaire novalidate tabindex="0" aria-label="Configurateur">
 
         <!-- 1. Bienvenue -->
         <section class="cfg-etape" data-etape="0" aria-labelledby="t-0">

@@ -40,7 +40,7 @@ const props = { ...reste, site, page, scripts: [...scripts, statut && 'statut', 
     </main>
     <PiedDePage site={site} />
     <!-- Sur téléphone : bouton de rendez-vous qui reste à portée de pouce (finitions.js) -->
-    <div class="cta-mobile" data-cta-mobile><BoutonRdv cab={site.cab} classe="bouton" /></div>
+    <div class="cta-mobile" data-cta-mobile role="region" aria-label="Raccourci de prise de rendez-vous"><BoutonRdv cab={site.cab} classe="bouton" /></div>
     <Confort site={site} />
     {site.vitrine && (
       <div class="demo-bar" role="complementary" aria-label="Site de démonstration" data-demo-bar>

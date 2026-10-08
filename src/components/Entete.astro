@@ -23,7 +23,7 @@ const r = reglages(site.theme);
 const statut = cab.bloc('statut', site.vitrine);
 ---
 {r.bandeau && (
-  <div class="bandeau-haut">
+  <div class="bandeau-haut" role="region" aria-label="Informations pratiques">
     <div class="conteneur bandeau-haut__barre">
       {statut.rendre && <Statut cab={cab} classe="bandeau-haut__statut" cache={statut.cache} />}
       <p class="bandeau-haut__lieu">{cab.praticien.titre} · {cab.lieuCourt}</p>

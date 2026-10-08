@@ -18,6 +18,6 @@
     "sharp": "^0.35.5"
   },
   "devDependencies": {
-    "nodemailer": "^7.0.13"
+    "nodemailer": "^10.0.16"
   }
 }
