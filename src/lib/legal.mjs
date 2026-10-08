@@ -24,7 +24,7 @@ export function mentionsLegales(cab, liens) {
     {
       id: 'hebergement',
       titre: 'Hébergement',
-      html: `<p>Cloudflare, Inc.<br>101 Townsend Street, San Francisco, CA 94107, États-Unis<br>${lienExterne('https://www.cloudflare.com/', 'www.cloudflare.com')}</p>`
+      html: `<p>Cloudflare, Inc.<br>101 Townsend Street, San Francisco, CA 94107, États-Unis<br>Téléphone : +1 650 319 8930<br>${lienExterne('https://www.cloudflare.com/', 'www.cloudflare.com')}</p>`
     },
     {
       id: 'conception',

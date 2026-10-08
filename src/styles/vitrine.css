@@ -1237,6 +1237,8 @@ ol.vt-etapes { position: relative; display: grid; grid-template-columns: repeat(
 .vt-legal h2 { margin-bottom: .9rem; font-weight: 650; font-size: clamp(1.4rem, 1.2rem + .7vw, 1.8rem); line-height: 1.15; letter-spacing: -.03em; }
 .vt-legal p { max-width: 44rem; margin-bottom: .8rem; color: var(--vt-texte); }
 .vt-legal p strong { color: var(--vt-encre); }
+.vt-legal ul { display: grid; gap: .6rem; max-width: 44rem; margin: 0 0 .8rem; padding-left: 1.25rem; list-style: disc; color: var(--vt-texte); }
+.vt-legal li strong { color: var(--vt-encre); }
 .vt-legal a { color: var(--vt-accent-texte); }
 
 /* Galerie des styles */

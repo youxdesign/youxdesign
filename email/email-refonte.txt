@@ -64,3 +64,4 @@ contact@youxdesign.fr | youxdesign.fr
 
 --
 Je vous écris car votre adresse professionnelle figure sur {{source}}. Pour ne plus recevoir de message de ma part, répondez simplement « STOP ».
+Vos données et vos droits : https://youxdesign.fr/mentions-legales/#l-prospection

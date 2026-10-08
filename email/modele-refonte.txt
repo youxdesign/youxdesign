@@ -64,3 +64,4 @@ Psychologue · Fondateur de youXdesign
 
 --
 Je vous écris car votre adresse professionnelle figure sur {{source}}. Pour ne plus recevoir de message de ma part, répondez simplement « STOP ».
+Vos données et vos droits : %DOMAINE%/mentions-legales/#l-prospection
