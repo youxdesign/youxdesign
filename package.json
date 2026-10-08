@@ -8,12 +8,16 @@
     "apercu": "node scripts/serveur.mjs",
     "client": "node scripts/client.mjs",
     "carte": "node scripts/carte.mjs",
-    "email": "node scripts/email.mjs"
+    "email": "node scripts/email.mjs",
+    "envoyer": "node scripts/envoyer.mjs"
   },
   "dependencies": {
     "astro": "^7.3.5",
     "esbuild": "^0.28.2",
     "lenis": "^1.3.26",
     "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "nodemailer": "^7.0.13"
   }
 }
