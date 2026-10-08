@@ -395,6 +395,12 @@ Elle envoie les e-mails depuis younes@youxdesign.fr exactement tels qu'ils ont �
    npm run envoyer -- ../envois/prospects-lot3.json --confirmer
    ```
    envoie pour de vrai, avec 90 secondes entre deux prospects.
+
+   Ou bien, pour **programmer l'envoi depuis Gmail** :
+   ```bash
+   npm run envoyer -- ../envois/prospects-lot3.json --brouillons
+   ```
+   dépose chaque e-mail, intact, dans les **Brouillons** de Gmail. Rien ne part : ouvrez chaque brouillon, puis cliquez sur la flèche à côté de « Envoyer » › « Planifier l'envoi ». L'envoi a lieu même si le Mac est éteint.
 4. **Le journal** `envois/journal-envois.csv` garde la date de chaque envoi. Une adresse qui y figure n'est jamais relancée par erreur, même si elle réapparaît dans un autre lot.
 
 **Les bonnes habitudes**
