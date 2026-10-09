@@ -4,7 +4,8 @@
    Affichées dans la section Tarifs de la vitrine (bascule entre les deux)
    et sur les pages ciblées (src/contenus/pages/). Les montants viennent de
    TARIF (youxdesign.mjs) : un changement de prix se fait là-bas.
-   « avant » et « mois » contiennent un peu de HTML (prix barré, gras).
+   « avant » et « mois » contiennent un peu de HTML (prix barré, gras) ;
+   « page » : la page qui présente l'offre en détail (lien sous l'offre).
    ========================================================================== */
 import { TARIF } from './youxdesign.mjs';
 
@@ -16,6 +17,7 @@ export const OFFRES = {
     mois: `puis <strong>${TARIF.mensuel} € par mois</strong> pour l’hébergement et les modifications mineures`,
     cta: 'Configurer mon site',
     note: 'Votre site est mis en ligne avec un nom de domaine à votre nom.',
+    page: { href: '/creation-site-internet-psychologue/', texte: 'Tout sur la création de site' },
     liste: [
       'Design sur mesure et rédaction de vos pages',
       'Référencement local et fiche Google optimisée',
@@ -31,6 +33,7 @@ export const OFFRES = {
     mois: `<strong>Hébergement en option</strong> (${TARIF.mensuel} € par mois, modifications mineures comprises) : vous pouvez aussi garder votre hébergeur actuel`,
     cta: 'Imaginer mon nouveau site',
     note: 'Je refais votre site sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit.',
+    page: { href: '/refonte-site-psychologue/', texte: 'Tout sur la refonte de site' },
     liste: [
       'Design sur mesure et rédaction de vos pages',
       'Référencement local et mise à jour de votre fiche Google',

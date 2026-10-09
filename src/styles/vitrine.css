@@ -254,6 +254,10 @@ html.lenis, html.lenis body { height: auto; }
 .vt-mot:nth-of-type(8) > span { animation-delay: .61s; }
 .vt-mot:nth-of-type(9) > span { animation-delay: .68s; }
 .vt-heros__surtitre { animation: vtApparait 1s var(--vt-ease) both; }
+/* Sur l'accueil, la petite ligne « Sites internet pour psychologues » fait
+   partie du titre principal (référencement) : même aspect qu'au-dessus */
+.vt-heros__titre .vt-heros__surtitre { display: flex; width: fit-content; margin-bottom: 1.4rem; line-height: 1.6; }
+.vt-heros__titre:has(> .vt-heros__surtitre) { margin-top: 0; }
 .vt-heros__chapeau { max-width: 33rem; font-size: clamp(1.08rem, 1rem + .4vw, 1.3rem); line-height: 1.6; color: var(--vt-texte); animation: vtApparait 1.1s var(--vt-ease) .55s both; }
 .vt-heros__boutons { margin-top: 2.25rem; animation: vtApparait 1.1s var(--vt-ease) .68s both; }
 .vt-heros__garanties { display: flex; flex-wrap: wrap; gap: .5rem 1.4rem; margin-top: 2.25rem; font-size: .88rem; color: var(--vt-texte-doux); animation: vtApparait 1.1s var(--vt-ease) .8s both; }
@@ -318,6 +322,7 @@ html.lenis, html.lenis body { height: auto; }
 }
 @media (max-width: 40rem) {
   .vt-heros__titre { margin-block: 1.1rem 1.25rem; }
+  .vt-heros__titre .vt-heros__surtitre { margin-bottom: 1.1rem; }
   .vt-heros__boutons .vt-bouton { flex: 1 1 100%; }
   .vt-heros__visuel { margin-right: 11%; }
   .vt-heros__tel { right: -14%; bottom: -16%; }
@@ -1074,6 +1079,7 @@ ol.vt-etapes { position: relative; display: grid; grid-template-columns: repeat(
 .vt-offre__panneau { display: grid; gap: 1.6rem; animation: vtApparait .7s var(--vt-ease) both; }
 .vt-offre__panneau .vt-bouton { justify-self: start; }
 .vt-offre__note { font-size: .92rem; color: var(--vt-texte-doux); }
+.vt-offre__plus { justify-self: start; margin-top: -.4rem; font-size: .95rem; }
 .vt-coches li { position: relative; padding: .7rem 0 .7rem 2rem; border-bottom: 1px solid var(--vt-ligne); }
 .vt-coches li::before {
   content: ''; position: absolute; left: .3rem; top: 1.1rem; width: .6rem; height: .32rem;

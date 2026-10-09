@@ -8,7 +8,7 @@ zone: "Lille"
 offre: creation
 surtitre: "Lille et sa métropole"
 h1: "Un site de psychologue à Lille, *pensé pour être trouvé.*"
-chapeau: "Que votre cabinet soit dans le Vieux-Lille, à Wazemmes, à Roubaix ou à Villeneuve-d’Ascq, vos futurs patients cherchent un psychologue près de chez eux. Votre site leur dit qui vous êtes, comment vous travaillez et comment venir."
+chapeau: "Que votre cabinet soit dans le Vieux-Lille, à Wazemmes, à Roubaix ou à Villeneuve-d’Ascq, vos futurs patients cherchent un psychologue près de chez eux. youXdesign, basé dans la métropole, crée le site qui leur dit qui vous êtes, comment vous travaillez et comment venir."
 visuel:
   ordinateur: sauge-ordinateur
   telephone: sante-mobile
@@ -20,8 +20,8 @@ secondaire:
   texte: "Réserver un appel gratuit"
   lien: "appel"
 garanties:
-  - "Référencement local"
-  - "Plan d’accès au cabinet"
+  - "Basé dans la métropole lilloise"
+  - "Rencontre possible à votre cabinet"
   - "Sans cookie ni traceur"
 atouts:
   surtitre: "Référencement local"
@@ -45,8 +45,8 @@ etapes:
   surtitre: "Méthode"
   titre: "De l’appel à la mise en ligne, *à votre rythme.*"
   liste:
-    - titre: "Un appel, si vous le souhaitez"
-      texte: "Quinze minutes par téléphone, gratuites et sans engagement, pour parler de votre cabinet et de votre projet."
+    - titre: "Un premier échange"
+      texte: "Un appel gratuit de quinze minutes, ou une rencontre à votre cabinet, pour parler de votre projet. Sans engagement."
     - titre: "Vous configurez"
       texte: "Style, couleurs, textes, photos : l’aperçu de votre site se construit sous vos yeux, en dix minutes."
     - titre: "Je conçois et rédige"
@@ -58,6 +58,8 @@ tarif:
   chapeau: "Vous avez déjà un site ? Sa [refonte](/refonte-site-psychologue/) coûte {{refonte}} €, sur votre adresse actuelle."
 faqTitre: "Vos questions, *à Lille.*"
 faq:
+  - q: "Peut-on se rencontrer ?"
+    r: "Oui. youXdesign est basé dans la métropole lilloise : nous pouvons nous rencontrer à votre cabinet. Si vous préférez, un appel gratuit de quinze minutes suffit pour commencer."
   - q: "Faut-il une page par ville de la métropole ?"
     r: "Non. Des pages presque identiques pour Lille, Roubaix et Tourcoing ressemblent à du remplissage, et Google les classe parmi les pratiques abusives (les « pages satellites »). Mieux vaut une page Contact précise et une fiche Google à jour pour votre vraie adresse."
   - q: "Ma fiche Google ne suffit-elle pas ?"
@@ -74,7 +76,7 @@ guides:
   - numero-adeli-rpps-psychologue
 appel:
   titre: "Parlons de *votre cabinet.*"
-  texte: "Un appel gratuit de quinze minutes, ou dix minutes dans le configurateur pour voir votre futur site prendre forme."
+  texte: "Un appel gratuit de quinze minutes, une rencontre à votre cabinet, ou dix minutes dans le configurateur pour voir votre futur site prendre forme."
   bouton: "Réserver un appel gratuit"
   lien: "appel"
 ---
@@ -97,5 +99,9 @@ Ces informations ont leur place sur votre site, rédigées simplement. Elles év
 ## Parler de votre quartier, sans en faire trop
 
 Inutile de répéter « psychologue Lille » dans chaque phrase : Google classe l’accumulation de mots-clés parmi les pratiques abusives ([règles de Google contre le spam](https://developers.google.com/search/docs/essentials/spam-policies?hl=fr)). Une page Contact qui donne votre adresse, votre quartier et vos accès, une page Approche qui décrit les motifs pour lesquels on vous consulte : c’est ce qui fait la différence, pour Google comme pour vos patients.
+
+## Un studio basé dans la métropole lilloise
+
+youXdesign est basé dans la métropole lilloise : nous pouvons nous rencontrer à votre cabinet pour parler de votre site. Vous connaissez votre quartier, ses rues, ses stations et ses parkings ; je connais, en psychologue, les questions qu’un patient se pose avant d’appeler. Les deux font un bon site.
 
 Vous préparez votre installation ? Commencez par la [création de votre site internet de psychologue](/creation-site-internet-psychologue/), puis complétez votre fiche Google.

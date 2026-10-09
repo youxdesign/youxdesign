@@ -11,8 +11,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine
 const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
 const liste = sites().map((s) => ({ site: s, style: STYLES.find((x) => x.id === s.theme)! }));
 const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
+/* Nombre de styles en toutes lettres, pour le titre de la page */
+const nombre = ['Zéro', 'Un', 'Deux', 'Trois', 'Quatre', 'Cinq', 'Six', 'Sept', 'Huit', 'Neuf', 'Dix', 'Onze', 'Douze'][liste.length] ?? String(liste.length);
 ---
-<Youx titre="Les styles · youXdesign" description={`${liste.length} styles de site pour psychologues, sophrologues et coachs : ${liste.map((x) => x.style.nom).join(', ')}. Chacun est un vrai site à parcourir.`} chemin="/styles/" scripts={['vitrine']} classe="vt" feuille="vitrine" polices={['/fonts/inter-variable.woff2']}>
+<Youx titre={`${nombre} styles de site pour psychologue · youXdesign`} description={`${nombre} styles de site internet pour psychologues : Sauge, Terre, Wabi-sabi, Nocturne… Chacun est un vrai site à parcourir, à adapter à votre cabinet.`} chemin="/styles/" scripts={['vitrine']} classe="vt" feuille="vitrine" polices={['/fonts/inter-variable.woff2']}>
   <Entete actif="realisations" />
 
   <main id="contenu" tabindex="-1" class="vt-page">

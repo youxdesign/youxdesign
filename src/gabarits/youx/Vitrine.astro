@@ -19,6 +19,7 @@ import { sites } from '../../lib/site.mjs';
 import { STYLES, OPTIONS } from '../../config/catalogue.mjs';
 import { DOMAINE, EMAIL, TARIF, FONDATEUR } from '../../config/youxdesign.mjs';
 import { OFFRES } from '../../config/offres.mjs';
+import { guides as listeGuides, texte, sansForme, lecture } from '../../lib/contenus.mjs';
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine/*.webp', { eager: true });
 const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
@@ -57,6 +58,9 @@ const OPTIONS_VITRINE = [
   ...OPTIONS.filter((o) => !ORDRE_OPTIONS.includes(o.id))
 ];
 
+/* Titre principal : la petite ligne (SURTITRE) en fait partie, pour que le
+   titre lu par Google contienne « sites internet pour psychologues » */
+const SURTITRE = 'Sites internet pour psychologues';
 const TITRE = [
   { texte: 'Un site à la hauteur', em: false },
   { texte: 'de votre pratique.', em: true }
@@ -99,7 +103,7 @@ const PILIERS = [
   {
     icone: 'cadre',
     titre: 'Le cadre de notre métier',
-    texte: 'Mentions légales et confidentialité rédigées pour votre cabinet, numéro ADELI ou RPPS affiché, encart d’urgence avec le 15 et le 3114. Ni témoignages, ni promesse de résultat.'
+    texte: 'Mentions légales et confidentialité rédigées pour votre cabinet, numéro RPPS (ex-ADELI) affiché, encart d’urgence avec le 15 et le 3114. Ni témoignages, ni promesse de résultat.'
   },
   {
     icone: 'respect',
@@ -158,7 +162,7 @@ const COMPARATIF = {
       valeurs: [
         'À rédiger et à vérifier vous-même.',
         'Selon le prestataire.',
-        'Rédigées pour vous : numéro ADELI ou RPPS affiché, encart d’urgence avec le 15 et le 3114, ni témoignages ni promesse de résultat.'
+        'Rédigées pour vous : numéro RPPS (ex-ADELI) affiché, encart d’urgence avec le 15 et le 3114, ni témoignages ni promesse de résultat.'
       ]
     },
     {
@@ -233,9 +237,17 @@ const FAQ = [
   }
 ];
 
+/* Guides affichés avant l'appel final, dans l'ordre de la page Guides */
+const guidesMd = import.meta.glob<any>('/src/contenus/guides/*.md', { eager: true });
+const GUIDES = listeGuides()
+  .map((g) => ({ g, m: guidesMd[`/src/contenus/guides/${g}.md`] }))
+  .filter((x) => x.m)
+  .sort((a, b) => (a.m.frontmatter.ordre ?? 99) - (b.m.frontmatter.ordre ?? 99))
+  .map(({ g, m }) => ({ href: `/guides/${g}/`, titre: sansForme(m.frontmatter.h1), resume: texte(m.frontmatter.resume ?? m.frontmatter.description), minutes: lecture(m.rawContent()) }));
+
 const CITATION = 'Je suis Younes, psychologue. Je connais les questions que se posent nos patients avant d’appeler, les règles de notre code de déontologie et le temps que prennent les appels pour un simple renseignement. J’ai créé youXdesign pour proposer aux psychologues un site clair, rapide et respectueux de leurs patients.';
 
-const description = 'Sites web pour psychologues, conçus par un psychologue : clairs, rapides, sans cookie et pensés pour être trouvés. Configurez le vôtre en dix minutes et voyez-le se construire en direct.';
+const description = 'Création et refonte de sites internet pour psychologues, par un psychologue : clairs, rapides, sans cookie, pensés pour être trouvés sur Google.';
 const jsonld = [
   {
     '@context': 'https://schema.org',
@@ -273,7 +285,7 @@ const jsonld = [
 ];
 const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
 ---
-<Youx titre="youXdesign · Sites web pour psychologues, pensés par un psychologue" {description} chemin="/" scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
+<Youx titre="Sites internet pour psychologues, par un psychologue · youXdesign" {description} chemin="/" scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
   <Entete />
 
   <main id="contenu" tabindex="-1">
@@ -282,13 +294,13 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
       <div class="vt-heros__fond" aria-hidden="true"><i></i><i></i><i></i></div>
       <div class="vt-conteneur vt-heros__grille">
         <div class="vt-heros__texte">
-          <p class="vt-surtitre vt-heros__surtitre"><span class="vt-point" aria-hidden="true"></span>Sites web pour psychologues</p>
-          <h1 class="vt-heros__titre" id="heros-titre" aria-label={TITRE.map((t) => t.texte).join(' ')}>
+          <h1 class="vt-heros__titre" id="heros-titre" aria-label={`${SURTITRE} : ${TITRE.map((t) => t.texte).join(' ')}`}>
+            <small class="vt-surtitre vt-heros__surtitre" aria-hidden="true"><span class="vt-point"></span>{SURTITRE}<span class="sr-only"> :</span></small>
             {TITRE.map((seg) => mots(seg.texte).map((m) => (
               <><span class:list={['vt-mot', { 'vt-mot--em': seg.em }]} aria-hidden="true"><span>{m}</span></span>{' '}</>
             )))}
           </h1>
-          <p class="vt-heros__chapeau">youXdesign conçoit des sites clairs, rapides et respectueux de vos patients. Pensés par un psychologue, construits pour être trouvés.</p>
+          <p class="vt-heros__chapeau">youXdesign crée et refait les sites internet des psychologues : clairs, rapides et respectueux de vos patients. Pensés par un psychologue, construits pour être trouvés.</p>
           <p class="vt-boutons vt-heros__boutons">
             <a class="vt-bouton vt-bouton--grand" href="/configurateur/" data-aimant>
               Configurer mon site
@@ -557,7 +569,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
       <div class="vt-conteneur">
         <header class="vt-tete vt-tete--centre">
           <p class="vt-surtitre" data-apparait>Tarifs</p>
-          <h2 class="vt-h2" id="tarifs-titre" data-apparait>Un prix clair, <em>sans surprise.</em></h2>
+          <h2 class="vt-h2" id="tarifs-titre" data-apparait>Le prix d’un site de psychologue, <em>sans surprise.</em></h2>
           <p class="vt-chapeau" data-apparait>Un tarif de lancement pour créer votre site, un prix doux pour refaire celui que vous avez déjà.</p>
         </header>
 
@@ -589,6 +601,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
                     {o.cta}
                     <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
                   </a>
+                  <a class="vt-lien vt-offre__plus" href={o.page.href}>{o.page.texte}<svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>
                 </div>
               ))}
             </div>
@@ -650,6 +663,29 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
             </details>
           ))}
         </div>
+      </div>
+    </section>
+
+    <!-- ===== Guides (src/contenus/guides/) ===== -->
+    <section class="vt-section ct-lies" id="guides" aria-labelledby="guides-titre">
+      <div class="vt-conteneur">
+        <header class="vt-tete">
+          <p class="vt-surtitre" data-apparait>Guides</p>
+          <h2 class="vt-h2" id="guides-titre" data-apparait>Les règles du site de psychologue, <em>en clair.</em></h2>
+          <p class="vt-chapeau" data-apparait>Mentions légales, numéro RPPS, avis et témoignages : ce que disent la loi et notre code de déontologie, avec les textes officiels. <a class="vt-lien" href="/guides/">Tous les guides</a></p>
+        </header>
+        <ul class="ct-cartes">
+          {GUIDES.map((g) => (
+            <li class="ct-carte" data-apparait>
+              <a href={g.href}>
+                <span class="ct-carte__meta">Guide · {g.minutes} min de lecture</span>
+                <strong class="ct-carte__titre">{g.titre}</strong>
+                <span class="ct-carte__resume">{g.resume}</span>
+                <span class="ct-carte__lien">Lire le guide <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></span>
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
 
