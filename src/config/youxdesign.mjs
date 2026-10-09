@@ -30,7 +30,7 @@ export const LIEN_APPEL = RESERVATION_APPEL || '/contact/?sujet=appel';
    création : lancement au lieu de normal, pour les « places » premiers cabinets,
    puis « mensuel » par mois (hébergement et modifications mineures) ;
    refonte : prix unique, hébergement en option au même tarif mensuel. */
-export const TARIF = { lancement: 249, normal: 299, places: 10, mensuel: 10, refonte: 199 };
+export const TARIF = { lancement: 249, normal: 690, places: 10, mensuel: 10, refonte: 199 };
 
 /* Fiche utilisée pour toutes les démos */
 export const CABINET_DEMO = 'claire-morel';
