@@ -3,7 +3,8 @@
    Vitrine youXdesign (page d'accueil du site)
    --------------------------------------------------------------------------
    Présentation du studio : réalisations (les neuf styles), vidéo du
-   configurateur, fonctionnalités, méthode, tarif, questions fréquentes.
+   configurateur, fonctionnalités, méthode, tarif et tableau comparatif,
+   questions fréquentes.
    Les textes reprennent les engagements des e-mails de prospection :
    rien qui ne puisse être tenu (pas de « 100 % conforme », pas de délai).
    Animations : vitrine.js et vitrine.css (désactivées si le visiteur a
@@ -149,6 +150,78 @@ const OFFRES = {
       'Votre nom de domaine actuel conservé'
     ]
   }
+};
+
+/* Tableau comparatif, sous l'offre : par type de solution, jamais par marque.
+   C'est de la publicité comparative (article L122-1 du Code de la
+   consommation) : des faits vérifiables, aucun dénigrement, des prix datés et
+   sourcés sous le tableau. Sources revérifiées le 9 octobre 2026 : relire les
+   pages citées avant de changer un chiffre, puis mettre à jour la date. */
+/* Montant lisible et insécable : « 1 300 € » (l'espace fine des milliers est
+   presque invisible avec la police Inter) */
+const euros = (n: number) => `${n.toLocaleString('fr-FR').replace(/\s/g, '\u00A0')}\u00A0€`;
+/* Espaces insécables avant « : » et « ; » et dans les guillemets : jamais de
+   ponctuation seule en début de ligne */
+const insecables = (t: string) => t.replace(/ ([:;!?»])/g, '\u00A0$1').replace(/« /g, '«\u00A0');
+const COMPARATIF = {
+  /* court : rappelé devant chaque case sur téléphone */
+  colonnes: [
+    { nom: 'Le faire soi-même', detail: 'avec un créateur de site', court: 'Soi-même' },
+    { nom: 'Freelance ou agence', detail: 'un prestataire web', court: 'Freelance ou agence' },
+    { nom: 'youXdesign', detail: 'par un psychologue', court: 'youXdesign' }
+  ],
+  lignes: [
+    {
+      critere: 'Qui fait le travail',
+      valeurs: [
+        'Vous, sur votre temps : prise en main de l’outil, mise en page, réglages, mise en ligne.',
+        'Un professionnel du web, à partir de vos indications.',
+        'Un psychologue, à partir de vos réponses au configurateur (une dizaine de minutes).'
+      ]
+    },
+    {
+      critere: 'Rédaction des pages',
+      valeurs: ['À écrire vous-même.', 'Selon le devis.', 'Rédigées pour vous, avec vos retours.']
+    },
+    {
+      critere: 'Mentions légales et déontologie',
+      valeurs: [
+        'À rédiger et à vérifier vous-même.',
+        'Selon le prestataire.',
+        'Rédigées pour vous : numéro ADELI ou RPPS affiché, encart d’urgence avec le 15 et le 3114, ni témoignages ni promesse de résultat.'
+      ]
+    },
+    {
+      critere: 'Cookies et traceurs',
+      valeurs: ['Selon l’outil et vos réglages.', 'Selon les outils choisis.', 'Aucun cookie, aucun traceur, aucune bannière à accepter.']
+    },
+    {
+      critere: 'Référencement local',
+      valeurs: ['À faire vous-même : titres, descriptions, fiche Google.', 'Selon le devis.', 'Compris, avec votre fiche Google optimisée.']
+    },
+    {
+      critere: 'Hébergement et petites modifications',
+      valeurs: [
+        'Compris dans l’abonnement à l’outil ; chaque modification reste à faire vous-même.',
+        'En général facturés à part, selon le contrat.',
+        `${euros(TARIF.mensuel)} par mois : hébergement et modifications mineures, comme un changement d’horaires ou de tarifs.`
+      ]
+    },
+    {
+      critere: 'Prix indicatif',
+      valeurs: [
+        'L’abonnement à l’outil, plus votre temps.',
+        `Freelance : <strong>${euros(1300)}</strong> en moyenne pour un site de psychologue. Site vitrine simple : de ${euros(1000)} à ${euros(5000)}.`,
+        `<strong>${euros(TARIF.lancement)}</strong> au lieu de <s>${euros(TARIF.normal)}</s> pour les ${TARIF.places} premiers cabinets, puis ${euros(TARIF.mensuel)} par mois.`
+      ]
+    }
+  ],
+  /* Sous le tableau : date du relevé, puis une source vérifiable par chiffre */
+  note: 'Comparatif établi le 9 octobre 2026. Les prix des prestataires varient d’un projet à l’autre : ce sont des montants publiés, pas des devis.',
+  sources: [
+    `Freelance : montant moyen des devis proposés pour le projet <a href="https://www.codeur.com/projects/444111-site-pour-psychologue">« Site pour psychologue »</a>, publié sur Codeur.com le 30 janvier 2025 (116 réponses, budget indiqué de ${euros(1000)} à ${euros(10000)}).`,
+    `Site vitrine simple : de ${euros(1000)} à ${euros(2000)} pour quelques pages, de ${euros(2000)} à ${euros(5000)} pour 5 à 10 pages, d’après <a href="https://conseils.hellopro.fr/combien-coute-la-creation-d-un-site-internet-3823.html">le guide de prix de HelloPro</a> (chiffres constatés en octobre 2026).`
+  ]
 };
 
 const FAQ = [
@@ -549,6 +622,43 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+
+        <!-- Tableau comparatif (données : COMPARATIF). Les rôles ARIA, redondants
+             sur ordinateur, gardent la structure du tableau sur téléphone, où
+             l'affichage en blocs la ferait perdre à certains lecteurs d'écran. -->
+        <div class="vt-comparatif" id="comparatif" data-apparait>
+          <h3 class="vt-h3 vt-comparatif__titre">Trois façons d’avoir votre site</h3>
+          <table class="vt-comparatif__table" role="table">
+            <caption>Ce qui reste à votre charge, et ce que coûte chaque solution.</caption>
+            <thead role="rowgroup">
+              <tr role="row">
+                <th scope="col" role="columnheader"><span class="sr-only">Critère</span></th>
+                {COMPARATIF.colonnes.map((c, i) => (
+                  <th scope="col" role="columnheader" class:list={[{ 'vt-comparatif__nous': i === 2 }]}>
+                    <span class="vt-comparatif__nom">{c.nom}</span>
+                    <span class="vt-comparatif__detail">{c.detail}</span>
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody role="rowgroup">
+              {COMPARATIF.lignes.map((l) => (
+                <tr role="row">
+                  <th scope="row" role="rowheader">{l.critere}</th>
+                  {l.valeurs.map((v, i) => (
+                    <td role="cell" class:list={[{ 'vt-comparatif__nous': i === 2 }]} data-solution={COMPARATIF.colonnes[i].court}><span set:html={insecables(v)} /></td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <div class="vt-comparatif__sources">
+            <p set:html={insecables(COMPARATIF.note)} />
+            <ul>
+              {COMPARATIF.sources.map((s) => <li set:html={insecables(s)} />)}
+            </ul>
           </div>
         </div>
       </div>

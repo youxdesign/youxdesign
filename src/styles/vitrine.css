@@ -1082,6 +1082,45 @@ ol.vt-etapes { position: relative; display: grid; grid-template-columns: repeat(
 @media (max-width: 52rem) { .vt-offre__carte { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 26rem) { .vt-bascule button { padding-inline: .9rem; font-size: .88rem; } }
 
+/* Tableau comparatif : un vrai tableau (légende, en-têtes de colonne et de
+   ligne), la colonne youXdesign posée sur une carte blanche. Sur téléphone,
+   chaque critère devient un bloc et le nom de la solution est rappelé devant
+   chaque case (texte généré, tu aux lecteurs d'écran : ils annoncent déjà
+   l'en-tête de colonne). */
+.vt-comparatif { max-width: 64rem; margin: clamp(4.5rem, 3rem + 5vw, 7.5rem) auto 0; }
+.vt-comparatif__titre { text-align: center; text-wrap: balance; }
+.vt-comparatif__table { width: 100%; table-layout: fixed; border-collapse: separate; border-spacing: 0; font-size: .95rem; line-height: 1.55; }
+.vt-comparatif__table thead th:first-child { width: 22%; }
+.vt-comparatif__table caption { max-width: 34rem; margin: .7rem auto clamp(1.75rem, 1.4rem + 1.4vw, 2.75rem); color: var(--vt-texte); text-align: center; text-wrap: pretty; }
+.vt-comparatif__table th, .vt-comparatif__table td { padding: 1.05rem 1.25rem; border-bottom: 1px solid var(--vt-ligne); text-align: left; vertical-align: top; }
+.vt-comparatif__table thead th { padding-block: 1.5rem 1.15rem; vertical-align: bottom; border-bottom-color: var(--vt-ligne-forte); }
+.vt-comparatif__table tbody th { padding-left: 0; font-weight: 600; letter-spacing: -.012em; color: var(--vt-encre); }
+.vt-comparatif__table td { color: var(--vt-texte); }
+.vt-comparatif__table strong { font-size: 1.2em; font-weight: 650; letter-spacing: -.02em; color: var(--vt-encre); }
+.vt-comparatif__table s { text-decoration-thickness: 1.5px; }
+.vt-comparatif__nom { display: block; font-size: 1.05rem; font-weight: 640; letter-spacing: -.02em; color: var(--vt-encre); }
+.vt-comparatif__detail { display: block; margin-top: .1rem; font-size: .86rem; font-weight: 400; color: var(--vt-texte-doux); }
+.vt-comparatif__table .vt-comparatif__nous { background: #FFFFFF; color: var(--vt-encre); box-shadow: inset 1px 0 var(--vt-ligne), inset -1px 0 var(--vt-ligne); }
+.vt-comparatif__table thead .vt-comparatif__nous { border-radius: var(--vt-rayon) var(--vt-rayon) 0 0; box-shadow: inset 1px 1px var(--vt-ligne), inset -1px 0 var(--vt-ligne); }
+.vt-comparatif__table thead .vt-comparatif__nous .vt-comparatif__nom { color: var(--vt-accent-texte); }
+.vt-comparatif__table tbody tr:last-child th, .vt-comparatif__table tbody tr:last-child td { border-bottom-color: transparent; }
+.vt-comparatif__table tbody tr:last-child .vt-comparatif__nous { border-radius: 0 0 var(--vt-rayon) var(--vt-rayon); box-shadow: inset 1px -1px var(--vt-ligne), inset -1px 0 var(--vt-ligne); }
+.vt-comparatif__sources { display: grid; gap: .45rem; max-width: 52rem; margin-top: 1.75rem; font-size: .86rem; line-height: 1.55; color: var(--vt-texte-doux); }
+.vt-comparatif__sources ul { display: grid; gap: .35rem; padding-left: 1.1rem; list-style: disc; }
+.vt-comparatif__sources a { color: var(--vt-accent-texte); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .18em; }
+.vt-comparatif__sources a:hover { text-decoration-thickness: 2px; }
+@media (max-width: 52rem) {
+  .vt-comparatif__table, .vt-comparatif__table caption, .vt-comparatif__table tbody, .vt-comparatif__table tr, .vt-comparatif__table th, .vt-comparatif__table td { display: block; }
+  .vt-comparatif__table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .vt-comparatif__table tbody tr { padding-block: 1.1rem; border-top: 1px solid var(--vt-ligne); }
+  .vt-comparatif__table tbody tr:last-child { border-bottom: 1px solid var(--vt-ligne); }
+  .vt-comparatif__table tbody th { padding: 0 .85rem .45rem; border: 0; font-size: 1.02rem; }
+  .vt-comparatif__table td { display: grid; grid-template-columns: 6.25rem minmax(0, 1fr); align-items: first baseline; gap: .9rem; padding: .5rem .85rem; border: 0; }
+  .vt-comparatif__table td::before { content: attr(data-solution); content: attr(data-solution) / ''; font-size: .8rem; font-weight: 600; line-height: 1.35; color: var(--vt-texte-doux); }
+  .vt-comparatif__table td.vt-comparatif__nous, .vt-comparatif__table tbody tr:last-child td.vt-comparatif__nous { margin-top: .3rem; padding-block: .75rem; border-radius: 1rem; box-shadow: inset 0 0 0 1px var(--vt-ligne); }
+  .vt-comparatif__table td.vt-comparatif__nous::before { color: var(--vt-accent-texte); }
+}
+
 /* --------------------------------------------------------------------------
    Questions fréquentes
    -------------------------------------------------------------------------- */
