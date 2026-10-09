@@ -37,6 +37,10 @@ Tout est écrit en français, y compris les messages d'erreur. Vous n'avez pas b
 | Mentions légales et confidentialité | https://youxdesign.fr/mentions-legales/ |
 | Démo Claire Morel, style Sauge | https://youxdesign.fr/demo/ |
 | Galerie des styles | https://youxdesign.fr/styles/ |
+| Création de site pour psychologue | https://youxdesign.fr/creation-site-internet-psychologue/ |
+| Refonte de site de psychologue | https://youxdesign.fr/refonte-site-psychologue/ |
+| Site de psychologue à Lille | https://youxdesign.fr/site-internet-psychologue-lille/ |
+| Guides (mentions légales, ADELI ou RPPS, avis et témoignages) | https://youxdesign.fr/guides/ |
 | Terre & organique | https://youxdesign.fr/styles/terre/ |
 | Santé contemporaine | https://youxdesign.fr/styles/sante/ |
 | Wabi-sabi | https://youxdesign.fr/styles/wabi/ |
@@ -329,6 +333,17 @@ puis ouvrez http://localhost:4321.
 - L'image de partage sur les réseaux sociaux : `youx-statique/og-youxdesign.png` (1200 × 630).
 - Le formulaire de contact n'envoie rien lui-même : il prépare un e-mail dans la messagerie du visiteur, adressé à `EMAIL`.
 
+**Pages ciblées et guides (référencement)**
+
+Ces pages servent à être trouvé sur Google par les psychologues qui cherchent un site. Elles sont écrites en Markdown, un texte presque normal : `## Titre` pour un intertitre, `**gras**`, `- ` pour une liste, `[texte du lien](/adresse/)` pour un lien.
+
+- **Pages ciblées** (création, refonte, Lille) : un fichier par page dans `src/contenus/pages/`. Le nom du fichier donne l'adresse : `refonte-site-psychologue.md` devient https://youxdesign.fr/refonte-site-psychologue/. L'en-tête du fichier, entre les deux lignes `---`, contient le titre pour Google, la description, l'ouverture, les atouts, les étapes, les questions fréquentes et l'appel final ; le texte qui suit est la partie rédigée, affichée après le tarif. Le tarif lui-même vient de `src/config/offres.mjs` (les mêmes offres que sur la vitrine).
+- **Guides** : un fichier par guide dans `src/contenus/guides/`, publié sur https://youxdesign.fr/guides/<nom-du-fichier>/. L'en-tête contient l'essentiel en quelques points, les questions fréquentes et les sources. Pour ajouter un guide, copiez un fichier existant, changez son nom, son contenu et `ordre` (sa place dans la liste) : il apparaît tout seul dans la liste des guides et dans le plan du site.
+- **Prix dans les textes** : écrivez `{{lancement}}`, `{{normal}}`, `{{places}}`, `{{mensuel}}` ou `{{refonte}}` plutôt qu'un montant. Ils prennent la valeur de `TARIF` : un changement de prix se répercute partout.
+- **Dates et sources des guides** : un guide affiche « Mis à jour le … » (`misAJour`). Avant de modifier une règle, relisez la source citée, puis changez la date. Les textes évoluent : la loi pour la confiance dans l'économie numérique a par exemple été renumérotée en mai 2024.
+- Un fichier dont le nom commence par `_` est ignoré : pratique pour un brouillon.
+- Mise en page : `src/gabarits/youx/PageCible.astro`, `Guide.astro` et `Guides.astro` ; design : `src/styles/contenus.css`.
+
 ---
 
 ## 10. L'e-mail de prospection
@@ -467,7 +482,8 @@ email/               e-mail de prospection : modèles et versions prêtes à env
 ../envois/           à côté du projet (jamais sur GitHub) : listes des lots, journal des envois, texte de relance
 youx-statique/       fichiers propres au site youXdesign : logo, images des e-mails, vidéo, image de partage
 src/assets/vitrine/  captures des neuf styles affichées sur la vitrine
-src/gabarits/youx/   pages du site youXdesign : vitrine, configurateur, contact, mentions légales, galerie
+src/gabarits/youx/   pages du site youXdesign : vitrine, configurateur, contact, mentions légales, galerie, pages ciblées, guides
+src/contenus/        textes des pages ciblées (pages/) et des guides (guides/), en Markdown
 public/fonts/        polices hébergées sur les sites (aucun appel à Google Fonts)
 scripts/             commandes : client, aperçu, carte, e-mail, envoi des e-mails, polices
 src/config/          catalogue (styles, palettes, polices, options) et réglages youXdesign

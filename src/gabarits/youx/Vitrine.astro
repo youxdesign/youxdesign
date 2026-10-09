@@ -18,6 +18,7 @@ import OptionVisuel from '../../components/youx/OptionVisuel.astro';
 import { sites } from '../../lib/site.mjs';
 import { STYLES, OPTIONS } from '../../config/catalogue.mjs';
 import { DOMAINE, EMAIL, TARIF, FONDATEUR } from '../../config/youxdesign.mjs';
+import { OFFRES } from '../../config/offres.mjs';
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine/*.webp', { eager: true });
 const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
@@ -118,39 +119,8 @@ const ETAPES = [
   { titre: 'Votre site est en ligne', texte: 'Avec un nom de domaine à votre nom : vous en restez propriétaire.' }
 ];
 
-/* Les deux offres : la bascule change le prix (le montant défile) et la liste */
-const OFFRES = {
-  creation: {
-    nom: 'Nouveau site',
-    prix: TARIF.lancement,
-    avant: `au lieu de <s>${TARIF.normal} €</s> · réservé aux ${TARIF.places} premiers cabinets`,
-    mois: `puis <strong>${TARIF.mensuel} € par mois</strong> pour l’hébergement et les modifications mineures`,
-    cta: 'Configurer mon site',
-    note: 'Votre site est mis en ligne avec un nom de domaine à votre nom.',
-    liste: [
-      'Design sur mesure et rédaction de vos pages',
-      'Référencement local et fiche Google optimisée',
-      'Mentions légales et confidentialité rédigées pour vous',
-      'Lien vers Doctolib ou votre outil de réservation',
-      'Site adapté au téléphone et rapide à charger'
-    ]
-  },
-  refonte: {
-    nom: 'Refonte de mon site',
-    prix: TARIF.refonte,
-    avant: 'pour refaire le site que vous avez déjà',
-    mois: `<strong>Hébergement en option</strong> (${TARIF.mensuel} € par mois, modifications mineures comprises) : vous pouvez aussi garder votre hébergeur actuel`,
-    cta: 'Imaginer mon nouveau site',
-    note: 'Je refais votre site sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit.',
-    liste: [
-      'Design sur mesure et rédaction de vos pages',
-      'Référencement local et mise à jour de votre fiche Google',
-      'Mentions légales et confidentialité rédigées pour vous',
-      'Anciennes adresses de vos pages redirigées vers les nouvelles',
-      'Votre nom de domaine actuel conservé'
-    ]
-  }
-};
+/* Les deux offres (src/config/offres.mjs, communes avec les pages ciblées) :
+   la bascule change le prix (le montant défile) et la liste */
 
 /* Tableau comparatif, sous l'offre : par type de solution, jamais par marque.
    C'est de la publicité comparative (article L122-1 du Code de la

@@ -113,12 +113,13 @@ export async function feuilleSite(site) {
 }
 
 /* Feuille de style d'un outil youXdesign : « youx » (pages d'information),
-   « vitrine » (page de présentation, contact, galerie) ou « configurateur »
+   « vitrine » (page de présentation, contact, galerie, pages ciblées et
+   guides) ou « configurateur »
    (qui déclare aussi toutes les polices des styles, pour les exemples de
    typographie ; seules celles affichées sont téléchargées). */
 const FICHIERS_OUTIL = {
   configurateur: ['src/styles/youx.css', 'src/styles/configurateur.css'],
-  vitrine: ['src/styles/youx.css', 'src/styles/vitrine.css']
+  vitrine: ['src/styles/youx.css', 'src/styles/vitrine.css', 'src/styles/contenus.css']
 };
 
 export async function feuilleOutil(nom) {

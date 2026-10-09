@@ -11,6 +11,7 @@
 import { chargerCabinet } from './cabinet.mjs';
 import { STYLES, PAGES, style as trouverStyle } from '../config/catalogue.mjs';
 import { DOMAINE, CABINET_DEMO } from '../config/youxdesign.mjs';
+import { pagesCibles, guides } from './contenus.mjs';
 
 export const MODE = process.env.CABINET ? 'client' : 'vitrine';
 
@@ -86,6 +87,10 @@ export function routes() {
     liste.push({ chemin: 'contact', type: 'contact-youx' });
     liste.push({ chemin: 'mentions-legales', type: 'legal-youx' });
     liste.push({ chemin: 'styles', type: 'galerie' });
+    /* Pages écrites en Markdown (src/contenus/) : pages ciblées et guides */
+    for (const slug of pagesCibles()) liste.push({ chemin: slug, type: 'cible-youx', slug });
+    liste.push({ chemin: 'guides', type: 'guides-youx' });
+    for (const slug of guides()) liste.push({ chemin: `guides/${slug}`, type: 'guide-youx', slug });
     liste.push({ chemin: '404', type: 'erreur-youx' });
   }
   return liste;

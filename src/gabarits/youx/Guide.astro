@@ -1,0 +1,196 @@
+---
+/* ==========================================================================
+   Guide pratique (youxdesign.fr/guides/<adresse>/)
+   --------------------------------------------------------------------------
+   Le contenu vient de src/contenus/guides/<adresse>.md : l'en-tête du fichier
+   donne le titre, l'essentiel en quelques points, les questions fréquentes
+   et les sources ; le texte qui suit forme l'article. Le sommaire reprend
+   les intertitres (##). Chaque guide est daté : la date de mise à jour
+   (misAJour) est à changer à chaque relecture des sources.
+   ========================================================================== */
+import Youx from '../../layouts/Youx.astro';
+import Entete from '../../components/youx/Entete.astro';
+import Pied from '../../components/youx/Pied.astro';
+import { DOMAINE, FONDATEUR } from '../../config/youxdesign.mjs';
+import { texte, typo, remplir, enLigne, sansForme, dateLongue, lecture } from '../../lib/contenus.mjs';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+
+const guidesMd = import.meta.glob<any>('/src/contenus/guides/*.md', { eager: true });
+const md = guidesMd[`/src/contenus/guides/${slug}.md`];
+const fm = md.frontmatter;
+const corps = typo(remplir(await md.compiledContent()));
+const chemin = `/guides/${slug}/`;
+const url = `${DOMAINE}${chemin}`;
+const minutes = lecture(md.rawContent());
+const faq = fm.faq ?? [];
+const sources = fm.sources ?? [];
+
+/* Sommaire : l'essentiel, les intertitres de l'article, les questions, les sources */
+const sommaire = [
+  { id: 'essentiel', texte: 'L’essentiel' },
+  ...md.getHeadings().filter((h: any) => h.depth === 2).map((h: any) => ({ id: h.slug, texte: typo(h.text) })),
+  ...(faq.length ? [{ id: 'questions', texte: 'Questions fréquentes' }] : []),
+  ...(sources.length ? [{ id: 'sources', texte: 'Sources' }] : [])
+];
+
+/* Autres guides proposés en fin d'article */
+const lies = (fm.lies ?? [])
+  .map((g: string) => ({ g, m: guidesMd[`/src/contenus/guides/${g}.md`] }))
+  .filter((x: any) => x.m)
+  .map(({ g, m }: any) => ({ href: `/guides/${g}/`, titre: sansForme(m.frontmatter.h1), resume: texte(m.frontmatter.resume ?? m.frontmatter.description), minutes: lecture(m.rawContent()) }));
+
+const auteur = { '@type': 'Person', name: FONDATEUR, jobTitle: 'Psychologue', worksFor: { '@type': 'Organization', name: 'youXdesign', url: `${DOMAINE}/` } };
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: sansForme(fm.h1),
+    description: sansForme(fm.description),
+    url,
+    mainEntityOfPage: url,
+    inLanguage: 'fr-FR',
+    datePublished: fm.publie,
+    dateModified: fm.misAJour ?? fm.publie,
+    image: `${DOMAINE}/og-youxdesign.png`,
+    author: auteur,
+    publisher: { '@type': 'Organization', name: 'youXdesign', url: `${DOMAINE}/`, logo: { '@type': 'ImageObject', url: `${DOMAINE}/brand/symbole-rond.png` } },
+    citation: sources.filter((s: any) => s.url).map((s: any) => s.url)
+  },
+  ...(faq.length ? [{
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f: any) => ({ '@type': 'Question', name: sansForme(f.q), acceptedAnswer: { '@type': 'Answer', text: sansForme(f.r) } }))
+  }] : []),
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Accueil', item: `${DOMAINE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: `${DOMAINE}/guides/` },
+      { '@type': 'ListItem', position: 3, name: fm.fil, item: url }
+    ]
+  }
+];
+const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
+---
+<Youx titre={texte(fm.titre)} description={sansForme(fm.description)} {chemin} scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
+  <Entete actif="guides" />
+
+  <main id="contenu" tabindex="-1" class="vt-page ct-guide">
+    <article class="vt-conteneur ct-article">
+      <nav class="ct-fil vt-entree" aria-label="Fil d’Ariane">
+        <ol>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/guides/">Guides</a></li>
+          <li aria-current="page">{texte(fm.fil)}</li>
+        </ol>
+      </nav>
+
+      <header class="ct-article__tete">
+        <p class="vt-surtitre vt-entree">{texte(fm.surtitre)}</p>
+        <h1 class="vt-page__titre ct-article__titre vt-entree" set:html={enLigne(fm.h1)} />
+        <p class="vt-chapeau ct-article__chapeau vt-entree" set:html={enLigne(fm.chapeau)} />
+        <p class="ct-auteur vt-entree">
+          <span class="ct-auteur__symbole" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M20 20 41 41M59 59 80 80" /><path class="ct-auteur__x2" d="M80 20 20 80" /></svg></span>
+          <span class="ct-auteur__texte">
+            <span>Par <strong>{FONDATEUR}</strong>, psychologue, fondateur de youXdesign</span>
+            <span class="ct-auteur__date">Mis à jour le <time datetime={fm.misAJour ?? fm.publie}>{dateLongue(fm.misAJour ?? fm.publie)}</time> · {minutes} min de lecture</span>
+          </span>
+        </p>
+      </header>
+
+      <div class="ct-article__grille">
+        <nav class="ct-sommaire" aria-labelledby="sommaire-titre">
+          <p class="ct-sommaire__titre" id="sommaire-titre">Sommaire</p>
+          <ol>
+            {sommaire.map((s) => <li><a href={`#${s.id}`}>{s.texte}</a></li>)}
+          </ol>
+        </nav>
+
+        <div class="ct-article__corps">
+          <section class="ct-essentiel" id="essentiel" aria-labelledby="essentiel-titre">
+            <h2 id="essentiel-titre">L’essentiel</h2>
+            <ul>
+              {(fm.essentiel ?? []).map((e: string) => <li set:html={enLigne(e)} />)}
+            </ul>
+          </section>
+
+          <div class="ct-prose" set:html={corps} />
+
+          {faq.length > 0 && (
+            <section class="ct-article__faq" id="questions" aria-labelledby="questions-titre">
+              <h2 id="questions-titre">Questions fréquentes</h2>
+              <div class="vt-faq">
+                {faq.map((f: any) => (
+                  <details class="vt-faq__item" name="faq">
+                    <summary><span>{texte(f.q)}</span><i aria-hidden="true"></i></summary>
+                    <div class="vt-faq__reponse"><p set:html={enLigne(f.r)} /></div>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {sources.length > 0 && (
+            <section class="ct-sources" id="sources" aria-labelledby="sources-titre">
+              <h2 id="sources-titre">Sources</h2>
+              <ol>
+                {sources.map((s: any) => <li>{s.url ? <a href={s.url}>{texte(s.texte)}</a> : texte(s.texte)}</li>)}
+              </ol>
+              <p class="ct-avertissement">Ce guide présente les textes en vigueur au {dateLongue(fm.misAJour ?? fm.publie)}, tels que nous les avons relus. Il informe, sans remplacer le conseil d’un juriste pour une situation particulière. Une erreur, un texte qui a changé&nbsp;? <a href="/contact/?sujet=question">Signalez-le-moi</a>.</p>
+            </section>
+          )}
+        </div>
+      </div>
+    </article>
+
+    {lies.length > 0 && (
+      <section class="vt-section ct-lies" aria-labelledby="lies-titre">
+        <div class="vt-conteneur">
+          <header class="vt-tete">
+            <p class="vt-surtitre" data-apparait>Guides</p>
+            <h2 class="vt-h2" id="lies-titre" data-apparait>À lire <em>aussi.</em></h2>
+          </header>
+          <ul class="ct-cartes">
+            {lies.map((g: any) => (
+              <li class="ct-carte" data-apparait>
+                <a href={g.href}>
+                  <span class="ct-carte__meta">Guide · {g.minutes} min de lecture</span>
+                  <strong class="ct-carte__titre">{g.titre}</strong>
+                  <span class="ct-carte__resume">{g.resume}</span>
+                  <span class="ct-carte__lien">Lire le guide <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></span>
+                </a>
+              </li>
+            ))}
+            <li class="ct-carte ct-carte--tous" data-apparait>
+              <a href="/guides/">
+                <span class="ct-carte__meta">Tous les guides</span>
+                <strong class="ct-carte__titre">Le site d’un psychologue, point par point</strong>
+                <span class="ct-carte__lien">Voir les guides <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    )}
+
+    <section class="vt-appel" aria-labelledby="appel-titre">
+      <div class="vt-appel__fond" aria-hidden="true"><i></i><i></i></div>
+      <div class="vt-conteneur vt-appel__contenu">
+        <h2 class="vt-appel__titre" id="appel-titre" data-apparait>Un site qui respecte tout cela, <em>sans y penser.</em></h2>
+        <p data-apparait>Mentions légales rédigées pour vous, numéro RPPS affiché, aucun cookie, ni témoignages ni promesse de résultat&nbsp;: le cadre est intégré dès la conception.</p>
+        <p class="vt-boutons" data-apparait>
+          <a class="vt-bouton vt-bouton--grand vt-bouton--clair" href="/configurateur/" data-aimant>
+            Configurer mon site
+            <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+          </a>
+          <a class="vt-bouton vt-bouton--grand vt-bouton--contour-clair" href="/creation-site-internet-psychologue/">Découvrir l’offre</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <Pied />
+</Youx>

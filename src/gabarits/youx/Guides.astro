@@ -1,0 +1,85 @@
+---
+/* Liste des guides (youxdesign.fr/guides/) : un encart par fichier de
+   src/contenus/guides/, dans l'ordre indiqué par « ordre ». */
+import Youx from '../../layouts/Youx.astro';
+import Entete from '../../components/youx/Entete.astro';
+import Pied from '../../components/youx/Pied.astro';
+import { DOMAINE, FONDATEUR } from '../../config/youxdesign.mjs';
+import { guides as listeGuides, texte, sansForme, dateLongue, lecture } from '../../lib/contenus.mjs';
+
+const guidesMd = import.meta.glob<any>('/src/contenus/guides/*.md', { eager: true });
+const guides = listeGuides()
+  .map((g) => ({ g, m: guidesMd[`/src/contenus/guides/${g}.md`] }))
+  .filter((x) => x.m)
+  .map(({ g, m }) => ({
+    href: `/guides/${g}/`,
+    ordre: m.frontmatter.ordre ?? 99,
+    surtitre: texte(m.frontmatter.surtitre),
+    titre: sansForme(m.frontmatter.h1),
+    resume: texte(m.frontmatter.resume ?? m.frontmatter.description),
+    date: m.frontmatter.misAJour ?? m.frontmatter.publie,
+    minutes: lecture(m.rawContent())
+  }))
+  .sort((a, b) => a.ordre - b.ordre);
+
+const description = 'Guides pour le site d’un psychologue\u00A0: mentions légales, numéro ADELI ou RPPS, avis et témoignages. Rédigés par un psychologue, avec les textes officiels.';
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Guides pour le site d’un psychologue',
+    description,
+    url: `${DOMAINE}/guides/`,
+    inLanguage: 'fr-FR',
+    hasPart: guides.map((g) => ({ '@type': 'Article', headline: g.titre, url: `${DOMAINE}${g.href}`, dateModified: g.date }))
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Accueil', item: `${DOMAINE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: `${DOMAINE}/guides/` }
+    ]
+  }
+];
+const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
+---
+<Youx titre="Guides pour le site d’un psychologue · youXdesign" {description} chemin="/guides/" scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
+  <Entete actif="guides" />
+
+  <main id="contenu" tabindex="-1" class="vt-page ct-guides">
+    <div class="vt-conteneur">
+      <header class="vt-page__tete">
+        <p class="vt-surtitre vt-entree">Guides</p>
+        <h1 class="vt-page__titre vt-entree">Le site d’un psychologue, <em>point par point.</em></h1>
+        <p class="vt-chapeau vt-entree">Mentions légales, numéro RPPS, avis et témoignages&nbsp;: ce que dit la loi, ce que demande notre code de déontologie, et comment l’appliquer sur votre site. Rédigés par {FONDATEUR}, psychologue, avec les textes officiels et la date de chaque relecture.</p>
+      </header>
+
+      <ul class="ct-cartes ct-cartes--grandes">
+        {guides.map((g, i) => (
+          <li class="ct-carte" data-apparait>
+            <a href={g.href}>
+              <span class="ct-carte__num">{String(i + 1).padStart(2, '0')}</span>
+              <span class="ct-carte__meta">{g.surtitre}</span>
+              <strong class="ct-carte__titre">{g.titre}</strong>
+              <span class="ct-carte__resume">{g.resume}</span>
+              <span class="ct-carte__pied">Mis à jour le {dateLongue(g.date)} · {g.minutes} min de lecture</span>
+              <span class="ct-carte__lien">Lire le guide <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></span>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <aside class="ct-encart" aria-labelledby="encart-titre" data-apparait>
+        <p class="ct-encart__titre" id="encart-titre">Vous préférez ne pas y penser&nbsp;?</p>
+        <p>Sur les sites youXdesign, tout cela est prévu dès la conception&nbsp;: mentions légales rédigées pour votre cabinet, numéro RPPS affiché, aucun cookie, ni témoignages ni promesse de résultat.</p>
+        <p class="ct-encart__liens">
+          <a class="vt-lien" href="/creation-site-internet-psychologue/">Création de site <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>
+          <a class="vt-lien" href="/refonte-site-psychologue/">Refonte de site <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>
+        </p>
+      </aside>
+    </div>
+  </main>
+
+  <Pied />
+</Youx>

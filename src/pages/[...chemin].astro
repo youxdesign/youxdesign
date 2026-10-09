@@ -17,6 +17,9 @@ import YouxErreur from '../gabarits/youx/Erreur.astro';
 import Vitrine from '../gabarits/youx/Vitrine.astro';
 import YouxContact from '../gabarits/youx/Contact.astro';
 import YouxLegal from '../gabarits/youx/Legal.astro';
+import PageCible from '../gabarits/youx/PageCible.astro';
+import Guides from '../gabarits/youx/Guides.astro';
+import Guide from '../gabarits/youx/Guide.astro';
 import { routes } from '../lib/site.mjs';
 import { pages as pagesDesStyles } from '../themes/registre.mjs';
 
@@ -59,3 +62,6 @@ const Gabarit = route.type === 'page'
 {route.type === 'legal-youx' && <YouxLegal />}
 {route.type === 'galerie' && <YouxAccueil />}
 {route.type === 'erreur-youx' && <YouxErreur />}
+{route.type === 'cible-youx' && <PageCible slug={route.slug} />}
+{route.type === 'guides-youx' && <Guides />}
+{route.type === 'guide-youx' && <Guide slug={route.slug} />}

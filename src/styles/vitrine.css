@@ -1179,7 +1179,7 @@ ol.vt-etapes { position: relative; display: grid; grid-template-columns: repeat(
 .vt-appel + .vt-pied, main:has(> .vt-appel:last-child) + .vt-pied { border-top: 0; padding-top: 0; }
 .vt-pied__haut { display: grid; grid-template-columns: minmax(16rem, 1fr) minmax(0, 1.4fr); gap: 3rem; }
 .vt-pied__marque p { max-width: 22rem; margin: 1rem 0 1.5rem; color: var(--vt-texte); }
-.vt-pied__nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+.vt-pied__nav { display: grid; grid-template-columns: repeat(4, auto); justify-content: space-between; gap: 2rem 1.75rem; }
 .vt-pied__titre { margin-bottom: .9rem; font-size: .75rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--vt-texte-doux); }
 .vt-pied__nav ul { display: grid; gap: .55rem; }
 .vt-pied__nav a { font-size: .95rem; text-decoration: none; color: var(--vt-encre); overflow-wrap: anywhere; transition: color .3s; }
@@ -1192,9 +1192,11 @@ ol.vt-etapes { position: relative; display: grid; grid-template-columns: repeat(
   color: rgb(43 26 78 / .06);
 }
 .vt-pied__geant i { font-style: italic; font-weight: 500; color: rgb(106 79 208 / .14); }
+/* Quatre colonnes ajustées à leur contenu : l'adresse e-mail reste sur une ligne */
+@media (min-width: 72.0625rem) { .vt-pied__nav a[href^='mailto:'] { overflow-wrap: normal; white-space: nowrap; } }
+@media (max-width: 72rem) { .vt-pied__nav { grid-template-columns: repeat(2, minmax(0, 1fr)); justify-content: stretch; } }
 @media (max-width: 56rem) {
   .vt-pied__haut { grid-template-columns: minmax(0, 1fr); }
-  .vt-pied__nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 21rem) { .vt-pied__nav { grid-template-columns: minmax(0, 1fr); } }
 

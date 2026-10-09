@@ -1,0 +1,308 @@
+---
+/* ==========================================================================
+   Page de présentation ciblée (création, refonte, Lille…)
+   --------------------------------------------------------------------------
+   Le contenu vient de src/contenus/pages/<adresse>.md : l'en-tête du fichier
+   (entre ---) donne l'ouverture, les atouts, les étapes, le tarif, les
+   questions et l'appel final ; le texte qui suit forme la partie rédigée,
+   placée après le tarif. Mise en page et animations de la vitrine
+   (vitrine.css, vitrine.js) ; compléments dans contenus.css.
+   ========================================================================== */
+import { Picture } from 'astro:assets';
+import Youx from '../../layouts/Youx.astro';
+import Entete from '../../components/youx/Entete.astro';
+import Pied from '../../components/youx/Pied.astro';
+import { DOMAINE, EMAIL, LIEN_APPEL } from '../../config/youxdesign.mjs';
+import { OFFRES } from '../../config/offres.mjs';
+import { texte, typo, remplir, enLigne, sansForme, adresseBouton, segments, lecture } from '../../lib/contenus.mjs';
+
+interface Props { slug: string }
+const { slug } = Astro.props;
+
+const pages = import.meta.glob<any>('/src/contenus/pages/*.md', { eager: true });
+const guidesMd = import.meta.glob<any>('/src/contenus/guides/*.md', { eager: true });
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine/*.webp', { eager: true });
+const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
+
+const md = pages[`/src/contenus/pages/${slug}.md`];
+const fm = md.frontmatter;
+const corps = typo(remplir(await md.compiledContent()));
+const chemin = `/${slug}/`;
+const url = `${DOMAINE}${chemin}`;
+const offre = OFFRES[fm.offre as keyof typeof OFFRES];
+const titre = segments(fm.h1);
+const mots = (t: string) => t.split(' ');
+const etapes = fm.etapes?.liste ?? [];
+const faq = fm.faq ?? [];
+
+/* Guides liés : titre, description et temps de lecture de chaque guide */
+const guides = (fm.guides ?? [])
+  .map((g: string) => ({ g, m: guidesMd[`/src/contenus/guides/${g}.md`] }))
+  .filter((x: any) => x.m)
+  .map(({ g, m }: any) => ({ href: `/guides/${g}/`, titre: sansForme(m.frontmatter.h1), resume: texte(m.frontmatter.resume ?? m.frontmatter.description), minutes: lecture(m.rawContent()) }));
+
+const appel = {
+  titre: fm.appel?.titre ?? 'Votre futur site se dessine *en dix minutes.*',
+  texte: fm.appel?.texte ?? '',
+  bouton: fm.appel?.bouton ?? 'Configurer mon site',
+  lien: adresseBouton(fm.appel?.lien ?? '/configurateur/')
+};
+const second = appel.lien === '/configurateur/'
+  ? { texte: 'Réserver un appel gratuit', lien: LIEN_APPEL }
+  : { texte: 'Configurer mon site', lien: '/configurateur/' };
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: fm.service,
+    description: sansForme(fm.description),
+    url,
+    serviceType: fm.service,
+    provider: { '@type': 'ProfessionalService', name: 'youXdesign', url: `${DOMAINE}/`, email: EMAIL },
+    areaServed: fm.zone ? { '@type': 'City', name: fm.zone } : { '@type': 'Country', name: 'France' },
+    audience: { '@type': 'BusinessAudience', name: 'Psychologues' },
+    offers: { '@type': 'Offer', price: offre.prix, priceCurrency: 'EUR', url: `${url}#tarif` }
+  },
+  ...(faq.length ? [{
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((f: any) => ({ '@type': 'Question', name: sansForme(f.q), acceptedAnswer: { '@type': 'Answer', text: sansForme(f.r) } }))
+  }] : []),
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Accueil', item: `${DOMAINE}/` },
+      { '@type': 'ListItem', position: 2, name: fm.fil, item: url }
+    ]
+  }
+];
+const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
+const ICONES: Record<string, string> = {
+  trouve: '<circle pathLength="1" cx="10.5" cy="10.5" r="6" /><path pathLength="1" d="m15 15 5.5 5.5" />',
+  cadre: '<path pathLength="1" d="M12 3.2 19 6v5.2c0 4.3-2.9 7.8-7 9.6-4.1-1.8-7-5.3-7-9.6V6z" /><path pathLength="1" d="m9 12 2.2 2.2L15.5 10" />',
+  respect: '<rect pathLength="1" x="5" y="10.5" width="14" height="10" rx="2.5" /><path pathLength="1" d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5" />',
+  temps: '<circle pathLength="1" cx="12" cy="12" r="8.5" /><path pathLength="1" d="M12 7.5V12l3 2" />',
+  adresse: '<path pathLength="1" d="M4 11 12 4.5 20 11" /><path pathLength="1" d="M6.5 9.5v10h11v-10" /><path pathLength="1" d="M10 19.5v-5h4v5" />',
+  redirection: '<path pathLength="1" d="M4.5 7.5h10a4.5 4.5 0 0 1 0 9H8" /><path pathLength="1" d="m11 13.2-3.3 3.3 3.3 3.3" />',
+  carte: '<path pathLength="1" d="M12 20.5s6-5.6 6-10.5a6 6 0 0 0-12 0c0 4.9 6 10.5 6 10.5z" /><circle pathLength="1" cx="12" cy="10" r="2.2" />',
+  fiche: '<rect pathLength="1" x="4" y="5" width="16" height="14" rx="2.5" /><path pathLength="1" d="M8 10h8M8 14h5" />',
+  demo: '<rect pathLength="1" x="3.5" y="5" width="17" height="14" rx="2.5" /><path pathLength="1" d="M3.5 9h17M6.5 7h1.5" />'
+};
+---
+<Youx titre={texte(fm.titre)} description={sansForme(fm.description)} {chemin} scripts={['vitrine']} classe="vt" feuille="vitrine" {jsonld} polices={['/fonts/inter-variable.woff2']}>
+  <Entete />
+
+  <main id="contenu" tabindex="-1">
+    <!-- ===== Ouverture ===== -->
+    <section class="vt-heros ct-heros" aria-labelledby="heros-titre">
+      <div class="vt-heros__fond" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="vt-conteneur vt-heros__grille">
+        <div class="vt-heros__texte">
+          <p class="vt-surtitre vt-heros__surtitre"><span class="vt-point" aria-hidden="true"></span>{texte(fm.surtitre)}</p>
+          <h1 class="vt-heros__titre ct-heros__titre" id="heros-titre" aria-label={sansForme(fm.h1)}>
+            {titre.map((seg) => mots(seg.texte).map((m) => (
+              <><span class:list={['vt-mot', { 'vt-mot--em': seg.em }]} aria-hidden="true"><span>{m}</span></span>{' '}</>
+            )))}
+          </h1>
+          <p class="vt-heros__chapeau" set:html={enLigne(fm.chapeau)} />
+          <p class="vt-boutons vt-heros__boutons">
+            <a class="vt-bouton vt-bouton--grand" href="/configurateur/" data-aimant>
+              Configurer mon site
+              <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+            </a>
+            {fm.secondaire && <a class="vt-bouton vt-bouton--grand vt-bouton--contour" href={adresseBouton(fm.secondaire.lien)}>{texte(fm.secondaire.texte)}</a>}
+          </p>
+          {fm.garanties && (
+            <ul class="vt-heros__garanties" aria-label="Engagements">
+              {fm.garanties.map((g: string) => <li>{texte(g)}</li>)}
+            </ul>
+          )}
+        </div>
+
+        <div class="vt-heros__visuel" data-parallaxe>
+          <div class="vt-heros__scene">
+            <figure class="vt-fenetre vt-heros__ordi">
+              <div class="vt-fenetre__barre" aria-hidden="true"><i></i><i></i><i></i><span>{fm.visuel.adresse}</span></div>
+              <Picture class="vt-fenetre__image" src={img(fm.visuel.ordinateur)} alt={texte(fm.visuel.alt)} formats={['avif', 'webp']} widths={[640, 960, 1280, 1600, 2000]} sizes="(min-width: 64rem) 56vw, 92vw" loading="eager" fetchpriority="high" />
+            </figure>
+            <figure class="vt-telephone vt-heros__tel" data-profondeur>
+              <Picture class="vt-telephone__image" src={img(fm.visuel.telephone)} alt={texte(fm.visuel.altTelephone)} formats={['avif', 'webp']} widths={[300, 450, 600, 900]} sizes="(min-width: 64rem) 15vw, 34vw" loading="eager" />
+            </figure>
+            {fm.visuel.pastille && <p class="vt-pastille vt-heros__pastille" aria-hidden="true"><span class="vt-point"></span>{texte(fm.visuel.pastille)}</p>}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Atouts ===== -->
+    {fm.atouts && (
+      <section class="vt-section ct-atouts" aria-labelledby="atouts-titre">
+        <div class="vt-conteneur">
+          <header class="vt-tete">
+            {fm.atouts.surtitre && <p class="vt-surtitre" data-apparait>{texte(fm.atouts.surtitre)}</p>}
+            <h2 class="vt-h2" id="atouts-titre" data-apparait set:html={enLigne(fm.atouts.titre)} />
+            {fm.atouts.chapeau && <p class="vt-chapeau" data-apparait set:html={enLigne(fm.atouts.chapeau)} />}
+          </header>
+          <ul class="vt-piliers ct-piliers">
+            {fm.atouts.liste.map((p: any) => (
+              <li class="vt-pilier" data-apparait data-lueur>
+                <span class="vt-pilier__icone" aria-hidden="true"><svg viewBox="0 0 24 24" set:html={ICONES[p.icone] ?? ICONES.trouve} /></span>
+                <h3>{texte(p.titre)}</h3>
+                <p set:html={enLigne(p.texte)} />
+                {p.lien && <a class="vt-lien ct-pilier__lien" href={p.lien}>Voir la page<span class="sr-only">&nbsp;: {texte(p.titre)}</span><svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
+
+    <!-- ===== Ce que comprend le site ===== -->
+    {fm.inclus && (
+      <section class="vt-section ct-inclus" aria-labelledby="inclus-titre">
+        <div class="vt-conteneur ct-inclus__grille">
+          <header class="vt-tete">
+            {fm.inclus.surtitre && <p class="vt-surtitre" data-apparait>{texte(fm.inclus.surtitre)}</p>}
+            <h2 class="vt-h2" id="inclus-titre" data-apparait set:html={enLigne(fm.inclus.titre)} />
+            {fm.inclus.chapeau && <p class="vt-chapeau" data-apparait set:html={enLigne(fm.inclus.chapeau)} />}
+            {fm.inclus.lien && <p data-apparait><a class="vt-lien" href={fm.inclus.lien.href}>{texte(fm.inclus.lien.texte)}<svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a></p>}
+          </header>
+          <ul class="vt-coches ct-inclus__liste" data-apparait>
+            {fm.inclus.liste.map((l: string) => <li set:html={enLigne(l)} />)}
+          </ul>
+        </div>
+      </section>
+    )}
+
+    <!-- ===== Étapes ===== -->
+    {etapes.length > 0 && (
+      <section class="vt-section vt-methode" aria-labelledby="methode-titre">
+        <div class="vt-conteneur">
+          <header class="vt-tete">
+            {fm.etapes.surtitre && <p class="vt-surtitre" data-apparait>{texte(fm.etapes.surtitre)}</p>}
+            <h2 class="vt-h2" id="methode-titre" data-apparait set:html={enLigne(fm.etapes.titre)} />
+          </header>
+          <ol class:list={['vt-etapes', { 'ct-etapes--4': etapes.length === 4 }]} data-etapes>
+            <li class="vt-etapes__ligne" aria-hidden="true"><i data-ligne></i></li>
+            {etapes.map((e: any, i: number) => (
+              <li class="vt-etape" data-apparait>
+                <span class="vt-etape__num">{String(i + 1).padStart(2, '0')}</span>
+                <h3>{texte(e.titre)}</h3>
+                <p set:html={enLigne(e.texte)} />
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+    )}
+
+    <!-- ===== Tarif ===== -->
+    <section class="vt-section ct-tarif" id="tarif" aria-labelledby="tarif-titre">
+      <div class="vt-conteneur">
+        <header class="vt-tete vt-tete--centre">
+          <p class="vt-surtitre" data-apparait>Tarif</p>
+          <h2 class="vt-h2" id="tarif-titre" data-apparait set:html={enLigne(fm.tarif?.titre ?? 'Un prix clair, *sans surprise.*')} />
+          {fm.tarif?.chapeau && <p class="vt-chapeau" data-apparait set:html={enLigne(fm.tarif.chapeau)} />}
+        </header>
+        <div class="vt-offre" data-apparait>
+          <div class="vt-offre__carte" data-lueur>
+            <div class="vt-offre__prix">
+              <div class="vt-offre__tarif">
+                <p class="vt-prix"><span class="vt-prix__montant">{offre.prix}</span><span class="vt-prix__devise">€</span></p>
+                <p class="vt-prix__avant" set:html={offre.avant} />
+                <p class="vt-prix__mois" set:html={offre.mois} />
+              </div>
+            </div>
+            <div class="vt-offre__details">
+              <div class="vt-offre__panneau">
+                <ul class="vt-coches">
+                  {offre.liste.map((l) => <li>{l}</li>)}
+                </ul>
+                <p class="vt-offre__note">{offre.note}</p>
+                <a class="vt-bouton vt-bouton--grand" href="/configurateur/">
+                  {offre.cta}
+                  <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+                </a>
+              </div>
+            </div>
+          </div>
+          <p class="ct-tarif__lien"><a class="vt-lien" href="/#comparatif">Comparer avec les autres solutions<svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Partie rédigée (texte du fichier Markdown) ===== -->
+    {corps.trim() && (
+      <section class="vt-section ct-redige">
+        <div class="vt-conteneur">
+          <div class="ct-prose" set:html={corps} />
+        </div>
+      </section>
+    )}
+
+    <!-- ===== Questions ===== -->
+    {faq.length > 0 && (
+      <section class="vt-section vt-questions" id="questions" aria-labelledby="questions-titre">
+        <div class="vt-conteneur vt-questions__grille">
+          <header class="vt-tete">
+            <p class="vt-surtitre" data-apparait>Questions</p>
+            <h2 class="vt-h2" id="questions-titre" data-apparait set:html={enLigne(fm.faqTitre ?? 'Vos questions, *mes réponses.*')} />
+            <p class="vt-chapeau" data-apparait>Une autre question&nbsp;? Écrivez-moi à <a class="vt-lien" href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
+          </header>
+          <div class="vt-faq">
+            {faq.map((f: any) => (
+              <details class="vt-faq__item" name="faq" data-apparait>
+                <summary><span>{texte(f.q)}</span><i aria-hidden="true"></i></summary>
+                <div class="vt-faq__reponse"><p set:html={enLigne(f.r)} /></div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- ===== Guides liés ===== -->
+    {guides.length > 0 && (
+      <section class="vt-section ct-lies" aria-labelledby="guides-titre">
+        <div class="vt-conteneur">
+          <header class="vt-tete">
+            <p class="vt-surtitre" data-apparait>Guides</p>
+            <h2 class="vt-h2" id="guides-titre" data-apparait>Pour aller <em>plus loin.</em></h2>
+          </header>
+          <ul class="ct-cartes">
+            {guides.map((g: any) => (
+              <li class="ct-carte" data-apparait>
+                <a href={g.href}>
+                  <span class="ct-carte__meta">Guide · {g.minutes} min de lecture</span>
+                  <strong class="ct-carte__titre">{g.titre}</strong>
+                  <span class="ct-carte__resume">{g.resume}</span>
+                  <span class="ct-carte__lien">Lire le guide <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} /></span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )}
+
+    <!-- ===== Appel final ===== -->
+    <section class="vt-appel" aria-labelledby="appel-titre">
+      <div class="vt-appel__fond" aria-hidden="true"><i></i><i></i></div>
+      <div class="vt-conteneur vt-appel__contenu">
+        <h2 class="vt-appel__titre" id="appel-titre" data-apparait set:html={enLigne(appel.titre)} />
+        {appel.texte && <p data-apparait set:html={enLigne(appel.texte)} />}
+        <p class="vt-boutons" data-apparait>
+          <a class="vt-bouton vt-bouton--grand vt-bouton--clair" href={appel.lien} data-aimant>
+            {texte(appel.bouton)}
+            <svg class="vt-fleche" viewBox="0 0 16 16" aria-hidden="true" set:html={fleche} />
+          </a>
+          <a class="vt-bouton vt-bouton--grand vt-bouton--contour-clair" href={second.lien}>{second.texte}</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <Pied />
+</Youx>
