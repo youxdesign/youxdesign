@@ -401,6 +401,8 @@ Elle envoie les e-mails depuis younes@youxdesign.fr exactement tels qu'ils ont �
    npm run envoyer -- ../envois/prospects-lot3.json --brouillons
    ```
    dépose chaque e-mail, intact, dans les **Brouillons** de Gmail. Rien ne part : ouvrez chaque brouillon, puis cliquez sur la flèche à côté de « Envoyer » › « Planifier l'envoi ». L'envoi a lieu même si le Mac est éteint.
+
+   Après un changement de modèle (un prix, par exemple), ajoutez `--remplacer` pour refaire des brouillons déjà déposés : l'ancien brouillon part à la corbeille et le nouveau prend sa place. Un e-mail déjà **planifié** ne peut pas être modifié d'ici : la commande le signale, et vous annulez son envoi dans Gmail › Planifiés.
 4. **Le journal** `envois/journal-envois.csv` garde la date de chaque envoi. Une adresse qui y figure n'est jamais relancée par erreur, même si elle réapparaît dans un autre lot.
 
 **Les bonnes habitudes**

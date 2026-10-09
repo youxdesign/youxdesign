@@ -9,6 +9,12 @@
      npm run envoyer -- <prospects.json> --brouillons      dépose les e-mails dans les Brouillons
                                                            Gmail (images et liens intacts), pour les
                                                            relire et « Planifier l'envoi » dans Gmail
+     npm run envoyer -- <prospects.json> --brouillons --remplacer
+                                                           refait les brouillons déjà déposés (après
+                                                           un changement de modèle) : l'ancien brouillon
+                                                           part à la corbeille, le nouveau le remplace.
+                                                           Un envoi déjà planifié n'est pas modifiable
+                                                           d'ici : il est signalé, à annuler dans Gmail
 
    Fichier prospects (JSON), une entrée par personne :
      { "prenom": "Nathalie", "email": "…", "modele": "refonte" | "creation",
@@ -22,7 +28,8 @@
    Sécurités : sans --confirmer rien ne part chez les prospects (--brouillons
    n'envoie rien non plus : c'est vous qui envoyez depuis Gmail) ; une adresse
    déjà présente dans le journal (journal-envois.csv, à côté du fichier
-   prospects) n'est jamais relancée ; une pause sépare deux envois.
+   prospects) n'est jamais relancée (seul --remplacer refait un brouillon, jamais
+   un e-mail envoyé) ; une pause sépare deux envois.
    ========================================================================== */
 import { readFileSync, existsSync, appendFileSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
@@ -39,15 +46,21 @@ const fichier = args.find((a) => !a.startsWith('--') && args[args.indexOf(a) - 1
 const essai = args.includes('--essai') ? args[args.indexOf('--essai') + 1] : null;
 const confirmer = args.includes('--confirmer');
 const brouillons = args.includes('--brouillons');
+const remplacer = args.includes('--remplacer');
 if (!fichier) { console.error('Indiquez le fichier des prospects : npm run envoyer -- prospects.json'); process.exit(1); }
 if ([essai, confirmer, brouillons].filter(Boolean).length > 1) { console.error('Choisissez une seule option : --essai, --brouillons ou --confirmer.'); process.exit(1); }
+if (remplacer && !brouillons) { console.error('--remplacer s’utilise avec --brouillons.'); process.exit(1); }
 const reel = confirmer || brouillons;
 
 const prospects = JSON.parse(readFileSync(resolve(fichier), 'utf8'));
 const journal = join(dirname(resolve(fichier)), 'journal-envois.csv');
-const dejaEnvoyes = new Set(existsSync(journal)
-  ? readFileSync(journal, 'utf8').split('\n').slice(1).map((l) => (l.split(';')[1] || '').toLowerCase()).filter(Boolean)
-  : []);
+/* Le journal distingue les e-mails envoyés des brouillons déposés (5e colonne « brouillon ») */
+const lignesJournal = existsSync(journal)
+  ? readFileSync(journal, 'utf8').split('\n').slice(1).filter(Boolean).map((l) => l.split(';'))
+  : [];
+const adresses = (filtre) => new Set(lignesJournal.filter(filtre).map((c) => (c[1] || '').toLowerCase()).filter(Boolean));
+const envoyes = adresses((c) => c[4] !== 'brouillon');
+const deposes = adresses((c) => c[4] === 'brouillon');
 
 const echapper = (t) => t.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 function preparer(p) {
@@ -65,11 +78,13 @@ function preparer(p) {
 }
 
 const lots = prospects.map((p) => ({ p, ...preparer(p) }));
-const deja = (p) => dejaEnvoyes.has(p.email.toLowerCase());
-const mode = confirmer ? 'ENVOI RÉEL' : brouillons ? 'brouillons Gmail' : essai ? `essai vers ${essai}` : 'aperçu seulement';
+const depose = (p) => deposes.has(p.email.toLowerCase());
+/* Ignoré : déjà envoyé, ou brouillon déjà déposé (sauf avec --remplacer) */
+const deja = (p) => envoyes.has(p.email.toLowerCase()) || (depose(p) && !remplacer);
+const mode = confirmer ? 'ENVOI RÉEL' : brouillons ? `brouillons Gmail${remplacer ? ', en remplacement' : ''}` : essai ? `essai vers ${essai}` : 'aperçu seulement';
 console.log(`\n${lots.length} prospect(s) — ${mode}\n`);
 for (const { p, sujet } of lots) {
-  const note = deja(p) ? '  (déjà dans le journal : ignoré)' : '';
+  const note = deja(p) ? '  (déjà dans le journal : ignoré)' : depose(p) ? '  (brouillon déjà déposé : refait)' : '';
   console.log(`  ${p.prenom.padEnd(12)} ${p.email.padEnd(36)} ${p.modele.padEnd(9)} ${sujet}${note}`);
 }
 if (!reel && !essai) { console.log('\nRien n’a été envoyé. Ajoutez --essai <adresse>, --brouillons ou --confirmer.\n'); process.exit(0); }
@@ -82,15 +97,36 @@ const auth = { user: reglages.SMTP_UTILISATEUR, pass: reglages.SMTP_MOT_DE_PASSE
 const expediteur = { name: 'Younes Yagoubi', address: reglages.SMTP_UTILISATEUR };
 
 /* Envoi par SMTP, ou dépôt dans le dossier Brouillons de Gmail par IMAP */
-let transport, imap, dossierBrouillons;
+let transport, imap, dossierBrouillons, dossierCorbeille, dossierTous;
 if (brouillons) {
   imap = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth, logger: false });
   await imap.connect();
-  dossierBrouillons = (await imap.list()).find((d) => d.specialUse === '\\Drafts')?.path;
+  const dossiers = await imap.list();
+  const special = (usage) => dossiers.find((d) => d.specialUse === usage)?.path;
+  dossierBrouillons = special('\\Drafts');
+  dossierCorbeille = special('\\Trash');
+  dossierTous = special('\\All');
   if (!dossierBrouillons) throw new Error('Dossier Brouillons introuvable dans Gmail');
+  if (remplacer && (!dossierCorbeille || !dossierTous)) throw new Error('Dossiers Corbeille ou « Tous les messages » introuvables dans Gmail');
 } else {
   transport = nodemailer.createTransport({ host: 'smtp.gmail.com', port: 465, secure: true, auth });
   await transport.verify();
+}
+
+/* --remplacer : messages de même destinataire et même objet, dans un dossier Gmail */
+async function memesMessages(dossier, requete, p, sujet) {
+  const verrou = await imap.getMailboxLock(dossier);
+  try {
+    const uids = (await imap.search({ gmraw: `${requete} to:${p.email}` }, { uid: true })) || [];
+    const trouves = [];
+    if (uids.length) {
+      for await (const m of imap.fetch(uids, { envelope: true }, { uid: true })) {
+        const pour = (m.envelope.to || []).some((t) => (t.address || '').toLowerCase() === p.email.toLowerCase());
+        if (pour && (m.envelope.subject || '').trim() === sujet) trouves.push(m.uid);
+      }
+    }
+    return trouves;
+  } finally { verrou.release(); }
 }
 
 if (reel && !existsSync(journal)) appendFileSync(journal, 'date;email;prenom;modele\n');
@@ -99,10 +135,22 @@ for (const { p, html, texte, sujet } of lots) {
   if (reel && deja(p)) continue;
   const message = { from: expediteur, to: essai ?? p.email, subject: essai ? `[Test ${p.prenom}] ${sujet}` : sujet, html, text: texte };
   if (brouillons) {
+    let note = '';
+    if (remplacer && depose(p)) {
+      /* L'ancien brouillon va à la corbeille (récupérable 30 jours) ; un envoi planifié reste à annuler dans Gmail */
+      const anciens = await memesMessages(dossierBrouillons, 'in:drafts', p, sujet);
+      if (anciens.length) {
+        const verrou = await imap.getMailboxLock(dossierBrouillons);
+        try { await imap.messageMove(anciens, dossierCorbeille, { uid: true }); } finally { verrou.release(); }
+        note += ` · ancien brouillon mis à la corbeille`;
+      }
+      const planifies = await memesMessages(dossierTous, 'in:scheduled', p, sujet);
+      if (planifies.length) note += `\n    ⚠ l’ancienne version est encore planifiée : annulez-la dans Gmail › Planifiés`;
+    }
     const brut = await new MailComposer(message).compile().build();
     await imap.append(dossierBrouillons, brut, ['\\Draft']);
     appendFileSync(journal, `${new Date().toISOString()};${p.email};${p.prenom};${p.modele};brouillon\n`);
-    console.log(`  ✓ brouillon ${p.prenom} (${p.email})`);
+    console.log(`  ✓ brouillon ${p.prenom} (${p.email})${note}`);
     continue;
   }
   if (!premier && confirmer) { console.log(`  pause de ${PAUSE_SECONDES} s…`); await new Promise((r) => setTimeout(r, PAUSE_SECONDES * 1000)); }
