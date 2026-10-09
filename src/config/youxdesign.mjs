@@ -19,11 +19,11 @@ export const TELEPHONE = '07 61 84 57 91';
 export const TELEPHONE_LIEN = '+33761845791';
 
 /* Appel découverte gratuit (bouton de l'e-mail de prospection, page Contact).
-   L'adresse courte youxdesign.fr/appel/ mène vers LIEN_APPEL : par défaut le
-   formulaire de contact, sujet « appel » choisi d'avance. Le jour où une page
-   de réservation existe (Google Agenda, Calendly…), collez son adresse dans
-   RESERVATION_APPEL : les e-mails déjà envoyés y mèneront aussi. */
-export const RESERVATION_APPEL = '';
+   L'adresse courte youxdesign.fr/appel/ mène vers LIEN_APPEL, y compris depuis
+   les e-mails déjà envoyés. RESERVATION_APPEL : page de réservation Google Agenda
+   (appel de 15 min par téléphone, du lundi au vendredi de 18 h à 21 h, le
+   week-end de 9 h à 21 h). Vide, LIEN_APPEL revient au formulaire de contact. */
+export const RESERVATION_APPEL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ25Izk0gJTEhu_fPsYf2koEeE3CQoTBzndsbkQdYKs207lXY9x9xrC4N-006-FPG_xxikFukeGe';
 export const LIEN_APPEL = RESERVATION_APPEL || '/contact/?sujet=appel';
 
 /* Tarifs affichés sur la vitrine (euros) :

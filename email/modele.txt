@@ -6,8 +6,8 @@ J’ai créé youXdesign pour offrir aux psychologues un site à la hauteur de l
 
 Vos futurs patients vous découvrent souvent en ligne, avant même de vous appeler. Je crée pour les psychologues des sites soignés, clairs et rassurants : voyez le vôtre prendre forme en direct.
 
-> Configurer mon site : %DOMAINE%/configurateur/
 > Réserver un appel gratuit (15 minutes, sans engagement) : %APPEL%
+> Configurer mon site : %DOMAINE%/configurateur/
 > Voir les neuf styles : %DOMAINE%/styles/
 
 

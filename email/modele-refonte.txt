@@ -6,8 +6,8 @@ Votre site existe déjà : c’est un atout. Je vous propose de lui donner une n
 
 Je refais le site de votre cabinet sur votre adresse actuelle, {{site_actuel}} : vos patients et Google vous retrouvent au même endroit, sur un site plus beau, plus clair et plus rapide.
 
-> Imaginer mon nouveau site : %DOMAINE%/configurateur/
 > Réserver un appel gratuit (15 minutes, sans engagement) : %APPEL%
+> Imaginer mon nouveau site : %DOMAINE%/configurateur/
 > Voir les neuf styles : %DOMAINE%/styles/
 
 
