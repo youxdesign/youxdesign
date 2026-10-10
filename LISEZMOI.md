@@ -396,7 +396,7 @@ Elle envoie les e-mails depuis younes@youxdesign.fr exactement tels qu'ils ont �
        "detail": "J’ai découvert votre cabinet de Roubaix et votre travail auprès des adolescents." }
    ]
    ```
-   `modele` vaut `refonte` ou `creation`. `site` remplit `{{site_actuel}}` et la source du pied de l'e-mail (« votre site … »). `detail` remplit `{{detail_personnalisation}}`. `source`, facultatif, remplace « votre site … » en bas de l'e-mail quand l'adresse vient d'ailleurs (par exemple « la page du cabinet paramédical Detroy »).
+   `modele` vaut `refonte` ou `creation`. `site` remplit `{{site_actuel}}` et la source du pied de l'e-mail (« votre site … »). `detail` remplit `{{detail_personnalisation}}`. `source`, facultatif, remplace « votre site … » en bas de l'e-mail quand l'adresse vient d'ailleurs (par exemple « la page du cabinet paramédical Detroy »). `constat`, facultatif : une ou deux phrases sur ce qui ne va pas sur son site actuel (pas de mentions légales, site sans HTTPS, titre Google erroné…), placées juste après « Votre site existe déjà » ; vide, le paragraphe disparaît. N'y mettre que des défauts vérifiés à la main.
 3. **Les trois étapes**, depuis le dossier `repo` :
    ```bash
    npm run envoyer -- ../envois/prospects-lot3.json

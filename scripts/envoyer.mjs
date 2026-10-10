@@ -19,7 +19,8 @@
    Fichier prospects (JSON), une entrée par personne :
      { "prenom": "Nathalie", "email": "…", "modele": "refonte" | "creation",
        "site": "psychologue-vdascq.fr", "detail": "J’ai découvert…",
-       "source": "…" (facultatif, remplace « votre site <site> » en bas de l’e-mail) }
+       "source": "…" (facultatif, remplace « votre site <site> » en bas de l’e-mail),
+       "constat": "…" (facultatif, ce qui ne va pas sur son site actuel) }
 
    Identifiants : fichier ~/.config/youxdesign/envoi.env (jamais dans le dépôt)
      SMTP_UTILISATEUR=younes@youxdesign.fr
@@ -66,13 +67,15 @@ const echapper = (t) => t.replaceAll('&', '&amp;').replaceAll('<', '&lt;').repla
 function preparer(p) {
   const sortie = MODELES[p.modele];
   if (!sortie) throw new Error(`${p.prenom} : modèle inconnu « ${p.modele} » (refonte ou creation)`);
-  const v = { prenom: p.prenom, detail_personnalisation: p.detail ?? '', source: p.source ?? `votre site ${p.site}`, site_actuel: p.site };
+  const v = { prenom: p.prenom, detail_personnalisation: p.detail ?? '', constat: p.constat ?? '', source: p.source ?? `votre site ${p.site}`, site_actuel: p.site };
+  /* Paragraphe facultatif : gardé seulement si la variable est remplie */
+  const blocs = (s) => s.replace(/<!--si:(\w+)-->([\s\S]*?)<!--fin:\1-->/g, (_, k, contenu) => (v[k] ? contenu : ''));
   const remplir = (s, html) => s.replace(/\{\{(\w+)\}\}/g, (_, k) => {
     if (!(k in v)) throw new Error(`${p.prenom} : variable {{${k}}} inconnue`);
     return html ? echapper(v[k]) : v[k];
   });
-  const html = remplir(readFileSync(join('email', `${sortie}.html`), 'utf8'), true);
-  const texte = remplir(readFileSync(join('email', `${sortie}.txt`), 'utf8'), false);
+  const html = remplir(blocs(readFileSync(join('email', `${sortie}.html`), 'utf8')), true);
+  const texte = remplir(blocs(readFileSync(join('email', `${sortie}.txt`), 'utf8')), false);
   const sujet = html.match(/<title>([^<]+)<\/title>/)[1].trim();
   return { html, texte, sujet };
 }

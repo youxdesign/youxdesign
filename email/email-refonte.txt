@@ -4,7 +4,9 @@ Bonjour {{prenom}},
 
 Votre site existe déjà : c’est un atout. Je vous propose de lui donner une nouvelle version, plus belle et plus rassurante pour vos futurs patients, sans changer d’adresse.
 
-Je refais le site de votre cabinet sur votre adresse actuelle, {{site_actuel}} : vos patients et Google vous retrouvent au même endroit, sur un site plus beau, plus clair et plus rapide.
+<!--si:constat-->{{constat}}
+
+<!--fin:constat-->Je refais le site de votre cabinet sur votre adresse actuelle, {{site_actuel}} : vos patients et Google vous retrouvent au même endroit, sur un site plus beau, plus clair et plus rapide.
 
 > Réserver un appel gratuit (15 minutes, sans engagement) : https://youxdesign.fr/appel/
 > Imaginer mon nouveau site : https://youxdesign.fr/configurateur/

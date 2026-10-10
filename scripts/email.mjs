@@ -22,6 +22,9 @@
                                   « votre site psyroubaix.fr »
      {{site_actuel}}              (e-mail « refonte » seulement) l'adresse
                                   actuelle de son site, par exemple psyroubaix.fr
+     {{constat}}                  (facultatif) ce qui ne va pas sur son site actuel,
+                                  en une ou deux phrases ; vide, le paragraphe
+                                  disparaît (balises <!--si:constat--> … <!--fin:constat-->)
 
    Vérifications : poids de l'e-mail (moins de 100 Ko, sinon Gmail le coupe),
    aucune adresse oubliée, images bien présentes dans le site.
@@ -46,14 +49,15 @@ const remplacer = (texte) => texte
 
 /* Deux e-mails : création d'un site, et refonte d'un site existant (adresse conservée) */
 const MODELES = [
-  { modele: 'modele', sortie: 'email-prospection', exemple: 'apercu-exemple', variables: ['prenom', 'detail_personnalisation', 'source'] },
-  { modele: 'modele-refonte', sortie: 'email-refonte', exemple: 'apercu-exemple-refonte', variables: ['prenom', 'detail_personnalisation', 'source', 'site_actuel'] }
+  { modele: 'modele', sortie: 'email-prospection', exemple: 'apercu-exemple', variables: ['prenom', 'detail_personnalisation', 'constat', 'source'] },
+  { modele: 'modele-refonte', sortie: 'email-refonte', exemple: 'apercu-exemple-refonte', variables: ['prenom', 'detail_personnalisation', 'constat', 'source', 'site_actuel'] }
 ];
 const EXEMPLE = {
   prenom: 'Julie',
   detail_personnalisation: 'J’ai découvert votre cabinet de Roubaix en cherchant une psychologue qui reçoit les adolescents.',
   source: 'votre page professionnelle sur Google',
-  site_actuel: 'julie-durand-psychologue.fr'
+  site_actuel: 'julie-durand-psychologue.fr',
+  constat: 'En parcourant votre site, je n’ai pas trouvé de page de mentions légales. Elle est pourtant obligatoire pour un site professionnel : je la rédige pour vous, avec votre numéro ADELI ou RPPS.'
 };
 const erreurs = [];
 const resume = [];
