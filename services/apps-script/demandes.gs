@@ -23,7 +23,9 @@
    Après une modification de ce code : Déployer › Gérer les déploiements ›
    modifier (crayon) › Version : nouvelle version. L'URL ne change pas.
    ========================================================================== */
-const DESTINATAIRE = 'contact@youxdesign.fr';
+/* Adresse principale, pas l'alias contact@ : un e-mail envoyé à son propre
+   alias n'arrive que dans « Envoyés », jamais dans la boîte de réception. */
+const DESTINATAIRE = 'younes@youxdesign.fr';
 /* Au-delà, les demandes sont toujours rangées dans le tableur, mais sans
    e-mail : un robot ne peut pas remplir la boîte de Younes. */
 const EMAILS_MAX_PAR_JOUR = 25;
