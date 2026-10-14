@@ -72,6 +72,8 @@ const REDIRECTIONS_VITRINE = `# Adresse courte de l'e-mail de prospection : rés
 /appel/                          ${LIEN_APPEL}       302
 
 # Anciennes adresses -> nouvelles pages
+/site-internet-psychologue-lille   /site-internet-psychologue-france/   301
+/site-internet-psychologue-lille/  /site-internet-psychologue-france/   301
 /configurateur.html              /configurateur/              301
 /demo/index.html                 /demo/                       301
 /demo/Accueil.dc.html            /demo/                       301

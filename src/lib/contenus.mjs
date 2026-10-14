@@ -2,7 +2,7 @@
    Pages de contenu du site youXdesign, écrites en Markdown
    --------------------------------------------------------------------------
    - src/contenus/pages/<adresse>.md  → youxdesign.fr/<adresse>/
-     pages de présentation ciblées (création, refonte, Lille) ;
+     pages de présentation ciblées (création, refonte, partout en France) ;
    - src/contenus/guides/<adresse>.md → youxdesign.fr/guides/<adresse>/
      guides pratiques, sourcés.
    Le nom du fichier donne l'adresse de la page : ajouter un fichier suffit

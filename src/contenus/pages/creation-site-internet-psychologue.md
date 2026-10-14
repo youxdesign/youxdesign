@@ -71,11 +71,11 @@ tarif:
 faqTitre: "Vos questions sur *la création.*"
 faq:
   - q: "Combien coûte la création d’un site de psychologue ?"
-    r: "{{lancement}} € au lieu de {{normal}} €, un tarif réservé aux {{places}} premiers cabinets, puis {{mensuel}} € par mois pour l’hébergement et les modifications mineures. Une direction artistique entièrement sur mesure est étudiée sur devis. Pour situer ce prix, voyez le [tableau comparatif](/#comparatif)."
+    r: "{{lancement}} € au lieu de {{normal}} €, un tarif réservé aux {{places}} premiers cabinets, puis {{mensuel}} € par mois pour l’hébergement et les modifications mineures. Une direction artistique entièrement sur mesure est étudiée sur devis. Pour situer ce prix, voyez le [tableau comparatif](/#comparatif) ou le guide [Combien coûte un site de psychologue ?](/guides/prix-site-internet-psychologue/)"
   - q: "Dois-je écrire les textes moi-même ?"
     r: "Non. Je rédige vos pages à partir de vos réponses au configurateur et de nos échanges. Vous relisez, vous corrigez, vous validez : rien n’est mis en ligne sans votre accord."
   - q: "Pourquoi un site, si je suis déjà sur Doctolib ?"
-    r: "Les deux se complètent. Doctolib sert à réserver ; votre site explique qui vous êtes, comment vous travaillez, le déroulé des séances et vos tarifs. Il mène directement à votre page de réservation."
+    r: "Les deux se complètent. Doctolib sert à réserver ; votre site explique qui vous êtes, comment vous travaillez, le déroulé des séances et vos tarifs. Il mène directement à votre page de réservation. Nous le détaillons dans le guide [Déjà sur Doctolib : un site, pour quoi faire ?](/guides/site-psychologue-doctolib/)"
   - q: "Mon site sera-t-il en première page de Google ?"
     r: "Personne ne peut honnêtement le garantir, et Google précise qu’on ne peut pas payer pour être mieux classé dans ses résultats locaux. Votre site réunit ce qui compte : un contenu clair sur votre pratique, votre adresse et vos horaires lisibles par Google, un site rapide sur téléphone et une fiche Google cohérente avec votre site."
   - q: "Mon site respectera-t-il le code de déontologie ?"
@@ -83,9 +83,9 @@ faq:
   - q: "Pourrai-je modifier mon site ensuite ?"
     r: "Oui. Les modifications mineures, comme un changement d’horaires ou de tarifs, sont comprises dans l’abonnement de {{mensuel}} € par mois : il suffit de me les demander par e-mail."
 guides:
+  - prix-site-internet-psychologue
+  - site-psychologue-doctolib
   - mentions-legales-psychologue
-  - numero-adeli-rpps-psychologue
-  - avis-temoignages-psychologue
 appel:
   titre: "Votre futur site se dessine *en dix minutes.*"
   texte: "Choisissez un style, vos couleurs et vos fonctionnalités : l’aperçu se construit en direct, et rien n’est envoyé sans votre accord."
@@ -103,7 +103,7 @@ Quand quelqu’un cherche « psychologue » et le nom de sa ville, Google classe
 
 Votre site travaille sur ce qui dépend de vous. Chaque page a un titre et une description qui disent ce que vous faites et où. Votre adresse, vos horaires et votre téléphone sont décrits pour Google dans un format qu’il comprend. Le site s’affiche vite sur téléphone. Et je vous aide à mettre votre fiche Google en cohérence avec votre site.
 
-Vous exercez à Lille ou dans la métropole ? Voyez la page [Site internet pour psychologue à Lille](/site-internet-psychologue-lille/).
+Où que soit votre cabinet, tout se fait à distance : voyez la page [Site internet pour psychologue, partout en France](/site-internet-psychologue-france/).
 
 ## Le cadre déontologique, déjà intégré
 
