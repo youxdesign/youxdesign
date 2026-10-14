@@ -1,6 +1,6 @@
 ---
 # Guide : youxdesign.fr/guides/prix-site-internet-psychologue/
-# Montants : {{lancement}}, {{normal}}, {{places}}, {{mensuel}}, {{refonte}} (réglages TARIF).
+# Montants : {{lancement}}, {{normal}}, {{places}}, {{mensuel}}, {{refonte}}, {{refonteNormal}} (réglages TARIF).
 # Prix des prestataires relevés le 9 octobre 2026 (mêmes sources que le comparatif de l'accueil) :
 # les vérifier et changer « misAJour » à chaque relecture.
 titre: "Combien coûte un site de psychologue ? · youXdesign"
@@ -26,7 +26,7 @@ faq:
   - q: "Pourquoi {{lancement}} € pour les premiers cabinets ?"
     r: "C’est un tarif de lancement, réservé aux {{places}} premiers cabinets. Le prix normal d’un site complet reste {{normal}} €."
   - q: "J’ai déjà un site : combien coûte sa refonte ?"
-    r: "{{refonte}} € chez youXdesign, sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit. L’hébergement est alors en option : vous pouvez garder votre hébergeur. Voyez la page [Refonte de site de psychologue](/refonte-site-psychologue/)."
+    r: "Chez youXdesign, {{refonte}} € au lieu de {{refonteNormal}} €, en tarif de lancement, sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit. L’hébergement est alors en option : vous pouvez garder votre hébergeur. Voyez la page [Refonte de site de psychologue](/refonte-site-psychologue/)."
   - q: "Un site de psychologue est-il une dépense déductible ?"
     r: "En libéral, les dépenses engagées pour votre activité professionnelle sont en général déductibles de vos revenus professionnels. Votre comptable ou votre association de gestion agréée vous dira comment l’inscrire selon votre régime fiscal."
   - q: "Quels frais prévoir après la mise en ligne ?"

@@ -29,8 +29,9 @@ export const LIEN_APPEL = RESERVATION_APPEL || '/contact/?sujet=appel';
 /* Tarifs affichés sur la vitrine (euros) :
    création : lancement au lieu de normal, pour les « places » premiers cabinets,
    puis « mensuel » par mois (hébergement et modifications mineures) ;
-   refonte : prix unique, hébergement en option au même tarif mensuel. */
-export const TARIF = { lancement: 249, normal: 690, places: 10, mensuel: 10, refonte: 199 };
+   refonte : tarif de lancement « refonte » au lieu de « refonteNormal »,
+   hébergement en option au même tarif mensuel. */
+export const TARIF = { lancement: 249, normal: 690, places: 10, mensuel: 10, refonte: 199, refonteNormal: 649 };
 
 /* Fiche utilisée pour toutes les démos */
 export const CABINET_DEMO = 'claire-morel';

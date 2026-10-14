@@ -45,7 +45,8 @@ const remplacer = (texte) => texte
   .replaceAll('%TARIF_NORMAL%', String(TARIF.normal))
   .replaceAll('%TARIF_PLACES%', String(TARIF.places))
   .replaceAll('%TARIF_MENSUEL%', String(TARIF.mensuel))
-  .replaceAll('%TARIF_REFONTE%', String(TARIF.refonte));
+  .replaceAll('%TARIF_REFONTE%', String(TARIF.refonte))
+  .replaceAll('%TARIF_REFONTE_NORMAL%', String(TARIF.refonteNormal));
 
 /* Deux e-mails : création d'un site, et refonte d'un site existant (adresse conservée) */
 const MODELES = [

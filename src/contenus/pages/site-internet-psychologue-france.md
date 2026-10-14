@@ -1,7 +1,7 @@
 ---
 # Page « Site internet pour psychologue, partout en France » : youxdesign.fr/site-internet-psychologue-france/
 # L'ancienne page Lille (/site-internet-psychologue-lille/) est redirigée ici en 301 (src/integrations/youx.mjs).
-# Montants : {{lancement}}, {{normal}}, {{places}}, {{mensuel}}, {{refonte}} (réglages TARIF).
+# Montants : {{lancement}}, {{normal}}, {{places}}, {{mensuel}}, {{refonte}}, {{refonteNormal}} (réglages TARIF).
 titre: "Site internet pour psychologue, partout en France · youXdesign"
 description: "Site internet pour psychologue libéral, où que soit votre cabinet : tout se fait à distance, référencement de votre ville compris. Un site complet à {{normal}} €."
 fil: "Partout en France"
@@ -56,7 +56,7 @@ etapes:
       texte: "Votre site est publié avec un nom de domaine à votre nom, et votre fiche Google est mise en cohérence."
 tarif:
   titre: "Un site complet à {{normal}} €, *le même partout en France.*"
-  chapeau: "Pages rédigées pour vous, mentions légales, référencement local : tout est compris. Pour les {{places}} premiers cabinets, {{lancement}} € seulement. Vous avez déjà un site ? Sa [refonte](/refonte-site-psychologue/) coûte {{refonte}} €, sur votre adresse actuelle."
+  chapeau: "Pages rédigées pour vous, mentions légales, référencement local : tout est compris. Pour les {{places}} premiers cabinets, {{lancement}} € seulement. Vous avez déjà un site ? Sa [refonte](/refonte-site-psychologue/) coûte {{refonte}} € au lieu de {{refonteNormal}} €, sur votre adresse actuelle."
 faqTitre: "Vos questions, *où que vous exerciez.*"
 faq:
   - q: "Faut-il être proche de youXdesign pour travailler ensemble ?"
@@ -68,7 +68,7 @@ faq:
   - q: "Ma fiche Google ou Doctolib ne suffit-elle pas ?"
     r: "Elles aident à être trouvé et à réserver, mais laissent peu de place pour expliquer votre approche, votre cadre et vos tarifs. Votre site les complète. Nous l’expliquons dans le guide [Déjà sur Doctolib : un site, pour quoi faire ?](/guides/site-psychologue-doctolib/)"
   - q: "Combien coûte un site de psychologue ?"
-    r: "Le même prix partout en France : un site complet coûte {{normal}} €, et {{lancement}} € pour les {{places}} premiers cabinets, puis {{mensuel}} € par mois pour l’hébergement et les modifications mineures. La refonte d’un site existant coûte {{refonte}} €. Pour comparer les solutions, voyez le guide [Combien coûte un site de psychologue ?](/guides/prix-site-internet-psychologue/)"
+    r: "Le même prix partout en France : un site complet coûte {{normal}} €, et {{lancement}} € pour les {{places}} premiers cabinets, puis {{mensuel}} € par mois pour l’hébergement et les modifications mineures. La refonte d’un site existant coûte {{refonte}} € au lieu de {{refonteNormal}} €, elle aussi en tarif de lancement. Pour comparer les solutions, voyez le guide [Combien coûte un site de psychologue ?](/guides/prix-site-internet-psychologue/)"
   - q: "Je reçois aussi en visio : faut-il le dire ?"
     r: "Oui, si c’est une vraie possibilité, avec ses conditions. Notre code de déontologie privilégie la rencontre effective et demande, à distance, de rester personnellement identifiable et de sécuriser les échanges (article 24)."
 guides:

@@ -23,8 +23,8 @@ export const pagesCibles = () => lister('pages');
 export const guides = () => lister('guides');
 
 /* Montants dans les textes : {{lancement}}, {{normal}}, {{places}},
-   {{mensuel}} et {{refonte}} prennent les valeurs de TARIF, pour qu'un
-   changement de prix se répercute partout. */
+   {{mensuel}}, {{refonte}} et {{refonteNormal}} prennent les valeurs de
+   TARIF, pour qu'un changement de prix se répercute partout. */
 export const remplir = (s) => String(s ?? '').replace(/\{\{(\w+)\}\}/g, (m, cle) => (cle in TARIF ? String(TARIF[cle]) : m));
 
 /* Typographie française : espace insécable avant « : ; ! ? » et à

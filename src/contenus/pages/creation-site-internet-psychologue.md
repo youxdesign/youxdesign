@@ -1,6 +1,6 @@
 ---
 # Page « Création de site internet pour psychologue » : youxdesign.fr/creation-site-internet-psychologue/
-# Montants : {{lancement}}, {{normal}}, {{places}}, {{mensuel}}, {{refonte}} (réglages TARIF).
+# Montants : {{lancement}}, {{normal}}, {{places}}, {{mensuel}}, {{refonte}}, {{refonteNormal}} (réglages TARIF).
 titre: "Création de site internet pour psychologue · youXdesign"
 description: "Création de site internet pour psychologue libéral, par un psychologue : rapide, sans cookie, pensé pour être trouvé. {{lancement}} € puis {{mensuel}} € par mois."
 fil: "Création de site"
