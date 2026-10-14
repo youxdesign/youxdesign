@@ -29,7 +29,7 @@ export const OFFRES = {
   refonte: {
     nom: 'Refonte de mon site',
     prix: TARIF.refonte,
-    avant: `au lieu de <s>${TARIF.refonteNormal} €</s> · tarif de lancement`,
+    avant: `au lieu de <s>${TARIF.refonteNormal} €</s> · réservé aux ${TARIF.places} premiers cabinets`,
     mois: `<strong>Hébergement en option</strong> (${TARIF.mensuel} € par mois, modifications mineures comprises) : vous pouvez aussi garder votre hébergeur actuel`,
     cta: 'Imaginer mon nouveau site',
     note: 'Je refais votre site sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit.',

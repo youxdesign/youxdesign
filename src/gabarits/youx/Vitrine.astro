@@ -217,7 +217,7 @@ const FAQ = [
   },
   {
     q: 'Le nom de domaine m’appartient-il ?',
-    r: 'Oui. Votre site est mis en ligne avec un nom de domaine à votre nom : vous en restez propriétaire.'
+    r: 'Oui. Votre site est mis en ligne avec un nom de domaine à votre nom : vous en restez propriétaire. Son renouvellement, de quelques euros à une vingtaine d’euros par an selon l’extension, n’est pas compris dans l’abonnement mensuel.'
   },
   {
     q: 'J’ai déjà un site : pouvez-vous le refaire ?',
@@ -273,7 +273,7 @@ const jsonld = [
         name: 'Refonte du site d’un cabinet de psychologue',
         price: TARIF.refonte,
         priceCurrency: 'EUR',
-        description: `Tarif de lancement, au lieu de ${TARIF.refonteNormal} € ; refonte sur l’adresse actuelle ; hébergement en option (${TARIF.mensuel} € par mois).`
+        description: `Tarif de lancement réservé aux ${TARIF.places} premiers cabinets, au lieu de ${TARIF.refonteNormal} € ; refonte sur l’adresse actuelle ; hébergement en option (${TARIF.mensuel} € par mois).`
       }
     ]
   },
@@ -570,7 +570,7 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
         <header class="vt-tete vt-tete--centre">
           <p class="vt-surtitre" data-apparait>Tarifs</p>
           <h2 class="vt-h2" id="tarifs-titre" data-apparait>Le prix d’un site de psychologue, <em>sans surprise.</em></h2>
-          <p class="vt-chapeau" data-apparait>Un tarif de lancement pour créer votre site, un prix doux pour refaire celui que vous avez déjà.</p>
+          <p class="vt-chapeau" data-apparait>Des tarifs de lancement réservés aux {TARIF.places} premiers cabinets, pour créer votre site ou pour refaire celui que vous avez déjà.</p>
         </header>
 
         <div class="vt-offre" data-offre data-apparait>

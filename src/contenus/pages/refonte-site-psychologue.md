@@ -53,13 +53,13 @@ etapes:
       texte: "Le nouveau site remplace l’ancien sur votre adresse, et chaque redirection est vérifiée."
 tarif:
   titre: "Un tarif de lancement, *l’hébergement au choix.*"
-  chapeau: "La refonte comprend la conception, la rédaction et la mise en ligne de toutes vos pages : {{refonte}} € au lieu de {{refonteNormal}} €, le temps du lancement. L’hébergement chez youXdesign est en option."
+  chapeau: "La refonte comprend la conception, la rédaction et la mise en ligne de toutes vos pages : {{refonte}} € au lieu de {{refonteNormal}} €, pour les {{places}} premiers cabinets. L’hébergement chez youXdesign est en option."
 faqTitre: "Vos questions sur *la refonte.*"
 faq:
   - q: "Vais-je perdre mon référencement ?"
     r: "Toute refonte comporte ce risque : c’est pour cela que chaque ancienne adresse est redirigée vers la nouvelle page qui lui correspond, comme le recommande Google. Un classement qui bouge pendant quelques semaines est normal ; Google indique qu’il se stabilise ensuite."
   - q: "Combien coûte la refonte de mon site ?"
-    r: "Un tarif de lancement : {{refonte}} € au lieu de {{refonteNormal}} € pour refaire votre site. L’hébergement est en option, à {{mensuel}} € par mois, modifications mineures comprises ; vous pouvez aussi garder votre hébergeur actuel."
+    r: "{{refonte}} € au lieu de {{refonteNormal}} € pour refaire votre site, un tarif de lancement réservé aux {{places}} premiers cabinets. L’hébergement est en option, à {{mensuel}} € par mois, modifications mineures comprises ; vous pouvez aussi garder votre hébergeur actuel."
   - q: "Mon site reste-t-il en ligne pendant la refonte ?"
     r: "Oui. Votre site actuel reste en place pendant que je prépare le nouveau. Le changement se fait d’un coup, une fois le nouveau site validé."
   - q: "Mon site est sur Wix, Jimdo ou WordPress : est-ce possible ?"

@@ -68,7 +68,7 @@ faq:
   - q: "Ma fiche Google ou Doctolib ne suffit-elle pas ?"
     r: "Elles aident à être trouvé et à réserver, mais laissent peu de place pour expliquer votre approche, votre cadre et vos tarifs. Votre site les complète. Nous l’expliquons dans le guide [Déjà sur Doctolib : un site, pour quoi faire ?](/guides/site-psychologue-doctolib/)"
   - q: "Combien coûte un site de psychologue ?"
-    r: "Le même prix partout en France : un site complet coûte {{normal}} €, et {{lancement}} € pour les {{places}} premiers cabinets, puis {{mensuel}} € par mois pour l’hébergement et les modifications mineures. La refonte d’un site existant coûte {{refonte}} € au lieu de {{refonteNormal}} €, elle aussi en tarif de lancement. Pour comparer les solutions, voyez le guide [Combien coûte un site de psychologue ?](/guides/prix-site-internet-psychologue/)"
+    r: "Le même prix partout en France : un site complet coûte {{normal}} €, et {{lancement}} € pour les {{places}} premiers cabinets, puis {{mensuel}} € par mois pour l’hébergement et les modifications mineures. La refonte d’un site existant coûte {{refonte}} € au lieu de {{refonteNormal}} €, elle aussi pour les {{places}} premiers cabinets. Pour comparer les solutions, voyez le guide [Combien coûte un site de psychologue ?](/guides/prix-site-internet-psychologue/)"
   - q: "Je reçois aussi en visio : faut-il le dire ?"
     r: "Oui, si c’est une vraie possibilité, avec ses conditions. Notre code de déontologie privilégie la rencontre effective et demande, à distance, de rester personnellement identifiable et de sécuriser les échanges (article 24)."
 guides:

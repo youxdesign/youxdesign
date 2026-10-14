@@ -37,7 +37,7 @@ COMMENT ÇA SE PASSE
 3. Mise en ligne sur votre adresse. Je m’occupe du branchement sur votre adresse actuelle : rien de technique pour vous.
 
 
-REFONTE DE VOTRE SITE, TARIF DE LANCEMENT : %TARIF_REFONTE% € au lieu de %TARIF_REFONTE_NORMAL% €, pour refaire votre site sur votre adresse actuelle
+REFONTE DE VOTRE SITE, TARIF DE LANCEMENT : %TARIF_REFONTE% € au lieu de %TARIF_REFONTE_NORMAL% €, réservé aux %TARIF_PLACES% premiers cabinets, sur votre adresse actuelle
 Hébergement en option (%TARIF_MENSUEL% € par mois, modifications mineures comprises) : vous pouvez aussi garder votre hébergeur actuel
 
 - Design sur mesure et rédaction de vos pages

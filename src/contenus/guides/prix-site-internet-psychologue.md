@@ -17,7 +17,7 @@ essentiel:
   - "**Le faire soi-même** : un abonnement à un outil en ligne, plus votre temps. La rédaction, les mentions légales et le référencement restent à votre charge."
   - "**Un freelance ou une agence** : de 1 000 à 5 000 € pour un site vitrine selon les prix constatés, et 1 300 € en moyenne pour les devis reçus par un projet de site de psychologue publié en 2025."
   - "**youXdesign** : un site complet à **{{normal}} €**, pages rédigées pour vous, mentions légales et référencement local compris. **{{lancement}} €** pour les {{places}} premiers cabinets."
-  - "**Après la mise en ligne** : l’hébergement et le nom de domaine. Chez youXdesign, l’hébergement et les petites modifications coûtent {{mensuel}} € par mois."
+  - "**Après la mise en ligne** : l’hébergement et le nom de domaine. Chez youXdesign, l’hébergement et les petites modifications coûtent {{mensuel}} € par mois ; le nom de domaine, à votre nom, se renouvelle à part."
 faq:
   - q: "Pourquoi un tel écart de prix entre les solutions ?"
     r: "Parce que le prix dépend surtout de ce qui reste à faire de votre côté. Un outil en ligne coûte peu, mais vous laissez la rédaction, la mise en page, les mentions légales et le référencement à votre charge. Un prestataire fait ce travail, et le facture selon le temps passé."
@@ -26,11 +26,11 @@ faq:
   - q: "Pourquoi {{lancement}} € pour les premiers cabinets ?"
     r: "C’est un tarif de lancement, réservé aux {{places}} premiers cabinets. Le prix normal d’un site complet reste {{normal}} €."
   - q: "J’ai déjà un site : combien coûte sa refonte ?"
-    r: "Chez youXdesign, {{refonte}} € au lieu de {{refonteNormal}} €, en tarif de lancement, sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit. L’hébergement est alors en option : vous pouvez garder votre hébergeur. Voyez la page [Refonte de site de psychologue](/refonte-site-psychologue/)."
+    r: "Chez youXdesign, {{refonte}} € au lieu de {{refonteNormal}} €, un tarif de lancement réservé aux {{places}} premiers cabinets, sur votre adresse actuelle : vos patients et Google vous retrouvent au même endroit. L’hébergement est alors en option : vous pouvez garder votre hébergeur. Voyez la page [Refonte de site de psychologue](/refonte-site-psychologue/)."
   - q: "Un site de psychologue est-il une dépense déductible ?"
     r: "En libéral, les dépenses engagées pour votre activité professionnelle sont en général déductibles de vos revenus professionnels. Votre comptable ou votre association de gestion agréée vous dira comment l’inscrire selon votre régime fiscal."
   - q: "Quels frais prévoir après la mise en ligne ?"
-    r: "Chez youXdesign, {{mensuel}} € par mois pour l’hébergement et les modifications mineures, comme un changement d’horaires ou de tarifs. Quel que soit votre prestataire, vérifiez sur le devis ce qui est compris : hébergement, nom de domaine, modifications et durée d’engagement."
+    r: "Chez youXdesign, {{mensuel}} € par mois pour l’hébergement et les modifications mineures, comme un changement d’horaires ou de tarifs, plus le renouvellement de votre nom de domaine, qui reste à votre nom : de quelques euros à une vingtaine d’euros par an selon l’extension. Quel que soit votre prestataire, vérifiez sur le devis ce qui est compris : hébergement, nom de domaine, modifications et durée d’engagement."
 lies:
   - site-psychologue-doctolib
   - mentions-legales-psychologue
@@ -74,11 +74,11 @@ C’est ce que propose youXdesign. Vous décrivez votre cabinet et vos goûts da
 - le lien vers Doctolib ou votre outil de réservation ;
 - la mise en ligne sur un nom de domaine à votre nom, sans cookie ni traceur.
 
-**Offre de lancement** : {{lancement}} € au lieu de {{normal}} €, pour les {{places}} premiers cabinets. Ensuite, {{mensuel}} € par mois pour l’hébergement et les modifications mineures.
+**Offre de lancement** : {{lancement}} € au lieu de {{normal}} €, pour les {{places}} premiers cabinets. Ensuite, {{mensuel}} € par mois pour l’hébergement et les modifications mineures ; le renouvellement du nom de domaine, à votre nom, reste à part.
 
 ## Les frais qui reviennent chaque année
 
-- **Le nom de domaine** (votre adresse, par exemple *votre-nom-psychologue.fr*) : quelques euros à une vingtaine d’euros par an selon l’extension et le bureau d’enregistrement.
+- **Le nom de domaine** (votre adresse, par exemple *votre-nom-psychologue.fr*) : quelques euros à une vingtaine d’euros par an selon l’extension et le bureau d’enregistrement. Il est à votre nom ; chez youXdesign, son renouvellement n’est pas compris dans l’abonnement mensuel.
 - **L’hébergement** : compris dans l’abonnement d’un outil en ligne ; facturé à part par la plupart des prestataires ; {{mensuel}} € par mois chez youXdesign, modifications mineures comprises.
 - **Les modifications** : changer un horaire ou un tarif devrait être simple et rapide. Vérifiez qui s’en charge, et à quel prix.
 
