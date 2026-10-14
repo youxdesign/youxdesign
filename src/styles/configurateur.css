@@ -323,6 +323,15 @@ h1.cfg-titre { font-size: clamp(32px, 3vw, 44px); }
 .cfg-alerte { margin: 0; padding: 14px 16px; border-radius: var(--rayon); background: #FFF6E5; color: #6B4600; font-size: 14px; }
 .cfg-alerte[hidden] { display: none; }
 .cfg-envoi { display: grid; gap: 10px; }
+/* Réponse au bouton « Envoyer ma demande » */
+.cfg-statut { padding: 14px 16px; border-radius: var(--rayon); background: var(--fond); font-size: 15px; line-height: 1.5; }
+.cfg-statut[hidden] { display: none; }
+.cfg-statut strong { display: block; margin-bottom: 2px; }
+.cfg-statut--ok { background: #E7F6EC; color: #145A2E; }
+.cfg-statut--erreur { background: #FFF6E5; color: #6B4600; }
+.cfg-statut .cfg-bouton-texte { min-height: 32px; margin-top: 4px; }
+/* Piège à robots : hors de l'écran, ignoré par les lecteurs d'écran */
+.cfg-pot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 
 /* Boutons */
 .cfg-bouton {
@@ -351,6 +360,7 @@ h1.cfg-titre { font-size: clamp(32px, 3vw, 44px); }
   border-top: 1px solid var(--ligne); border-right: 1px solid var(--ligne);
 }
 .cfg-pied [data-suivant] { margin-left: auto; min-width: 9.5rem; }
+.cfg-pied [data-suivant][hidden] { display: none; }
 .cfg-bouton-apercu { display: none; }
 
 /* --------------------------------------------------------------------------

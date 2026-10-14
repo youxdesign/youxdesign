@@ -10,7 +10,7 @@ import { DOMAINE, EMAIL, EDITEUR, TELEPHONE, TELEPHONE_LIEN } from '../../config
 
 const domaineCourt = DOMAINE.replace('https://', '');
 ---
-<Youx titre="Mentions légales et confidentialité · youXdesign" description="Éditeur, hébergeur et données personnelles du site youXdesign : aucun cookie, aucun traceur, rien n'est enregistré sur le site." chemin="/mentions-legales/" scripts={['vitrine']} classe="vt" feuille="vitrine" polices={['/fonts/inter-variable.woff2']}>
+<Youx titre="Mentions légales et confidentialité · youXdesign" description="Éditeur, hébergeur et données personnelles du site youXdesign : aucun cookie, aucun traceur ; seules les demandes que vous envoyez me sont transmises." chemin="/mentions-legales/" scripts={['vitrine']} classe="vt" feuille="vitrine" polices={['/fonts/inter-variable.woff2']}>
   <Entete />
 
   <main id="contenu" tabindex="-1" class="vt-page">
@@ -35,12 +35,12 @@ const domaineCourt = DOMAINE.replace('https://', '');
 
         <section aria-labelledby="l-donnees">
           <h2 id="l-donnees">Vos données personnelles</h2>
-          <p><strong>Ce site ne dépose aucun cookie et n’utilise aucun outil de mesure d’audience, de publicité ni de suivi.</strong> Il ne contient aucun formulaire qui enverrait des informations à un serveur.</p>
-          <p><strong>Le configurateur</strong> conserve vos réponses dans votre navigateur, le temps de votre visite : elles disparaissent quand vous fermez l’onglet. Les photos que vous y déposez sont seulement affichées sur votre appareil. Rien n’est transmis tant que vous n’envoyez pas vous-même le récapitulatif depuis votre messagerie.</p>
+          <p><strong>Ce site ne dépose aucun cookie et n’utilise aucun traceur ni aucun outil de publicité.</strong> Il compte seulement, de façon anonyme, combien de visiteurs arrivent à chaque étape du configurateur : pour cela, seuls la date et le nom de l’étape sont enregistrés, sans cookie, sans adresse IP ni rien qui permette de savoir qui vous êtes.</p>
+          <p><strong>Le configurateur</strong> conserve vos réponses dans votre navigateur, le temps de votre visite : elles disparaissent quand vous fermez l’onglet. Rien n’est transmis tant que vous ne cliquez pas sur « Envoyer ma demande », ou que vous n’envoyez pas vous-même le récapitulatif depuis votre messagerie. Si vous cliquez sur « Envoyer ma demande », votre récapitulatif (vos réponses et vos coordonnées) m’est transmis : il arrive dans ma messagerie professionnelle et dans mon tableau de suivi des demandes (Google Workspace). Il sert uniquement à vous répondre et à préparer votre site, et il est conservé au plus trois ans après notre dernier échange. Les photos que vous déposez dans l’aperçu ne sont jamais transmises : elles sont seulement affichées sur votre appareil.</p>
           <p><strong>Le formulaire de contact</strong> prépare un e-mail dans votre propre messagerie : c’est vous qui l’envoyez, et ce site n’en garde aucune trace.</p>
           <p><strong>La réservation d’un appel</strong> se fait sur une page de Google Agenda. Vous y indiquez votre prénom, votre nom, votre adresse e-mail et votre numéro de téléphone : ils servent uniquement à organiser l’appel et à vous en envoyer la confirmation, et sont conservés au plus trois ans après notre dernier échange.</p>
           <p><strong>Les e-mails que vous m’adressez</strong> sont reçus dans ma messagerie professionnelle (Google Workspace). Ils servent uniquement à vous répondre et à préparer votre site, et sont conservés au plus trois ans après notre dernier échange. Ils ne sont jamais vendus ni cédés.</p>
-          <p><strong>Google</strong> (messagerie et agenda) <strong>et Cloudflare</strong> (hébergement) sont des sociétés américaines : les données qui passent par leurs services peuvent être traitées hors de l’Union européenne. Ces transferts sont encadrés par le cadre de protection des données entre l’Union européenne et les États-Unis (<span lang="en">Data Privacy Framework</span>), auquel ces deux sociétés adhèrent.</p>
+          <p><strong>Google</strong> (messagerie, agenda et tableau de suivi des demandes) <strong>et Cloudflare</strong> (hébergement) sont des sociétés américaines : les données qui passent par leurs services peuvent être traitées hors de l’Union européenne. Ces transferts sont encadrés par le cadre de protection des données entre l’Union européenne et les États-Unis (<span lang="en">Data Privacy Framework</span>), auquel ces deux sociétés adhèrent.</p>
           <p>Vous pouvez à tout moment demander à consulter, corriger ou supprimer vos données, ou vous opposer à leur utilisation, en écrivant à <a href={`mailto:${EMAIL}`}>{EMAIL}</a>. Vous pouvez aussi adresser une réclamation à la CNIL (cnil.fr).</p>
         </section>
 

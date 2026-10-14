@@ -6,8 +6,10 @@
    l'aperçu affiche le VRAI site de démonstration dans le style, la palette
    et la police choisis, avec ses informations et ses photos. Cocher une
    fonctionnalité fait défiler l'aperçu jusqu'au bloc correspondant.
-   Rien n'est envoyé ni enregistré ailleurs que sur l'appareil du visiteur :
-   la demande part de sa propre messagerie.
+   Rien n'est envoyé ni enregistré ailleurs que sur l'appareil du visiteur
+   tant qu'il ne clique pas sur « Envoyer ma demande » (functions/api/demande.js) ;
+   il peut aussi envoyer le récapitulatif depuis sa propre messagerie.
+   Seul un compteur anonyme des étapes atteintes part vers /api/etape.
    ========================================================================== */
 import Youx from '../../layouts/Youx.astro';
 import Logo from '../../components/youx/Logo.astro';
@@ -72,7 +74,7 @@ const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent
         <section class="cfg-etape" data-etape="0" aria-labelledby="t-0">
           <p class="cfg-surtitre">Configurateur · 10 minutes</p>
           <h1 class="cfg-titre" id="t-0" tabindex="-1">Le site de votre cabinet, <em>conçu par un psychologue.</em></h1>
-          <p class="cfg-intro">Décrivez votre cabinet et vos goûts : le vrai site se construit sous vos yeux, dans l’aperçu. À la fin, vous envoyez votre demande depuis votre propre messagerie.</p>
+          <p class="cfg-intro">Décrivez votre cabinet et vos goûts : le vrai site se construit sous vos yeux, dans l’aperçu. À la fin, vous m’envoyez votre demande d’un clic.</p>
           <ol class="cfg-plan">
             <li><span>1</span><div><strong>Vos informations</strong><p>Identité, cabinet, horaires et tarifs.</p></div></li>
             <li><span>2</span><div><strong>Votre style</strong><p>Univers, couleurs, typographie et photos.</p></div></li>
@@ -86,7 +88,7 @@ const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent
               <li>Une photo de vous, du cabinet et votre logo si vous en avez</li>
             </ul>
           </div>
-          <p class="cfg-discret">Confidentialité : vos réponses restent dans ce navigateur, rien n’est envoyé tant que vous ne l’avez pas décidé. Aucun cookie, aucun outil de suivi.</p>
+          <p class="cfg-discret">Confidentialité : aucun cookie. Vos réponses restent dans ce navigateur jusqu’à ce que vous cliquiez sur « Envoyer ma demande ». Un compteur anonyme note seulement les étapes atteintes, sans savoir qui vous êtes.</p>
         </section>
 
         <!-- 2. Identité -->
@@ -411,15 +413,22 @@ const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent
         <section class="cfg-etape" data-etape="11" aria-labelledby="t-11" hidden>
           <p class="cfg-surtitre">Étape 12 · Envoi</p>
           <h2 class="cfg-titre" id="t-11" tabindex="-1">Votre récapitulatif</h2>
-          <p class="cfg-intro">Vérifiez vos réponses, puis envoyez-les depuis votre messagerie à <strong>{EMAIL}</strong>.</p>
+          <p class="cfg-intro">Vérifiez vos réponses, puis envoyez-moi votre demande : elle m’arrive directement, et je vous réponds personnellement.</p>
           <dl class="cfg-recap" data-recap></dl>
           <p class="cfg-alerte" data-rappel-photos hidden></p>
           <div class="cfg-envoi">
-            <a class="cfg-bouton cfg-bouton--grand" href={`mailto:${EMAIL}`} data-mailto>Envoyer par e-mail</a>
+            <button type="button" class="cfg-bouton cfg-bouton--grand" data-envoyer>Envoyer ma demande</button>
+            <div class="cfg-statut" data-envoi-statut role="status" aria-live="polite" hidden></div>
+            <!-- Piège à robots : invisible et hors d’atteinte pour les visiteurs -->
+            <div class="cfg-pot" aria-hidden="true"><label>Ne pas remplir ce champ <input type="text" name="site" tabindex="-1" autocomplete="off" data-pot /></label></div>
+          </div>
+          <p class="cfg-discret">Vous préférez votre messagerie, ou garder une copie ?</p>
+          <div class="cfg-envoi cfg-envoi--secondaire">
+            <a class="cfg-bouton cfg-bouton--secondaire cfg-bouton--grand" href={`mailto:${EMAIL}`} data-mailto>Envoyer depuis ma messagerie</a>
             <button type="button" class="cfg-bouton cfg-bouton--secondaire cfg-bouton--grand" data-copier>Copier le récapitulatif</button>
             <button type="button" class="cfg-bouton cfg-bouton--secondaire cfg-bouton--grand" data-telecharger>Télécharger (.txt)</button>
           </div>
-          <p class="cfg-discret">Votre messagerie s’ouvre avec le récapitulatif prêt à envoyer. Si rien ne s’ouvre, copiez le récapitulatif et collez-le dans un e-mail à {EMAIL}.</p>
+          <p class="cfg-discret">« Envoyer depuis ma messagerie » prépare l’e-mail dans votre logiciel de messagerie. Si rien ne s’ouvre, copiez le récapitulatif et collez-le dans un e-mail à {EMAIL}.</p>
           <button type="button" class="cfg-bouton-texte cfg-bouton-texte--danger" data-effacer>Tout effacer et recommencer</button>
         </section>
       </form>

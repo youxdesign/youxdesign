@@ -2,13 +2,17 @@
    Configurateur youXdesign
    --------------------------------------------------------------------------
    - Douze étapes ; les réponses vivent dans cet onglet (sessionStorage) et
-     disparaissent quand on le ferme. Rien n'est envoyé à un serveur.
+     disparaissent quand on le ferme. Rien n'est envoyé à un serveur tant
+     que le visiteur ne clique pas sur « Envoyer ma demande ».
+   - Compteur anonyme : la première fois qu'une étape est atteinte, un code
+     (« e3 »…) part vers /api/etape. Ni cookie, ni identifiant.
    - L'aperçu est le VRAI site de démonstration (même adresse), piloté par
      window.youxApercu : style, palette, police, options, textes, photos.
    - Cocher une fonctionnalité amène l'aperçu sur le bloc correspondant
      (changement de page si besoin, défilement doux, mise en valeur).
-   - La demande part de la messagerie du visiteur (lien mailto), ou se copie,
-     ou se télécharge en .txt.
+   - La demande part par le bouton « Envoyer ma demande » (/api/demande,
+     voir functions/api/demande.js), ou de la messagerie du visiteur (lien
+     mailto), ou se copie, ou se télécharge en .txt.
    ========================================================================== */
 import { STYLES, PALETTES_LIBRES, OPTIONS, PAGES, FONDS, VOILES } from '../config/catalogue.mjs';
 import { EMAIL } from '../config/youxdesign.mjs';
@@ -379,6 +383,15 @@ function aller(i, { initial = false } = {}) {
     else if (bloc) focusApercu({ visuel: bloc });
   }
   enregistrer();
+  compter(`e${cible}`);
+}
+
+/* Compteur anonyme : chaque étape n'est comptée qu'une fois par visite */
+const comptees = new Set();
+function compter(code) {
+  if (comptees.has(code)) return;
+  comptees.add(code);
+  try { navigator.sendBeacon && navigator.sendBeacon('/api/etape', code); } catch (e) { /* rien */ }
 }
 
 /* ==========================================================================
@@ -718,14 +731,80 @@ function dessinerRecap() {
   const noms = Object.values(photos).map((p) => p.nom);
   const rappel = $('[data-rappel-photos]');
   rappel.hidden = !noms.length;
-  rappel.textContent = noms.length ? `N’oubliez pas vos images : l’e-mail ne peut pas les joindre automatiquement. Ajoutez-les en pièces jointes (${noms.join(', ')}).` : '';
+  rappel.textContent = noms.length ? `Vos images restent sur votre appareil : elles ne partent pas avec la demande. Je vous les demanderai par e-mail, ou joignez-les si vous envoyez depuis votre messagerie (${noms.join(', ')}).` : '';
+  if (!demandeEnvoyee) $('[data-envoi-statut]').hidden = true;
   const nom = [etat.prenom, etat.nom].filter((x) => x.trim()).join(' ');
   const sujet = `Demande de site · ${nom || 'nouveau cabinet'}`;
   $('[data-mailto]').href = `mailto:${EMAIL}?subject=${encodeURIComponent(sujet)}&body=${encodeURIComponent(texteRecap())}`;
 }
 
+/* Message sous le bouton « Envoyer ma demande » ; action : { texte, faire } */
+function statutEnvoi(type, titre, texte, action) {
+  const zone = $('[data-envoi-statut]');
+  zone.className = `cfg-statut cfg-statut--${type}`;
+  const fort = document.createElement('strong');
+  fort.textContent = titre;
+  const contenu = [fort, document.createTextNode(texte)];
+  if (action) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'cfg-bouton-texte';
+    b.textContent = action.texte;
+    b.addEventListener('click', action.faire);
+    contenu.push(document.createElement('br'), b);
+  }
+  zone.replaceChildren(...contenu);
+  zone.hidden = false;
+}
+
+const courriel = /^[^\s@<>()]+@[^\s@<>()]+\.[a-z]{2,}$/i;
+let demandeEnvoyee = false;
+
+async function envoyerDemande() {
+  const bouton = $('[data-envoyer]');
+  const email = etat.email.trim();
+  const telephone = etat.telephone.trim();
+  if (!courriel.test(email) && (telephone.match(/\d/g) || []).length < 8) {
+    statutEnvoi('erreur', 'Comment vous répondre ?', 'Indiquez votre e-mail ou votre téléphone à l’étape « Identité », pour que je puisse vous recontacter.', { texte: 'Compléter mes coordonnées', faire: () => aller(1) });
+    return;
+  }
+  bouton.disabled = true;
+  bouton.textContent = 'Envoi en cours…';
+  $('[data-envoi-statut]').hidden = true;
+  const style = STYLES.find((x) => x.id === etat.style) || STYLES[0];
+  let reussi = false;
+  try {
+    const reponse = await fetch('/api/demande', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        nom: [etat.prenom, etat.nom].filter((x) => x.trim()).join(' '),
+        email, telephone, ville: etat.ville.trim(), style: style.nom,
+        recap: texteRecap(),
+        site: $('[data-pot]').value
+      })
+    });
+    reussi = reponse.ok;
+  } catch (e) {
+    reussi = false;
+  }
+  if (reussi) {
+    demandeEnvoyee = true;
+    bouton.textContent = 'Demande envoyée';
+    const images = Object.keys(photos).length ? ' Vos images restent sur votre appareil : je vous les demanderai par e-mail.' : '';
+    statutEnvoi('ok', 'C’est envoyé, merci !', `Votre demande m’est bien parvenue. Je vous réponds personnellement, en général sous 48 heures.${images}`);
+  } else {
+    bouton.disabled = false;
+    bouton.textContent = 'Envoyer ma demande';
+    statutEnvoi('erreur', 'L’envoi n’a pas abouti.', 'Réessayez dans un instant, ou utilisez « Envoyer depuis ma messagerie » ci-dessous : vos réponses sont conservées.');
+  }
+}
+
 function brancherEnvoi() {
+  $('[data-envoyer]').addEventListener('click', envoyerDemande);
+  $('[data-mailto]').addEventListener('click', () => compter('mailto'));
   $('[data-copier]').addEventListener('click', async () => {
+    compter('copie');
     const texte = texteRecap();
     try {
       await navigator.clipboard.writeText(texte);
@@ -742,6 +821,7 @@ function brancherEnvoi() {
     toast('Récapitulatif copié.');
   });
   $('[data-telecharger]').addEventListener('click', () => {
+    compter('txt');
     const url = URL.createObjectURL(new Blob([texteRecap()], { type: 'text/plain;charset=utf-8' }));
     const a = document.createElement('a');
     a.href = url;
