@@ -22,6 +22,12 @@
        "source": "…" (facultatif, remplace « votre site <site> » en bas de l’e-mail),
        "constat": "…" (facultatif, ce qui ne va pas sur son site actuel) }
 
+   Liens comptés : les liens de l'e-mail (appel, configurateur, styles, logo)
+   passent par youxdesign.fr/e/<lot>/… (functions/e/), qui compte les clics
+   par envoi, sans savoir qui clique. Le lot vient du nom du fichier
+   (prospects-lot9.json → « lot9 »), ou de --lot <nom> ; « essai » pour
+   --essai ; --sans-compteur garde les liens directs.
+
    Identifiants : fichier ~/.config/youxdesign/envoi.env (jamais dans le dépôt)
      SMTP_UTILISATEUR=younes@youxdesign.fr
      SMTP_MOT_DE_PASSE=<mot de passe d'application Google, 16 lettres>
@@ -33,17 +39,18 @@
    un e-mail envoyé) ; une pause sépare deux envois.
    ========================================================================== */
 import { readFileSync, existsSync, appendFileSync } from 'node:fs';
-import { join, dirname, resolve } from 'node:path';
+import { join, dirname, resolve, basename } from 'node:path';
 import { homedir } from 'node:os';
 import nodemailer from 'nodemailer';
 import MailComposer from 'nodemailer/lib/mail-composer/index.js';
 import { ImapFlow } from 'imapflow';
+import { DOMAINE } from '../src/config/youxdesign.mjs';
 
 const MODELES = { refonte: 'email-refonte', creation: 'email-prospection' };
 const PAUSE_SECONDES = 90;
 
 const args = process.argv.slice(2);
-const fichier = args.find((a) => !a.startsWith('--') && args[args.indexOf(a) - 1] !== '--essai');
+const fichier = args.find((a) => !a.startsWith('--') && !['--essai', '--lot'].includes(args[args.indexOf(a) - 1]));
 const essai = args.includes('--essai') ? args[args.indexOf('--essai') + 1] : null;
 const confirmer = args.includes('--confirmer');
 const brouillons = args.includes('--brouillons');
@@ -52,6 +59,17 @@ if (!fichier) { console.error('Indiquez le fichier des prospects : npm run envoy
 if ([essai, confirmer, brouillons].filter(Boolean).length > 1) { console.error('Choisissez une seule option : --essai, --brouillons ou --confirmer.'); process.exit(1); }
 if (remplacer && !brouillons) { console.error('--remplacer s’utilise avec --brouillons.'); process.exit(1); }
 const reel = confirmer || brouillons;
+/* Nom du lot pour les liens comptés (voir functions/e/) */
+const lot = args.includes('--sans-compteur') ? null
+  : args.includes('--lot') ? args[args.indexOf('--lot') + 1]
+  : essai ? 'essai'
+  : (basename(fichier).match(/lot\d+/i) || [null])[0]?.toLowerCase() ?? null;
+if (lot && !/^[a-z0-9-]{1,20}$/.test(lot)) { console.error(`Nom de lot invalide : « ${lot} » (lettres, chiffres, tirets)`); process.exit(1); }
+const domaine = DOMAINE.replace(/\/$/, '');
+const CHEMINS = { 'appel/': 'appel', 'configurateur/': 'configurateur', 'styles/': 'styles', '': 'accueil' };
+const comptes = (html) => (lot
+  ? html.replace(new RegExp(`href="${domaine.replace(/[.]/g, '\\.')}/(appel/|configurateur/|styles/)?"`, 'g'), (m, chemin = '') => `href="${domaine}/e/${lot}/${CHEMINS[chemin]}"`)
+  : html);
 
 const prospects = JSON.parse(readFileSync(resolve(fichier), 'utf8'));
 const journal = join(dirname(resolve(fichier)), 'journal-envois.csv');
@@ -74,7 +92,7 @@ function preparer(p) {
     if (!(k in v)) throw new Error(`${p.prenom} : variable {{${k}}} inconnue`);
     return html ? echapper(v[k]) : v[k];
   });
-  const html = remplir(blocs(readFileSync(join('email', `${sortie}.html`), 'utf8')), true);
+  const html = comptes(remplir(blocs(readFileSync(join('email', `${sortie}.html`), 'utf8')), true));
   const texte = remplir(blocs(readFileSync(join('email', `${sortie}.txt`), 'utf8')), false);
   const sujet = html.match(/<title>([^<]+)<\/title>/)[1].trim();
   return { html, texte, sujet };
@@ -85,7 +103,7 @@ const depose = (p) => deposes.has(p.email.toLowerCase());
 /* Ignoré : déjà envoyé, ou brouillon déjà déposé (sauf avec --remplacer) */
 const deja = (p) => envoyes.has(p.email.toLowerCase()) || (depose(p) && !remplacer);
 const mode = confirmer ? 'ENVOI RÉEL' : brouillons ? `brouillons Gmail${remplacer ? ', en remplacement' : ''}` : essai ? `essai vers ${essai}` : 'aperçu seulement';
-console.log(`\n${lots.length} prospect(s) — ${mode}\n`);
+console.log(`\n${lots.length} prospect(s) — ${mode} — ${lot ? `liens comptés : ${domaine}/e/${lot}/…` : 'liens directs (sans compteur)'}\n`);
 for (const { p, sujet } of lots) {
   const note = deja(p) ? '  (déjà dans le journal : ignoré)' : depose(p) ? '  (brouillon déjà déposé : refait)' : '';
   console.log(`  ${p.prenom.padEnd(12)} ${p.email.padEnd(36)} ${p.modele.padEnd(9)} ${sujet}${note}`);
