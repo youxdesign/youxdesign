@@ -96,7 +96,7 @@ Vérification : `node -v` doit afficher `v24…`.
 
 Exemple pour une psychologue, Julie Bernard. Le nom de dossier choisi est `julie-bernard` : en minuscules, sans espace ni accent.
 
-1. **Recevoir la demande.** Le prospect remplit le configurateur et envoie le récapitulatif depuis sa messagerie, à l'adresse contact@youxdesign.fr. Ses photos arrivent en pièces jointes.
+1. **Recevoir la demande.** Le prospect remplit le configurateur et clique sur « Envoyer ma demande » : vous recevez un e-mail « Nouvelle demande de site · … » (« Répondre » écrit directement à la personne), et la demande s'ajoute à l'onglet « Demandes » du tableur Google « youXdesign · demandes ». Il peut aussi envoyer le récapitulatif depuis sa messagerie, à l'adresse contact@youxdesign.fr. Ses photos ne partent jamais avec la demande : demandez-les par e-mail.
 
 2. **Copier la fiche d'exemple.** Dupliquez le dossier `cabinets/claire-morel/` et renommez la copie `cabinets/julie-bernard/`.
 
@@ -309,6 +309,7 @@ Réglages de Cloudflare pour ce projet (déjà faits, à ne pas changer) :
 | Commande de build | `npm run build` |
 | Dossier de sortie | `dist` |
 | Variable d'environnement | `NODE_VERSION` = `24` |
+| Secret | `APPS_SCRIPT_URL` = adresse de l'application Web Google Apps Script (voir plus bas) |
 
 **Pour voir le site youXdesign sur l'ordinateur :**
 ```bash
@@ -332,6 +333,14 @@ puis ouvrez http://localhost:4321.
 - La vidéo du configurateur : `youx-statique/video/` (MP4, MP4 allégé pour téléphone, WebM et image d'attente). Les chapitres (moments clés de la vidéo, en secondes) sont réglés en haut de `Vitrine.astro`.
 - L'image de partage sur les réseaux sociaux : `youx-statique/og-youxdesign.png` (1200 × 630).
 - Le formulaire de contact n'envoie rien lui-même : il prépare un e-mail dans la messagerie du visiteur, adressé à `EMAIL`.
+
+**Demandes du configurateur et compteur anonyme**
+
+- **Le bouton « Envoyer ma demande »** appelle `functions/api/demande.js` (une petite fonction Cloudflare). Elle vérifie la demande (coordonnées obligatoires, champ piège à robots) et la transmet au programme Google Apps Script `services/apps-script/demandes.gs`, installé dans le tableur Google « youXdesign · demandes » (Drive de younes@youxdesign.fr). Ce programme range la demande dans l'onglet « Demandes » et envoie un e-mail à contact@youxdesign.fr (25 au plus par jour : au-delà, les demandes sont seulement rangées dans le tableur). Aucun e-mail ne part vers le visiteur.
+- **Le compteur anonyme** : à chaque étape atteinte (une fois par visite), le configurateur appelle `functions/api/etape.js`, qui transmet seulement la date et le nom de l'étape. L'onglet « Tunnel » du tableur compte les visiteurs étape par étape, l'onglet « Journal » garde le détail (date + étape). Ni cookie, ni adresse IP, ni identifiant : les mentions légales le disent.
+- **L'adresse du programme Google** est le secret Cloudflare `APPS_SCRIPT_URL` (Paramètres du projet › Variables et secrets), jamais écrite dans le dépôt, qui est public. Une copie se trouve sur l'ordinateur dans `~/.config/youxdesign/apps-script-url`.
+- **Modifier le programme Google** : copiez le contenu de `services/apps-script/demandes.gs` dans le tableur (Extensions › Apps Script), enregistrez, puis Déployer › Gérer les déploiements › crayon › Version : « Nouvelle version » › Déployer. L'adresse ne change pas. La fonction `installer` recrée les onglets et recalcule « Tunnel » ; `repartirDeZero` vide le compteur et retire les demandes d'essai (nom contenant « ESSAI youXdesign »).
+- **Essayer sur l'ordinateur** : `npm run build`, puis `npx wrangler pages dev dist --binding APPS_SCRIPT_URL="$(cat ~/.config/youxdesign/apps-script-url)"`, et ouvrez http://localhost:8788/configurateur/.
 
 **Pages ciblées et guides (référencement)**
 
