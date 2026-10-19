@@ -1,0 +1,348 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Stéphanie Givron (prospect), d'après psychologue-belfort.fr. Publiée sur youxdesign.fr/maquettes/stephanie-givron/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psychologue-belfort.fr",
+  "style": "suisse",
+  "palette": 1,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FFFFFF",
+   "encre": "#141414",
+   "accent": "#5B37B8",
+   "doux": "#F2EFF9",
+   "texte2": "#555555"
+  }
+ },
+ "praticien": {
+  "prenom": "Stéphanie",
+  "nom": "Givron",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "périnatalité et relations précoces",
+  "specialiteCourte": "Périnatalité",
+  "diplome": "Master de psychologie clinique et psychopathologique, clinique de la famille (Université de Franche-Comté) ; DU « Le psychisme face à la naissance » (Université Paris Descartes)",
+  "adeli": "90 93 01665",
+  "statut": "psychologue exerçant en libéral",
+  "public": "Adultes, enfants et nourrissons"
+ },
+ "contact": {
+  "telephone": "06 52 39 32 47",
+  "email": "stephanie.givron@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/seloncourt/stephanie-givron"
+  }
+ },
+ "cabinet": {
+  "adresse": "17 rue Viette",
+  "codePostal": "25230",
+  "ville": "Seloncourt",
+  "zone": "Pays de Montbéliard et Belfort",
+  "accessiblePMR": true,
+  "visio": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Consultations sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Accessibilité",
+    "texte": "Le cabinet, au centre de Seloncourt, est accessible aux personnes à mobilité réduite grâce à une rampe d’accès.",
+    "icone": "fauteuil"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "Au cabinet",
+   "prix": "55 €",
+   "duree": "50 min à 1 h",
+   "texte": "Réglée au comptant, par chèque, en espèces ou par carte bancaire.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Relations parents-bébé",
+   "texte": "Travailler la qualité du lien à l’enfant et l’édification de la parentalité.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Dépression postnatale",
+   "texte": "L’intensité des troubles après la naissance de l’enfant : un lieu pour en parler.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Prématurité, deuil, IMG, IVG",
+   "texte": "Un lieu dédié à la parole et aux éprouvés, au rythme du cheminement de chacune.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Enfants",
+   "texte": "Aider votre enfant à reprendre le fil harmonieux de son développement, avec vous.",
+   "icone": "plume"
+  },
+  {
+   "titre": "Angoisse et dépression",
+   "texte": "Chez l’adulte, derrière des symptômes variés, un espace neutre, respectueux et confidentiel.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Deuil, harcèlement, agressions : un accompagnement autour du traumatisme.",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Stéphanie Givron, psychologue à Seloncourt, près de Montbéliard et Belfort",
+   "seoDescription": "Stéphanie Givron, psychologue clinicienne à Seloncourt : périnatalité, relations parents-bébé, dépression postnatale, enfants et adultes. Cabinet accessible PMR, rendez-vous sur Doctolib.",
+   "surtitre": "Psychologue clinicienne · Seloncourt",
+   "titre": "Accompagner\n*les premiers liens*",
+   "intro": "Je suis psychologue pour adultes, enfants et nourrissons, spécialisée dans les relations précoces et l’accompagnement père-mère-bébé. Je vous reçois sur rendez-vous à mon cabinet de Seloncourt.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Il ne faut pas nécessairement souffrir de troubles pour consulter un psychologue : cela peut aussi être une démarche personnelle. Voici les principaux motifs pour lesquels on me consulte.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Stéphanie*",
+   "presentation": [
+    "Mon champ de compétences concerne notamment l’intensité des troubles à l’origine de la dépression maternelle après la naissance de l’enfant. Je suis titulaire du diplôme universitaire « Le psychisme face à la naissance », obtenu à l’Université Paris Descartes.",
+    "La démarche du psychologue ne consiste pas à réduire le patient à une étiquette : c’est en tant que personne unique que je vous reçois, dans un espace neutre, respectueux et confidentiel."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Les rendez-vous se prennent sur Doctolib ou par téléphone.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "Parcours · Stéphanie Givron, psychologue à Seloncourt",
+   "seoDescription": "Formation et parcours de Stéphanie Givron, psychologue clinicienne : périnatalité, CAMSP, REPPOP, formations pour les professionnels.",
+   "titre": "Un parcours\n*auprès des familles*",
+   "intro": "Psychologue clinicienne, spécialisée en périnatalité, j’ai d’abord été éducatrice auprès de jeunes enfants et d’adolescents pendant quinze ans.",
+   "cabinetLegende": "Le cabinet, 17 rue Viette à Seloncourt",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous ou demander un devis de formation, appelez-moi ou écrivez-moi.",
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "Formation *et expérience*",
+   "parcours": [
+    {
+     "date": "Formation",
+     "titre": "Master de psychologie clinique et psychopathologique",
+     "texte": "Spécialité clinique de la famille, Université de Franche-Comté."
+    },
+    {
+     "date": "Formation",
+     "titre": "Diplôme universitaire « Le psychisme face à la naissance »",
+     "texte": "Université Paris Descartes, spécialité périnatalité."
+    },
+    {
+     "date": "Expérience",
+     "titre": "Vacataire au CAMSP et au REPPOP",
+     "texte": "Bilans avec échelles psychométriques au CAMSP de l’Aire urbaine ; réseau de prévention et de prise en charge de l’obésité pédiatrique."
+    },
+    {
+     "date": "Aujourd’hui",
+     "titre": "Cabinet libéral à Seloncourt",
+     "texte": "Soutien à la parentalité, qualité du lien à l’enfant, accompagnement autour du traumatisme."
+    }
+   ],
+   "formationsSurtitre": "Interventions",
+   "formationsTitre": "Des formations *pour les professionnels*",
+   "formationsIntro": "Je propose des formations sur des sujets ciblés, adaptées au public : élèves, étudiants, professionnels de santé et de l’éducation. Devis sur demande.",
+   "formations": [
+    {
+     "date": "Santé",
+     "titre": "Dépression maternelle postnatale",
+     "texte": "Pour les sages-femmes, infirmières, auxiliaires de puériculture…",
+     "icone": "soleil"
+    },
+    {
+     "date": "Éducation",
+     "titre": "L’empathie, ses enjeux et le rôle de l’éducation",
+     "texte": "Pour les personnels d’éducation, les parents, les crèches.",
+     "icone": "personnes"
+    },
+    {
+     "date": "Éducation",
+     "titre": "Les écrans : les lâcher ou les apprivoiser ?",
+     "texte": "Reconnaître les risques, mais aussi les aspects positifs.",
+     "icone": "livre"
+    },
+    {
+     "date": "Santé",
+     "titre": "Les troubles du comportement alimentaire",
+     "texte": "Pour les personnels de santé et les étudiants en diététique.",
+     "icone": "boucle"
+    },
+    {
+     "date": "Éducation",
+     "titre": "Autorité et relation de pouvoir",
+     "texte": "Trois grands courants d’autorité, leurs bénéfices et leurs limites.",
+     "icone": "puzzle"
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Stéphanie Givron, psychologue à Seloncourt",
+   "seoDescription": "Consultations parents-bébé, enfants et adultes avec Stéphanie Givron, psychologue clinicienne à Seloncourt.",
+   "titre": "Une écoute\n*à chaque âge*",
+   "intro": "Que vous consultiez pour vous, pour votre bébé ou pour votre enfant, le psychologue vous reçoit en tant que personne unique, sans vous réduire à une étiquette.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour en parler, prenez rendez-vous sur Doctolib ou appelez-moi.",
+   "cadreSurtitre": "Les consultations",
+   "cadreTitre": "Trois façons *de consulter*",
+   "cadre": [
+    "**Parents-bébé** : travailler la qualité du lien à l’enfant, autour des troubles du sommeil, de l’alimentation ou de l’attachement, et de la dépression postnatale.",
+    "**Enfants** : les parents ne sont jamais exclus du suivi. Le dessin, le jeu, le conte aident l’enfant à exprimer ses difficultés.",
+    "**Adultes** : un espace neutre, respectueux et confidentiel, que l’on souffre de troubles ou que l’on souhaite simplement avancer."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Honoraires · Stéphanie Givron, psychologue à Seloncourt",
+   "seoDescription": "Honoraires des séances avec Stéphanie Givron, psychologue à Seloncourt : 55 € la séance de 50 minutes à 1 heure.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Des séances claires,\n*sans surprise*",
+   "intro": "Une séance dure de 50 minutes à 1 heure. Les rendez-vous se prennent sur Doctolib ou par téléphone.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous sur Doctolib, ou appelez-moi.",
+   "tarifsNote": "Les séances et bilans ne sont pas remboursés par la Sécurité sociale. Certaines mutuelles proposent une prise en charge : renseignez-vous auprès de la vôtre."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Stéphanie Givron, psychologue à Seloncourt",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Vous pouvez m’appeler ou m’écrire : je vous réponds dans les meilleurs délais."
+  },
+  "contact": {
+   "seoTitre": "Contact et accès · Stéphanie Givron, psychologue à Seloncourt",
+   "seoDescription": "Adresse, téléphone et accès du cabinet de Stéphanie Givron, psychologue, 17 rue Viette à Seloncourt, accessible aux personnes à mobilité réduite.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve au centre de Seloncourt, 17 rue Viette. Il est accessible aux personnes à mobilité réduite.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Stéphanie Givron"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
