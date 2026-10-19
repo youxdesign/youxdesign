@@ -25,16 +25,17 @@ interface Props {
   tailles?: string;
   classe?: string;
   variante?: number;
-  repli?: boolean;
+  repli?: 'portrait' | 'cabinet' | 'ambiance';
 }
-const { site, type, alt, legende, prioritaire = false, tailles = '(min-width: 56rem) 40vw, 100vw', classe, variante = 1, repli = false } = Astro.props;
+const { site, type, alt, legende, prioritaire = false, tailles = '(min-width: 56rem) 40vw, 100vw', classe, variante = 1, repli } = Astro.props;
 const cab = site.cab;
 const fichier = variante > 1 ? `${type}-${variante}` : type;
 const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${fichier}.`))
   || (variante > 1 ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`)) : undefined);
 /* Pas de portrait mais une photo du cabinet : on montre le cabinet plutôt
-   qu'une illustration (et l'inverse si « repli » est demandé : page À propos) */
-const autre = type === 'portrait' ? 'cabinet' : type === 'cabinet' && repli ? 'portrait' : null;
+   qu'une illustration. « repli » désigne une autre photo à montrer à défaut
+   (le portrait sur la page À propos, la photo d'ambiance en ouverture) */
+const autre = type === 'portrait' ? 'cabinet' : repli && repli !== type ? repli : null;
 const secours = !trouve && autre
   ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${autre}.`))
   : undefined;

@@ -39,7 +39,9 @@ const reperes = [
   p.adeli ? { titre: `N° ADELI ${p.adeli}`, texte: cab.estPsychologue ? 'Titre de psychologue enregistré à l’ARS' : 'Numéro professionnel' }
     : p.rpps && { titre: `N° RPPS ${p.rpps}`, texte: 'Répertoire partagé des professionnels de santé' },
   { titre: `Cabinet à ${c.ville}${c.visio ? ' et visio' : ''}`, texte: `${c.adresse}${c.quartier ? ', ' + c.quartier : ''}` },
-  cab.rdv ? { titre: 'Rendez-vous en ligne', texte: `Réservation à toute heure sur ${cab.rdv.plateforme}` } : { titre: 'Rendez-vous par téléphone', texte: cab.tel.affiche }
+  /* le numéro est déjà dans le bandeau du haut : on ne le répète pas */
+  cab.rdv ? { titre: 'Rendez-vous en ligne', texte: `Réservation à toute heure sur ${cab.rdv.plateforme}` }
+    : r.bandeau ? { titre: 'Sur rendez-vous', texte: t.repereRdv || 'Par téléphone ou par e-mail' } : { titre: 'Rendez-vous par téléphone', texte: cab.tel.affiche }
 ].filter(Boolean);
 
 /* Infos pratiques : horaires, adresse, visio, prochains créneaux (exemples,

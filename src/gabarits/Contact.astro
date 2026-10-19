@@ -82,14 +82,16 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
     <div class="conteneur deux-colonnes deux-colonnes--haut acces">
       <div>
         <TitreSection surtitre={t.accesSurtitre || 'Accès'} titre={t.accesTitre || 'Comment venir'} id="acces-titre" />
-        <ul class="points acces__liste">
-          {c.acces.map((a) => (
-            <li class="apparait">
-              <h3>{a.titre}</h3>
-              {a.texte && <p>{a.texte}</p>}
-            </li>
-          ))}
-        </ul>
+        {c.acces.length > 0 ? (
+          <ul class="points acces__liste">
+            {c.acces.map((a) => (
+              <li class="apparait">
+                <h3>{a.titre}</h3>
+                {a.texte && <p>{a.texte}</p>}
+              </li>
+            ))}
+          </ul>
+        ) : <p>Le cabinet se trouve {cab.adresse.uneLigne}.</p>}
       </div>
       {carte.rendre ? <div data-option="carte" hidden={carte.cache}><Plan cab={cab} /></div> : (
         <p><a class="lien-fleche" href={`https://www.openstreetmap.org/search?query=${encodeURIComponent(cab.adresse.uneLigne)}`} target="_blank" rel="noopener">Voir le plan<span class="sr-only"> (nouvel onglet)</span></a></p>

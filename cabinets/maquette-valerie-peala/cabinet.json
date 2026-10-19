@@ -124,7 +124,7 @@
    "etapes": [
     {
      "titre": "Vous prenez rendez-vous",
-     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+     "texte": "Par téléphone. Si je suis indisponible, laissez un message : je vous rappelle dès que possible."
     },
     {
      "titre": "Nous faisons connaissance",
@@ -148,7 +148,8 @@
     "Faut-il une ordonnance pour consulter ?",
     "Ce que je dis reste-t-il confidentiel ?",
     "Les séances sont-elles remboursées ?"
-   ]
+   ],
+   "repereRdv": "Premier rendez-vous par téléphone"
   },
   "a-propos": {
    "seoTitre": "À propos · Valérie Péala, psychologue à Auray",

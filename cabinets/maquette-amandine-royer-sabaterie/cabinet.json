@@ -1,0 +1,376 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Amandine Royer-Sabaterie (prospect), d'après royersabaterie.fr. Publiée sur youxdesign.fr/maquettes/amandine-royer-sabaterie/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://royersabaterie.fr",
+  "style": "nocturne",
+  "palette": 0,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq"
+  ]
+ },
+ "praticien": {
+  "prenom": "Amandine",
+  "nom": "Royer-Sabaterie",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "approche analytique freudienne, périnatalité et victimologie",
+  "specialiteCourte": "Approche analytique",
+  "diplome": "Master 2 de psychologie clinique « Psychopathologie, criminologie, victimologie » (Université de Poitiers)",
+  "adeli": "75 93 40 482",
+  "public": "Bébés, enfants, adolescents, adultes et couples",
+  "citation": "C’est en mettant du sens sur vos difficultés actuelles que vous parviendrez à les comprendre."
+ },
+ "contact": {
+  "telephone": "06 84 57 63 47",
+  "email": "amandine.royer.sabaterie@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "103 boulevard Charles-de-Gaulle",
+  "codePostal": "37540",
+  "ville": "Saint-Cyr-sur-Loire",
+  "accessiblePMR": false,
+  "visio": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Séance adulte",
+   "lieu": "Au cabinet, en face à face",
+   "prix": "Sur demande",
+   "duree": "45 min",
+   "texte": "La fréquence des entretiens est réfléchie lors de la première rencontre.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Enfant ou adolescent",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "texte": "Un premier entretien met en lien la demande des parents et celle de l’enfant ; l’enfant ou l’adolescent est ensuite vu seul."
+  },
+  {
+   "nom": "Bébé",
+   "lieu": "Au cabinet, avec les parents",
+   "prix": "Sur demande",
+   "texte": "Par le biais du jeu et de la parole, nous cherchons ensemble à saisir ce qui se joue."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Mal-être et angoisses",
+   "texte": "Mal-être, troubles dépressifs, angoisses : lorsque ces questions deviennent trop envahissantes pour vivre pleinement votre vie.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Victimes et traumatisme",
+   "texte": "Après une agression, des violences, un accident : cauchemars, reviviscences, ruminations, hypervigilance.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Périnatalité et lien mère-enfant",
+   "texte": "La grossesse et les premiers mois, quand il est compliqué pour la mère et l’enfant de s’accorder l’un à l’autre.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Enfance en danger",
+   "texte": "Maltraitance, carences affectives, délinquance : un espace de parole qui appartienne à l’enfant ou à l’adolescent.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Harcèlement, charge de travail, stress, relations d’équipe, épuisement professionnel (burn-out).",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Dynamiques familiales",
+   "texte": "Les « pathologies du lien », lorsque l’échange et la communication semblent mis à mal entre les personnes.",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Amandine Royer-Sabaterie, psychologue clinicienne à Saint-Cyr-sur-Loire",
+   "seoDescription": "Amandine Royer-Sabaterie, psychologue clinicienne à Saint-Cyr-sur-Loire : bébés, enfants, adolescents, adultes et couples. Approche analytique, périnatalité, victimologie.",
+   "surtitre": "Psychologue clinicienne · Saint-Cyr-sur-Loire",
+   "titre": "Comprendre,\nvous approprier,\n*évoluer*",
+   "intro": "Les éléments de nos vies, nos rencontres et nos expériences nous constituent. Mais parfois, les épreuves s’accumulent : il peut alors être intéressant de s’orienter vers un psychologue. Je vous reçois à mon cabinet de Saint-Cyr-sur-Loire.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Les motifs qui conduisent à consulter sont variés, et tout à fait subjectifs. Je reçois des adultes, des enfants, des adolescents, des couples, et également des bébés.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Amandine*",
+   "presentation": [
+    "La psychothérapie a pour dessein de vous amener à réfléchir au sujet qui vous préoccupe, par une mise en lien entre l’actuel et votre histoire de vie.",
+    "Je vous propose un travail psychique, conférant à l’élaboration une place centrale : c’est en mettant du sens sur vos difficultés actuelles que vous parviendrez à les comprendre, à vous les approprier, et à évoluer."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour me contacter, deux solutions : par téléphone ou par e-mail.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "Parcours · Amandine Royer-Sabaterie, psychologue à Saint-Cyr-sur-Loire",
+   "seoDescription": "Parcours et formation d’Amandine Royer-Sabaterie, psychologue clinicienne : psychopathologie, criminologie, victimologie, périnatalité et très jeune enfant.",
+   "titre": "Mettre du sens\n*sur vos difficultés*",
+   "intro": "Psychologue clinicienne, je suis formée en psychopathologie, criminologie et victimologie, ainsi qu’en psychologie de la périnatalité et du très jeune enfant. En parallèle, je conduis une formation analytique personnelle et une supervision.",
+   "cabinetLegende": "Le cabinet, 103 boulevard Charles-de-Gaulle",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "La première séance permet de comprendre votre demande, ou de la faire émerger si elle est encore difficile à définir.",
+   "parcoursSurtitre": "Formation",
+   "parcoursTitre": "Mon *parcours*",
+   "parcours": [
+    {
+     "date": "Master",
+     "titre": "Psychologie clinique : psychopathologie, criminologie, victimologie",
+     "texte": "Master 1 à l’université Rennes 2, Master 2 à l’université de Poitiers."
+    },
+    {
+     "date": "DU",
+     "titre": "Psychologie et psychopathologie de la périnatalité et du très jeune enfant",
+     "texte": "Université Paris V, mention très bien."
+    },
+    {
+     "date": "2017 – 2020",
+     "titre": "Formation AFPPEA",
+     "texte": "Sous la présidence de Bernard Golse."
+    },
+    {
+     "date": "Formations",
+     "titre": "Crise suicidaire et ICV",
+     "texte": "Évaluation et prise en charge de la crise suicidaire ; intégration du cycle de la vie (niveau 1)."
+    }
+   ],
+   "formationsSurtitre": "Expérience professionnelle",
+   "formationsTitre": "Des terrains *variés*",
+   "formations": [
+    {
+     "titre": "Milieu hospitalier",
+     "texte": "UCSA, CMP."
+    },
+    {
+     "titre": "Services pénitentiaires",
+     "texte": "Accompagnement en milieu pénitentiaire."
+    },
+    {
+     "titre": "Milieu associatif",
+     "texte": "Auprès de victimes d’évènements potentiellement traumatiques, d’inceste ou d’agression sexuelle, de maltraitance."
+    },
+    {
+     "titre": "Handicap",
+     "texte": "Enfants porteurs de handicap ou atteints de troubles envahissants du développement (autisme)."
+    },
+    {
+     "titre": "Aide sociale à l’enfance",
+     "texte": "Placements en famille d’accueil, et placements d’adolescents en semi-autonomie."
+    },
+    {
+     "titre": "Risques psychosociaux",
+     "texte": "Accompagnement et gestion des risques psychosociaux."
+    }
+   ],
+   "valeursSurtitre": "Le cadre",
+   "valeursTitre": "Ce qui guide *mon travail*",
+   "valeurs": [
+    {
+     "titre": "Le secret professionnel",
+     "texte": "Les séances sont tout à fait confidentielles, et soumises au secret professionnel."
+    },
+    {
+     "titre": "Un travail personnel",
+     "texte": "Je conduis une formation analytique personnelle et une supervision."
+    },
+    {
+     "titre": "Le numéro ADELI",
+     "texte": "Délivré par l’ARS, il certifie la validité des diplômes obtenus, protégeant ainsi le bon exercice de la profession."
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Amandine Royer-Sabaterie, psychologue à Saint-Cyr-sur-Loire",
+   "seoDescription": "Une approche analytique freudienne avec Amandine Royer-Sabaterie : histoire de vie, transgénérationnel, dynamiques familiales. Interventions en entreprise.",
+   "titre": "Une approche\n*analytique*",
+   "intro": "Je travaille selon une approche analytique freudienne, privilégiant la mise en lien du vécu infantile avec vos difficultés actuelles. Vos difficultés n’ont de sens qu’au travers de votre histoire propre.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "La première séance permet de comprendre votre demande, ou de la faire émerger.",
+   "outilsSurtitre": "Ce qui oriente mon travail",
+   "outilsTitre": "Votre histoire, *au centre*",
+   "outils": [
+    {
+     "titre": "L’actuel et l’histoire de vie",
+     "texte": "La psychothérapie vous amène à réfléchir au sujet qui vous préoccupe, par une mise en lien entre l’actuel et votre histoire de vie.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Le transgénérationnel",
+     "texte": "Travailler l’aspect transgénérationnel de votre histoire, et en dégager les « mandats inconscients » décrits, entre autres, par Lebovici.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Les dynamiques familiales",
+     "texte": "Une place importante est accordée aux « pathologies du lien », lorsque l’échange et la communication semblent mis à mal.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Le jeu et la parole",
+     "texte": "Avec les enfants, par le biais de la parole, du jeu ou du dessin, pour que l’espace thérapeutique soit un lieu « contenant ».",
+     "icone": "plume"
+    }
+   ],
+   "cadreSurtitre": "Entreprises et institutions",
+   "cadreTitre": "Intervenir *auprès des équipes*",
+   "cadreIntro": "J’interviens aussi auprès des équipes, des institutions et des entreprises. Pour obtenir un devis d’intervention, contactez-moi par téléphone.",
+   "cadre": [
+    "**L’analyse des pratiques professionnelles** : mettre au travail une équipe entière sur ses objectifs et son fonctionnement, et prévenir le découragement.",
+    "**La prévention des risques psychosociaux**, par exemple par une permanence psychologique sur site.",
+    "**La gestion de crise** après un évènement choquant : groupes de parole, défusing et débriefing psychologiques.",
+    "**La médiation et la gestion de conflit**, sur la durée, avec les personnes concernées, l’équipe et la direction."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Les séances · Amandine Royer-Sabaterie, psychologue à Saint-Cyr-sur-Loire",
+   "seoDescription": "Déroulement des séances avec Amandine Royer-Sabaterie, psychologue à Saint-Cyr-sur-Loire : adultes, enfants et adolescents, bébés.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations ont lieu à mon cabinet de Saint-Cyr-sur-Loire, en face à face. La première séance permet de comprendre votre demande, ou de la faire émerger si elle est encore un peu difficile à définir.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Amandine Royer-Sabaterie, psychologue à Saint-Cyr-sur-Loire",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Amandine Royer-Sabaterie, psychologue à Saint-Cyr-sur-Loire",
+   "seoDescription": "Adresse et téléphone du cabinet d’Amandine Royer-Sabaterie, psychologue clinicienne, 103 boulevard Charles-de-Gaulle à Saint-Cyr-sur-Loire.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Pour me contacter, deux solutions : par téléphone ou par e-mail. Les consultations ont lieu au cabinet, en face à face.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Amandine Royer-Sabaterie"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
