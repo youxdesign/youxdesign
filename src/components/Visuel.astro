@@ -30,7 +30,12 @@ const cab = site.cab;
 const fichier = variante > 1 ? `${type}-${variante}` : type;
 const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${fichier}.`))
   || (variante > 1 ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`)) : undefined);
-const photo = trouve ? trouve[1].default : null;
+/* Pas de portrait, mais une photo du cabinet : on montre le cabinet plutôt
+   qu'une illustration */
+const secours = !trouve && type === 'portrait'
+  ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/cabinet.`))
+  : undefined;
+const photo = trouve ? trouve[1].default : secours ? secours[1].default : null;
 const Illustration = illustrations[site.theme] || IllustrationBase;
 const textes = {
   portrait: `Portrait de ${cab.nomComplet}`,
@@ -39,11 +44,11 @@ const textes = {
 };
 ---
 <figure class:list={['cadre-visuel', classe]}>
-  <div class:list={['visuel', `visuel--${type}`, { 'visuel--illustration': !photo }]} data-visuel={type}>
+  <div class:list={['visuel', `visuel--${secours ? 'cabinet' : type}`, { 'visuel--illustration': !photo }]} data-visuel={type}>
     {photo ? (
       <Picture
         src={photo}
-        alt={alt ?? textes[type]}
+        alt={alt ?? textes[secours ? 'cabinet' : type]}
         formats={['avif', 'webp']}
         fallbackFormat="jpg"
         widths={[480, 800, 1200]}

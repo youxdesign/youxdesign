@@ -1,5 +1,5 @@
 {
- "_lisezmoi": "Maquette youXdesign pour Mylène Magdelenat (prospect), préparée le 19/10/2026 à partir des textes de psycho-dijon.fr. Publiée sur youxdesign.fr/maquettes/mylene-magdelenat/, jamais référencée.",
+ "_lisezmoi": "Maquette youXdesign pour Mylène Magdelenat (prospect), préparée le 19/10/2026 à partir des textes de psycho-dijon.fr. Publiée sur youxdesign.fr/maquettes/mylene-magdelenat/, jamais référencée. Photos cabinet.jpg et ambiance.jpg reprises de psycho-dijon.fr (photos de l'ancien cabinet, 86 avenue Eiffel).",
  "site": {
   "domaine": "https://www.psycho-dijon.fr",
   "style": "sante",
@@ -185,8 +185,7 @@
    "seoDescription": "Formation et parcours de Mylène Magdelenat, psychologue spécialisée en neuropsychologie, psychothérapeute TCC et praticienne EMDR à Dijon.",
    "titre": "Un parcours entre\n*hôpital et cabinet*",
    "intro": "Je suis Mylène Magdelenat, psychologue spécialisée en neuropsychologie et psychothérapeute. J’ai exercé dans plusieurs structures hospitalières et médico-sociales de Bourgogne avant de recevoir, en libéral, adolescents et adultes.",
-   "cabinetLegende": "Le cabinet",
-   "cabinetDetail": "11 rue des Trois Forgerons, Dijon",
+   "cabinetLegende": "Le bureau",
    "demarcheSurtitre": "Ma manière d’accompagner",
    "demarcheTitre": "Un travail d’équipe, *à deux*",
    "demarche": [
