@@ -49,5 +49,12 @@ const props = { ...reste, site, page, scripts: [...scripts, statut && 'statut', 
         <button type="button" aria-label="Masquer ce bandeau" data-demo-fermer>×</button>
       </div>
     )}
+    {site.maquette && (
+      <div class="demo-bar" role="complementary" aria-label="Maquette" data-demo-bar>
+        <span>Maquette préparée par <b>youXdesign</b> pour {site.cab.nomComplet} · ce site n’est pas en ligne</span>
+        <a href="/">Découvrir youXdesign</a>
+        <button type="button" aria-label="Masquer ce bandeau" data-demo-fermer>×</button>
+      </div>
+    )}
   </Document>
 )}

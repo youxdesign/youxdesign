@@ -8,6 +8,8 @@
    - « client » : le site d'un cabinet, à la racine. Activé par la variable
      d'environnement CABINET (nom du dossier dans cabinets/).
    ========================================================================== */
+import { readdirSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
 import { chargerCabinet } from './cabinet.mjs';
 import { STYLES, PAGES, style as trouverStyle } from '../config/catalogue.mjs';
 import { DOMAINE, CABINET_DEMO } from '../config/youxdesign.mjs';
@@ -50,6 +52,26 @@ export function sites() {
       indexable: false,
       vitrine: true
     }));
+    /* Maquettes pour les prospects : chaque dossier cabinets/maquette-<nom>/
+       devient youxdesign.fr/maquettes/<nom>/, jamais référencé (noindex,
+       hors plan du site, interdit dans robots.txt), avec un bandeau qui dit
+       que c'est une maquette. */
+    for (const dossier of readdirSync(join(process.cwd(), 'cabinets')).filter((d) => d.startsWith('maquette-')).sort()) {
+      if (!existsSync(join(process.cwd(), 'cabinets', dossier, 'cabinet.json'))) continue;
+      const m = chargerCabinet(dossier);
+      memo.push({
+        cle: dossier,
+        base: `/maquettes/${dossier.slice('maquette-'.length)}/`,
+        cab: m,
+        theme: m.site.style,
+        palette: m.site.palette,
+        police: m.site.police,
+        couleurs: m.site.couleurs || null,
+        indexable: false,
+        vitrine: false,
+        maquette: true
+      });
+    }
   }
   return memo;
 }

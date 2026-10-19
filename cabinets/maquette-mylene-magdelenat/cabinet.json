@@ -1,0 +1,513 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Mylène Magdelenat (prospect), préparée le 19/10/2026 à partir des textes de psycho-dijon.fr. Publiée sur youxdesign.fr/maquettes/mylene-magdelenat/, jamais référencée.",
+ "site": {
+  "domaine": "https://www.psycho-dijon.fr",
+  "style": "sante",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "statut",
+   "faq"
+  ]
+ },
+ "praticien": {
+  "prenom": "Mylène",
+  "nom": "Magdelenat",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute",
+  "specialite": "neuropsychologie, thérapies comportementales et cognitives (TCC) et EMDR",
+  "specialiteCourte": "TCC et EMDR",
+  "diplome": "Master de psychologie spécialisé en neuropsychologie",
+  "adeli": "21 93 0728 7",
+  "rpps": "10008607771",
+  "siret": "827 669 292 00027",
+  "statut": "psychologue et psychothérapeute exerçant en libéral",
+  "ars": "Bourgogne-Franche-Comté",
+  "public": "Adolescents et adultes",
+  "citation": "Une approche globale, qui prend en compte vos émotions, vos pensées, vos comportements et vos capacités cognitives."
+ },
+ "contact": {
+  "telephone": "06 69 33 32 86",
+  "telephoneNote": "Consultations uniquement sur rendez-vous : appelez-moi, ou laissez un message si je suis en séance.",
+  "email": "mag.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "11 rue des Trois Forgerons",
+  "complement": "Cabinet pluridisciplinaire",
+  "codePostal": "21000",
+  "ville": "Dijon",
+  "quartier": "Port du canal",
+  "zone": "Dijon et sa métropole",
+  "latitude": 47.3176,
+  "longitude": 5.027,
+  "accessiblePMR": true,
+  "visio": false,
+  "horaires": {
+   "lundi": "8:30-19:00",
+   "mardi": "8:30-19:00",
+   "mercredi": "8:30-19:00",
+   "jeudi": "8:30-19:00",
+   "vendredi": "8:30-19:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "En tram",
+    "texte": "Ligne T2, arrêt Jean Jaurès.",
+    "icone": "metro"
+   },
+   {
+    "titre": "En bus",
+    "texte": "Liane 4, Corol, R33, R34 et R35, arrêt Sainte Chantal.",
+    "icone": "metro"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Par le centre-ville, la Lino ou la rocade. Nombreuses places de stationnement gratuites.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Accessibilité",
+    "texte": "Cabinet pluridisciplinaire aux normes PMR.",
+    "icone": "fauteuil"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance de thérapie",
+   "lieu": "Au cabinet",
+   "prix": "65 €",
+   "duree": "45 min à 1 h",
+   "texte": "Réglée à la fin de chaque séance, par carte bancaire, chèque ou espèces.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et stress",
+   "texte": "Stress, crises de panique et d’angoisse : apprendre à apaiser l’anxiété au quotidien.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Phobies",
+   "texte": "Apprivoiser progressivement ce qui vous fait peur, en sécurité.",
+   "icone": "plume"
+  },
+  {
+   "titre": "TOC",
+   "texte": "Pensées obsédantes, rituels, vérifications : desserrer l’emprise des compulsions.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Dépression et deuil",
+   "texte": "Traverser une période de tristesse, une perte, et reprendre peu à peu goût à ce qui compte.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Confiance en soi",
+   "texte": "Doute, autocritique, difficultés d’attachement : porter sur vous un regard plus juste.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Agressions, accidents, événements marquants : l’EMDR aide à en apaiser l’impact.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Sommeil et douleurs",
+   "texte": "Difficultés de sommeil, douleurs chroniques, difficultés alimentaires : retrouver de l’équilibre.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Difficultés cognitives",
+   "texte": "TSA, TDA/H, suites d’un AVC ou d’un traumatisme crânien : évaluer et accompagner chez l’adulte.",
+   "icone": "puzzle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Mylène Magdelenat, psychologue TCC et EMDR à Dijon",
+   "seoDescription": "Mylène Magdelenat, psychologue et psychothérapeute à Dijon, spécialisée en neuropsychologie, TCC et EMDR : anxiété, phobies, TOC, dépression, traumatismes, difficultés cognitives. Adolescents et adultes.",
+   "surtitre": "Psychologue · Psychothérapeute · Dijon",
+   "titre": "Une approche globale,\n*à votre rythme*",
+   "intro": "Je suis Mylène Magdelenat, psychologue spécialisée en neuropsychologie, en thérapies comportementales et cognitives (TCC) et en EMDR. Je reçois adolescents et adultes dans mon cabinet du quartier Port du canal, à Dijon.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici les difficultés pour lesquelles on me consulte le plus souvent. Si la vôtre n’y figure pas, parlons-en lors d’un premier rendez-vous.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Mylène*",
+   "presentation": [
+    "Psychologue spécialisée en neuropsychologie, je suis formée aux thérapies comportementales et cognitives auprès de l’AFTCC et à l’EMDR auprès de l’IFEMDR.",
+    "Ces approches, très complémentaires, travaillent sur les aspects émotionnels, psychologiques, comportementaux et cognitifs : elles permettent une prise en charge globale de la personne."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone, au 06 69 33 32 86. Les consultations ont lieu uniquement sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Le premier rendez-vous permet de faire le point sur ce qui vous amène, vos souhaits et votre environnement de vie."
+    },
+    {
+     "titre": "Nous envisageons la suite",
+     "texte": "Ensemble, nous définissons le déroulement des séances et leur fréquence."
+    },
+    {
+     "titre": "Vous avancez",
+     "texte": "Au fil du suivi, les séances peuvent être espacées : l’objectif est votre mieux-être et votre autonomie."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "respirationTexte": "Suivez le cercle : inspirez quand il s’ouvre, expirez quand il se referme. C’est l’un des premiers outils que l’on apprend en séance, à utiliser partout.",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Les rendez-vous se prennent par téléphone. Une question avant de venir ? N’hésitez pas à m’appeler ou à m’écrire.",
+   "questionsAccueil": [
+    "Les séances sont-elles remboursées ?",
+    "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+    "Que se passe-t-il lors de la première séance ?",
+    "Ce que je dis reste-t-il confidentiel ?"
+   ],
+   "_variantes": "Démonstrations : titres propres à chaque style (le site d'un cabinet n'en a pas besoin)."
+  },
+  "a-propos": {
+   "seoTitre": "Parcours · Mylène Magdelenat, psychologue à Dijon",
+   "seoDescription": "Formation et parcours de Mylène Magdelenat, psychologue spécialisée en neuropsychologie, psychothérapeute TCC et praticienne EMDR à Dijon.",
+   "titre": "Un parcours entre\n*hôpital et cabinet*",
+   "intro": "Je suis Mylène Magdelenat, psychologue spécialisée en neuropsychologie et psychothérapeute. J’ai exercé dans plusieurs structures hospitalières et médico-sociales de Bourgogne avant de recevoir, en libéral, adolescents et adultes.",
+   "cabinetLegende": "Le cabinet",
+   "cabinetDetail": "11 rue des Trois Forgerons, Dijon",
+   "demarcheSurtitre": "Ma manière d’accompagner",
+   "demarcheTitre": "Un travail d’équipe, *à deux*",
+   "demarche": [
+    "Ma spécialisation en neuropsychologie me permet d’aborder, d’évaluer et de prendre en charge les difficultés cognitives et émotionnelles.",
+    "Elle est très complémentaire des thérapies comportementales et cognitives et de l’EMDR : ensemble, ces approches prennent en compte les aspects émotionnels, psychologiques, comportementaux et cognitifs."
+   ],
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "De l’hôpital *au cabinet*",
+   "parcoursIntro": "Une formation universitaire en neuropsychologie, une longue pratique en milieu hospitalier et médico-social, puis le libéral.",
+   "parcours": [
+    {
+     "date": "Formation",
+     "titre": "Master de psychologie, spécialité neuropsychologie",
+     "texte": "Titre de psychologue et de psychothérapeute, enregistré auprès de l’ARS."
+    },
+    {
+     "date": "Hôpital",
+     "titre": "Consultation Mémoire, Centre hospitalier de Paray-le-Monial",
+     "texte": "Psychologue spécialisée en neuropsychologie pendant plusieurs années."
+    },
+    {
+     "date": "Médico-social",
+     "titre": "SAMSAH de Quetigny, IME des PEP21, CMPP de l’Acodège",
+     "texte": "Réhabilitation sociale, cognitive et émotionnelle d’adultes ; accompagnement d’enfants et d’adolescents en difficulté cognitive."
+    },
+    {
+     "date": "Aujourd’hui",
+     "titre": "C2RB, Centre hospitalier La Chartreuse, et cabinet libéral",
+     "texte": "Centre référent de réhabilitation psychosociale de Bourgogne, et consultations en libéral à Dijon."
+    }
+   ],
+   "formationsSurtitre": "Formations complémentaires",
+   "formationsTitre": "Des outils *choisis pour vous*",
+   "formationsIntro": "Pour compléter ma formation initiale, je me suis formée à deux approches dont l’efficacité est reconnue.",
+   "formations": [
+    {
+     "date": "AFTCC",
+     "titre": "Thérapies comportementales et cognitives (TCC)",
+     "texte": "Diplôme en deux ans, reconnu par l’association européenne (EABCT) et l’association américaine (ABCT).",
+     "icone": "puzzle"
+    },
+    {
+     "date": "IFEMDR",
+     "titre": "EMDR",
+     "texte": "Formation reconnue par EMDR Europe, pour apaiser l’impact de souvenirs difficiles et de traumatismes.",
+     "icone": "eclat"
+    }
+   ],
+   "valeursSurtitre": "Mes valeurs",
+   "valeursTitre": "Ce qui guide *mon travail*",
+   "valeurs": [
+    {
+     "titre": "Une approche globale",
+     "texte": "Émotions, pensées, comportements et capacités cognitives : je prends en compte la personne dans son ensemble."
+    },
+    {
+     "titre": "Des méthodes reconnues",
+     "texte": "TCC et EMDR sont des approches dont l’efficacité a été étudiée. Je fais partie d’associations régionales et nationales de psychologues."
+    },
+    {
+     "titre": "Le respect de votre rythme",
+     "texte": "La fréquence des séances s’adapte à votre demande et à vos possibilités."
+    },
+    {
+     "titre": "L’autonomie comme objectif",
+     "texte": "Au fil du suivi, les séances peuvent être espacées : le but est votre mieux-être et votre autonomie."
+    }
+   ],
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Le premier rendez-vous permet de faire connaissance et de voir ensemble comment avancer."
+  },
+  "approche": {
+   "seoTitre": "Mon approche : TCC, EMDR et neuropsychologie · Mylène Magdelenat, psychologue à Dijon",
+   "seoDescription": "Comment se déroule un suivi avec Mylène Magdelenat, psychologue à Dijon : thérapies comportementales et cognitives (TCC), EMDR et neuropsychologie.",
+   "titre": "Les TCC, une thérapie\n*concrète et active*",
+   "intro": "Les thérapies comportementales et cognitives vous aident à comprendre ce qui entretient vos difficultés, puis à expérimenter, pas à pas, de nouvelles façons de penser et d’agir. Selon les situations, je les associe à l’EMDR et à la neuropsychologie.",
+   "cercleSurtitre": "Le principe",
+   "cercleTitre": "Pensées, émotions et comportements *sont liés*",
+   "cercle": [
+    "Ce que nous pensons d’une situation influence ce que nous ressentons, et ce que nous ressentons influence ce que nous faisons. Parfois, ces trois éléments s’entretiennent et forment un cercle qui fait souffrir.",
+    "Par exemple : « je vais échouer » provoque de l’anxiété, qui pousse à éviter la situation. L’évitement soulage sur le moment, mais renforce la peur. Les TCC permettent d’agir sur chacun de ces maillons pour desserrer le cercle."
+   ],
+   "cercleNoeuds": [
+    {
+     "titre": "Pensées",
+     "texte": "« je vais échouer »"
+    },
+    {
+     "titre": "Émotions",
+     "texte": "anxiété, tension"
+    },
+    {
+     "titre": "Comportements",
+     "texte": "éviter, reporter"
+    }
+   ],
+   "derouleSurtitre": "Le déroulement",
+   "derouleTitre": "Comment se déroule *une thérapie ?*",
+   "derouleIntro": "Une thérapie TCC suit généralement quatre temps. Leur durée varie d’une personne à l’autre, et nous faisons le point régulièrement.",
+   "deroule": [
+    {
+     "date": "Séances 1 à 3",
+     "titre": "Faire le point",
+     "texte": "Nous prenons le temps de comprendre votre situation, votre histoire et ce que vous souhaitez changer."
+    },
+    {
+     "date": "Ensuite",
+     "titre": "Comprendre le mécanisme",
+     "texte": "Nous identifions ce qui déclenche et entretient la difficulté, puis nous fixons des objectifs précis."
+    },
+    {
+     "date": "Au cœur du suivi",
+     "titre": "Expérimenter",
+     "texte": "Vous testez des outils en séance et dans votre quotidien, à votre rythme. Nous ajustons selon vos observations."
+    },
+    {
+     "date": "Dernières séances",
+     "titre": "Consolider",
+     "texte": "Nous faisons le bilan de vos progrès et préparons la suite, pour que vous restiez autonome."
+    }
+   ],
+   "dureeSurtitre": "Durée moyenne",
+   "dureeTitre": "Une thérapie *limitée dans le temps*",
+   "duree": [
+    {
+     "de": 5,
+     "a": 10,
+     "texte": "séances en moyenne, selon les besoins"
+    },
+    {
+     "de": 45,
+     "a": 60,
+     "texte": "minutes par séance, selon les besoins"
+    },
+    {
+     "de": 7,
+     "a": 15,
+     "texte": "jours entre deux séances, en général"
+    }
+   ],
+   "dureeTexte": "Ces repères sont indicatifs. Certaines difficultés demandent moins de séances, d’autres un suivi plus long. Nous en parlons ouvertement dès le début.",
+   "outilsSurtitre": "Exemples d’outils",
+   "outilsTitre": "Des exercices simples, *adaptés à vous*",
+   "outilsIntro": "Aucun outil n’est obligatoire. Je vous propose ceux qui correspondent à votre situation, et nous les ajustons ensemble.",
+   "outils": [
+    {
+     "titre": "Le journal des pensées",
+     "texte": "Noter une situation, ce que vous avez pensé et ressenti, pour prendre du recul et repérer les pensées qui reviennent.",
+     "icone": "livre"
+    },
+    {
+     "titre": "L’exposition progressive",
+     "texte": "Se rapprocher petit à petit de ce qui fait peur, en commençant par le plus facile, pour que l’anxiété diminue d’elle-même.",
+     "icone": "marches"
+    },
+    {
+     "titre": "La restructuration cognitive",
+     "texte": "Examiner une pensée difficile comme une hypothèse, et chercher d’autres façons, plus nuancées, de voir la situation.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Respiration et relaxation",
+     "texte": "Des techniques courtes pour apaiser le corps dans les moments de tension, à utiliser partout.",
+     "icone": "poumons"
+    },
+    {
+     "titre": "L’activation comportementale",
+     "texte": "Réintroduire progressivement des activités agréables ou porteuses de sens, pour retrouver de l’élan.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "La résolution de problèmes",
+     "texte": "Décomposer une situation qui semble insurmontable en étapes concrètes et réalisables.",
+     "icone": "puzzle"
+    }
+   ],
+   "cadreSurtitre": "Ce que vous pouvez attendre",
+   "cadreTitre": "Un cadre clair, *du début à la fin*",
+   "cadreIntro": "Les TCC font partie des psychothérapies dont l’efficacité est la mieux étudiée, notamment pour les troubles anxieux et la dépression.",
+   "cadre": [
+    "**Des objectifs définis ensemble**, formulés avec vos mots et revus au fil du suivi.",
+    "**Des explications à chaque étape**, pour que vous sachiez toujours ce que nous faisons et pourquoi.",
+    "**Des exercices entre les séances**, courts et adaptés à votre emploi du temps.",
+    "**Des bilans réguliers**, pour mesurer vos progrès et ajuster le rythme.",
+    "**La liberté d’arrêter**, à tout moment, sans avoir à vous justifier."
+   ],
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Lors du premier rendez-vous, nous verrons ensemble si les TCC répondent à votre situation."
+  },
+  "consultations": {
+   "seoTitre": "Consultations et honoraires · Mylène Magdelenat, psychologue à Dijon",
+   "seoDescription": "Déroulement, durée, honoraires (65 €), règlement et annulation des séances avec Mylène Magdelenat, psychologue à Dijon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Des séances claires,\n*sans surprise*",
+   "intro": "Une séance de thérapie dure de 45 minutes à 1 heure, selon les difficultés abordées. Une question avant de prendre rendez-vous ? Appelez-moi.",
+   "tarifsNote": "Les consultations de psychologue ne sont pas remboursées par la Sécurité sociale. Certaines mutuelles prennent en charge quelques séances : renseignez-vous auprès de la vôtre.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "paiement": "Le règlement se fait à la fin de chaque séance, par carte bancaire, chèque ou espèces.",
+   "moyensPaiement": [
+    {
+     "titre": "Carte bancaire",
+     "icone": "cb"
+    },
+    {
+     "titre": "Chèque",
+     "icone": "virement"
+    },
+    {
+     "titre": "Espèces",
+     "icone": "especes"
+    }
+   ],
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler ou *déplacer*",
+   "annulation": [
+    "Vous pouvez annuler ou déplacer un rendez-vous en me prévenant **au moins 48 heures à l’avance**.",
+    "Un rendez-vous non honoré et non annulé à temps reste dû : il aurait pu bénéficier à un autre patient."
+   ],
+   "monSoutienPsy": false,
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Les rendez-vous se prennent par téléphone, au 06 69 33 32 86."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Mylène Magdelenat, psychologue à Dijon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques, comme les TCC. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "La fréquence des séances s’aménage selon les difficultés à aborder, votre demande et vos possibilités.",
+        "Au fil du suivi, les séances peuvent être espacées : l’objectif est votre mieux-être et votre autonomie."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui.",
+        "Les notes que je prends sont conservées de façon sécurisée et ne sont communiquées à personne."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les consultations de psychologue ne sont pas prises en charge par la Sécurité sociale.",
+        "Certaines mutuelles remboursent quelques séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Vous pouvez m’appeler au 06 69 33 32 86 ou m’écrire. Je vous réponds dans les meilleurs délais."
+  },
+  "contact": {
+   "seoTitre": "Contact et accès · Mylène Magdelenat, psychologue à Dijon",
+   "seoDescription": "Adresse, téléphone, horaires et accès au cabinet de Mylène Magdelenat, psychologue à Dijon, quartier Port du canal : tram T2, bus, stationnement gratuit, accès PMR.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 11 rue des Trois Forgerons, dans le quartier Port du canal à Dijon : un cabinet pluridisciplinaire aux normes PMR, très facile d’accès, avec de nombreuses places de stationnement gratuites.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*",
+   "visio": [
+    "Les consultations ont lieu au cabinet, uniquement sur rendez-vous."
+   ]
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Mylène Magdelenat"
+ }
+}
