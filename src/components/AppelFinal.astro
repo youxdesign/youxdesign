@@ -15,7 +15,9 @@ const c = cab.cabinet;
     </div>
     <div class="boutons">
       <BoutonRdv cab={cab} />
-      {secondaire ? <a class="bouton bouton--secondaire" href={secondaire.href}>{secondaire.texte}</a> : <a class="bouton bouton--secondaire" href={cab.tel.lien}>{cab.tel.affiche}</a>}
+      {secondaire ? <a class="bouton bouton--secondaire" href={secondaire.href}>{secondaire.texte}</a>
+        : cab.rdv ? <a class="bouton bouton--secondaire" href={cab.tel.lien}>{cab.tel.affiche}</a>
+        : <a class="bouton bouton--secondaire" href={`mailto:${cab.contact.email}`}>Écrire un e-mail</a>}
     </div>
   </div>
 </section>

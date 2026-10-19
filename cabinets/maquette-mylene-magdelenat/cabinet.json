@@ -152,7 +152,7 @@
    "etapes": [
     {
      "titre": "Vous prenez rendez-vous",
-     "texte": "Par téléphone, au 06 69 33 32 86. Les consultations ont lieu uniquement sur rendez-vous."
+     "texte": "Par téléphone ou par e-mail. Les consultations ont lieu uniquement sur rendez-vous."
     },
     {
      "titre": "Nous faisons connaissance",
@@ -256,7 +256,9 @@
     }
    ],
    "finTitre": "Faisons *connaissance*",
-   "finTexte": "Le premier rendez-vous permet de faire connaissance et de voir ensemble comment avancer."
+   "finTexte": "Le premier rendez-vous permet de faire connaissance et de voir ensemble comment avancer.",
+   "liensIntro": "Je fais partie de plusieurs associations de psychologues, régionales et nationales, qui garantissent la validité de mes formations.",
+   "liensTitre": "Associations et *annuaires*"
   },
   "approche": {
    "seoTitre": "Mon approche : TCC, EMDR et neuropsychologie · Mylène Magdelenat, psychologue à Dijon",
@@ -408,7 +410,7 @@
    ],
    "monSoutienPsy": false,
    "finTitre": "Réserver une *première séance*",
-   "finTexte": "Les rendez-vous se prennent par téléphone, au 06 69 33 32 86."
+   "finTexte": "Les rendez-vous se prennent par téléphone ou par e-mail."
   },
   "faq": {
    "seoTitre": "Questions fréquentes · Mylène Magdelenat, psychologue à Dijon",
@@ -489,7 +491,7 @@
     }
    ],
    "finTitre": "Une autre *question ?*",
-   "finTexte": "Vous pouvez m’appeler au 06 69 33 32 86 ou m’écrire. Je vous réponds dans les meilleurs délais."
+   "finTexte": "Vous pouvez m’appeler ou m’écrire : je vous réponds dans les meilleurs délais."
   },
   "contact": {
    "seoTitre": "Contact et accès · Mylène Magdelenat, psychologue à Dijon",
@@ -509,5 +511,42 @@
  "legal": {
   "miseAJour": "octobre 2026",
   "directeurPublication": "Mylène Magdelenat"
- }
+ },
+ "liens": [
+  {
+   "titre": "Psychologue.net",
+   "detail": "Mon profil sur l’annuaire des psychologues.",
+   "url": "https://www.psychologue.net/cabinets/magdelenat-mylene"
+  },
+  {
+   "titre": "AFTCC",
+   "detail": "Association française de thérapie comportementale et cognitive : ma fiche de praticienne.",
+   "url": "http://www.aftcc.org/adresse/mme-magdelenat-mylene"
+  },
+  {
+   "titre": "IFEMDR",
+   "detail": "Institut français d’EMDR : ma fiche de praticienne accréditée.",
+   "url": "https://www.ifemdr.fr/pro/magdelenat-mylene-21000/"
+  },
+  {
+   "titre": "APNB",
+   "detail": "Association des psychologues-neuropsychologues de Bourgogne : ma fiche de membre.",
+   "url": "http://www.apnb.neuropsychologie.pro/membres/mylmag/"
+  },
+  {
+   "titre": "APTCCB",
+   "detail": "Association des praticiens en thérapie comportementale et cognitive de Bourgogne.",
+   "url": "http://www.aptccb.fr/chercher-un-therapeute/cote-dor/"
+  },
+  {
+   "titre": "OFPN",
+   "detail": "Organisation française des psychologues spécialisés en neuropsychologie.",
+   "url": "http://www.ofpn.fr/"
+  },
+  {
+   "titre": "Syndicat national des psychologues",
+   "detail": "Le syndicat de la profession.",
+   "url": "http://www.psychologues.org/"
+  }
+ ]
 }

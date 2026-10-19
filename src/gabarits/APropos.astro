@@ -65,6 +65,22 @@ const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps
     </section>
   )}
 
+  {cab.liens.length > 0 && (
+    <section class="section" aria-labelledby="liens-titre">
+      <div class="conteneur">
+        <TitreSection surtitre={t.liensSurtitre || 'Ailleurs en ligne'} titre={t.liensTitre || 'Me retrouver *aussi*'} intro={t.liensIntro} id="liens-titre" />
+        <ul class="grille cartes formations">
+          {cab.liens.map((l) => (
+            <li class="carte apparait">
+              <h3><a href={l.url} rel="noopener">{l.titre}</a></h3>
+              {l.detail && <p>{l.detail}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
   {t.valeurs && (
     <section class="section section--teinte" aria-labelledby="valeurs-titre">
       <div class="conteneur deux-colonnes deux-colonnes--texte valeurs">

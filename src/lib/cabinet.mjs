@@ -81,6 +81,9 @@ const schema = z.object({
   motifs: z.array(element).default([]),
   /* Option « ressources » : fichiers déposés dans cabinets/<cabinet>/fichiers/ */
   ressources: z.array(z.object({ titre: texte, detail: texte.optional(), icone: texte.optional(), fichier: texte })).default([]),
+  /* Liens vers les profils du praticien ailleurs (annuaires, associations
+     professionnelles…), affichés dans la page À propos */
+  liens: z.array(z.object({ titre: texte, detail: texte.optional(), url: z.string().url() })).default([]),
   /* Option « ateliers » : groupes et ateliers proposés par le cabinet */
   ateliers: z.array(z.object({ titre: texte, detail: texte.optional() })).default([]),
   pages: z.object({

@@ -12,6 +12,6 @@ const rdv = cab.rdv;
   </a>
 ) : (
   <a class={classe} href={cab.tel.lien}>
-    <Icone nom="telephone" />Appeler le {cab.tel.affiche}
+    <Icone nom="telephone" />Appeler le cabinet<span class="sr-only"> au {cab.tel.affiche}</span>
   </a>
 )}

@@ -29,7 +29,7 @@ const puces = ['Au cabinet', c.visio && 'En visio', p.public, p.specialiteCourte
       <p class="chapeau">{t.intro}</p>
       <ul class="coches une__garanties">
         <li>{p.titre}{numero && `, ${numero.cle} ${numero.valeur}`}</li>
-        <li>{cab.rdv ? `Réservation en ligne à toute heure sur ${cab.rdv.plateforme}` : `Rendez-vous par téléphone au ${cab.tel.affiche}`}</li>
+        <li>{cab.rdv ? `Réservation en ligne à toute heure sur ${cab.rdv.plateforme}` : 'Rendez-vous par téléphone'}</li>
         {c.accessiblePMR && <li>Cabinet accessible aux personnes à mobilité réduite</li>}
       </ul>
       <p class="une__profil">
