@@ -46,7 +46,7 @@ const statut = cab.bloc('statut', site.vitrine);
       </ul>
     </nav>
     <Langues site={site} />
-    {r.telephone && <a class="entete__tel" href={cab.tel.lien}><span class="sr-only">Téléphone : </span>{cab.tel.affiche}</a>}
+    {r.telephone && !r.bandeau && <a class="entete__tel" href={cab.tel.lien}><span class="sr-only">Téléphone : </span>{cab.tel.affiche}</a>}
     <BoutonRdv cab={cab} classe="bouton bouton--petit entete__rdv" />
     <button class="bouton-menu" type="button" popovertarget="menu-mobile" aria-label="Ouvrir le menu">
       <Icone nom="menu" />

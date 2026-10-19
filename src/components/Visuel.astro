@@ -9,6 +9,7 @@
    convertie en AVIF et WebP, avec repli JPEG pour les anciens navigateurs.
    Variantes (diaporama du style Immersif) : ambiance-2.jpg, ambiance-3.jpg…
    ========================================================================== */
+import { de } from '../lib/texte.mjs';
 import { Picture } from 'astro:assets';
 import { illustrations } from '../themes/registre.mjs';
 import IllustrationBase from './IllustrationBase.astro';
@@ -38,8 +39,8 @@ const secours = !trouve && type === 'portrait'
 const photo = trouve ? trouve[1].default : secours ? secours[1].default : null;
 const Illustration = illustrations[site.theme] || IllustrationBase;
 const textes = {
-  portrait: `Portrait de ${cab.nomComplet}`,
-  cabinet: `Le cabinet de ${cab.nomComplet}`,
+  portrait: `Portrait ${de(cab.nomComplet)}`,
+  cabinet: `Le cabinet ${de(cab.nomComplet)}`,
   ambiance: ''
 };
 ---

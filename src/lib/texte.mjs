@@ -23,3 +23,6 @@ export const lignes = (s) => String(s ?? '').split('\n').map((l) => formes(echap
 
 /* Texte brut, sans mise en forme (titres d'onglet, attributs, données structurées) */
 export const brut = (s) => String(s ?? '').replace(/\*\*?/g, '').replace(/\s*\n\s*/g, ' ').trim();
+
+/* « de » devant un nom propre, avec élision : de Lyon, d’Aix-en-Provence, d’Estelle */
+export const de = (s) => (/^[aeiouyhàâäéèêëîïôöûüœ]/i.test(String(s ?? '').trim()) ? `d’${s}` : `de ${s}`);

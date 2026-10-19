@@ -5,6 +5,7 @@
    cabinets/<cabinet>/images/ (portrait.jpg, cabinet.jpg…). Légende en verre
    dépoli, dévoilement de haut en bas et léger effet de profondeur.
    ========================================================================== */
+import { de } from '../../lib/texte.mjs';
 import { Picture } from 'astro:assets';
 const images = import.meta.glob<{ default: ImageMetadata }>('/cabinets/*/images/*.{jpg,jpeg,png,webp,avif}', { eager: true });
 
@@ -14,7 +15,7 @@ const cab = site.cab;
 const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`));
 const photo = trouve ? trouve[1].default : null;
 const mono = cab.initiales[0] + cab.initiales.slice(1).toLowerCase();
-const alt = type === 'portrait' ? `Portrait de ${cab.nomComplet}` : `Le cabinet de ${cab.nomComplet}`;
+const alt = type === 'portrait' ? `Portrait ${de(cab.nomComplet)}` : `Le cabinet ${de(cab.nomComplet)}`;
 ---
 <figure class="portrait" data-mask data-visuel={type}>
   {photo ? (

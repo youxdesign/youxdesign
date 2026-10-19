@@ -58,7 +58,8 @@ const partenaire = t.monSoutienPsy === true;
     </section>
   )}
 
-  {cab.estPsychologue && (
+  {/* Seulement si la fiche dit oui ou non (« monSoutienPsy ») : sinon on n'affirme rien */}
+  {cab.estPsychologue && typeof t.monSoutienPsy === 'boolean' && (
     <section class="section section--teinte" aria-labelledby="msp-titre">
       <div class="conteneur deux-colonnes deux-colonnes--texte">
         <div>

@@ -22,6 +22,6 @@ const reperes = choisir(cab, ['approche', 'public', 'lieu', 'horaires', 'numero'
       <p class="chapeau">{t.intro}</p>
       <BoutonRdv cab={cab} classe="bouton une__bouton" />
     </div>
-    <Visuel site={site} type="portrait" prioritaire classe="une__portrait" legende={`${cab.nomComplet}, au cabinet du ${c.quartier || c.ville}`} tailles="(min-width: 56rem) 28vw, 90vw" />
+    <Visuel site={site} type="portrait" prioritaire classe="une__portrait" legende={`${cab.nomComplet} · ${c.quartier ? `${c.quartier}, ` : ''}${c.ville}`} tailles="(min-width: 56rem) 28vw, 90vw" />
   </div>
 </section>

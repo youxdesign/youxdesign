@@ -407,7 +407,6 @@
     "Vous pouvez annuler ou déplacer un rendez-vous en me prévenant **au moins 48 heures à l’avance**.",
     "Un rendez-vous non honoré et non annulé à temps reste dû : il aurait pu bénéficier à un autre patient."
    ],
-   "monSoutienPsy": false,
    "finTitre": "Réserver une *première séance*",
    "finTexte": "Les rendez-vous se prennent par téléphone ou par e-mail."
   },

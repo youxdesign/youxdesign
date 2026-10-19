@@ -504,6 +504,7 @@ a:hover { text-decoration-thickness: 2px; }
   background: var(--c-doux);
   aspect-ratio: var(--ratio, 4 / 5);
 }
+.visuel picture { display: block; width: 100%; height: 100%; }
 .visuel img, .visuel svg { width: 100%; height: 100%; object-fit: cover; }
 .visuel figcaption, .legende {
   margin-top: var(--e-3);

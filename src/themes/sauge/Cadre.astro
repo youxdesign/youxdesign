@@ -4,6 +4,7 @@
    défilement, menu mobile plein écran, pied de page avec la signature
    « à votre rythme », bouton de rendez-vous flottant sur mobile.
    ========================================================================== */
+import { de } from '../../lib/texte.mjs';
 import Document from '../../layouts/Document.astro';
 import { PAGES } from '../../config/catalogue.mjs';
 import { lien } from '../../lib/site.mjs';
@@ -84,7 +85,7 @@ const annee = new Date().getFullYear();
       <div class="footer__top">
         <div class="footer__brand">
           <span class="brand__name">{cab.nomComplet}</span>
-          <p>{p.titre}{p.specialite ? `, ${p.specialite.replace(/\s*\(.*\)$/, '')}` : ''}. {p.public ? `${p.public}, ` : ''}{c.visio ? `au cabinet ${c.quartier ? `du ${c.quartier}` : `de ${c.ville}`} et en visio.` : `au cabinet de ${c.ville}.`}</p>
+          <p>{p.titre}{p.specialite ? `, ${p.specialite.replace(/\s*\(.*\)$/, '')}` : ''}. {p.public ? `${p.public}, ` : ''}{c.visio ? `au cabinet ${c.quartier ? `du ${c.quartier}` : de(c.ville)} et en visio.` : `au cabinet ${de(c.ville)}.`}</p>
           <div><Rdv cab={cab} classe="btn btn--light btn--sm" /></div>
         </div>
         <nav aria-labelledby="pied-cabinet">

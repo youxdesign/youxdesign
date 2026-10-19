@@ -59,11 +59,13 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
       <div class="contact__horaires">
         <h2 class="contact__titre">Horaires</h2>
         {c.horairesNote && <p class="discret">{c.horairesNote}</p>}
-        <ul class="horaires">
-          {cab.horaires.groupes.map((g) => (
-            <li class:list={{ ferme: g.ferme }}><span>{g.libelle}</span><span>{g.texte}</span></li>
-          ))}
-        </ul>
+        {cab.horaires.groupes.some((g) => !g.ferme) ? (
+          <ul class="horaires">
+            {cab.horaires.groupes.map((g) => (
+              <li class:list={{ ferme: g.ferme }}><span>{g.libelle}</span><span>{g.texte}</span></li>
+            ))}
+          </ul>
+        ) : !c.horairesNote && <p class="discret">Sur rendez-vous.</p>}
         {statut.rendre && <Statut cab={cab} cache={statut.cache} />}
         <p class="sans-formulaire">Pour protéger votre confidentialité, ce site ne propose pas de formulaire de contact : appelez ou écrivez directement.</p>
       </div>

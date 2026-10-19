@@ -68,7 +68,8 @@ const intro = (t.intro || '').replace(/\s*Joignez-moi par téléphone\.?$/, '');
     </section>
   )}
 
-  {cab.estPsychologue && (
+  {/* Seulement si la fiche dit oui ou non (« monSoutienPsy ») : sinon on n'affirme rien */}
+  {cab.estPsychologue && typeof t.monSoutienPsy === 'boolean' && (
     <section class="section" aria-labelledby="msp-titre">
       <div class="container">
         <div class="info-panel" data-reveal>

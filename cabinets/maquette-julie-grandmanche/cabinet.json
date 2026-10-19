@@ -1,0 +1,323 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Julie Grandmanche (prospect), d'après juliegrandmanchepsychologue.fr. Publiée sur youxdesign.fr/maquettes/julie-grandmanche/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.juliegrandmanchepsychologue.fr",
+  "style": "editorial",
+  "palette": 3,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ]
+ },
+ "praticien": {
+  "prenom": "Julie",
+  "nom": "Grandmanche",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "psychothérapie d’orientation psychanalytique",
+  "specialiteCourte": "Orientation psychanalytique",
+  "diplome": "Psychologue clinicienne diplômée, formée à la psychopathologie",
+  "siret": "827 923 533 00018",
+  "statut": "psychologue clinicienne exerçant en libéral",
+  "public": "Enfants, adolescents, adultes et personnes âgées",
+  "citation": "Sans jugement et sans schéma préconçu, l’écoute vous amène à vous reconnaître et à tracer votre propre histoire."
+ },
+ "contact": {
+  "telephone": "04 84 88 51 03",
+  "telephoneNote": "Consultations uniquement sur rendez-vous.",
+  "email": "contact@juliegrandmanchepsychologue.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "4 avenue du 8 Mai",
+  "complement": "Résidence Europe",
+  "codePostal": "13100",
+  "ville": "Aix-en-Provence",
+  "zone": "Aix-en-Provence et ses alentours",
+  "accessiblePMR": false,
+  "visio": true,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "À domicile",
+    "texte": "Je peux me déplacer à votre domicile, à Aix-en-Provence et dans ses alentours : Bouc-Bel-Air, Éguilles, Gardanne.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance au cabinet",
+   "lieu": "Aix-en-Provence",
+   "prix": "Sur demande",
+   "texte": "Le tarif vous est indiqué lors de la prise de rendez-vous.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance à domicile",
+   "lieu": "En dehors d’Aix-en-Provence",
+   "prix": "À partir de 50 €",
+   "duree": "40 min à 1 h",
+   "texte": "Selon la distance."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Doute, crise, difficulté à vivre",
+   "texte": "Un moment de doute ou de crise, le besoin d’être accompagné pour traverser cette étape.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Deuil",
+   "texte": "La perte d’un proche, une rupture : prendre le temps de traverser le deuil.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Devenir maman",
+   "texte": "Peurs et angoisses pendant la grossesse : une écoute bienveillante, tout au long des neuf mois ou le temps d’un moment.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Phobies",
+   "texte": "Une peur devant une situation ou un objet, qui remonte souvent à l’enfance.",
+   "icone": "plume"
+  },
+  {
+   "titre": "Burn-out",
+   "texte": "Épuisement professionnel : vous vous sentez vidé, saturé, à bout.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Stress",
+   "texte": "Apprendre à mieux gérer vos émotions, notamment grâce à l’hypnose.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Troubles alimentaires",
+   "texte": "Anorexie mentale, difficultés avec la nourriture : en parler et être accompagné.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Souvenirs traumatiques",
+   "texte": "L’IESS, inspirée de l’EMDR, aide à apaiser les émotions attachées à des souvenirs difficiles.",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Julie Grandmanche, psychologue clinicienne à Aix-en-Provence",
+   "seoDescription": "Julie Grandmanche, psychologue clinicienne à Aix-en-Provence : psychothérapie d’orientation psychanalytique pour enfants, adolescents, adultes et personnes âgées, au cabinet, à domicile ou à distance.",
+   "surtitre": "Psychologue clinicienne · Aix-en-Provence",
+   "titre": "Se reconnaître,\n*tracer sa propre histoire*",
+   "intro": "Je suis Julie Grandmanche, psychologue clinicienne diplômée et formée à la psychopathologie. Je reçois enfants, adolescents, adultes et personnes âgées à mon cabinet d’Aix-en-Provence, ou à domicile.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Vous souhaitez entreprendre une psychothérapie, pour mieux vous connaître, dépasser vos souffrances ou vos difficultés à vivre ? Voici quelques-unes des situations pour lesquelles on me consulte.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Julie*",
+   "presentation": [
+    "Pour quelques séances ou pour un travail à plus long terme de psychothérapie ou d’analyse, mon travail se réfère à la psychanalyse. J’ai moi-même une expérience personnelle de la psychothérapie et de la psychanalyse.",
+    "Les premières séances permettent de définir ensemble, de manière adaptée, le cadre du travail."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour toute information ou pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Julie Grandmanche, psychologue clinicienne à Aix-en-Provence",
+   "seoDescription": "Julie Grandmanche, psychologue clinicienne à Aix-en-Provence, formée à la psychopathologie : une écoute d’orientation psychanalytique, au cabinet, à domicile ou à distance.",
+   "titre": "Une écoute\n*sans jugement*",
+   "intro": "Je suis Julie Grandmanche, psychologue clinicienne diplômée et formée à la psychopathologie, installée à Aix-en-Provence, dans les Bouches-du-Rhône.",
+   "cabinetLegende": "Le cabinet, résidence Europe",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Les premières séances permettent de faire connaissance et de définir ensemble le cadre du travail.",
+   "demarcheTitre": "Aller *au-devant de vous*",
+   "demarche": [
+    "Le terme même de clinicien veut dire aller au chevet du patient. Si vous ne pouvez pas vous déplacer au cabinet et que vous avez besoin d’un suivi, je peux venir à vous.",
+    "Tout le monde peut avoir besoin, à un moment de sa vie, d’une écoute pour faire le point et démêler les problèmes. Il est important pour moi que chacun puisse y avoir accès, même ceux qui ne peuvent pas se déplacer."
+   ],
+   "formationsSurtitre": "Mes outils",
+   "formationsTitre": "Selon *votre demande*",
+   "formationsIntro": "En complément du travail d’orientation psychanalytique, je peux proposer :",
+   "formations": [
+    {
+     "date": "Hypnose",
+     "titre": "Hypnose ericksonienne",
+     "texte": "Pour la gestion du stress, la préparation à l’accouchement ou l’arrêt du tabac.",
+     "icone": "feuille"
+    },
+    {
+     "date": "IESS",
+     "titre": "Intégration émotionnelle par stimulation sensorielle",
+     "texte": "Une technique inspirée notamment de l’EMDR, qui apaise les émotions attachées à des souvenirs traumatiques.",
+     "icone": "eclat"
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Julie Grandmanche, psychologue à Aix-en-Provence",
+   "seoDescription": "Une psychothérapie d’orientation psychanalytique avec Julie Grandmanche, psychologue clinicienne à Aix-en-Provence : écoute, cadre, durée.",
+   "titre": "Une approche\n*d’orientation psychanalytique*",
+   "intro": "Sans jugement et sans schéma préconçu, l’analyste, au travers de son écoute, de son silence et de ses paroles, vous amène à vous reconnaître et à tracer votre propre histoire.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour en parler, le plus simple est de m’appeler ou de m’écrire.",
+   "cadreSurtitre": "Le cadre",
+   "cadreTitre": "Un travail *à votre mesure*",
+   "cadreIntro": "Le travail s’adresse à tous types de patients : enfants, adolescents, adultes et personnes âgées.",
+   "cadre": [
+    "**Pour quelques séances** ou pour un travail à plus long terme de psychothérapie ou d’analyse.",
+    "**Un cadre défini ensemble** dès les premières séances, de manière adaptée.",
+    "**Au cabinet, à domicile ou à distance**, par téléphone ou en visio."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Consultations et tarifs · Julie Grandmanche, psychologue à Aix-en-Provence",
+   "seoDescription": "Consultations au cabinet à Aix-en-Provence, à domicile ou à distance avec Julie Grandmanche, psychologue clinicienne : déroulement et tarifs.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Des séances claires,\n*sans surprise*",
+   "intro": "Les entretiens ont lieu au cabinet, à votre domicile à Aix-en-Provence et dans ses alentours, ou à distance, par téléphone ou en visio.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Les rendez-vous se prennent par téléphone ou par e-mail."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Julie Grandmanche, psychologue à Aix-en-Provence",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui.",
+        "Les notes que je prends sont conservées de façon sécurisée et ne sont communiquées à personne."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Vous pouvez m’appeler ou m’écrire : je vous réponds dans les meilleurs délais."
+  },
+  "contact": {
+   "seoTitre": "Contact et accès · Julie Grandmanche, psychologue à Aix-en-Provence",
+   "seoDescription": "Adresse, téléphone et e-mail du cabinet de Julie Grandmanche, psychologue clinicienne, 4 avenue du 8 Mai à Aix-en-Provence. Consultations aussi à domicile et à distance.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 4 avenue du 8 Mai, résidence Europe, à Aix-en-Provence. Je peux aussi me déplacer à votre domicile.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*",
+   "visio": [
+    "Je propose aussi des entretiens à distance, par téléphone ou en visio, si vous ne pouvez pas venir au cabinet."
+   ]
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Julie Grandmanche"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

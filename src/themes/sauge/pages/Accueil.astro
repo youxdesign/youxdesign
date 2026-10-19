@@ -1,5 +1,6 @@
 ---
 /* Accueil du style « Sauge » (démo Claire Morel) */
+import { de } from '../../../lib/texte.mjs';
 import Cadre from '../Cadre.astro';
 import Titre from '../Titre.astro';
 import Rdv from '../Rdv.astro';
@@ -72,7 +73,7 @@ const badge = `${p.titre.split(' ')[0]} · ${p.specialiteCourte ? p.specialiteCo
           {statut.rendre && (
             <div class="status-card" data-statut data-option="statut" hidden={statut.cache} data-horaires={JSON.stringify(cab.horaires.compact)} data-depth="8">
               <span class="dot" aria-hidden="true"></span>
-              <span><strong data-statut-texte>Cabinet {c.quartier ? `du ${c.quartier}` : `de ${c.ville}`}</strong><span data-statut-detail>{premierGroupe ? `${premierGroupe.libelle} ${premierGroupe.texte}` : 'Sur rendez-vous'}</span></span>
+              <span><strong data-statut-texte>Cabinet {c.quartier ? `du ${c.quartier}` : de(c.ville)}</strong><span data-statut-detail>{premierGroupe ? `${premierGroupe.libelle} ${premierGroupe.texte}` : 'Sur rendez-vous'}</span></span>
             </div>
           )}
           <div class="badge-rotate" data-depth="-8" aria-hidden="true">
