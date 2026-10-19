@@ -1,0 +1,326 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Zoé Hérard (prospect), d'après zoehpsychologue.fr. Publiée sur youxdesign.fr/maquettes/zoe-herard/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.zoehpsychologue.fr",
+  "style": "pastel",
+  "palette": 2,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq",
+   "statut"
+  ]
+ },
+ "praticien": {
+  "prenom": "Zoé",
+  "nom": "Hérard",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute",
+  "specialite": "périnatalité, parentalité et EMDR",
+  "specialiteCourte": "Approche intégrative",
+  "diplome": "Master 2 de psychologie du développement de l’enfant, de l’adolescent et de la famille, et de l’éducation",
+  "adeli": "10 93 0414 7",
+  "siret": "881 236 475 00011",
+  "statut": "psychologue exerçant en libéral",
+  "public": "Enfants, adolescents, adultes et parents",
+  "citation": "Accompagner quelqu’un, c’est marcher à ses côtés en le laissant libre de choisir son chemin et le rythme de son pas."
+ },
+ "contact": {
+  "telephone": "07 56 83 88 30",
+  "telephoneNote": "Prise de rendez-vous par téléphone ou par SMS.",
+  "email": "zoehpsychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "3 impasse du Stade",
+  "complement": "Maison médico-sociale",
+  "codePostal": "10270",
+  "ville": "Lusigny-sur-Barse",
+  "zone": "Lusigny-sur-Barse, Clérey et alentours de Troyes",
+  "accessiblePMR": false,
+  "visio": true,
+  "horaires": {
+   "lundi": "9:00-13:00",
+   "mardi": "14:30-19:30",
+   "mercredi": "9:00-18:00",
+   "jeudi": "14:00-20:00",
+   "vendredi": "9:00-13:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Deuxième cabinet",
+    "texte": "2 route de Champagne, 10390 Clérey.",
+    "icone": "porte"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Jusqu’à 15 km autour du cabinet, lorsque le déplacement est difficile : retour d’hospitalisation, baby-blues…",
+    "icone": "voiture"
+   },
+   {
+    "titre": "En marchant",
+    "texte": "Pour certaines personnes, un suivi au contact de la nature, en marchant, est envisageable : nous en parlons à la prise de rendez-vous.",
+    "icone": "feuille"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "lieu": "Au cabinet, à domicile ou en ligne",
+   "prix": "55 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "EMDR ou couple",
+   "lieu": "Au cabinet",
+   "prix": "65 €"
+  },
+  {
+   "nom": "Étudiant, demandeur d’emploi",
+   "lieu": "Tarif réduit",
+   "prix": "50 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Périnatalité",
+   "texte": "Devenir parent, l’être de nouveau, essayer de le devenir, le baby-blues : en parler et être accompagné.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Comprendre son enfant, retrouver confiance en soi comme parent, le burn-out parental.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Les difficultés liées à une phase de développement particulière.",
+   "icone": "plume"
+  },
+  {
+   "titre": "Anxiété et déprime",
+   "texte": "Angoisses, tristesse, état dépressif : retrouver un mieux-être.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "L’EMDR, reconnue par l’OMS, pour traiter les traumatismes psychiques.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Périodes de crise",
+   "texte": "Une situation difficile, une période de crise : comprendre ce qui se joue pour avancer.",
+   "icone": "vagues"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Zoé Hérard, psychologue à Lusigny-sur-Barse et Clérey, près de Troyes",
+   "seoDescription": "Zoé Hérard, psychologue et psychothérapeute à Lusigny-sur-Barse et Clérey : périnatalité, parentalité, enfants, adolescents, adultes, EMDR. Au cabinet, en ligne, à domicile ou en marchant.",
+   "surtitre": "Psychologue · Psychothérapeute · Près de Troyes",
+   "titre": "Marcher à vos côtés,\n*à votre rythme*",
+   "intro": "Je suis Zoé Hérard, psychologue et psychothérapeute. J’accompagne enfants, adolescents, adultes et parents, à Lusigny-sur-Barse et à Clérey, en ligne, à domicile ou même en marchant.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Chaque personne est unique, et c’est ce qui fait la richesse de la prise en charge. Si ce qui vous questionne n’est pas mentionné ici, parlons-en : aucune difficulté n’est à prendre à la légère.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Zoé*",
+   "presentation": [
+    "J’exerce dans le but d’amener chacun à trouver des solutions qui lui sont propres. À partir de mes connaissances scientifiques, de votre personnalité et de votre histoire, nous réfléchissons ensemble à une prise en charge adaptée.",
+    "Mon but : vous amener à un mieux-être et à une compréhension plus éclairée de votre propre fonctionnement psychique."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Les rendez-vous se prennent par téléphone ou par SMS, ou par e-mail.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Zoé Hérard, psychologue près de Troyes",
+   "seoDescription": "Zoé Hérard, psychologue diplômée d’un Master 2 de psychologie du développement : une approche intégrative, tout au long de la vie.",
+   "titre": "Une approche\n*tout au long de la vie*",
+   "intro": "Diplômée d’un Master 2 de psychologie du développement de l’enfant, de l’adolescent et de la famille, et de l’éducation, mon approche se veut intégrative.",
+   "cabinetLegende": "La maison médico-sociale de Lusigny-sur-Barse",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou envoyez-moi un SMS.",
+   "demarcheTitre": "La personne *dans sa globalité*",
+   "demarche": [
+    "J’utilise plusieurs courants de la psychologie lors des entretiens, afin de m’adapter au mieux à votre demande.",
+    "J’ai à cœur de prendre en compte chacun dans sa globalité, en faisant attention à son environnement : ils sont en perpétuelle interaction. Cette approche permet de comprendre les difficultés liées à une situation, à une période de crise ou à une phase de développement particulière."
+   ],
+   "valeursSurtitre": "Mes valeurs",
+   "valeursTitre": "Ce qui guide *chaque entretien*",
+   "valeurs": [
+    {
+     "titre": "Le respect et la bienveillance",
+     "texte": "Dans chaque entretien, au cabinet, à l’extérieur ou en institution."
+    },
+    {
+     "titre": "La confidentialité",
+     "texte": "Le code de déontologie des psychologues guide ma pratique au quotidien."
+    },
+    {
+     "titre": "L’écoute active et l’authenticité",
+     "texte": "Pour que vous trouviez la solution qui vous convient le mieux."
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Zoé Hérard, psychologue près de Troyes",
+   "seoDescription": "Approche intégrative et EMDR avec Zoé Hérard, psychologue à Lusigny-sur-Barse et Clérey : au cabinet, en ligne, à domicile ou en marchant.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "Chaque personne est différente et les besoins sont singuliers. J’utilise plusieurs courants de la psychologie pour m’adapter à votre demande, et je pratique aussi l’EMDR.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Tout cela se discute lors de la prise de rendez-vous, de préférence par téléphone.",
+   "cadreSurtitre": "Les façons de se rencontrer",
+   "cadreTitre": "Au cabinet, *et ailleurs*",
+   "cadre": [
+    "**Au cabinet**, à la maison médico-sociale de Lusigny-sur-Barse ou à Clérey.",
+    "**En ligne**, par Skype, FaceTime ou WhatsApp, après un premier contact par téléphone ou par e-mail.",
+    "**À domicile**, jusqu’à 15 km autour du cabinet, lorsque le déplacement est difficile.",
+    "**En marchant**, au contact de la nature : l’esprit est plus libre, et des liens se créent parfois plus facilement."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Tarifs · Zoé Hérard, psychologue près de Troyes",
+   "seoDescription": "Tarifs des séances avec Zoé Hérard, psychologue à Lusigny-sur-Barse et Clérey : séance individuelle, EMDR ou couple, tarif réduit.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Des séances claires,\n*sans surprise*",
+   "intro": "Les séances ont lieu au cabinet, en ligne ou à domicile. Une question avant de prendre rendez-vous ? Appelez-moi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Les rendez-vous se prennent par téléphone ou par SMS.",
+   "tarifsNote": "Les séances chez un psychologue ne sont pas remboursées par la Sécurité sociale, mais de plus en plus de mutuelles proposent un remboursement : renseignez-vous auprès de la vôtre."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Zoé Hérard, psychologue à Lusigny-sur-Barse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Vous pouvez m’appeler ou m’écrire : je vous réponds dans les meilleurs délais."
+  },
+  "contact": {
+   "seoTitre": "Contact · Zoé Hérard, psychologue à Lusigny-sur-Barse et Clérey",
+   "seoDescription": "Adresses, horaires et téléphone de Zoé Hérard, psychologue : maison médico-sociale de Lusigny-sur-Barse et 2 route de Champagne à Clérey.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois à la maison médico-sociale de Lusigny-sur-Barse, ou au 2 route de Champagne, à Clérey.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*",
+   "visio": [
+    "Je propose aussi des séances en ligne, par Skype, FaceTime ou WhatsApp. Une première prise de contact par téléphone ou par e-mail permet de fixer le rendez-vous."
+   ]
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Zoé Hérard"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
