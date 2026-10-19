@@ -25,17 +25,20 @@ interface Props {
   tailles?: string;
   classe?: string;
   variante?: number;
+  repli?: boolean;
 }
-const { site, type, alt, legende, prioritaire = false, tailles = '(min-width: 56rem) 40vw, 100vw', classe, variante = 1 } = Astro.props;
+const { site, type, alt, legende, prioritaire = false, tailles = '(min-width: 56rem) 40vw, 100vw', classe, variante = 1, repli = false } = Astro.props;
 const cab = site.cab;
 const fichier = variante > 1 ? `${type}-${variante}` : type;
 const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${fichier}.`))
   || (variante > 1 ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`)) : undefined);
-/* Pas de portrait, mais une photo du cabinet : on montre le cabinet plutôt
-   qu'une illustration */
-const secours = !trouve && type === 'portrait'
-  ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/cabinet.`))
+/* Pas de portrait mais une photo du cabinet : on montre le cabinet plutôt
+   qu'une illustration (et l'inverse si « repli » est demandé : page À propos) */
+const autre = type === 'portrait' ? 'cabinet' : type === 'cabinet' && repli ? 'portrait' : null;
+const secours = !trouve && autre
+  ? Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${autre}.`))
   : undefined;
+const montre = secours ? autre : type;
 const photo = trouve ? trouve[1].default : secours ? secours[1].default : null;
 const Illustration = illustrations[site.theme] || IllustrationBase;
 const textes = {
@@ -45,11 +48,11 @@ const textes = {
 };
 ---
 <figure class:list={['cadre-visuel', classe]}>
-  <div class:list={['visuel', `visuel--${secours ? 'cabinet' : type}`, { 'visuel--illustration': !photo }]} data-visuel={type}>
+  <div class:list={['visuel', `visuel--${montre}`, { 'visuel--illustration': !photo }]} data-visuel={type}>
     {photo ? (
       <Picture
         src={photo}
-        alt={alt ?? textes[secours ? 'cabinet' : type]}
+        alt={alt ?? textes[montre]}
         formats={['avif', 'webp']}
         fallbackFormat="jpg"
         widths={[480, 800, 1200]}
@@ -61,5 +64,6 @@ const textes = {
       <Illustration type={type} cab={cab} variante={variante} />
     )}
   </div>
-  {legende && <figcaption class="legende">{legende}</figcaption>}
+  {/* la légende « Le cabinet… » ne va pas sous un portrait */}
+  {legende && !(secours && type === 'cabinet') && <figcaption class="legende">{legende}</figcaption>}
 </figure>

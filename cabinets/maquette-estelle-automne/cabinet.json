@@ -1,0 +1,388 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Estelle Automne (prospect), d'après automne-psychologue.fr. Publiée sur youxdesign.fr/maquettes/estelle-automne/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.automne-psychologue.fr",
+  "style": "immersif",
+  "palette": 1,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq",
+   "statut"
+  ],
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Estelle",
+  "nom": "Automne",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "approche humaniste et intégrative : thérapie analytique, approche centrée sur la personne, hypnose ericksonienne et MAP",
+  "specialiteCourte": "Humaniste et intégrative",
+  "diplome": "Master 2 (DESS) de psychologie clinique et psychopathologie, mention psychosomatique (Université Paris XIII, 2006)",
+  "adeli": "849304332",
+  "statut": "psychologue clinicienne exerçant en libéral",
+  "public": "Enfants, adolescents, adultes et couples",
+  "citation": "Le patient est au centre du travail thérapeutique."
+ },
+ "contact": {
+  "telephone": "06 77 60 02 57",
+  "email": "estelle.automne@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "8 boulevard de la Liberté",
+  "codePostal": "47000",
+  "ville": "Agen",
+  "zone": "Agen et alentours",
+  "accessiblePMR": false,
+  "visio": false,
+  "horaires": {
+   "lundi": "9:00-19:30",
+   "mardi": "9:00-19:30",
+   "mercredi": "9:00-19:30",
+   "jeudi": "9:00-19:30",
+   "vendredi": "9:00-19:30",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Alentours",
+    "texte": "Le cabinet est proche du Passage, de Boé, Bon-Encontre, Estillac, Colayrac-Saint-Cirq, Foulayronnes et Pont-du-Casse.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Je me déplace à domicile lorsque votre état ne vous permet pas de vous déplacer.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "lieu": "Enfants, adolescents, adultes",
+   "prix": "Sur demande",
+   "duree": "45 min",
+   "texte": "Nous déterminons ensemble la fréquence des séances.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation de couple",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "duree": "1 h"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Humeur et anxiété",
+   "texte": "Dépression, anxiété, stress, angoisse, phobie.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Deuil et séparation",
+   "texte": "Difficulté à surmonter un deuil, une séparation, l’isolement.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Relations et estime de soi",
+   "texte": "Problèmes relationnels, manque de confiance en soi, d’estime de soi.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Addictions, alimentation, sommeil",
+   "texte": "Troubles addictifs, troubles alimentaires, troubles du sommeil.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Le corps et la santé",
+   "texte": "Vivre avec une pathologie organique, psychosomatisation.",
+   "icone": "poumons"
+  },
+  {
+   "titre": "Pour les enfants",
+   "texte": "Difficultés scolaires et relationnelles, anxiété, manque de confiance, problèmes comportementaux.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Estelle Automne, psychologue et psychothérapeute à Agen",
+   "seoDescription": "Estelle Automne, psychologue clinicienne et psychothérapeute à Agen : enfants, adolescents, adultes et couples. Approche humaniste, hypnose ericksonienne, MAP.",
+   "surtitre": "Psychologue · Psychothérapeute · Hypnose ericksonienne · Agen",
+   "titre": "Une écoute\n*et une aide*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je vous propose une écoute, un accompagnement et une aide face aux difficultés que vous rencontrez. Je vous reçois à Agen sur rendez-vous, et à domicile lorsque votre état ne vous permet pas de vous déplacer.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "La vie est jalonnée d’épreuves qu’il est parfois difficile de traverser seul. Les consultations s’adressent aux enfants, adolescents, adultes et couples.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Estelle*",
+   "presentation": [
+    "Mon approche est humaniste et intégrative : je pars du principe que le patient est au centre du travail thérapeutique.",
+    "Le processus thérapeutique est une co-création, rendue possible grâce à la relation de confiance qui se développe peu à peu entre celui qui demande de l’aide et celui qui aide."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Je vous reçois sur rendez-vous, du lundi au vendredi, au cabinet ou à domicile si vous ne pouvez pas vous déplacer.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Estelle Automne, psychologue à Agen",
+   "seoDescription": "Parcours d’Estelle Automne, psychologue clinicienne diplômée de Paris XIII, formée à l’approche centrée sur la personne, à l’hypnose ericksonienne et aux MAP.",
+   "titre": "Un bon accordage\n*entre vous et moi*",
+   "intro": "Je suis psychologue clinicienne, diplômée de l’université Paris XIII en 2006 avec une spécialisation en psychosomatique. D’orientation universitaire psychanalytique, je me suis ensuite formée à des techniques et approches complémentaires.",
+   "cabinetLegende": "Le cabinet, 8 boulevard de la Liberté",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Il n’y a pas « une bonne approche thérapeutique », mais un bon accordage à réaliser entre le thérapeute et son patient.",
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "De l’institution *au cabinet*",
+   "parcours": [
+    {
+     "date": "2006",
+     "titre": "Master 2 (DESS) de psychologie clinique et psychopathologie",
+     "texte": "Mention psychosomatique, université Paris XIII."
+    },
+    {
+     "date": "En institution",
+     "titre": "Expérience en établissements",
+     "texte": "EHPAD, psychiatrie, oncologie, SSR, soins palliatifs."
+    },
+    {
+     "date": "2011",
+     "titre": "Activité libérale",
+     "texte": "Je consulte en libéral depuis 2011."
+    },
+    {
+     "date": "Aujourd’hui",
+     "titre": "Cabinet à Agen",
+     "texte": "Enfants, adolescents, adultes et couples, au cabinet ou à domicile."
+    }
+   ],
+   "formationsSurtitre": "Formations",
+   "formationsTitre": "Des approches *complémentaires*",
+   "formations": [
+    {
+     "titre": "Approche centrée sur la personne",
+     "texte": "L’approche humaniste de Carl Rogers, à l’UQAM, au Québec."
+    },
+    {
+     "titre": "Hypnose ericksonienne et thérapies brèves",
+     "texte": "Institut Milton Erickson Avignon Provence, avec le Dr Bellet."
+    },
+    {
+     "titre": "MAP (mouvements alternatifs pluriels)",
+     "texte": "Une continuation de l’EMDR, avec le Dr Doutrelugne."
+    },
+    {
+     "titre": "Éducation thérapeutique du patient",
+     "texte": "Apport santé, Aix-en-Provence."
+    }
+   ],
+   "valeursSurtitre": "Mes engagements",
+   "valeursTitre": "Ce qui guide *ma pratique*",
+   "valeurs": [
+    {
+     "titre": "La déontologie",
+     "texte": "Je travaille dans le respect du code de déontologie des psychologues."
+    },
+    {
+     "titre": "Formation et supervision",
+     "texte": "J’enrichis ma pratique par des formations et une supervision régulière."
+    },
+    {
+     "titre": "Le réseau Apport santé",
+     "texte": "J’anime des groupes d’éducation thérapeutique : obésité, diabète, BPCO, maladie cardio-vasculaire."
+    },
+    {
+     "titre": "Le réseau Sofaxis",
+     "texte": "Soutien psychologique des salariés en arrêt de travail depuis au moins trois mois."
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Estelle Automne, psychologue à Agen",
+   "seoDescription": "Une approche humaniste et intégrative avec Estelle Automne à Agen : thérapie analytique, approche centrée sur la personne, hypnose ericksonienne et MAP.",
+   "titre": "Une approche\n*humaniste et intégrative*",
+   "intro": "Il n’y a pas pour moi « une bonne approche thérapeutique » (qui pourrait juger pour tous ?) mais un bon accordage à réaliser entre le thérapeute et son patient. Je vous reçois en intégrant différentes approches, selon vos besoins et vos attentes.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Nous verrons ensemble, dès le premier rendez-vous, ce qui vous convient.",
+   "outilsSurtitre": "Les approches",
+   "outilsTitre": "Plusieurs outils, *selon vos besoins*",
+   "outilsIntro": "Je m’appuie sur différentes approches théoriques pour vous accompagner selon vos attentes.",
+   "outils": [
+    {
+     "titre": "La thérapie analytique",
+     "texte": "Un travail sur soi en profondeur, en face-à-face : le thérapeute pose des questions, reformule, relance, et vous aide à mettre des mots sur votre ressenti.",
+     "icone": "livre"
+    },
+    {
+     "titre": "L’approche centrée sur la personne",
+     "texte": "Une écoute respectueuse et empathique, qui permet de s’exprimer librement, sans crainte du jugement, et favorise la compréhension et l’acceptation de soi.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "L’hypnose ericksonienne",
+     "texte": "Un état de conscience particulier, dit modifié, qui permet la détente et l’accès à des images, des pensées intérieures. Non directive, elle part de la conviction que chacun possède les ressources nécessaires au changement.",
+     "icone": "vagues"
+    },
+    {
+     "titre": "Les MAP",
+     "texte": "Les mouvements alternatifs pluriels intègrent à l’EMDR, élaboré par F. Shapiro pour le traitement de l’état de stress post-traumatique, des outils de thérapies brèves orientées solution et d’hypnothérapie.",
+     "icone": "boucle"
+    }
+   ],
+   "cadreSurtitre": "L’essentiel",
+   "cadreTitre": "La relation, *avant tout*",
+   "cadre": [
+    "Indépendamment des outils, c’est à partir de **la relation patient-thérapeute** et de la qualité d’écoute empathique que la thérapie peut « prendre ».",
+    "**Vous êtes le seul juge** : le plus important est de vous sentir profondément en confiance avec le thérapeute que vous choisirez."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Estelle Automne, psychologue à Agen",
+   "seoDescription": "Durée des séances, règlement et annulation avec Estelle Automne, psychologue à Agen : séances individuelles et consultations de couple.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances individuelles durent 45 minutes, les consultations de couple 1 heure. Nous déterminons ensemble la fréquence des séances.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Le *règlement*",
+   "paiement": "La consultation est réglée en fin de chaque séance.",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*",
+   "annulation": [
+    "Les séances non annulées **24 heures à l’avance** sont dues, ce temps vous étant réservé.",
+    "Merci donc de me prévenir au plus tôt si vous devez annuler votre rendez-vous."
+   ]
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Estelle Automne, psychologue à Agen",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Estelle Automne, psychologue à Agen",
+   "seoDescription": "Adresse, horaires et téléphone du cabinet d’Estelle Automne, psychologue, 8 boulevard de la Liberté à Agen.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 8 boulevard de la Liberté, à Agen. Je vous reçois sur rendez-vous, du lundi au vendredi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Estelle Automne"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
