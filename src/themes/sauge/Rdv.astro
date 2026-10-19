@@ -12,7 +12,7 @@ const rdv = cab.rdv;
   </a>
 ) : (
   <a class={classe} href={cab.tel.lien}>
-    {texte || `Appeler le ${cab.tel.affiche}`}
+    {texte || 'Appeler le cabinet'}<span class="sr-only"> au {cab.tel.affiche}</span>
     <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" /></svg>
   </a>
 )}

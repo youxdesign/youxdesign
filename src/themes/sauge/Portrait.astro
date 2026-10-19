@@ -12,10 +12,18 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/cabinets/*/images/
 interface Props { site: any; type: 'portrait' | 'cabinet'; titre: string; detail?: string; complement?: string }
 const { site, type, titre, detail, complement } = Astro.props;
 const cab = site.cab;
-const trouve = Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${type}.`));
+const cherche = (t) => Object.entries(images).find(([chemin]) => chemin.startsWith(`/cabinets/${cab.id}/images/${t}.`));
+/* À défaut de la photo demandée, l'autre (portrait ou cabinet) plutôt que les initiales */
+const autre = type === 'portrait' ? 'cabinet' : 'portrait';
+const trouve = cherche(type) || cherche(autre);
+const montre = trouve && !cherche(type) ? autre : type;
 const photo = trouve ? trouve[1].default : null;
 const mono = cab.initiales[0] + cab.initiales.slice(1).toLowerCase();
-const alt = type === 'portrait' ? `Portrait ${de(cab.nomComplet)}` : `Le cabinet ${de(cab.nomComplet)}`;
+const alt = montre === 'portrait' ? `Portrait ${de(cab.nomComplet)}` : `Le cabinet ${de(cab.nomComplet)}`;
+/* « Le cabinet… » ne va pas sous un portrait : on légende avec le nom */
+const legende = montre === 'portrait' && type === 'cabinet'
+  ? { titre: cab.nomComplet, detail: cab.praticien.titre, complement }
+  : { titre, detail, complement };
 ---
 <figure class="portrait" data-mask data-visuel={type}>
   {photo ? (
@@ -24,7 +32,7 @@ const alt = type === 'portrait' ? `Portrait ${de(cab.nomComplet)}` : `Le cabinet
     <div class="portrait__mono" data-parallax="0.12" aria-hidden="true">{mono}</div>
   )}
   <figcaption class="portrait__caption">
-    <span><strong>{titre}</strong>{detail && <><br />{detail}</>}</span>
-    {complement && <span class="muted">{complement}</span>}
+    <span><strong>{legende.titre}</strong>{legende.detail && <><br />{legende.detail}</>}</span>
+    {legende.complement && <span class="muted">{legende.complement}</span>}
   </figcaption>
 </figure>

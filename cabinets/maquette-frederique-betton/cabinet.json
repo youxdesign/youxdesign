@@ -1,0 +1,354 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Frédérique Betton (prospect), d'après psychologue-frederique-betton.fr. Publiée sur youxdesign.fr/maquettes/frederique-betton/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-frederique-betton.fr",
+  "style": "sauge",
+  "palette": 1,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ]
+ },
+ "praticien": {
+  "prenom": "Frédérique",
+  "nom": "Betton",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychanalyste",
+  "specialite": "psychothérapie analytique, thérapie humaniste et existentielle, psychanalyse",
+  "specialiteCourte": "Psychanalyse",
+  "diplome": "Master 2 de psychologie clinique (Université Lyon 2)",
+  "adeli": "079303814",
+  "public": "Adultes",
+  "citation": "La parole est toujours interactive, et je privilégie l’échange à l’écoute passive."
+ },
+ "contact": {
+  "telephone": "06 19 05 70 51",
+  "email": "frederique.betton@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "23 boulevard de la République",
+  "codePostal": "07100",
+  "ville": "Annonay",
+  "accessiblePMR": true,
+  "visio": true,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "En rez-de-chaussée",
+    "texte": "À l’angle de la rue Récluzière et du boulevard de la République.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Stationnement",
+    "texte": "De nombreuses places de parking sont à votre disposition.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "lieu": "Au cabinet, en face à face",
+   "prix": "Sur demande",
+   "duree": "45 min environ",
+   "texte": "Le rythme des séances se discute ensemble.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Téléconsultation",
+   "lieu": "En visioconférence",
+   "prix": "Sur demande",
+   "texte": "Pour les personnes ne pouvant ou ne souhaitant pas se déplacer."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Le mal de vivre",
+   "texte": "Lorsqu’on pense avoir tout pour être heureux et que, malgré cela, des symptômes douloureux persistent, voire s’amplifient.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Les crises de la vie",
+   "texte": "À 30, 40, 50 ou 60 ans, ce que l’on avait refoulé ressurgit et fait effraction dans nos vies assagies.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Jeunes adultes",
+   "texte": "Trouble de l’alimentation, fréquentations douloureuses, usage de produits toxiques, arrêt ou perte de sens des études.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Corps et comportement",
+   "texte": "La détresse psychique peut se manifester par des troubles du comportement, ou des troubles psychosomatiques.",
+   "icone": "poumons"
+  },
+  {
+   "titre": "La maturité",
+   "texte": "La retraite, attendue ou redoutée, les limites physiques, le couple à réinventer : le sens à donner à sa vie.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Frédérique Betton, psychologue clinicienne et psychanalyste à Annonay",
+   "seoDescription": "Frédérique Betton, psychologue clinicienne, psychothérapeute et psychanalyste à Annonay depuis 1996 : psychothérapie pour adultes, au cabinet ou en visioconférence.",
+   "surtitre": "Psychologue clinicienne · Psychanalyste · Annonay",
+   "titre": "Prendre le temps\n*de la réflexion*",
+   "intro": "Psychologue clinicienne, psychothérapeute et psychanalyste, je reçois les adultes à mon cabinet d’Annonay, ou en visioconférence pour les personnes ne souhaitant pas se déplacer.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "La détresse psychique ne se manifeste pas toujours par une plainte clairement exprimée. Je reçois uniquement des adultes, quel que soit le moment de leur vie.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Frédérique*",
+   "presentation": [
+    "J’exerce en cabinet depuis 1996, à Annonay.",
+    "Le premier rendez-vous est un temps de rencontre où nous échangeons sur la problématique qui vous a amené à consulter."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Le premier rendez-vous permet d’évaluer vos besoins, ainsi que le type de suivi et de soutien qui vous correspondra au mieux.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "Parcours · Frédérique Betton, psychologue à Annonay",
+   "seoDescription": "Parcours de Frédérique Betton, psychologue clinicienne (Lyon 2), psychothérapeute, psychanalyste et psychologue expert auprès des tribunaux, à Annonay.",
+   "titre": "En cabinet\n*depuis 1996*",
+   "intro": "Psychologue clinicienne, psychothérapeute et psychanalyste, j’exerce en cabinet depuis 1996, et auprès de diverses associations dont le personnel peut rencontrer des difficultés, ainsi que dans des services hospitaliers.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Je vous reçois à mon cabinet d’Annonay, ou en visioconférence.",
+   "parcoursSurtitre": "Ma formation",
+   "parcoursTitre": "Un parcours *pluriel*",
+   "parcours": [
+    {
+     "date": "Université",
+     "titre": "Psychologue clinicienne",
+     "texte": "Université Lyon 2."
+    },
+    {
+     "date": "Thérapies",
+     "titre": "Psychothérapeute",
+     "texte": "Formée à la psychothérapie analytique, ainsi qu’à la thérapie humaniste et existentielle (I. Yalom)."
+    },
+    {
+     "date": "Psychanalyse",
+     "titre": "Psychanalyste",
+     "texte": "Formation et supervisions au sein du IVe Groupe et auprès de membres de l’ACF."
+    },
+    {
+     "date": "Expertise",
+     "titre": "Psychologue expert",
+     "texte": "Diplôme universitaire d’expertise judiciaire psychiatrique et psychologique."
+    }
+   ],
+   "valeursSurtitre": "Bon à savoir",
+   "valeursTitre": "Des titres *protégés*",
+   "valeurs": [
+    {
+     "titre": "Le titre de psychologue",
+     "texte": "Il est protégé et réglementé : les psychologues cliniciens sont titulaires d’un Master 2 ou d’un DESS de psychologie clinique et psychopathologie."
+    },
+    {
+     "titre": "Le titre de psychothérapeute",
+     "texte": "Depuis 2004, il est réservé aux professionnels inscrits au registre national des psychothérapeutes, et garantit un niveau de formation en psychopathologie."
+    },
+    {
+     "titre": "Des adultes uniquement",
+     "texte": "L’expérience m’a amenée à la conclusion que seul un adulte autonome, quel que soit le moment de sa vie, me paraît être en mesure d’opérer les changements nécessaires à son mieux-être."
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Frédérique Betton, psychologue à Annonay",
+   "seoDescription": "Psychothérapie analytique, thérapie humaniste et existentielle, psychanalyse : l’approche de Frédérique Betton, psychologue à Annonay. Expertise judiciaire.",
+   "titre": "Un lieu d’écoute\n*de votre inconscient*",
+   "intro": "Lorsqu’on pense avoir tout pour être heureux et que, malgré cela, le mal de vivre persiste, le cabinet devient un lieu d’écoute de votre inconscient.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "N’hésitez pas à me contacter pour en parler.",
+   "cercleSurtitre": "L’inconscient",
+   "cercleTitre": "Mettre en mots *ce qui revient*",
+   "cercle": [
+    "L’inconscient peut se définir sommairement par toutes les pensées et ressentis que nous ne pouvons plus nous autoriser, sous peine de déflagrations intérieures trop déstabilisantes sans un accompagnement pour les mettre en mots, et ainsi pouvoir les contenir.",
+    "Par crises successives, l’inconscient ressurgit. Une écoute professionnelle peut vous aider à prendre le temps de la réflexion et de la maturation, pour que ces retours du refoulé soient fructueux, et pas seulement des crises passagères à répétition."
+   ],
+   "outilsSurtitre": "Mes approches",
+   "outilsTitre": "Des méthodes *adaptées à vous*",
+   "outils": [
+    {
+     "titre": "La psychothérapie analytique",
+     "texte": "Chaque patient est unique : les méthodes thérapeutiques sont adaptées au patient ainsi qu’à ses problématiques.",
+     "icone": "livre"
+    },
+    {
+     "titre": "La thérapie humaniste et existentielle",
+     "texte": "Inspirée d’I. Yalom, plus basée sur l’ici et maintenant de la personne en souffrance que sur l’analyse de son passé.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "La téléconsultation",
+     "texte": "Les confinements nous ont permis de vérifier que nous pouvons faire de l’excellent travail à distance : la parole et la quête de sens sont toujours au rendez-vous.",
+     "icone": "visio"
+    }
+   ],
+   "cadreSurtitre": "Psychologue expert",
+   "cadreTitre": "Expertise *et suivis judiciaires*",
+   "cadre": [
+    "Titulaire du **Diplôme universitaire d’expertise judiciaire psychiatrique et psychologique**, j’exerce auprès des tribunaux à la demande des juges, et également à la demande d’avocats ou de particuliers.",
+    "J’effectue également des **suivis socio-judiciaires** dans le cadre d’injonctions de soins."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Frédérique Betton, psychologue à Annonay",
+   "seoDescription": "Durée des séances, téléconsultation et remboursement avec Frédérique Betton, psychologue à Annonay. Non partenaire du dispositif Mon soutien psy.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les entretiens se font en face à face et durent environ 45 minutes. Le cadre thérapeutique, défini par le rythme des séances, se discute entre nous.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "N’hésitez pas à me contacter pour obtenir des renseignements complémentaires.",
+   "paiementSurtitre": "Remboursement",
+   "paiementTitre": "Mutuelle *et facture*",
+   "paiement": "Certaines mutuelles remboursent tout ou partie des séances : renseignez-vous auprès de la vôtre. Une facture vous sera délivrée le cas échéant.",
+   "monSoutienPsy": false
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Frédérique Betton, psychologue à Annonay",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Frédérique Betton, psychologue à Annonay",
+   "seoDescription": "Adresse et téléphone du cabinet de Frédérique Betton, psychologue, 23 boulevard de la République à Annonay. Consultations au cabinet ou en visioconférence.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois à mon cabinet d’Annonay, ou en visioconférence.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "À distance",
+   "visioTitre": "La *téléconsultation*",
+   "visio": [
+    "Des consultations en visioconférence sont proposées pour les personnes ne pouvant ou ne souhaitant pas se déplacer.",
+    "N’hésitez pas à me contacter afin d’obtenir des renseignements complémentaires à ce sujet."
+   ]
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Frédérique Betton"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

@@ -60,9 +60,12 @@ const joursJs = (g) => g.jours.map((j) => (j.index + 1) % 7).join(',');
           <span class="card__icon"><Picto nom="horloge" /></span>
           <div><h2 class="contact-line__titre">Horaires</h2><p>{c.horairesNote || 'Sur rendez-vous'}</p></div>
         </div>
-        <ul class="hours">
-          {cab.horaires.groupes.map((g) => <li data-jours={joursJs(g)}><span>{g.libelle}</span><span>{g.texte}</span></li>)}
-        </ul>
+        {/* aucun jour renseigné : pas de liste « Lundi – dimanche : Fermé » */}
+        {cab.horaires.groupes.some((g) => !g.ferme) && (
+          <ul class="hours">
+            {cab.horaires.groupes.map((g) => <li data-jours={joursJs(g)}><span>{g.libelle}</span><span>{g.texte}</span></li>)}
+          </ul>
+        )}
         <p class="small muted">Pour protéger votre confidentialité, ce site ne propose pas de formulaire de contact.</p>
       </div>
     </div>
