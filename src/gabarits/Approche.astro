@@ -14,6 +14,9 @@ interface Props { site: any }
 const { site } = Astro.props;
 const cab = site.cab, t = cab.pages.approche;
 const m = meta(site, 'approche');
+/* Numéros des sections dans l'ordre de celles qui sont présentes */
+const ordre = ['cercle', 'deroule', 'outils', 'cadre'].filter((k) => t[k]);
+const num = (k) => ordre.indexOf(k) + 1;
 ---
 <Site site={site} page="approche" titre={m.titre} description={m.description} chemin={lien(site, 'approche')} jsonld={[donneesFil(site, 'approche')]}>
   <TetePage surtitre="Mon approche" titre={t.titre} intro={t.intro} />
@@ -22,7 +25,7 @@ const m = meta(site, 'approche');
     <section class="section section--teinte" aria-labelledby="cercle-titre-section">
       <div class="conteneur deux-colonnes">
         <div>
-          <TitreSection surtitre={t.cercleSurtitre || 'Le principe'} numero={1} titre={t.cercleTitre} id="cercle-titre-section" />
+          <TitreSection surtitre={t.cercleSurtitre || 'Le principe'} numero={num('cercle')} titre={t.cercleTitre} id="cercle-titre-section" />
           <div class="texte">{t.cercle.map((x) => <p>{x}</p>)}</div>
         </div>
         {t.cercleNoeuds && <Cercle etiquettes={t.cercleNoeuds.map((n) => n.titre)} />}
@@ -33,7 +36,7 @@ const m = meta(site, 'approche');
   {t.deroule && (
     <section class="section" aria-labelledby="deroule-titre">
       <div class="conteneur">
-        <TitreSection surtitre={t.derouleSurtitre || 'Le déroulé'} numero={2} titre={t.derouleTitre} intro={t.derouleIntro} id="deroule-titre" />
+        <TitreSection surtitre={t.derouleSurtitre || 'Le déroulé'} numero={num('deroule')} titre={t.derouleTitre} intro={t.derouleIntro} id="deroule-titre" />
         <ol class="chronologie">
           {t.deroule.map((j) => (
             <li class="jalon apparait">
@@ -57,7 +60,7 @@ const m = meta(site, 'approche');
   {t.outils && (
     <section class="section section--teinte" aria-labelledby="outils-titre">
       <div class="conteneur">
-        <TitreSection surtitre={t.outilsSurtitre || 'Les outils'} numero={3} titre={t.outilsTitre} intro={t.outilsIntro} id="outils-titre" />
+        <TitreSection surtitre={t.outilsSurtitre || 'Les outils'} numero={num('outils')} titre={t.outilsTitre} intro={t.outilsIntro} id="outils-titre" />
         <ul class="grille cartes outils">
           {t.outils.map((o) => (
             <li class="carte apparait">
@@ -73,7 +76,7 @@ const m = meta(site, 'approche');
   {t.cadre && (
     <section class="section" aria-labelledby="cadre-titre">
       <div class="conteneur deux-colonnes deux-colonnes--texte">
-        <TitreSection surtitre={t.cadreSurtitre || 'Le cadre'} numero={4} titre={t.cadreTitre} intro={t.cadreIntro} id="cadre-titre" />
+        <TitreSection surtitre={t.cadreSurtitre || 'Le cadre'} numero={num('cadre')} titre={t.cadreTitre} intro={t.cadreIntro} id="cadre-titre" />
         <ul class="coches">
           {t.cadre.map((x) => <li class="apparait" set:html={enrichi(x)} />)}
         </ul>

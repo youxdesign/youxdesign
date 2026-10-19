@@ -12,6 +12,9 @@ const { site } = Astro.props;
 const cab = site.cab, p = cab.praticien, t = cab.pages['a-propos'];
 const m = meta(site, 'a-propos');
 const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps}`].filter(Boolean);
+/* Numéros des sections dans l'ordre de celles qui sont présentes */
+const ordre = ['parcours', 'formations', 'valeurs'].filter((k) => t[k]);
+const num = (k) => ordre.indexOf(k) + 1;
 ---
 <Site site={site} page="a-propos" titre={m.titre} description={m.description} chemin={lien(site, 'a-propos')} jsonld={[donneesFil(site, 'a-propos')]}>
   <TetePage surtitre="À propos" titre={t.titre} intro={t.intro} classe="tete-page--visuel">
@@ -34,7 +37,7 @@ const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps
   {t.parcours && (
     <section class="section" aria-labelledby="parcours-titre">
       <div class="conteneur">
-        <TitreSection surtitre={t.parcoursSurtitre || 'Parcours'} numero={1} titre={t.parcoursTitre} intro={t.parcoursIntro} id="parcours-titre" />
+        <TitreSection surtitre={t.parcoursSurtitre || 'Parcours'} numero={num('parcours')} titre={t.parcoursTitre} intro={t.parcoursIntro} id="parcours-titre" />
         <ol class="chronologie">
           {t.parcours.map((j) => (
             <li class="jalon apparait">
@@ -51,7 +54,7 @@ const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps
   {t.formations && (
     <section class="section" aria-labelledby="formations-titre">
       <div class="conteneur">
-        <TitreSection surtitre={t.formationsSurtitre || 'Formations complémentaires'} numero={2} titre={t.formationsTitre} intro={t.formationsIntro} id="formations-titre" />
+        <TitreSection surtitre={t.formationsSurtitre || 'Formations complémentaires'} numero={num('formations')} titre={t.formationsTitre} intro={t.formationsIntro} id="formations-titre" />
         <ul class="grille cartes formations">
           {t.formations.map((f) => (
             <li class="carte apparait">
@@ -84,7 +87,7 @@ const numeros = [p.adeli && `N° ADELI ${p.adeli}`, p.rpps && `N° RPPS ${p.rpps
   {t.valeurs && (
     <section class="section section--teinte" aria-labelledby="valeurs-titre">
       <div class="conteneur deux-colonnes deux-colonnes--texte valeurs">
-        <TitreSection surtitre={t.valeursSurtitre || 'Valeurs'} numero={3} titre={t.valeursTitre} id="valeurs-titre" />
+        <TitreSection surtitre={t.valeursSurtitre || 'Valeurs'} numero={num('valeurs')} titre={t.valeursTitre} id="valeurs-titre" />
         <ol class="points">
           {t.valeurs.map((v, i) => (
             <li class="point apparait">

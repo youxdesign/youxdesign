@@ -17,7 +17,7 @@ const liste = site.vitrine ? exemples : cab.ateliers;
       <div class="opt-tete">
         <p class="opt-surtitre">Ateliers et groupes</p>
         <h2 class="opt-titre" id="opt-ateliers-titre">Avancer ensemble</h2>
-        <p class="opt-texte">Des séances collectives en petit groupe, au cabinet. Inscription par téléphone ou par e-mail.</p>
+        <p class="opt-texte">Des séances collectives, en petit groupe. Inscription par téléphone ou par e-mail.</p>
       </div>
       <ul class="opt-liste">
         {liste.map((a) => <li><span class="opt-element__titre">{a.titre}</span>{a.detail && <span class="opt-element__detail">{a.detail}</span>}</li>)}

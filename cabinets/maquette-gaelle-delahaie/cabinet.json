@@ -1,0 +1,419 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Gaëlle Delahaie (prospect), d'après gaelledelahaie.fr. Publiée sur youxdesign.fr/maquettes/gaelle-delahaie/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.gaelledelahaie.fr",
+  "style": "wabi",
+  "palette": 2,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq",
+   "ateliers"
+  ]
+ },
+ "praticien": {
+  "prenom": "Gaëlle",
+  "nom": "Delahaie",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, Gestalt-thérapeute",
+  "specialite": "Gestalt-thérapie, approches psychocorporelles et EMDR-DSBA",
+  "specialiteCourte": "Gestalt-thérapie",
+  "diplome": "Psychologue clinicienne, Gestalt-thérapeute, praticienne EMDR-DSBA",
+  "statut": "psychologue clinicienne exerçant en libéral",
+  "public": "Enfants, adolescents, adultes et couples",
+  "citation": "Tout mouvement, de quelque nature qu’il soit, est créateur. (Edgar Allan Poe)"
+ },
+ "contact": {
+  "telephone": "06 64 76 18 81",
+  "telephoneNote": "Pour les rendez-vous en visio, appelez-moi directement.",
+  "email": "gaelle.delahaie@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/tours/gaelle-delahaie"
+  }
+ },
+ "cabinet": {
+  "adresse": "109 rue du Cluzel",
+  "codePostal": "37000",
+  "ville": "Tours",
+  "accessiblePMR": false,
+  "visio": true,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous, au cabinet ou en visio",
+  "acces": [
+   {
+    "titre": "Les groupes",
+    "texte": "Les groupes thérapeutiques ont lieu à l’Atelier ATMA, 14 place Anatole France, à Tours.",
+    "icone": "personnes"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle adulte",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "75 €",
+   "duree": "45 min",
+   "texte": "La première séance permet de déterminer ensemble votre besoin.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance enfant",
+   "lieu": "Au cabinet",
+   "prix": "56 €",
+   "duree": "30 min",
+   "texte": "Avec des rendez-vous intercalaires réunissant l’enfant et ses parents."
+  },
+  {
+   "nom": "Séance adolescent",
+   "lieu": "Au cabinet",
+   "prix": "56 € ou 75 €",
+   "duree": "30 ou 45 min",
+   "texte": "La place de la famille est discutée lors du premier entretien."
+  },
+  {
+   "nom": "Séance de couple",
+   "lieu": "Au cabinet",
+   "prix": "73 € par partenaire",
+   "duree": "1 h 15",
+   "texte": "Tous les quinze jours à trois semaines."
+  },
+  {
+   "nom": "Groupe thérapeutique",
+   "lieu": "Atelier ATMA, Tours",
+   "prix": "75 €",
+   "texte": "Une fois par mois, le mardi de 18 h 30 à 22 h, en groupe de 4 à 7 personnes."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et stress",
+   "texte": "Mieux gérer votre stress, dépasser les situations de blocage, retrouver du mieux-être.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Psycho-traumatismes",
+   "texte": "Traumatismes récents ou anciens, accompagnés notamment par l’EMDR-DSBA.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Problèmes relationnels, solitude, schémas qui se répètent.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Deuil et séparation",
+   "texte": "Traverser une perte, une rupture, et retrouver du mouvement.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Corps et maladie",
+   "texte": "Maladie, troubles psychosomatiques, douleur : le corps comme voie d’accès aux émotions.",
+   "icone": "poumons"
+  },
+  {
+   "titre": "Sexualité",
+   "texte": "Des difficultés dans la sexualité, abordées en confiance.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Couple",
+   "texte": "Quand les événements de la vie mettent le couple en crise : redonner du mouvement au « nous ».",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Le jeu, le dessin, et une place pensée pour la famille.",
+   "icone": "plume"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Gaëlle Delahaie, psychologue et Gestalt-thérapeute à Tours",
+   "seoDescription": "Gaëlle Delahaie, psychologue clinicienne et Gestalt-thérapeute à Tours : approches psychocorporelles, danse-thérapie, EMDR-DSBA. Enfants, adolescents, adultes et couples, au cabinet et en visio.",
+   "surtitre": "Psychologue clinicienne · Gestalt-thérapeute · Tours",
+   "titre": "Le mouvement\n*enraciné*",
+   "intro": "Psychologue clinicienne et Gestalt-thérapeute, formée aux approches psychocorporelles et artistiques, j’accompagne toute personne désireuse de se mettre en mouvement et de prendre soin d’elle-même, dans le respect de sa singularité.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Au départ, souvent, une souffrance, des schémas répétitifs, des difficultés relationnelles ou des manifestations corporelles. Voici quelques-unes des demandes que j’accompagne.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Gaëlle*",
+   "presentation": [
+    "Mon approche mobilise le corps, les émotions, les pensées et le jeu relationnel, dans un cadre bienveillant. Elle contribue à une recherche de sens, à la restauration des liens à soi et aux autres, et à la créativité.",
+    "Je suis également praticienne en EMDR-DSBA, pour accompagner les psycho-traumatismes, qu’ils soient récents ou anciens, et je participe à la formation des soignants, des professionnels de l’accompagnement et de l’enseignement."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Les rendez-vous se prennent sur Doctolib, ou par téléphone pour les séances en visio.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Gaëlle Delahaie, psychologue et Gestalt-thérapeute à Tours",
+   "seoDescription": "Gaëlle Delahaie, psychologue clinicienne, Gestalt-thérapeute, praticienne EMDR-DSBA, formatrice et danseuse, à Tours.",
+   "titre": "Une approche\n*holistique*",
+   "intro": "Au cours de mon parcours de formation, je me suis intéressée à l’approche holistique de l’être humain, et à la façon dont chacun d’entre nous interagit avec son environnement.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "La première séance permet de déterminer ensemble votre besoin.",
+   "demarcheTitre": "Le corps, *une voie d’accès*",
+   "demarche": [
+    "Notre réalité corporelle et sensitive, nos relations, nos affects et nos émotions, notre manière de penser et le sens de notre existence fondent notre singularité d’être au monde.",
+    "J’interviens aussi en institut de formation en Gestalt-thérapie et, selon les demandes, dans le secteur sanitaire et social et dans l’éducation : stress, gestion des émotions, communication, relations humaines."
+   ],
+   "formationsSurtitre": "Mes approches",
+   "formationsTitre": "Trois façons *de remettre en mouvement*",
+   "formationsIntro": "Mes propositions d’accompagnement se veulent différenciées et adaptées à votre demande.",
+   "formations": [
+    {
+     "date": "Gestalt",
+     "titre": "Gestalt-thérapie",
+     "texte": "Une psychothérapie humaniste qui considère la personne dans son environnement et en relation avec les autres.",
+     "icone": "feuille"
+    },
+    {
+     "date": "Corps",
+     "titre": "Approches psychocorporelles",
+     "texte": "Relaxation et danse-thérapie : le corps comme voie d’accès à la psyché et aux émotions.",
+     "icone": "poumons"
+    },
+    {
+     "date": "Trauma",
+     "titre": "EMDR-DSBA",
+     "texte": "Quand le figement dans des situations répétitives s’installe, pour initier une remise en mouvement.",
+     "icone": "eclat"
+    }
+   ],
+   "valeursSurtitre": "Mon cadre",
+   "valeursTitre": "Ce qui *m’engage*",
+   "valeurs": [
+    {
+     "titre": "Une déontologie partagée",
+     "texte": "Signataire des codes de déontologie de l’Association européenne de psychothérapie (EAP) et de l’Association européenne de Gestalt-thérapie (EAGT)."
+    },
+    {
+     "titre": "Une pratique supervisée",
+     "texte": "Membre individuelle de la FF2P et adhérente de l’AFTD."
+    },
+    {
+     "titre": "Le respect de votre rythme",
+     "texte": "Dans le respect de votre singularité, à votre rythme."
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "La Gestalt-thérapie · Gaëlle Delahaie, psychologue à Tours",
+   "seoDescription": "La Gestalt-thérapie, les approches psychocorporelles et l’EMDR-DSBA avec Gaëlle Delahaie, psychologue clinicienne à Tours.",
+   "titre": "La Gestalt-thérapie,\n*ici et maintenant*",
+   "intro": "Née dans les années 1960, la Gestalt-thérapie est une psychothérapie humaniste créée par Fritz Perls. Elle prend ses racines dans la psychanalyse, l’existentialisme, la phénoménologie et la psychologie de la forme.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour en parler, prenez rendez-vous sur Doctolib ou appelez-moi.",
+   "cadreSurtitre": "Le principe",
+   "cadreTitre": "Le « comment », *plutôt que le « pourquoi »*",
+   "cadreIntro": "La Gestalt (« forme » en allemand) envisage l’être humain de manière globale, dans sa relation à son environnement.",
+   "cadre": [
+    "**L’expérience de l’instant présent** : le vécu immédiat, le ressenti corporel et ce qui se joue ici et maintenant dans la rencontre.",
+    "**Des prises de conscience corporelles**, qui font le lien avec les états affectifs et les pensées.",
+    "**Mettre à jour les blocages** et les situations répétitives insatisfaisantes issues du passé, pour s’engager vers du mieux-être."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Consultations et tarifs · Gaëlle Delahaie, psychologue à Tours",
+   "seoDescription": "Séances individuelles, enfants, adolescents, couples et groupes avec Gaëlle Delahaie, psychologue à Tours : durées et tarifs.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Des séances claires,\n*sans surprise*",
+   "intro": "Les rendez-vous ont lieu en individuel au cabinet, ou en visio. Des séances en groupe permettent aussi de s’appuyer sur l’énergie du groupe.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous sur Doctolib, ou par téléphone pour une séance en visio."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Gaëlle Delahaie, psychologue à Tours",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Vous pouvez m’appeler ou m’écrire : je vous réponds dans les meilleurs délais."
+  },
+  "contact": {
+   "seoTitre": "Contact · Gaëlle Delahaie, psychologue à Tours",
+   "seoDescription": "Adresse, téléphone et e-mail de Gaëlle Delahaie, psychologue et Gestalt-thérapeute, 109 rue du Cluzel à Tours. Rendez-vous sur Doctolib ou en visio.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 109 rue du Cluzel, à Tours. Les rendez-vous se prennent sur Doctolib ; pour une séance en visio, appelez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*",
+   "visio": [
+    "Les rendez-vous en visio sont possibles : appelez-moi pour en convenir."
+   ]
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Gaëlle Delahaie"
+ },
+ "ressources": [],
+ "ateliers": [
+  {
+   "titre": "Groupe thérapeutique continu",
+   "detail": "Approche corporelle et groupale : danse, relaxation, expression corporelle. Une fois par mois, le mardi de 18 h 30 à 22 h, à l’Atelier ATMA à Tours. Entretien préalable demandé."
+  },
+  {
+   "titre": "Groupe de thérapie pour soignants",
+   "detail": "Ouvert aux soignants en exercice et en formation, parce qu’eux aussi ont besoin que l’on prenne soin d’eux. Le mardi de 18 h 30 à 22 h, une fois par mois."
+  },
+  {
+   "titre": "Groupe de supervision",
+   "detail": "Autour des situations cliniques, de la posture thérapeutique et des questionnements professionnels. Le jeudi de 18 h 30 à 22 h, une fois par mois."
+  },
+  {
+   "titre": "Stages ponctuels",
+   "detail": "Approche corporelle du stress, de l’angoisse et de l’anxiété ; « Danser votre vie : du figement à la mise en mouvement »."
+  }
+ ],
+ "liens": [
+  {
+   "titre": "EAP",
+   "detail": "Association européenne de psychothérapie : signataire de son code de déontologie.",
+   "url": "https://www.europsyche.org/"
+  },
+  {
+   "titre": "EAGT",
+   "detail": "Association européenne de Gestalt-thérapie : signataire de son code de déontologie.",
+   "url": "https://eagt.org/home/"
+  },
+  {
+   "titre": "FF2P",
+   "detail": "Fédération française de psychothérapie et psychanalyse : membre individuelle.",
+   "url": "https://www.ff2p.fr/a-propos/"
+  },
+  {
+   "titre": "AFTD",
+   "detail": "Association francophone du trauma et de la dissociation : adhérente.",
+   "url": "https://www.aftd.eu/page/622823-accueil"
+  },
+  {
+   "titre": "Société française de Gestalt",
+   "url": "https://www.sfg-gestalt.com/"
+  },
+  {
+   "titre": "Gestalt plus",
+   "detail": "Institut de formation à Rennes, où j’interviens.",
+   "url": "https://www.gestalt-plus.fr/"
+  },
+  {
+   "titre": "ILFG",
+   "detail": "Institut limousin de formation à la Gestalt.",
+   "url": "https://www.ilfg.fr/"
+  }
+ ]
+}
