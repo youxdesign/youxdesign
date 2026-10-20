@@ -17,7 +17,8 @@
                                                            d'ici : il est signalé, à annuler dans Gmail
 
    Fichier prospects (JSON), une entrée par personne :
-     { "prenom": "Nathalie", "email": "…", "modele": "refonte" | "creation",
+     { "prenom": "Nathalie", "email": "…", "modele": "refonte" | "creation" | "maquette",
+       "maquette": "nathalie-x" (modèle maquette : youxdesign.fr/maquettes/nathalie-x/),
        "site": "psychologue-vdascq.fr", "detail": "J’ai découvert…",
        "source": "…" (facultatif, remplace « votre site <site> » en bas de l’e-mail),
        "constat": "…" (facultatif, ce qui ne va pas sur son site actuel) }
@@ -46,7 +47,7 @@ import MailComposer from 'nodemailer/lib/mail-composer/index.js';
 import { ImapFlow } from 'imapflow';
 import { DOMAINE } from '../src/config/youxdesign.mjs';
 
-const MODELES = { refonte: 'email-refonte', creation: 'email-prospection' };
+const MODELES = { refonte: 'email-refonte', creation: 'email-prospection', maquette: 'email-maquette' };
 const PAUSE_SECONDES = 90;
 
 const args = process.argv.slice(2);
@@ -85,7 +86,11 @@ const echapper = (t) => t.replaceAll('&', '&amp;').replaceAll('<', '&lt;').repla
 function preparer(p) {
   const sortie = MODELES[p.modele];
   if (!sortie) throw new Error(`${p.prenom} : modèle inconnu « ${p.modele} » (refonte ou creation)`);
-  const v = { prenom: p.prenom, detail_personnalisation: p.detail ?? '', constat: p.constat ?? '', source: p.source ?? `votre site ${p.site}`, site_actuel: p.site };
+  /* Modèle « maquette » : lien vers youxdesign.fr/maquettes/<nom>/ (compté : /e/<lot>/m-<nom>) */
+  const maquette = p.maquette ? `${domaine}/maquettes/${p.maquette}/` : '';
+  const v = { prenom: p.prenom, detail_personnalisation: p.detail ?? '', constat: p.constat ?? '', source: p.source ?? `votre site ${p.site}`, site_actuel: p.site,
+    maquette_url: maquette, maquette_affiche: maquette.replace(/^https?:\/\//, ''), maquette_lien: p.maquette && lot ? `${domaine}/e/${lot}/m-${p.maquette}` : maquette };
+  if (p.modele === 'maquette' && !p.maquette) throw new Error(`${p.prenom} : indiquez « maquette » (le nom de la maquette)`);
   /* Paragraphe facultatif : gardé seulement si la variable est remplie */
   const blocs = (s) => s.replace(/<!--si:(\w+)-->([\s\S]*?)<!--fin:\1-->/g, (_, k, contenu) => (v[k] ? contenu : ''));
   const remplir = (s, html) => s.replace(/\{\{(\w+)\}\}/g, (_, k) => {

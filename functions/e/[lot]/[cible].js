@@ -27,7 +27,9 @@ const ROBOT = /bot|crawl|spider|slurp|preview|scan|fetch|curl|wget|python|headle
 export async function onRequestGet({ params, request, env, waitUntil }) {
   const lot = String(params.lot || '').toLowerCase();
   const cible = String(params.cible || '').toLowerCase();
-  const destination = CIBLES[cible];
+  /* « m-<nom> » : la maquette préparée pour ce prospect (/maquettes/<nom>/) */
+  const maquette = /^m-([a-z0-9-]{1,60})$/.exec(cible);
+  const destination = maquette ? `${DOMAINE}/maquettes/${maquette[1]}/` : CIBLES[cible];
   if (!destination || !LOT.test(lot)) return redirection(`${DOMAINE}/`);
   if (!ROBOT.test(request.headers.get('User-Agent') || '')) {
     waitUntil(transmettre(env, { type: 'etape', etape: `Clic e-mail · ${lot} · ${cible}` }));

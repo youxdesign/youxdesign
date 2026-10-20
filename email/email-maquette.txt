@@ -1,0 +1,15 @@
+Bonjour {{prenom}},
+
+Je suis psychologue, et je crée des sites pour les psychologues avec youXdesign.
+
+J'ai pris la liberté de préparer une maquette de ce que pourrait être votre site, à partir de vos propres textes et photos :
+{{maquette_url}}
+
+Ce n'est qu'une idée, pour vous donner un aperçu. Vous pouvez voir d'autres styles sur mon site (youxdesign.fr/styles/), et je réalise aussi des sites entièrement sur mesure.
+
+Si cela vous intéresse, je vous propose d'en parler 15 minutes au téléphone. Sinon, aucun souci.
+
+Bien confraternellement,
+
+Younes
+Psychologue · Fondateur de youXdesign
