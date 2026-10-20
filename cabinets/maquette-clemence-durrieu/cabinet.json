@@ -1,0 +1,416 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Clémence Durrieu (prospect), d'après clemencedurrieu-psychologue.fr. Publiée sur youxdesign.fr/maquettes/clemence-durrieu/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.clemencedurrieu-psychologue.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq"
+  ]
+ },
+ "praticien": {
+  "prenom": "Clémence",
+  "nom": "Durrieu",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute",
+  "specialite": "enfance et adolescence, approche intégrative, bilans psychologiques",
+  "specialiteCourte": "Enfance et adolescence",
+  "diplome": "Master 2 de psychologie de l’enfance et de l’adolescence (Université Paris VIII, 2016)",
+  "adeli": "079303475",
+  "siret": "51349392400031",
+  "public": "Enfants, adolescents et adultes",
+  "citation": "Quelle que soit la raison qui vous amène, vous serez accueilli dans un lieu d’écoute et de parole bienveillant."
+ },
+ "contact": {
+  "telephone": "06 50 23 14 59",
+  "telephoneNote": "Le moyen le plus simple pour me contacter reste le téléphone.",
+  "email": "contact@clemencedurrieu-psychologue.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "1 place des Anciens-Combattants",
+  "codePostal": "07200",
+  "ville": "Vesseaux",
+  "zone": "Vesseaux, à 10 minutes d’Aubenas",
+  "accessiblePMR": false,
+  "visio": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Maison paramédicale",
+    "texte": "Le cabinet regroupe plusieurs professionnels de santé : médecins, infirmières, ostéopathe, diététicienne, orthoptiste et sophrologue.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Depuis Aubenas",
+    "texte": "En arrivant à Vesseaux, prendre à gauche en face de la station-service (direction centre village), puis la première à droite, puis de nouveau à droite juste après l’école privée Saint-Joseph, avant le monument aux morts. Le cabinet est au fond de la place, au n° 1.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Depuis Privas",
+    "texte": "Prendre à droite juste avant la station-service (direction centre village), puis suivre les mêmes indications.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Stationnement",
+    "texte": "Un grand parking se trouve juste devant le cabinet.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Enfants, adolescents, adultes",
+   "prix": "40 €",
+   "duree": "45 min à 1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation jeunes enfants",
+   "lieu": "Capacité d’attention réduite",
+   "prix": "35 €",
+   "duree": "30 à 45 min"
+  },
+  {
+   "nom": "Bilan psychologique",
+   "lieu": "Bilan QI et tests projectifs",
+   "prix": "200 à 250 €",
+   "texte": "Selon les tests pratiqués. Au moins 3 rendez-vous : anamnèse (1 h), passation des tests (environ 2 h) et restitution (1 h)."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Chez l’enfant",
+   "texte": "Repli sur soi, manque de confiance, troubles du sommeil, de l’alimentation, du langage, de l’acquisition de la propreté.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Scolarité et apprentissages",
+   "texte": "Difficultés scolaires, phobie scolaire, présomption de précocité intellectuelle, troubles « dys ».",
+   "icone": "livre"
+  },
+  {
+   "titre": "Neurodéveloppement",
+   "texte": "Trouble du spectre autistique, TDAH, haut potentiel intellectuel : évaluations diagnostiques et prises en charge.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "À l’adolescence",
+   "texte": "Addiction, conduites à risque, décrochage scolaire, situation de harcèlement, troubles alimentaires.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Chez l’adulte",
+   "texte": "Gestion du stress, tristesse voire dépression, anxiété, TOC, phobie, timidité, burn-out.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Événements de vie",
+   "texte": "Rupture, divorce, deuil, perte d’emploi, annonce d’une maladie, traumatisme, parentalité.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Clémence Durrieu, psychologue à Vesseaux, près d’Aubenas",
+   "seoDescription": "Clémence Durrieu, psychologue et psychothérapeute spécialisée en enfance et adolescence à Vesseaux, près d’Aubenas : consultations enfants, ados, adultes et bilans (QI).",
+   "surtitre": "Psychologue · Psychothérapeute · Vesseaux, près d’Aubenas",
+   "titre": "Un lieu d’écoute\net de parole\n*bienveillant*",
+   "intro": "Psychologue et psychothérapeute spécialisée en enfance et adolescence, je vous accueille dans mon cabinet de Vesseaux, à proximité d’Aubenas. Je propose également aux adultes une psychothérapie individuelle, basée sur une approche intégrative.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "La consultation peut s’envisager dès lors que la difficulté dérange ou fait souffrir l’enfant et son entourage. Voici des exemples de motifs de consultation.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Clémence*",
+   "presentation": [
+    "Diplômée de l’université Paris VIII et spécialisée en enfance et adolescence, j’adapte les outils théoriques et cliniques à la problématique de chaque patient.",
+    "Le cabinet dispose d’un espace réservé aux enfants, avec jeux et activités créatives, afin qu’ils s’approprient aisément le lieu et s’y sentent à l’aise."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone, le plus simple, ou par e-mail."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Le moyen le plus simple pour me contacter reste le téléphone.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "Qui suis-je ? · Clémence Durrieu, psychologue à Vesseaux",
+   "seoDescription": "Parcours de Clémence Durrieu, psychologue diplômée de Paris VIII, spécialisée en enfance et adolescence : médiation animale, institutions, cabinet de Vesseaux.",
+   "titre": "Un goût\n*pour l’échange*",
+   "intro": "C’est un vif intérêt pour la diversité des mécanismes régissant le psychisme humain et un goût pour l’échange qui m’ont amenée à choisir un métier orienté vers l’accompagnement thérapeutique.",
+   "cabinetLegende": "Le cabinet, maison paramédicale de Vesseaux",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour tout renseignement supplémentaire, n’hésitez pas à m’écrire.",
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "Des chevaux *au cabinet*",
+   "parcours": [
+    {
+     "date": "6 ans",
+     "titre": "Médiation animale thérapeutique",
+     "texte": "Dans le Vaucluse, auprès d’enfants, d’adolescents et d’adultes en situation de handicap ou de souffrance psychique."
+    },
+    {
+     "date": "2016",
+     "titre": "Master 2 de psychologie de l’enfance et de l’adolescence",
+     "texte": "Université Paris VIII : un enseignement basé sur une approche intégrative."
+    },
+    {
+     "date": "Institutions",
+     "titre": "Éducation nationale, protection de l’enfance, handicap",
+     "texte": "Diverses expériences en institution, avant l’installation en libéral."
+    },
+    {
+     "date": "2019",
+     "titre": "Cabinet de Vesseaux",
+     "texte": "Installée depuis janvier 2019 au sein de la maison paramédicale."
+    }
+   ],
+   "formationsSurtitre": "Champs de connaissance",
+   "formationsTitre": "Des compétences *spécifiques*",
+   "formationsIntro": "Ma spécialisation en enfance et adolescence me permet de proposer des évaluations diagnostiques et des prises en charge basées sur les connaissances actualisées de la psychologie scientifique.",
+   "formations": [
+    {
+     "titre": "Haut potentiel intellectuel"
+    },
+    {
+     "titre": "Handicap",
+     "texte": "Troubles du spectre autistique, déficience intellectuelle."
+    },
+    {
+     "titre": "TDAH",
+     "texte": "Trouble déficitaire de l’attention, avec ou sans hyperactivité."
+    },
+    {
+     "titre": "Spécificités sensorielles",
+     "texte": "Leur impact chez les enfants avec TSA."
+    },
+    {
+     "titre": "Accompagnement à la parentalité"
+    },
+    {
+     "titre": "Thérapie par le jeu"
+    },
+    {
+     "titre": "Médiation animale"
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Clémence Durrieu, psychologue à Vesseaux",
+   "seoDescription": "Approche intégrative, consultations enfants et adolescents, bilans psychologiques (WPPSI, WISC) avec Clémence Durrieu, psychologue à Vesseaux.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "Loin des cloisonnements stériles, le principe de l’approche intégrative est d’adapter la pratique et les outils proposés à chaque patient, et aux objectifs de travail que nous fixons ensemble.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Un premier entretien permet de faire connaissance et d’aborder les motifs de votre démarche.",
+   "outilsSurtitre": "Avec les enfants",
+   "outilsTitre": "Des supports *pour s’exprimer*",
+   "outilsIntro": "Bien souvent, il est délicat pour l’enfant de comprendre ses difficultés. Les consultations l’aident à exprimer ce qu’il ressent, dans un espace d’écoute neutre et sans jugement.",
+   "outils": [
+    {
+     "titre": "Le jeu et le dessin",
+     "texte": "Selon son âge et les motifs de consultation, l’enfant s’exprime à travers le jeu ou le dessin.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Contes et marionnettes",
+     "texte": "La lecture de contes et d’histoires, la manipulation de marionnettes l’aident à exprimer ce qu’il a sur le cœur.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Avec vous, parents",
+     "texte": "Des points sont régulièrement faits avec vous, dans le respect du secret dû à l’enfant, pour que vous puissiez l’accompagner.",
+     "icone": "personnes"
+    }
+   ],
+   "derouleSurtitre": "Bilans psychologiques",
+   "derouleTitre": "Comment se passe *un bilan ?*",
+   "derouleIntro": "Retard de développement, difficultés scolaires, présomption de précocité ou de troubles « dys » : un bilan évalue les différents domaines de l’intelligence, pour mieux comprendre l’enfant et proposer des pistes de remédiation.",
+   "deroule": [
+    {
+     "date": "1 h",
+     "titre": "La demande",
+     "texte": "Présentation de la demande et recueil d’informations, avec vous et votre enfant."
+    },
+    {
+     "date": "2 h",
+     "titre": "Les tests",
+     "texte": "Passation des tests avec votre enfant seul : WPPSI-IV de 2 à 7 ans, WISC-V de 6 à 16 ans, et tests projectifs."
+    },
+    {
+     "date": "1 h",
+     "titre": "La restitution",
+     "texte": "Compte rendu oral et écrit du bilan, et perspectives de remédiation, avec vous et votre enfant."
+    }
+   ],
+   "cadreSurtitre": "Déontologie",
+   "cadreTitre": "Un cadre *protecteur*",
+   "cadre": [
+    "Je suis très attachée aux règles professionnelles des psychologues, définies par le **Code de déontologie**.",
+    "Ce code pose le principe général des droits de la personne et la préservation de sa vie privée, en garantissant notamment **le secret professionnel**."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Honoraires · Clémence Durrieu, psychologue à Vesseaux",
+   "seoDescription": "Tarifs des consultations (40 €) et des bilans psychologiques avec Clémence Durrieu, psychologue à Vesseaux : paiement, annulation, fréquence des séances.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Honoraires\n*et modalités*",
+   "intro": "Il n’y a pas d’engagement dans la durée ni sur la fréquence : les consultations ont normalement lieu une fois par semaine ou tous les 15 jours, et leur rythme peut être ajusté selon vos besoins.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, le plus simple reste le téléphone.",
+   "tarifsNote": "Je m’efforce de pratiquer des tarifs accessibles, et pouvant être adaptés selon les situations.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "paiement": "Le règlement s’effectue après chaque rendez-vous, en espèces ou par chèque. La carte bancaire n’est pas acceptée.",
+   "moyensPaiement": [
+    {
+     "titre": "Espèces",
+     "icone": "especes"
+    },
+    {
+     "titre": "Chèque",
+     "icone": "cheque"
+    }
+   ],
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *un rendez-vous*",
+   "annulation": [
+    "Le temps de chacun étant précieux, merci de prévenir **au moins 48 h à l’avance** en cas d’annulation, au risque d’être facturé de la séance manquée."
+   ]
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Clémence Durrieu, psychologue à Vesseaux",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Clémence Durrieu, psychologue à Vesseaux",
+   "seoDescription": "Adresse, accès et téléphone du cabinet de Clémence Durrieu, psychologue, 1 place des Anciens-Combattants à Vesseaux, près d’Aubenas.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois sur rendez-vous, au sein de la maison paramédicale de Vesseaux, à 10 minutes d’Aubenas.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Clémence Durrieu"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
