@@ -4,7 +4,9 @@ import Bloc from './Bloc.astro';
 interface Props { site: any }
 const { site } = Astro.props;
 const action = site.cab.contact.formulaires?.newsletter;
-const afficher = site.vitrine || Boolean(action);
+const afficher = site.vitrine || site.maquette || Boolean(action);
+/* Maquette d'un prospect : formulaire montré mais inactif (aucun envoi, rien dans l'adresse) */
+const Balise = site.maquette && !action ? 'div' : 'form';
 ---
 {afficher && <Bloc site={site} id="newsletter" titre="Lettre d’information">
   <div class="opt-conteneur">
@@ -14,10 +16,10 @@ const afficher = site.vitrine || Boolean(action);
         <h2 class="opt-titre" id="opt-newsletter-titre">Recevoir mes articles</h2>
         <p class="opt-texte">Un e-mail par mois, des repères simples pour prendre soin de soi. Désinscription en un clic.</p>
       </div>
-      <form class="opt-formulaire opt-formulaire--ligne" method="post" action={site.vitrine ? undefined : action} data-demo-formulaire={site.vitrine ? '' : undefined}>
+      <Balise class="opt-formulaire opt-formulaire--ligne" method={Balise === 'form' ? 'post' : undefined} action={site.vitrine || Balise === 'div' ? undefined : action} data-demo-formulaire={site.vitrine ? '' : undefined}>
         <label class="opt-champ"><span>Adresse e-mail</span><input type="email" name="email" autocomplete="email" required /></label>
-        <button class="opt-bouton" type={site.vitrine ? 'button' : 'submit'} data-demo-action={site.vitrine ? '' : undefined}>S’inscrire</button>
-      </form>
+        <button class="opt-bouton" type={site.vitrine || Balise === 'div' ? 'button' : 'submit'} data-demo-action={site.vitrine ? '' : undefined}>S’inscrire</button>
+      </Balise>
     </div>
   </div>
 </Bloc>}

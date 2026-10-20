@@ -1,0 +1,428 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Audrey Legros (prospect), d'après audreylegros-psychologueenligne.com. Publiée sur youxdesign.fr/maquettes/audrey-legros-sauge/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.audreylegros-psychologueenligne.com",
+  "style": "sauge",
+  "palette": 0,
+  "police": 5,
+  "demo": true,
+  "options": [
+   "faq",
+   "statut",
+   "respiration",
+   "carte",
+   "newsletter",
+   "accessibilite"
+  ],
+  "couleurs": {
+   "fond": "#F1F7F8",
+   "encre": "#0F2E3A",
+   "accent": "#008CB4",
+   "doux": "#D4EAEE",
+   "texte2": "#4A6470"
+  }
+ },
+ "praticien": {
+  "prenom": "Audrey",
+  "nom": "Legros",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "psychotraumatologie, attachement et relations interpersonnelles, approche intégrative",
+  "specialiteCourte": "Approche intégrative",
+  "diplome": "Master de psychologie clinique (Université Charles-de-Gaulle Lille 3, 2010)",
+  "public": "Adultes uniquement",
+  "citation": "Vous vous accordez un temps rien que pour vous, au sein duquel les échanges vous seront complètement dédiés.",
+  "adeli": "599322062"
+ },
+ "contact": {
+  "telephone": "06 64 32 93 05",
+  "email": "audrey.legros59@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/lille/audrey-legros"
+  }
+ },
+ "cabinet": {
+  "adresse": "Rue de Canteleu",
+  "codePostal": "59000",
+  "ville": "Lille",
+  "zone": "Lille, et en visio partout",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "latitude": 50.6256255,
+  "longitude": 3.0381408,
+  "horaires": {
+   "lundi": "10:00-21:00",
+   "mardi": "10:00-19:00",
+   "mercredi": "10:00-22:00",
+   "jeudi": "10:00-19:00",
+   "vendredi": "10:00-18:00",
+   "samedi": "09:00-13:00",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous, au cabinet ou en visio",
+  "acces": [
+   {
+    "titre": "En visio",
+    "texte": "Vous pouvez aussi me consulter à distance, depuis chez vous ou à l’étranger : les téléconsultations permettent aux expatriés de consulter une psychologue qui parle leur langue maternelle.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Premier entretien",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "60 €",
+   "duree": "60 min",
+   "texte": "Pour faire connaissance, comprendre votre situation et présenter de premières pistes de travail.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance individuelle",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "duree": "50 min"
+  },
+  {
+   "nom": "Séance en visio",
+   "lieu": "À distance",
+   "prix": "60 €",
+   "duree": "50 min",
+   "texte": "Parfois 1 h 30, selon le protocole utilisé."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "texte": "Stress, anxiété, procrastination, blocages émotionnels : peur, colère, tristesse, honte, culpabilité.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Stress et burn-out",
+   "texte": "Souffrance au travail, burn-out, harcèlement professionnel.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Dépression",
+   "texte": "Troubles de l’humeur, épisode de vie difficile : séparation, rupture, deuil.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Estime de soi",
+   "texte": "Faible estime de soi, manque de confiance, difficultés à s’affirmer, schémas répétitifs.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Difficultés relationnelles, sociales, sentimentales et familiales ; relations d’emprise ou de dépendance.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Trauma simple, TSPT, traumas complexes, souvenirs pénibles, enfance difficile.",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Audrey Legros, psychologue à Lille et en visio",
+   "seoDescription": "Audrey Legros, psychologue clinicienne et psychothérapeute à Lille et en visio : adultes, thérapie des schémas, EMDR, ICV. Bienveillance, sécurité, stabilité.",
+   "surtitre": "Psychologue · Lille et en visio",
+   "titre": "Avancer\n*à votre rythme*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois les adultes à Lille et en visio, dans un espace de parole libre, confidentiel et sécurisant. Tout ceci dans le respect de votre rythme et de votre demande.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Rencontrer des difficultés, souffrir d’une situation, répéter des comportements inadaptés font partie de la vie. Les motifs de consultation peuvent être divers.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Audrey*",
+   "presentation": [
+    "Psychologue depuis plus de 16 ans, d’abord dans le champ de la protection de l’enfance, je me suis installée en libéral en 2019. Je travaille uniquement auprès des adultes.",
+    "Spécialisée dans l’attachement, la psychotraumatologie et les relations interpersonnelles, je vous accompagne dans la compréhension de votre fonctionnement intime, de vos schémas dysfonctionnels, et dans la résolution des problèmes."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une pause",
+   "respirationTitre": "Respirer *un instant*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous sur Doctolib, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "Présentation · Audrey Legros, psychologue en ligne",
+   "seoDescription": "Parcours et formations d’Audrey Legros, psychologue clinicienne diplômée de Lille 3 : protection de l’enfance, psychotraumatologie, EMDR, thérapie des schémas.",
+   "titre": "Passionnée par la psychologie\n*depuis l’enfance*",
+   "intro": "Diplômée de l’université Charles-de-Gaulle Lille 3, je suis psychologue clinicienne et psychothérapeute. J’exerce depuis plus de 16 ans, et je me suis installée en libéral en 2019.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Le premier contact permet de faire connaissance et de savoir si je suis la professionnelle qu’il vous faut.",
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "De la protection de l’enfance *au libéral*",
+   "parcours": [
+    {
+     "date": "2009",
+     "titre": "DU Maladie chronique, cancer et fin de vie",
+     "texte": "Université Lille 3."
+    },
+    {
+     "date": "2010",
+     "titre": "Master de psychologie clinique",
+     "texte": "Université Charles-de-Gaulle Lille 3."
+    },
+    {
+     "date": "En institution",
+     "titre": "Protection de l’enfance et Éducation nationale",
+     "texte": "ASE, service d’accueil familial et lieu de rencontre parents-enfants (Nord) ; psychologue de l’Éducation nationale à Hénin-Beaumont."
+    },
+    {
+     "date": "2019",
+     "titre": "Installation en libéral",
+     "texte": "Téléconsultations pour adultes ; psychologue-référente et consultante pour des lignes d’écoute (Moka.Care, Empreinte humaine)."
+    }
+   ],
+   "formationsSurtitre": "Formations certifiantes",
+   "formationsTitre": "Se former *en continu*",
+   "formations": [
+    {
+     "date": "2025",
+     "titre": "Praticienne EMDR",
+     "texte": "AFPRA."
+    },
+    {
+     "date": "2025",
+     "titre": "Entretien motivationnel, Renforcer l’Adulte sain",
+     "texte": "Ateliers CEFTI."
+    },
+    {
+     "date": "2024",
+     "titre": "Thérapie des schémas",
+     "texte": "CEFTI."
+    },
+    {
+     "date": "2023",
+     "titre": "Théorie polyvagale et psychotrauma en ICV",
+     "texte": "Institut Double Hélice."
+    },
+    {
+     "date": "2023-2025",
+     "titre": "Psychotraumatisme de l’adulte",
+     "texte": "Journées de formation, CRP Bordeaux."
+    },
+    {
+     "date": "2014",
+     "titre": "Communication non violente, analyse transactionnelle",
+     "texte": "IAT Lille."
+    }
+   ]
+  },
+  "approche": {
+   "seoTitre": "Mon approche et mes outils · Audrey Legros, psychologue en ligne",
+   "seoDescription": "Une approche intégrative avec Audrey Legros : psychotraumatologie, attachement, TCC, thérapie des schémas, EMDR, ICV, en trois étapes.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "Une combinaison de plusieurs courants théoriques et d’outils thérapeutiques : la thérapie devient plus adaptative, construite en fonction de votre singularité. Ma pratique se base sur la psychotraumatologie, les neurosciences, l’attachement et les TCC.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Lors de la première consultation, je vous présenterai de premières pistes de travail.",
+   "derouleSurtitre": "Le protocole",
+   "derouleTitre": "Trois *grandes étapes*",
+   "derouleIntro": "Mon approche se veut souple, flexible et en cohérence avec votre personnalité, vos besoins et vos ressources.",
+   "deroule": [
+    {
+     "date": "1",
+     "titre": "Stabilisation",
+     "texte": "Retrouver une sécurité intérieure, socle du travail thérapeutique."
+    },
+    {
+     "date": "2",
+     "titre": "Changement",
+     "texte": "Mettre en lumière cercles vicieux, blocages émotionnels et schémas répétitifs, pour les lever."
+    },
+    {
+     "date": "3",
+     "titre": "Consolidation",
+     "texte": "Installer des réponses adaptées et appropriées, vers votre autonomie."
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "Choisis *selon votre problématique*",
+   "outilsIntro": "En fonction de votre problématique, je sélectionne les outils les plus adaptés, dans le respect de votre rythme et de votre demande.",
+   "outils": [
+    {
+     "titre": "EMDR",
+     "texte": "Eye Movement Desensitization and Reprocessing.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "ICV",
+     "texte": "Intégration du cycle de la vie.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "IFS",
+     "texte": "Internal Family System.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Thérapie des schémas",
+     "icone": "livre"
+    },
+    {
+     "titre": "Reparentage et visualisation",
+     "icone": "plume"
+    },
+    {
+     "titre": "Analyse transactionnelle, CNV, relaxation",
+     "icone": "vagues"
+    }
+   ],
+   "cadreSurtitre": "Deux formes d’accompagnement",
+   "cadreTitre": "Soutien *ou psychothérapie*",
+   "cadre": [
+    "**La thérapie de soutien** est un accompagnement ponctuel face à une difficulté particulière : soulager votre souffrance, vider votre sac. Elle peut être une porte d’entrée vers une psychothérapie.",
+    "**La psychothérapie** vous amène à vous interroger en profondeur : comprendre les causes de votre souffrance et comment se sont mises en place vos stratégies actuelles."
+   ]
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Audrey Legros, psychologue en ligne",
+   "seoDescription": "Téléconsultations pour adultes avec Audrey Legros : durée des séances, fréquence, tarif réduit possible, remboursement par les mutuelles.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les consultations,\n*en pratique*",
+   "intro": "Je reçois des adultes uniquement, au cabinet à Lille ou en visio. La fréquence est définie selon vos disponibilités et vos ressources : chaque semaine, toutes les 2 ou 3 semaines, ou une fois par mois.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous sur Doctolib, ou appelez-moi.",
+   "tarifsNote": "Étudiants, demandeurs d’emploi ou situation économique difficile : parlons-en, nous pourrons convenir d’un tarif réduit. Votre situation ne doit pas être un frein à votre demande de mieux-être.",
+   "paiementSurtitre": "Remboursement",
+   "paiementTitre": "Mutuelle *et remboursement*",
+   "paiement": "Les consultations psychologiques ne sont pas remboursées par la sécurité sociale. Certaines mutuelles prennent cependant en charge un certain nombre de séances par an : pensez à vous renseigner auprès de la vôtre."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Audrey Legros, psychologue à Lille",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Audrey Legros, psychologue en ligne",
+   "seoDescription": "Prendre rendez-vous avec Audrey Legros, psychologue en ligne : Doctolib, téléphone, e-mail. Téléconsultations du lundi au vendredi, de 10 h à 21 h.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir au cabinet *ou consulter en visio*",
+   "intro": "Le premier contact permet de faire connaissance, de présenter votre situation et de savoir si un travail thérapeutique peut être engagé. Autorisez-vous à exprimer votre ressenti.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Audrey Legros"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Les doux mots d’Audrey",
+   "detail": "Ma page Facebook.",
+   "url": "https://www.facebook.com/LesDouxMotsDAudrey"
+  }
+ ]
+}

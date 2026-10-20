@@ -4,13 +4,25 @@
   "domaine": "https://www.audreylegros-psychologueenligne.com",
   "style": "immersif",
   "palette": 2,
-  "police": 1,
+  "police": 4,
   "demo": true,
   "options": [
    "faq",
-   "statut"
+   "statut",
+   "respiration",
+   "carte",
+   "creneaux",
+   "newsletter"
   ],
-  "fond": "diaporama"
+  "fond": "zoom",
+  "voile": "moyen",
+  "couleurs": {
+   "fond": "#CBF0FF",
+   "encre": "#1C1A18",
+   "accent": "#01C7FC",
+   "doux": "#AFEAFF",
+   "texte2": "#515A5D"
+  }
  },
  "praticien": {
   "prenom": "Audrey",
@@ -22,7 +34,8 @@
   "specialiteCourte": "Approche intégrative",
   "diplome": "Master de psychologie clinique (Université Charles-de-Gaulle Lille 3, 2010)",
   "public": "Adultes uniquement",
-  "citation": "Vous vous accordez un temps rien que pour vous, au sein duquel les échanges vous seront complètement dédiés."
+  "citation": "Vous vous accordez un temps rien que pour vous, au sein duquel les échanges vous seront complètement dédiés.",
+  "adeli": "599322062"
  },
  "contact": {
   "telephone": "06 64 32 93 05",
@@ -34,92 +47,95 @@
   }
  },
  "cabinet": {
-  "adresse": "40 rue La Fontaine",
-  "codePostal": "59290",
-  "ville": "Wasquehal",
-  "zone": "En ligne, en France et à l’étranger",
+  "adresse": "Rue de Canteleu",
+  "codePostal": "59000",
+  "ville": "Lille",
+  "zone": "Lille, et en visio partout",
   "accessiblePMR": false,
   "visio": true,
+  "enLigne": false,
+  "latitude": 50.6256255,
+  "longitude": 3.0381408,
   "horaires": {
    "lundi": "10:00-21:00",
-   "mardi": "10:00-21:00",
-   "mercredi": "10:00-21:00",
-   "jeudi": "10:00-21:00",
-   "vendredi": "10:00-21:00",
+   "mardi": "10:00-20:00",
+   "mercredi": "10:00-22:00",
+   "jeudi": "10:00-19:00",
+   "vendredi": "10:00-18:00",
    "samedi": "",
    "dimanche": ""
   },
-  "horairesNote": "Téléconsultations sur rendez-vous",
+  "horairesNote": "Sur rendez-vous, au cabinet ou en visio",
   "acces": [
    {
-    "titre": "En ligne",
-    "texte": "Pour permettre une plus grande accessibilité, j’ai choisi de travailler en ligne : vous me consultez à distance, depuis chez vous ou à l’étranger.",
+    "titre": "En visio",
+    "texte": "Vous pouvez aussi me consulter à distance, depuis chez vous ou à l’étranger : les téléconsultations permettent aux expatriés de consulter une psychologue qui parle leur langue maternelle.",
     "icone": "visio"
-   },
-   {
-    "titre": "Expatriés",
-    "texte": "Les téléconsultations permettent aux expatriés de consulter une psychologue qui parle leur langue maternelle.",
-    "icone": "lieu"
    }
-  ],
-  "enLigne": true
+  ]
  },
  "tarifs": [
   {
-   "nom": "Première consultation",
-   "lieu": "En téléconsultation",
-   "prix": "Sur demande",
+   "nom": "Premier entretien",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "60 €",
    "duree": "60 min",
    "texte": "Pour faire connaissance, comprendre votre situation et présenter de premières pistes de travail.",
    "miseEnAvant": true
   },
   {
-   "nom": "Consultation de suivi",
-   "lieu": "En téléconsultation",
-   "prix": "Sur demande",
+   "nom": "Séance individuelle",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "duree": "50 min"
+  },
+  {
+   "nom": "Séance en visio",
+   "lieu": "À distance",
+   "prix": "60 €",
    "duree": "50 min",
    "texte": "Parfois 1 h 30, selon le protocole utilisé."
   }
  ],
  "motifs": [
   {
-   "titre": "Difficultés relationnelles",
-   "texte": "Sociales, sentimentales et familiales ; relations d’emprise ou de dépendance.",
-   "icone": "personnes"
+   "titre": "Anxiété",
+   "texte": "Stress, anxiété, procrastination, blocages émotionnels : peur, colère, tristesse, honte, culpabilité.",
+   "icone": "vagues"
   },
   {
-   "titre": "Souffrance au travail",
-   "texte": "Burn-out, harcèlement professionnel, difficultés professionnelles.",
+   "titre": "Stress et burn-out",
+   "texte": "Souffrance au travail, burn-out, harcèlement professionnel.",
    "icone": "batterie"
+  },
+  {
+   "titre": "Dépression",
+   "texte": "Troubles de l’humeur, épisode de vie difficile : séparation, rupture, deuil.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Estime de soi",
+   "texte": "Faible estime de soi, manque de confiance, difficultés à s’affirmer, schémas répétitifs.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Difficultés relationnelles, sociales, sentimentales et familiales ; relations d’emprise ou de dépendance.",
+   "icone": "personnes"
   },
   {
    "titre": "Traumatismes",
    "texte": "Trauma simple, TSPT, traumas complexes, souvenirs pénibles, enfance difficile.",
    "icone": "eclat"
-  },
-  {
-   "titre": "Épisode de vie difficile",
-   "texte": "Séparation, rupture, deuil, prise de décision, expatriation.",
-   "icone": "feuille"
-  },
-  {
-   "titre": "Humeur et anxiété",
-   "texte": "Troubles de l’humeur, stress, anxiété, procrastination, blocages émotionnels.",
-   "icone": "vagues"
-  },
-  {
-   "titre": "Estime de soi",
-   "texte": "Faible estime de soi, confiance en soi, difficultés à s’affirmer, schémas répétitifs.",
-   "icone": "soleil"
   }
  ],
  "pages": {
   "accueil": {
-   "seoTitre": "Audrey Legros, psychologue en ligne · psychothérapeute",
-   "seoDescription": "Audrey Legros, psychologue clinicienne et psychothérapeute en ligne : téléconsultations pour adultes, en France et à l’étranger. Psychotrauma, attachement, approche intégrative.",
-   "surtitre": "Psychologue en ligne · Écoute, soutien, psychothérapie",
+   "seoTitre": "Audrey Legros, psychologue à Lille et en visio",
+   "seoDescription": "Audrey Legros, psychologue clinicienne et psychothérapeute à Lille et en visio : adultes, thérapie des schémas, EMDR, ICV. Bienveillance, sécurité, stabilité.",
+   "surtitre": "Psychologue · Lille et en visio",
    "titre": "Un temps\n*rien que pour vous*",
-   "intro": "Psychologue clinicienne et psychothérapeute, je reçois les adultes en téléconsultation, depuis chez eux ou à l’étranger. Un espace de parole libre, confidentiel, sécurisant et intimiste.",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois les adultes à Lille et en visio, dans un espace de parole libre, confidentiel et sécurisant. Tout ceci dans le respect de votre rythme et de votre demande.",
    "motifsSurtitre": "Motifs de consultation",
    "motifsTitre": "Je vous accompagne *pour…*",
    "motifsIntro": "Rencontrer des difficultés, souffrir d’une situation, répéter des comportements inadaptés font partie de la vie. Les motifs de consultation peuvent être divers.",
@@ -150,8 +166,8 @@
      "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
     }
    ],
-   "respirationSurtitre": "Une minute pour vous",
-   "respirationTitre": "Respirer, *avant toute chose*",
+   "respirationSurtitre": "Une pause",
+   "respirationTitre": "Respirer *un instant*",
    "finTitre": "Et si vous faisiez *le premier pas ?*",
    "finTexte": "Prenez rendez-vous sur Doctolib, ou appelez-moi.",
    "questionsAccueil": [
@@ -299,7 +315,7 @@
    "seoDescription": "Téléconsultations pour adultes avec Audrey Legros : durée des séances, fréquence, tarif réduit possible, remboursement par les mutuelles.",
    "surtitre": "Consultations & tarifs",
    "titre": "Les consultations,\n*en pratique*",
-   "intro": "Je reçois en téléconsultation des adultes uniquement : ce mode de thérapie n’est pas adapté aux enfants ni aux adolescents. La fréquence est définie selon vos disponibilités et vos ressources : chaque semaine, toutes les 2 ou 3 semaines, ou une fois par mois.",
+   "intro": "Je reçois des adultes uniquement, au cabinet à Lille ou en visio. La fréquence est définie selon vos disponibilités et vos ressources : chaque semaine, toutes les 2 ou 3 semaines, ou une fois par mois.",
    "finTitre": "Réserver une *première séance*",
    "finTexte": "Prenez rendez-vous sur Doctolib, ou appelez-moi.",
    "tarifsNote": "Étudiants, demandeurs d’emploi ou situation économique difficile : parlons-en, nous pourrons convenir d’un tarif réduit. Votre situation ne doit pas être un frein à votre demande de mieux-être.",
@@ -308,7 +324,7 @@
    "paiement": "Les consultations psychologiques ne sont pas remboursées par la sécurité sociale. Certaines mutuelles prennent cependant en charge un certain nombre de séances par an : pensez à vous renseigner auprès de la vôtre."
   },
   "faq": {
-   "seoTitre": "Questions fréquentes · Audrey Legros, psychologue à Wasquehal",
+   "seoTitre": "Questions fréquentes · Audrey Legros, psychologue à Lille",
    "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
    "titre": "Vos questions,\n*mes réponses*",
    "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
@@ -390,10 +406,10 @@
    "seoTitre": "Contact · Audrey Legros, psychologue en ligne",
    "seoDescription": "Prendre rendez-vous avec Audrey Legros, psychologue en ligne : Doctolib, téléphone, e-mail. Téléconsultations du lundi au vendredi, de 10 h à 21 h.",
    "surtitre": "Contact & accès",
-   "titre": "Me *contacter*",
+   "titre": "Venir au cabinet *ou consulter en visio*",
    "intro": "Le premier contact permet de faire connaissance, de présenter votre situation et de savoir si un travail thérapeutique peut être engagé. Autorisez-vous à exprimer votre ressenti.",
-   "accesSurtitre": "Téléconsultation",
-   "accesTitre": "Consulter *en ligne*",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
    "visioSurtitre": "Consultations à distance",
    "visioTitre": "Vous préférez *la visio ?*"
   }
