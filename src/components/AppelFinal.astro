@@ -11,7 +11,7 @@ const c = cab.cabinet;
     <div class="appel__texte">
       <h2 id="appel-titre" set:html={enrichi(titre)} />
       {texte && <p class="chapeau">{texte}</p>}
-      <p class="appel__lieu">{cab.adresse.uneLigne}{c.visio ? ' · Consultations au cabinet et en visio' : ''}</p>
+      <p class="appel__lieu">{c.enLigne ? 'Consultations en ligne, en visio' : `${cab.adresse.uneLigne}${c.visio ? ' · Consultations au cabinet et en visio' : ''}`}</p>
     </div>
     <div class="boutons">
       <BoutonRdv cab={cab} />

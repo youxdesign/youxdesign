@@ -37,7 +37,7 @@ const video = Object.entries(videos).find(([k]) => k.startsWith(`/cabinets/${cab
   <div class="une__bande">
     <div class="conteneur une__bande-grille">
       <dl class="une__infos">
-        {infos.map((f) => <div><dt>{f.cle}</dt><dd>{f.valeur}{f.id === 'lieu' && c.visio ? ' · visio' : ''}</dd></div>)}
+        {infos.map((f) => <div><dt>{f.cle}</dt><dd>{f.valeur}{f.id === 'lieu' && c.visio && !c.enLigne ? ' · visio' : ''}</dd></div>)}
       </dl>
       <div class="une__actions">
         {statut.rendre && <Statut cab={cab} classe="une__statut" cache={statut.cache} />}

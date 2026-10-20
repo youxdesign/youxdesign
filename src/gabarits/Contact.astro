@@ -51,7 +51,7 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
             <dt>Rendez-vous</dt>
             <dd>
               <a href={cab.rdv.url} target="_blank" rel="noopener">Réserver sur {cab.rdv.plateforme}<span class="sr-only"> (nouvel onglet)</span></a>
-              <p class="note">Au cabinet{c.visio ? ' ou en visio' : ''}, confirmation immédiate.</p>
+              <p class="note">{c.enLigne ? 'En visio' : `Au cabinet${c.visio ? ' ou en visio' : ''}`}, confirmation immédiate.</p>
             </dd>
           </div>
         )}
@@ -93,7 +93,7 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
           </ul>
         ) : <p>Le cabinet se trouve {cab.adresse.uneLigne}.</p>}
       </div>
-      {carte.rendre ? <div data-option="carte" hidden={carte.cache}><Plan cab={cab} /></div> : (
+      {c.enLigne ? null : carte.rendre ? <div data-option="carte" hidden={carte.cache}><Plan cab={cab} /></div> : (
         <p><a class="lien-fleche" href={`https://www.openstreetmap.org/search?query=${encodeURIComponent(cab.adresse.uneLigne)}`} target="_blank" rel="noopener">Voir le plan<span class="sr-only"> (nouvel onglet)</span></a></p>
       )}
     </div>
