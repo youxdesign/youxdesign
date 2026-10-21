@@ -26,7 +26,9 @@ const premierGroupe = cab.horaires.groupes.find((g) => !g.ferme);
 const reperes = [
   p.diplome && { icone: 'diplome', titre: `${cab.metier} ${cab.accord('diplômé')}`, texte: p.diplome },
   (p.adeli || p.rpps) && { icone: 'carte', titre: p.adeli ? `N° ADELI ${p.adeli}` : `N° RPPS ${p.rpps}`, texte: cab.estPsychologue ? 'Titre de psychologue enregistré à l’ARS' : 'Numéro professionnel' },
-  { icone: 'lieu', titre: `Cabinet à ${c.ville}${c.visio ? ' et visio' : ''}`, texte: `${c.adresse}${c.quartier ? ', ' + c.quartier : ''}` },
+  c.enLigne ? { icone: 'visio', titre: 'Consultations en ligne', texte: 'En visio, depuis chez vous' }
+    : c.domicile ? { icone: 'lieu', titre: 'Consultations à domicile', texte: c.zone || c.ville }
+    : { icone: 'lieu', titre: `Cabinet à ${c.ville}${c.visio ? ' et visio' : ''}`, texte: `${c.adresse}${c.quartier ? ', ' + c.quartier : ''}` },
   cab.rdv ? { icone: 'calendrier', titre: 'Rendez-vous en ligne', texte: `Réservation à toute heure sur ${cab.rdv.plateforme}` } : { icone: 'telephone', titre: 'Rendez-vous par téléphone', texte: cab.tel.affiche }
 ].filter(Boolean);
 const statut = cab.bloc('statut', site.vitrine), respiration = cab.bloc('respiration', site.vitrine);

@@ -1,0 +1,319 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Lisa Dessut (prospect), d'après www.psychologue-dessut.com. Publiée sur youxdesign.fr/maquettes/lisa-dessut/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-dessut.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2ECE3",
+   "encre": "#22201C",
+   "accent": "#1F6E70",
+   "doux": "#E3DCD0",
+   "texte2": "#4F4A42"
+  }
+ },
+ "praticien": {
+  "prenom": "Lisa",
+  "nom": "Dessut",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "thérapie des schémas, approche intégrative",
+  "specialiteCourte": "Thérapie des schémas",
+  "diplome": "Master Psychologie clinique de la santé (Université Toulouse Jean-Jaurès, 2018)",
+  "public": "Adultes",
+  "citation": "C’est un travail d’équipe."
+ },
+ "contact": {
+  "telephone": "06 65 29 65 67",
+  "telephoneNote": "Appel ou SMS.",
+  "email": "lisa.dessut@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "1 place des Charrons",
+  "codePostal": "30120",
+  "ville": "Le Vigan",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le Vigan : lundi et mercredi · Lavérune : mardi et jeudi, sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Le Vigan",
+    "texte": "Cabinet partagé avec Abassi Nutrition. Stationnement en face (disque 1 h 30), ou parking du Super U à 5 min à pied.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Lavérune",
+    "texte": "3 impasse de l’Industrie, 34880 Lavérune : cabinet pluridisciplinaire, le mardi et le jeudi. Stationnement en face.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "Le Vigan ou Lavérune",
+   "prix": "50 €",
+   "duree": "50 min",
+   "texte": "Si vous rencontrez des difficultés financières, n’hésitez pas à m’en parler.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Schémas qui se répètent",
+   "texte": "Des scénarios de vie qui se répètent.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Blocages et souffrances",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Relation à soi et aux autres",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Pensées et émotions évitées",
+   "texte": "Au point de perdre de vue ce qui compte pour vous.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Lisa Dessut, psychologue à Le Vigan",
+   "seoDescription": "Lisa Dessut, psychologue clinicienne, psychothérapeute à Le Vigan. Thérapie des schémas, approche intégrative.",
+   "surtitre": "Psychologue clinicienne · Le Vigan et Lavérune",
+   "titre": "Remettre du sens,\n*ensemble*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois les adultes au Vigan (30) et à Lavérune (34), pour des entretiens où nous abordons vos questionnements, vos souffrances, et les ressources pour développer votre mieux-être.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Nous repérons ensemble vos modes de fonctionnement, et essayons de remettre du sens.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Lisa*",
+   "presentation": [
+    "Psychologue clinicienne, je vous accompagne dans votre cheminement mental afin d’accueillir ce qui en émerge. Psychothérapeute, je suis formée à la thérapie et vous propose divers outils pour agir sur vos blocages.",
+    "Je m’appuie essentiellement sur la thérapie des schémas, à la croisée de l’approche psychodynamique, de la gestalt-thérapie, de la théorie de l’attachement et des TCC."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Lisa Dessut, psychologue à Le Vigan",
+   "seoDescription": "Parcours et formations de Lisa Dessut, psychologue à Le Vigan.",
+   "titre": "Formations\n*et expériences*",
+   "intro": "Psychologue clinicienne, je vous accompagne dans votre cheminement mental afin d’accueillir ce qui en émerge. Psychothérapeute, je suis formée à la thérapie et vous propose divers outils pour agir sur vos blocages.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2018",
+     "titre": "Master Psychologie clinique de la santé",
+     "texte": "Université Toulouse Jean-Jaurès."
+    },
+    {
+     "date": "2021",
+     "titre": "Photolangage",
+     "texte": "Maison de la Psychologie, Toulouse."
+    },
+    {
+     "date": "Depuis 2023",
+     "titre": "Thérapie des schémas",
+     "texte": "CEFTI."
+    },
+    {
+     "date": "Expériences",
+     "titre": "IREPS, clinique Occitanie, EHPAD, post-cure",
+     "texte": "Psychologie du sport à Montpellier, oncologie et chirurgie bariatrique à Toulouse, EHPAD à Gaillac."
+    }
+   ],
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "Se former *en continu*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Lisa Dessut, psychologue à Le Vigan",
+   "seoDescription": "L’approche de Lisa Dessut, psychologue à Le Vigan : thérapie des schémas, approche intégrative.",
+   "titre": "La thérapie\n*des schémas*",
+   "intro": "Une thérapie de la relation à soi, aux autres et à son environnement, initialement développée par Jeffrey Young. Elle est expérientielle.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Basée sur l’échange",
+     "texte": "Un accompagnement interactif, où nous collaborons ensemble à votre mieux-être.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Adaptée à chacun",
+     "texte": "Votre personnalité, votre histoire, votre problématique entrent en jeu dans notre façon de travailler.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Intégrative",
+     "texte": "Des outils variés, pour que le travail soit le plus adapté à vos besoins.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "L’ACT",
+     "texte": "Utile quand on évite régulièrement des pensées ou des émotions : se connecter à ses ressentis pour repérer ses valeurs.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Un travail *d’équipe*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Lisa Dessut, psychologue à Le Vigan",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Lisa Dessut, psychologue à Le Vigan.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances durent 50 minutes. Il est conseillé de rapprocher les premières séances, puis le rythme se définit ensemble (une fois par semaine, deux fois par mois…).",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "monSoutienPsy": false
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Lisa Dessut, psychologue à Le Vigan",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Lisa Dessut, psychologue à Le Vigan",
+   "seoDescription": "Adresse et téléphone de Lisa Dessut, psychologue, 1 place des Charrons à Le Vigan.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous accueille sur deux lieux : au Vigan, 1 place des Charrons (lundi et mercredi), et à Lavérune, 3 impasse de l’Industrie (mardi et jeudi).",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Lisa Dessut"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

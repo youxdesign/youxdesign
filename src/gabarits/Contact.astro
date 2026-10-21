@@ -95,7 +95,7 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
           </ul>
         ) : <p>Le cabinet se trouve {cab.adresse.uneLigne}.</p>}
       </div>
-      {c.enLigne ? null : carte.rendre ? <div data-option="carte" hidden={carte.cache}><Plan cab={cab} /></div> : (
+      {c.enLigne || c.domicile ? null : carte.rendre ? <div data-option="carte" hidden={carte.cache}><Plan cab={cab} /></div> : (
         <p><a class="lien-fleche" href={`https://www.openstreetmap.org/search?query=${encodeURIComponent(cab.adresse.uneLigne)}`} target="_blank" rel="noopener">Voir le plan<span class="sr-only"> (nouvel onglet)</span></a></p>
       )}
     </div>

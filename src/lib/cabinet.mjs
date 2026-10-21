@@ -75,6 +75,8 @@ const schema = z.object({
     visio: z.boolean().default(false),
     /* Consultations uniquement en ligne (l'adresse reste l'adresse professionnelle) */
     enLigne: z.boolean().default(false),
+    /* Consultations uniquement au domicile des patients */
+    domicile: z.boolean().default(false),
     horaires: z.object({ lundi: horaire, mardi: horaire, mercredi: horaire, jeudi: horaire, vendredi: horaire, samedi: horaire, dimanche: horaire }),
     horairesNote: texte.optional(),
     acces: z.array(element).default([])
@@ -203,7 +205,7 @@ function enrichir(id, d) {
       uneLigne: `${c.adresse}, ${c.codePostal} ${c.ville}`,
       geo: c.latitude != null && c.longitude != null ? { lat: c.latitude, lng: c.longitude } : null
     },
-    lieuCourt: c.enLigne ? 'en ligne' : `${c.ville}${c.visio ? ' et visio' : ''}`,
+    lieuCourt: c.enLigne ? 'en ligne' : c.domicile ? `à domicile, ${c.ville}` : `${c.ville}${c.visio ? ' et visio' : ''}`,
     horaires: horaires(c.horaires),
     rdv: d.contact.rendezVous || null,
     options: new Set(d.site.options),

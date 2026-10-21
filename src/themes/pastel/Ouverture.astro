@@ -24,7 +24,7 @@ const t = textes(site, 'accueil');
     <div class="une__visuel">
       <Visuel site={site} type="portrait" prioritaire classe="une__forme" tailles="(min-width: 56rem) 36vw, 85vw" />
       <span class="une__bulle" aria-hidden="true"></span>
-      <p class="une__carte"><strong>Cabinet à {c.ville}{c.visio ? ' & visio' : ''}</strong>{p.public && <span>{p.public}</span>}</p>
+      <p class="une__carte"><strong>{c.enLigne ? 'Consultations en ligne' : c.domicile ? `À domicile · ${c.zone || c.ville}` : `Cabinet à ${c.ville}${c.visio ? ' & visio' : ''}`}</strong>{p.public && <span>{p.public}</span>}</p>
     </div>
   </div>
 </section>

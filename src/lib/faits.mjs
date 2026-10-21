@@ -10,6 +10,7 @@ export function faits(cab) {
     p.specialiteCourte && { id: 'approche', cle: 'Approche', valeur: p.specialiteCourte },
     p.public && { id: 'public', cle: 'Public', valeur: p.public },
     c.enLigne ? { id: 'lieu', cle: 'Consultations', valeur: 'En ligne, en visio', detail: 'En visio' }
+      : c.domicile ? { id: 'lieu', cle: 'Consultations', valeur: `À domicile, ${c.zone || c.ville}`, detail: 'À domicile' }
       : { id: 'lieu', cle: 'Cabinet', valeur: `${c.adresse}, ${c.ville}`, detail: c.visio ? 'Au cabinet et en visio' : 'Au cabinet' },
     ouverts[0] && { id: 'horaires', cle: 'Horaires', valeur: `${ouverts[0].libelle} : ${ouverts[0].texte}` },
     p.adeli ? { id: 'numero', cle: 'N° ADELI', valeur: p.adeli } : p.rpps && { id: 'numero', cle: 'N° RPPS', valeur: p.rpps }

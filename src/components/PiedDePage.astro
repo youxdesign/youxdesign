@@ -17,7 +17,7 @@ const annee = new Date().getFullYear();
       <div class="pied__marque">
         <p class="pied__nom">{cab.nomComplet}</p>
         <p class="pied__presentation">
-          {p.titre}{p.specialite ? `, ${p.specialite}` : ''}. {p.public ? `${p.public}, ` : ''}{cab.cabinet.enLigne ? 'en ligne, en visio.' : cab.cabinet.visio ? `au cabinet ${de(cab.cabinet.ville)} et en visio.` : `au cabinet ${de(cab.cabinet.ville)}.`}
+          {p.titre}{p.specialite ? `, ${p.specialite}` : ''}. {p.public ? `${p.public}, ` : ''}{cab.cabinet.enLigne ? 'en ligne, en visio.' : cab.cabinet.domicile ? `à domicile, ${cab.cabinet.zone || cab.cabinet.ville}.` : cab.cabinet.visio ? `au cabinet ${de(cab.cabinet.ville)} et en visio.` : `au cabinet ${de(cab.cabinet.ville)}.`}
         </p>
       </div>
       <nav aria-labelledby="pied-plan">

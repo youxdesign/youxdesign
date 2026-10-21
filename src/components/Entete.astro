@@ -18,7 +18,7 @@ const cab = site.cab;
 const menu = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && (p.id !== 'faq' || cab.a('faq') || site.vitrine));
 /* Lien vers la FAQ : masqué (démos) ou absent (sites) si l'option n'est pas choisie */
 const attributs = (p) => ({ 'data-page-lien': p.id, ...(p.id === 'faq' ? { 'data-option': 'faq', hidden: !cab.a('faq') } : {}) });
-const sousTitre = `${cab.metier} · ${cab.cabinet.enLigne ? "en ligne" : cab.cabinet.ville}`;
+const sousTitre = `${cab.metier} · ${cab.cabinet.enLigne ? "en ligne" : cab.cabinet.domicile ? "à domicile" : cab.cabinet.ville}`;
 const r = reglages(site.theme);
 const statut = cab.bloc('statut', site.vitrine);
 ---

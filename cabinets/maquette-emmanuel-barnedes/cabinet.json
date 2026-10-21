@@ -1,0 +1,295 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Emmanuel Barnèdes (prospect), d'après www.psychologuetcc-isere.org. Publiée sur youxdesign.fr/maquettes/emmanuel-barnedes/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologuetcc-isere.org",
+  "style": "immersif",
+  "palette": 2,
+  "police": 3,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "fond": "degrade"
+ },
+ "praticien": {
+  "prenom": "Emmanuel",
+  "nom": "Barnèdes",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "thérapie cognitivo-comportementale et thérapie des schémas",
+  "specialiteCourte": "TCC et thérapie des schémas",
+  "diplome": "Cursus de psychologie, Université Paris 8 (IED) ; qualification en thérapie des schémas pour adultes (IFTS)",
+  "rpps": "10008777483",
+  "public": "Adultes",
+  "citation": "Une approche éthique et scientifique, centrée sur la personne, sans jugement, avec empathie inconditionnelle."
+ },
+ "contact": {
+  "telephone": "06 04 51 82 92",
+  "email": "emmanuel.barnedes@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/meylan/emmanuel-barnedes"
+  }
+ },
+ "cabinet": {
+  "adresse": "57 bis boulevard des Alpes",
+  "codePostal": "38240",
+  "ville": "Meylan",
+  "zone": "Isère, près de Grenoble",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "duree": "1 h environ",
+   "texte": "En TCC, les suivis comportent en général 4 à 15 séances, sur 2 à 6 mois.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles anxieux",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Troubles de l’humeur",
+   "texte": "Troubles thymiques.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Troubles du comportement alimentaire",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Addictions",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Troubles de la personnalité",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Dépression professionnelle",
+   "texte": "Burn-out.",
+   "icone": "batterie"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Emmanuel Barnèdes, psychologue à Meylan",
+   "seoDescription": "Emmanuel Barnèdes, psychologue à Meylan. Thérapie cognitivo-comportementale et thérapie des schémas.",
+   "surtitre": "Psychologue · TCC · Meylan (Isère)",
+   "titre": "Une démarche\n*éthique et scientifique*",
+   "intro": "Je traite les troubles psychopathologiques par la thérapie cognitivo-comportementale et la thérapie des schémas, avec une approche centrée sur la personne, sans jugement, sans interprétation, avec empathie inconditionnelle.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Les troubles que j’accompagne en consultation.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Emmanuel*",
+   "presentation": [
+    "Après un parcours scientifique, je me suis orienté vers l’accompagnement des personnes en situation de handicap, puis j’ai été responsable d’une structure d’accueil de jour pour adultes cérébrolésés.",
+    "En 2013, j’ai entamé un cursus de psychologie à l’Université Paris 8. Je suis membre de la Société française de psychologie, de l’AFTCC et de l’Institut français de thérapie des schémas."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Emmanuel Barnèdes, psychologue à Meylan",
+   "seoDescription": "Parcours et formations de Emmanuel Barnèdes, psychologue à Meylan.",
+   "titre": "Ce qui\n*me guide*",
+   "intro": "Je suis porté par des valeurs humanistes et professionnelles (Code de déontologie des psychologues), philosophiques et spirituelles, cohérentes entre elles.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "valeurs": [
+    {
+     "titre": "La responsabilité",
+     "texte": "Me sentir responsable de l’autre, de ce qu’il me confie, me dit, me fait."
+    },
+    {
+     "titre": "La supervision",
+     "texte": "Entamée dès mon cursus universitaire, elle me permet d’être plus disponible pour autrui, plus authentique."
+    },
+    {
+     "titre": "Les certifications",
+     "texte": "Membre de la SFP, de l’AFTCC et de l’IFTS ; qualification en thérapie des schémas pour adultes."
+    }
+   ],
+   "valeursSurtitre": "Mes repères",
+   "valeursTitre": "Exemplaire, prudent, *réfléchi*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Emmanuel Barnèdes, psychologue à Meylan",
+   "seoDescription": "L’approche de Emmanuel Barnèdes, psychologue à Meylan : thérapie cognitivo-comportementale et thérapie des schémas.",
+   "titre": "La TCC,\n*au cœur d’une démarche scientifique*",
+   "intro": "Avec la thérapie cognitivo-comportementale, vous êtes au cœur d’une démarche scientifique. Ma démarche consiste à accueillir votre parole sans interprétation, à recueillir les mots et le sens subjectif tels quels.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "cadre": [
+    "En règle générale, les suivis comportent **4 à 15 séances**, sur 2 à 6 mois, d’environ 1 h.",
+    "Nous analysons vos comportements de manière fonctionnelle, puis travaillons ensemble sur **vos émotions, vos cognitions et vos comportements**, avec une phase d’exposition en fin d’accompagnement.",
+    "La confidentialité, l’anonymat et **le consentement libre et éclairé** sont respectés."
+   ],
+   "cadreSurtitre": "Le suivi",
+   "cadreTitre": "Un cadre *clair*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Emmanuel Barnèdes, psychologue à Meylan",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Emmanuel Barnèdes, psychologue à Meylan.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les entretiens durent environ 1 h. Prenez rendez-vous en ligne sur Doctolib.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Emmanuel Barnèdes, psychologue à Meylan",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Emmanuel Barnèdes, psychologue à Meylan",
+   "seoDescription": "Adresse et téléphone de Emmanuel Barnèdes, psychologue, 57 bis boulevard des Alpes à Meylan.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 57 bis boulevard des Alpes, à Meylan.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Emmanuel Barnèdes"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "AFTCC",
+   "detail": "Association française de thérapie comportementale et cognitive, dont je suis membre.",
+   "url": "https://www.aftcc.org/"
+  }
+ ]
+}

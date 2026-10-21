@@ -39,6 +39,7 @@ const reperes = [
   p.adeli ? { titre: `N° ADELI ${p.adeli}`, texte: cab.estPsychologue ? 'Titre de psychologue enregistré à l’ARS' : 'Numéro professionnel' }
     : p.rpps && { titre: `N° RPPS ${p.rpps}`, texte: 'Répertoire partagé des professionnels de santé' },
   c.enLigne ? { titre: 'Consultations en ligne', texte: 'En visio, depuis chez vous' }
+    : c.domicile ? { titre: 'Consultations à domicile', texte: c.zone || c.ville }
     : { titre: `Cabinet à ${c.ville}${c.visio ? ' et visio' : ''}`, texte: `${c.adresse}${c.quartier ? ', ' + c.quartier : ''}` },
   /* le numéro est déjà dans le bandeau du haut : on ne le répète pas */
   cab.rdv ? { titre: 'Rendez-vous en ligne', texte: `Réservation à toute heure sur ${cab.rdv.plateforme}` }
