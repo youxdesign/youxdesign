@@ -1,0 +1,298 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Noémie Le Jeune (prospect), d'après nlejeuneneuropsy.wixsite.com/neuropsychologue. Publiée sur youxdesign.fr/maquettes/noemie-le-jeune/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://nlejeuneneuropsy.wixsite.com",
+  "style": "immersif",
+  "palette": 1,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq",
+   "statut"
+  ],
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Noémie",
+  "nom": "Le Jeune",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue spécialisée en neuropsychologie",
+  "specialite": "neuropsychologie, bilans, remédiation cognitive",
+  "specialiteCourte": "Neuropsychologie",
+  "adeli": "739309243",
+  "public": "Enfants, adolescents, adultes et personnes âgées",
+  "citation": "Mettre en évidence votre fonctionnement cognitif, pour améliorer votre qualité de vie."
+ },
+ "contact": {
+  "telephone": "07 60 15 69 67",
+  "email": "noemielejeune.neuropsy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/challes-les-eaux/noemie-le-jeune"
+  }
+ },
+ "cabinet": {
+  "adresse": "351 avenue des Massettes, bâtiment Oppidum",
+  "codePostal": "73190",
+  "ville": "Challes-les-Eaux",
+  "zone": "Près de Chambéry",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "08:00-17:00",
+   "mardi": "08:00-17:00",
+   "mercredi": "",
+   "jeudi": "08:00-17:00",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Face au médipôle",
+    "texte": "Bâtiment Oppidum.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation psychologique",
+   "lieu": "Avis neuropsychologique",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Remédiation cognitive, guidance parentale",
+   "lieu": "Suivi",
+   "prix": "60 €"
+  },
+  {
+   "nom": "Bilan de QI ou neuropsychologique",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Agitation",
+   "texte": "Une agitation importante, difficulté à tenir en place.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Attention",
+   "texte": "Consignes à répéter, manque de concentration.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Comportement et impulsivité",
+   "texte": "Des tensions ou conflits fréquents.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Mémoire",
+   "texte": "Un trouble de la mémoire, chez l’adulte ou la personne âgée.",
+   "icone": "livre"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Noémie Le Jeune, psychologue à Challes-les-Eaux",
+   "seoDescription": "Noémie Le Jeune, psychologue spécialisée en neuropsychologie à Challes-les-Eaux. Neuropsychologie, bilans, remédiation cognitive.",
+   "surtitre": "Psychologue · Neuropsychologie · Challes-les-Eaux, près de Chambéry",
+   "titre": "Comprendre\n*son fonctionnement*",
+   "intro": "Je vous propose de mettre en évidence votre fonctionnement cognitif, ou celui de votre enfant, et d’apporter des éléments de réponse sur la présence ou non d’un trouble : neurodéveloppement, attention, mémoire.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Il n’est pas toujours évident de savoir quand consulter. Voici quelques situations où un accompagnement peut être utile.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Noémie*",
+   "presentation": [
+    "Je considère les personnes qui viennent me consulter comme des acteurs importants du processus de compréhension de leur situation ou du fonctionnement de leur enfant.",
+    "J’ai exercé en gériatrie (centre hospitalier d’Hauteville-Lompnes), et j’exerce depuis 2021 en IME auprès d’enfants et d’adolescents."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Noémie Le Jeune, psychologue à Challes-les-Eaux",
+   "seoDescription": "Parcours et formations de Noémie Le Jeune, psychologue à Challes-les-Eaux.",
+   "titre": "Mon *parcours*",
+   "intro": "Je considère les personnes qui viennent me consulter comme des acteurs importants du processus de compréhension de leur situation ou du fonctionnement de leur enfant.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Noémie Le Jeune, psychologue à Challes-les-Eaux",
+   "seoDescription": "L’approche de Noémie Le Jeune, psychologue à Challes-les-Eaux : neuropsychologie, bilans, remédiation cognitive.",
+   "titre": "La neuropsychologie,\n*au service de chacun*",
+   "intro": "Une expertise en psychologie, et plus spécifiquement en neuropsychologie, pour identifier les spécificités de votre fonctionnement.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Consultation",
+     "texte": "Échanger en vue d’un avis neuropsychologique.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Remédiation cognitive",
+     "texte": "Prendre conscience de son fonctionnement, restaurer ou compenser les fonctions cognitives affaiblies.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Bilan de QI",
+     "texte": "Évaluer l’efficience intellectuelle.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Bilan neuropsychologique",
+     "icone": "cerveau"
+    }
+   ],
+   "outilsSurtitre": "Mes prestations",
+   "outilsTitre": "Évaluer *et accompagner*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Noémie Le Jeune, psychologue à Challes-les-Eaux",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Noémie Le Jeune, psychologue à Challes-les-Eaux.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Certaines mutuelles prennent en charge une partie des consultations : renseignez-vous auprès de la vôtre.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Noémie Le Jeune, psychologue à Challes-les-Eaux",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Noémie Le Jeune, psychologue à Challes-les-Eaux",
+   "seoDescription": "Adresse et téléphone de Noémie Le Jeune, psychologue, 351 avenue des Massettes, bâtiment Oppidum à Challes-les-Eaux.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 351 avenue des Massettes à Challes-les-Eaux, bâtiment Oppidum, face au médipôle.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Noémie Le Jeune"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

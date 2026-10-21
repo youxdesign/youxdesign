@@ -1,0 +1,270 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Betty Lamboulé (prospect), d'après bettylamboule.wixsite.com/psychologue. Publiée sur youxdesign.fr/maquettes/betty-lamboule/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://bettylamboule.wixsite.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 2,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Betty",
+  "nom": "Lamboulé",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "victimologie, psychocriminologie, traumatisme psychique",
+  "specialiteCourte": "Victimologie et psychotrauma",
+  "diplome": "Master II Psychologie légale, clinique et sociale (Université de Lorraine, Nancy II)",
+  "adeli": "549309052",
+  "public": "Enfants, adolescents, adultes, couples et familles",
+  "citation": "Le traitement du psychologue est la délivrance des maux par des mots."
+ },
+ "contact": {
+  "telephone": "07 51 66 49 45",
+  "email": "betty.lamboule@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Lunéville",
+  "codePostal": "54300",
+  "ville": "Lunéville",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Déplacements",
+    "texte": "Frais de déplacement : 0,50 € / km.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "lieu": "Enfants, adolescents, adultes",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Couple ou famille",
+   "lieu": "Médiation couple ou familiale",
+   "prix": "100 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Traumatisme psychique",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Médiation de couple",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Médiation familiale",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Stress",
+   "icone": "vagues"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Betty Lamboulé, psychologue à Lunéville",
+   "seoDescription": "Betty Lamboulé, psychologue clinicienne, psychothérapeute à Lunéville. Victimologie, psychocriminologie, traumatisme psychique.",
+   "surtitre": "Psychologue clinicienne · Lunéville",
+   "titre": "La délivrance des maux\n*par des mots*",
+   "intro": "Psychologue clinicienne et psychothérapeute à Lunéville, je reçois enfants, adolescents et adultes, en individuel, en couple ou en famille.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Entretiens individuels, médiation de couple et familiale, prise en charge du traumatisme psychique.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Betty*",
+   "presentation": [
+    "Titulaire d’un master II en psychologie légale, clinique et sociale (Nancy II), je suis spécialisée en victimologie et psychocriminologie, et dans la prise en charge du traumatisme psychique.",
+    "J’ai exercé notamment en maison d’enfants à caractère social et au Centre d’information sur les droits des femmes et des familles."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Betty Lamboulé, psychologue à Lunéville",
+   "seoDescription": "Parcours et formations de Betty Lamboulé, psychologue à Lunéville.",
+   "titre": "Mon *parcours*",
+   "intro": "Titulaire d’un master II en psychologie légale, clinique et sociale (Nancy II), je suis spécialisée en victimologie et psychocriminologie, et dans la prise en charge du traumatisme psychique.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Betty Lamboulé, psychologue à Lunéville",
+   "seoDescription": "L’approche de Betty Lamboulé, psychologue à Lunéville : victimologie, psychocriminologie, traumatisme psychique.",
+   "titre": "Se fier\n*à la relation*",
+   "intro": "La qualité d’une psychothérapie dépend autant des compétences du thérapeute que de la qualité de la relation du patient avec lui : ce qui a marché chez quelqu’un ne fonctionnera pas nécessairement chez un autre.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Betty Lamboulé, psychologue à Lunéville",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Betty Lamboulé, psychologue à Lunéville.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Tarifs non pris en charge par la Sécurité sociale ; certaines mutuelles remboursent une partie des consultations.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Chèques et espèces uniquement.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Betty Lamboulé, psychologue à Lunéville",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Betty Lamboulé, psychologue à Lunéville",
+   "seoDescription": "Adresse et téléphone de Betty Lamboulé, psychologue, Lunéville à Lunéville.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois à Lunéville, sur rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Betty Lamboulé"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Code de déontologie",
+   "detail": "Le code de déontologie des psychologues.",
+   "url": "https://www.codededeontologiedespsychologues.fr/"
+  }
+ ]
+}

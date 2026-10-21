@@ -1,0 +1,290 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Maeva Brie (prospect), d'après maevabrie.wixsite.com/maevabrie. Publiée sur youxdesign.fr/maquettes/maeva-brie/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://maevabrie.wixsite.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Maeva",
+  "nom": "Brie",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "approche intégrative, psychologie de la famille, périnatalité",
+  "specialiteCourte": "Approche intégrative",
+  "diplome": "Master 2 Psychologie clinique de la famille et psychopathologie (Université de Besançon)",
+  "adeli": "259309094",
+  "public": "Adultes et adolescents",
+  "citation": "Connaître les difficultés du passé pour envisager un avenir différent."
+ },
+ "contact": {
+  "telephone": "06 01 18 78 42",
+  "email": "maevabrie.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Perfactive",
+   "url": "https://perfactive.fr/maeva-brie/maeva-brie/book"
+  }
+ },
+ "cabinet": {
+  "adresse": "Cabinet à Valentigney",
+  "codePostal": "25700",
+  "ville": "Valentigney",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "À domicile",
+    "texte": "Déplacement à domicile possible.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Adultes",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "duree": "50 min environ",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Adolescents",
+   "lieu": "Au cabinet",
+   "prix": "50 €",
+   "duree": "50 min environ",
+   "texte": "Adaptation du tarif possible dans certaines situations."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Angoisses et anxiété",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Tristesse, impuissance",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Difficulté à faire des choix",
+   "icone": "marches"
+  },
+  {
+   "titre": "Addictions et TCA",
+   "texte": "Troubles du comportement alimentaire, addictions.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Deuils et ruptures",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Corps et douleurs",
+   "texte": "Manifestations corporelles, douleurs chroniques, maladies.",
+   "icone": "poumons"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Maeva Brie, psychologue à Valentigney",
+   "seoDescription": "Maeva Brie, psychologue clinicienne, psychothérapeute à Valentigney. Approche intégrative, psychologie de la famille, périnatalité.",
+   "surtitre": "Psychologue clinicienne · Valentigney",
+   "titre": "En confiance\n*et en sécurité*",
+   "intro": "Vous trouverez dans mon cabinet de Valentigney un espace où aborder vos difficultés en confiance et en sécurité. Je vous accueille avec bienveillance et attention, pour que vous vous sentiez libre d’exprimer vos souffrances et vos peurs.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Ce qui pousse à demander de l’aide a lieu dans le présent, et peut prendre différentes formes.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Maeva*",
+   "presentation": [
+    "Diplômée d’un master 2 en psychologie clinique de la famille et psychopathologie (Besançon), je considère l’être humain dans toute sa complexité et sa globalité.",
+    "Je ne dissocie pas l’esprit du corps, qui s’influencent l’un l’autre. Mes influences théoriques sont multiples et se complètent, pour un accompagnement intégratif."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Perfactive, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Maeva Brie, psychologue à Valentigney",
+   "seoDescription": "Parcours et formations de Maeva Brie, psychologue à Valentigney.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée d’un master 2 en psychologie clinique de la famille et psychopathologie (Besançon), je considère l’être humain dans toute sa complexité et sa globalité.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Maeva Brie, psychologue à Valentigney",
+   "seoDescription": "L’approche de Maeva Brie, psychologue à Valentigney : approche intégrative, psychologie de la famille, périnatalité.",
+   "titre": "Une vision\n*intégrative*",
+   "intro": "Les premiers entretiens permettent de nous connaître, et de savoir si ma manière de travailler peut entrer en cohérence avec vos besoins thérapeutiques.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Maeva Brie, psychologue à Valentigney",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Maeva Brie, psychologue à Valentigney.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Lors du premier contact, par téléphone ou par mail, nous convenons d’un horaire de rendez-vous. Les séances durent environ 50 minutes.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "monSoutienPsy": false
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Maeva Brie, psychologue à Valentigney",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Maeva Brie, psychologue à Valentigney",
+   "seoDescription": "Adresse et téléphone de Maeva Brie, psychologue, Cabinet à Valentigney à Valentigney.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois à mon cabinet de Valentigney, ou à domicile si besoin.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Maeva Brie"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Ma page.",
+   "url": "https://www.facebook.com/Maeva-Brie-Psychologue-%C3%A0-domicile"
+  },
+  {
+   "titre": "LinkedIn",
+   "detail": "Mon profil professionnel.",
+   "url": "http://www.linkedin.com/in/maeva-brie"
+  }
+ ]
+}

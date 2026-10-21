@@ -1,0 +1,283 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Sandra Perrin (prospect), d'après sandraperrin.wixsite.com/website. Publiée sur youxdesign.fr/maquettes/sandra-perrin/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://sandraperrin.wixsite.com",
+  "style": "pastel",
+  "palette": 2,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ]
+ },
+ "praticien": {
+  "prenom": "Sandra",
+  "nom": "Perrin",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue du développement",
+  "specialite": "troubles du spectre de l’autisme",
+  "specialiteCourte": "Troubles du spectre de l’autisme",
+  "public": "Enfants avec TSA, parents et professionnels",
+  "citation": "Chaque être humain a son univers, son monde intérieur. (Josef Schovanec)"
+ },
+ "contact": {
+  "telephone": "06 79 13 68 03",
+  "email": "sandra_perrin@hotmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Interventions à domicile",
+  "codePostal": "68",
+  "ville": "Haut-Rhin",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": true,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Intervention à domicile",
+   "lieu": "Guidance parentale, psychoéducation, prise en charge",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Formation et supervision",
+   "lieu": "Professionnels et parents",
+   "prix": "Sur demande"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Évaluation fonctionnelle",
+   "texte": "Évaluer les compétences de votre enfant pour définir avec vous des objectifs de travail.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Guidance parentale",
+   "texte": "Mieux comprendre les points forts et les difficultés de votre enfant.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Prise en charge adaptée",
+   "texte": "Comportementale et développementale, recommandée par la HAS.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Inclusion scolaire",
+   "texte": "Des aménagements adaptés aux besoins de chaque enfant.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Sandra Perrin, psychologue à Haut-Rhin",
+   "seoDescription": "Sandra Perrin, psychologue du développement à Haut-Rhin. Troubles du spectre de l’autisme.",
+   "surtitre": "Psychologue du développement · TSA · Haut-Rhin",
+   "titre": "Vers plus d’autonomie\n*et d’inclusion*",
+   "intro": "Psychologue du développement spécialisée dans les troubles du spectre de l’autisme, j’accompagne vos enfants vers plus d’autonomie et d’inclusion sociale, à domicile.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Mes interventions à domicile.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Sandra*",
+   "presentation": [
+    "J’interviens à domicile : guidance parentale, psychoéducation, prises en charge recommandées par la HAS (ABA VB, TEACCH, Makaton, PECS, PRT) et évaluation fonctionnelle.",
+    "Je propose aussi des formations pour les professionnels et les parents, et la supervision des intervenants ou de l’AVS de votre enfant."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Sandra Perrin, psychologue à Haut-Rhin",
+   "seoDescription": "Parcours et formations de Sandra Perrin, psychologue à Haut-Rhin.",
+   "titre": "Mon *parcours*",
+   "intro": "J’interviens à domicile : guidance parentale, psychoéducation, prises en charge recommandées par la HAS (ABA VB, TEACCH, Makaton, PECS, PRT) et évaluation fonctionnelle.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Sandra Perrin, psychologue à Haut-Rhin",
+   "seoDescription": "L’approche de Sandra Perrin, psychologue à Haut-Rhin : troubles du spectre de l’autisme.",
+   "titre": "Une prise en charge\n*personnalisée*",
+   "intro": "Une connaissance actualisée des TSA, une expérience de l’accompagnement des familles et de l’inclusion scolaire.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "ABA, TEACCH",
+     "icone": "marches"
+    },
+    {
+     "titre": "Makaton, PECS",
+     "icone": "plume"
+    },
+    {
+     "titre": "PRT",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Évaluations",
+     "texte": "VB-MAPP, ABLLS-R, Vineland, profils sensoriels.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "Recommandés *par la HAS*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Sandra Perrin, psychologue à Haut-Rhin",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Sandra Perrin, psychologue à Haut-Rhin.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Pour plus d’informations sur ma pratique, n’hésitez pas à prendre contact.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Sandra Perrin, psychologue à Haut-Rhin",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Sandra Perrin, psychologue à Haut-Rhin",
+   "seoDescription": "Adresse et téléphone de Sandra Perrin, psychologue, Interventions à domicile à Haut-Rhin.",
+   "surtitre": "Contact & accès",
+   "titre": "Me *contacter*",
+   "intro": "J’interviens à domicile. Pour plus d’informations, contactez-moi par téléphone ou par e-mail.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Sandra Perrin"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Ma page.",
+   "url": "https://www.facebook.com/Sandra-Perrin-Psychologue-101585637888697/"
+  }
+ ]
+}

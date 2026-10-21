@@ -1,0 +1,315 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Colette Durou Delanoë (prospect), d'après www.colette-durou-delanoe-psychotherapie-sexologie-hypnose-emdr-64.fr. Publiée sur youxdesign.fr/maquettes/colette-durou-delanoe/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.colette-durou-delanoe-psychotherapie-sexologie-hypnose-emdr-64.fr",
+  "style": "immersif",
+  "palette": 3,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "fond": "diaporama"
+ },
+ "praticien": {
+  "prenom": "Colette",
+  "nom": "Durou Delanoë",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute, sexologue clinicienne",
+  "specialite": "psychothérapies intégratives, sexologie, hypnose, EMDR, Somatic Experiencing",
+  "specialiteCourte": "Approche intégrative",
+  "diplome": "DEA de psychologie clinique ; DU de sexologie, de victimologie, stress et santé",
+  "adeli": "640002739",
+  "public": "Adultes, couples, adolescents et enfants",
+  "citation": "La vie est un défi à relever, un bonheur à apprécier, une aventure à tenter."
+ },
+ "contact": {
+  "telephone": "06 09 78 67 54",
+  "telephoneNote": "Cabinet : 05 59 63 24 84.",
+  "email": "c.duroudelanoe@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychotherapeute/bayonne/colette-durou-delanoe"
+  }
+ },
+ "cabinet": {
+  "adresse": "Bayonne – Pays basque",
+  "codePostal": "64100",
+  "ville": "Bayonne",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "lieu": "Adultes, adolescents, enfants",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Thérapie de couple",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Psychothérapies",
+   "texte": "Individuelles et de couple.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Sexologie",
+   "texte": "Sexologue clinicienne, thérapeute conjugale.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Gestion du stress",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "EMDR et Somatic Experiencing.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Haptonomie périnatale",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Colette Durou Delanoë, psychologue à Bayonne",
+   "seoDescription": "Colette Durou Delanoë, psychologue, psychothérapeute, sexologue clinicienne à Bayonne. Psychothérapies intégratives, sexologie, hypnose, emdr, somatic experiencing.",
+   "surtitre": "Psychologue · Psychothérapeute · Sexologue · Bayonne",
+   "titre": "Une aventure\n*à tenter*",
+   "intro": "Plus de 30 ans de pratique en psychothérapies multiréférentielles et intégratives, dans le courant humaniste, à Bayonne, au Pays basque.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Séances individuelles et de couple, pour adultes, adolescents et enfants.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Colette*",
+   "presentation": [
+    "Toujours curieuse des découvertes scientifiques permettant de mieux connaître l’humain, je me suis attachée à considérer l’individu dans sa globalité, sans dissocier le corps de l’esprit.",
+    "Ce savoir-faire et savoir-être, mis à l’épreuve de l’expérience, me permet d’apporter la réponse la mieux adaptée à chaque demande."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Colette Durou Delanoë, psychologue à Bayonne",
+   "seoDescription": "Parcours et formations de Colette Durou Delanoë, psychologue à Bayonne.",
+   "titre": "Un long parcours\n*de formations*",
+   "intro": "Toujours curieuse des découvertes scientifiques permettant de mieux connaître l’humain, je me suis attachée à considérer l’individu dans sa globalité, sans dissocier le corps de l’esprit.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "Paramédical",
+     "titre": "Infirmière anesthésiste DE"
+    },
+    {
+     "date": "Psychologie",
+     "titre": "DEA de psychologie clinique"
+    },
+    {
+     "date": "DU",
+     "titre": "Sexologie ; stress, aspects biologiques et psychosociaux ; santé et action humanitaire ; victimologie"
+    },
+    {
+     "date": "Accréditation",
+     "titre": "Somatic Experiencing et EMDR Europe"
+    }
+   ],
+   "parcoursSurtitre": "Diplômes",
+   "parcoursTitre": "Du soin *à la psychologie*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Colette Durou Delanoë, psychologue à Bayonne",
+   "seoDescription": "L’approche de Colette Durou Delanoë, psychologue à Bayonne : psychothérapies intégratives, sexologie, hypnose, EMDR, Somatic Experiencing.",
+   "titre": "Le corps\n*et l’esprit*",
+   "intro": "Une approche humaniste, multiréférentielle et intégrative.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapie",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Sexologie",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Hypnose",
+     "icone": "vagues"
+    },
+    {
+     "titre": "EMDR",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Somatic Experiencing",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Haptonomie périnatale",
+     "icone": "soleil"
+    }
+   ],
+   "outilsSurtitre": "Méthodes thérapeutiques",
+   "outilsTitre": "Des approches *complémentaires*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Colette Durou Delanoë, psychologue à Bayonne",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Colette Durou Delanoë, psychologue à Bayonne.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Séances individuelles et de couple, sur rendez-vous, par téléphone ou sur Doctolib.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Colette Durou Delanoë, psychologue à Bayonne",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Colette Durou Delanoë, psychologue à Bayonne",
+   "seoDescription": "Adresse et téléphone de Colette Durou Delanoë, psychologue, Bayonne – Pays basque à Bayonne.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois à Bayonne, au Pays basque, sur rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Colette Durou Delanoë"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
