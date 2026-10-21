@@ -1,0 +1,356 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Elodie Brugallé (prospect), d'après www.elodie-brugalle.fr. Publiée sur youxdesign.fr/maquettes/elodie-brugalle/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.elodie-brugalle.fr",
+  "style": "immersif",
+  "palette": 2,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq",
+   "statut"
+  ],
+  "couleurs": {
+   "fond": "#F2F6F7",
+   "encre": "#16242A",
+   "accent": "#2F6F9F",
+   "doux": "#DCE8EE",
+   "texte2": "#4C5A61"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Elodie",
+  "nom": "Brugallé",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "TCC/TECC, hypnose ericksonienne et EMDR",
+  "specialiteCourte": "TCC, hypnose, EMDR",
+  "diplome": "Psychologue clinicienne, psychothérapeute (Université de Lille, 2015) ; DU TCC/TECC",
+  "public": "Adolescents, adultes, seniors et couples",
+  "citation": "Le monde est rempli à la fois de souffrance et de victoires sur la souffrance. (Helen Keller)"
+ },
+ "contact": {
+  "telephone": "07 82 30 64 75",
+  "email": "ebrugalle.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "ClicRDV",
+   "url": "https://www.clicrdv.com/mme-elodie-brugalle-psychologue"
+  }
+ },
+ "cabinet": {
+  "adresse": "153 boulevard de la Liberté",
+  "codePostal": "59800",
+  "ville": "Lille",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "08:30-18:00",
+   "mardi": "08:30-13:00",
+   "mercredi": "08:30-18:00",
+   "jeudi": "08:30-18:00",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Métro",
+    "texte": "Ligne 1 (Rihour, République).",
+    "icone": "metro"
+   },
+   {
+    "titre": "Bus",
+    "texte": "Liane 1, Liane 5, ligne 18, Citadine (République).",
+    "icone": "voiture"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Je peux ponctuellement me déplacer si vous ne pouvez pas venir au cabinet.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "70 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance d’EMDR",
+   "lieu": "Au cabinet",
+   "prix": "75 €"
+  },
+  {
+   "nom": "Thérapie de couple",
+   "lieu": "Au cabinet",
+   "prix": "90 €"
+  },
+  {
+   "nom": "À domicile",
+   "lieu": "Ponctuellement",
+   "prix": "70 €",
+   "texte": "Plus les frais de déplacement."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Stress et anxiété",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Estime de soi",
+   "texte": "Estime et confiance en soi.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Gestion des émotions",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Thérapie de couple",
+   "texte": "Surmonter des moments difficiles et conflictuels de la relation.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Burn-out et dépression",
+   "texte": "Épuisement, baisse de moral.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Addictions et phobies",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Elodie Brugallé, psychologue à Lille",
+   "seoDescription": "Elodie Brugallé, psychologue clinicienne, psychothérapeute à Lille. Tcc/tecc, hypnose ericksonienne et emdr.",
+   "surtitre": "Psychologue clinicienne · TCC · Lille",
+   "titre": "Un appui psychologique\n*attentif et personnalisé*",
+   "intro": "J’accueille adolescents, adultes ou seniors, et j’accompagne aussi les couples, dans un environnement bienveillant, en plein centre de Lille.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Un accompagnement régulier, ou un soutien ponctuel lors de périodes difficiles : une séparation, un deuil, un licenciement.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Elodie*",
+   "presentation": [
+    "Après une licence de psychologie à Rennes 2, j’ai poursuivi à l’Université de Lille pour bénéficier d’une approche intégrative, et obtenu en 2015 mon diplôme de psychologue clinicienne et psychothérapeute.",
+    "En parallèle du libéral, je travaille à mi-temps au CHRU de Lille, en neurologie. Après un DU en TCC/TECC, je me suis formée à l’hypnose ericksonienne (certification en 2021)."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur ClicRDV, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Elodie Brugallé, psychologue à Lille",
+   "seoDescription": "Parcours et formations de Elodie Brugallé, psychologue à Lille.",
+   "titre": "Me former\n*tout au long de mon parcours*",
+   "intro": "Après une licence de psychologie à Rennes 2, j’ai poursuivi à l’Université de Lille pour bénéficier d’une approche intégrative, et obtenu en 2015 mon diplôme de psychologue clinicienne et psychothérapeute.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "Licence",
+     "titre": "Psychologie",
+     "texte": "Université Rennes 2."
+    },
+    {
+     "date": "2015",
+     "titre": "Psychologue clinicienne, psychothérapeute",
+     "texte": "Université de Lille, spécialisation en psychopathologie."
+    },
+    {
+     "date": "DU",
+     "titre": "TCC / TECC"
+    },
+    {
+     "date": "2021",
+     "titre": "Hypnose ericksonienne",
+     "texte": "Certification après deux ans de formation."
+    },
+    {
+     "date": "Aujourd’hui",
+     "titre": "CHRU de Lille, neurologie",
+     "texte": "Accompagner patients et proches, de l’annonce du diagnostic à la fin de vie."
+    }
+   ],
+   "parcoursSurtitre": "Parcours et formation",
+   "parcoursTitre": "De Rennes *à Lille*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Elodie Brugallé, psychologue à Lille",
+   "seoDescription": "L’approche de Elodie Brugallé, psychologue à Lille : TCC/TECC, hypnose ericksonienne et EMDR.",
+   "titre": "Des outils\n*complémentaires*",
+   "intro": "Je vous accompagne autant dans des démarches à court terme, qui visent la résolution d’un problème précis, que dans un travail plus approfondi.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "TCC",
+     "icone": "livre"
+    },
+    {
+     "titre": "Hypnose ericksonienne",
+     "icone": "vagues"
+    },
+    {
+     "titre": "EMDR",
+     "icone": "eclat"
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "Selon *votre situation*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Elodie Brugallé, psychologue à Lille",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Elodie Brugallé, psychologue à Lille.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Au cabinet ou en visio, au même tarif. Les séances ne sont pas remboursées par la Sécurité sociale, mais beaucoup de mutuelles en remboursent un certain nombre.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par chèque ou en espèces à la fin de chaque consultation, ou par virement 48 h avant le rendez-vous.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Elodie Brugallé, psychologue à Lille",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Elodie Brugallé, psychologue à Lille",
+   "seoDescription": "Adresse et téléphone de Elodie Brugallé, psychologue, 153 boulevard de la Liberté à Lille.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 153 boulevard de la Liberté, en plein centre de Lille, à 10 minutes à pied de Rihour.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Elodie Brugallé"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Ma page.",
+   "url": "https://www.facebook.com/pg/Elodie-Brugall%C3%A9-Psychologue-353584845234859/about/"
+  }
+ ]
+}

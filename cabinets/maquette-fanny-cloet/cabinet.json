@@ -1,0 +1,326 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Fanny Cloet (prospect), d'après www.fanny-cloet-psychologue.fr. Publiée sur youxdesign.fr/maquettes/fanny-cloet/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.fanny-cloet-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FFF7F3",
+   "encre": "#3A2A28",
+   "accent": "#B8604E",
+   "doux": "#F7E0D8",
+   "texte2": "#6B5653"
+  }
+ },
+ "praticien": {
+  "prenom": "Fanny",
+  "nom": "Cloet",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "psychothérapies analytiques, thérapie de couple et familiale",
+  "specialiteCourte": "Psychothérapie analytique",
+  "diplome": "Master 2 Psychopathologie clinique et psychothérapies analytiques (Université de Lille)",
+  "adeli": "59 93 3964 5",
+  "rpps": "10008636028",
+  "public": "De l’enfant à la personne âgée",
+  "citation": "Il n’est jamais réellement trop tôt ni vraiment trop tard pour entreprendre un suivi psychothérapeutique."
+ },
+ "contact": {
+  "telephone": "07 76 39 11 84",
+  "email": "fanny.cloet.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/loos/fanny-cloet"
+  }
+ },
+ "cabinet": {
+  "adresse": "230 rue Abélard",
+  "codePostal": "59000",
+  "ville": "Lille",
+  "accessiblePMR": true,
+  "visio": true,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Maison de soins Libellule",
+    "texte": "Une maison de santé où collaborent différents professionnels du médical et du paramédical. Rez-de-chaussée accessible.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Transports",
+    "texte": "Métro et gare Porte de Douai ; bus L1, Z2, 15, 67 (arrêt Porte de Douai). Parking gratuit dans la rue.",
+    "icone": "metro"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Psychothérapie individuelle",
+   "lieu": "Enfant, adolescent, adulte",
+   "prix": "60 €",
+   "duree": "45 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Psychothérapie de couple",
+   "lieu": "Au cabinet",
+   "prix": "80 €",
+   "duree": "60 min"
+  },
+  {
+   "nom": "Psychothérapie familiale",
+   "lieu": "Au cabinet",
+   "prix": "90 €",
+   "duree": "60 min"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Dépression",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Anxiété",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Difficultés relationnelles",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Gestion émotionnelle",
+   "texte": "Quand les émotions négatives prennent beaucoup de place.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Burn-out",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Traumatismes",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Fanny Cloet, psychologue à Lille",
+   "seoDescription": "Fanny Cloet, psychologue clinicienne, psychothérapeute à Lille. Psychothérapies analytiques, thérapie de couple et familiale.",
+   "surtitre": "Psychologue clinicienne · Psychothérapeute · Lille",
+   "titre": "Retrouver\n*son équilibre*",
+   "intro": "Psychologue clinicienne et psychothérapeute à Lille, j’exerce au sein de la maison de soins Libellule. J’ai à cœur de proposer un cadre bienveillant, dans le non-jugement et adapté à la singularité de chacun.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Consulter un psychologue permet de faire face à des difficultés passagères comme à des souffrances profondes et présentes depuis longtemps.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Fanny*",
+   "presentation": [
+    "L’accompagnement psychothérapeutique peut vous permettre d’entrer en cohérence avec vos valeurs, avec votre personnalité, avec le sens que vous voulez donner à votre vie.",
+    "Que vous rencontriez des difficultés ponctuelles ou une souffrance plus profonde, le travail que nous effectuerons ensemble s’adaptera à votre rythme."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Fanny Cloet, psychologue à Lille",
+   "seoDescription": "Parcours et formations de Fanny Cloet, psychologue à Lille.",
+   "titre": "Formation\n*et publications*",
+   "intro": "L’accompagnement psychothérapeutique peut vous permettre d’entrer en cohérence avec vos valeurs, avec votre personnalité, avec le sens que vous voulez donner à votre vie.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "Master 2",
+     "titre": "Psychopathologie clinique et psychothérapies analytiques",
+     "texte": "Université de Lille."
+    },
+    {
+     "date": "2018",
+     "titre": "Publication",
+     "texte": "« Le fétichisme, mécanismes et vécus subjectifs », Sexualités humaines n° 39."
+    },
+    {
+     "date": "2023 – 2025",
+     "titre": "Thérapie de couple et thérapie familiale",
+     "texte": "Formation et supervision auprès de l’APAOR."
+    }
+   ],
+   "parcoursSurtitre": "Formation",
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Fanny Cloet, psychologue à Lille",
+   "seoDescription": "L’approche de Fanny Cloet, psychologue à Lille : psychothérapies analytiques, thérapie de couple et familiale.",
+   "titre": "Démêler\n*ce qui s’est noué*",
+   "intro": "La psychothérapie est un réel travail entrepris pour faire face à ses souffrances psychologiques. Il s’agira souvent de démêler ce qui s’est noué au fil des expériences, des non-dits, des épreuves de la vie.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "cadre": [
+    "La notion d’**engagement** est importante : ce processus peut soulever des émotions et des vécus complexes.",
+    "Au fil de l’accompagnement, **la mise en sens** de ses propres mécanismes et l’apaisement des douleurs psychologiques se font."
+   ],
+   "cadreSurtitre": "L’engagement",
+   "cadreTitre": "Un processus *de soin*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Fanny Cloet, psychologue à Lille",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Fanny Cloet, psychologue à Lille.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Tarifs négociables pour les étudiants et les personnes sans emploi. Si vous avez des difficultés à vous rendre au cabinet, les consultations peuvent se faire en visioconférence.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Espèces ou chèque.",
+   "annulation": [
+    "Tout rendez-vous non honoré doit être annulé **au moins 48 heures à l’avance** ; passé ce délai, la consultation est due."
+   ],
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Fanny Cloet, psychologue à Lille",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Fanny Cloet, psychologue à Lille",
+   "seoDescription": "Adresse et téléphone de Fanny Cloet, psychologue, 230 rue Abélard à Lille.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve à la maison de soins Libellule, 230 rue Abélard à Lille, en rez-de-chaussée. Merci de prendre rendez-vous via Doctolib.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Fanny Cloet"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

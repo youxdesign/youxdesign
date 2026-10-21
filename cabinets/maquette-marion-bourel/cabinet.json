@@ -1,0 +1,297 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marion Bourel (prospect), d'après www.marion-bourel.fr. Publiée sur youxdesign.fr/maquettes/marion-bourel/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.marion-bourel.fr",
+  "style": "editorial",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq",
+   "statut"
+  ],
+  "couleurs": {
+   "fond": "#F7F5F1",
+   "encre": "#152232",
+   "accent": "#2F6F9F",
+   "doux": "#E4E9EE",
+   "texte2": "#4F5866",
+   "accent2": "#E06A4F"
+  }
+ },
+ "praticien": {
+  "prenom": "Marion",
+  "nom": "Bourel",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "thérapies émotionnelles, cognitives et comportementales (TECC/TCC), psychologie de la santé",
+  "specialiteCourte": "TECC / TCC",
+  "diplome": "Master Psychologie clinique et sociale de la santé (Université de Lille) ; DU TCC",
+  "public": "Adultes",
+  "citation": "Votre demande est unique."
+ },
+ "contact": {
+  "telephone": "07 69 34 99 21",
+  "email": "marionbourel.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Terapiz",
+   "url": "https://rdv.terapiz.com/psychologue/lille/marion-bourel"
+  }
+ },
+ "cabinet": {
+  "adresse": "153 boulevard de la Liberté",
+  "codePostal": "59000",
+  "ville": "Lille",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "09:00-19:00",
+   "mardi": "",
+   "mercredi": "09:00-19:00",
+   "jeudi": "",
+   "vendredi": "09:00-19:00",
+   "samedi": "08:30-12:30",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Métropole lilloise",
+    "texte": "Accessible depuis La Madeleine, Lambersart, Mons-en-Barœul, Saint-André, Marcq-en-Barœul, Loos, Ronchin et alentours.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet ou en téléconsultation",
+   "prix": "70 €",
+   "duree": "45 à 60 min",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Émotions difficiles",
+   "texte": "Des émotions difficiles, voire douloureuses.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Pensées envahissantes",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Comportements",
+   "texte": "Des comportements que vous aimeriez accepter ou changer.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Stress et anxiété",
+   "texte": "Gestion du stress et de l’anxiété.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Maladie grave et deuil",
+   "texte": "De l’annonce du diagnostic jusqu’à la fin de vie, et dans le deuil.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marion Bourel, psychologue à Lille",
+   "seoDescription": "Marion Bourel, psychologue clinicienne, psychothérapeute à Lille. Thérapies émotionnelles, cognitives et comportementales (tecc/tcc), psychologie de la santé.",
+   "surtitre": "Psychologue clinicienne · Psychothérapeute · Lille",
+   "titre": "Un espace\n*bienveillant et confidentiel*",
+   "intro": "Sur rendez-vous, au cabinet ou en téléconsultation, j’accueille des adultes confrontés à des émotions difficiles, à des pensées envahissantes et à des comportements qu’ils aimeraient accepter ou changer.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Je vous propose des séances individuelles de thérapie de soutien et de psychothérapie, avec une écoute à la fois active et empathique.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marion*",
+   "presentation": [
+    "Psychologue clinicienne et psychothérapeute, diplômée de l’Université de Lille, je suis spécialisée dans les thérapies émotionnelles, cognitives et comportementales (TECC/TCC).",
+    "Votre demande est unique : je reste disponible pour un premier contact par téléphone ou par mail, afin d’en échanger."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Terapiz, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marion Bourel, psychologue à Lille",
+   "seoDescription": "Parcours et formations de Marion Bourel, psychologue à Lille.",
+   "titre": "Psychologie\n*de la santé*",
+   "intro": "Je suis particulièrement sensible à l’étude des chemins qui mènent l’être humain vers le meilleur état de santé physique et mentale possible.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "Formation",
+     "titre": "Licence et master de psychologie clinique et sociale de la santé",
+     "texte": "Université de Lille, puis DU en TCC."
+    },
+    {
+     "date": "4 ans",
+     "titre": "SSR respiratoire",
+     "texte": "Ateliers thérapeutiques de groupe et suivis individuels auprès de personnes atteintes d’une pathologie respiratoire."
+    },
+    {
+     "date": "Depuis 2018",
+     "titre": "Équipe mobile de soins palliatifs",
+     "texte": "Accompagner les patients et leurs proches, de l’annonce du diagnostic jusqu’à la fin de vie, ainsi que dans le deuil."
+    }
+   ],
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "Le soin *à l’hôpital*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marion Bourel, psychologue à Lille",
+   "seoDescription": "L’approche de Marion Bourel, psychologue à Lille : thérapies émotionnelles, cognitives et comportementales (TECC/TCC), psychologie de la santé.",
+   "titre": "Les TECC,\n*au plus près de vous*",
+   "intro": "Mes intérêts cliniques s’étendent à toutes les situations stressantes, ou perçues comme telles, de la vie, et à la manière dont chacun s’y adapte.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marion Bourel, psychologue à Lille",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marion Bourel, psychologue à Lille.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Une consultation ou une téléconsultation dure entre 45 et 60 minutes.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "À la fin de chaque rendez-vous, par chèque ou en espèces (carte bancaire non acceptée), par virement pour la visio.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marion Bourel, psychologue à Lille",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marion Bourel, psychologue à Lille",
+   "seoDescription": "Adresse et téléphone de Marion Bourel, psychologue, 153 boulevard de la Liberté à Lille.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 153 boulevard de la Liberté, à Lille. Les lundis, mercredis et vendredis de 9 h à 19 h, et le samedi matin.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marion Bourel"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

@@ -1,0 +1,325 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marie-Elisabeth Piussan (prospect), d'après www.mep-psychologue.fr. Publiée sur youxdesign.fr/maquettes/marie-elisabeth-piussan/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.mep-psychologue.fr",
+  "style": "immersif",
+  "palette": 1,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "fond": "diaporama"
+ },
+ "praticien": {
+  "prenom": "Marie-Elisabeth",
+  "nom": "Piussan",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, sophrologue",
+  "specialite": "psychothérapie et sophrologie",
+  "specialiteCourte": "Psychothérapie et sophrologie",
+  "diplome": "Master de psychologie clinique et psychopathologie (Université Paris Descartes) ; DU de sophrologie (Université de Lille, 2020)",
+  "adeli": "59 93 20 652",
+  "rpps": "810008466160",
+  "public": "Adultes",
+  "citation": "Choisir le professionnel à qui en parler est une étape importante du processus de changement."
+ },
+ "contact": {
+  "telephone": "07 49 29 24 78",
+  "telephoneNote": "Par téléphone ou par SMS.",
+  "email": "mep.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "19 rue André-Delepierre",
+  "codePostal": "59700",
+  "ville": "Marcq-en-Barœul",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Les lundis, mardis et jeudis, sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "duree": "45 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Interventions collectives",
+   "lieu": "Établissements, associations",
+   "prix": "Sur devis"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Mal-être psychologique",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Difficultés du quotidien",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Troubles du sommeil",
+   "icone": "lune"
+  },
+  {
+   "titre": "Aidants",
+   "texte": "Neuf ans à la Maison des Aidants de Roubaix-Tourcoing.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Marie-Elisabeth Piussan, psychologue clinicienne, sophrologue à Marcq-en-Barœul. Psychothérapie et sophrologie.",
+   "surtitre": "Psychologue clinicienne · Sophrologue · Marcq-en-Barœul",
+   "titre": "Une étape importante\n*du changement*",
+   "intro": "Vous ressentez un mal-être psychologique ou rencontrez des difficultés dans votre quotidien ? Je vous reçois à Marcq-en-Barœul, et reste à votre disposition par mail ou par téléphone.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marie-Elisabeth*",
+   "presentation": [
+    "Psychologue clinicienne depuis 2007, diplômée de l’Université Paris Descartes, je suis également sophrologue, diplômée de l’Université de Lille en 2020.",
+    "J’ai travaillé pendant plus de 10 ans dans des établissements médico-sociaux, avant d’ouvrir mon cabinet à Marcq-en-Barœul en 2020."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Parcours et formations de Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul.",
+   "titre": "Psychologue\n*depuis 2007*",
+   "intro": "Psychologue clinicienne depuis 2007, diplômée de l’Université Paris Descartes, je suis également sophrologue, diplômée de l’Université de Lille en 2020.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2007",
+     "titre": "Psychiatrie adulte",
+     "texte": "Hôtel-Dieu, Paris."
+    },
+    {
+     "date": "2008",
+     "titre": "ESAT Hors les murs",
+     "texte": "LADAPT Aube."
+    },
+    {
+     "date": "2009 – 2013",
+     "titre": "SPASAD et SAVS",
+     "texte": "AMSAD Paris, Fondation Léopold Bellan."
+    },
+    {
+     "date": "2013 – 2022",
+     "titre": "Maison des Aidants Métropole Roubaix-Tourcoing",
+     "texte": "Plateforme d’accompagnement et de répit, Association Feron-Vrau."
+    },
+    {
+     "date": "2020",
+     "titre": "Cabinet à Marcq-en-Barœul",
+     "texte": "Et DU de sophrologie, Université de Lille."
+    }
+   ],
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "Du médico-social *au cabinet*",
+   "valeurs": [
+    {
+     "titre": "Un livre",
+     "texte": "Écrit en collaboration avec Laura Danloy, disponible le 1er octobre 2026."
+    }
+   ],
+   "valeursSurtitre": "Publication",
+   "valeursTitre": "« Quand aimer *devient aider* »"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul",
+   "seoDescription": "L’approche de Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul : psychothérapie et sophrologie.",
+   "titre": "Explorer,\n*puis définir ensemble*",
+   "intro": "Les premiers rendez-vous permettent d’explorer les grandes lignes de votre situation et de faire le point sur vos ressentis. Nous définissons ensemble l’accompagnement qui vous convient le mieux.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapie",
+     "texte": "Consultations individuelles de 45 minutes.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Sophrologie",
+     "texte": "Diplômée du DU de l’Université de Lille.",
+     "icone": "vagues"
+    },
+    {
+     "titre": "Interventions collectives",
+     "texte": "Pour les établissements et associations, sur devis.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Mes accompagnements",
+   "outilsTitre": "Individuels *et collectifs*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Chaque consultation dure 45 minutes. Certaines mutuelles proposent un remboursement total ou partiel des séances. Actuellement, je ne reçois plus de nouveaux patients dans le cadre du dispositif Mon soutien psy.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marie-Elisabeth Piussan, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Adresse et téléphone de Marie-Elisabeth Piussan, psychologue, 19 rue André-Delepierre à Marcq-en-Barœul.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 19 rue André-Delepierre, à Marcq-en-Barœul. Il n’est plus possible de prendre rendez-vous en ligne : contactez-moi par téléphone, SMS ou e-mail.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marie-Elisabeth Piussan"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Psycom",
+   "detail": "Un site riche d’informations sur la santé mentale.",
+   "url": "https://www.psycom.org/"
+  },
+  {
+   "titre": "3114",
+   "detail": "Numéro national de prévention du suicide.",
+   "url": "https://3114.fr/"
+  }
+ ]
+}

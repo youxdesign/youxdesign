@@ -1,0 +1,316 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Florence Guienne (prospect), d'après www.fg-psy.fr. Publiée sur youxdesign.fr/maquettes/florence-guienne/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.fg-psy.fr",
+  "style": "immersif",
+  "palette": 1,
+  "police": 5,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F6F5",
+   "encre": "#172423",
+   "accent": "#2E8A80",
+   "doux": "#D9EAE7",
+   "texte2": "#4C5A58"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Florence",
+  "nom": "Guienne",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "thérapies émotionnelles, cognitives et comportementales (TCC/TECC)",
+  "specialiteCourte": "TCC / TECC",
+  "diplome": "DESS Psychologie normale et pathologique des acquisitions et du développement, spécialisation TCC (1992)",
+  "public": "Adultes, adolescents et couples",
+  "citation": "Le travail est interactif et collaboratif : nous avançons ensemble."
+ },
+ "contact": {
+  "email": "f.guienne@fg-psy.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/villeneuve-d-ascq/florence-guienne"
+  }
+ },
+ "cabinet": {
+  "adresse": "37 rue de la Cousinerie",
+  "codePostal": "59650",
+  "ville": "Villeneuve-d’Ascq",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Adultes, adolescents, couples",
+   "prix": "Sur demande",
+   "texte": "La durée de l’accompagnement est déterminée d’un commun accord, selon vos besoins.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Estime de soi",
+   "texte": "Faible estime de soi, manque de confiance en soi.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Difficultés relationnelles, manque d’affirmation.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Stress professionnel, harcèlement, perte de confiance ou d’intérêt.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Évènements de vie",
+   "texte": "Deuil, séparation, divorce.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Couple",
+   "texte": "Problématiques de couple.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Troubles anxieux",
+   "texte": "Anxiété, stress, attaques de panique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Humeur",
+   "texte": "Déprime, dépression.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Dépendances et TCA",
+   "texte": "Dépendances, troubles du comportement alimentaire.",
+   "icone": "lune"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Florence Guienne, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Florence Guienne, psychologue à Villeneuve-d’Ascq. Thérapies émotionnelles, cognitives et comportementales (tcc/tecc).",
+   "surtitre": "Psychologue · TCC / TECC · Villeneuve-d’Ascq",
+   "titre": "Parler librement,\n*à votre rythme*",
+   "intro": "Psychologue spécialisée en thérapies émotionnelles, cognitives et comportementales, je vous accueille à Villeneuve-d’Ascq : adultes et adolescents en accompagnement individuel, et couples.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Au cours de notre vie, nous pouvons traverser des périodes plus difficiles que d’autres, sur le plan personnel, familial ou professionnel. Il peut s’agir d’un soutien ponctuel ou d’une thérapie.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Florence*",
+   "presentation": [
+    "Je vous accueille dans un cadre chaleureux, dans le respect et le non-jugement, avec écoute et empathie.",
+    "Je vous propose un véritable espace d’échange : le travail sera basé sur la collaboration, la confiance et la bienveillance, afin que vous puissiez dépasser vos difficultés à votre rythme."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Florence Guienne, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Parcours et formations de Florence Guienne, psychologue à Villeneuve-d’Ascq.",
+   "titre": "Psychologue\n*depuis 1992*",
+   "intro": "Titulaire du titre de psychologue depuis 1992, j’ai démarré mon parcours comme psychologue du travail, en accompagnant des personnes dans leur désir de changement professionnel.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi.",
+   "valeurs": [
+    {
+     "titre": "Formation continue",
+     "texte": "Formations professionnelles, lectures spécialisées, webinaires."
+    },
+    {
+     "titre": "ASTECC",
+     "texte": "Membre de l’Association septentrionale de thérapie comportementale et cognitive."
+    },
+    {
+     "titre": "Un titre protégé",
+     "texte": "Le titre de psychologue est reconnu et strictement encadré par la loi."
+    }
+   ],
+   "valeursSurtitre": "Me former",
+   "valeursTitre": "Enrichir *ma pratique*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Florence Guienne, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "L’approche de Florence Guienne, psychologue à Villeneuve-d’Ascq : thérapies émotionnelles, cognitives et comportementales (TCC/TECC).",
+   "titre": "Les TCC / TECC,\n*un travail d’équipe*",
+   "intro": "Les TCC/TECC permettent de comprendre comment nos comportements, nos pensées et nos émotions interagissent mutuellement. Le thérapeute et le patient sont actifs : l’alliance thérapeutique est primordiale.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi.",
+   "cadre": [
+    "**Vous êtes acteur** du processus dans lequel vous vous engagez.",
+    "Nous recherchons ensemble les informations qui permettent de **conceptualiser votre situation**, pour construire un programme thérapeutique personnalisé."
+   ],
+   "cadreSurtitre": "Ensemble",
+   "cadreTitre": "Un programme *personnalisé*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Florence Guienne, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Florence Guienne, psychologue à Villeneuve-d’Ascq.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La durée de l’accompagnement est déterminée d’un commun accord, en fonction de vos besoins. Prenez rendez-vous sur Doctolib.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Florence Guienne, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Florence Guienne, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Adresse et téléphone de Florence Guienne, psychologue, 37 rue de la Cousinerie à Villeneuve-d’Ascq.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 37 rue de la Cousinerie, à Villeneuve-d’Ascq.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Florence Guienne"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Instagram",
+   "detail": "@fg.psy",
+   "url": "https://instagram.com/fg.psy"
+  },
+  {
+   "titre": "LinkedIn",
+   "detail": "Florence Guienne Psy.",
+   "url": "https://www.linkedin.com/company/florence-guienne-psy/"
+  }
+ ]
+}

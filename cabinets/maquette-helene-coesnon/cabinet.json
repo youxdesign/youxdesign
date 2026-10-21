@@ -1,0 +1,300 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Hélène Coesnon (prospect), d'après helene-coesnon-psychologue-mons-en-baroeul.fr. Publiée sur youxdesign.fr/maquettes/helene-coesnon/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://helene-coesnon-psychologue-mons-en-baroeul.fr",
+  "style": "wabi",
+  "palette": 3,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq"
+  ]
+ },
+ "praticien": {
+  "prenom": "Hélène",
+  "nom": "Coesnon",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "orientation psychanalytique",
+  "specialiteCourte": "Psychanalyse",
+  "diplome": "Master de psychologie clinique (Université de Mons-Hainaut)",
+  "adeli": "599327186",
+  "public": "Enfants, adolescents et adultes",
+  "citation": "Un lieu d’écoute pour déposer ce qui fait impasse, souffrance ou question dans votre vie."
+ },
+ "contact": {
+  "telephone": "06 75 58 50 48",
+  "email": "coesnon.helene@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/lille/helene-coesnon"
+  }
+ },
+ "cabinet": {
+  "adresse": "110 rue Jean-Jacques-Rousseau",
+  "codePostal": "59370",
+  "ville": "Mons-en-Barœul",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "Au cabinet",
+   "prix": "Adapté à chacun",
+   "texte": "Défini à l’issue de la première séance, en fonction de la situation de chacun, dans la mesure du possible.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Supervision",
+   "lieu": "Professionnels de santé mentale",
+   "prix": "Sur demande"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Un mal-être trop présent",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Se sentir empêché",
+   "texte": "Dans sa vie personnelle, familiale ou professionnelle.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Un événement qui fait rupture",
+   "texte": "Séparation, deuil, épuisement, angoisse.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Répétitions douloureuses",
+   "texte": "Difficultés relationnelles, sentiment d’échec, perte de repères.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Une demande difficile à formuler",
+   "texte": "Une inquiétude diffuse, l’impression de ne plus trouver sa place, le besoin de parler.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Hélène Coesnon, psychologue à Mons-en-Barœul",
+   "seoDescription": "Hélène Coesnon, psychologue clinicienne à Mons-en-Barœul. Orientation psychanalytique.",
+   "surtitre": "Psychologue clinicienne · Mons-en-Barœul",
+   "titre": "Un lieu d’écoute,\n*pour déposer*",
+   "intro": "Je reçois dans mon cabinet de Mons-en-Barœul, dans un cadre confidentiel, attentif et respectueux de la singularité de chacun.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Les raisons de consulter sont multiples et toujours singulières. Consulter n’implique pas d’avoir « tout compris » à l’avance.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Hélène*",
+   "presentation": [
+    "Psychologue clinicienne, titulaire d’un master de l’Université de Mons-Hainaut, j’ai plus de 15 ans d’expérience auprès de publics très variés : autisme, schizophrénie, troubles de l’humeur, anxieux et de la personnalité, petite enfance, adolescence, parentalité.",
+    "Je suis membre de l’ALEPH et enseignante à Savoirs et Clinique, association dédiée à la formation permanente en clinique psychanalytique."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Hélène Coesnon, psychologue à Mons-en-Barœul",
+   "seoDescription": "Parcours et formations de Hélène Coesnon, psychologue à Mons-en-Barœul.",
+   "titre": "Parcours, engagement\n*et transmission*",
+   "intro": "Psychologue clinicienne, titulaire d’un master de l’Université de Mons-Hainaut, j’ai plus de 15 ans d’expérience auprès de publics très variés : autisme, schizophrénie, troubles de l’humeur, anxieux et de la personnalité, petite enfance, adolescence, parentalité.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "valeurs": [
+    {
+     "titre": "Affiliation",
+     "texte": "Membre de l’Association lilloise pour l’étude de la psychanalyse et de son histoire (ALEPH)."
+    },
+    {
+     "titre": "Transmission",
+     "texte": "Enseignante à Savoirs et Clinique."
+    },
+    {
+     "titre": "Supervision",
+     "texte": "Un espace de réflexion clinique pour les professionnels de santé mentale."
+    }
+   ],
+   "valeursSurtitre": "Engagement clinique",
+   "valeursTitre": "Pratiquer *et transmettre*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Hélène Coesnon, psychologue à Mons-en-Barœul",
+   "seoDescription": "L’approche de Hélène Coesnon, psychologue à Mons-en-Barœul : orientation psychanalytique.",
+   "titre": "Un temps de parole\n*confidentiel*",
+   "intro": "La séance est d’abord un espace où vous pouvez parler librement de ce qui vous traverse, vous inquiète ou vous encombre. Il n’est pas nécessaire de préparer un discours.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "cadre": [
+    "Les premiers entretiens permettent de cerner **ce qui vous amène** et votre manière singulière d’éprouver les difficultés.",
+    "Le rythme des rencontres se détermine ensuite **en fonction de votre situation**."
+   ],
+   "cadreSurtitre": "Le rythme",
+   "cadreTitre": "Défini *ensemble*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Hélène Coesnon, psychologue à Mons-en-Barœul",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Hélène Coesnon, psychologue à Mons-en-Barœul.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La fréquence des séances est définie ensemble. Les tarifs sont adaptés en fonction de la situation de chacun, dans la mesure du possible.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "monSoutienPsy": true
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Hélène Coesnon, psychologue à Mons-en-Barœul",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Hélène Coesnon, psychologue à Mons-en-Barœul",
+   "seoDescription": "Adresse et téléphone de Hélène Coesnon, psychologue, 110 rue Jean-Jacques-Rousseau à Mons-en-Barœul.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 110 rue Jean-Jacques-Rousseau, à Mons-en-Barœul. Prenez contact de la manière qui vous convient le mieux.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Hélène Coesnon"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "ALEPH",
+   "detail": "Association lilloise pour l’étude de la psychanalyse et de son histoire, dont je suis membre.",
+   "url": "https://www.aleph-savoirs-et-clinique.org"
+  },
+  {
+   "titre": "Savoirs et clinique",
+   "detail": "La revue de psychanalyse, sur Cairn.",
+   "url": "https://shs.cairn.info/revue-savoirs-et-cliniques?lang=fr"
+  }
+ ]
+}
