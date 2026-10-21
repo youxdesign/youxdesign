@@ -1,0 +1,319 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Emilie Courtois (prospect), d'après ecourtois-psy.wixsite.com/ec-psy. Publiée sur youxdesign.fr/maquettes/emilie-courtois/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://ecourtois-psy.wixsite.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F7FA",
+   "encre": "#1C2A35",
+   "accent": "#2C6E9B",
+   "doux": "#DCEEF8",
+   "texte2": "#4E5C66"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Emilie",
+  "nom": "Courtois",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute",
+  "specialite": "psychologie de la santé, thérapies cognitivo-comportementales, médiation animale",
+  "specialiteCourte": "Psychologue de la santé",
+  "diplome": "Diplôme en Alzheimérologie et pathologies apparentées (Université Lyon II)",
+  "adeli": "019306752",
+  "public": "Enfants, adolescents, adultes et personnes âgées",
+  "citation": "Quand il y a le silence des mots, se réveille trop souvent la violence des maux. (Jacques Salomé)"
+ },
+ "contact": {
+  "telephone": "07 84 91 41 57",
+  "email": "ecourtois-psy@outlook.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "15 rue Frédéric Joliot-Curie",
+  "codePostal": "01200",
+  "ville": "Valserhône",
+  "quartier": "Bellegarde-sur-Valserine",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Cabinet de santé Les Colibris",
+    "texte": "2e étage, à gauche. À deux pas du lycée Saint-Exupéry.",
+    "icone": "porte"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Visites à domicile possibles en cas de handicap ou de maladie empêchant de se déplacer.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Première séance",
+   "lieu": "Au cabinet",
+   "prix": "55 €",
+   "duree": "1 h",
+   "texte": "Pour étudier ensemble votre demande."
+  },
+  {
+   "nom": "Séance de suivi",
+   "lieu": "Au cabinet",
+   "prix": "50 €",
+   "duree": "1 h",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et trouble panique",
+   "texte": "Troubles anxieux généralisés, attaques de panique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Phobies",
+   "texte": "Phobie sociale, phobies spécifiques.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Dépression",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Stress post-traumatique",
+   "icone": "eclat"
+  },
+  {
+   "titre": "TCA et dépendances",
+   "texte": "Troubles alimentaires, dépendances avec ou sans produits.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Troubles obsessionnels compulsifs",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Emilie Courtois, psychologue à Valserhône",
+   "seoDescription": "Emilie Courtois, psychologue, psychothérapeute à Valserhône. Psychologie de la santé, thérapies cognitivo-comportementales, médiation animale.",
+   "surtitre": "Psychologue, psychothérapeute · Bellegarde-sur-Valserine",
+   "titre": "Mettre des mots\n*sur les maux*",
+   "intro": "Au cabinet, sur rendez-vous, je vous accueille en toute confidentialité, dans un cadre que je m’emploie à rendre agréable et accessible pour tous, dans le respect de votre vécu et de vos difficultés.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici de fréquents motifs de consultation.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Emilie*",
+   "presentation": [
+    "Je suis psychologue et psychothérapeute au cabinet de santé Les Colibris, à Bellegarde-sur-Valserine. Je reçois les enfants, les adolescents, les adultes et les personnes âgées, au cabinet ou à domicile dans certaines situations.",
+    "Ma pratique est intégrative : je choisis les approches appropriées à votre demande et à vos besoins. Ma spécificité de psychologue de la santé est de vous recevoir dans votre globalité, sans négliger ni votre santé physique, ni votre santé sociale."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Emilie Courtois, psychologue à Valserhône",
+   "seoDescription": "Parcours et formations de Emilie Courtois, psychologue à Valserhône.",
+   "titre": "Mon *parcours*",
+   "intro": "Je suis psychologue et psychothérapeute au cabinet de santé Les Colibris, à Bellegarde-sur-Valserine. Je reçois les enfants, les adolescents, les adultes et les personnes âgées, au cabinet ou à domicile dans certaines situations.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Emilie Courtois, psychologue à Valserhône",
+   "seoDescription": "L’approche de Emilie Courtois, psychologue à Valserhône : psychologie de la santé, thérapies cognitivo-comportementales, médiation animale.",
+   "titre": "Une rencontre,\n*un échange*",
+   "intro": "Je considère la consultation psychologique comme un échange, une rencontre entre vous, sujet de votre demande, et moi, avec mon écoute active, mon empathie et mes outils.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Approche cognitivo-comportementale",
+     "texte": "Une psychothérapie adaptée à chaque difficulté et à vos besoins, avec une évaluation qui fait partie intégrante du processus.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Relaxation et affirmation de soi",
+     "texte": "Des outils variés pour répondre au mieux aux besoins de chacun.",
+     "icone": "vagues"
+    },
+    {
+     "titre": "Médiation animale",
+     "texte": "Une relation d’aide à visée thérapeutique, au cabinet, avec Oly, petite chienne Berger des Shetland.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Langue des signes",
+     "texte": "Un niveau qui permet de comprendre et d’exprimer une situation globale. Un an d’expérience à l’Institut pour jeunes sourds de Bourg-en-Bresse.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "Une pratique *intégrative*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Emilie Courtois, psychologue à Valserhône",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Emilie Courtois, psychologue à Valserhône.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Lors d’une première rencontre, j’étudie avec vous votre demande et vous aide si besoin à la formuler. Les séances durent 1 h. Certaines mutuelles remboursent un nombre limité de consultations.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "monSoutienPsy": false
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Emilie Courtois, psychologue à Valserhône",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Emilie Courtois, psychologue à Valserhône",
+   "seoDescription": "Adresse et téléphone de Emilie Courtois, psychologue, 15 rue Frédéric Joliot-Curie à Valserhône.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet de santé Les Colibris se trouve 15 rue Frédéric Joliot-Curie, à Bellegarde-sur-Valserine (Valserhône), au 2e étage à gauche.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Emilie Courtois"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Cabinet de santé Les Colibris",
+   "detail": "Le site du cabinet pluridisciplinaire.",
+   "url": "http://www.santecolibris.fr"
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Francine Delenne (prospect), d'après francinedelenne-psychologue.fr. Publiée sur youxdesign.fr/maquettes/francine-delenne/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://francinedelenne-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F8F5",
+   "encre": "#16181A",
+   "accent": "#0A8A5C",
+   "doux": "#DCEFE5",
+   "texte2": "#4F5A55"
+  }
+ },
+ "praticien": {
+  "prenom": "Francine",
+  "nom": "Delenne",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, neuropsychologue",
+  "specialite": "entretiens cliniques et thérapeutiques, bilans psychologiques et neuropsychologiques, dépistage des troubles « dys »",
+  "specialiteCourte": "Psychologue clinicienne",
+  "adeli": "079303533",
+  "public": "Enfants, adolescents, adultes et couples",
+  "citation": "Parler est un besoin, écouter est un art. (Goethe)"
+ },
+ "contact": {
+  "telephone": "06 45 80 34 46",
+  "email": "francinedelenne@yahoo.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "20 rue des Frères Fabre",
+  "codePostal": "07380",
+  "ville": "Jaujac",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Entretien clinique et thérapeutique",
+   "lieu": "Au cabinet",
+   "prix": "50 €",
+   "duree": "45 min environ",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan psychométrique",
+   "prix": "250 €",
+   "texte": "WISC-V, WAIS-IV."
+  },
+  {
+   "nom": "Bilan neuropsychologique",
+   "prix": "200 à 400 €",
+   "texte": "Selon la demande. NEPSY 2, pour les 5 à 16 ans."
+  },
+  {
+   "nom": "Dépistage dyslexie ou dyscalculie",
+   "prix": "100 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Séparation, conflit",
+   "texte": "Divorce, crise de couple ou de famille.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Remaniements familiaux",
+   "texte": "Naissance, adoption, famille recomposée.",
+   "icone": "plume"
+  },
+  {
+   "titre": "Perte, deuil, maladie",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Anxiété, dépression, mal-être",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Isolement, épuisement, harcèlement, perte d’emploi, retraite mal vécue.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Difficultés scolaires",
+   "texte": "Précocité, retard, troubles des apprentissages, orientation, dossier MDPH.",
+   "icone": "livre"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Francine Delenne, psychologue à Jaujac",
+   "seoDescription": "Francine Delenne, psychologue clinicienne, neuropsychologue à Jaujac. Entretiens cliniques et thérapeutiques, bilans psychologiques et neuropsychologiques, dépistage des troubles « dys ».",
+   "surtitre": "Psychologue clinicienne · Jaujac",
+   "titre": "Parler est un besoin,\n*écouter est un art*",
+   "intro": "Psychologue clinicienne, je propose de rencontrer en entretien clinique et thérapeutique toute personne, enfant, adolescent ou adulte, ayant besoin de se confier en cas de souffrance psychique.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Je serai à votre écoute si vous vivez…",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Francine*",
+   "presentation": [
+    "Je reçois les enfants, les adolescents et les adultes, en consultation individuelle ou de couple, à mon cabinet de Jaujac.",
+    "M’appuyant sur ma longue expérience auprès d’enfants et d’adolescents en difficulté, présentant des troubles des apprentissages ou relevant du handicap, je peux aussi recevoir les parents qui s’interrogent sur leur rôle, la scolarité ou l’orientation de leur enfant."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Francine Delenne, psychologue à Jaujac",
+   "seoDescription": "Parcours et formations de Francine Delenne, psychologue à Jaujac.",
+   "titre": "Mon *parcours*",
+   "intro": "Je reçois les enfants, les adolescents et les adultes, en consultation individuelle ou de couple, à mon cabinet de Jaujac.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation de psychologue clinicienne",
+     "texte": "Bac + 5, avec des stages en établissement hospitalier pour enfants, au Foyer de l’enfance de Besançon et en foyer pour jeunes mères."
+    },
+    {
+     "titre": "Clinique psychiatrique des Carmes",
+     "texte": "Stage de cinquième année à Besançon, auprès d’adultes de tous âges."
+    },
+    {
+     "titre": "Mémoire de maîtrise",
+     "texte": "Sur la question de la grossesse chez l’adolescente."
+    }
+   ],
+   "parcoursTitre": "Ma *formation*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Francine Delenne, psychologue à Jaujac",
+   "seoDescription": "L’approche de Francine Delenne, psychologue à Jaujac : entretiens cliniques et thérapeutiques, bilans psychologiques et neuropsychologiques, dépistage des troubles « dys ».",
+   "titre": "Écouter,\n*évaluer, accompagner*",
+   "intro": "En cas de besoin, je peux proposer pour votre enfant un bilan psychologique, psychométrique ou neuropsychologique, ou un dépistage des troubles « dys ».",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Entretien clinique et thérapeutique",
+     "texte": "Pour toute personne ayant besoin de se confier en cas de souffrance psychique.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Bilan psychométrique",
+     "texte": "WISC-V pour les enfants, WAIS-IV pour les adultes.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Bilan neuropsychologique",
+     "texte": "NEPSY 2, huit batteries de tests pour les 5 à 16 ans et 11 mois, en passation complète ou partielle.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Dépistage « dys »",
+     "texte": "Dyslexie et dyscalculie.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Ce que je vous propose",
+   "outilsTitre": "Entretiens *et bilans*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Francine Delenne, psychologue à Jaujac",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Francine Delenne, psychologue à Jaujac.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La consultation psychologique ne nécessite pas de prescription médicale. Un bilan commence par un entretien de prise de contact d’environ 1 h, pour bien cerner la demande.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "monSoutienPsy": false
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Francine Delenne, psychologue à Jaujac",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Francine Delenne, psychologue à Jaujac",
+   "seoDescription": "Adresse et téléphone de Francine Delenne, psychologue, 20 rue des Frères Fabre à Jaujac.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 20 rue des Frères Fabre, à Jaujac. Si vous souhaitez un rendez-vous par e-mail, merci de me laisser un numéro de téléphone.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Francine Delenne"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Ma page professionnelle.",
+   "url": "https://www.facebook.com/psychologuecliniciennedelennefrancine/"
+  }
+ ]
+}

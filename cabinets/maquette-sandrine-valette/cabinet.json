@@ -1,0 +1,330 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Sandrine Valette (prospect), d'après sites.google.com/site/sandrinevalettepsychologue. Publiée sur youxdesign.fr/maquettes/sandrine-valette/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://sites.google.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F4FB",
+   "encre": "#1A2350",
+   "accent": "#3B4FA8",
+   "doux": "#E6E3F5",
+   "texte2": "#4E5270"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Sandrine",
+  "nom": "Valette",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "psychopathologie clinique, psychologie familiale, enfants et adolescents",
+  "specialiteCourte": "Psychologie clinique et familiale",
+  "diplome": "DESS de Psychopathologie clinique (Université de Toulouse)",
+  "adeli": "819303439",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 83 34 16 88",
+  "email": "valette.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "ClicRDV",
+   "url": "https://www.clicrdv.com/sandrine-valette"
+  }
+ },
+ "cabinet": {
+  "adresse": "Cabinet de psychologie",
+  "codePostal": "81340",
+  "ville": "Saint-Julien-Gaulène",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Situation",
+    "texte": "À 20 minutes d’Albi, de Carmaux et de Réquista.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Parking",
+    "texte": "Un parking privé et ombragé est disponible devant le cabinet.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation adulte",
+   "lieu": "Au cabinet",
+   "prix": "55 €",
+   "duree": "50 min environ",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation enfant",
+   "lieu": "Au cabinet",
+   "prix": "55 €",
+   "duree": "45 min au plus"
+  },
+  {
+   "nom": "Couple ou famille",
+   "lieu": "Au cabinet",
+   "prix": "80 €",
+   "duree": "50 min environ",
+   "texte": "En cas de difficultés financières, le tarif peut être aménagé."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Mal-être, angoisse, stress",
+   "texte": "On se sent mal dans sa peau, angoissé, déprimé ou stressé.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Épreuves de la vie",
+   "texte": "Maladie grave, deuil, séparation, échec, perte d’emploi.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Difficultés de couple",
+   "texte": "Quand on n’arrive plus à s’entendre ou à se comprendre.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Positionnement parental et familial, maternité, paternité, adoption.",
+   "icone": "plume"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Comportement, sommeil, scolarité, peurs répétées, conflits.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Décision, orientation",
+   "texte": "Y voir plus clair, se préparer à un choix, s’orienter.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Sandrine Valette, psychologue à Saint-Julien-Gaulène",
+   "seoDescription": "Sandrine Valette, psychologue clinicienne à Saint-Julien-Gaulène. Psychopathologie clinique, psychologie familiale, enfants et adolescents.",
+   "surtitre": "Psychologue clinicienne · près d’Albi",
+   "titre": "Et si\n*j’y allais ?*",
+   "intro": "Je vous accueille dans un bureau propice à un échange agréable et cordial, où un coin est aménagé pour les enfants, à 20 minutes d’Albi, de Carmaux et de Réquista.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Il n’y a pas, à proprement parler, de bonnes ou de mauvaises raisons de consulter. Voici les plus fréquentes.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Sandrine*",
+   "presentation": [
+    "Mon amour de l’humain et mon intérêt pour l’analyse, la compréhension et la recherche de solutions face aux difficultés de l’enfant, de l’adolescent ou de l’adulte ont orienté mes études vers le métier de psychologue. Je suis titulaire d’un DESS de psychopathologie clinique, obtenu à l’université de Toulouse.",
+    "Je prends en compte la singularité de chacun et la globalité de la situation dans laquelle il se trouve. Grâce à un dialogue chaleureux et interactif, je peux vous aider à déterminer et à affronter les problèmes pour les résoudre de façon satisfaisante."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur ClicRDV, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Sandrine Valette, psychologue à Saint-Julien-Gaulène",
+   "seoDescription": "Parcours et formations de Sandrine Valette, psychologue à Saint-Julien-Gaulène.",
+   "titre": "Mon *parcours*",
+   "intro": "Mon amour de l’humain et mon intérêt pour l’analyse, la compréhension et la recherche de solutions face aux difficultés de l’enfant, de l’adolescent ou de l’adulte ont orienté mes études vers le métier de psychologue. Je suis titulaire d’un DESS de psychopathologie clinique, obtenu à l’université de Toulouse.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "DESS de Psychopathologie clinique",
+     "texte": "Université de Toulouse. J’ai également suivi les enseignements de psychologie génétique."
+    },
+    {
+     "titre": "Enquêtrice sociale",
+     "date": "Depuis 1998",
+     "texte": "Pour les tribunaux d’Albi, Castres et Rodez, dans des situations de divorce, de séparation ou de conflits intergénérationnels."
+    },
+    {
+     "titre": "Partenariats",
+     "texte": "Je travaille avec la MSA et PSYA, et je suis sur la liste Santé Psy Étudiant."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Sandrine Valette, psychologue à Saint-Julien-Gaulène",
+   "seoDescription": "L’approche de Sandrine Valette, psychologue à Saint-Julien-Gaulène : psychopathologie clinique, psychologie familiale, enfants et adolescents.",
+   "titre": "Être écouté,\n*sans jugement*",
+   "intro": "Je vous apporte une écoute bienveillante et neutre, un temps pour exprimer vos ressentis et un soutien pour trouver des réponses à vos questionnements. Vous restez le seul sujet de votre propre expérience.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Sandrine Valette, psychologue à Saint-Julien-Gaulène",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Sandrine Valette, psychologue à Saint-Julien-Gaulène.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Consultations individuelles, de couple ou familiales, et consultations d’enfants et d’adolescents. La première séance permet de faire connaissance et d’évaluer ensemble vos besoins.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "En espèces ou par chèque, à la consultation.",
+   "annulation": [
+    "Merci de prévenir à l’avance pour annuler ou déplacer un rendez-vous : toute consultation non honorée et non annulée à temps reste due."
+   ],
+   "monSoutienPsy": true,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Sandrine Valette, psychologue à Saint-Julien-Gaulène",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Sandrine Valette, psychologue à Saint-Julien-Gaulène",
+   "seoDescription": "Adresse et téléphone de Sandrine Valette, psychologue, Cabinet de psychologie à Saint-Julien-Gaulène.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve à Saint-Julien-Gaulène, à 20 minutes d’Albi, de Carmaux et de Réquista. Un parking privé est disponible devant le cabinet.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Sandrine Valette"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Code de déontologie des psychologues",
+   "detail": "Le cadre de ma profession.",
+   "url": "https://www.codededeontologiedespsychologues.fr/"
+  }
+ ]
+}

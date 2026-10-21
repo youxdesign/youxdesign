@@ -1,0 +1,339 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Anne-Sophie Buvat (prospect), d'après www.cabinet2psychologie.com. Publiée sur youxdesign.fr/maquettes/anne-sophie-buvat/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.cabinet2psychologie.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6FA",
+   "encre": "#14263A",
+   "accent": "#005C8D",
+   "doux": "#DCE6F2",
+   "texte2": "#4C5866"
+  }
+ },
+ "praticien": {
+  "prenom": "Anne-Sophie",
+  "nom": "Buvat",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "approche intégrative et humaniste, enfants, adolescents, adultes et seniors",
+  "specialiteCourte": "Approche intégrative et humaniste",
+  "diplome": "Master 2 professionnel de Psychologie de l’enfant, de l’adolescent et des institutions (Université Paris Ouest La Défense)",
+  "adeli": "039302468",
+  "public": "Enfants, adolescents, adultes et seniors"
+ },
+ "contact": {
+  "telephone": "06 30 59 47 07",
+  "email": "cpbuvat@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Perfactive",
+   "url": "https://perfactive.fr/psychotherapeute/varennes-sur-allier/anne-sophie-buvat"
+  }
+ },
+ "cabinet": {
+  "adresse": "5 bis rue du 4 Septembre",
+  "codePostal": "03150",
+  "ville": "Varennes-sur-Allier",
+  "accessiblePMR": true,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Espace Collet Meriaud",
+    "texte": "Le bâtiment de Pôle Emploi et de la communauté de communes. Entrée côté parking, 1er étage, première porte à droite.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Accessible",
+    "texte": "Le bâtiment est accessible aux personnes à mobilité réduite.",
+    "icone": "fauteuil"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Si vous avez des difficultés pour vous déplacer. Rendez-vous uniquement par téléphone.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Thérapie de soutien",
+   "lieu": "Au cabinet",
+   "prix": "50 €",
+   "duree": "45 min à 1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan d’efficience ou de personnalité",
+   "prix": "Sur devis"
+  },
+  {
+   "nom": "Visite à domicile",
+   "prix": "Sur devis"
+  },
+  {
+   "nom": "Groupe de parole, remédiation cognitive",
+   "prix": "Sur devis"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Stress et surmenage",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Tristesse, dépression",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Deuil",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Solitude",
+   "icone": "lune"
+  },
+  {
+   "titre": "Questionnements",
+   "texte": "S’interroger, comprendre, évoluer.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Apprentissages",
+   "texte": "Bilans intellectuels pour les enfants et les adolescents.",
+   "icone": "livre"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Anne-Sophie Buvat, psychologue à Varennes-sur-Allier",
+   "seoDescription": "Anne-Sophie Buvat, psychologue à Varennes-sur-Allier. Approche intégrative et humaniste, enfants, adolescents, adultes et seniors.",
+   "surtitre": "Psychologue · Varennes-sur-Allier",
+   "titre": "La solution\n*qui est en vous*",
+   "intro": "Le rôle du psychologue est, grâce à une relation d’aide et de confiance, d’aider la personne à trouver la solution qui est en elle.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "On fait le choix de consulter à un moment de sa vie où l’on rencontre une difficulté dans son parcours.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Anne-Sophie*",
+   "presentation": [
+    "Je suis psychologue, diplômée d’un master 2 professionnel de psychologie de l’enfant, de l’adolescent et des institutions (Université Paris Ouest La Défense). J’ai accompagné et soutenu des personnes de tout âge : enfants, adolescents, adultes et seniors.",
+    "Je pratique aujourd’hui une approche intégrative et humaniste, qui me permet de m’adapter à chacun de mes patients."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Perfactive, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Anne-Sophie Buvat, psychologue à Varennes-sur-Allier",
+   "seoDescription": "Parcours et formations de Anne-Sophie Buvat, psychologue à Varennes-sur-Allier.",
+   "titre": "Mon *parcours*",
+   "intro": "Je suis psychologue, diplômée d’un master 2 professionnel de psychologie de l’enfant, de l’adolescent et des institutions (Université Paris Ouest La Défense). J’ai accompagné et soutenu des personnes de tout âge : enfants, adolescents, adultes et seniors.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Centre médico-psychologique",
+     "icone": "diplome"
+    },
+    {
+     "titre": "Centre d’action médico-sociale précoce"
+    },
+    {
+     "titre": "Structure pour adolescents"
+    },
+    {
+     "titre": "Centre de soins, d’accompagnement et de prévention en addictologie"
+    },
+    {
+     "titre": "Maison de retraite"
+    }
+   ],
+   "parcoursTitre": "Les institutions *où je suis intervenue*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Anne-Sophie Buvat, psychologue à Varennes-sur-Allier",
+   "seoDescription": "L’approche de Anne-Sophie Buvat, psychologue à Varennes-sur-Allier : approche intégrative et humaniste, enfants, adolescents, adultes et seniors.",
+   "titre": "Intégrative\n*et humaniste*",
+   "intro": "Au fil de mon parcours, je me suis interrogée sur ma pratique et j’ai déterminé l’approche théorique qui me correspondait le mieux.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Suivis thérapeutiques",
+     "icone": "plume"
+    },
+    {
+     "titre": "Entretiens de soutien et d’accompagnement",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Bilans intellectuels et de personnalité",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Groupes de parole et remédiation cognitive",
+     "texte": "Au sein de structures et d’associations, et pour un public avec des troubles de la mémoire.",
+     "icone": "cerveau"
+    }
+   ],
+   "outilsSurtitre": "Au sein de C2P",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Anne-Sophie Buvat, psychologue à Varennes-sur-Allier",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Anne-Sophie Buvat, psychologue à Varennes-sur-Allier.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations du psychologue ne sont pas remboursées par la Sécurité sociale, mais certaines complémentaires santé le font : renseignez-vous auprès de votre mutuelle.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "monSoutienPsy": false
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Anne-Sophie Buvat, psychologue à Varennes-sur-Allier",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Anne-Sophie Buvat, psychologue à Varennes-sur-Allier",
+   "seoDescription": "Adresse et téléphone de Anne-Sophie Buvat, psychologue, 5 bis rue du 4 Septembre à Varennes-sur-Allier.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet C2P se trouve à l’Espace Collet Meriaud, 5 bis rue du 4 Septembre, à Varennes-sur-Allier.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Anne-Sophie Buvat"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
