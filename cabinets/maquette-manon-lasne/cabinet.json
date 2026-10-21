@@ -1,0 +1,324 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Manon Lasne (prospect), d'après manonlasnepsychologue.fr. Publiée sur youxdesign.fr/maquettes/manon-lasne/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://manonlasnepsychologue.fr",
+  "style": "immersif",
+  "palette": 3,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Manon",
+  "nom": "Lasne",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "approche systémique, attachement, psychopathologie du stress, périnatalité",
+  "specialiteCourte": "Approche systémique",
+  "diplome": "Psychologue clinicienne, psychothérapeute (Université de Bordeaux)",
+  "public": "Enfants, adolescents, adultes, couples et familles",
+  "citation": "Restaurer les sentiments de confiance et de sécurité."
+ },
+ "contact": {
+  "telephone": "06 17 55 94 25",
+  "email": "lasnemanon@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/cestas/manon-lasne"
+  }
+ },
+ "cabinet": {
+  "adresse": "12 avenue du Maréchal-Lyautey",
+  "codePostal": "33600",
+  "ville": "Pessac",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "70 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Couple ou famille",
+   "lieu": "Au cabinet",
+   "prix": "80 €"
+  },
+  {
+   "nom": "Parcours COCON",
+   "lieu": "Enfants intégrés au parcours",
+   "prix": "Pris en charge",
+   "texte": "Aucun frais à avancer."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Séparation et deuil",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Maladie",
+   "texte": "Parcours de soins complexes, handicap, hospitalisation.",
+   "icone": "poumons"
+  },
+  {
+   "titre": "Violences et harcèlement",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Anxiété et dépression",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Crises relationnelles",
+   "texte": "Problèmes de couple ou familiaux.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Emprise",
+   "texte": "Familiale, communautaire ou organisationnelle.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Manon Lasne, psychologue à Pessac",
+   "seoDescription": "Manon Lasne, psychologue clinicienne, psychothérapeute à Pessac. Approche systémique, attachement, psychopathologie du stress, périnatalité.",
+   "surtitre": "Psychologue clinicienne · Pessac",
+   "titre": "Confiance\n*et sécurité*",
+   "intro": "Je propose des suivis individuels, de couples et familiaux, pour les enfants, les adolescents et les adultes, dans un cadre confidentiel et bienveillant, en cabinet à Pessac ou en visioconférence.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "J’accompagne les personnes et les familles traversant des moments de vie difficiles.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Manon*",
+   "presentation": [
+    "Diplômée de l’Université de Bordeaux, spécialisée en santé et psychopathologie du stress, j’ai accompagné des familles confrontées à des parcours de soins complexes et à des contextes de vulnérabilité relationnelle.",
+    "Mon approche est systémique, centrée sur les liens d’attachement, les dynamiques relationnelles et l’impact des événements de vie sur celles-ci."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Manon Lasne, psychologue à Pessac",
+   "seoDescription": "Parcours et formations de Manon Lasne, psychologue à Pessac.",
+   "titre": "Mon parcours,\n*mes formations*",
+   "intro": "Diplômée de l’Université de Bordeaux, spécialisée en santé et psychopathologie du stress, j’ai accompagné des familles confrontées à des parcours de soins complexes et à des contextes de vulnérabilité relationnelle.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "Diplôme",
+     "titre": "Psychologue clinicienne, psychothérapeute",
+     "texte": "Université de Bordeaux."
+    },
+    {
+     "date": "Formations",
+     "titre": "Santé mentale et périnatalité ; thérapie systémique",
+     "texte": "Formation longue en thérapie systémique."
+    },
+    {
+     "date": "Formations",
+     "titre": "ICV niveau 1 ; prévention du suicide"
+    },
+    {
+     "date": "Diplôme",
+     "titre": "Éducation thérapeutique du patient (ETP)"
+    }
+   ],
+   "parcoursSurtitre": "Formations",
+   "parcoursTitre": "Enrichir *ma pratique*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Manon Lasne, psychologue à Pessac",
+   "seoDescription": "L’approche de Manon Lasne, psychologue à Pessac : approche systémique, attachement, psychopathologie du stress, périnatalité.",
+   "titre": "Une approche\n*systémique*",
+   "intro": "Un accompagnement respectueux du rythme de chacun, centré sur les ressources et les compétences, individuelles comme familiales.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapie familiale systémique",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Thérapie de couple",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Thérapie stratégique brève",
+     "icone": "marches"
+    },
+    {
+     "titre": "Périnatalité",
+     "texte": "Réseau Périnatal COCON Nouvelle-Aquitaine.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Mes approches",
+   "outilsTitre": "Des approches *intégratives*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Manon Lasne, psychologue à Pessac",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Manon Lasne, psychologue à Pessac.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La visioconférence est une alternative pour les personnes ayant des difficultés de mobilité ou des contraintes (déplacements, déménagement, post-partum, maladie). Les consultations ne sont pas remboursées par la Sécurité sociale, mais certaines mutuelles les prennent en charge.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Manon Lasne, psychologue à Pessac",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Manon Lasne, psychologue à Pessac",
+   "seoDescription": "Adresse et téléphone de Manon Lasne, psychologue, 12 avenue du Maréchal-Lyautey à Pessac.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 12 avenue du Maréchal-Lyautey, à Pessac. Prise de rendez-vous par mail, par téléphone ou sur Doctolib.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Manon Lasne"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Parcours COCON",
+   "detail": "Réseau Périnat Nouvelle-Aquitaine, dans lequel je suis référencée.",
+   "url": "https://rpna.fr/parcours-cocon-parents/"
+  }
+ ]
+}

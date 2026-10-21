@@ -1,0 +1,265 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Jessica Bon (prospect), d'après www.jessicabon-psychologue.com. Publiée sur youxdesign.fr/maquettes/jessica-bon/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.jessicabon-psychologue.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "fond": "diaporama"
+ },
+ "praticien": {
+  "prenom": "Jessica",
+  "nom": "Bon",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute familiale",
+  "specialite": "thérapie familiale et systémique",
+  "specialiteCourte": "Thérapie familiale et systémique",
+  "adeli": "339317356",
+  "public": "Enfants, adolescents, adultes, couples et familles",
+  "citation": "Voir les potentialités du patient est source d’espoir."
+ },
+ "contact": {
+  "telephone": "07 49 03 69 13",
+  "email": "jessicabon.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "7 rue Anna-Ducluzeau, 1er étage",
+  "codePostal": "33480",
+  "ville": "Castelnau-de-Médoc",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Tous les jours sauf le vendredi ; consultations familiales et de couple le samedi matin",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Enfants, adolescents, adultes",
+   "prix": "60 €",
+   "duree": "45 min à 1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Famille ou couple",
+   "lieu": "En co-thérapie, deux thérapeutes",
+   "prix": "80 €",
+   "duree": "1 h 15 à 1 h 30"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles et souffrances psychologiques",
+   "texte": "Enfants, adolescents et adultes.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Familles",
+   "texte": "Thérapie familiale en co-thérapie.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Couples",
+   "icone": "boucle"
+  },
+  {
+   "titre": "S’épanouir",
+   "texte": "« Vous avez bien fait de demander de l’aide. »",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Jessica Bon, psychologue à Castelnau-de-Médoc",
+   "seoDescription": "Jessica Bon, psychologue clinicienne, psychothérapeute familiale à Castelnau-de-Médoc. Thérapie familiale et systémique.",
+   "surtitre": "Psychologue clinicienne · Psychothérapeute familiale · Médoc",
+   "titre": "Le droit\n*de s’épanouir*",
+   "intro": "Psychologue clinicienne et psychothérapeute familiale, je vous reçois à Castelnau-de-Médoc : consultations individuelles pour enfants, adolescents et adultes, consultations familiales et de couple.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Il n’y a pas de bonnes ou de mauvaises raisons pour aller rencontrer un psychologue. L’intention naît souvent d’interrogations, d’une curiosité personnelle.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Jessica*",
+   "presentation": [
+    "Durant mon cursus et mon parcours professionnel, j’ai exercé dans diverses institutions, auprès d’un public varié : j’identifie dans chaque situation les fragilités, mais aussi les ressources.",
+    "L’approche de la thérapie familiale et systémique m’amène à saisir les situations de manière authentique, au plus près des besoins de chacun."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Jessica Bon, psychologue à Castelnau-de-Médoc",
+   "seoDescription": "Parcours et formations de Jessica Bon, psychologue à Castelnau-de-Médoc.",
+   "titre": "Mon *parcours*",
+   "intro": "Durant mon cursus et mon parcours professionnel, j’ai exercé dans diverses institutions, auprès d’un public varié : j’identifie dans chaque situation les fragilités, mais aussi les ressources.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Jessica Bon, psychologue à Castelnau-de-Médoc",
+   "seoDescription": "L’approche de Jessica Bon, psychologue à Castelnau-de-Médoc : thérapie familiale et systémique.",
+   "titre": "La rencontre,\n*mutuelle*",
+   "intro": "Le premier échange se fait par téléphone. La rencontre est mutuelle : le thérapeute découvre son patient, ses attentes, ses fragilités et ses ressources, et le patient apprend à connaître le thérapeute.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "cadre": [
+    "Les consultations individuelles durent **entre 45 minutes et 1 heure** ; les rencontres familiales **entre 1 h 15 et 1 h 30**.",
+    "Les séances peuvent être **hebdomadaires, bimensuelles ou mensuelles**, selon vos besoins, de quelques rencontres ponctuelles à un suivi plus long."
+   ],
+   "cadreSurtitre": "La durée",
+   "cadreTitre": "Un rythme *adapté*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Jessica Bon, psychologue à Castelnau-de-Médoc",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Jessica Bon, psychologue à Castelnau-de-Médoc.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations familiales se pratiquent en co-thérapie, en présence de deux thérapeutes formés à la prise en charge des couples et des familles.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Jessica Bon, psychologue à Castelnau-de-Médoc",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Jessica Bon, psychologue à Castelnau-de-Médoc",
+   "seoDescription": "Adresse et téléphone de Jessica Bon, psychologue, 7 rue Anna-Ducluzeau, 1er étage à Castelnau-de-Médoc.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 7 rue Anna-Ducluzeau à Castelnau-de-Médoc, au 1er étage. Je suis joignable par téléphone chaque jour de la semaine.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Jessica Bon"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

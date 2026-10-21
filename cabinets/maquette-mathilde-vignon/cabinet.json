@@ -1,0 +1,270 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Mathilde Vignon (prospect), d'après www.toulouse-psychologue.fr. Publiée sur youxdesign.fr/maquettes/mathilde-vignon/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.toulouse-psychologue.fr",
+  "style": "immersif",
+  "palette": 3,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Mathilde",
+  "nom": "Vignon",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "enfants, adolescents, adultes et parentalité",
+  "specialiteCourte": "Enfants, ados, adultes",
+  "diplome": "Psychologue clinicienne, diplômée de l’Université de Toulouse",
+  "public": "Enfants, adolescents, adultes et parents",
+  "citation": "Vous aider à sortir du sentiment d’impasse, vous accompagner vers un mieux-être."
+ },
+ "contact": {
+  "telephone": "06 77 79 11 30",
+  "email": "mathilde.vignon@club-internet.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "25 rue Bellegarde",
+  "codePostal": "31000",
+  "ville": "Toulouse",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Métro",
+    "texte": "Station Jeanne-d’Arc : vous sortez et vous êtes arrivé.",
+    "icone": "metro"
+   },
+   {
+    "titre": "Centre-ville",
+    "texte": "Face à la place Jeanne-d’Arc, à deux pas du Capitole.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Enfants, adolescents, adultes",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Enfants",
+   "texte": "Aider votre enfant à dépasser une difficulté, l’accompagner à grandir et à trouver sa place.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Adolescents",
+   "texte": "Accompagner votre jeune au cours de la période tumultueuse qui mène à l’âge adulte.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Adultes",
+   "texte": "Sortir du sentiment d’impasse, aller vers un mieux-être.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Vous êtes parents ou souhaitez le devenir et vous rencontrez des interrogations.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Mathilde Vignon, psychologue à Toulouse",
+   "seoDescription": "Mathilde Vignon, psychologue clinicienne à Toulouse. Enfants, adolescents, adultes et parentalité.",
+   "surtitre": "Psychologue clinicienne · Toulouse centre",
+   "titre": "Trouver sa place,\n*aller vers un mieux-être*",
+   "intro": "Cabinet de psychologie à Toulouse centre pour enfants, adolescents et adultes : consultations sur rendez-vous pour soutien, thérapie et accompagnement à la parentalité.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Quelle consultation pour vous ?",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Mathilde*",
+   "presentation": [
+    "Diplômée de l’Université de Toulouse, j’exerce en tant que psychologue clinicienne à mon cabinet du centre-ville.",
+    "Je propose un accompagnement thérapeutique pour les enfants, les adolescents et les adultes, ainsi qu’un soutien à la parentalité."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Mathilde Vignon, psychologue à Toulouse",
+   "seoDescription": "Parcours et formations de Mathilde Vignon, psychologue à Toulouse.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée de l’Université de Toulouse, j’exerce en tant que psychologue clinicienne à mon cabinet du centre-ville.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Mathilde Vignon, psychologue à Toulouse",
+   "seoDescription": "L’approche de Mathilde Vignon, psychologue à Toulouse : enfants, adolescents, adultes et parentalité.",
+   "titre": "Soutien, thérapie\n*et accompagnement*",
+   "intro": "Selon votre situation, je vous propose un soutien ponctuel, une thérapie ou un accompagnement à la parentalité. Si besoin, je peux aussi vous orienter vers un confrère de référence.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Mathilde Vignon, psychologue à Toulouse",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Mathilde Vignon, psychologue à Toulouse.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Consultations sur rendez-vous, au cabinet du 25 rue Bellegarde, en plein centre de Toulouse.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Mathilde Vignon, psychologue à Toulouse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Mathilde Vignon, psychologue à Toulouse",
+   "seoDescription": "Adresse et téléphone de Mathilde Vignon, psychologue, 25 rue Bellegarde à Toulouse.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 25 rue Bellegarde, face à la place Jeanne-d’Arc, à deux pas du Capitole. Très facile d’accès en métro.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Mathilde Vignon"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "LinkedIn",
+   "detail": "Mon profil professionnel.",
+   "url": "https://fr.linkedin.com/in/mathildevignon"
+  }
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Athina Garino (prospect), d'après www.athinagarino.com. Publiée sur youxdesign.fr/maquettes/athina-garino/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.athinagarino.com",
+  "style": "immersif",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F3F7",
+   "encre": "#141627",
+   "accent": "#2F49A8",
+   "doux": "#E0E2F0",
+   "texte2": "#4E5164"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Athina",
+  "nom": "Garino",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "EMDR, TDAH et guidance parentale, endométriose et maladies chroniques",
+  "specialiteCourte": "EMDR Europe",
+  "public": "Enfants, adolescents, adultes et familles",
+  "citation": "Mon rôle n’est pas de vous dire qui vous devriez être."
+ },
+ "contact": {
+  "telephone": "06 51 30 75 20",
+  "email": "athinagarino@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/nice/athina-garino?pid=practice-61137"
+  }
+ },
+ "cabinet": {
+  "adresse": "50 avenue Alfred-Borriglione, 1er étage",
+  "codePostal": "06100",
+  "ville": "Nice",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Enfant, adolescent, adulte",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "80 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Couple, famille",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "90 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et stress",
+   "texte": "Et les difficultés émotionnelles.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Estime de soi",
+   "texte": "Et les difficultés relationnelles.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Événements de vie difficiles, psychotraumatisme : l’EMDR.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "TDAH",
+   "texte": "Et la guidance parentale.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Endométriose",
+   "texte": "Et les maladies chroniques : douleur, fatigue, errance diagnostique, désir d’enfant.",
+   "icone": "poumons"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Athina Garino, psychologue à Nice",
+   "seoDescription": "Athina Garino, psychologue clinicienne, psychothérapeute à Nice. Emdr, tdah et guidance parentale, endométriose et maladies chroniques.",
+   "surtitre": "Psychologue clinicienne · Praticienne EMDR Europe · Nice",
+   "titre": "Ce qui n’a pas pu\n*être déposé*",
+   "intro": "On croit souvent que le temps suffira. Parfois, ce qui n’a pas pu être déposé reste là, en silence, jusqu’à peser trop lourd. J’accompagne à Nice et en téléconsultation les enfants, les adolescents, les adultes et les familles.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Je peux vous accompagner notamment autour de…",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Athina*",
+   "presentation": [
+    "En séance, je ne cherche pas, de prime abord, à faire disparaître un symptôme, mais à comprendre ce qu’il exprime, est venu protéger ou tente encore de dire.",
+    "Je poursuis une formation continue et une supervision clinique régulière. Je crois à la qualité de la rencontre thérapeutique comme condition de tout changement réel."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Athina Garino, psychologue à Nice",
+   "seoDescription": "Parcours et formations de Athina Garino, psychologue à Nice.",
+   "titre": "Mon *parcours*",
+   "intro": "En séance, je ne cherche pas, de prime abord, à faire disparaître un symptôme, mais à comprendre ce qu’il exprime, est venu protéger ou tente encore de dire.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Athina Garino, psychologue à Nice",
+   "seoDescription": "L’approche de Athina Garino, psychologue à Nice : EMDR, TDAH et guidance parentale, endométriose et maladies chroniques.",
+   "titre": "Rigueur\n*et humanité*",
+   "intro": "Une clinique qui refuse de choisir entre rigueur et humanité, parce qu’elles ne s’opposent pas : elles se fondent l’une dans l’autre.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "EMDR",
+     "texte": "L’objectif n’est pas d’effacer le passé, mais de faire en sorte qu’il ne continue plus à s’imposer dans le présent.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "TDAH et guidance parentale",
+     "texte": "Comprendre son fonctionnement propre, pour retrouver des repères plus ajustés et un quotidien plus apaisé.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Maladies chroniques",
+     "texte": "Un espace pour penser ce que la maladie vient bousculer dans le rapport à soi, au corps et aux autres.",
+     "icone": "poumons"
+    }
+   ],
+   "outilsSurtitre": "Mes spécialités",
+   "outilsTitre": "Comprendre *ce que dit le symptôme*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Athina Garino, psychologue à Nice",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Athina Garino, psychologue à Nice.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Au cabinet à Nice ou en visio. Les consultations ne sont pas prises en charge dans le cadre de Mon soutien psy ; certaines mutuelles proposent un remboursement partiel.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par chèque ou par virement.",
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Athina Garino, psychologue à Nice",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Athina Garino, psychologue à Nice",
+   "seoDescription": "Adresse et téléphone de Athina Garino, psychologue, 50 avenue Alfred-Borriglione, 1er étage à Nice.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 50 avenue Alfred-Borriglione à Nice, au 1er étage.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Athina Garino"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "EMDR France",
+   "detail": "Praticienne accréditée EMDR Europe.",
+   "url": "https://www.emdr-france.org/fr/"
+  },
+  {
+   "titre": "EndoFrance",
+   "detail": "L’association de lutte contre l’endométriose.",
+   "url": "https://www.endofrance.org/"
+  },
+  {
+   "titre": "LinkedIn",
+   "detail": "Mon profil professionnel.",
+   "url": "https://www.linkedin.com/in/athina-garino/"
+  }
+ ]
+}

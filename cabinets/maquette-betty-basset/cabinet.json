@@ -1,0 +1,323 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Betty Basset (prospect), d'après www.basset-psychologue.fr. Publiée sur youxdesign.fr/maquettes/betty-basset/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.basset-psychologue.fr",
+  "style": "immersif",
+  "palette": 2,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F5FA",
+   "encre": "#171C2B",
+   "accent": "#5B78B5",
+   "doux": "#E0E6F3",
+   "texte2": "#4F5566"
+  },
+  "fond": "degrade"
+ },
+ "praticien": {
+  "prenom": "Betty",
+  "nom": "Basset",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "troubles neurodéveloppementaux, neuropsychologie, TCC, hypnose ericksonienne",
+  "specialiteCourte": "Neuropsychologie et TCC",
+  "diplome": "Master 2 de psychologie clinique et psychopathologie, option autisme et troubles neurodéveloppementaux",
+  "adeli": "319328464",
+  "rpps": "10009716217",
+  "public": "Enfants, adolescents et adultes",
+  "citation": "Comprendre et surmonter vos difficultés durablement."
+ },
+ "contact": {
+  "telephone": "06 52 69 47 17",
+  "email": "contact@basset-psychologue.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "12 boulevard Jules-Michelet",
+  "codePostal": "31000",
+  "ville": "Toulouse",
+  "quartier": "Saint-Aubin",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "Adultes et adolescents",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan psychométrique",
+   "lieu": "WISC-V, 2 h 30 à 3 h de passation",
+   "prix": "Sur demande"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles neurodéveloppementaux",
+   "texte": "Autisme, haut potentiel intellectuel, syndrome de Prader-Willi.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Bilans",
+   "texte": "Bilans d’évaluation neuropsychologique et psychométriques.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Des prises en charge centrées sur leurs besoins.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Adultes",
+   "texte": "Des suivis individuels, avec les TCC.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Stress",
+   "texte": "Méditation de pleine conscience et hypnose ericksonienne.",
+   "icone": "vagues"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Betty Basset, psychologue à Toulouse",
+   "seoDescription": "Betty Basset, psychologue clinicienne, psychothérapeute à Toulouse. Troubles neurodéveloppementaux, neuropsychologie, tcc, hypnose ericksonienne.",
+   "surtitre": "Psychologue clinicienne · Toulouse centre",
+   "titre": "Comprendre\n*et surmonter*",
+   "intro": "Spécialisée dans les troubles neurodéveloppementaux, l’autisme, le haut potentiel intellectuel et le syndrome de Prader-Willi, j’effectue des bilans neuropsychologiques et je propose des psychothérapies à Toulouse, et à distance.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Mes activités : bilans neuropsychologiques, psychothérapies adultes et adolescents, hypnose ericksonienne, méditation de pleine conscience.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Betty*",
+   "presentation": [
+    "Je propose des prises en charge psychothérapeutiques centrées sur les thérapies cognitives, émotionnelles et comportementales (TCC), la pédagogie positive et la psychologie positive.",
+    "Formée à l’hypnose ericksonienne et aux thérapies brèves orientées solutions, à la thérapie des schémas et à l’ACT, je réalise aussi des prises en charge spécifiques pour les enfants et les adolescents."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Betty Basset, psychologue à Toulouse",
+   "seoDescription": "Parcours et formations de Betty Basset, psychologue à Toulouse.",
+   "titre": "Diplômes\n*et formations*",
+   "intro": "Je propose des prises en charge psychothérapeutiques centrées sur les thérapies cognitives, émotionnelles et comportementales (TCC), la pédagogie positive et la psychologie positive.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "Master 2",
+     "titre": "Psychologie clinique et psychopathologie",
+     "texte": "Option autisme et autres troubles neurodéveloppementaux."
+    },
+    {
+     "date": "CHU Purpan",
+     "titre": "Centre de référence Prader-Willi",
+     "texte": "Accompagnement des enfants porteurs du syndrome et de leur famille."
+    },
+    {
+     "date": "DU",
+     "titre": "Psychiatrie, psychothérapies médiatisées et art-thérapie",
+     "texte": "CHU Purpan."
+    },
+    {
+     "date": "DU",
+     "titre": "Médecine, neurosciences et méditation de pleine conscience (MBSR)"
+    },
+    {
+     "date": "Formations",
+     "titre": "Hypnose ericksonienne, thérapie des schémas, ACT"
+    }
+   ],
+   "parcoursSurtitre": "Formation",
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Betty Basset, psychologue à Toulouse",
+   "seoDescription": "L’approche de Betty Basset, psychologue à Toulouse : troubles neurodéveloppementaux, neuropsychologie, TCC, hypnose ericksonienne.",
+   "titre": "Neuropsychologie\n*et psychothérapies*",
+   "intro": "La neuropsychologie étudie les fonctions cognitives dans leurs rapports avec les structures cérébrales : elle permet d’identifier les forces et les difficultés de chacun.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Bilans neuropsychologiques",
+     "texte": "Des tests standardisés ; le bilan de base est le WISC-V.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "TCC",
+     "texte": "Comprendre et surmonter vos difficultés durablement.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Hypnose ericksonienne",
+     "icone": "vagues"
+    },
+    {
+     "titre": "Pleine conscience",
+     "texte": "MBSR.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Mes activités",
+   "outilsTitre": "Évaluer *et accompagner*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Betty Basset, psychologue à Toulouse",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Betty Basset, psychologue à Toulouse.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Consultations au cabinet à Toulouse, ou à distance (téléphone, Skype, WhatsApp).",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Betty Basset, psychologue à Toulouse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Betty Basset, psychologue à Toulouse",
+   "seoDescription": "Adresse et téléphone de Betty Basset, psychologue, 12 boulevard Jules-Michelet à Toulouse.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 12 boulevard Jules-Michelet, quartier Saint-Aubin, en centre-ville de Toulouse.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Betty Basset"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

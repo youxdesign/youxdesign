@@ -1,0 +1,345 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Julie Harté (prospect), d'après julieharte.fr. Publiée sur youxdesign.fr/maquettes/julie-harte/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://julieharte.fr",
+  "style": "wabi",
+  "palette": 2,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#EEEFE6",
+   "encre": "#1F2420",
+   "accent": "#5D7A6A",
+   "doux": "#DFE2D5",
+   "texte2": "#4C524C"
+  }
+ },
+ "praticien": {
+  "prenom": "Julie",
+  "nom": "Harté",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute ICV et EMDR",
+  "specialite": "famille et périnatalité, ICV et EMDR",
+  "specialiteCourte": "Famille et périnatalité",
+  "diplome": "Master 2 professionnel de psychologie de l’enfant et de l’adolescent",
+  "adeli": "319337440",
+  "rpps": "10009736728",
+  "public": "Enfants, adolescents, adultes, parents et familles",
+  "citation": "Rendre cette première étape plus douce."
+ },
+ "contact": {
+  "telephone": "07 49 63 03 93",
+  "telephoneNote": "N’hésitez pas à laisser un message : je vous rappelle au plus tôt.",
+  "email": "psychologue@julieharte.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/saint-jean/julie-harte"
+  }
+ },
+ "cabinet": {
+  "adresse": "ISLO Santé « Côte landaise », 223 rue de Saubiolle",
+  "codePostal": "40150",
+  "ville": "Angresse",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "09:00-18:00",
+   "mercredi": "09:00-18:00",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Au cabinet le mardi et le mercredi ; en visio le lundi et le jeudi (9 h – 16 h) et le vendredi matin",
+  "acces": [
+   {
+    "titre": "En visio",
+    "texte": "Les entretiens individuels adolescents et adultes peuvent se faire en visio.",
+    "icone": "visio"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Au besoin, à domicile.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation enfant",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "duree": "45 min"
+  },
+  {
+   "nom": "Adolescent et adulte",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "65 €",
+   "duree": "45 min à 1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Couple ou famille",
+   "lieu": "Au cabinet",
+   "prix": "100 €",
+   "duree": "1 h à 1 h 30"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Une pratique construite auprès des jeunes de 5 à 18 ans.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Périnatalité",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Parentalité et attachement",
+   "texte": "Dont le burn-out parental.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Couple et famille",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "ICV et EMDR.",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Julie Harté, psychologue à Angresse",
+   "seoDescription": "Julie Harté, psychologue clinicienne, psychothérapeute icv et emdr à Angresse. Famille et périnatalité, icv et emdr.",
+   "surtitre": "Psychologue clinicienne · Angresse (40) et visio",
+   "titre": "Une première étape\n*plus douce*",
+   "intro": "Faire la démarche de consulter, pour soi, son enfant ou son couple, n’est pas toujours facile. Je vous reçois à Angresse, en visio et au besoin à domicile, dans un cadre bienveillant, avec empathie et sans jugement.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Quelles que soient les raisons qui vous amènent à consulter, être accompagné par un professionnel vous offre la certitude d’être soutenu.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Julie*",
+   "presentation": [
+    "Psychologue clinicienne, titulaire d’un master 2 en psychologie de l’enfant et de l’adolescent, je suis installée en libéral depuis 2022.",
+    "Dans une approche intégrative, je me forme régulièrement : intégration du cycle de la vie (ICV) pour adultes, enfants et adolescents, et EMDR."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Julie Harté, psychologue à Angresse",
+   "seoDescription": "Parcours et formations de Julie Harté, psychologue à Angresse.",
+   "titre": "Formations\n*et expériences*",
+   "intro": "Psychologue clinicienne, titulaire d’un master 2 en psychologie de l’enfant et de l’adolescent, je suis installée en libéral depuis 2022.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "Master 2",
+     "titre": "Psychologie de l’enfant et de l’adolescent",
+     "texte": "Stages en CMP, IME, clinique pour adolescents et MECS."
+    },
+    {
+     "date": "2021 – 2022",
+     "titre": "ICV niveaux 1 et 2",
+     "texte": "Institut Double Hélice."
+    },
+    {
+     "date": "2023",
+     "titre": "ICV enfants et adolescents, EMDR niveau 1"
+    },
+    {
+     "date": "2022",
+     "titre": "Installation en libéral",
+     "texte": "Et analyse des pratiques pour les professionnels du social et du médico-social."
+    }
+   ],
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "Auprès *des jeunes*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Julie Harté, psychologue à Angresse",
+   "seoDescription": "L’approche de Julie Harté, psychologue à Angresse : famille et périnatalité, ICV et EMDR.",
+   "titre": "Traverser vos difficultés\n*avec sérénité*",
+   "intro": "Je vous invite à travailler ensemble dans un cadre bienveillant, par le biais de méthodes thérapeutiques adaptées, afin de traverser vos difficultés et d’avancer dans votre vie.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "ICV",
+     "texte": "Intégration du cycle de la vie, pour adultes, enfants et adolescents.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "EMDR",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Thérapie familiale",
+     "texte": "Spécialisée famille et périnatalité.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "Une approche *intégrative*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Julie Harté, psychologue à Angresse",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Julie Harté, psychologue à Angresse.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Prise de rendez-vous sur Doctolib. Non conventionnée par la CPAM : selon votre mutuelle, des séances peuvent être prises en charge.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Julie Harté, psychologue à Angresse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Julie Harté, psychologue à Angresse",
+   "seoDescription": "Adresse et téléphone de Julie Harté, psychologue, ISLO Santé « Côte landaise », 223 rue de Saubiolle à Angresse.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve à ISLO Santé « Côte landaise », 223 rue de Saubiolle à Angresse.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Julie Harté"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Instagram",
+   "detail": "@harlie_psy",
+   "url": "https://www.instagram.com/harlie_psy/"
+  },
+  {
+   "titre": "LinkedIn",
+   "detail": "Mon profil professionnel.",
+   "url": "https://www.linkedin.com/in/julie-hart%C3%A9-0ab194108/"
+  }
+ ]
+}
