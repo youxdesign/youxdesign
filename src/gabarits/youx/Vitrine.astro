@@ -37,7 +37,7 @@ const DESCRIPTIONS: Record<string, string> = {
   pastel: 'Un site tendre et accueillant, aux couleurs pastel et aux formes rondes.',
   nocturne: 'Un site sombre et feutré, éclairé par une lumière douce.'
 };
-const styles = sites().map((s) => {
+const styles = sites().filter((s) => !s.maquette).map((s) => {
   const style = STYLES.find((x) => x.id === s.theme)!;
   return { ...style, base: s.base, description: DESCRIPTIONS[style.id] ?? style.detail };
 });

@@ -19,7 +19,7 @@ import { pilePolice } from '../../lib/assets.mjs';
 import { deriver } from '../../lib/couleurs.mjs';
 import { sites } from '../../lib/site.mjs';
 
-const demo = sites().find((s) => s.theme === 'sauge').cab;
+const demo = sites().find((s) => s.vitrine && s.theme === 'sauge').cab;
 const ETAPES = [
   { id: 'bienvenue', nom: 'Bienvenue' },
   { id: 'identite', nom: 'Identité' },

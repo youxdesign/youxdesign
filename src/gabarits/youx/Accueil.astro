@@ -9,7 +9,7 @@ import { STYLES } from '../../config/catalogue.mjs';
 
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/vitrine/*.webp', { eager: true });
 const img = (nom: string) => images[`/src/assets/vitrine/${nom}.webp`].default;
-const liste = sites().map((s) => ({ site: s, style: STYLES.find((x) => x.id === s.theme)! }));
+const liste = sites().filter((s) => !s.maquette).map((s) => ({ site: s, style: STYLES.find((x) => x.id === s.theme)! }));
 const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
 /* Nombre de styles en toutes lettres, pour le titre de la page */
 const nombre = ['Zéro', 'Un', 'Deux', 'Trois', 'Quatre', 'Cinq', 'Six', 'Sept', 'Huit', 'Neuf', 'Dix', 'Onze', 'Douze'][liste.length] ?? String(liste.length);
