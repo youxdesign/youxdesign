@@ -1,0 +1,323 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marius Piatkowski-Mang (prospect), d'après www.mariuspsytcc.fr. Publiée sur youxdesign.fr/maquettes/marius-piatkowski-mang/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.mariuspsytcc.fr",
+  "style": "immersif",
+  "palette": 2,
+  "police": 2,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F5F0",
+   "encre": "#1E2328",
+   "accent": "#3D8CC2",
+   "doux": "#E3ECF3",
+   "texte2": "#50565C"
+  },
+  "fond": "diaporama"
+ },
+ "praticien": {
+  "prenom": "Marius",
+  "nom": "Piatkowski-Mang",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute",
+  "specialite": "thérapies cognitives et comportementales (TCC)",
+  "specialiteCourte": "TCC",
+  "diplome": "Psychologue TCC formé à Lille, psychothérapeute depuis 2022",
+  "public": "Adolescents (à partir de 12 ans) et adultes",
+  "citation": "Faire des recherches, comprendre, trouver des solutions : c’est bien souvent le signe préalable d’un changement porteur de sens."
+ },
+ "contact": {
+  "telephone": "07 69 95 49 77",
+  "email": "mariuspsytcc@outlook.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/croix/marius-piatkowski-mang/booking/motives"
+  }
+ },
+ "cabinet": {
+  "adresse": "163 rue Kléber",
+  "codePostal": "59170",
+  "ville": "Croix",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Tiers-lieu « La Croisée »",
+    "texte": "Le cabinet est à l’étage du tiers-lieu.",
+    "icone": "porte"
+   },
+   {
+    "titre": "À distance",
+    "texte": "Soutien téléphonique et visioconsultation.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "60 €",
+   "duree": "55 min en moyenne",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Tarif réduit",
+   "lieu": "Personnes en précarité (RSA, étudiant en difficulté…)",
+   "prix": "50 €",
+   "texte": "Sur présentation d’un justificatif."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Émotions et anxiété",
+   "texte": "Les ruminations, le stress, l’angoisse du lendemain, des émotions vécues trop intensément.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Phobies et TOC",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Traumatismes",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Burn-out et dépression",
+   "texte": "Les difficultés relationnelles et au travail.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Troubles alimentaires",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Maladies chroniques",
+   "texte": "Étant moi-même atteint du diabète de type 1, il me tient à cœur d’accompagner les personnes souffrant de diabète ou d’autres maladies chroniques.",
+   "icone": "poumons"
+  },
+  {
+   "titre": "Transitions et genre",
+   "texte": "Les transitions et le questionnement de genre.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marius Piatkowski-Mang, psychologue à Croix",
+   "seoDescription": "Marius Piatkowski-Mang, psychologue, psychothérapeute à Croix. Thérapies cognitives et comportementales (tcc).",
+   "surtitre": "Psychologue TCC · Croix",
+   "titre": "Faire le premier pas\n*vers le rétablissement*",
+   "intro": "Vous venez de franchir un cap ! Il ne faut surtout pas minimiser cette action. À travers une étroite collaboration, nous avons les capacités de répondre à vos besoins.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Il est fréquent d’être confronté à un moment dans sa vie à des difficultés personnelles ou relationnelles. Souvent, elles prennent la forme de pensées, d’émotions ou de comportements.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marius*",
+   "presentation": [
+    "Je suis psychologue TCC, formé à Lille, et psychothérapeute depuis 2022. Je reçois adolescents et adultes à Croix, à l’étage du tiers-lieu « La Croisée ».",
+    "Je propose aussi du soutien téléphonique et des rendez-vous en visioconsultation."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marius Piatkowski-Mang, psychologue à Croix",
+   "seoDescription": "Parcours et formations de Marius Piatkowski-Mang, psychologue à Croix.",
+   "titre": "Mon parcours\n*professionnel*",
+   "intro": "Je suis psychologue TCC, formé à Lille, et psychothérapeute depuis 2022. Je reçois adolescents et adultes à Croix, à l’étage du tiers-lieu « La Croisée ».",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "Études",
+     "titre": "CHU de Lille",
+     "texte": "Découverte du métier au centre d’investigation clinique (CIC)."
+    },
+    {
+     "date": "Psychiatrie",
+     "titre": "CMP de Lambersart",
+     "texte": "En psychiatrie adulte, d’abord comme stagiaire psychologue puis comme psychologue."
+    },
+    {
+     "date": "ITEP",
+     "titre": "Institut thérapeutique, éducatif et pédagogique, Croix",
+     "texte": "Auprès d’adolescents et d’enfants souffrant de troubles du comportement, d’autisme et d’autres troubles neurodéveloppementaux."
+    },
+    {
+     "date": "2022",
+     "titre": "Psychothérapeute",
+     "texte": "Cabinet à Croix."
+    }
+   ],
+   "parcoursSurtitre": "Expériences",
+   "parcoursTitre": "Du CHU *au cabinet*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marius Piatkowski-Mang, psychologue à Croix",
+   "seoDescription": "L’approche de Marius Piatkowski-Mang, psychologue à Croix : thérapies cognitives et comportementales (TCC).",
+   "titre": "Pensées, émotions\n*et comportements*",
+   "intro": "Parfois, nos pensées prennent toute la place et génèrent des émotions fortes : les fameuses ruminations. Parfois c’est l’inverse, ce sont nos émotions qui sont vécues trop intensément. Les TCC aident à agir sur ces cercles.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "cadre": [
+    "Je reçois **les adolescents et les adultes**. Je ne prends pas en charge les enfants de moins de 12 ans, car j’estime ne pas être suffisamment formé pour cela (pour l’instant).",
+    "Les séances durent **en moyenne 55 minutes**, au cabinet ou en visio."
+   ],
+   "cadreSurtitre": "Pour qui ?",
+   "cadreTitre": "Adolescents *et adultes*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marius Piatkowski-Mang, psychologue à Croix",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marius Piatkowski-Mang, psychologue à Croix.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances durent en moyenne 55 minutes, au même tarif au cabinet ou en visio. Un tarif réduit existe pour les personnes en précarité.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marius Piatkowski-Mang, psychologue à Croix",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marius Piatkowski-Mang, psychologue à Croix",
+   "seoDescription": "Adresse et téléphone de Marius Piatkowski-Mang, psychologue, 163 rue Kléber à Croix.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve au 163 rue Kléber à Croix, à l’étage du tiers-lieu « La Croisée ».",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marius Piatkowski-Mang"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

@@ -1,0 +1,347 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Cassandra Carrier (prospect), d'après www.cassandra-carrier-psychologue.fr. Publiée sur youxdesign.fr/maquettes/cassandra-carrier/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.cassandra-carrier-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq",
+   "statut"
+  ],
+  "couleurs": {
+   "fond": "#FFF7F8",
+   "encre": "#3A2A2E",
+   "accent": "#C9567A",
+   "doux": "#FBE1E8",
+   "texte2": "#6B5559"
+  }
+ },
+ "praticien": {
+  "prenom": "Cassandra",
+  "nom": "Carrier",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "approche analytique",
+  "specialiteCourte": "Approche analytique",
+  "diplome": "Master 2 Psychopathologie clinique et psychothérapie analytique (Université Lille 3)",
+  "adeli": "59 93 3417 4",
+  "public": "Enfants, adolescents, adultes et couples",
+  "citation": "Chaque patient est reçu dans sa singularité, en tenant compte de son histoire et de sa souffrance."
+ },
+ "contact": {
+  "telephone": "06 58 40 36 13",
+  "email": "cassandra.carrier.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/ronchin/cassandra-carrier"
+  }
+ },
+ "cabinet": {
+  "adresse": "17 rue du Clos du Bel Air",
+  "codePostal": "59790",
+  "ville": "Ronchin",
+  "accessiblePMR": true,
+  "visio": false,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "09:30-20:00",
+   "mardi": "09:30-20:00",
+   "mercredi": "09:30-20:00",
+   "jeudi": "09:30-20:00",
+   "vendredi": "09:30-20:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Cabinet du Clos du Bel Air",
+    "texte": "Cabinet pluridisciplinaire : médecin, sage-femme, ostéopathe et sophrologue.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Accès",
+    "texte": "Rez-de-chaussée, accès handicapé, parking gratuit.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Enfant et adolescent",
+   "lieu": "Consultation individuelle",
+   "prix": "45 €",
+   "duree": "30 à 45 min"
+  },
+  {
+   "nom": "Adulte",
+   "lieu": "Consultation individuelle",
+   "prix": "50 €",
+   "duree": "45 min à 1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Thérapie de couple",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "duree": "1 h"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Difficultés passagères",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Troubles du comportement",
+   "texte": "Sommeil perturbé, angoisse, colère à répétition, difficultés scolaires, retrait social.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Deuil",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Traumatisme",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Guidance parentale",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Handicap",
+   "texte": "Un accompagnement face au handicap.",
+   "icone": "fauteuil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Cassandra Carrier, psychologue à Ronchin",
+   "seoDescription": "Cassandra Carrier, psychologue clinicienne à Ronchin. Approche analytique.",
+   "surtitre": "Psychologue clinicienne · Ronchin",
+   "titre": "Un cadre calme\n*et sécurisant*",
+   "intro": "Psychologue clinicienne à Ronchin, je propose un accompagnement psychothérapique pour les enfants, les adolescents et les adultes, au sein du cabinet pluridisciplinaire du Clos du Bel Air.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Les motifs de consultation sont variés. Lorsque ces difficultés ont un impact au quotidien, pour vous, votre enfant ou votre couple, il est nécessaire de consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Cassandra*",
+   "presentation": [
+    "Attachée aux valeurs déontologiques et éthiques, j’accorde une importance particulière au secret professionnel, à l’écoute et à la neutralité bienveillante.",
+    "Nous aborderons ensemble les difficultés passagères ou les souffrances psychiques plus profondes qui ont un impact sur votre vie, que ce soit sur le plan familial, social, scolaire ou professionnel."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Cassandra Carrier, psychologue à Ronchin",
+   "seoDescription": "Parcours et formations de Cassandra Carrier, psychologue à Ronchin.",
+   "titre": "Une approche\n*analytique*",
+   "intro": "Titulaire d’un Master 2 en psychopathologie clinique et psychothérapie analytique (Université Lille 3), j’ai complété ma formation par un diplôme universitaire en maladie chronique, cancer et fin de vie.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "CAMSP",
+     "titre": "Centre d’action médico-sociale précoce",
+     "texte": "Roubaix."
+    },
+    {
+     "date": "Foyer",
+     "titre": "« La Traverse », Association les Papillons Blancs",
+     "texte": "Foyer d’accueil pour adultes, Bondues."
+    },
+    {
+     "date": "CMP",
+     "titre": "Centre médico-psychologique pour adultes",
+     "texte": "Haubourdin."
+    },
+    {
+     "date": "Soins palliatifs",
+     "titre": "Hôpitaux Saint-Vincent-de-Paul (Lille) et Victor-Provo (Roubaix)"
+    }
+   ],
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "Des structures *variées*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Cassandra Carrier, psychologue à Ronchin",
+   "seoDescription": "L’approche de Cassandra Carrier, psychologue à Ronchin : approche analytique.",
+   "titre": "Comprendre\n*son fonctionnement*",
+   "intro": "La théorie analytique tient compte de la personne dans toute sa singularité et dans toute sa globalité : nous élaborons ensemble, dans une dynamique d’échanges réciproques, sur les évènements de vie que vous traversez ou qui ont marqué votre fonctionnement psychique.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Enfants",
+     "texte": "Lorsqu’un mal-être apparaît chez l’enfant, il ne faut pas laisser les troubles s’installer durablement.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Adolescents",
+     "icone": "marches"
+    },
+    {
+     "titre": "Adultes",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Couples",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Psychothérapies",
+   "outilsTitre": "Pour chacun, *un suivi adapté*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Cassandra Carrier, psychologue à Ronchin",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Cassandra Carrier, psychologue à Ronchin.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Toute personne qui le souhaite est libre de consulter le psychologue de son choix : il n’est pas nécessaire d’en faire la demande à son médecin traitant.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "En espèces, par carte bancaire ou par chèque. Certaines mutuelles remboursent tout ou partie des séances.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Cassandra Carrier, psychologue à Ronchin",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Cassandra Carrier, psychologue à Ronchin",
+   "seoDescription": "Adresse et téléphone de Cassandra Carrier, psychologue, 17 rue du Clos du Bel Air à Ronchin.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve au Cabinet du Clos du Bel Air, 17 rue du Clos du Bel Air à Ronchin, en rez-de-chaussée, avec parking gratuit.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Cassandra Carrier"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "psychologue.net",
+   "detail": "Mon profil.",
+   "url": "https://www.psychologue.net/cabinets/cassandra-carrier"
+  }
+ ]
+}
