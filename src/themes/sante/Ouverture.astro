@@ -57,7 +57,7 @@ const puces = ['Au cabinet', c.visio && 'En visio', p.public, p.specialiteCourte
       <dl class="une__resa-infos">
         <div><dt>Adresse</dt><dd>{cab.adresse.uneLigne}</dd></div>
         {c.visio && <div><dt>À distance</dt><dd>Séances en visio sécurisée</dd></div>}
-        <div><dt>Téléphone</dt><dd><a href={cab.tel.lien}>{cab.tel.affiche}</a></dd></div>
+        {cab.tel && <div><dt>Téléphone</dt><dd><a href={cab.tel.lien}>{cab.tel.affiche}</a></dd></div>}
       </dl>
       <BoutonRdv cab={cab} classe="bouton une__resa-bouton" />
     </aside>

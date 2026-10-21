@@ -16,7 +16,7 @@ const partenaire = t.monSoutienPsy === true;
 ---
 <Site site={site} page="consultations" titre={m.titre} description={m.description} chemin={lien(site, 'consultations')} jsonld={[donneesFil(site, 'consultations')]}>
   <TetePage surtitre={t.surtitre || 'Consultations & tarifs'} titre={t.titre} intro={t.intro}>
-    <p slot="texte" class="tete-page__contact">Téléphone : <a href={cab.tel.lien}>{cab.tel.affiche}</a></p>
+    {cab.tel && <p slot="texte" class="tete-page__contact">Téléphone : <a href={cab.tel.lien}>{cab.tel.affiche}</a></p>}
   </TetePage>
 
   <section class="section section--teinte" aria-labelledby="tarifs-titre">

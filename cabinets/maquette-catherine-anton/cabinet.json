@@ -1,0 +1,340 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Catherine Anton (prospect), d'après www.psychologueemdrlille.fr. Publiée sur youxdesign.fr/maquettes/catherine-anton/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologueemdrlille.fr",
+  "style": "immersif",
+  "palette": 1,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F1F5F4",
+   "encre": "#142326",
+   "accent": "#0E7479",
+   "doux": "#D6E8E7",
+   "texte2": "#4B5B5D"
+  },
+  "fond": "diaporama"
+ },
+ "praticien": {
+  "prenom": "Catherine",
+  "nom": "Anton",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychanalyste",
+  "specialite": "psychanalyse et EMDR",
+  "specialiteCourte": "Psychanalyse et EMDR",
+  "diplome": "Psychologue clinicienne (Université Paris 7 Denis Diderot, 2006)",
+  "rpps": "10009296780",
+  "public": "Enfants, adolescents, adultes, couples et personnes âgées",
+  "citation": "Je n’interviens qu’avec le consentement éclairé des patients, en toute confidentialité."
+ },
+ "contact": {
+  "telephone": "06 63 18 10 72",
+  "email": "antoncatherine@yahoo.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "58 rue Louis Faure",
+  "codePostal": "59000",
+  "ville": "Lille",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "À distance",
+    "texte": "Consultations par téléphone ou en visioconférence, en France et à l’étranger, depuis 2011.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "Psychothérapie, EMDR, supervision",
+   "prix": "90 €",
+   "duree": "1 h",
+   "texte": "La première consultation dure environ une heure.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Enfants",
+   "texte": "Troubles du comportement, troubles psychosomatiques, épreuves précoces : séparation, deuil, agression.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Adolescents",
+   "texte": "Confiance et estime de soi, harcèlement, échec scolaire, addictions, questionnements identitaires.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Adultes",
+   "texte": "Difficultés relationnelles, d’attachement et de dépendance, souffrance au travail, sentiment d’échec à répétition.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Couples",
+   "texte": "Difficulté à communiquer, fonctionnements destructeurs, séparation, violences conjugales.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Personnes âgées",
+   "texte": "Perte d’autonomie, réaménagement psycho-affectif, accompagnement en fin de vie.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Agression, accident, deuil inopiné, violences : l’EMDR abaisse la charge émotionnelle des souvenirs douloureux.",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Catherine Anton, psychologue à Lille",
+   "seoDescription": "Catherine Anton, psychologue clinicienne, psychanalyste à Lille. Psychanalyse et emdr.",
+   "surtitre": "Psychologue clinicienne · Psychanalyste · Praticienne EMDR · Lille",
+   "titre": "S’exprimer librement,\n*à son rythme*",
+   "intro": "J’accueille les personnes désireuses d’entamer un travail sur elles-mêmes, dans un cadre où elles peuvent s’exprimer librement, sans jugement et à leur rythme. Au cabinet à Lille, ou à distance.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Enfants, adolescents, adultes, couples, personnes âgées : je vous accompagne dans la compréhension de ce que vous vivez ou ressentez.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Catherine*",
+   "presentation": [
+    "Psychologue clinicienne depuis 2006, je suis installée à Lille depuis février 2019, après sept ans en libéral dans un cabinet pluridisciplinaire à Paris et quatre ans dans un EHPAD.",
+    "Praticienne EMDR depuis 2014, je pratique aussi les consultations à distance, en France et à l’étranger."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Catherine Anton, psychologue à Lille",
+   "seoDescription": "Parcours et formations de Catherine Anton, psychologue à Lille.",
+   "titre": "Psychologue,\n*psychanalyste, EMDR*",
+   "intro": "Psychologue clinicienne depuis 2006, je suis installée à Lille depuis février 2019, après sept ans en libéral dans un cabinet pluridisciplinaire à Paris et quatre ans dans un EHPAD.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2006",
+     "titre": "Psychologue clinicienne",
+     "texte": "Sciences humaines cliniques, Université Paris 7 Denis Diderot."
+    },
+    {
+     "date": "7 ans",
+     "titre": "Cabinet pluridisciplinaire (Paris 19e)",
+     "texte": "En parallèle, quatre ans à la maison de retraite le F.I.R. (Paris 16e)."
+    },
+    {
+     "date": "2011",
+     "titre": "Consultations à distance",
+     "texte": "Par téléphone ou en visioconférence, en France et à l’étranger."
+    },
+    {
+     "date": "2014",
+     "titre": "Praticienne EMDR",
+     "texte": "Institut français d’EMDR."
+    },
+    {
+     "date": "2019",
+     "titre": "Installation à Lille",
+     "texte": "58 rue Louis Faure."
+    }
+   ],
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "De Paris *à Lille*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Catherine Anton, psychologue à Lille",
+   "seoDescription": "L’approche de Catherine Anton, psychologue à Lille : psychanalyse et EMDR.",
+   "titre": "Comprendre\n*ce que vous vivez*",
+   "intro": "Je vous propose différentes approches pour répondre au mieux à vos attentes, avec le consentement éclairé de chacun et en toute confidentialité.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Enfants",
+     "texte": "Un lieu rassurant où les difficultés scolaires, familiales ou sociales peuvent s’extérioriser, en alliance avec les parents.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Adolescents",
+     "texte": "Mettre en mots le mal-être et soutenir l’adolescent dans sa traversée identitaire.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Adultes",
+     "texte": "Une écoute et un soutien qui respectent votre subjectivité, pour étayer la nécessité de changement.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "L’EMDR",
+     "texte": "Une stimulation sensorielle des deux côtés du corps, qui intègre les souvenirs douloureux pour qu’ils cessent d’être réactivés dans le présent.",
+     "icone": "eclat"
+    }
+   ],
+   "outilsSurtitre": "Mes accompagnements",
+   "outilsTitre": "Pour chacun, *une écoute adaptée*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Catherine Anton, psychologue à Lille",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Catherine Anton, psychologue à Lille.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La première consultation dure environ une heure : elle permet de clarifier votre demande et de cerner vos difficultés. Des consultations en visioconférence et par téléphone sont aussi possibles.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "De préférence par virement bancaire, à la fin de chaque séance. Une attestation vous est délivrée pour votre mutuelle.",
+   "annulation": [
+    "Les séances non annulées **24 h à l’avance** sont dues."
+   ],
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Catherine Anton, psychologue à Lille",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Catherine Anton, psychologue à Lille",
+   "seoDescription": "Adresse et téléphone de Catherine Anton, psychologue, 58 rue Louis Faure à Lille.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois au 58 rue Louis Faure, à Lille, ou à distance par téléphone ou en visioconférence.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Catherine Anton"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

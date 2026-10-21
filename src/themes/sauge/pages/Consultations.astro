@@ -19,7 +19,7 @@ const intro = (t.intro || '').replace(/\s*Joignez-moi par téléphone\.?$/, '');
 ---
 <Cadre site={site} page="consultations" titre={m.titre} description={m.description} chemin={lien(site, 'consultations')} jsonld={[donneesFil(site, 'consultations')]}>
   <TetePage surtitre={t.surtitre || 'Consultations & tarifs'} titre={t.titre} intro={t.intro}>
-    <Fragment slot="intro">{intro} Joignez-moi au <a class="inline-link" href={cab.tel.lien}>{cab.tel.affiche}</a>.</Fragment>
+    <Fragment slot="intro">{intro}{cab.tel && <> Joignez-moi au <a class="inline-link" href={cab.tel.lien}>{cab.tel.affiche}</a>.</>}</Fragment>
   </TetePage>
 
   <section class="section section--flush" aria-labelledby="tarifs-titre">

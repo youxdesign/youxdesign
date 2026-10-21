@@ -48,7 +48,7 @@ const schema = z.object({
     citation: texte.optional()
   }),
   contact: z.object({
-    telephone: texte,
+    telephone: z.string().trim().optional(),
     telephoneNote: texte.optional(),
     email: z.string().email('adresse e-mail invalide'),
     emailNote: texte.optional(),
@@ -153,6 +153,7 @@ function horaires(h) {
 }
 
 function telephone(t) {
+  if (!t) return null;
   const chiffres = t.replace(/[^\d+]/g, '');
   const international = chiffres.startsWith('+') ? chiffres : chiffres.startsWith('0') ? '+33' + chiffres.slice(1) : chiffres;
   return { affiche: t, lien: `tel:${international}`, international };
@@ -177,6 +178,7 @@ export function chargerCabinet(id) {
     const erreurs = r.error.issues.map((i) => `  • ${i.path.join(' › ')} : ${i.message}`).join('\n');
     throw new Error(`La fiche cabinets/${id}/cabinet.json contient des erreurs :\n${erreurs}`);
   }
+  if (!r.data.contact.telephone && !r.data.contact.rendezVous) throw new Error(`La fiche cabinets/${id}/cabinet.json : indiquez un téléphone, ou un rendez-vous en ligne (contact.rendezVous).`);
   return enrichir(id, r.data);
 }
 

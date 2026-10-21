@@ -19,7 +19,7 @@ export function mentionsLegales(cab, liens) {
     {
       id: 'editeur',
       titre: 'Éditeur du site',
-      html: `<p><strong>${e(cab.nomComplet)}</strong>, ${e(p.statut || p.titre.toLowerCase())}<br>${e(cab.adresse.uneLigne)}<br>Téléphone : <a href="${e(cab.tel.lien)}">${e(cab.tel.affiche)}</a> · E-mail : ${mail(cab.contact.email)}${p.siret ? `<br>SIRET : ${e(p.siret)}` : ''}${numeros ? `<br>${numeros}` : ''}</p><p>${directeur} : ${e(l.directeurPublication || cab.nomComplet)}.</p>`
+      html: `<p><strong>${e(cab.nomComplet)}</strong>, ${e(p.statut || p.titre.toLowerCase())}<br>${e(cab.adresse.uneLigne)}${cab.tel ? `<br>Téléphone : <a href="${e(cab.tel.lien)}">${e(cab.tel.affiche)}</a> · E-mail` : '<br>E-mail'} : ${mail(cab.contact.email)}${p.siret ? `<br>SIRET : ${e(p.siret)}` : ''}${numeros ? `<br>${numeros}` : ''}</p><p>${directeur} : ${e(l.directeurPublication || cab.nomComplet)}.</p>`
     },
     {
       id: 'hebergement',

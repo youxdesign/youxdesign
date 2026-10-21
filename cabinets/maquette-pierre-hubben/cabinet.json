@@ -1,0 +1,346 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Pierre Hubben (prospect), d'après www.phpsy.net. Publiée sur youxdesign.fr/maquettes/pierre-hubben/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.phpsy.net",
+  "style": "immersif",
+  "palette": 1,
+  "police": 1,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F5F4",
+   "encre": "#16252A",
+   "accent": "#256578",
+   "doux": "#DCE8EA",
+   "texte2": "#4C5A5E"
+  },
+  "fond": "diaporama"
+ },
+ "praticien": {
+  "prenom": "Pierre",
+  "nom": "Hubben",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicien",
+  "specialite": "thérapies cognitives et comportementales (TCC), EMDR, ACT et psychologie positive",
+  "specialiteCourte": "TCC et EMDR",
+  "diplome": "Psychologie clinique, Université catholique de Louvain",
+  "public": "Adultes et adolescents",
+  "citation": "Le bonheur ne s’acquiert pas : chacun d’entre nous le construit à chaque instant de sa vie."
+ },
+ "contact": {
+  "telephone": "06 62 41 02 82",
+  "email": "pierre.hubben@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/marcq-en-baroeul/pierre-hubben"
+  }
+ },
+ "cabinet": {
+  "adresse": "33 place Lisfranc",
+  "codePostal": "59700",
+  "ville": "Marcq-en-Barœul",
+  "quartier": "Croisé-Laroche",
+  "zone": "À moins de 15 minutes de Lille, Roubaix, Tourcoing et Villeneuve-d’Ascq",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Tram",
+    "texte": "À deux pas de la station Croisé-Laroche (lignes R et T).",
+    "icone": "metro"
+   },
+   {
+    "titre": "Parking",
+    "texte": "Le parking du Monoprix, à 100 mètres, est gratuit.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Personnes sourdes et malentendantes",
+    "texte": "Consultations possibles avec une interprète LSF, avec le réseau Sourds et Santé.",
+    "icone": "personnes"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet, à distance ou à domicile",
+   "prix": "75 €",
+   "texte": "Carte bancaire, chèque, virement ou espèces.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Crises d’angoisse",
+   "texte": "Trouble panique, trouble anxieux généralisé, gestion du stress.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Phobies et TOC",
+   "texte": "Les TCC offrent des méthodes simples et validées scientifiquement pour soulager les troubles anxieux.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Stress post-traumatique",
+   "texte": "L’EMDR aide à « digérer » un souvenir traumatique resté bloqué.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Burn-out et dépression",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Deuil difficile",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Affirmation de soi",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Pierre Hubben, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Pierre Hubben, psychologue clinicien à Marcq-en-Barœul. Thérapies cognitives et comportementales (tcc), emdr, act et psychologie positive.",
+   "surtitre": "Psychologue · TCC · EMDR · Marcq-en-Barœul",
+   "titre": "Le bonheur\n*se construit*",
+   "intro": "Psychologue clinicien spécialisé en thérapies cognitives et comportementales et en EMDR, je reçois adultes et adolescents à Marcq-en-Barœul, à quelques minutes de Lille, ainsi qu’à distance.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Que vous souffriez de phobie, de crises d’angoisse, de TOC, de dépression ou de stress post-traumatique, des solutions existent.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Pierre*",
+   "presentation": [
+    "Passionné depuis toujours par l’humain, j’ai naturellement été attiré par la psychologie. Diplômé de psychologie clinique à l’Université catholique de Louvain, je me suis spécialisé dans les TCC.",
+    "Je me suis également formé à la cohérence cardiaque, à la psychologie positive, à la thérapie ACT et à l’EMDR. J’exerce dans mon cabinet et ai exercé dans différents établissements hospitaliers et médico-sociaux."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Pierre Hubben, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Parcours et formations de Pierre Hubben, psychologue à Marcq-en-Barœul.",
+   "titre": "Passionné\n*par l’humain*",
+   "intro": "Passionné depuis toujours par l’humain, j’ai naturellement été attiré par la psychologie. Diplômé de psychologie clinique à l’Université catholique de Louvain, je me suis spécialisé dans les TCC.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "Diplôme",
+     "titre": "Psychologie clinique",
+     "texte": "Université catholique de Louvain."
+    },
+    {
+     "date": "Spécialité",
+     "titre": "Thérapies cognitives et comportementales",
+     "texte": "Membre de l’AFTCC."
+    },
+    {
+     "date": "Formations",
+     "titre": "EMDR, ACT, psychologie positive, cohérence cardiaque",
+     "texte": "Membre de l’association EMDR France – EMDR Europe."
+    },
+    {
+     "date": "Parcours",
+     "titre": "Établissements hospitaliers et médico-sociaux",
+     "texte": "Puis mon cabinet, à Marcq-en-Barœul."
+    }
+   ],
+   "parcoursSurtitre": "Mon parcours",
+   "parcoursTitre": "Formation *et pratique*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Pierre Hubben, psychologue à Marcq-en-Barœul",
+   "seoDescription": "L’approche de Pierre Hubben, psychologue à Marcq-en-Barœul : thérapies cognitives et comportementales (TCC), EMDR, ACT et psychologie positive.",
+   "titre": "Une thérapie\n*active et validée*",
+   "intro": "Dans une TCC, le thérapeute est actif et le travail du patient continue entre les séances. On travaille en parallèle sur trois domaines : les émotions, les pensées et les comportements.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Les TCC",
+     "texte": "Retracer l’histoire de la difficulté, comprendre ce qui l’entretient, puis fixer des objectifs et des stratégies adaptés à vous.",
+     "icone": "livre"
+    },
+    {
+     "titre": "L’EMDR",
+     "texte": "Des stimulations bilatérales (mouvements oculaires, sons ou tapotements) pour se reconfronter en douceur à un souvenir et l’assimiler.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "ACT et psychologie positive",
+     "texte": "Cesser de lutter contre ce qu’on ne peut changer, agir selon ses valeurs, et accentuer ce qui va bien.",
+     "icone": "soleil"
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "Des méthodes *complémentaires*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Pierre Hubben, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Pierre Hubben, psychologue à Marcq-en-Barœul.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois principalement des adultes et des adolescents en suivi individuel, au cabinet, et à distance (Skype, FaceTime) ou à domicile si vous ne pouvez pas vous déplacer.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Règlement par carte bancaire, chèque, virement ou espèces. Membre d’une association agréée (ARA-PL).",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Pierre Hubben, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Pierre Hubben, psychologue à Marcq-en-Barœul",
+   "seoDescription": "Adresse et téléphone de Pierre Hubben, psychologue, 33 place Lisfranc à Marcq-en-Barœul.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet est situé en plein cœur de la métropole, place Lisfranc au Croisé-Laroche, à moins de 15 minutes de Lille, Roubaix, Tourcoing et Villeneuve-d’Ascq.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Pierre Hubben"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "AFTCC",
+   "detail": "Association française de thérapie comportementale et cognitive, dont je suis membre.",
+   "url": "http://www.aftcc.org/"
+  },
+  {
+   "titre": "EMDR France",
+   "detail": "Association EMDR France – EMDR Europe, dont je suis membre.",
+   "url": "http://www.emdr-france.org/"
+  }
+ ]
+}

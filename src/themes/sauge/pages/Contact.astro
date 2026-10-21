@@ -47,7 +47,7 @@ const joursJs = (g) => g.jours.map((j) => (j.index + 1) % 7).join(',');
           </li>
           <li class="contact-line">
             <span class="card__icon"><Picto nom="telephone" /></span>
-            <div><h2 class="contact-line__titre">Téléphone</h2><a href={cab.tel.lien}>{cab.tel.affiche}</a>{cab.contact.telephoneNote && <small>{cab.contact.telephoneNote}</small>}</div>
+            <div><h2 class="contact-line__titre">{cab.tel ? 'Téléphone' : 'Rendez-vous'}</h2>{cab.tel ? <a href={cab.tel.lien}>{cab.tel.affiche}</a> : <a href={cab.rdv.url} target="_blank" rel="noopener">En ligne sur {cab.rdv.plateforme}</a>}{cab.contact.telephoneNote && <small>{cab.contact.telephoneNote}</small>}</div>
           </li>
           <li class="contact-line">
             <span class="card__icon"><Picto nom="email" /></span>
@@ -121,7 +121,7 @@ const joursJs = (g) => g.jours.map((j) => (j.index + 1) % 7).join(',');
       </div>
       <div class="stack">
         {c.visio && t.visio && t.visio.map((x, i) => <p class:list={[i === 0 ? 'lead' : 'muted']} data-reveal set:html={enrichi(x)} />)}
-        {!c.visio && <p class="lead" data-reveal>Appelez-moi au <a class="inline-link" href={cab.tel.lien}>{cab.tel.affiche}</a> ou écrivez-moi : je vous réponds dans les meilleurs délais.</p>}
+        {!c.visio && cab.tel && <p class="lead" data-reveal>Appelez-moi au <a class="inline-link" href={cab.tel.lien}>{cab.tel.affiche}</a> ou écrivez-moi : je vous réponds dans les meilleurs délais.</p>}
         <div data-reveal><Urgence /></div>
       </div>
     </div>

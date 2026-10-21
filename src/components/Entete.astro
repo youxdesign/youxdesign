@@ -27,7 +27,7 @@ const statut = cab.bloc('statut', site.vitrine);
     <div class="conteneur bandeau-haut__barre">
       {statut.rendre && <Statut cab={cab} classe="bandeau-haut__statut" cache={statut.cache} />}
       <p class="bandeau-haut__lieu">{cab.praticien.titre} · {cab.lieuCourt}</p>
-      <a class="bandeau-haut__tel" href={cab.tel.lien}><span class="sr-only">Téléphone : </span>{cab.tel.affiche}</a>
+      {cab.tel && <a class="bandeau-haut__tel" href={cab.tel.lien}><span class="sr-only">Téléphone : </span>{cab.tel.affiche}</a>}
     </div>
   </div>
 )}
@@ -46,7 +46,7 @@ const statut = cab.bloc('statut', site.vitrine);
       </ul>
     </nav>
     <Langues site={site} />
-    {r.telephone && !r.bandeau && <a class="entete__tel" href={cab.tel.lien}><span class="sr-only">Téléphone : </span>{cab.tel.affiche}</a>}
+    {r.telephone && !r.bandeau && cab.tel && <a class="entete__tel" href={cab.tel.lien}><span class="sr-only">Téléphone : </span>{cab.tel.affiche}</a>}
     <BoutonRdv cab={cab} classe="bouton bouton--petit entete__rdv" />
     <button class="bouton-menu" type="button" popovertarget="menu-mobile" aria-label="Ouvrir le menu">
       <Icone nom="menu" />
@@ -74,7 +74,7 @@ const statut = cab.bloc('statut', site.vitrine);
       <div class="menu-mobile__pied">
         <BoutonRdv cab={cab} />
         <p class="menu-mobile__contact">
-          <a href={cab.tel.lien}>{cab.tel.affiche}</a>
+          {cab.tel && <a href={cab.tel.lien}>{cab.tel.affiche}</a>}
           <span>{cab.adresse.uneLigne}</span>
         </p>
       </div>

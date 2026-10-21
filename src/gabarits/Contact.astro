@@ -32,13 +32,15 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
             {(c.complement || c.accessiblePMR) && <p class="note">{[c.complement, c.accessiblePMR && 'accessible aux personnes à mobilité réduite'].filter(Boolean).join(', ')}</p>}
           </dd>
         </div>
-        <div>
-          <dt>Téléphone</dt>
-          <dd>
-            <a href={cab.tel.lien}>{cab.tel.affiche}</a>
-            {cab.contact.telephoneNote && <p class="note">{cab.contact.telephoneNote}</p>}
-          </dd>
-        </div>
+        {cab.tel && (
+          <div>
+            <dt>Téléphone</dt>
+            <dd>
+              <a href={cab.tel.lien}>{cab.tel.affiche}</a>
+              {cab.contact.telephoneNote && <p class="note">{cab.contact.telephoneNote}</p>}
+            </dd>
+          </div>
+        )}
         <div>
           <dt>E-mail</dt>
           <dd>
@@ -67,7 +69,7 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
           </ul>
         ) : !c.horairesNote && <p class="discret">Sur rendez-vous.</p>}
         {statut.rendre && <Statut cab={cab} cache={statut.cache} />}
-        <p class="sans-formulaire">Pour protéger votre confidentialité, ce site ne propose pas de formulaire de contact : appelez ou écrivez directement.</p>
+        <p class="sans-formulaire">Pour protéger votre confidentialité, ce site ne propose pas de formulaire de contact : {cab.tel ? 'appelez ou écrivez directement' : 'écrivez directement'}.</p>
       </div>
     </div>
   </section>

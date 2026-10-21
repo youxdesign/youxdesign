@@ -31,7 +31,7 @@ const annee = new Date().getFullYear();
         <address>
           <span>{cab.adresse.rue}</span>
           <span>{cab.adresse.ville}</span>
-          <a href={cab.tel.lien}>{cab.tel.affiche}</a>
+          {cab.tel && <a href={cab.tel.lien}>{cab.tel.affiche}</a>}
           <a href={`mailto:${cab.contact.email}`}>{cab.contact.email}</a>
         </address>
       </div>

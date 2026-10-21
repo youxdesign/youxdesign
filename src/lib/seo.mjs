@@ -31,7 +31,7 @@ export function donneesCabinet(site) {
     description: cab.pages.accueil.seoDescription,
     url,
     image: adresseComplete(`/og/${site.cle}.png`),
-    telephone: cab.tel.international,
+    telephone: cab.tel?.international,
     email: cab.contact.email,
     address: {
       '@type': 'PostalAddress',
