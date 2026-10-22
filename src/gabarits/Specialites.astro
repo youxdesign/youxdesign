@@ -1,0 +1,27 @@
+---
+/* Page facultative « Mes spécialités » : n'existe que si la fiche contient
+   pages.specialites. Un sommaire, puis une section par spécialité. */
+import Site from '../layouts/Site.astro';
+import TetePage from '../components/TetePage.astro';
+import SectionsTexte from '../components/SectionsTexte.astro';
+import AppelFinal from '../components/AppelFinal.astro';
+import { lien } from '../lib/site.mjs';
+import { meta, donneesFil } from '../lib/seo.mjs';
+
+interface Props { site: any }
+const { site } = Astro.props;
+const cab = site.cab, t = cab.pages.specialites;
+const m = meta(site, 'specialites');
+const sections = t.sections || [];
+---
+<Site site={site} page="specialites" titre={m.titre} description={m.description} chemin={lien(site, 'specialites')} jsonld={[donneesFil(site, 'specialites')]}>
+  <TetePage surtitre={t.surtitre || 'Mes spécialités'} titre={t.titre} intro={t.intro}>
+    {sections.length > 1 && (
+      <nav slot="texte" class="sommaire" aria-label="Sommaire des spécialités">
+        <ol>{sections.map((s, i) => <li><a href={`#specialite-${i + 1}`}><span aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>{s.titre.replace(/\*/g, '')}</a></li>)}</ol>
+      </nav>
+    )}
+  </TetePage>
+  <SectionsTexte sections={sections} prefixe="specialite" surtitre="Spécialité" teinteDabord />
+  <AppelFinal cab={cab} titre={t.finTitre} texte={t.finTexte} />
+</Site>

@@ -6,7 +6,7 @@
    ========================================================================== */
 import { de } from '../../lib/texte.mjs';
 import Document from '../../layouts/Document.astro';
-import { PAGES } from '../../config/catalogue.mjs';
+import { pagesDe } from '../../config/catalogue.mjs';
 import { lien } from '../../lib/site.mjs';
 import { brut } from '../../lib/texte.mjs';
 import Rdv from './Rdv.astro';
@@ -28,7 +28,7 @@ interface Props {
 const props = Astro.props;
 const { site, page, scripts = [] } = props;
 const cab = site.cab, p = cab.praticien, c = cab.cabinet;
-const menu = PAGES.filter((x) => !x.legal && (x.id !== 'faq' || cab.a('faq') || site.vitrine));
+const menu = pagesDe(cab).filter((x) => !x.legal && (x.id !== 'faq' || cab.a('faq') || site.vitrine));
 /* Lien vers la FAQ : masqué (démos) ou absent (sites) si l'option n'est pas choisie */
 const attributs = (x) => ({ 'data-page-lien': x.id, ...(x.id === 'faq' ? { 'data-option': 'faq', hidden: !cab.a('faq') } : {}) });
 const role = `${cab.metier} · ${c.ville}`;

@@ -163,3 +163,66 @@
 .opt-agenda__cadre iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: #FFFFFF; }
 .opt-agenda__attente { padding: 1.5rem; text-align: center; color: var(--c-texte2); font-size: .9375rem; }
 .opt-agenda__cadre[data-interactif] .opt-agenda__attente { display: none; }
+
+/* --------------------------------------------------------------------------
+   Rendez-vous toujours visible : encart de réservation
+   -------------------------------------------------------------------------- */
+.opt--serre { padding-block: calc(var(--opt-espace) * .55); }
+.encart-rdv {
+  position: relative; overflow: hidden;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 40px;
+  padding: clamp(24px, 4vw, 44px); border-radius: var(--opt-rayon);
+  background: linear-gradient(135deg, var(--c-accent-doux), var(--c-doux));
+  box-shadow: inset 0 0 0 1px var(--c-ligne);
+}
+.encart-rdv::after {
+  content: ''; position: absolute; right: -60px; top: -80px; width: 260px; height: 260px; border-radius: 50%;
+  background: radial-gradient(circle, rgb(255 255 255 / .55), transparent 70%); pointer-events: none;
+}
+.encart-rdv__texte { position: relative; display: grid; gap: 8px; max-width: 38rem; }
+.encart-rdv .opt-titre em { font-style: italic; color: var(--c-lien); }
+.encart-rdv__bouton { position: relative; }
+
+/* --------------------------------------------------------------------------
+   Ressources avec aperçu : une feuille posée sur une pile
+   -------------------------------------------------------------------------- */
+.docs { display: grid; gap: 40px; margin: 0; padding: 0; list-style: none; }
+.doc { display: grid; gap: 28px 48px; align-items: center; }
+@media (min-width: 40rem) { .doc { grid-template-columns: minmax(180px, 270px) minmax(0, 1fr); } }
+.doc__pile { position: relative; display: block; width: min(100%, 270px); margin-inline: auto; padding: 12px 22px 30px 8px; color: inherit; text-decoration: none; border-radius: 8px; }
+.doc__pile::before, .doc__pile::after {
+  content: ''; position: absolute; inset: 12px 22px 30px 8px; border-radius: 6px; background: #FFFFFF;
+  box-shadow: 0 1px 2px rgb(0 0 0 / .06), 0 12px 26px -16px rgb(0 0 0 / .35);
+  transition: transform .6s cubic-bezier(.16, 1, .3, 1);
+}
+.doc__pile::before { transform: rotate(7deg) translate(12px, 6px); opacity: .55; }
+.doc__pile::after { transform: rotate(3.5deg) translate(6px, 3px); opacity: .8; }
+.doc__feuille {
+  position: relative; z-index: 1; display: block; aspect-ratio: 210 / 297; overflow: hidden;
+  border-radius: 6px; background: #FFFFFF;
+  box-shadow: 0 1px 2px rgb(0 0 0 / .08), 0 24px 46px -22px rgb(0 0 0 / .5);
+  transform: rotate(-2.5deg);
+  transition: transform .6s cubic-bezier(.16, 1, .3, 1), box-shadow .6s cubic-bezier(.16, 1, .3, 1);
+}
+.doc__feuille img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+/* coin corné */
+.doc__feuille::after {
+  content: ''; position: absolute; top: 0; right: 0; width: 30px; height: 30px;
+  background: linear-gradient(225deg, var(--c-surface) 50%, #E4E4E4 50%);
+  border-bottom-left-radius: 5px; box-shadow: -3px 3px 5px -2px rgb(0 0 0 / .18);
+}
+.doc__voir {
+  position: absolute; z-index: 2; left: 50%; bottom: 4px; translate: -50% 0;
+  padding: 9px 18px; border-radius: 999px; background: var(--c-encre); color: var(--c-surface);
+  font-size: 13px; font-weight: 600; letter-spacing: .04em; white-space: nowrap;
+  opacity: 0; transform: translateY(8px); transition: opacity .3s ease, transform .45s cubic-bezier(.16, 1, .3, 1);
+}
+.doc__pile:hover .doc__feuille, .doc__pile:focus-visible .doc__feuille { transform: rotate(0deg) translateY(-10px) scale(1.035); box-shadow: 0 1px 2px rgb(0 0 0 / .08), 0 36px 64px -26px rgb(0 0 0 / .55); }
+.doc__pile:hover::before, .doc__pile:focus-visible::before { transform: rotate(10deg) translate(18px, 8px); }
+.doc__pile:hover::after, .doc__pile:focus-visible::after { transform: rotate(5.5deg) translate(10px, 4px); }
+.doc__pile:hover .doc__voir, .doc__pile:focus-visible .doc__voir { opacity: 1; transform: none; }
+@media (hover: none) { .doc__voir { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .doc__feuille, .doc__pile::before, .doc__pile::after, .doc__voir { transition: none; } }
+.doc__infos { display: grid; gap: 12px; justify-items: start; }
+.doc__titre { margin: 0; font-family: var(--f-titres); font-weight: var(--fw-titres); font-size: clamp(24px, 2.6vw, 32px); line-height: 1.15; color: var(--c-encre); }
+.doc__credit { margin: 0; font-size: 13.5px; font-style: italic; color: var(--c-texte2); }

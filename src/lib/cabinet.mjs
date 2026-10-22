@@ -84,7 +84,9 @@ const schema = z.object({
   tarifs: z.array(z.object({ nom: texte, lieu: texte.optional(), prix: texte, duree: texte.optional(), texte: texte.optional(), miseEnAvant: z.boolean().optional() })).min(1, 'indiquez au moins un tarif'),
   motifs: z.array(element).default([]),
   /* Option « ressources » : fichiers déposés dans cabinets/<cabinet>/fichiers/ */
-  ressources: z.array(z.object({ titre: texte, detail: texte.optional(), icone: texte.optional(), fichier: texte })).default([]),
+  /* apercu : image de la première page (dans fichiers/), affichée comme une feuille ;
+     credit : auteur du document s'il n'est pas le praticien */
+  ressources: z.array(z.object({ titre: texte, detail: texte.optional(), icone: texte.optional(), fichier: texte, apercu: texte.optional(), credit: texte.optional() })).default([]),
   /* Liens vers les profils du praticien ailleurs (annuaires, associations
      professionnelles…), affichés dans la page À propos */
   liens: z.array(z.object({ titre: texte, detail: texte.optional(), url: z.string().url() })).default([]),
@@ -98,11 +100,15 @@ const schema = z.object({
     faq: pageTextes.extend({
       groupes: z.array(z.object({ titre: texte, questions: z.array(z.object({ question: texte, reponse: paragraphes, urgence: z.boolean().optional() })) }))
     }),
-    contact: pageTextes
+    contact: pageTextes,
+    /* Page facultative « Mes spécialités » : sections de texte */
+    specialites: pageTextes.optional()
   }),
   legal: z.object({
     miseAJour: texte,
     directeurPublication: texte.optional(),
+    /* Crédits des photos et documents repris d'autres auteurs */
+    credits: z.array(texte).default([]),
     mediateur: texte.optional()
   })
 });
@@ -205,6 +211,7 @@ function enrichir(id, d) {
       uneLigne: `${c.adresse}, ${c.codePostal} ${c.ville}`,
       geo: c.latitude != null && c.longitude != null ? { lat: c.latitude, lng: c.longitude } : null
     },
+    adresseVisible: !c.enLigne,
     lieuCourt: c.enLigne ? 'en ligne' : c.domicile ? `à domicile, ${c.ville}` : `${c.ville}${c.visio ? ' et visio' : ''}`,
     horaires: horaires(c.horaires),
     rdv: d.contact.rendezVous || null,

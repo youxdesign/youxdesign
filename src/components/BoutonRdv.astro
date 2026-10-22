@@ -1,14 +1,16 @@
 ---
 /* Bouton de prise de rendez-vous : lien vers la plateforme (Doctolib…)
-   ou, à défaut, vers le téléphone du cabinet. */
+   ou, à défaut, vers le téléphone du cabinet. Avec l'option « rendez-vous
+   toujours visible », le nom de la plateforme est affiché en clair. */
 import Icone from './Icone.astro';
 interface Props { cab: any; classe?: string; texte?: string }
 const { cab, classe = 'bouton', texte = 'Prendre rendez-vous' } = Astro.props;
 const rdv = cab.rdv;
+const enClair = cab.a('rdv-visible');
 ---
 {rdv ? (
   <a class={classe} href={rdv.url} target="_blank" rel="noopener">
-    {texte}<Icone nom="externe" /><span class="sr-only"> sur {rdv.plateforme} (nouvel onglet)</span>
+    <span>{enClair ? `${texte} sur ${rdv.plateforme}` : texte}</span><Icone nom="externe" /><span class="sr-only">{enClair ? '' : ` sur ${rdv.plateforme}`} (nouvel onglet)</span>
   </a>
 ) : (
   <a class={classe} href={cab.tel.lien}>

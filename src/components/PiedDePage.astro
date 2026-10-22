@@ -1,14 +1,14 @@
 ---
 /* Pied de page : présentation, plan du site, coordonnées, informations légales. */
 import { de } from '../lib/texte.mjs';
-import { PAGES } from '../config/catalogue.mjs';
+import { pagesDe } from '../config/catalogue.mjs';
 import { lien } from '../lib/site.mjs';
 import { DOMAINE } from '../config/youxdesign.mjs';
 interface Props { site: any }
 const { site } = Astro.props;
 const cab = site.cab;
 const p = cab.praticien;
-const menu = PAGES.filter((x) => !x.legal && (x.id !== 'faq' || cab.a('faq') || site.vitrine));
+const menu = pagesDe(cab).filter((x) => !x.legal && (x.id !== 'faq' || cab.a('faq') || site.vitrine));
 const annee = new Date().getFullYear();
 ---
 <footer class="pied">
@@ -29,8 +29,7 @@ const annee = new Date().getFullYear();
       <div>
         <h2>Coordonnées</h2>
         <address>
-          <span>{cab.adresse.rue}</span>
-          <span>{cab.adresse.ville}</span>
+          {cab.adresseVisible ? <><span>{cab.adresse.rue}</span><span>{cab.adresse.ville}</span></> : <span>Consultations en ligne, en visio</span>}
           {cab.tel && <a href={cab.tel.lien}>{cab.tel.affiche}</a>}
           <a href={`mailto:${cab.contact.email}`}>{cab.contact.email}</a>
         </address>

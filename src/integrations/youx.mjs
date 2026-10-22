@@ -107,6 +107,12 @@ export default function youx({ mode, carte, formulaires = [], agendas = [] }) {
           await writeFile(join(dist, '_redirects'), REDIRECTIONS_VITRINE);
           const statique = join(process.cwd(), 'youx-statique');
           if (await stat(statique).catch(() => null)) await cp(statique, dist, { recursive: true });
+          /* Maquettes : fichiers à télécharger (option « ressources ») */
+          const cabinets = join(process.cwd(), 'cabinets');
+          for (const d of (await readdir(cabinets)).filter((x) => x.startsWith('maquette-'))) {
+            const f = join(cabinets, d, 'fichiers');
+            if (await stat(f).catch(() => null)) await cp(f, join(dist, 'maquettes', d.slice('maquette-'.length), 'fichiers'), { recursive: true });
+          }
         } else {
           /* Site d'un cabinet : fichiers à télécharger (option « ressources ») */
           const fichiers = join(process.cwd(), 'cabinets', process.env.CABINET || '', 'fichiers');

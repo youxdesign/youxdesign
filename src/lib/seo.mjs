@@ -8,7 +8,7 @@ import { brut } from './texte.mjs';
 /* Titre et description d'une page */
 export function meta(site, pageId) {
   const cab = site.cab;
-  const qui = `${cab.nomComplet}, ${cab.metier.toLowerCase()} à ${cab.cabinet.ville}`;
+  const qui = `${cab.nomComplet}, ${cab.metier.toLowerCase()} ${cab.cabinet.enLigne ? 'en ligne' : `à ${cab.cabinet.ville}`}`;
   const textes = cab.pages[pageId];
   if (textes) return { titre: textes.seoTitre, description: textes.seoDescription };
   const generiques = {
@@ -33,7 +33,7 @@ export function donneesCabinet(site) {
     image: adresseComplete(`/og/${site.cle}.png`),
     telephone: cab.tel?.international,
     email: cab.contact.email,
-    address: {
+    address: !cab.adresseVisible ? undefined : {
       '@type': 'PostalAddress',
       streetAddress: c.adresse,
       postalCode: c.codePostal,
@@ -50,7 +50,7 @@ export function donneesCabinet(site) {
       ...(p.specialite ? { knowsAbout: p.specialite } : {})
     }
   };
-  if (cab.adresse.geo) donnees.geo = { '@type': 'GeoCoordinates', latitude: cab.adresse.geo.lat, longitude: cab.adresse.geo.lng };
+  if (cab.adresse.geo && cab.adresseVisible) donnees.geo = { '@type': 'GeoCoordinates', latitude: cab.adresse.geo.lat, longitude: cab.adresse.geo.lng };
   if (cab.rdv) donnees.potentialAction = { '@type': 'ReserveAction', target: cab.rdv.url };
   return donnees;
 }

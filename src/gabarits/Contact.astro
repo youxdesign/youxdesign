@@ -7,6 +7,7 @@ import Plan from '../components/Plan.astro';
 import Statut from '../components/Statut.astro';
 import BoutonRdv from '../components/BoutonRdv.astro';
 import Rappel from '../components/options/Rappel.astro';
+import EncartRdv from '../components/options/EncartRdv.astro';
 import { lien } from '../lib/site.mjs';
 import { meta, donneesCabinet, donneesFil } from '../lib/seo.mjs';
 
@@ -26,9 +27,9 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
     <div class="conteneur contact">
       <dl class="coordonnees">
         <div>
-          <dt>Adresse</dt>
+          <dt>{cab.adresseVisible ? 'Adresse' : 'Consultations'}</dt>
           <dd>
-            <address>{c.adresse}<br />{cab.adresse.ville}</address>
+            {cab.adresseVisible ? <address>{c.adresse}<br />{cab.adresse.ville}</address> : <p>En ligne, en visio</p>}
             {(c.complement || c.accessiblePMR) && <p class="note">{[c.complement, c.accessiblePMR && 'accessible aux personnes à mobilité réduite'].filter(Boolean).join(', ')}</p>}
           </dd>
         </div>
@@ -74,6 +75,8 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
     </div>
   </section>
 
+  <EncartRdv site={site} />
+
   <Rappel site={site} />
 
   <div class="section section--serree">
@@ -93,7 +96,7 @@ const scripts = [carte.rendre && 'carte', statut.rendre && 'statut'].filter(Bool
               </li>
             ))}
           </ul>
-        ) : <p>Le cabinet se trouve {cab.adresse.uneLigne}.</p>}
+        ) : cab.adresseVisible ? <p>Le cabinet se trouve {cab.adresse.uneLigne}.</p> : null}
       </div>
       {c.enLigne || c.domicile ? null : carte.rendre ? <div data-option="carte" hidden={carte.cache}><Plan cab={cab} /></div> : (
         <p><a class="lien-fleche" href={`https://www.openstreetmap.org/search?query=${encodeURIComponent(cab.adresse.uneLigne)}`} target="_blank" rel="noopener">Voir le plan<span class="sr-only"> (nouvel onglet)</span></a></p>

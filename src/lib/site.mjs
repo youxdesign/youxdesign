@@ -11,7 +11,7 @@
 import { readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { chargerCabinet } from './cabinet.mjs';
-import { STYLES, PAGES, style as trouverStyle } from '../config/catalogue.mjs';
+import { STYLES, PAGES, pagesDe, style as trouverStyle } from '../config/catalogue.mjs';
 import { DOMAINE, CABINET_DEMO } from '../config/youxdesign.mjs';
 import { pagesCibles, guides } from './contenus.mjs';
 
@@ -98,7 +98,7 @@ export function textes(site, pageId) {
 export function routes() {
   const liste = [];
   for (const site of sites()) {
-    for (const page of PAGES) {
+    for (const page of pagesDe(site.cab)) {
       liste.push({ chemin: (site.base + page.chemin).replace(/^\/|\/$/g, '') || undefined, type: 'page', site, page: page.id });
     }
     liste.push({ chemin: (site.base + '404').replace(/^\//, ''), type: 'page', site, page: '404' });

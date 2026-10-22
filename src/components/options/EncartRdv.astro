@@ -1,0 +1,21 @@
+---
+/* Option « rendez-vous toujours visible » : encart de réservation en ligne
+   (pages Consultations et Contact). Seulement si une plateforme est indiquée. */
+import Bloc from './Bloc.astro';
+import BoutonRdv from '../BoutonRdv.astro';
+interface Props { site: any }
+const { site } = Astro.props;
+const rdv = site.cab.rdv;
+---
+{rdv && <Bloc site={site} id="rdv-visible" titre="Rendez-vous" classe="opt--serre">
+  <div class="opt-conteneur">
+    <div class="encart-rdv">
+      <div class="encart-rdv__texte">
+        <p class="opt-surtitre">Rendez-vous en ligne</p>
+        <h2 class="opt-titre" id="opt-rdv-visible-titre">Réservez votre séance <em>sur {rdv.plateforme}</em></h2>
+        <p class="opt-texte">Choisissez le créneau qui vous convient, directement en ligne, à toute heure.</p>
+      </div>
+      <BoutonRdv cab={site.cab} classe="bouton encart-rdv__bouton" texte="Voir les disponibilités" />
+    </div>
+  </div>
+</Bloc>}

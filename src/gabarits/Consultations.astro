@@ -4,6 +4,8 @@ import TetePage from '../components/TetePage.astro';
 import TitreSection from '../components/TitreSection.astro';
 import AppelFinal from '../components/AppelFinal.astro';
 import Paiement from '../components/options/Paiement.astro';
+import EncartRdv from '../components/options/EncartRdv.astro';
+import SectionsTexte from '../components/SectionsTexte.astro';
 import { lien } from '../lib/site.mjs';
 import { meta, donneesFil } from '../lib/seo.mjs';
 import { enrichi } from '../lib/texte.mjs';
@@ -19,9 +21,11 @@ const partenaire = t.monSoutienPsy === true;
     {cab.tel && <p slot="texte" class="tete-page__contact">Téléphone : <a href={cab.tel.lien}>{cab.tel.affiche}</a></p>}
   </TetePage>
 
+  {t.sections && <SectionsTexte sections={t.sections} prefixe="consultation" surtitre={t.sectionsSurtitre || "Consultations"} />}
+
   <section class="section section--teinte" aria-labelledby="tarifs-titre">
     <div class="conteneur">
-      <TitreSection surtitre="Séances" numero={1} titre={t.tarifsTitre || 'Types de séances et tarifs'} id="tarifs-titre" />
+      <TitreSection surtitre="Séances" numero={(t.sections?.length || 0) + 1} titre={t.tarifsTitre || 'Types de séances et tarifs'} id="tarifs-titre" />
       <ul class="grille tarifs" data-tarifs-liste>
         {cab.tarifs.map((x, i) => (
           <li class="carte tarif apparait" data-tarif-index={i}>
@@ -35,6 +39,8 @@ const partenaire = t.monSoutienPsy === true;
       {t.tarifsNote && <p class="note-tarifs">{t.tarifsNote}</p>}
     </div>
   </section>
+
+  <EncartRdv site={site} />
 
   <Paiement site={site} />
 
@@ -63,7 +69,7 @@ const partenaire = t.monSoutienPsy === true;
     <section class="section section--teinte" aria-labelledby="msp-titre">
       <div class="conteneur deux-colonnes deux-colonnes--texte">
         <div>
-          <TitreSection surtitre="Remboursement" numero={2} titre="Le dispositif Mon soutien psy" id="msp-titre" />
+          <TitreSection surtitre="Remboursement" numero={(t.sections?.length || 0) + 2} titre="Le dispositif Mon soutien psy" id="msp-titre" />
           <div class="texte">
             <p>Mon soutien psy permet d’être remboursé de séances chez un psychologue partenaire de l’Assurance Maladie.</p>
             {partenaire

@@ -9,13 +9,13 @@ import Icone from './Icone.astro';
 import Statut from './Statut.astro';
 import { reglages } from '../themes/registre.mjs';
 import BoutonRdv from './BoutonRdv.astro';
-import { PAGES } from '../config/catalogue.mjs';
+import { pagesDe } from '../config/catalogue.mjs';
 import { lien } from '../lib/site.mjs';
 import Langues from './options/Langues.astro';
 interface Props { site: any; page: string }
 const { site, page } = Astro.props;
 const cab = site.cab;
-const menu = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && (p.id !== 'faq' || cab.a('faq') || site.vitrine));
+const menu = pagesDe(cab).filter((p) => !p.legal && p.id !== 'accueil' && (p.id !== 'faq' || cab.a('faq') || site.vitrine));
 /* Lien vers la FAQ : masqué (démos) ou absent (sites) si l'option n'est pas choisie */
 const attributs = (p) => ({ 'data-page-lien': p.id, ...(p.id === 'faq' ? { 'data-option': 'faq', hidden: !cab.a('faq') } : {}) });
 const sousTitre = `${cab.metier} · ${cab.cabinet.enLigne ? "en ligne" : cab.cabinet.domicile ? "à domicile" : cab.cabinet.ville}`;
@@ -75,7 +75,7 @@ const statut = cab.bloc('statut', site.vitrine);
         <BoutonRdv cab={cab} />
         <p class="menu-mobile__contact">
           {cab.tel && <a href={cab.tel.lien}>{cab.tel.affiche}</a>}
-          <span>{cab.adresse.uneLigne}</span>
+          {cab.adresseVisible ? <span>{cab.adresse.uneLigne}</span> : <span>Consultations en ligne, en visio</span>}
         </p>
       </div>
     </div>

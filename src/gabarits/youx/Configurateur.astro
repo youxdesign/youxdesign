@@ -47,7 +47,7 @@ const QUESTIONNAIRES = [
   ['pss10', 'Stress perçu · PSS-10'], ['isi', 'Sommeil · ISI'], ['suivi', 'Point entre les séances']
 ];
 const groupesOptions = [...new Set(OPTIONS.map((o) => o.groupe))];
-const PAGES_CHOIX = PAGES.filter((p) => !p.legal && p.id !== 'accueil' && p.id !== 'faq');
+const PAGES_CHOIX = PAGES.filter((p) => !p.legal && !p.facultative && p.id !== 'accueil' && p.id !== 'faq');
 const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent, d.encre]; };
 ---
 <Youx titre="Configurateur de site pour psychologue · youXdesign" chemin="/configurateur/" description="Configurez en dix minutes le site de votre cabinet de psychologue : style, couleurs, pages, fonctionnalités. Le vrai site s’affiche en direct." scripts={['configurateur']} classe="cfg-page" feuille="configurateur">
@@ -443,7 +443,7 @@ const nuancier = (p) => { const d = deriver(p); return [d.fond, d.doux, d.accent
           </div>
           <label class="cfg-select-page"><span class="sr-only">Page affichée</span>
             <select data-page-apercu>
-              {PAGES.filter((p) => !p.legal).map((p) => <option value={p.id}>{p.menu}</option>)}
+              {PAGES.filter((p) => !p.legal && !p.facultative).map((p) => <option value={p.id}>{p.menu}</option>)}
             </select>
           </label>
           <a class="cfg-lien-discret" data-ouvrir-apercu href="/demo/" target="_blank" rel="noopener">Ouvrir<span class="sr-only"> l’aperçu dans un nouvel onglet</span> ↗</a>

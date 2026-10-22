@@ -297,10 +297,10 @@ a:hover { text-decoration-thickness: 2px; }
   .cta-mobile {
     position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 45;
     display: block;
-    transform: translateY(calc(100% + 24px));
-    transition: transform .55s cubic-bezier(.16, 1, .3, 1);
+    transform: translateY(calc(100% + 120px)); opacity: 0; pointer-events: none;
+    transition: transform .55s cubic-bezier(.16, 1, .3, 1), opacity .3s ease;
   }
-  .cta-mobile.est-visible { transform: none; }
+  .cta-mobile.est-visible { transform: none; opacity: 1; pointer-events: auto; }
   .cta-mobile .bouton { width: 100%; justify-content: center; box-shadow: 0 16px 34px -14px rgb(0 0 0 / .45); }
   .demo-bar { bottom: calc(12px + env(safe-area-inset-bottom)); }
   .demo-bar span { display: none; }
@@ -1147,3 +1147,42 @@ figure.cadre-visuel { display: grid; }
   body { background: #fff; color: #000; }
   .section { padding-block: 1.5rem; }
 }
+
+/* --------------------------------------------------------------------------
+   Texte suivi repris tel quel (pages Mes spécialités, Consultations)
+   -------------------------------------------------------------------------- */
+.texte-long__grille { display: grid; gap: var(--e-4) var(--e-6); }
+@media (min-width: 56rem) {
+  .texte-long__grille { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); align-items: start; }
+  .texte-long__tete { position: sticky; top: 7rem; }
+}
+.texte-long__liste { display: grid; gap: .5em; padding: 0; list-style: none; }
+.texte-long__liste li { position: relative; padding-left: 1.4em; }
+.texte-long__liste li::before { content: ''; position: absolute; left: .1em; top: .62em; width: .45em; height: .45em; border-radius: 50%; background: var(--c-accent); }
+.texte-long__sous { padding-top: var(--e-4); border-top: 1px solid var(--c-ligne); }
+.texte-long__sous > * + * { margin-top: .8em; }
+.texte-long__sous h3 { margin: 0; font-family: var(--f-titres); font-weight: var(--fw-titres); font-size: clamp(1.25rem, 2vw, 1.5rem); line-height: 1.2; }
+
+/* Sommaire en pastilles (page Mes spécialités) */
+.sommaire ol { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.sommaire a {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 6px 18px 6px 8px;
+  border-radius: 999px; background: color-mix(in srgb, currentColor 7%, transparent); box-shadow: inset 0 0 0 1px color-mix(in srgb, currentColor 30%, transparent);
+  color: inherit; font-weight: 600; text-decoration: none;
+  transition: background var(--duree) var(--courbe), box-shadow var(--duree) var(--courbe);
+}
+.sommaire a span { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: color-mix(in srgb, currentColor 14%, transparent); font-size: 12px; letter-spacing: .04em; }
+.sommaire a:hover { background: color-mix(in srgb, currentColor 14%, transparent); box-shadow: inset 0 0 0 1px var(--c-accent); }
+
+/* Option « rendez-vous toujours visible » : le bouton reste aussi à l'écran sur ordinateur */
+@media (min-width: 48rem) {
+  .cta-mobile--partout {
+    position: fixed; right: 24px; bottom: 24px; z-index: 45; display: block;
+    opacity: 0; transform: translateY(calc(100% + 40px)); pointer-events: none;
+    transition: transform .6s cubic-bezier(.16, 1, .3, 1), opacity .35s ease;
+  }
+  .cta-mobile--partout.est-visible { opacity: 1; transform: none; pointer-events: auto; }
+  .cta-mobile--partout .bouton { box-shadow: 0 18px 40px -16px rgb(0 0 0 / .5); }
+  .a-bandeau-demo .cta-mobile--partout { bottom: 80px; }
+}
+@media (prefers-reduced-motion: reduce) { .cta-mobile, .cta-mobile--partout { transition: opacity .2s ease; } }

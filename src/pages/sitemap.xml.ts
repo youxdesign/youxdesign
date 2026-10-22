@@ -4,7 +4,7 @@
 import type { APIRoute } from 'astro';
 import { sites, lien, adresseComplete, MODE } from '../lib/site.mjs';
 import { pagesCibles, guides } from '../lib/contenus.mjs';
-import { PAGES } from '../config/catalogue.mjs';
+import { pagesDe } from '../config/catalogue.mjs';
 
 const guidesMd = import.meta.glob<any>('/src/contenus/guides/*.md', { eager: true });
 
@@ -20,7 +20,7 @@ export const GET: APIRoute = () => {
     }
   }
   for (const site of sites().filter((s) => s.indexable)) {
-    for (const page of PAGES.filter((p) => !p.legal && (p.id !== 'faq' || site.cab.a('faq')))) {
+    for (const page of pagesDe(site.cab).filter((p) => !p.legal && (p.id !== 'faq' || site.cab.a('faq')))) {
       adresses.push({ loc: adresseComplete(lien(site, page.id)) });
     }
   }

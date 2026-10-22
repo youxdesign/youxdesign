@@ -152,10 +152,9 @@ const questions = (choisies.length ? choisies : toutes).slice(0, 4);
             </div>
           )}
           <div>
-            <dt>Adresse</dt>
+            <dt>{cab.adresseVisible ? 'Adresse' : 'Consultations'}</dt>
             <dd>
-              <span>{cab.adresse.rue}</span>
-              <span>{cab.adresse.ville}</span>
+              {cab.adresseVisible ? <><span>{cab.adresse.rue}</span><span>{cab.adresse.ville}</span></> : <span>En ligne, en visio</span>}
               {acces && <span class="infos__note">{acces.titre} : {acces.texte}</span>}
             </dd>
           </div>

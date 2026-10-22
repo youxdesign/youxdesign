@@ -242,6 +242,7 @@ export const OPTIONS = [
   { id: 'creneaux', nom: 'Module de créneaux', groupe: 'Rendez-vous et contact', page: 'accueil', description: 'Un aperçu des prochains créneaux libres, qui renvoie vers la réservation.', tiers: 'votre plateforme de rendez-vous' },
   { id: 'rappel', nom: 'Formulaire de rappel', groupe: 'Rendez-vous et contact', page: 'contact', description: 'Le visiteur laisse son prénom et son numéro, vous le rappelez. Aucune question sur le motif.', tiers: 'un service d’envoi de formulaires' },
   { id: 'paiement', nom: 'Paiement en ligne', groupe: 'Rendez-vous et contact', page: 'consultations', description: 'Règlement ou acompte à la réservation, facture envoyée automatiquement.', tiers: 'un prestataire de paiement' },
+  { id: 'rdv-visible', nom: 'Rendez-vous toujours visible', groupe: 'Rendez-vous et contact', page: 'consultations', description: 'Un bouton de réservation qui reste à l’écran, aussi sur ordinateur, et un encart dédié sur les pages Consultations et Contact.' },
   { id: 'statut', nom: 'Statut d’ouverture en direct', groupe: 'Rendez-vous et contact', page: 'accueil', description: 'Indique si le cabinet est ouvert en ce moment, d’après vos horaires.' },
   { id: 'questionnaires', nom: 'Questionnaires en ligne', groupe: 'Contenus et outils', page: 'accueil', description: 'Auto-évaluations et fiche de pré-consultation, remplies avant ou entre les séances.', tiers: 'un hébergeur certifié pour les données de santé (HDS)' },
   { id: 'faq', nom: 'Questions fréquentes', groupe: 'Contenus et outils', page: 'faq', description: 'Remboursement, durée, confidentialité : les réponses aux questions habituelles.' },
@@ -256,10 +257,14 @@ export const OPTIONS = [
 
 /* Pages d'un site de cabinet, dans l'ordre du menu.
    menu : texte court affiché dans la navigation */
+/* Pages réellement présentes sur un site (sans les pages facultatives absentes) */
+export const pagesDe = (cab) => PAGES.filter((p) => !p.facultative || Boolean(cab.pages?.[p.id]));
 export const PAGES = [
   { id: 'accueil', chemin: '', menu: 'Accueil' },
   { id: 'a-propos', chemin: 'a-propos', menu: 'À propos' },
   { id: 'approche', chemin: 'approche', menu: 'Mon approche' },
+  /* facultative : la page n'existe que si la fiche contient ses textes (pages.specialites) */
+  { id: 'specialites', chemin: 'specialites', menu: 'Mes spécialités', facultative: true },
   { id: 'consultations', chemin: 'consultations', menu: 'Consultations & tarifs' },
   { id: 'faq', chemin: 'faq', menu: 'FAQ' },
   { id: 'contact', chemin: 'contact', menu: 'Contact' },

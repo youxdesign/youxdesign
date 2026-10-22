@@ -52,7 +52,7 @@ export function mentionsLegales(cab, liens) {
     {
       id: 'credits',
       titre: 'Crédits',
-      html: `<p>Conception, illustrations et réalisation : ${e(STUDIO)}.${cab.a('carte') ? ' Fond de carte : © contributeurs OpenStreetMap.' : ''}</p><p>Pour en savoir plus sur le traitement de vos données, consultez la <a href="${e(liens.confidentialite)}">politique de confidentialité</a>.</p>`
+      html: `<p>Conception, illustrations et réalisation : ${e(STUDIO)}.${cab.a('carte') ? ' Fond de carte : © contributeurs OpenStreetMap.' : ''}</p>${[...(l.credits || []), ...(cab.a('ressources') ? cab.ressources.filter((r) => r.credit).map((r) => `« ${r.titre} » : ${r.credit}.`) : [])].map((x) => `<p>${e(x)}</p>`).join('')}<p>Pour en savoir plus sur le traitement de vos données, consultez la <a href="${e(liens.confidentialite)}">politique de confidentialité</a>.</p>`
     }
   );
   return rubriques;

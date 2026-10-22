@@ -1,0 +1,33 @@
+---
+/* ==========================================================================
+   Sections de texte suivi, reprises telles quelles de la fiche :
+   titre à gauche (collé en haut pendant la lecture), paragraphes à droite.
+   Chaque section : { surtitre?, titre, paragraphes?, listeIntro?, liste?,
+   sous?: [{ titre, paragraphes }] }. Le texte accepte *italique* et **gras**.
+   ========================================================================== */
+import TitreSection from './TitreSection.astro';
+import { enrichi } from '../lib/texte.mjs';
+interface Props { sections: any[]; prefixe: string; surtitre?: string; debut?: number; teinteDabord?: boolean }
+const { sections = [], prefixe, surtitre, debut = 1, teinteDabord = false } = Astro.props;
+---
+{sections.map((s, i) => (
+  <section class:list={['section', 'texte-long', { 'section--teinte': (i % 2 === 0) === teinteDabord }]} id={`${prefixe}-${i + 1}`} aria-labelledby={`${prefixe}-${i + 1}-titre`}>
+    <div class="conteneur texte-long__grille">
+      <div class="texte-long__tete">
+        <TitreSection surtitre={s.surtitre || surtitre} numero={debut + i} titre={s.titre} id={`${prefixe}-${i + 1}-titre`} />
+      </div>
+      <div class="texte texte-long__corps">
+        {(s.paragraphes || []).map((x) => <p set:html={enrichi(x)} />)}
+        {s.listeIntro && <p set:html={enrichi(s.listeIntro)} />}
+        {s.liste && <ul class="texte-long__liste">{s.liste.map((x) => <li set:html={enrichi(x)} />)}</ul>}
+        {(s.apres || []).map((x) => <p set:html={enrichi(x)} />)}
+        {(s.sous || []).map((x) => (
+          <div class="texte-long__sous">
+            <h3 set:html={enrichi(x.titre)} />
+            {x.paragraphes.map((p) => <p set:html={enrichi(p)} />)}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+))}
