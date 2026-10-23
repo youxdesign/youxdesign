@@ -1,0 +1,322 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marion Amiel (prospect), d'après www.marionamiel.fr. Publiée sur youxdesign.fr/maquettes/marion-amiel/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.marionamiel.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF8EF",
+   "encre": "#1F2433",
+   "accent": "#9A6A0C",
+   "doux": "#F5EACB",
+   "texte2": "#565866"
+  }
+ },
+ "praticien": {
+  "prenom": "Marion",
+  "nom": "Amiel",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "psychologie du développement de l’enfant et de l’adolescent, parentalité, périnatalité",
+  "specialiteCourte": "Enfants, adolescents et parents",
+  "diplome": "Master 2 de psychologie du développement de l’enfant et de l’adolescent (2017)",
+  "public": "Enfants, adolescents, parents et futurs parents"
+ },
+ "contact": {
+  "telephone": "06 04 15 29 54",
+  "email": "marionamielpsy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Perfactive",
+   "url": "https://perfactive.fr/psychologue/albi/marion-amiel"
+  }
+ },
+ "cabinet": {
+  "adresse": "Espace santé Atlantis",
+  "codePostal": "81000",
+  "ville": "Albi",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "14:00-18:00",
+   "mardi": "9:30-12:30, 14:00-18:00",
+   "mercredi": "9:30-17:00",
+   "jeudi": "14:00-16:15",
+   "vendredi": "9:30-11:30, 14:00-16:15",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous uniquement. Le mercredi, une semaine sur deux (semaines paires).",
+  "acces": [
+   {
+    "titre": "À domicile",
+    "texte": "Je peux me déplacer à votre domicile dans un périmètre de 15 km autour d’Albi.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Nouveaux patients",
+    "texte": "Créneaux en temps scolaire (matinée, début d’après-midi) ; les mercredis et fins de journée sont réservés aux patients déjà suivis. Liste d’attente possible.",
+    "icone": "horloge"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Enfant, adolescent, adulte",
+   "prix": "55 €",
+   "duree": "50 min",
+   "texte": "Une rencontre ponctuelle ou un suivi régulier.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation futurs parents",
+   "prix": "60 €",
+   "duree": "1 h à 1 h 30",
+   "texte": "Pour aborder vos questionnements avant ou pendant la grossesse."
+  },
+  {
+   "nom": "Séance de médiation animale",
+   "prix": "Sur demande",
+   "duree": "1 h",
+   "texte": "En compagnie de mon chien, un croisé border collie sociable et affectueux."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Devenir parent",
+   "texte": "Un grand chamboulement, parfois plus difficile qu’imaginé.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Grossesse",
+   "texte": "Se préparer à l’arrivée du bébé, comprendre les enjeux psychiques de la grossesse.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Enfants",
+   "texte": "Dans le quotidien ou après un événement marquant.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Adolescents",
+   "icone": "marches"
+  },
+  {
+   "titre": "Troubles du neurodéveloppement",
+   "texte": "Partenaire de la plateforme TND du Bon Sauveur.",
+   "icone": "puzzle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marion Amiel, psychologue à Albi",
+   "seoDescription": "Marion Amiel, psychologue à Albi. Psychologie du développement de l’enfant et de l’adolescent, parentalité, périnatalité.",
+   "surtitre": "Psychologue · Albi",
+   "titre": "Vous guider\n*sur le chemin de la parentalité*",
+   "intro": "Devenir parent est un grand chamboulement. On a parfois besoin d’aide, en tant que parent et en tant qu’individu. Nos enfants aussi peuvent avoir besoin d’une personne neutre, extérieure au cercle familial.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Que ce soit dans le quotidien ou après des événements marquants, je vous propose des consultations adaptées à vos besoins.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marion*",
+   "presentation": [
+    "Psychologue… et maman ! Diplômée en 2017 d’un master 2 de psychologie du développement de l’enfant et de l’adolescent, je me suis rapidement installée en libéral, d’abord à Cunac, puis à l’espace santé Atlantis à Albi.",
+    "Je reçois les enfants, les adolescents et les parents, dans un espace neutre et accueillant où chacun peut exprimer ses ressentis, sans crainte du jugement."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Perfactive, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marion Amiel, psychologue à Albi",
+   "seoDescription": "Parcours et formations de Marion Amiel, psychologue à Albi.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue… et maman ! Diplômée en 2017 d’un master 2 de psychologie du développement de l’enfant et de l’adolescent, je me suis rapidement installée en libéral, d’abord à Cunac, puis à l’espace santé Atlantis à Albi.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marion Amiel, psychologue à Albi",
+   "seoDescription": "L’approche de Marion Amiel, psychologue à Albi : psychologie du développement de l’enfant et de l’adolescent, parentalité, périnatalité.",
+   "titre": "À vos côtés\n*à chaque étape*",
+   "intro": "Une rencontre ponctuelle ou un suivi régulier, pour évoquer ce qui pose problème dans votre vie, votre quotidien ou celui de votre enfant.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Consultations individuelles",
+     "texte": "Pour les enfants, les adolescents et les adultes.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Futurs parents",
+     "texte": "Avant ou pendant la grossesse.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Médiation animale",
+     "texte": "Pour travailler sur des problématiques précises, ou simplement pour une présence rassurante.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Mes consultations",
+   "outilsTitre": "Adaptées *à vos besoins*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marion Amiel, psychologue à Albi",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marion Amiel, psychologue à Albi.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances ne sont pas prises en charge par la Sécurité sociale ; je peux vous délivrer une facture pour un remboursement par votre mutuelle.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "monSoutienPsy": false
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marion Amiel, psychologue à Albi",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marion Amiel, psychologue à Albi",
+   "seoDescription": "Adresse et téléphone de Marion Amiel, psychologue, Espace santé Atlantis à Albi.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois à l’espace santé Atlantis, à Albi, ou à votre domicile dans un rayon de 15 km.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marion Amiel"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Instagram",
+   "detail": "Mon actualité.",
+   "url": "https://instagram.com/marion__psy"
+  },
+  {
+   "titre": "Facebook",
+   "detail": "Ma page.",
+   "url": "https://www.facebook.com/profile.php?id=100057165231515"
+  }
+ ]
+}

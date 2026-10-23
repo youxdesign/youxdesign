@@ -1,0 +1,343 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Diane Barchon (prospect), d'après www.laroche-psychologie.com. Publiée sur youxdesign.fr/maquettes/diane-barchon/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.laroche-psychologie.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F6EF",
+   "encre": "#1F2A1C",
+   "accent": "#5E7F2E",
+   "doux": "#E2EAD2",
+   "texte2": "#535E4C"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Diane",
+  "nom": "Barchon",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, hypnopraticienne, thérapeute EMDR",
+  "specialite": "EMDR, hypnose médicale et hypnoanalgésie, gestion du stress et de la douleur",
+  "specialiteCourte": "EMDR et hypnose",
+  "diplome": "Master de psychologie clinique, spécialité psychopathologie du somatique (Université Paris VII Denis Diderot, 2008)",
+  "public": "Adultes"
+ },
+ "contact": {
+  "telephone": "07 66 18 27 17",
+  "email": "dbarchon@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "24 boulevard Aristide Briand",
+  "codePostal": "85000",
+  "ville": "La Roche-sur-Yon",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Les lundis, mardis et mercredis, sur rendez-vous uniquement",
+  "acces": [
+   {
+    "titre": "2e étage, sans ascenseur",
+    "texte": "Dans le bâtiment de l’étude notariale. Merci d’arriver à l’heure pile : la salle d’attente n’est pas ouverte.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Téléconsultation",
+    "texte": "Possible sur demande.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "70 €",
+   "duree": "50 min",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Stress, anxiété, burn-out",
+   "texte": "Dépression, attaques de panique, épuisement.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Agression, violence sexuelle, accident ; traumatismes anciens qui font encore souffrir.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Douleurs chroniques",
+   "texte": "Migraines, fibromyalgie, douleurs neuropathiques, troubles psychosomatiques.",
+   "icone": "poumons"
+  },
+  {
+   "titre": "Deuils et épreuves",
+   "texte": "Deuil, séparation, maladie, handicap.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Phobies et TOC",
+   "icone": "marches"
+  },
+  {
+   "titre": "Relations et image de soi",
+   "texte": "Dépendance affective, peur de faire confiance, dévalorisation.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Diane Barchon, psychologue à La Roche-sur-Yon",
+   "seoDescription": "Diane Barchon, psychologue clinicienne, hypnopraticienne, thérapeute emdr à La Roche-sur-Yon. Emdr, hypnose médicale et hypnoanalgésie, gestion du stress et de la douleur.",
+   "surtitre": "Psychologue · La Roche-sur-Yon",
+   "titre": "Construire ensemble\n*les réponses dont vous avez besoin*",
+   "intro": "Vous souhaitez acquérir des outils de gestion du stress, vous libérer d’un traumatisme, mieux gérer une relation compliquée, soulager des douleurs chroniques ou arrêter de fumer ? Mon objectif est de vous permettre de devenir autonome face à ces difficultés.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Consulter un psychologue, c’est tout simplement se donner accès à un mieux-être au quotidien.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Diane*",
+   "presentation": [
+    "Diplômée de psychologie clinique en 2008 (Université Paris VII Denis Diderot), j’ai travaillé plus de dix ans auprès de personnes en situation de handicap, en centre de rééducation professionnelle.",
+    "Pour offrir à mes patients, en plus d’une écoute, des outils concrets face à la douleur et au stress, je me suis formée à l’hypnose médicale, puis à l’EMDR. Je vous propose un accompagnement sur mesure, que nous construisons et réévaluons ensemble."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Diane Barchon, psychologue à La Roche-sur-Yon",
+   "seoDescription": "Parcours et formations de Diane Barchon, psychologue à La Roche-sur-Yon.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée de psychologie clinique en 2008 (Université Paris VII Denis Diderot), j’ai travaillé plus de dix ans auprès de personnes en situation de handicap, en centre de rééducation professionnelle.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2008",
+     "titre": "Master de psychologie clinique",
+     "texte": "Université Paris VII Denis Diderot, spécialité psychopathologie du somatique."
+    },
+    {
+     "date": "2008",
+     "titre": "Centre d’activité de jour pour cérébrolésés",
+     "texte": "LADAPT Paris : entretiens de soutien, groupes de parole pour les usagers et les aidants."
+    },
+    {
+     "date": "Depuis 2008",
+     "titre": "Centre de rééducation professionnelle",
+     "texte": "LADAPT Sarcelles : accompagnement psychologique de personnes en situation de handicap, bilans psychologiques, hypnorelaxation et hypnoanalgésie."
+    },
+    {
+     "date": "2018",
+     "titre": "Hypnose médicale et hypnoanalgésie",
+     "texte": "Diplôme d’hypnopraticienne, Institut français d’hypnose."
+    },
+    {
+     "date": "2018",
+     "titre": "EMDR",
+     "texte": "Institut français d’EMDR, reconnu par EMDR Europe. Thérapeute accréditée par l’association EMDR France."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Diane Barchon, psychologue à La Roche-sur-Yon",
+   "seoDescription": "L’approche de Diane Barchon, psychologue à La Roche-sur-Yon : EMDR, hypnose médicale et hypnoanalgésie, gestion du stress et de la douleur.",
+   "titre": "L’EMDR\n*et l’hypnose*",
+   "intro": "Deux outils complémentaires, choisis selon vos besoins, dans un travail de collaboration : nous définissons ensemble vos attentes, et nous les réévaluons tout au long de l’accompagnement.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "EMDR",
+     "texte": "Une stimulation bilatérale (mouvements oculaires ou tapotements) relance le traitement par le cerveau d’un souvenir traumatique resté « bloqué ». Plusieurs séances préparent d’abord ce travail.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Hypnose médicale",
+     "texte": "Un état de conscience modifiée, naturel, au service de la gestion de la douleur, du stress et des troubles psychosomatiques.",
+     "icone": "vagues"
+    },
+    {
+     "titre": "Gestion du stress",
+     "texte": "Relaxation, préparation aux examens médicaux, troubles du sommeil.",
+     "icone": "lune"
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "Des outils *concrets*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Diane Barchon, psychologue à La Roche-sur-Yon",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Diane Barchon, psychologue à La Roche-sur-Yon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je ne prends pas de nouveaux patients dans l’immédiat, mais des créneaux se libèrent régulièrement : écrivez-moi en précisant vos disponibilités, je reviendrai vers vous dès qu’une place se libère.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "annulation": [
+    "Tout rendez-vous annulé moins de 48 h à l’avance reste dû."
+   ],
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Diane Barchon, psychologue à La Roche-sur-Yon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Diane Barchon, psychologue à La Roche-sur-Yon",
+   "seoDescription": "Adresse et téléphone de Diane Barchon, psychologue, 24 boulevard Aristide Briand à La Roche-sur-Yon.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Mon cabinet se trouve au 2e étage (sans ascenseur) du bâtiment de l’étude notariale, 24 boulevard Aristide Briand, à La Roche-sur-Yon. Pour une demande de rendez-vous, le plus simple est de m’écrire.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Diane Barchon"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "EMDR France",
+   "detail": "L’annuaire des thérapeutes EMDR par département.",
+   "url": "http://www.emdr-france.org/"
+  },
+  {
+   "titre": "Institut français d’hypnose",
+   "detail": "La charte éthique de l’organisme où je me suis formée.",
+   "url": "https://www.hypnose.fr/ifh/charte_ethique/"
+  }
+ ]
+}

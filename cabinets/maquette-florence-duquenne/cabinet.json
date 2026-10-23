@@ -1,0 +1,334 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Florence Duquenne (prospect), d'après www.florence-duquenne.fr. Publiée sur youxdesign.fr/maquettes/florence-duquenne/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.florence-duquenne.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6F9",
+   "encre": "#16222E",
+   "accent": "#2F6F9F",
+   "doux": "#DDE8F1",
+   "texte2": "#4C5966"
+  }
+ },
+ "praticien": {
+  "prenom": "Florence",
+  "nom": "Duquenne",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "psychologie clinique, guidance parentale, thérapie de couple, analyse de la pratique professionnelle",
+  "specialiteCourte": "Psychologie clinique",
+  "diplome": "Master 2 de psychologie clinique (Nanterre, 1998)",
+  "adeli": "019301183",
+  "public": "Enfants, adolescents, adultes, seniors et couples"
+ },
+ "contact": {
+  "telephone": "06 01 95 71 75",
+  "email": "florence.duquenne06@orange.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/miribel/florence-duquenne"
+  }
+ },
+ "cabinet": {
+  "adresse": "1527 A grande rue",
+  "codePostal": "01700",
+  "ville": "Miribel",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "16:00-18:00",
+   "mardi": "10:00-19:00",
+   "mercredi": "10:00-19:00",
+   "jeudi": "9:00-12:00",
+   "vendredi": "10:00-19:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "À distance",
+    "texte": "Séances en distanciel par Skype, Zoom, WhatsApp ou Signal.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Adultes",
+   "lieu": "Au cabinet ou à distance",
+   "prix": "70 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Enfants et adolescents",
+   "prix": "65 €"
+  },
+  {
+   "nom": "Couples",
+   "prix": "90 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Fatigue, burn-out",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Mal-être, déprime",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Anxiété",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Sommeil",
+   "texte": "Insomnies, cauchemars.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Troubles alimentaires",
+   "texte": "Boulimie.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Parentalité et couple",
+   "texte": "Guidance parentale, thérapie de couple.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Florence Duquenne, psychologue à Miribel",
+   "seoDescription": "Florence Duquenne, psychologue clinicienne à Miribel. Psychologie clinique, guidance parentale, thérapie de couple, analyse de la pratique professionnelle.",
+   "surtitre": "Psychologue clinicienne · Miribel",
+   "titre": "Trouver un mieux-être\n*et un nouvel équilibre*",
+   "intro": "J’accueille enfants, adolescents, adultes, seniors ou couples pour soulager vos souffrances morales : fatigue, burn-out, cauchemars, mal-être, boulimie, déprime, anxiété, insomnies.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Florence*",
+   "presentation": [
+    "Depuis 2000, je mets mon écoute au service de votre bien-être psychologique : guidance parentale, accompagnement régulier, soutien psychologique ponctuel, thérapie individuelle, thérapie de couple, supervision de professionnels de la santé.",
+    "Ensemble, nous chercherons des pistes qui vous conviennent. J’écoute ce qui se dit des difficultés rencontrées, et je propose la parole comme moyen de dénouer ce qui peut faire obstacle dans une vie."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Florence Duquenne, psychologue à Miribel",
+   "seoDescription": "Parcours et formations de Florence Duquenne, psychologue à Miribel.",
+   "titre": "Mon *parcours*",
+   "intro": "Depuis 2000, je mets mon écoute au service de votre bien-être psychologique : guidance parentale, accompagnement régulier, soutien psychologique ponctuel, thérapie individuelle, thérapie de couple, supervision de professionnels de la santé.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "1998",
+     "titre": "Master 2 de psychologie clinique",
+     "texte": "Nanterre."
+    },
+    {
+     "date": "2007",
+     "titre": "DU d’alcoologie",
+     "texte": "Université Lyon 1."
+    },
+    {
+     "date": "2009-2012",
+     "titre": "Praticienne en analyse transactionnelle",
+     "texte": "EAT Lyon. Formation aux TCC en cours (IFFORTHECC, Aix-en-Provence)."
+    },
+    {
+     "titre": "En institution",
+     "texte": "Mission locale, unité de soins d’alcoologie, rééducation fonctionnelle, Éducation nationale, École des parents et des éducateurs."
+    },
+    {
+     "date": "Depuis 2020",
+     "titre": "Psychologue en libéral",
+     "texte": "Après une première période de huit ans."
+    }
+   ],
+   "parcoursTitre": "Parcours *et formation*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Florence Duquenne, psychologue à Miribel",
+   "seoDescription": "L’approche de Florence Duquenne, psychologue à Miribel : psychologie clinique, guidance parentale, thérapie de couple, analyse de la pratique professionnelle.",
+   "titre": "Mes *pratiques*",
+   "intro": "La fréquence des séances est adaptée au cadre psychothérapeutique que nous définissons ensemble.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Psychologie clinique",
+     "texte": "Aider les personnes en souffrance psychique à se sentir mieux.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Psychopédagogie et guidance parentale",
+     "texte": "Un travail centré sur les interactions parents-enfant : je reçois l’enfant et un parent ensemble, surtout pour les moins de 6 ans.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Analyse de la pratique professionnelle",
+     "texte": "Pour les équipes des secteurs de l’enfance et du social. Tarif horaire : 60 €, plus les frais de trajet.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Ce que je propose",
+   "outilsTitre": "Pour *chaque situation*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Florence Duquenne, psychologue à Miribel",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Florence Duquenne, psychologue à Miribel.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois au cabinet de Miribel ou à distance. Mes disponibilités sont sur mon agenda en ligne Doctolib.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par chèque, en espèces ou par virement.",
+   "monSoutienPsy": true,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Florence Duquenne, psychologue à Miribel",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Florence Duquenne, psychologue à Miribel",
+   "seoDescription": "Adresse et téléphone de Florence Duquenne, psychologue, 1527 A grande rue à Miribel.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 1527 A grande rue, à Miribel. Je reçois aussi à distance.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Florence Duquenne"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

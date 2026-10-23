@@ -1,0 +1,328 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Angélique Payet (prospect), d'après www.psychologue-sexologue-limoges.com. Publiée sur youxdesign.fr/maquettes/angelique-payet/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-sexologue-limoges.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF3F2",
+   "encre": "#2A1820",
+   "accent": "#8B1954",
+   "doux": "#F3DDE3",
+   "texte2": "#5C4A50"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Angélique",
+  "nom": "Payet",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, sexologue",
+  "specialite": "psychothérapie, soutien psychologique et sexothérapie, en individuel ou en couple",
+  "specialiteCourte": "Psychologue et sexologue",
+  "diplome": "Master 2 de psychologie clinique du développement et troubles de l’apprentissage (Université de Bourgogne, 2010)",
+  "adeli": "879304848",
+  "public": "Adultes uniquement (plus de 18 ans), en individuel ou en couple"
+ },
+ "contact": {
+  "telephone": "06 14 69 28 91",
+  "email": "angeliquepayet.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/limoges/angelique-payet"
+  }
+ },
+ "cabinet": {
+  "adresse": "19 boulevard Victor Hugo",
+  "codePostal": "87000",
+  "ville": "Limoges",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-20:00",
+   "mardi": "9:00-20:00",
+   "mercredi": "9:00-20:00",
+   "jeudi": "9:00-20:00",
+   "vendredi": "9:00-20:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Téléconsultation",
+    "texte": "Consultations à distance via Doctolib.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Au cabinet ou à distance",
+   "prix": "65 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation de couple",
+   "lieu": "Au cabinet",
+   "prix": "85 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Stress et anxiété",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Humeur dépressive",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Phobies, troubles du comportement",
+   "icone": "marches"
+  },
+  {
+   "titre": "Confiance en soi",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Relation de couple",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Sexualité",
+   "texte": "Sexothérapie ou questionnements ponctuels autour de la sexualité, en individuel ou en couple.",
+   "icone": "plume"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Angélique Payet, psychologue à Limoges",
+   "seoDescription": "Angélique Payet, psychologue clinicienne, sexologue à Limoges. Psychothérapie, soutien psychologique et sexothérapie, en individuel ou en couple.",
+   "surtitre": "Psychologue et sexologue · Limoges",
+   "titre": "Un accompagnement\n*adapté à chacun*",
+   "intro": "Je vous accueille dans mon cabinet du 19 boulevard Victor Hugo à Limoges, et je propose aussi des consultations à distance. Il n’existe pas de réponse unique, mais un accompagnement approprié à chacun.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Chacun peut rencontrer, dans son histoire, des difficultés temporaires ou récurrentes. Voici les motifs de consultation les plus fréquents.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Angélique*",
+   "presentation": [
+    "Après mon master 2 de psychologie clinique en 2010, j’ai exercé en centre médico-psychologique et en hôpital de jour, au sein d’équipes pluridisciplinaires. En 2015, j’ai ouvert mon cabinet.",
+    "Formée en sexologie, je reçois en individuel ou en couple pour une sexothérapie ou des questionnements ponctuels autour de la sexualité. Les entretiens peuvent être ponctuels ou réguliers, selon les difficultés rencontrées."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Angélique Payet, psychologue à Limoges",
+   "seoDescription": "Parcours et formations de Angélique Payet, psychologue à Limoges.",
+   "titre": "Mon *parcours*",
+   "intro": "Après mon master 2 de psychologie clinique en 2010, j’ai exercé en centre médico-psychologique et en hôpital de jour, au sein d’équipes pluridisciplinaires. En 2015, j’ai ouvert mon cabinet.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2010",
+     "titre": "Master 2 de psychologie clinique du développement",
+     "texte": "Et troubles de l’apprentissage, Université de Bourgogne (Dijon)."
+    },
+    {
+     "titre": "En institution",
+     "texte": "Centre médico-psychologique et hôpital de jour, avec psychiatres, psychologues, infirmiers, éducateurs et assistantes sociales."
+    },
+    {
+     "date": "2015",
+     "titre": "Installation en libéral",
+     "texte": "Avec une spécialisation en sexologie."
+    },
+    {
+     "titre": "Thérapie sexofonctionnelle",
+     "texte": "Formation auprès des Dr François de Carufel et Pascal de Sutter."
+    }
+   ],
+   "parcoursTitre": "Parcours *et formation*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Angélique Payet, psychologue à Limoges",
+   "seoDescription": "L’approche de Angélique Payet, psychologue à Limoges : psychothérapie, soutien psychologique et sexothérapie, en individuel ou en couple.",
+   "titre": "Psychologie\n*et sexologie*",
+   "intro": "Lors du premier entretien, nous cernons ensemble votre demande pour construire le cadre de nos rencontres : de quelques rencontres de soutien à un suivi plus long sous forme de psychothérapie.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapie et soutien psychologique",
+     "texte": "Une démarche concrète, adaptée à votre singularité et à votre problématique.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Sexothérapie",
+     "texte": "En individuel ou en couple.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Thérapie de couple",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Ce que je propose",
+   "outilsTitre": "En face à face *ou à distance*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Angélique Payet, psychologue à Limoges",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Angélique Payet, psychologue à Limoges.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je ne reçois que des adultes (plus de 18 ans). Les séances ne sont pas remboursées par la Sécurité sociale, mais peuvent être prises en charge selon les mutuelles.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "En espèces ou par chèque.",
+   "annulation": [
+    "Tout rendez-vous non honoré ou annulé moins de 24 heures avant la séance sera facturé."
+   ],
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Angélique Payet, psychologue à Limoges",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Angélique Payet, psychologue à Limoges",
+   "seoDescription": "Adresse et téléphone de Angélique Payet, psychologue, 19 boulevard Victor Hugo à Limoges.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 19 boulevard Victor Hugo, à Limoges. Prenez rendez-vous sur Doctolib ou par téléphone.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Angélique Payet"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

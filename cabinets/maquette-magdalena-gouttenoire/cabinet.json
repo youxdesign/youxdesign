@@ -1,0 +1,323 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Magdalena Gouttenoire (prospect), d'après www.mgpsy.net. Publiée sur youxdesign.fr/maquettes/magdalena-gouttenoire/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.mgpsy.net",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF5F0",
+   "encre": "#2B1D1A",
+   "accent": "#B5446A",
+   "doux": "#F3E1E2",
+   "texte2": "#5E4F4D"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Magdalena",
+  "nom": "Gouttenoire",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute",
+  "specialite": "approche intégrative, enfance, adolescence et soutien à la parentalité",
+  "specialiteCourte": "Approche intégrative",
+  "diplome": "Master 2 de psychologie clinique et psychopathologie (2008)",
+  "public": "Tous âges à domicile, adultes au cabinet"
+ },
+ "contact": {
+  "telephone": "06 59 12 70 41",
+  "telephoneNote": "Je ne réponds pas pendant les consultations : laissez-moi un message, je vous rappelle dès que possible.",
+  "email": "mgpsy@outlook.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "3 côte Garenne",
+  "codePostal": "26100",
+  "ville": "Romans-sur-Isère",
+  "zone": "Romans-sur-Isère et secteur de Valence",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Au cabinet le lundi, à domicile le mardi et le jeudi, sur rendez-vous",
+  "acces": [
+   {
+    "titre": "À domicile, tous âges",
+    "texte": "Les mardis et jeudis, à Saint-Marcel-lès-Valence, Bourg-lès-Valence et Châteauneuf-sur-Isère. Précisez votre adresse complète dans votre message.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Au cabinet, adultes",
+    "texte": "Le lundi, à Romans-sur-Isère.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet ou à domicile",
+   "prix": "65 €",
+   "texte": "Déplacement inclus pour les consultations à domicile.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Parentalité",
+   "texte": "Soutien aux parents, questions d’éducation.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Enfants",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Adolescents",
+   "icone": "marches"
+  },
+  {
+   "titre": "Adultes",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Personnes âgées",
+   "icone": "plume"
+  },
+  {
+   "titre": "Schémas répétitifs, blocages",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Magdalena Gouttenoire, psychologue à Romans-sur-Isère",
+   "seoDescription": "Magdalena Gouttenoire, psychologue, psychothérapeute à Romans-sur-Isère. Approche intégrative, enfance, adolescence et soutien à la parentalité.",
+   "surtitre": "Psychologue, psychothérapeute · Drôme",
+   "titre": "Un accompagnement\n*bienveillant et chaleureux*",
+   "intro": "Je vous reçois à mon cabinet de Romans-sur-Isère, ou à votre domicile dans le secteur de Valence : consultations ponctuelles ou régulières, psychothérapies, soutien à la parentalité.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Parentalité, enfant, adolescent, adulte, personne âgée : je vous apporte mon aide pour tous types de difficultés.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Magdalena*",
+   "presentation": [
+    "Diplômée d’un master 2 de psychologie clinique et psychopathologie en 2008, j’ai exercé pendant 12 ans en pédopsychiatrie, notamment dans des centres médico-psychologiques pour enfants et adolescents.",
+    "Une présence bienveillante, chaleureuse et empathique constitue pour moi la base indispensable de mon intervention. Mon approche est intégrative : elle s’adapte à chaque personne, à sa singularité, à ses besoins et à sa demande."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Magdalena Gouttenoire, psychologue à Romans-sur-Isère",
+   "seoDescription": "Parcours et formations de Magdalena Gouttenoire, psychologue à Romans-sur-Isère.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée d’un master 2 de psychologie clinique et psychopathologie en 2008, j’ai exercé pendant 12 ans en pédopsychiatrie, notamment dans des centres médico-psychologiques pour enfants et adolescents.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Magdalena Gouttenoire, psychologue à Romans-sur-Isère",
+   "seoDescription": "L’approche de Magdalena Gouttenoire, psychologue à Romans-sur-Isère : approche intégrative, enfance, adolescence et soutien à la parentalité.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "Mon approche combine différents courants de la psychologie, avec un ancrage psychodynamique : comprendre votre histoire, vos relations et vos conflits internes, pour un bien-être durable.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Approche psychodynamique",
+     "texte": "Mieux comprendre les mécanismes, les schémas répétitifs et les blocages qui freinent votre épanouissement.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "ACT et outils des TCC",
+     "texte": "Mieux gérer vos réactions face aux situations difficiles, accueillir pensées et émotions sans jugement.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Médiations pour les plus jeunes",
+     "texte": "Jeux, musique, dessin, livres, écriture, adaptés à l’âge et aux intérêts de chacun.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Mon orientation",
+   "outilsTitre": "S’ajuster *à votre singularité*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Magdalena Gouttenoire, psychologue à Romans-sur-Isère",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Magdalena Gouttenoire, psychologue à Romans-sur-Isère.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations ne sont pas remboursées par la Sécurité sociale, mais certaines mutuelles proposent une prise en charge.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "En espèces ou par chèque.",
+   "annulation": [
+    "Pour toute consultation annulée ou reportée moins de 48 h avant, quelle qu’en soit la raison, je demande un dédommagement de 50 % du tarif.",
+    "Si vous oubliez d’annuler, ou si vous annulez moins d’une heure avant, la consultation entière est due."
+   ],
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Magdalena Gouttenoire, psychologue à Romans-sur-Isère",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Magdalena Gouttenoire, psychologue à Romans-sur-Isère",
+   "seoDescription": "Adresse et téléphone de Magdalena Gouttenoire, psychologue, 3 côte Garenne à Romans-sur-Isère.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Pour toute question ou demande de rendez-vous, contactez-moi par téléphone ou par e-mail, en précisant si vous souhaitez une consultation au cabinet ou à domicile.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Magdalena Gouttenoire"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Vidéos et articles sur la parentalité et le développement de l’enfant.",
+   "url": "https://www.facebook.com/mgpsy26"
+  },
+  {
+   "titre": "Instagram",
+   "detail": "Mon actualité.",
+   "url": "https://www.instagram.com/magdalenagouttenoire/"
+  },
+  {
+   "titre": "YouTube",
+   "detail": "L’intégralité de mes vidéos.",
+   "url": "https://www.youtube.com/channel/UClIr8zOHr3ByF7hUK4ORfIQ"
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marie-Rose Jeanguyot (prospect), d'après www.psychologuenancy.com. Publiée sur youxdesign.fr/maquettes/marie-rose-jeanguyot/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologuenancy.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F5FB",
+   "encre": "#161B33",
+   "accent": "#2338C9",
+   "doux": "#E1E5F8",
+   "texte2": "#4E5468"
+  }
+ },
+ "praticien": {
+  "prenom": "Marie-Rose",
+  "nom": "Jeanguyot",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "thérapies cognitives et comportementales (TCC), enfants et adultes",
+  "specialiteCourte": "Thérapies cognitives et comportementales",
+  "diplome": "DESS de psychologie clinique et pathologique (Université Nancy 2), DU de thérapie cognitive et comportementale (Université de Reims)",
+  "adeli": "889300554",
+  "public": "Enfants et adultes"
+ },
+ "contact": {
+  "telephone": "06 27 09 51 32",
+  "email": "jeanguyotmarie@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "9 rue Maurice Barrès",
+  "codePostal": "54000",
+  "ville": "Nancy",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Deuxième cabinet à Saint-Dié",
+    "texte": "36 rue Stanislas, 88100 Saint-Dié-des-Vosges. Précisez dans votre message si vous souhaitez un rendez-vous à Nancy ou à Saint-Dié.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "À Nancy ou à Saint-Dié",
+   "prix": "Sur demande",
+   "texte": "Certaines mutuelles et assurances remboursent une partie du prix des consultations.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "TOC et phobie d’impulsion",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Dépression et burn-out",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Anxiété",
+   "texte": "Anxiété généralisée, anxiété de performance, trouble panique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Phobies",
+   "texte": "Phobie sociale, agoraphobie, émétophobie, éreutophobie, thanatophobie.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Stress, sommeil, alimentation",
+   "texte": "Pathologies liées au stress, troubles du sommeil, terreurs nocturnes, troubles alimentaires.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Relations et couple",
+   "texte": "Difficultés relationnelles, problèmes de couple.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marie-Rose Jeanguyot, psychologue à Nancy",
+   "seoDescription": "Marie-Rose Jeanguyot, psychologue clinicienne, psychothérapeute à Nancy. Thérapies cognitives et comportementales (tcc), enfants et adultes.",
+   "surtitre": "Psychologue clinicienne · Nancy et Saint-Dié",
+   "titre": "Comprendre\n*pour aller mieux*",
+   "intro": "Vous ne vous sentez pas bien depuis quelque temps ? Vous avez l’impression d’être submergé par un mal-être, de vous débattre sans réussite ? Consulter un professionnel vous aidera à comprendre vos difficultés et à les dépasser.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Malaise, angoisse, peur, stress, tristesse, troubles du sommeil ou de la concentration : autant de raisons de consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marie-Rose*",
+   "presentation": [
+    "Psychologue clinicienne, je pratique les thérapies cognitives et comportementales auprès des enfants et des adultes, à Nancy et à Saint-Dié-des-Vosges.",
+    "Je suis titulaire d’un DESS de psychologie clinique et pathologique (Université Nancy 2) et d’un DU de thérapie cognitive et comportementale (Université de Reims), et membre de l’AFTCC."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marie-Rose Jeanguyot, psychologue à Nancy",
+   "seoDescription": "Parcours et formations de Marie-Rose Jeanguyot, psychologue à Nancy.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne, je pratique les thérapies cognitives et comportementales auprès des enfants et des adultes, à Nancy et à Saint-Dié-des-Vosges.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "DESS de psychologie clinique et pathologique",
+     "texte": "Université Nancy 2."
+    },
+    {
+     "titre": "DU de thérapie cognitive et comportementale",
+     "texte": "Université de Reims Champagne-Ardenne."
+    },
+    {
+     "titre": "Formation aux thérapies comportementales et cognitives",
+     "texte": "AFTCC Paris, dont je suis membre et thérapeute praticienne."
+    }
+   ],
+   "parcoursTitre": "Mes *diplômes*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marie-Rose Jeanguyot, psychologue à Nancy",
+   "seoDescription": "L’approche de Marie-Rose Jeanguyot, psychologue à Nancy : thérapies cognitives et comportementales (TCC), enfants et adultes.",
+   "titre": "Les thérapies\n*cognitives et comportementales*",
+   "intro": "Les TCC aident à comprendre les difficultés qui entretiennent la souffrance, et à apprendre, pas à pas, de nouvelles façons d’y faire face.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marie-Rose Jeanguyot, psychologue à Nancy",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marie-Rose Jeanguyot, psychologue à Nancy.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "En France, les consultations chez un psychologue ne sont pas prises en charge par la Sécurité sociale. Certaines mutuelles et assurances peuvent en rembourser une partie ; renseignez-vous aussi auprès de votre entreprise ou de votre caisse de prévoyance, qui travaillent parfois avec des organismes comme l’IAPR, PSYA ou Solareh.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "monSoutienPsy": false
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marie-Rose Jeanguyot, psychologue à Nancy",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marie-Rose Jeanguyot, psychologue à Nancy",
+   "seoDescription": "Adresse et téléphone de Marie-Rose Jeanguyot, psychologue, 9 rue Maurice Barrès à Nancy.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois à Nancy, 9 rue Maurice Barrès, et à Saint-Dié-des-Vosges, 36 rue Stanislas. Précisez dans votre message le cabinet qui vous convient.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marie-Rose Jeanguyot"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "AFTCC",
+   "detail": "Association française de thérapie comportementale et cognitive, dont je suis membre.",
+   "url": "https://www.aftcc.org/"
+  }
+ ]
+}

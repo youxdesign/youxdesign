@@ -1,0 +1,303 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Sandrine Audoin (prospect), d'après www.e-psyligne.fr. Publiée sur youxdesign.fr/maquettes/sandrine-audoin/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.e-psyligne.fr",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF6EE",
+   "encre": "#2A1F14",
+   "accent": "#C2671C",
+   "doux": "#F5E4CC",
+   "texte2": "#5E5246"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Sandrine",
+  "nom": "Audoin",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "consultations en ligne par téléphone, chat, Skype ou FaceTime, et au cabinet à Limoges",
+  "specialiteCourte": "Psychologue en ligne",
+  "diplome": "DESS de psychologie clinique et pathologique (Université de Poitiers, 1999)",
+  "adeli": "879300549",
+  "public": "Adultes et couples, en France et à l’étranger"
+ },
+ "contact": {
+  "telephone": "06 77 76 61 66",
+  "email": "contact@e-psyligne.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "18 rue Lesage",
+  "codePostal": "87000",
+  "ville": "Limoges",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-20:45",
+   "mardi": "9:00-20:45",
+   "mercredi": "9:00-20:45",
+   "jeudi": "9:00-20:45",
+   "vendredi": "9:00-20:45",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Du lundi au vendredi, en ligne ou au cabinet",
+  "acces": [
+   {
+    "titre": "En ligne",
+    "texte": "Par téléphone, par chat ou en vidéo (Skype ou FaceTime), depuis chez vous, en France comme à l’étranger.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "En ligne ou au cabinet",
+   "prix": "60 €",
+   "duree": "45 min",
+   "texte": "Paiement en ligne possible.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Angoisse, anxiété, stress",
+   "icone": "vagues"
+  },
+  {
+   "titre": "États dépressifs",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Confiance en soi",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Difficultés relationnelles, relations avec vos enfants.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Stress au travail",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Deuil, violences, sexualité",
+   "texte": "Deuil, victimes de violences sexuelles, difficultés sexuelles.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Sandrine Audoin, psychologue à Limoges",
+   "seoDescription": "Sandrine Audoin, psychologue clinicienne, psychothérapeute à Limoges. Consultations en ligne par téléphone, chat, skype ou facetime, et au cabinet à limoges.",
+   "surtitre": "Psychologue en ligne · Limoges",
+   "titre": "Consulter un psychologue,\n*de chez vous*",
+   "intro": "Je consulte en ligne, par téléphone, chat ou vidéo, avec la même écoute et le même suivi qu’au cabinet. En consultant de chez vous, vous pourrez exprimer plus librement vos difficultés, en toute confidentialité.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Dans ces domaines, je vous apporte écoute, conseils et thérapie.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Sandrine*",
+   "presentation": [
+    "Psychologue clinicienne, diplômée en 1999 de l’Université de Poitiers (DESS de psychologie clinique et pathologique), j’exerce en libéral depuis 2001. Je suis également psychothérapeute.",
+    "Je propose les mêmes suivis en ligne qu’au cabinet : soutien psychologique ponctuel, psychothérapie et thérapie de couple. Mes patients sont des expatriés français, des personnes de toute la France qui ne peuvent pas se rendre facilement en cabinet, et des personnes de ma région."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par e-mail ou par téléphone, pour une première approche de votre situation."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Sandrine Audoin, psychologue à Limoges",
+   "seoDescription": "Parcours et formations de Sandrine Audoin, psychologue à Limoges.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne, diplômée en 1999 de l’Université de Poitiers (DESS de psychologie clinique et pathologique), j’exerce en libéral depuis 2001. Je suis également psychothérapeute.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Sandrine Audoin, psychologue à Limoges",
+   "seoDescription": "L’approche de Sandrine Audoin, psychologue à Limoges : consultations en ligne par téléphone, chat, Skype ou FaceTime, et au cabinet à Limoges.",
+   "titre": "Une écoute\n*professionnelle, à distance*",
+   "intro": "Nous faisons d’abord le point lors d’un premier rendez-vous, puis nous choisissons ensemble l’aide qui vous correspond : des entretiens à la demande, ou une psychothérapie.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Séances ponctuelles",
+     "texte": "Un lieu d’écoute pour voir plus clair dans une situation de vie difficile.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Psychothérapie",
+     "texte": "Un travail plus en profondeur, avec un suivi personnalisé.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Thérapie de couple",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Par téléphone, chat ou vidéo",
+     "texte": "Sans contrainte géographique, avec des horaires souples, et un suivi par e-mail après les séances.",
+     "icone": "visio"
+    }
+   ],
+   "outilsSurtitre": "Ce que je propose",
+   "outilsTitre": "Les mêmes suivis *qu’au cabinet*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Sandrine Audoin, psychologue à Limoges",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Sandrine Audoin, psychologue à Limoges.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Première prise de contact par e-mail ou par téléphone, puis prise de rendez-vous et règlement de la séance, enfin la consultation, par téléphone, chat ou vidéo selon votre préférence.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Sandrine Audoin, psychologue à Limoges",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Sandrine Audoin, psychologue à Limoges",
+   "seoDescription": "Adresse et téléphone de Sandrine Audoin, psychologue, 18 rue Lesage à Limoges.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois en ligne, ou à mon bureau, 18 rue Lesage, à Limoges.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Sandrine Audoin"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Ma page e-psyligne.",
+   "url": "https://www.facebook.com/epsyligne/"
+  }
+ ]
+}
