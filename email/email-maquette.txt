@@ -2,8 +2,10 @@ Bonjour {{prenom}},
 
 Je suis psychologue, et je crée des sites pour les psychologues avec youXdesign.
 
-J'ai pris la liberté de préparer une maquette de ce que pourrait être votre site, à partir de vos propres textes et photos :
+En parcourant votre site, votre façon de présenter votre travail m'a donné envie de vous proposer une autre mise en forme. J'ai donc pris le temps de préparer, rien que pour vous, une maquette à partir de vos propres textes, de vos photos et de vos couleurs :
 {{maquette_url}}
+
+{{detail_personnalisation}}
 
 Ce n'est qu'une idée, pour vous donner un aperçu. Vous pouvez voir d'autres styles sur mon site (youxdesign.fr/styles/), et je réalise aussi des sites entièrement sur mesure.
 

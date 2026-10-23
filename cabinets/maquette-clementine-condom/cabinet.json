@@ -1,0 +1,318 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Clémentine Condom (prospect), d'après psychotherapie-condom-clementine.fr. Publiée sur youxdesign.fr/maquettes/clementine-condom/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psychotherapie-condom-clementine.fr",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF5F6",
+   "encre": "#2A1C24",
+   "accent": "#B43A63",
+   "doux": "#F5DEE5",
+   "texte2": "#5E4E55"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Clémentine",
+  "nom": "Condom",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "psychothérapie intégrative, EMDR, thérapie de reconsolidation, guidance parentale",
+  "specialiteCourte": "Psychothérapie intégrative",
+  "diplome": "DESS de psychologie normale et pathologique, Master recherche de psychologie",
+  "public": "Parents, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 30 09 61 28",
+  "email": "cabinetpsychologie16@live.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "19 rue Corneille",
+  "codePostal": "16000",
+  "ville": "Angoulême",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "texte": "Les honoraires varient selon le type de travail et le cadre psychothérapeutique. Certaines mutuelles remboursent une partie des séances.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Traumatismes",
+   "texte": "Stress post-traumatique, trouble de l’adaptation, deuil compliqué.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Événements de vie",
+   "texte": "Face auxquels on peut se sentir impuissant.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "TDAH, trouble oppositionnel, guidance parentale.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Périnatalité",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Rapport aux autres et à soi",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Clémentine Condom, psychologue à Angoulême",
+   "seoDescription": "Clémentine Condom, psychologue clinicienne, psychothérapeute à Angoulême. Psychothérapie intégrative, emdr, thérapie de reconsolidation, guidance parentale.",
+   "surtitre": "Psychologue · Angoulême",
+   "titre": "Un chemin\n*vers l’équilibre*",
+   "intro": "La souffrance psychique naît souvent de difficultés et d’événements de vie face auxquels on se sent impuissant. Dans mon cabinet d’Angoulême, j’accompagne principalement des parents, des adolescents et des adultes dans une psychothérapie intégrative.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Clémentine*",
+   "presentation": [
+    "Je propose des approches différentes et complémentaires, en adaptant mes outils psychothérapeutiques à la problématique de chacun.",
+    "L’objectif : augmenter le savoir sur soi, sur ses enjeux conscients et inconscients, pour se sentir mieux, en paix, et devenir acteur de sa vie."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Clémentine Condom, psychologue à Angoulême",
+   "seoDescription": "Parcours et formations de Clémentine Condom, psychologue à Angoulême.",
+   "titre": "Mon *parcours*",
+   "intro": "Je propose des approches différentes et complémentaires, en adaptant mes outils psychothérapeutiques à la problématique de chacun.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2003-2004",
+     "titre": "DESS de psychologie normale et pathologique"
+    },
+    {
+     "date": "2004-2005",
+     "titre": "Master recherche de psychologie",
+     "texte": "Équivalent psychologie clinique."
+    },
+    {
+     "titre": "DU de psychogérontologie clinique"
+    },
+    {
+     "titre": "Certificat de sciences criminelles"
+    }
+   ],
+   "parcoursTitre": "Formation *et diplômes*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Clémentine Condom, psychologue à Angoulême",
+   "seoDescription": "L’approche de Clémentine Condom, psychologue à Angoulême : psychothérapie intégrative, EMDR, thérapie de reconsolidation, guidance parentale.",
+   "titre": "Une psychothérapie\n*intégrative*",
+   "intro": "Une psychothérapie fondée historiquement sur la parole, et plus récemment sur des processus psychobiologiques, toujours au cours d’entretiens réguliers.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "EMDR",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Thérapie de reconsolidation",
+     "texte": "Méthode Brunet : une thérapie brève fondée sur les neurosciences de la mémoire.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Systémie",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Méthode Barkley et programme React",
+     "texte": "Pour accompagner les parents.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Supervision et analyse des pratiques",
+     "icone": "plume"
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "Adaptés *à chacun*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Clémentine Condom, psychologue à Angoulême",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Clémentine Condom, psychologue à Angoulême.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La durée de la psychothérapie varie d’un patient à l’autre. Les honoraires ne sont pas remboursés par la Sécurité sociale, mais certaines mutuelles complémentaires les prennent en charge.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Clémentine Condom, psychologue à Angoulême",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Clémentine Condom, psychologue à Angoulême",
+   "seoDescription": "Adresse et téléphone de Clémentine Condom, psychologue, 19 rue Corneille à Angoulême.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 19 rue Corneille, à Angoulême.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Clémentine Condom"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Instagram",
+   "detail": "Ma page.",
+   "url": "https://www.instagram.com/clementine_condom_psychologue/"
+  },
+  {
+   "titre": "EMDR France",
+   "detail": "L’association des praticiens EMDR.",
+   "url": "http://emdr-france.org/"
+  }
+ ]
+}

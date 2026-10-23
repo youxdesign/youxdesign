@@ -1,0 +1,304 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Maryse Claeys (prospect), d'après www.psychologue-maryseclaeys.fr. Publiée sur youxdesign.fr/maquettes/maryse-claeys/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-maryseclaeys.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FAF6F3",
+   "encre": "#2A201C",
+   "accent": "#8E5C4C",
+   "doux": "#F0E3DC",
+   "texte2": "#5C504B"
+  }
+ },
+ "praticien": {
+  "prenom": "Maryse",
+  "nom": "Claeys",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, thérapeute familiale",
+  "specialite": "thérapie émotionnelle, cognitive et comportementale, thérapie systémique familiale",
+  "specialiteCourte": "TCC et thérapie familiale",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 61 50 65 35",
+  "email": "maryseclaeyspsychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "2 la Roche",
+  "codePostal": "87160",
+  "ville": "Saint-Sulpice-les-Feuilles",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "duree": "45 min à 1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation de couple ou familiale",
+   "lieu": "Au cabinet",
+   "prix": "80 €",
+   "duree": "45 min à 1 h"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Confiance en soi",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Crises d’angoisse",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Dépression",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Insomnie",
+   "icone": "lune"
+  },
+  {
+   "titre": "Relations et famille",
+   "texte": "Difficultés relationnelles, familiales, de couple.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "École et travail",
+   "texte": "Difficultés scolaires ou professionnelles.",
+   "icone": "livre"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles",
+   "seoDescription": "Maryse Claeys, psychologue, thérapeute familiale à Saint-Sulpice-les-Feuilles. Thérapie émotionnelle, cognitive et comportementale, thérapie systémique familiale.",
+   "surtitre": "Psychologue · Saint-Sulpice-les-Feuilles",
+   "titre": "Un espace d’écoute\n*et de parole*",
+   "intro": "Dans un cadre bienveillant, je vous offre un espace d’écoute et de parole, en vous servant de guide dans votre cheminement personnel, vers un état de mieux-être.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Diverses raisons peuvent amener à consulter un psychologue, pour vous ou pour vos enfants.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Maryse*",
+   "presentation": [
+    "Psychologue, je suis spécialisée en thérapie émotionnelle, cognitive et comportementale, ainsi qu’en thérapie systémique familiale. Je reçois les enfants, les adolescents et les adultes, en individuel, en famille ou en couple.",
+    "Après plus de dix ans de travail en pédopsychiatrie, je me suis lancée dans le travail en libéral, dans le Nord pendant quelques années, puis en Haute-Vienne depuis 2022."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles",
+   "seoDescription": "Parcours et formations de Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue, je suis spécialisée en thérapie émotionnelle, cognitive et comportementale, ainsi qu’en thérapie systémique familiale. Je reçois les enfants, les adolescents et les adultes, en individuel, en famille ou en couple.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Pédopsychiatrie",
+     "texte": "Plus de dix ans d’exercice."
+    },
+    {
+     "titre": "Formations depuis 2005",
+     "texte": "Gestion du stress et de l’anxiété, estime de soi, affirmation de soi."
+    },
+    {
+     "titre": "Thérapie systémique familiale",
+     "texte": "Une formation de quatre ans."
+    },
+    {
+     "date": "Depuis 2022",
+     "titre": "Cabinet en Haute-Vienne",
+     "texte": "Après plusieurs années en libéral dans le Nord."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles",
+   "seoDescription": "L’approche de Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles : thérapie émotionnelle, cognitive et comportementale, thérapie systémique familiale.",
+   "titre": "Thérapies individuelles,\n*familiales et de couple*",
+   "intro": "Une approche émotionnelle, cognitive et comportementale, enrichie par la thérapie systémique familiale.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations se font uniquement sur rendez-vous et durent entre 45 minutes et une heure. Elles ne sont pas remboursées par la Sécurité sociale, mais certaines mutuelles les remboursent en partie.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "En espèces ou par chèque.",
+   "annulation": [
+    "Si vous ne pouvez pas venir à un rendez-vous, merci de me prévenir 48 h à l’avance."
+   ],
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Maryse Claeys, psychologue à Saint-Sulpice-les-Feuilles",
+   "seoDescription": "Adresse et téléphone de Maryse Claeys, psychologue, 2 la Roche à Saint-Sulpice-les-Feuilles.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se situe 2 la Roche, à Saint-Sulpice-les-Feuilles.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Maryse Claeys"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Ma page.",
+   "url": "https://www.facebook.com/pages/category/Medical---Health/Maryse-claeys-psychologue-sur-hem-381749798"
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Pauline Canin (prospect), d'après www.pauline-canin.fr. Publiée sur youxdesign.fr/maquettes/pauline-canin/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.pauline-canin.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FCF6F1",
+   "encre": "#2B3B51",
+   "accent": "#B0663E",
+   "doux": "#F7E3D3",
+   "texte2": "#566070"
+  }
+ },
+ "praticien": {
+  "prenom": "Pauline",
+  "nom": "Canin",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "thérapies cognitives, comportementales et émotionnelles (TCCE), méditation de pleine conscience, en visio",
+  "specialiteCourte": "TCCE, en visio",
+  "diplome": "Master 2 de TCCE (Université de Nîmes)",
+  "public": "Adultes uniquement, à distance"
+ },
+ "contact": {
+  "telephone": "07 67 78 92 27",
+  "email": "pauline.canin@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Docorga",
+   "url": "https://docorga.com/praticien/64872927a0dd083839c06184"
+  }
+ },
+ "cabinet": {
+  "adresse": "3 route de Neufchâteau",
+  "codePostal": "52000",
+  "ville": "Chaumont",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": true,
+  "domicile": false,
+  "horaires": {
+   "lundi": "12:00-20:00",
+   "mardi": "12:00-20:00",
+   "mercredi": "12:00-20:00",
+   "jeudi": "12:00-20:00",
+   "vendredi": "12:00-20:00",
+   "samedi": "12:00-20:00",
+   "dimanche": ""
+  },
+  "horairesNote": "Du lundi au samedi, en visio, y compris en soirée",
+  "acces": [
+   {
+    "titre": "Exclusivement en visio",
+    "texte": "Pas d’obligation de vous déplacer.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Première consultation",
+   "lieu": "En visio",
+   "prix": "65 €",
+   "duree": "1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation de suivi",
+   "lieu": "En visio",
+   "prix": "55 €",
+   "duree": "45 min"
+  },
+  {
+   "nom": "Thérapie asynchrone",
+   "prix": "40 € la semaine",
+   "texte": "135 € le mois. Je réponds par de courtes vidéos, 5 jours sur 7."
+  },
+  {
+   "nom": "Programmes de méditation",
+   "prix": "100 à 150 €",
+   "texte": "Entretien initial gratuit. Débutant ou intermédiaire : 100 € ; confirmé : 150 € ; les trois : 300 €."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles anxieux",
+   "texte": "Phobies, anxiété généralisée, trouble panique, stress post-traumatique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Humeur",
+   "texte": "Dépression, cyclothymie.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Addictions",
+   "texte": "Alcool, tabac, autres drogues, jeux d’argent.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Victimes d’abus, et accompagnement de l’entourage.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Stress et émotions",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Pauline Canin, psychologue à Chaumont",
+   "seoDescription": "Pauline Canin, psychologue clinicienne à Chaumont. Thérapies cognitives, comportementales et émotionnelles (tcce), méditation de pleine conscience, en visio.",
+   "surtitre": "Psychologue clinicienne · En visio",
+   "titre": "Des outils pour avancer\n*en autonomie*",
+   "intro": "Je travaille exclusivement en visio, du lundi au samedi, y compris en soirée. Je vous apporte une écoute et un soutien, mais aussi des outils adaptés pour que vous puissiez ensuite avancer en autonomie.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Pauline*",
+   "presentation": [
+    "Psychologue depuis 9 ans, j’ai rencontré des patient·e·s de tout âge, dans une association d’aide aux victimes puis dans un centre de soins, d’accompagnement et de prévention en addictologie (CSAPA).",
+    "Une bonne alliance thérapeutique, autrement dit une relation de confiance, est pour moi le point de départ de toute thérapie : je m’appuie sur votre propre expertise pour avancer vers votre objectif."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Docorga, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Pauline Canin, psychologue à Chaumont",
+   "seoDescription": "Parcours et formations de Pauline Canin, psychologue à Chaumont.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue depuis 9 ans, j’ai rencontré des patient·e·s de tout âge, dans une association d’aide aux victimes puis dans un centre de soins, d’accompagnement et de prévention en addictologie (CSAPA).",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Master 2 de TCCE",
+     "texte": "Université de Nîmes."
+    },
+    {
+     "titre": "Association d’aide aux victimes",
+     "texte": "Accompagnement de personnes traumatisées, victimes d’abus."
+    },
+    {
+     "titre": "CSAPA",
+     "texte": "Accompagnement des addictions, et de l’entourage."
+    },
+    {
+     "titre": "Méditation de pleine conscience",
+     "texte": "Formée, j’ai développé plusieurs programmes, de débutant à confirmé."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Pauline Canin, psychologue à Chaumont",
+   "seoDescription": "L’approche de Pauline Canin, psychologue à Chaumont : thérapies cognitives, comportementales et émotionnelles (TCCE), méditation de pleine conscience, en visio.",
+   "titre": "Pensées, émotions\n*et comportements*",
+   "intro": "Formée aux thérapies cognitives, comportementales et émotionnelles, je travaille sur les pensées, les émotions et les comportements, étroitement liés : savoir identifier ses émotions, critiquer des pensées toxiques, adapter ses habitudes à un objectif.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "TCCE en visio",
+     "texte": "Une thérapie classique, comme en présentiel.",
+     "icone": "visio"
+    },
+    {
+     "titre": "Thérapie asynchrone",
+     "texte": "Un échange décalé : je réponds par de courtes vidéos, 5 jours sur 7.",
+     "icone": "horloge"
+    },
+    {
+     "titre": "Méditation de pleine conscience",
+     "texte": "Pour mieux gérer le stress et les émotions, et prévenir la rechute dépressive.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Ma méthode",
+   "outilsTitre": "Une thérapie *qui prend le temps*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Pauline Canin, psychologue à Chaumont",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Pauline Canin, psychologue à Chaumont.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "J’accompagne exclusivement des adultes, à distance. Les séances ne sont pas remboursées par la Sécurité sociale, mais peuvent être prises en charge selon les mutuelles.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Exclusivement par virement.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Pauline Canin, psychologue à Chaumont",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Pauline Canin, psychologue à Chaumont",
+   "seoDescription": "Adresse et téléphone de Pauline Canin, psychologue, 3 route de Neufchâteau à Chaumont.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois exclusivement en visio. Pour me joindre : par téléphone, par e-mail, ou sur Docorga.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Pauline Canin"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Instagram",
+   "detail": "Mon actualité.",
+   "url": "https://www.instagram.com/pauline.canin.psychologue/"
+  },
+  {
+   "titre": "LinkedIn",
+   "detail": "Mon profil professionnel.",
+   "url": "https://www.linkedin.com/in/pauline-canin-3b1493280/"
+  }
+ ]
+}

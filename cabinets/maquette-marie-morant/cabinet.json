@@ -1,0 +1,328 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marie Morant (prospect), d'après mariemorantpsychologue.wordpress.com. Publiée sur youxdesign.fr/maquettes/marie-morant/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://mariemorantpsychologue.wordpress.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F8FB",
+   "encre": "#132A38",
+   "accent": "#1B6E96",
+   "doux": "#DBEDF5",
+   "texte2": "#4A5C66"
+  }
+ },
+ "praticien": {
+  "prenom": "Marie",
+  "nom": "Morant",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, neuropsychologue, psychothérapeute TCC",
+  "specialite": "bilans neuropsychologiques, thérapies cognitives et comportementales, troubles du neurodéveloppement",
+  "specialiteCourte": "Neuropsychologie et TCC",
+  "diplome": "Master 2 de psychologie clinique, psychopathologie cognitive et neuropsychologie clinique (Université Paul-Valéry Montpellier 3)",
+  "public": "Enfants, adolescents, adultes et personnes âgées"
+ },
+ "contact": {
+  "telephone": "07 82 00 31 45",
+  "email": "mariemorant30@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/nimes/marie-morant"
+  }
+ },
+ "cabinet": {
+  "adresse": "65 avenue Jean-Jaurès",
+  "codePostal": "30900",
+  "ville": "Nîmes",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Entretien préliminaire",
+   "lieu": "Au cabinet",
+   "prix": "65 €",
+   "texte": "En vue d’un bilan ou d’une prise en charge.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation de suivi",
+   "lieu": "Au cabinet",
+   "prix": "65 €"
+  },
+  {
+   "nom": "Bilans",
+   "prix": "Sur devis",
+   "texte": "Bilan psychométrique (QI), bilan attentionnel et des fonctions exécutives."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles du neurodéveloppement",
+   "texte": "TDAH, troubles des apprentissages, haut potentiel.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Troubles de la mémoire",
+   "texte": "Oublis, répétitions, désorientation chez un proche.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Pathologies neurologiques",
+   "texte": "Épilepsie, sclérose en plaques : leurs conséquences sur les fonctions cognitives.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Anxiété et émotions",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Difficultés psycho-affectives.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Soutien psychologique",
+   "icone": "plume"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marie Morant, psychologue à Nîmes",
+   "seoDescription": "Marie Morant, psychologue clinicienne, neuropsychologue, psychothérapeute tcc à Nîmes. Bilans neuropsychologiques, thérapies cognitives et comportementales, troubles du neurodéveloppement.",
+   "surtitre": "Psychologue, neuropsychologue · Nîmes",
+   "titre": "Comprendre\n*le fonctionnement cognitif*",
+   "intro": "Je vous accueille dans mon cabinet du 65 avenue Jean-Jaurès, à Nîmes, pour des bilans neuropsychologiques, des thérapies cognitives et comportementales et des thérapies de soutien.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marie*",
+   "presentation": [
+    "Psychologue clinicienne et neuropsychologue, je suis experte dans l’évaluation et l’interprétation du fonctionnement cognitif, notamment pour investiguer la présence d’un trouble du neurodéveloppement.",
+    "Je suis aussi psychothérapeute en thérapies cognitives et comportementales : des thérapies brèves, validées scientifiquement, centrées sur vos problèmes actuels tout en prenant en compte leurs causes historiques."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marie Morant, psychologue à Nîmes",
+   "seoDescription": "Parcours et formations de Marie Morant, psychologue à Nîmes.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne et neuropsychologue, je suis experte dans l’évaluation et l’interprétation du fonctionnement cognitif, notamment pour investiguer la présence d’un trouble du neurodéveloppement.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2015-2016",
+     "titre": "Master 2 de psychologie clinique",
+     "texte": "Psychopathologie cognitive et neuropsychologie clinique, Université Paul-Valéry Montpellier 3."
+    },
+    {
+     "date": "2016-2018",
+     "titre": "DU de thérapies cognitives et comportementales",
+     "texte": "Initiation puis perfectionnement, Montpellier."
+    },
+    {
+     "date": "2020-2022",
+     "titre": "DU des troubles du neurodéveloppement",
+     "texte": "Chez l’enfant et l’adolescent, Montpellier."
+    },
+    {
+     "date": "2021-2023",
+     "titre": "Formations complémentaires",
+     "texte": "WISC 5, haut potentiel, DIVA 5 (TDAH), NEPSY-II."
+    }
+   ],
+   "parcoursTitre": "Mes *formations*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marie Morant, psychologue à Nîmes",
+   "seoDescription": "L’approche de Marie Morant, psychologue à Nîmes : bilans neuropsychologiques, thérapies cognitives et comportementales, troubles du neurodéveloppement.",
+   "titre": "Bilans\n*et thérapies*",
+   "intro": "Nous dépassons progressivement les symptômes invalidants et renforçons les comportements adaptés, par différentes techniques.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Bilan neuropsychologique",
+     "texte": "Évaluer et interpréter le fonctionnement cognitif.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Thérapie cognitive et comportementale",
+     "texte": "Les interactions entre pensées, émotions et comportements.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Thérapie de soutien",
+     "icone": "plume"
+    }
+   ],
+   "outilsSurtitre": "Prestations",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marie Morant, psychologue à Nîmes",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marie Morant, psychologue à Nîmes.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les rendez-vous se prennent par téléphone ou sur Doctolib.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marie Morant, psychologue à Nîmes",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marie Morant, psychologue à Nîmes",
+   "seoDescription": "Adresse et téléphone de Marie Morant, psychologue, 65 avenue Jean-Jaurès à Nîmes.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 65 avenue Jean-Jaurès, à Nîmes.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marie Morant"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Ma page.",
+   "url": "https://www.facebook.com/Marie-Morant-110949320651077/"
+  }
+ ]
+}

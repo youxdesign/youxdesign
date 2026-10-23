@@ -88,6 +88,8 @@ function preparer(p) {
   if (!sortie) throw new Error(`${p.prenom} : modèle inconnu « ${p.modele} » (refonte ou creation)`);
   /* Modèle « maquette » : lien vers youxdesign.fr/maquettes/<nom>/ (compté : /e/<lot>/m-<nom>) */
   const maquette = p.maquette ? `${domaine}/maquettes/${p.maquette}/` : '';
+  /* La phrase personnalisée est obligatoire pour le modèle maquette (ce que la maquette reprend de son site) */
+  if (p.modele === 'maquette' && !p.detail) throw new Error(`${p.prenom} : phrase personnalisée « detail » manquante`);
   const v = { prenom: p.prenom, detail_personnalisation: p.detail ?? '', constat: p.constat ?? '', source: p.source ?? `votre site ${p.site}`, site_actuel: p.site,
     maquette_url: maquette, maquette_affiche: maquette.replace(/^https?:\/\//, ''), maquette_lien: p.maquette && lot ? `${domaine}/e/${lot}/m-${p.maquette}` : maquette };
   if (p.modele === 'maquette' && !p.maquette) throw new Error(`${p.prenom} : indiquez « maquette » (le nom de la maquette)`);

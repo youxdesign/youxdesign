@@ -1,0 +1,297 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Hervé Andreani (prospect), d'après www.psychologuecorse.com. Publiée sur youxdesign.fr/maquettes/herve-andreani/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologuecorse.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6FA",
+   "encre": "#0F2238",
+   "accent": "#03579B",
+   "doux": "#DCE7F3",
+   "texte2": "#4B5868"
+  }
+ },
+ "praticien": {
+  "prenom": "Hervé",
+  "nom": "Andreani",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicien, psychothérapeute",
+  "specialite": "psychothérapie d’orientation clinique, bilans psychologiques, analyse des pratiques professionnelles",
+  "specialiteCourte": "Psychologie clinique",
+  "diplome": "Master II de psychopathologies interculturelles, clinique du lien social et des situations de crise (Nice)",
+  "public": "Adultes, adolescents et équipes"
+ },
+ "contact": {
+  "telephone": "06 09 36 07 53",
+  "email": "andreaniherve@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "11 cours du Général Leclerc",
+  "codePostal": "20000",
+  "ville": "Ajaccio",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Mal-être durable",
+   "texte": "Quand le soutien des proches et nos ressources ne suffisent plus.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Répétitions",
+   "texte": "Des choses qui se répètent depuis longtemps, sans réussir à y mettre fin.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Difficultés du quotidien",
+   "icone": "marches"
+  },
+  {
+   "titre": "Bilans psychologiques",
+   "texte": "WAIS IV, WISC V, tests projectifs.",
+   "icone": "puzzle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Hervé Andreani, psychologue à Ajaccio",
+   "seoDescription": "Hervé Andreani, psychologue clinicien, psychothérapeute à Ajaccio. Psychothérapie d’orientation clinique, bilans psychologiques, analyse des pratiques professionnelles.",
+   "surtitre": "Psychologue clinicien · Ajaccio",
+   "titre": "Mieux comprendre\n*sa façon de réagir*",
+   "intro": "Je vous accueille sur rendez-vous à mon cabinet d’Ajaccio. Un travail psychothérapeutique peut vous aider à mieux comprendre votre façon de réagir, et à accepter que votre passé comme votre environnement aient des répercussions sur vos attitudes présentes.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Bien que nous trouvions le plus souvent des solutions à nos difficultés, certains mal-êtres peuvent être récurrents et durables.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Hervé*",
+   "presentation": [
+    "La spécificité d’un psychologue clinicien est de s’adapter à la complexité de chaque situation, à l’opposé de l’application systématique de règles.",
+    "Je propose aussi des bilans psychologiques et j’anime, depuis 2018, des groupes d’analyse des pratiques en crèche, en accueil familial et en foyer d’accueil médicalisé."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Hervé Andreani, psychologue à Ajaccio",
+   "seoDescription": "Parcours et formations de Hervé Andreani, psychologue à Ajaccio.",
+   "titre": "Mon *parcours*",
+   "intro": "La spécificité d’un psychologue clinicien est de s’adapter à la complexité de chaque situation, à l’opposé de l’application systématique de règles.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Licence, Master I et Master II",
+     "texte": "Psychopathologie clinique, et psychopathologies interculturelles, clinique du lien social et des situations de crise, à Nice."
+    },
+    {
+     "titre": "Certification FFPP",
+     "texte": "Animer un groupe d’analyse de pratiques professionnelles."
+    },
+    {
+     "date": "Depuis 2018",
+     "titre": "Analyse des pratiques",
+     "texte": "En crèches, services d’accueil familial, foyers d’accueil médicalisé."
+    }
+   ],
+   "parcoursTitre": "Parcours *et formations*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Hervé Andreani, psychologue à Ajaccio",
+   "seoDescription": "L’approche de Hervé Andreani, psychologue à Ajaccio : psychothérapie d’orientation clinique, bilans psychologiques, analyse des pratiques professionnelles.",
+   "titre": "L’orientation\n*clinique*",
+   "intro": "Fortement influencée par la psychanalyse et faisant appel à la notion d’inconscient, cette approche s’adapte à chaque personne.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapie",
+     "icone": "plume"
+    },
+    {
+     "titre": "Bilans psychologiques",
+     "texte": "WAIS IV et WISC V ; Rorschach, TAT et Patte Noire.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Analyse des pratiques",
+     "texte": "Un travail d’équipe central dans le médico-social.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Ce que je propose",
+   "outilsTitre": "Thérapies, *tests et équipes*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Hervé Andreani, psychologue à Ajaccio",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Hervé Andreani, psychologue à Ajaccio.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Pour me joindre ou prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Hervé Andreani, psychologue à Ajaccio",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Hervé Andreani, psychologue à Ajaccio",
+   "seoDescription": "Adresse et téléphone de Hervé Andreani, psychologue, 11 cours du Général Leclerc à Ajaccio.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 11 cours du Général Leclerc, à Ajaccio.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Hervé Andreani"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Code de déontologie des psychologues",
+   "detail": "FFPP.",
+   "url": "https://ffpp.net/deontologie/"
+  }
+ ]
+}

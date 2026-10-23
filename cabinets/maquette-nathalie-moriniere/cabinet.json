@@ -1,0 +1,336 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Nathalie Morinière (prospect), d'après www.psychoalpes.com. Publiée sur youxdesign.fr/maquettes/nathalie-moriniere/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychoalpes.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F7FA",
+   "encre": "#14262F",
+   "accent": "#2878A3",
+   "doux": "#DCEAF2",
+   "texte2": "#4C5B63"
+  }
+ },
+ "praticien": {
+  "prenom": "Nathalie",
+  "nom": "Morinière",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne de la santé",
+  "specialite": "psychothérapie, haut potentiel, analyse des pratiques, méditation de pleine présence",
+  "specialiteCourte": "Approche bio-psycho-sociale humaniste",
+  "diplome": "Master de psychologie clinique (2007)",
+  "public": "Adolescents, adultes, couples et parents",
+  "citation": "La vie heureuse est celle qui est en accord avec sa propre nature. (Sénèque)"
+ },
+ "contact": {
+  "telephone": "06 85 74 34 27",
+  "email": "ekofor05@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Resalib",
+   "url": "https://www.resalib.fr/praticien/113888-nathalie-moriniere-psychologue-clinicien"
+  }
+ },
+ "cabinet": {
+  "adresse": "La Roche-de-Rame",
+  "codePostal": "05310",
+  "ville": "La Roche-de-Rame",
+  "zone": "Hautes-Alpes et en visio",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "En visio",
+    "texte": "Rendez-vous sur Resalib.",
+    "icone": "visio"
+   },
+   {
+    "titre": "En marchant",
+    "texte": "Autour de La Roche-de-Rame : contactez-moi par téléphone.",
+    "icone": "feuille"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Dans les Hautes-Alpes.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "En visio, en marchant ou à domicile",
+   "prix": "150 € de l’heure",
+   "duree": "1 h 30 à 2 h 30",
+   "texte": "Frais de déplacement en plus.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété, stress",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Deuil, soins palliatifs",
+   "texte": "Pour les personnes et leurs proches.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Haut potentiel",
+   "texte": "HPI, surdoué, « zèbre ».",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Troubles alimentaires",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Soignants en souffrance",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Couple et parentalité",
+   "texte": "Thérapie de couple, parentale, parent-adolescent.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Nathalie Morinière, psychologue à La Roche-de-Rame",
+   "seoDescription": "Nathalie Morinière, psychologue clinicienne de la santé à La Roche-de-Rame. Psychothérapie, haut potentiel, analyse des pratiques, méditation de pleine présence.",
+   "surtitre": "Psychologue clinicienne · Hautes-Alpes",
+   "titre": "En visio, en marchant\n*ou à domicile*",
+   "intro": "Je vous propose des psychothérapies en visio, en marchant autour de La Roche-de-Rame, ou à domicile dans les Hautes-Alpes, pour les adolescents, les adultes, les couples et les parents.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Vous vivez des difficultés, ou vous souhaitez accompagner un changement dans votre vie personnelle, relationnelle ou professionnelle.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Nathalie*",
+   "presentation": [
+    "Psychologue clinicienne de la santé, j’ai une approche bio-psycho-sociale et humaniste. Je suis attentive et disponible à votre difficulté : c’est votre présence qui prime.",
+    "Diplômée d’un master de psychologie clinique en 2007, je me suis formée à la surdouance, au coaching, et je suis formatrice accréditée Premiers secours en santé mentale (PSSM)."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Resalib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Nathalie Morinière, psychologue à La Roche-de-Rame",
+   "seoDescription": "Parcours et formations de Nathalie Morinière, psychologue à La Roche-de-Rame.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne de la santé, j’ai une approche bio-psycho-sociale et humaniste. Je suis attentive et disponible à votre difficulté : c’est votre présence qui prime.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2007",
+     "titre": "Master de psychologie clinique"
+    },
+    {
+     "date": "2014",
+     "titre": "Surdouance et posture de formatrice"
+    },
+    {
+     "date": "2018",
+     "titre": "Coaching"
+    },
+    {
+     "date": "2020",
+     "titre": "Formatrice accréditée PSSM",
+     "texte": "Et PSSM Jeunes en 2024."
+    },
+    {
+     "titre": "Ekofor",
+     "texte": "Centre professionnel de formation continue."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Nathalie Morinière, psychologue à La Roche-de-Rame",
+   "seoDescription": "L’approche de Nathalie Morinière, psychologue à La Roche-de-Rame : psychothérapie, haut potentiel, analyse des pratiques, méditation de pleine présence.",
+   "titre": "Des échanges\n*sans jugement*",
+   "intro": "Je reçois en face-à-face ou en téléconsultation, et je n’hésite pas à intervenir, à prendre la parole, dans le non-jugement et la bienveillance.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapies",
+     "texte": "Adolescents, adultes, couples, parentalité.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Haut potentiel",
+     "texte": "Être un haut potentiel ne va pas de soi.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Analyse des pratiques",
+     "texte": "Pour les équipes, et supervision de professionnels.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Méditation de pleine présence",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Thérapies",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Nathalie Morinière, psychologue à La Roche-de-Rame",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Nathalie Morinière, psychologue à La Roche-de-Rame.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances durent entre 1 h 30 et 2 h 30. Prenez rendez-vous en visio sur Resalib, ou appelez-moi pour une séance en marchant.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Nathalie Morinière, psychologue à La Roche-de-Rame",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Nathalie Morinière, psychologue à La Roche-de-Rame",
+   "seoDescription": "Adresse et téléphone de Nathalie Morinière, psychologue, La Roche-de-Rame à La Roche-de-Rame.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je reçois en visio, en marchant autour de La Roche-de-Rame, ou à domicile dans les Hautes-Alpes.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Nathalie Morinière"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

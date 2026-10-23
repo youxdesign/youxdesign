@@ -1,0 +1,321 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Charlotte Boyer (prospect), d'après www.rdv-psy.com. Publiée sur youxdesign.fr/maquettes/charlotte-boyer/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.rdv-psy.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF7EE",
+   "encre": "#1C3A3D",
+   "accent": "#9A6A0E",
+   "doux": "#F4E8CB",
+   "texte2": "#535C5C"
+  }
+ },
+ "praticien": {
+  "prenom": "Charlotte",
+  "nom": "Boyer",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "approche intégrative et humaniste, enfants, adolescents, adultes et couples, orientation",
+  "specialiteCourte": "Approche intégrative et humaniste",
+  "diplome": "Master professionnel de psychologie de l’éducation, de l’orientation et du développement (Université de Toulouse II)",
+  "adeli": "879304285",
+  "public": "Enfants, adolescents, adultes et couples",
+  "citation": "Vivre n’est pas attendre que l’orage passe. Vivre, c’est apprendre à danser sous la pluie."
+ },
+ "contact": {
+  "telephone": "06 79 55 74 32",
+  "email": "charlotteboyerpsychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "2 impasse Nantilde",
+  "codePostal": "87270",
+  "ville": "Chaptelat",
+  "accessiblePMR": true,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Exclusivement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Maison pluridisciplinaire",
+    "texte": "À la périphérie de Limoges.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Parking gratuit",
+    "texte": "Bâtiment accessible aux personnes à mobilité réduite.",
+    "icone": "fauteuil"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance adulte",
+   "lieu": "Au cabinet",
+   "prix": "45 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance enfant",
+   "prix": "35 €"
+  },
+  {
+   "nom": "Séance d’une heure",
+   "prix": "55 €"
+  },
+  {
+   "nom": "Première séance enfant et parents",
+   "prix": "60 €"
+  },
+  {
+   "nom": "Séance de couple",
+   "prix": "90 €"
+  },
+  {
+   "nom": "Bilan psychométrique",
+   "prix": "200 €",
+   "texte": "Tarif réduit possible : demandeurs d’emploi, RSA."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Enfants",
+   "texte": "Difficultés liées à l’école et à la parentalité.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Adolescents",
+   "texte": "Orientation, questions scolaires.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Adultes",
+   "texte": "Traverser les phases compliquées.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Couples",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Bilans psychométriques",
+   "icone": "puzzle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Charlotte Boyer, psychologue à Chaptelat",
+   "seoDescription": "Charlotte Boyer, psychologue à Chaptelat. Approche intégrative et humaniste, enfants, adolescents, adultes et couples, orientation.",
+   "surtitre": "Psychologue · Chaptelat, près de Limoges",
+   "titre": "Un environnement\n*calme et paisible*",
+   "intro": "Le cabinet est situé dans la maison pluridisciplinaire de Chaptelat, à la périphérie de Limoges. Je vous reçois exclusivement sur rendez-vous. Écoute active, bienveillance et confidentialité font partie de ma pratique.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Charlotte*",
+   "presentation": [
+    "Diplômée d’un master professionnel en psychologie de l’éducation, de l’orientation et du développement (Université de Toulouse II), j’ai travaillé au centre d’information et d’orientation de Bellac et dans les écoles, collèges et lycées de Limoges et de sa périphérie.",
+    "Cette expérience au contact des jeunes m’a permis d’enrichir mes connaissances sur les problématiques du milieu scolaire et de la parentalité."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Charlotte Boyer, psychologue à Chaptelat",
+   "seoDescription": "Parcours et formations de Charlotte Boyer, psychologue à Chaptelat.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée d’un master professionnel en psychologie de l’éducation, de l’orientation et du développement (Université de Toulouse II), j’ai travaillé au centre d’information et d’orientation de Bellac et dans les écoles, collèges et lycées de Limoges et de sa périphérie.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Charlotte Boyer, psychologue à Chaptelat",
+   "seoDescription": "L’approche de Charlotte Boyer, psychologue à Chaptelat : approche intégrative et humaniste, enfants, adolescents, adultes et couples, orientation.",
+   "titre": "Une approche\n*intégrative et humaniste*",
+   "intro": "Je m’inspire de différentes théories pour avoir la vision la plus éclectique possible. L’approche humaniste est celle avec laquelle j’ai le plus d’affinité : elle considère la personne comme centrale, avec en elle un plein potentiel de développement.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Psychologie positive",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Neurosciences cognitives",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Psychanalyse",
+     "icone": "livre"
+    },
+    {
+     "titre": "Psychologie de l’orientation",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Mes inspirations",
+   "outilsTitre": "Une vision *éclectique*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Charlotte Boyer, psychologue à Chaptelat",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Charlotte Boyer, psychologue à Chaptelat.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Nouveaux créneaux disponibles : contactez-moi par e-mail.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Charlotte Boyer, psychologue à Chaptelat",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Charlotte Boyer, psychologue à Chaptelat",
+   "seoDescription": "Adresse et téléphone de Charlotte Boyer, psychologue, 2 impasse Nantilde à Chaptelat.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 2 impasse Nantilde, à Chaptelat, dans la maison pluridisciplinaire.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Charlotte Boyer"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Facebook",
+   "detail": "Ma page.",
+   "url": "https://www.facebook.com/CharlotteBoyerPsychologue"
+  }
+ ]
+}
