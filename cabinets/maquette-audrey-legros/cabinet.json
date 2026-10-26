@@ -512,6 +512,41 @@
       "fichier": "fiche-ancrage.pdf",
       "apercu": "fiche-ancrage-apercu.jpg",
       "credit": "Fiche du Dr Igor Thiriez (version 3.1, 2021)"
+    },
+    {
+      "titre": "Ma fenêtre de tolérance",
+      "detail": "Repérer les moments où les émotions deviennent trop fortes ou trop faibles, et retrouver sa zone de confort. Image.",
+      "fichier": "fenetre-de-tolerance.jpg",
+      "apercu": "fenetre-de-tolerance-apercu.jpg",
+      "credit": "Illustration : Humain avant tout"
+    },
+    {
+      "titre": "La roue des émotions",
+      "detail": "Pour mettre des mots précis sur ce que l’on ressent, à partir de six émotions de base. Image.",
+      "fichier": "roue-des-emotions.png",
+      "apercu": "roue-des-emotions-apercu.jpg",
+      "credit": "Fondation Cervo (fondationcervo.com)"
+    },
+    {
+      "titre": "Le violentomètre",
+      "detail": "Relation saine, vigilance ou danger : des repères pour évaluer sa relation de couple, et les numéros à appeler. PDF, 1 page.",
+      "fichier": "violentometre.pdf",
+      "apercu": "violentometre-apercu.jpg",
+      "credit": "Département du Nord, Ville de Paris, Seine-Saint-Denis"
+    },
+    {
+      "titre": "Mémo de Vie",
+      "detail": "Une plateforme numérique gratuite, sécurisée et confidentielle, destinée aux victimes de violence. PDF, 2 pages.",
+      "fichier": "memo-de-vie-flyer.pdf",
+      "apercu": "memo-de-vie-flyer-apercu.jpg",
+      "credit": "France Victimes, memo-de-vie.org"
+    },
+    {
+      "titre": "Mémo de Vie, l’affiche",
+      "detail": "La plateforme en un coup d’œil : journal, documents, contacts utiles, bibliothèque, et une utilisation sécurisée. PDF, 1 page.",
+      "fichier": "memo-de-vie-affiche.pdf",
+      "apercu": "memo-de-vie-affiche-apercu.jpg",
+      "credit": "France Victimes, memo-de-vie.org"
     }
   ],
   "ateliers": [],

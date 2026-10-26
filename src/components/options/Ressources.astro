@@ -27,7 +27,7 @@ const autres = liste.filter((r) => !r.image);
         <p class="opt-texte">Des fiches et des exercices à retrouver entre les séances.</p>
       </div>
       {feuilles.length > 0 && (
-        <ul class="docs">
+        <ul class:list={['docs', { 'docs--grille': feuilles.length > 2 }]}>
           {feuilles.map((r) => (
             <li class="doc">
               <a class="doc__pile" href={r.lien} target="_blank" rel="noopener" aria-label={`Ouvrir ${r.titre} (PDF, nouvel onglet)`}>
