@@ -1,0 +1,300 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Elodie Cascales (prospect), d'après www.cascales-neuropsychologue.fr. Publiée sur youxdesign.fr/maquettes/elodie-cascales/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.cascales-neuropsychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6FA",
+   "encre": "#162438",
+   "accent": "#2D5A9A",
+   "doux": "#DDE6F3",
+   "texte2": "#4C5768"
+  }
+ },
+ "praticien": {
+  "prenom": "Elodie",
+  "nom": "Cascales",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, spécialité neuropsychologie",
+  "specialite": "bilans neuropsychologiques, évaluation du QI, thérapie cognitivo-comportementale de l’insomnie (TCC-I)",
+  "specialiteCourte": "Neuropsychologie et insomnie",
+  "diplome": "Master 2 de neuropsychologie clinique, DU Prise en charge de l’insomnie",
+  "public": "Enfants, adultes et personnes âgées"
+ },
+ "contact": {
+  "telephone": "06 52 17 19 20",
+  "email": "cascales.neuropsychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "3 rue Alsace-Lorraine",
+  "codePostal": "12100",
+  "ville": "Millau",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "9:00-18:00",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le mercredi, sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Téléconsultation",
+    "texte": "Possible pour la TCC-I.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance de TCC-I",
+   "lieu": "Au cabinet ou à distance",
+   "prix": "60 €",
+   "duree": "50 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan neuropsychologique",
+   "prix": "240 €",
+   "duree": "2 h",
+   "texte": "Restitution des résultats comprise."
+  },
+  {
+   "nom": "Évaluation du QI",
+   "prix": "240 €",
+   "duree": "2 h"
+  },
+  {
+   "nom": "Évaluation cognitive intégrale",
+   "prix": "370 €",
+   "duree": "3 h environ"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Insomnie",
+   "texte": "Traitement non médicamenteux recommandé en première intention par la HAS.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Mémoire",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Attention",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Évaluation du QI",
+   "icone": "livre"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Elodie Cascales, psychologue à Millau",
+   "seoDescription": "Elodie Cascales, psychologue, spécialité neuropsychologie à Millau. Bilans neuropsychologiques, évaluation du qi, thérapie cognitivo-comportementale de l’insomnie (tcc-i).",
+   "surtitre": "Neuropsychologue · Millau",
+   "titre": "Mieux dormir,\n*mieux comprendre*",
+   "intro": "Je propose des évaluations cognitives (bilans neuropsychologiques, évaluation du quotient intellectuel) chez les enfants, les adultes et les personnes âgées, ainsi que la prise en charge de l’insomnie par la thérapie cognitivo-comportementale (TCC-I).",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Elodie*",
+   "presentation": [
+    "Diplômée d’un master 2 de neuropsychologie clinique et d’un DU « Prise en charge de l’insomnie », je reçois à Millau le mercredi, sur rendez-vous.",
+    "La TCC-I est une thérapie brève, aux résultats validés par de nombreuses études scientifiques. C’est le traitement recommandé en première intention par la Haute Autorité de santé."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Elodie Cascales, psychologue à Millau",
+   "seoDescription": "Parcours et formations de Elodie Cascales, psychologue à Millau.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée d’un master 2 de neuropsychologie clinique et d’un DU « Prise en charge de l’insomnie », je reçois à Millau le mercredi, sur rendez-vous.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Elodie Cascales, psychologue à Millau",
+   "seoDescription": "L’approche de Elodie Cascales, psychologue à Millau : bilans neuropsychologiques, évaluation du QI, thérapie cognitivo-comportementale de l’insomnie (TCC-I).",
+   "titre": "Des méthodes\n*validées*",
+   "intro": "Des évaluations cognitives complètes, et une thérapie de l’insomnie non médicamenteuse.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapie de l’insomnie (TCC-I)",
+     "texte": "Séances de 50 minutes, au cabinet ou à distance.",
+     "icone": "lune"
+    },
+    {
+     "titre": "Bilan neuropsychologique",
+     "texte": "Séance de 2 heures.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Évaluation cognitive intégrale",
+     "texte": "Environ 3 heures.",
+     "icone": "puzzle"
+    }
+   ],
+   "outilsSurtitre": "Consultations",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Elodie Cascales, psychologue à Millau",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Elodie Cascales, psychologue à Millau.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Ces consultations ne sont pas remboursées par la Sécurité sociale, mais peuvent être prises en charge en partie par certaines mutuelles.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque ou en espèces ; paiement en plusieurs fois possible.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Elodie Cascales, psychologue à Millau",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Elodie Cascales, psychologue à Millau",
+   "seoDescription": "Adresse et téléphone de Elodie Cascales, psychologue, 3 rue Alsace-Lorraine à Millau.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 3 rue Alsace-Lorraine, à Millau.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Elodie Cascales"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

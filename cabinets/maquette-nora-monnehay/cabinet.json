@@ -1,0 +1,287 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Nora Monnehay (prospect), d'après noramonnehay.fr. Publiée sur youxdesign.fr/maquettes/nora-monnehay/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://noramonnehay.fr",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F3FA",
+   "encre": "#241A33",
+   "accent": "#7A3FA0",
+   "doux": "#EADFF3",
+   "texte2": "#5A5066"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Nora",
+  "nom": "Monnehay",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Docteure en psychologie clinique, psychothérapeute",
+  "specialite": "approche existentialiste, humaniste, systémique et expérientielle, TCC, psychothérapie transaffirmative, thérapie de couple",
+  "specialiteCourte": "Approche humaniste et intégrative",
+  "diplome": "Doctorat et Master II de psychologie clinique",
+  "rpps": "10009167692",
+  "public": "Adolescents, adultes et couples",
+  "citation": "Pour établir une relation avec autrui, il faut d’abord établir une relation avec soi-même. (Irvin Yalom)"
+ },
+ "contact": {
+  "telephone": "06 95 20 91 55",
+  "email": "n.monnehay.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "37 allée des Pins",
+  "codePostal": "41000",
+  "ville": "Blois",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-17:00",
+   "mardi": "9:00-17:00",
+   "mercredi": "9:00-17:00",
+   "jeudi": "9:00-17:00",
+   "vendredi": "9:00-17:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle ou de couple",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et stress",
+   "texte": "Ruminations, crises d’angoisse, phobies, peur de l’échec.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "TOC",
+   "texte": "Pensées intrusives, vérifications, rituels.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Psychotraumatisme",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Couple",
+   "texte": "Thérapie de couple centrée sur les émotions.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Identités de genre",
+   "texte": "Personnes trans, de genres divers, non binaires, et leurs familles.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Périodes de changement",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Nora Monnehay, psychologue à Blois",
+   "seoDescription": "Nora Monnehay, docteure en psychologie clinique, psychothérapeute à Blois. Approche existentialiste, humaniste, systémique et expérientielle, tcc, psychothérapie transaffirmative, thérapie de couple.",
+   "surtitre": "Psychologue · Blois",
+   "titre": "Redevenir actrice ou acteur\n*de son existence*",
+   "intro": "Docteure en psychologie clinique, psychologue et psychothérapeute, j’accompagne des adolescent·e·s, des adultes et des couples dans un espace de parole bienveillant et inclusif, pour avancer à votre rythme.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Nora*",
+   "presentation": [
+    "Mon approche est existentialiste, humaniste, systémique et expérientielle, avec la possibilité de travailler aussi en thérapies cognitivo-comportementales.",
+    "Je suis formée à la psychothérapie transaffirmative et à la thérapie de couple centrée sur les émotions. J’exerce en libéral, en parallèle d’une activité de recherche (laboratoire LPPC) et d’enseignement."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Nora Monnehay, psychologue à Blois",
+   "seoDescription": "Parcours et formations de Nora Monnehay, psychologue à Blois.",
+   "titre": "Mon *parcours*",
+   "intro": "Mon approche est existentialiste, humaniste, systémique et expérientielle, avec la possibilité de travailler aussi en thérapies cognitivo-comportementales.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Doctorat en psychologie clinique",
+     "texte": "Post-doctorante et chercheuse associée au laboratoire LPPC."
+    },
+    {
+     "titre": "Master II de psychologie clinique"
+    },
+    {
+     "titre": "Expériences",
+     "texte": "Clinique de l’addiction, milieu judiciaire, contexte interculturel."
+    },
+    {
+     "titre": "Psychothérapie transaffirmative",
+     "texte": "Et thérapie de couple centrée sur les émotions (TCE-C)."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Nora Monnehay, psychologue à Blois",
+   "seoDescription": "L’approche de Nora Monnehay, psychologue à Blois : approche existentialiste, humaniste, systémique et expérientielle, TCC, psychothérapie transaffirmative, thérapie de couple.",
+   "titre": "Un cadre sécurisant\n*et respectueux*",
+   "intro": "Il est possible de consulter face à une difficulté installée, après un événement éprouvant, pendant une période de changement, ou quand un questionnement devient difficile à penser seul·e.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Nora Monnehay, psychologue à Blois",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Nora Monnehay, psychologue à Blois.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois du lundi au vendredi, de 9 h à 17 h, en thérapie individuelle ou de couple. Écrivez-moi ou appelez-moi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Nora Monnehay, psychologue à Blois",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Nora Monnehay, psychologue à Blois",
+   "seoDescription": "Adresse et téléphone de Nora Monnehay, psychologue, 37 allée des Pins à Blois.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 37 allée des Pins, à Blois.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Nora Monnehay"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

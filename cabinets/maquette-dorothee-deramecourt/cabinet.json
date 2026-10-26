@@ -1,0 +1,289 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Dorothée Deramecourt (prospect), d'après psyneuropsy-lemans.com. Publiée sur youxdesign.fr/maquettes/dorothee-deramecourt/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psyneuropsy-lemans.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F5FB",
+   "encre": "#14213A",
+   "accent": "#3F63B0",
+   "doux": "#DCE4F4",
+   "texte2": "#4C5668"
+  }
+ },
+ "praticien": {
+  "prenom": "Dorothée",
+  "nom": "Deramecourt",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, neuropsychologue",
+  "specialite": "thérapies comportementales et cognitives, bilans cognitifs, remédiation cognitive, ateliers",
+  "specialiteCourte": "TCC et neuropsychologie",
+  "adeli": "729304394",
+  "public": "Adolescents, adultes et seniors"
+ },
+ "contact": {
+  "email": "dorothee.deramecourt@psyneuropsy.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/nantes/dorothee-deramecourt"
+  }
+ },
+ "cabinet": {
+  "adresse": "Cabinet PsyNeuroPsy",
+  "codePostal": "44000",
+  "ville": "Nantes",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles anxieux et phobies",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Dépression",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Troubles du sommeil",
+   "icone": "lune"
+  },
+  {
+   "titre": "Addictions et TOC",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Deuil, séparation",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Plainte cognitive",
+   "texte": "Mémoire, attention, planification.",
+   "icone": "cerveau"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Dorothée Deramecourt, psychologue à Nantes",
+   "seoDescription": "Dorothée Deramecourt, psychologue, neuropsychologue à Nantes. Thérapies comportementales et cognitives, bilans cognitifs, remédiation cognitive, ateliers.",
+   "surtitre": "Psychologue, neuropsychologue · Nantes",
+   "titre": "Faire face\n*aux difficultés du quotidien*",
+   "intro": "Le cabinet PsyNeuroPsy propose des psychothérapies, dont les thérapies comportementales et cognitives (TCC) et la psychothérapie de soutien, ainsi que des bilans cognitifs, de la remédiation cognitive et des ateliers thérapeutiques.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Dorothée*",
+   "presentation": [
+    "Psychologue et neuropsychologue, j’ai exercé au centre médical François-Gallouédec et à l’EPSM de la Sarthe, au centre de soins pour adolescents.",
+    "Je suis membre du réseau ALOIS, de l’AFRC et de l’ATCC."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Dorothée Deramecourt, psychologue à Nantes",
+   "seoDescription": "Parcours et formations de Dorothée Deramecourt, psychologue à Nantes.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue et neuropsychologue, j’ai exercé au centre médical François-Gallouédec et à l’EPSM de la Sarthe, au centre de soins pour adolescents.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Dorothée Deramecourt, psychologue à Nantes",
+   "seoDescription": "L’approche de Dorothée Deramecourt, psychologue à Nantes : thérapies comportementales et cognitives, bilans cognitifs, remédiation cognitive, ateliers.",
+   "titre": "Thérapies brèves,\n*validées scientifiquement*",
+   "intro": "Les TCC visent à identifier et comprendre les idées et les comportements à l’origine d’une souffrance, ainsi que leurs mécanismes de maintien, pour les remplacer par des stratégies adaptées.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapie",
+     "texte": "TCC et psychothérapie de soutien.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Bilan cognitif",
+     "texte": "Objectiver les troubles et leurs répercussions dans la vie quotidienne, scolaire et professionnelle.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Remédiation cognitive",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Ateliers",
+     "texte": "Gestion du stress et de l’anxiété, ateliers mémoire.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Activités",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Dorothée Deramecourt, psychologue à Nantes",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Dorothée Deramecourt, psychologue à Nantes.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Prenez rendez-vous en ligne sur Doctolib, ou écrivez-moi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Dorothée Deramecourt, psychologue à Nantes",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Dorothée Deramecourt, psychologue à Nantes",
+   "seoDescription": "Adresse et téléphone de Dorothée Deramecourt, psychologue, Cabinet PsyNeuroPsy à Nantes.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet PsyNeuroPsy se trouve à Nantes. Prenez rendez-vous sur Doctolib, ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Dorothée Deramecourt"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

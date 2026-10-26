@@ -1,0 +1,319 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Laurine Saint-Martory (prospect), d'après laurinesaintmartor.wixsite.com/my-site. Publiée sur youxdesign.fr/maquettes/laurine-saint-martory/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://laurinesaintmartor.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F8F6",
+   "encre": "#1C2A26",
+   "accent": "#2E8A72",
+   "doux": "#DCEEE7",
+   "texte2": "#4E5E59"
+  }
+ },
+ "praticien": {
+  "prenom": "Laurine",
+  "nom": "Saint-Martory",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "évaluation et prise en charge des troubles neurodéveloppementaux, approche cognitive-comportementale et développementale",
+  "specialiteCourte": "Troubles neurodéveloppementaux",
+  "adeli": "319331641",
+  "public": "Enfants, adolescents et leurs familles"
+ },
+ "contact": {
+  "telephone": "07 86 29 69 50",
+  "email": "lsaintmartory.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "1 chemin de Lauzerville",
+  "codePostal": "31280",
+  "ville": "Aigrefeuille",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous uniquement",
+  "acces": [
+   {
+    "titre": "Cabinet Zig Zag",
+    "texte": "Un centre paramédical.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Interventions extérieures",
+    "texte": "À domicile, et participation aux équipes de suivi de scolarisation.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Première consultation",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance psycho-éducative ou de suivi",
+   "prix": "45 €",
+   "duree": "45 min"
+  },
+  {
+   "nom": "Guidance parentale",
+   "prix": "50 €",
+   "duree": "45 min à 1 h"
+  },
+  {
+   "nom": "Groupe d’habiletés sociales",
+   "prix": "40 €",
+   "duree": "1 h"
+  },
+  {
+   "nom": "Bilan psychométrique (WISC V)",
+   "prix": "250 €",
+   "texte": "Plus l’entretien préliminaire (60 €)."
+  },
+  {
+   "nom": "Bilan neuropsychologique complet",
+   "prix": "350 €",
+   "texte": "Psychométrie et bilans complémentaires."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles neurodéveloppementaux",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Attention",
+   "texte": "Évaluation TEA-Ch, NEPSY II.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Habiletés sociales",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Comportement socio-adaptatif",
+   "icone": "marches"
+  },
+  {
+   "titre": "Accompagnement des parents",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Laurine Saint-Martory, psychologue à Aigrefeuille",
+   "seoDescription": "Laurine Saint-Martory, psychologue à Aigrefeuille. Évaluation et prise en charge des troubles neurodéveloppementaux, approche cognitive-comportementale et développementale.",
+   "surtitre": "Psychologue · Aigrefeuille, près de Toulouse",
+   "titre": "L’enfant et sa famille\n*au cœur du projet*",
+   "intro": "Psychologue spécialisée dans l’évaluation et la prise en charge des troubles neurodéveloppementaux, je vous reçois sur rendez-vous au cabinet Zig Zag, un centre paramédical à Aigrefeuille.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Laurine*",
+   "presentation": [
+    "En accord avec les recommandations de la Haute Autorité de santé, je propose des interventions cognitives-comportementales et développementales.",
+    "Le projet d’accompagnement résulte d’un accord commun avec l’enfant ou l’adolescent et sa famille, et il est réévalué en fonction des progrès réalisés."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Laurine Saint-Martory, psychologue à Aigrefeuille",
+   "seoDescription": "Parcours et formations de Laurine Saint-Martory, psychologue à Aigrefeuille.",
+   "titre": "Mon *parcours*",
+   "intro": "En accord avec les recommandations de la Haute Autorité de santé, je propose des interventions cognitives-comportementales et développementales.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Laurine Saint-Martory, psychologue à Aigrefeuille",
+   "seoDescription": "L’approche de Laurine Saint-Martory, psychologue à Aigrefeuille : évaluation et prise en charge des troubles neurodéveloppementaux, approche cognitive-comportementale et développementale.",
+   "titre": "Des interventions\n*coordonnées*",
+   "intro": "Tous les acteurs ont une place importante : les interventions sont coordonnées, pour une prise en charge la plus globale possible et pour favoriser la généralisation des compétences.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Séances individuelles",
+     "texte": "45 minutes, avec des objectifs personnalisés.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Groupes d’habiletés sociales",
+     "texte": "Après un entretien préliminaire avec la famille.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Guidance parentale",
+     "texte": "Comprendre les troubles et mettre en place des stratégies au quotidien.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Bilans et évaluations",
+     "texte": "WISC V, TEA-Ch, NEPSY II, Vineland 2, PEP 3.",
+     "icone": "puzzle"
+    }
+   ],
+   "outilsSurtitre": "Prestations",
+   "outilsTitre": "Accompagner *et évaluer*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Laurine Saint-Martory, psychologue à Aigrefeuille",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Laurine Saint-Martory, psychologue à Aigrefeuille.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances ne sont pas prises en charge par la Sécurité sociale, mais certaines mutuelles en remboursent une partie. Dans le cadre d’une reconnaissance de handicap, une aide peut être attribuée par la MDPH.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Laurine Saint-Martory, psychologue à Aigrefeuille",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Laurine Saint-Martory, psychologue à Aigrefeuille",
+   "seoDescription": "Adresse et téléphone de Laurine Saint-Martory, psychologue, 1 chemin de Lauzerville à Aigrefeuille.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet Zig Zag se trouve 1 chemin de Lauzerville, à Aigrefeuille.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Laurine Saint-Martory"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

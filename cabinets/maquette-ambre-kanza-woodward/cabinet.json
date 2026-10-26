@@ -1,0 +1,296 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Ambre Kanza Woodward (prospect), d'après www.neuropsychologie-lyon.com. Publiée sur youxdesign.fr/maquettes/ambre-kanza-woodward/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.neuropsychologie-lyon.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F8F8",
+   "encre": "#132B33",
+   "accent": "#0F7F8C",
+   "doux": "#D8EEF0",
+   "texte2": "#4A5D62"
+  }
+ },
+ "praticien": {
+  "prenom": "Ambre",
+  "nom": "Kanza Woodward",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, neuropsychologue",
+  "specialite": "bilans neuropsychologiques, tests de QI, troubles « dys », TDAH",
+  "specialiteCourte": "Neuropsychologie",
+  "diplome": "Psychologue spécialisée en neuropsychologie (Université Lyon 2, 2012)",
+  "public": "Enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 09 59 25 09",
+  "email": "ambrekanza@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "2 rue Marius Berliet",
+  "codePostal": "69380",
+  "ville": "Chazay-d’Azergues",
+  "zone": "Près de L’Arbresle et de Lyon",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Consultations les mardi, mercredi, jeudi et vendredi matins",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Test de QI enfant (WISC-V)",
+   "lieu": "Au cabinet",
+   "prix": "280 €",
+   "texte": "De 6 à 16 ans et 11 mois ; WPPSI-IV avant 6 ans.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan attentionnel / hyperactivité",
+   "prix": "280 €",
+   "texte": "NEPSY, TEA-Ch."
+  },
+  {
+   "nom": "Bilan pour dossier MDPH",
+   "prix": "560 €"
+  },
+  {
+   "nom": "Test de QI adulte (WAIS-IV)",
+   "prix": "300 €"
+  },
+  {
+   "nom": "Bilan diagnostic TDAH adulte",
+   "prix": "380 €",
+   "duree": "2 h 30 environ"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles de l’attention",
+   "texte": "TDAH, hyperactivité.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Précocité",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Troubles « dys »",
+   "texte": "Dyslexie, dysorthographie, dyspraxie, dysphasie.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Difficultés scolaires",
+   "icone": "marches"
+  },
+  {
+   "titre": "Adaptations pédagogiques",
+   "icone": "puzzle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Ambre Kanza Woodward, psychologue à Chazay-d’Azergues",
+   "seoDescription": "Ambre Kanza Woodward, psychologue, neuropsychologue à Chazay-d’Azergues. Bilans neuropsychologiques, tests de qi, troubles « dys », tdah.",
+   "surtitre": "Neuropsychologue · Près de L’Arbresle",
+   "titre": "Mettre fin\n*à l’errance diagnostique*",
+   "intro": "Je propose des bilans neuropsychologiques dans une démarche de diagnostic d’abord, et d’orientation ensuite, pour les enfants, les adolescents et les adultes.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Ambre*",
+   "presentation": [
+    "Diplômée depuis 2012 de l’Université Lyon 2 en tant que psychologue spécialisée en neuropsychologie, j’ai travaillé à l’hôpital neurologique de Bron, puis en addictologie à l’hôpital de la Croix-Rousse et à la clinique la Villa des Roses.",
+    "Mon parcours m’a donné une sensibilité particulière aux enfants et aux questions des parents face aux difficultés d’apprentissage : diagnostic flou ou absent, adaptations non respectées, démarches compliquées."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Ambre Kanza Woodward, psychologue à Chazay-d’Azergues",
+   "seoDescription": "Parcours et formations de Ambre Kanza Woodward, psychologue à Chazay-d’Azergues.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée depuis 2012 de l’Université Lyon 2 en tant que psychologue spécialisée en neuropsychologie, j’ai travaillé à l’hôpital neurologique de Bron, puis en addictologie à l’hôpital de la Croix-Rousse et à la clinique la Villa des Roses.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2012",
+     "titre": "Psychologue spécialisée en neuropsychologie",
+     "texte": "Université Lyon 2."
+    },
+    {
+     "titre": "Hôpital neurologique de Bron",
+     "texte": "Deux années, pendant le cursus universitaire."
+    },
+    {
+     "titre": "Addictologie",
+     "texte": "Hôpital de la Croix-Rousse et clinique la Villa des Roses."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Ambre Kanza Woodward, psychologue à Chazay-d’Azergues",
+   "seoDescription": "L’approche de Ambre Kanza Woodward, psychologue à Chazay-d’Azergues : bilans neuropsychologiques, tests de QI, troubles « dys », TDAH.",
+   "titre": "Diagnostiquer,\n*puis orienter*",
+   "intro": "Les bilans neuropsychologiques permettent de diagnostiquer un trouble de l’attention, une précocité ou un retard intellectuel, et de compléter le diagnostic des troubles « dys ».",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Ambre Kanza Woodward, psychologue à Chazay-d’Azergues",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Ambre Kanza Woodward, psychologue à Chazay-d’Azergues.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations de neuropsychologie ne sont pas prises en charge par la Sécurité sociale.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Ambre Kanza Woodward, psychologue à Chazay-d’Azergues",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Ambre Kanza Woodward, psychologue à Chazay-d’Azergues",
+   "seoDescription": "Adresse et téléphone de Ambre Kanza Woodward, psychologue, 2 rue Marius Berliet à Chazay-d’Azergues.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 2 rue Marius Berliet, à Chazay-d’Azergues, près de L’Arbresle.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Ambre Kanza Woodward"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
