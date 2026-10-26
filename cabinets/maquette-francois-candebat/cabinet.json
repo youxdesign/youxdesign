@@ -1,0 +1,292 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour François Candebat (prospect), d'après www.francois-candebat-souffrance-travail.fr. Publiée sur youxdesign.fr/maquettes/francois-candebat/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.francois-candebat-souffrance-travail.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F6F3EE",
+   "encre": "#1F1E1C",
+   "accent": "#8A3B2A",
+   "doux": "#ECE3D8",
+   "texte2": "#57534D"
+  }
+ },
+ "praticien": {
+  "prenom": "François",
+  "nom": "Candebat",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicien",
+  "specialite": "consultation souffrance et travail, psychodynamique du travail, orientation psychanalytique",
+  "specialiteCourte": "Souffrance au travail",
+  "diplome": "Titre de psychologue clinicien (Université Paris VIII, 2014), spécialisation en psychopathologie du travail (Institut de psychodynamique du travail, 2022)",
+  "rpps": "10008525346",
+  "public": "Adultes, salariés et collectifs de travail",
+  "citation": "Le travail souffre, c’est lui qu’il faut soigner. (Yves Clot)"
+ },
+ "contact": {
+  "telephone": "06 33 84 50 16",
+  "email": "cst.brive@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "19 boulevard Clemenceau",
+  "codePostal": "19100",
+  "ville": "Brive-la-Gaillarde",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet",
+   "prix": "À convenir",
+   "texte": "Les tarifs sont adaptés à chacun et chacune, et fixés lors de la première séance. Une facture peut être remise pour votre mutuelle.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Perte de sens au travail",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Harcèlement",
+   "texte": "Et violences sexistes en milieu professionnel.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Violences des usagers",
+   "icone": "alerte"
+  },
+  {
+   "titre": "Épuisement",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Valeurs attaquées",
+   "texte": "Quand l’organisation du travail ne reconnaît plus votre contribution.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "François Candebat, psychologue à Brive-la-Gaillarde",
+   "seoDescription": "François Candebat, psychologue clinicien à Brive-la-Gaillarde. Consultation souffrance et travail, psychodynamique du travail, orientation psychanalytique.",
+   "surtitre": "Consultation Souffrance et Travail · Brive-la-Gaillarde",
+   "titre": "Quand le travail\n*fait souffrir*",
+   "intro": "Au-delà des situations où la violence a sa part, la souffrance au travail est depuis longtemps le fait d’organisations qui ne permettent plus la reconnaissance de la contribution du travailleur, ou qui attaquent ses valeurs, avec pour conséquence une perte de sens majeure.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Le travail participe à la santé et à la construction de l’identité, mais il peut aussi être déstructurant ou pathogène.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis François*",
+   "presentation": [
+    "Psychologue clinicien, diplômé de l’Université Paris VIII, je me suis spécialisé en psychopathologie du travail à l’Institut de psychodynamique du travail, dans l’enseignement dirigé par Christophe Dejours.",
+    "Mon orientation théorique : la psychanalyse et la psychodynamique du travail. J’exerce aussi au centre médico-psychologique de l’hôpital de Périgueux, auprès des enfants et des adolescents."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · François Candebat, psychologue à Brive-la-Gaillarde",
+   "seoDescription": "Parcours et formations de François Candebat, psychologue à Brive-la-Gaillarde.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicien, diplômé de l’Université Paris VIII, je me suis spécialisé en psychopathologie du travail à l’Institut de psychodynamique du travail, dans l’enseignement dirigé par Christophe Dejours.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · François Candebat, psychologue à Brive-la-Gaillarde",
+   "seoDescription": "L’approche de François Candebat, psychologue à Brive-la-Gaillarde : consultation souffrance et travail, psychodynamique du travail, orientation psychanalytique.",
+   "titre": "Rendre intelligible\n*ce que l’on vit au travail*",
+   "intro": "Le travail est à la fois une expérience du monde et une expérience de soi : par le travail, je ne modifie pas seulement le monde, je me modifie moi-même.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Déposer sa souffrance",
+     "icone": "plume"
+    },
+    {
+     "titre": "Investiguer le travail",
+     "texte": "Comprendre l’impact de l’organisation du travail sur soi et sur sa santé.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Se réapproprier son histoire professionnelle",
+     "texte": "Restaurer sa confiance dans sa capacité à agir, et explorer des pistes.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Un travail en réseau",
+     "texte": "Avec les médecins, la médecine et l’inspection du travail, les avocats, les syndicats et les associations.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "La consultation",
+   "outilsTitre": "Pourquoi *consulter*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · François Candebat, psychologue à Brive-la-Gaillarde",
+   "seoDescription": "Séances, tarifs et informations pratiques avec François Candebat, psychologue à Brive-la-Gaillarde.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les frais engagés auprès d’un psychologue ne sont pas remboursés par la Sécurité sociale, mais certaines mutuelles y participent. Des interventions en prévention et des analyses de pratiques sont aussi proposées aux collectifs de travail.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · François Candebat, psychologue à Brive-la-Gaillarde",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · François Candebat, psychologue à Brive-la-Gaillarde",
+   "seoDescription": "Adresse et téléphone de François Candebat, psychologue, 19 boulevard Clemenceau à Brive-la-Gaillarde.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "La consultation se trouve 19 boulevard Clemenceau, à Brive-la-Gaillarde.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "François Candebat"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Souffrance et Travail",
+   "detail": "Le réseau des consultations.",
+   "url": "https://www.souffrance-et-travail.com/"
+  }
+ ]
+}

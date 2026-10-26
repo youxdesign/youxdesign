@@ -1,0 +1,298 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Nadège Mizi (prospect), d'après nadegemizipsychologue.sitew.fr. Publiée sur youxdesign.fr/maquettes/nadege-mizi/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://nadegemizipsychologue.sitew.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF6F2",
+   "encre": "#2F2D30",
+   "accent": "#C25E33",
+   "doux": "#F7E3D8",
+   "texte2": "#5C5960"
+  }
+ },
+ "praticien": {
+  "prenom": "Nadège",
+  "nom": "Mizi",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "approche analytique et systémique, entretien motivationnel, thérapie intégrative, victimologie",
+  "specialiteCourte": "Thérapie intégrative",
+  "diplome": "Psychologie clinique et psychopathologie (Aix-Marseille Université)",
+  "adeli": "049302813",
+  "public": "Adultes"
+ },
+ "contact": {
+  "telephone": "06 66 98 48 13",
+  "email": "nadegemizi.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Espace Santé, quartier Samson",
+  "codePostal": "04500",
+  "ville": "Riez",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "13:00-20:00",
+   "jeudi": "13:00-20:00",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le mercredi au cabinet, le jeudi en visio",
+  "acces": [
+   {
+    "titre": "À domicile",
+    "texte": "Dans un rayon de 50 km autour du cabinet, avec 18 € de frais de déplacement.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Le jeudi après-midi.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation au cabinet",
+   "lieu": "Riez",
+   "prix": "50 €",
+   "duree": "50 min",
+   "texte": "Hors frais de déplacement à domicile.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation en visio",
+   "prix": "50 €",
+   "duree": "50 min"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Stress, angoisse, mal-être",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Changement de vie",
+   "texte": "Un changement soudain que l’on n’arrive pas à accepter.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Traumatisme, deuil",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Violences conjugales et sexuelles",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Échec scolaire",
+   "icone": "livre"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Nadège Mizi, psychologue à Riez",
+   "seoDescription": "Nadège Mizi, psychologue clinicienne à Riez. Approche analytique et systémique, entretien motivationnel, thérapie intégrative, victimologie.",
+   "surtitre": "Psychologue clinicienne · Riez",
+   "titre": "Libérez\n*votre parole*",
+   "intro": "Je vous reçois à l’Espace Santé de Riez, en visio ou à domicile. Les raisons de consulter sont diverses, mais toutes sont importantes dès lors qu’il y a souffrance.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Nadège*",
+   "presentation": [
+    "Diplômée en psychologie clinique et psychopathologie à Aix-Marseille, je me suis aussi formée à la criminologie et à la victimologie (Institut de criminologie méditerranéen), à l’agressivité et la violence en institution, et à la prise en charge des victimes de violences sexuelles et conjugales.",
+    "Mon approche est analytique et systémique, avec l’entretien motivationnel et une thérapie intégrative pour les adultes."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Nadège Mizi, psychologue à Riez",
+   "seoDescription": "Parcours et formations de Nadège Mizi, psychologue à Riez.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée en psychologie clinique et psychopathologie à Aix-Marseille, je me suis aussi formée à la criminologie et à la victimologie (Institut de criminologie méditerranéen), à l’agressivité et la violence en institution, et à la prise en charge des victimes de violences sexuelles et conjugales.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Psychologie clinique et psychopathologie",
+     "texte": "Faculté des arts, langues, lettres et sciences humaines, Aix-Marseille."
+    },
+    {
+     "titre": "Criminologie et victimologie",
+     "texte": "Institut de criminologie méditerranéen, Aix-en-Provence."
+    },
+    {
+     "titre": "Agressivité et violence en institution"
+    },
+    {
+     "titre": "Victimes de violences sexuelles et conjugales"
+    }
+   ],
+   "parcoursTitre": "Mes *formations*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Nadège Mizi, psychologue à Riez",
+   "seoDescription": "L’approche de Nadège Mizi, psychologue à Riez : approche analytique et systémique, entretien motivationnel, thérapie intégrative, victimologie.",
+   "titre": "Une écoute neutre\n*et confidentielle*",
+   "intro": "Un psychologue vous offre un espace de parole, une écoute neutre et confidentielle. Il est un professionnel du fonctionnement psychique, du comportement et des relations.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Nadège Mizi, psychologue à Riez",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Nadège Mizi, psychologue à Riez.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les rendez-vous se prennent par téléphone ou par e-mail. Si je ne réponds pas, laissez un message : je vous rappelle dans les 24 h. Les consultations ne sont pas prises en charge par la Sécurité sociale ; certaines mutuelles en remboursent une partie.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "En espèces, par chèque, ou par virement pour la visio.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Nadège Mizi, psychologue à Riez",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Nadège Mizi, psychologue à Riez",
+   "seoDescription": "Adresse et téléphone de Nadège Mizi, psychologue, Espace Santé, quartier Samson à Riez.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve à l’Espace Santé, quartier Samson, à Riez.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Nadège Mizi"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

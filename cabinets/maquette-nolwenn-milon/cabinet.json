@@ -1,0 +1,321 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Nolwenn Milon (prospect), d'après psy-tcc-enfant-brest.fr. Publiée sur youxdesign.fr/maquettes/nolwenn-milon/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psy-tcc-enfant-brest.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F3FA",
+   "encre": "#1E1D33",
+   "accent": "#5A3D99",
+   "doux": "#E4E0F3",
+   "texte2": "#565668"
+  }
+ },
+ "praticien": {
+  "prenom": "Nolwenn",
+  "nom": "Milon",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue du développement",
+  "specialite": "enfants, adolescents, jeunes adultes, soutien à la parentalité, périnatalité, TCC",
+  "specialiteCourte": "Enfants et adolescents",
+  "diplome": "Master 2 de psychologie du développement de l’enfant et de l’adolescent (Université de Rennes, 2010)",
+  "public": "Enfants, adolescents, jeunes adultes et parents"
+ },
+ "contact": {
+  "telephone": "07 63 23 29 27",
+  "email": "nolwenn.milon.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Docorga",
+   "url": "https://docorga.com/praticien/65cf341779e8af994ba9e13e"
+  }
+ },
+ "cabinet": {
+  "adresse": "9 rue Sébastopol",
+  "codePostal": "29200",
+  "ville": "Brest",
+  "quartier": "près de la place de Strasbourg",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "Au cabinet",
+   "prix": "60 €",
+   "duree": "45 min",
+   "texte": "Une facture vous est remise sur demande pour votre mutuelle.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Émotions et comportements",
+   "texte": "Colère, anxiété, régulation des émotions, avec ou sans TDAH.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Attention",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Habiletés parentales, soutien aux parents.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Périnatalité",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Adolescence et orientation",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Nolwenn Milon, psychologue à Brest",
+   "seoDescription": "Nolwenn Milon, psychologue du développement à Brest. Enfants, adolescents, jeunes adultes, soutien à la parentalité, périnatalité, tcc.",
+   "surtitre": "Psychologue · Brest",
+   "titre": "Accompagner les enfants\n*et leurs parents*",
+   "intro": "Je suis psychologue spécialisée dans le développement de l’enfant et de l’adolescent, le soutien à la parentalité et la périnatalité. Je vous accueille dans mon cabinet à Brest, près de la place de Strasbourg.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Nolwenn*",
+   "presentation": [
+    "Il n’est pas toujours évident de choisir son psychologue : la relation entre un patient et son psychologue est essentielle à la réussite de la thérapie. Je vous présente donc mon parcours, mes formations et ma façon de travailler.",
+    "Après une licence de psychologie à Brest, j’ai obtenu à l’Université de Rennes un master 2 de psychologie du développement de l’enfant et de l’adolescent, et je me forme aux thérapies cognitives et comportementales (AFTCC)."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Docorga, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Nolwenn Milon, psychologue à Brest",
+   "seoDescription": "Parcours et formations de Nolwenn Milon, psychologue à Brest.",
+   "titre": "Mon *parcours*",
+   "intro": "Il n’est pas toujours évident de choisir son psychologue : la relation entre un patient et son psychologue est essentielle à la réussite de la thérapie. Je vous présente donc mon parcours, mes formations et ma façon de travailler.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2010",
+     "titre": "Master 2 de psychologie du développement",
+     "texte": "Université de Rennes."
+    },
+    {
+     "date": "2021",
+     "titre": "Le dessin et le jeu en thérapie avec l’enfant",
+     "texte": "APPEA."
+    },
+    {
+     "date": "2022",
+     "titre": "Habiletés parentales",
+     "texte": "Régulation de l’attention, des émotions et des comportements, OCT-OPUS."
+    },
+    {
+     "date": "2023",
+     "titre": "Régulation des émotions, avec ou sans TDAH",
+     "texte": "APPEA."
+    },
+    {
+     "date": "2022-2025",
+     "titre": "Thérapies cognitives et comportementales",
+     "texte": "AFTCC Rennes."
+    }
+   ],
+   "parcoursTitre": "Mon parcours *de formation*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Nolwenn Milon, psychologue à Brest",
+   "seoDescription": "L’approche de Nolwenn Milon, psychologue à Brest : enfants, adolescents, jeunes adultes, soutien à la parentalité, périnatalité, TCC.",
+   "titre": "Un premier contact\n*sécurisant*",
+   "intro": "« Sur qui vais-je tomber ? » : c’est souvent la première question. L’important est de créer un premier contact le plus sécurisant possible.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Consultations enfants",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Consultations adolescents",
+     "icone": "marches"
+    },
+    {
+     "titre": "Jeunes adultes et adultes",
+     "icone": "plume"
+    },
+    {
+     "titre": "Consultations parents",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Prestations",
+   "outilsTitre": "Pour *chaque âge*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Nolwenn Milon, psychologue à Brest",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Nolwenn Milon, psychologue à Brest.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances durent 45 minutes. Elles ne sont pas remboursées par la Sécurité sociale, mais certaines mutuelles peuvent en prendre en charge tout ou partie.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Nolwenn Milon, psychologue à Brest",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Nolwenn Milon, psychologue à Brest",
+   "seoDescription": "Adresse et téléphone de Nolwenn Milon, psychologue, 9 rue Sébastopol à Brest.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 9 rue Sébastopol, à Brest, près de la place de Strasbourg.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Nolwenn Milon"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "AFTCC",
+   "detail": "Les thérapies comportementales et cognitives.",
+   "url": "https://www.aftcc.org/les-therapies-comportementales-et-cognitives"
+  }
+ ]
+}

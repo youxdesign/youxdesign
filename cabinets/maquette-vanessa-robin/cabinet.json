@@ -1,0 +1,343 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Vanessa Robin (prospect), d'après vanessarobin.wixsite.com/vanessarobinpsy. Publiée sur youxdesign.fr/maquettes/vanessa-robin/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://vanessarobin.wixsite.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6F0",
+   "encre": "#1F2A1C",
+   "accent": "#4D7A3A",
+   "doux": "#E0EAD8",
+   "texte2": "#53604D"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Vanessa",
+  "nom": "Robin",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "périnatalité, parentalité, couple et familles",
+  "specialiteCourte": "Périnatalité, couple et famille",
+  "diplome": "Master 2 professionnel clinique psychopathologique et clinique de la famille (Université de Besançon, 2013)",
+  "public": "De la petite enfance à l’âge adulte, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 51 07 29 80",
+  "email": "robin.vanessa@yahoo.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Perfactive",
+   "url": "https://perfactive.fr/vanessa-robin2/book"
+  }
+ },
+ "cabinet": {
+  "adresse": "7 rue du Prieuré",
+  "codePostal": "44150",
+  "ville": "Vair-sur-Loire",
+  "quartier": "près d’Ancenis",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:30-19:00",
+   "mardi": "",
+   "mercredi": "9:30-19:00",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Aussi le jeudi (semaine paire) et le samedi matin (semaine impaire) au cabinet ; visio le jeudi (semaine impaire) et le vendredi après-midi (semaine paire)",
+  "acces": [
+   {
+    "titre": "Visio-consultation",
+    "texte": "Un lien vous est envoyé par e-mail, pour vous connecter sur ordinateur, tablette ou téléphone.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Suivi en périnatalité, adulte",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "55 €",
+   "duree": "45 min à 1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance enfant (moins de 12 ans)",
+   "prix": "50 €",
+   "duree": "30 à 45 min"
+  },
+  {
+   "nom": "Séance de couple",
+   "prix": "65 €",
+   "duree": "1 h"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Désir d’enfant, grossesse",
+   "texte": "PMA, adoption, déni de grossesse.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Post-partum",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Parentalité",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Couple",
+   "texte": "Favoriser la compréhension l’un de l’autre.",
+   "icone": "plume"
+  },
+  {
+   "titre": "Famille",
+   "texte": "Rétablir la communication et la place de chacun, entre générations.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Deuil, traumatismes familiaux",
+   "icone": "nuage"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Vanessa Robin, psychologue à Vair-sur-Loire",
+   "seoDescription": "Vanessa Robin, psychologue clinicienne, psychothérapeute à Vair-sur-Loire. Périnatalité, parentalité, couple et familles.",
+   "surtitre": "Psychologue · Vair-sur-Loire, près d’Ancenis",
+   "titre": "Retrouver\n*son autonomie psychique*",
+   "intro": "Spécialisée en périnatalité, parentalité, couple et familles, je reçois aussi de la petite enfance à l’âge adulte, au cabinet à Vair-sur-Loire ou en visio-consultation.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Vanessa*",
+   "presentation": [
+    "Titulaire du titre de psychologue clinicienne et de psychothérapeute, je suis diplômée d’un master 2 de clinique psychopathologique et clinique de la famille (Besançon, 2013), après une licence de psychologie à Nantes.",
+    "L’observation inspirée d’Esther Bick (lien d’attachement, contenance, communication) me permet de prendre en compte l’histoire de chacun, de la naissance à l’âge adulte."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Perfactive, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Vanessa Robin, psychologue à Vair-sur-Loire",
+   "seoDescription": "Parcours et formations de Vanessa Robin, psychologue à Vair-sur-Loire.",
+   "titre": "Mon *parcours*",
+   "intro": "Titulaire du titre de psychologue clinicienne et de psychothérapeute, je suis diplômée d’un master 2 de clinique psychopathologique et clinique de la famille (Besançon, 2013), après une licence de psychologie à Nantes.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2013",
+     "titre": "Master 2 de clinique psychopathologique et de la famille",
+     "texte": "Université de Besançon, après une licence à Nantes et une année Erasmus."
+    },
+    {
+     "titre": "En institution",
+     "texte": "Crèche, service de cancérologie, domaine du handicap."
+    },
+    {
+     "date": "2016",
+     "titre": "Installation en libéral",
+     "texte": "D’abord à domicile."
+    },
+    {
+     "date": "2019",
+     "titre": "Cabinet à Vair-sur-Loire",
+     "texte": "Puis les visio-consultations."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Vanessa Robin, psychologue à Vair-sur-Loire",
+   "seoDescription": "L’approche de Vanessa Robin, psychologue à Vair-sur-Loire : périnatalité, parentalité, couple et familles.",
+   "titre": "Soutien\n*et psychothérapie*",
+   "intro": "Des séances de soutien psychologique et des psychothérapies personnalisées, en individuel, en couple ou en famille.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Séance individuelle",
+     "texte": "Adulte, adolescent, enfant, suivi en périnatalité.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Séance de couple",
+     "texte": "Soutien à la parentalité, dans le couple conjugal ou parental.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Séance familiale",
+     "texte": "Rétablir la communication et la place de chacun.",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Les séances",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Vanessa Robin, psychologue à Vair-sur-Loire",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Vanessa Robin, psychologue à Vair-sur-Loire.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Pour toute nouvelle prise en charge, remplissez le formulaire de demande ; les patients déjà suivis peuvent reprendre rendez-vous en ligne directement.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "À chaque séance, par chèque, en espèces ou par virement.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Vanessa Robin, psychologue à Vair-sur-Loire",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Vanessa Robin, psychologue à Vair-sur-Loire",
+   "seoDescription": "Adresse et téléphone de Vanessa Robin, psychologue, 7 rue du Prieuré à Vair-sur-Loire.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 7 rue du Prieuré, à Vair-sur-Loire, près d’Ancenis. Je reçois aussi en visio.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Vanessa Robin"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Instagram",
+   "detail": "Ma page.",
+   "url": "https://www.instagram.com/vanessarobinpsy/"
+  },
+  {
+   "titre": "Moment Causette",
+   "detail": "Mes rencontres autour de la parentalité.",
+   "url": "https://momentcausette.my.canva.site/"
+  }
+ ]
+}

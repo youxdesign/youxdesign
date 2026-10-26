@@ -1,0 +1,292 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Nelly Broissin (prospect), d'après nellybroissin.wixsite.com/accueil. Publiée sur youxdesign.fr/maquettes/nelly-broissin/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://nellybroissin.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F6F5F2",
+   "encre": "#22201C",
+   "accent": "#7A5C3A",
+   "doux": "#ECE6DC",
+   "texte2": "#5A554D"
+  }
+ },
+ "praticien": {
+  "prenom": "Nelly",
+  "nom": "Broissin",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychanalyste",
+  "specialite": "psychothérapie d’orientation psychanalytique, cure psychanalytique, consultations à domicile, analyse des pratiques",
+  "specialiteCourte": "Orientation psychanalytique",
+  "diplome": "Psychologue clinicienne diplômée de l’Université d’Aix-Marseille",
+  "public": "Adultes, adolescents et enfants"
+ },
+ "contact": {
+  "telephone": "07 72 22 44 58",
+  "email": "nelly.broissin@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "176 avenue Majoral Raoul Arnaud",
+  "codePostal": "04100",
+  "ville": "Manosque",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "8:30-19:00",
+   "mardi": "8:30-19:00",
+   "mercredi": "",
+   "jeudi": "8:30-19:00",
+   "vendredi": "",
+   "samedi": "9:00-12:00",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Résidence Jeanne d’Arc",
+    "texte": "1er étage.",
+    "icone": "porte"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Dans un rayon de 20 à 30 km autour de Manosque, selon les situations : phobies, handicap, perte d’autonomie, traitements lourds.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet ou à domicile",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Difficultés de parcours",
+   "texte": "Dans la vie personnelle, professionnelle ou scolaire.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Souffrance et plainte",
+   "texte": "Ce qui pousse à venir parler.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Désir de cure psychanalytique",
+   "icone": "plume"
+  },
+  {
+   "titre": "Perte d’autonomie, maladie",
+   "texte": "Avec la possibilité de consultations à domicile.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Nelly Broissin, psychologue à Manosque",
+   "seoDescription": "Nelly Broissin, psychologue clinicienne, psychanalyste à Manosque. Psychothérapie d’orientation psychanalytique, cure psychanalytique, consultations à domicile, analyse des pratiques.",
+   "surtitre": "Psychologue clinicienne · Manosque",
+   "titre": "Laisser place\n*à une parole*",
+   "intro": "Je reçois à mon cabinet de Manosque, ou à votre domicile, les lundi, mardi, jeudi et samedi matin. J’accueille les adultes, les adolescents et les enfants qui rencontrent des difficultés dans leur parcours de vie.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Nelly*",
+   "presentation": [
+    "Psychologue clinicienne diplômée de l’Université d’Aix-Marseille et psychanalyste, je propose des entretiens individuels, en cabinet ou à domicile, ainsi que de l’analyse de pratiques en institution.",
+    "Il s’agit d’accueillir ce qui se dit, de laisser place à une parole, d’entendre quelque chose d’une souffrance et d’une plainte qui pousse à venir parler. À partir d’une demande, un travail thérapeutique devient possible."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Nelly Broissin, psychologue à Manosque",
+   "seoDescription": "Parcours et formations de Nelly Broissin, psychologue à Manosque.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne diplômée de l’Université d’Aix-Marseille et psychanalyste, je propose des entretiens individuels, en cabinet ou à domicile, ainsi que de l’analyse de pratiques en institution.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Nelly Broissin, psychologue à Manosque",
+   "seoDescription": "L’approche de Nelly Broissin, psychologue à Manosque : psychothérapie d’orientation psychanalytique, cure psychanalytique, consultations à domicile, analyse des pratiques.",
+   "titre": "Quelque chose\n*cherche à se dire*",
+   "intro": "En instaurant la règle de la libre association et en écoutant ses patients, Freud pose l’hypothèse de l’inconscient : quelque chose cherche à se dire à travers la parole.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Entretiens individuels",
+     "texte": "Pour les adultes, les adolescents et les enfants.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Cure psychanalytique",
+     "texte": "« Dites ce qui vous passe par la tête » : un pas de côté pour le sujet, dans le sillage de son désir.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Consultations à domicile",
+     "texte": "Pour remettre au travail les impasses et, peut-être, poursuivre ensuite en cabinet.",
+     "icone": "voiture"
+    },
+    {
+     "titre": "Analyse de pratiques",
+     "texte": "Groupes de parole pour les soignants : Ehpad, cliniques, crèches.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Mon approche",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Nelly Broissin, psychologue à Manosque",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Nelly Broissin, psychologue à Manosque.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Consultations sur rendez-vous, au cabinet de Manosque ou à domicile dans un rayon de 20 à 30 km.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Nelly Broissin, psychologue à Manosque",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Nelly Broissin, psychologue à Manosque",
+   "seoDescription": "Adresse et téléphone de Nelly Broissin, psychologue, 176 avenue Majoral Raoul Arnaud à Manosque.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve résidence Jeanne d’Arc (1er étage), 176 avenue Majoral Raoul Arnaud, à Manosque.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Nelly Broissin"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

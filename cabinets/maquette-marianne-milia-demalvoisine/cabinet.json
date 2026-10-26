@@ -1,0 +1,316 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marianne Milia Demalvoisine (prospect), d'après mariannemilia-psychologue.com. Publiée sur youxdesign.fr/maquettes/marianne-milia-demalvoisine/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://mariannemilia-psychologue.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF6F0",
+   "encre": "#2A1E17",
+   "accent": "#B0571E",
+   "doux": "#F5E3D3",
+   "texte2": "#5E5148"
+  }
+ },
+ "praticien": {
+  "prenom": "Marianne",
+  "nom": "Milia Demalvoisine",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "accompagnement des femmes noires et afrodescendantes, blessures émotionnelles et transgénérationnelles, bilans de chirurgie bariatrique",
+  "specialiteCourte": "Psychologue pour femmes",
+  "diplome": "Master 2 de psychologie clinique, spécialité psychothérapies (Université Paris VIII)",
+  "public": "Femmes, en téléconsultation"
+ },
+ "contact": {
+  "telephone": "06 52 54 00 79",
+  "email": "mariannemilia-psychologue@hotmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/nogent-sur-seine/marianne-milia-demalvoisine"
+  }
+ },
+ "cabinet": {
+  "adresse": "Cabinet en ligne",
+  "codePostal": "10400",
+  "ville": "Nogent-sur-Seine",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": true,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-20:00",
+   "mardi": "9:00-20:00",
+   "mercredi": "9:00-20:00",
+   "jeudi": "9:00-20:00",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Du lundi au jeudi, en téléconsultation",
+  "acces": [
+   {
+    "titre": "En téléconsultation",
+    "texte": "La capacité du psychologue à accueillir vos ressentis est la même : seul le dispositif change.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "En visio",
+   "prix": "60 €",
+   "duree": "45 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation longue",
+   "lieu": "En visio",
+   "prix": "70 €",
+   "duree": "60 min"
+  },
+  {
+   "nom": "Bilan de chirurgie bariatrique",
+   "prix": "À partir de 170 €",
+   "texte": "Et suivi post-opératoire."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Blessures émotionnelles",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Dynamiques transgénérationnelles",
+   "texte": "Loyautés familiales, blessures héritées.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Poser des limites",
+   "icone": "marches"
+  },
+  {
+   "titre": "Estime et confiance en soi",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Blessure du racisme",
+   "texte": "Micro-agressions, fatigue identitaire, suradaptation.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Épuisement professionnel",
+   "icone": "batterie"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine",
+   "seoDescription": "Marianne Milia Demalvoisine, psychologue clinicienne à Nogent-sur-Seine. Accompagnement des femmes noires et afrodescendantes, blessures émotionnelles et transgénérationnelles, bilans de chirurgie bariatrique.",
+   "surtitre": "Psychologue pour femmes · En visio",
+   "titre": "En paix\n*avec votre histoire*",
+   "intro": "Vous sentez que quelque chose bloque en vous, comme si une partie de vous voulait avancer, mais qu’une autre restait blessée, fatiguée ou perdue ? J’accompagne les femmes noires et afrodescendantes à guérir de leurs blessures émotionnelles, familiales et transgénérationnelles.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marianne*",
+   "presentation": [
+    "Psychologue clinicienne, diplômée d’un master 2 de psychologie clinique, spécialité psychothérapies (Université Paris VIII), et infirmière diplômée d’État, j’ai une expérience polyvalente, riche et atypique.",
+    "J’ai accompagné de nombreuses femmes à se libérer du poids de la suradaptation, des blessures relationnelles et de la fatigue identitaire, grâce à un accompagnement sensible à leur réalité."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine",
+   "seoDescription": "Parcours et formations de Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne, diplômée d’un master 2 de psychologie clinique, spécialité psychothérapies (Université Paris VIII), et infirmière diplômée d’État, j’ai une expérience polyvalente, riche et atypique.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine",
+   "seoDescription": "L’approche de Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine : accompagnement des femmes noires et afrodescendantes, blessures émotionnelles et transgénérationnelles, bilans de chirurgie bariatrique.",
+   "titre": "Un accompagnement\n*sensible à votre réalité*",
+   "intro": "Je propose plusieurs formats d’accompagnement, selon vos besoins et votre rythme.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapie en ligne",
+     "texte": "Un espace sécurisant, bienveillant et d’écoute pour amorcer du changement.",
+     "icone": "visio"
+    },
+    {
+     "titre": "Programme « Je m’occupe de mes racines »",
+     "texte": "Un programme en ligne pour guérir de ses blessures émotionnelles, communiquer et mettre des limites.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "« Racines d’ébène »",
+     "texte": "Un accompagnement guidé en audio, sur 30 jours.",
+     "icone": "plume"
+    }
+   ],
+   "outilsSurtitre": "Mes services",
+   "outilsTitre": "À votre *rythme*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Lors de la première séance, nous faisons le point sur ce que vous traversez, vos attentes et le cadre de la thérapie. La fréquence des séances s’adapte à vos besoins.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marianne Milia Demalvoisine, psychologue à Nogent-sur-Seine",
+   "seoDescription": "Adresse et téléphone de Marianne Milia Demalvoisine, psychologue, Cabinet en ligne à Nogent-sur-Seine.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois en téléconsultation, du lundi au jeudi. Prenez rendez-vous sur Doctolib ou appelez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marianne Milia Demalvoisine"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "Instagram",
+   "detail": "Ma page.",
+   "url": "https://www.instagram.com/marianne.psy/"
+  },
+  {
+   "titre": "Podcast « Femme, lève-toi »",
+   "detail": "Mon podcast.",
+   "url": "https://podcast.ausha.co/femme-leve-toi"
+  }
+ ]
+}

@@ -1,0 +1,317 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Romane Carduner (prospect), d'après romanecarduner-psychologue.fr. Publiée sur youxdesign.fr/maquettes/romane-carduner/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://romanecarduner-psychologue.fr",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F6F5F1",
+   "encre": "#1E2A2A",
+   "accent": "#8A6A3C",
+   "doux": "#ECE6DA",
+   "texte2": "#545A56"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Romane",
+  "nom": "Carduner",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute EMDR",
+  "specialite": "psychothérapie intégrative, EMDR, psychotraumatisme, attachement",
+  "specialiteCourte": "Psychothérapie intégrative et EMDR",
+  "diplome": "Master de psychologie clinique, mention psycho-criminologie et victimologie (Université Rennes 2)",
+  "public": "Adultes, enfants, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 52 80 20 76",
+  "email": "contact@romanecarduner-psychologue.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "MyRezApp",
+   "url": "https://booking.myrezapp.com/fr/online/booking/minisite/4784/romane-carduner"
+  }
+ },
+ "cabinet": {
+  "adresse": "13 rue Ambroise Paré",
+  "codePostal": "22360",
+  "ville": "Langueux",
+  "zone": "Saint-Brieuc, Ploufragan, Plérin, Yffiniac",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "À domicile",
+    "texte": "Possibilité de séances à domicile.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "lieu": "Au cabinet",
+   "prix": "80 €",
+   "texte": "Certaines mutuelles prennent en charge une ou plusieurs consultations.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Cap difficile",
+   "icone": "marches"
+  },
+  {
+   "titre": "Questionnement existentiel",
+   "icone": "plume"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Psychotraumatisme et troubles dissociatifs.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Difficultés relationnelles",
+   "texte": "Familiales, amicales ou professionnelles.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Estime de soi",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Romane Carduner, psychologue à Langueux",
+   "seoDescription": "Romane Carduner, psychologue clinicienne, psychothérapeute emdr à Langueux. Psychothérapie intégrative, emdr, psychotraumatisme, attachement.",
+   "surtitre": "Psychologue · Langueux, près de Saint-Brieuc",
+   "titre": "Retrouver\n*son propre chemin*",
+   "intro": "Un jour, la décision est prise d’aller vers plus de joie, de sécurité intérieure, de sérénité et d’épanouissement. Je suis là le temps de vous accompagner, avec les outils et l’expérience dont je dispose.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Romane*",
+   "presentation": [
+    "Je suis psychologue clinicienne, psychothérapeute, formée à la psychothérapie EMDR et membre de l’association EMDR France Europe.",
+    "Commencer une psychothérapie pour soi, en couple ou en famille n’est pas une décision anodine. Je pratique une psychothérapie intégrative, pour m’adapter à chacun."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur MyRezApp, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Romane Carduner, psychologue à Langueux",
+   "seoDescription": "Parcours et formations de Romane Carduner, psychologue à Langueux.",
+   "titre": "Mon *parcours*",
+   "intro": "Je suis psychologue clinicienne, psychothérapeute, formée à la psychothérapie EMDR et membre de l’association EMDR France Europe.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Master de psychologie clinique",
+     "texte": "Mention psycho-criminologie et victimologie, Université Rennes 2."
+    },
+    {
+     "titre": "EMDR niveaux 1 et 2",
+     "texte": "EFPE et IFEMDR, adultes et enfants."
+    },
+    {
+     "titre": "Psychotraumatisme et troubles dissociatifs",
+     "texte": "IETSP, Paris."
+    },
+    {
+     "titre": "Traiter l’attachement insécure de l’adulte"
+    }
+   ],
+   "parcoursTitre": "Mes *formations*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Romane Carduner, psychologue à Langueux",
+   "seoDescription": "L’approche de Romane Carduner, psychologue à Langueux : psychothérapie intégrative, EMDR, psychotraumatisme, attachement.",
+   "titre": "L’EMDR,\n*pour que le passé ne fasse plus mal*",
+   "intro": "Découverte en 1987 par Francine Shapiro, l’EMDR relance le traitement naturel d’informations douloureuses restées bloquées. Elle ne peut ni effacer ni changer le passé, mais permet qu’il ne fasse plus mal.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "EMDR",
+     "texte": "Remise à niveau des émotions, intégration des souvenirs pathogènes, restauration de l’estime de soi.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Psychothérapie intégrative",
+     "icone": "plume"
+    },
+    {
+     "titre": "Institutions et entreprises",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Mes outils",
+   "outilsTitre": "S’adapter *à chacun*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Romane Carduner, psychologue à Langueux",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Romane Carduner, psychologue à Langueux.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances ne sont pas remboursées par la Sécurité sociale, mais certaines mutuelles en prennent en charge une partie.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "En espèces ou par chèque uniquement.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Romane Carduner, psychologue à Langueux",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Romane Carduner, psychologue à Langueux",
+   "seoDescription": "Adresse et téléphone de Romane Carduner, psychologue, 13 rue Ambroise Paré à Langueux.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 13 rue Ambroise Paré, à Langueux, près de Saint-Brieuc.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Romane Carduner"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "EMDR France",
+   "detail": "L’association dont je suis membre.",
+   "url": "https://www.emdr-france.org/"
+  }
+ ]
+}

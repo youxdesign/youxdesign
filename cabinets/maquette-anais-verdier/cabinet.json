@@ -1,0 +1,340 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Anaïs Verdier (prospect), d'après averdier-neuropsy.wixsite.com/website. Publiée sur youxdesign.fr/maquettes/anais-verdier/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://averdier-neuropsy.wixsite.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F6F4F7",
+   "encre": "#1F2233",
+   "accent": "#B4566B",
+   "doux": "#EEDFE4",
+   "texte2": "#545667"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Anaïs",
+  "nom": "Verdier",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, neuropsychologue",
+  "specialite": "bilans neuropsychologiques, remédiation cognitive, guidance parentale, médiation équine",
+  "specialiteCourte": "Neuropsychologie",
+  "diplome": "Master de neuropsychologie (Université Savoie Mont Blanc)",
+  "public": "Enfants, adolescents, adultes et personnes âgées"
+ },
+ "contact": {
+  "telephone": "07 76 03 18 44",
+  "email": "averdier-neuropsy@outlook.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "4 rue des Moissons",
+  "codePostal": "22170",
+  "ville": "Plouagat",
+  "quartier": "Châtelaudren-Plouagat",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Près de Guingamp",
+    "texte": "À proximité de Guingamp, Saint-Brieuc et Quintin.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Médiation équine",
+    "texte": "À la ferme équestre de Saint-Bihy (22800).",
+    "icone": "feuille"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Bilan complet",
+   "lieu": "Au cabinet",
+   "prix": "420 €",
+   "texte": "Psychométrie et évaluation cognitive.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan simple",
+   "prix": "300 €",
+   "texte": "Psychométrie ou évaluation cognitive."
+  },
+  {
+   "nom": "Remédiation cognitive",
+   "prix": "60 €",
+   "duree": "45 min",
+   "texte": "Une séance tous les 15 jours."
+  },
+  {
+   "nom": "Guidance parentale",
+   "prix": "60 €",
+   "texte": "Une séance par mois."
+  },
+  {
+   "nom": "Médiation équine",
+   "prix": "60 €",
+   "duree": "45 min"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Mémoire et concentration",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Difficultés d’apprentissage",
+   "icone": "livre"
+  },
+  {
+   "titre": "Enfant qui ne tient pas en place",
+   "texte": "Consignes à répéter, crises de colère, devoirs compliqués.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Organisation",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Comprendre les autres",
+   "texte": "Des difficultés relationnelles ou sociales.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Anaïs Verdier, psychologue à Plouagat",
+   "seoDescription": "Anaïs Verdier, psychologue clinicienne, neuropsychologue à Plouagat. Bilans neuropsychologiques, remédiation cognitive, guidance parentale, médiation équine.",
+   "surtitre": "Neuropsychologue · Châtelaudren-Plouagat",
+   "titre": "Comprendre\n*son fonctionnement*",
+   "intro": "Un problème de mémoire, de concentration, des difficultés d’apprentissage, scolaires ou relationnelles ? La neuropsychologie peut vous aider à faire le bilan de vos compétences cognitives : mémoire, attention, raisonnement.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Des difficultés au quotidien, pour vous ou pour votre enfant ? Un bilan neuropsychologique peut aider à comprendre son fonctionnement.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Anaïs*",
+   "presentation": [
+    "Psychologue clinicienne spécialisée en neuropsychologie, je vous accueille à Châtelaudren-Plouagat, dans les Côtes-d’Armor, près de Guingamp, Saint-Brieuc et Quintin.",
+    "Après une licence de psychologie à l’Université de Bretagne Occidentale et un master de neuropsychologie à l’Université Savoie Mont Blanc, j’ai travaillé à Brest, Grenoble et en région parisienne, auprès des enfants, des adultes et des personnes âgées."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Anaïs Verdier, psychologue à Plouagat",
+   "seoDescription": "Parcours et formations de Anaïs Verdier, psychologue à Plouagat.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne spécialisée en neuropsychologie, je vous accueille à Châtelaudren-Plouagat, dans les Côtes-d’Armor, près de Guingamp, Saint-Brieuc et Quintin.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Licence de psychologie",
+     "texte": "Université de Bretagne Occidentale (Brest)."
+    },
+    {
+     "titre": "Master de neuropsychologie",
+     "texte": "Université Savoie Mont Blanc (Chambéry)."
+    },
+    {
+     "titre": "Médiation équine",
+     "texte": "Formation à l’institut Ellipsy. Cavalière depuis l’enfance."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Anaïs Verdier, psychologue à Plouagat",
+   "seoDescription": "L’approche de Anaïs Verdier, psychologue à Plouagat : bilans neuropsychologiques, remédiation cognitive, guidance parentale, médiation équine.",
+   "titre": "Évaluer,\n*puis accompagner*",
+   "intro": "Le bilan neuropsychologique est adapté à chaque demande. Il permet ensuite de mettre en place une remédiation cognitive et des aménagements.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Bilan neuropsychologique",
+     "texte": "Évaluer les fonctions cognitives : mémoire, attention, raisonnement.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Remédiation cognitive",
+     "texte": "Développer ensemble des stratégies pour pallier les difficultés.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Guidance parentale",
+     "texte": "Gérer l’opposition, aider l’enfant à réguler ses émotions, comprendre ses troubles.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Médiation équine",
+     "texte": "Des thérapies brèves avec le cheval.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Prestations",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Anaïs Verdier, psychologue à Plouagat",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Anaïs Verdier, psychologue à Plouagat.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Des remboursements par la mutuelle sont possibles pour les séances. La plateforme TND22 peut aussi accompagner et financer certains bilans : renseignez-vous.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Anaïs Verdier, psychologue à Plouagat",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Anaïs Verdier, psychologue à Plouagat",
+   "seoDescription": "Adresse et téléphone de Anaïs Verdier, psychologue, 4 rue des Moissons à Plouagat.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 4 rue des Moissons, à Plouagat (Châtelaudren-Plouagat).",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Anaïs Verdier"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "LinkedIn",
+   "detail": "Mon profil professionnel.",
+   "url": "https://www.linkedin.com/in/anais-verdier-00412215a/"
+  }
+ ]
+}

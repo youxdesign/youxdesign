@@ -1,0 +1,286 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Mélanie Davis (prospect), d'après psychologue-davis.fr. Publiée sur youxdesign.fr/maquettes/melanie-davis/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psychologue-davis.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F1F8FB",
+   "encre": "#13293A",
+   "accent": "#1C7FA8",
+   "doux": "#D9EEF6",
+   "texte2": "#4A5D68"
+  }
+ },
+ "praticien": {
+  "prenom": "Mélanie",
+  "nom": "Davis",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "thérapies cognitives et comportementales, psychopérinatalité, burn-out parental",
+  "specialiteCourte": "Orientée TCC",
+  "diplome": "Master 2 Psychopathologies et psychothérapies (Université Toulouse Jean-Jaurès), DIU de psychopérinatalité (Montpellier)",
+  "adeli": "319331849",
+  "public": "Adultes, parents et futurs parents"
+ },
+ "contact": {
+  "telephone": "06 58 58 07 39",
+  "email": "mdavispsychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/semeac/melanie-davis"
+  }
+ },
+ "cabinet": {
+  "adresse": "6 avenue du Magasin aux Tabacs",
+  "codePostal": "65000",
+  "ville": "Tarbes",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-18:30",
+   "mardi": "9:00-18:30",
+   "mercredi": "9:00-18:30",
+   "jeudi": "9:00-18:30",
+   "vendredi": "9:00-18:30",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation au cabinet",
+   "lieu": "Tarbes",
+   "prix": "60 €",
+   "duree": "45 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Téléconsultation",
+   "prix": "60 €",
+   "duree": "45 min"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles anxieux",
+   "texte": "Phobies, anxiété sociale, trouble panique, anxiété généralisée.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "TOC et TCA",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Dépression légère à modérée",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Périnatalité",
+   "texte": "Du désir d’enfant à sa première année.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Burn-out parental",
+   "icone": "batterie"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Mélanie Davis, psychologue à Tarbes",
+   "seoDescription": "Mélanie Davis, psychologue clinicienne, psychothérapeute à Tarbes. Thérapies cognitives et comportementales, psychopérinatalité, burn-out parental.",
+   "surtitre": "Psychologue clinicienne · Tarbes",
+   "titre": "Une approche éclectique,\n*orientée TCC*",
+   "intro": "J’accompagne exclusivement les adultes, au cabinet de Tarbes du lundi au vendredi, ou en téléconsultation, avec une approche éclectique orientée principalement vers les thérapies cognitives et comportementales.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Mélanie*",
+   "presentation": [
+    "Psychologue clinicienne et psychothérapeute, diplômée de l’Université Toulouse Jean-Jaurès (master 2 Psychopathologies et psychothérapies), je suis aussi titulaire d’un DIU de psychopérinatalité (Montpellier).",
+    "J’accompagne aussi les parents et futurs parents : devenir parent entraîne de nombreux remaniements psychologiques, qui peuvent nécessiter un suivi pour vivre la grossesse plus sereinement."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Mélanie Davis, psychologue à Tarbes",
+   "seoDescription": "Parcours et formations de Mélanie Davis, psychologue à Tarbes.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne et psychothérapeute, diplômée de l’Université Toulouse Jean-Jaurès (master 2 Psychopathologies et psychothérapies), je suis aussi titulaire d’un DIU de psychopérinatalité (Montpellier).",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Master 2 Psychopathologies et psychothérapies",
+     "texte": "Université Toulouse Jean-Jaurès. Mémoires de recherche sur l’épuisement parental."
+    },
+    {
+     "titre": "DIU de psychopérinatalité",
+     "texte": "Faculté de médecine de Montpellier."
+    },
+    {
+     "titre": "Expériences",
+     "texte": "ESAT, thérapie familiale en libéral, écoles du 1er degré, clinique de rééducation cardiaque et pulmonaire."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Mélanie Davis, psychologue à Tarbes",
+   "seoDescription": "L’approche de Mélanie Davis, psychologue à Tarbes : thérapies cognitives et comportementales, psychopérinatalité, burn-out parental.",
+   "titre": "Pensées, émotions\n*et comportements*",
+   "intro": "Le métier de psychologue demande de connaître les différents champs théoriques, et de s’adapter à la demande de chacun. Les TCC se concentrent sur les problèmes actuels tout en prenant en compte leurs causes, avec souvent de petits exercices en séance et à la maison.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Mélanie Davis, psychologue à Tarbes",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Mélanie Davis, psychologue à Tarbes.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Pensez à vous renseigner auprès de votre mutuelle pour une éventuelle prise en charge.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Mélanie Davis, psychologue à Tarbes",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Mélanie Davis, psychologue à Tarbes",
+   "seoDescription": "Adresse et téléphone de Mélanie Davis, psychologue, 6 avenue du Magasin aux Tabacs à Tarbes.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 6 avenue du Magasin aux Tabacs, à Tarbes.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Mélanie Davis"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
