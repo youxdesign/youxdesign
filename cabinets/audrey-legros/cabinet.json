@@ -90,28 +90,28 @@
   ],
   "motifs": [
     {
-      "titre": "Stress et émotions",
-      "texte": "Stress, anxiété, procrastination ; blocages émotionnels : peur, colère, tristesse, honte, culpabilité.",
+      "titre": "Anxiété",
+      "texte": "Stress, anxiété, procrastination, blocages émotionnels : peur, colère, tristesse, honte, culpabilité.",
       "icone": "vagues"
     },
     {
-      "titre": "Vie professionnelle",
+      "titre": "Stress et burn-out",
       "texte": "Souffrance au travail, burn-out, harcèlement professionnel.",
       "icone": "batterie"
     },
     {
-      "titre": "Épreuves de vie",
-      "texte": "Épisode de vie difficile : séparation, rupture, deuil, prise de décision ; troubles de l’humeur.",
+      "titre": "Dépression",
+      "texte": "Troubles de l’humeur, épisode de vie difficile : séparation, rupture, deuil.",
       "icone": "nuage"
     },
     {
       "titre": "Estime de soi",
-      "texte": "Faible estime de soi, problèmes de confiance en soi, difficultés à s’affirmer.",
+      "texte": "Faible estime de soi, manque de confiance, difficultés à s’affirmer, schémas répétitifs.",
       "icone": "soleil"
     },
     {
       "titre": "Relations",
-      "texte": "Difficultés relationnelles, sociales, sentimentales et familiales ; relations d’emprise ou de dépendance ; schémas répétitifs.",
+      "texte": "Difficultés relationnelles, sociales, sentimentales et familiales ; relations d’emprise ou de dépendance.",
       "icone": "personnes"
     },
     {
