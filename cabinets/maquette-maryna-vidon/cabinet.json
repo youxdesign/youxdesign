@@ -1,0 +1,323 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Maryna Vidon (prospect), d'après www.vidon-psychologue.com. Publiée sur youxdesign.fr/maquettes/maryna-vidon/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.vidon-psychologue.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6FA",
+   "encre": "#1A2636",
+   "accent": "#3F6E9E",
+   "doux": "#DDE7F2",
+   "texte2": "#4D5866"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Maryna",
+  "nom": "Vidon",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "bilans psychologiques et neuropsychologiques de l’enfant et de l’adolescent : bilans intellectuels, attentionnels, fonctions exécutives, troubles des apprentissages, évaluations psychoaffectives",
+  "specialiteCourte": "Bilans de l’enfant et de l’adolescent",
+  "diplome": "Master de psychologie clinique et psychopathologie (Université de Lorraine)",
+  "adeli": "139335137",
+  "public": "Enfants et adolescents"
+ },
+ "contact": {
+  "telephone": "06 52 10 00 79",
+  "email": "contact@vidon-psychologue.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "33 C boulevard de la République",
+  "codePostal": "13410",
+  "ville": "Lambesc",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "09:00-19:00",
+   "mardi": "09:00-19:00",
+   "mercredi": "09:00-13:00",
+   "jeudi": "09:00-19:00",
+   "vendredi": "09:00-19:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Repère GPS",
+    "texte": "Le GPS trouve le numéro 31 (atelier Flatmaxx) : le cabinet se situe juste à côté.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Bilan enfant ou adolescent",
+   "lieu": "Au cabinet",
+   "prix": "De 300 à 500 €",
+   "texte": "Selon le type de bilan. Le tarif est fixé par téléphone, avant la première séance.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Difficultés scolaires",
+   "texte": "Ennui, baisse des résultats, décrochage.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Attention et concentration",
+   "texte": "Difficultés d’attention, de concentration ou de mémoire.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Agitation, impulsivité",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Apprentissages",
+   "texte": "Lecture, écriture, mathématiques.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Difficultés émotionnelles",
+   "texte": "Anxiété, tristesse, hypersensibilité, colère.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Haut potentiel, TND",
+   "texte": "Suspicion de HPI ou de trouble neurodéveloppemental (TSA, DYS, TDA/H).",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Maryna Vidon, psychologue à Lambesc",
+   "seoDescription": "Maryna Vidon, psychologue clinicienne à Lambesc. Bilans psychologiques et neuropsychologiques de l’enfant et de l’adolescent : bilans intellectuels, attentionnels, fonctions exécutives, troubles des apprentissages, évaluations psychoaffectives.",
+   "surtitre": "Psychologue clinicienne · Lambesc",
+   "titre": "Comprendre le fonctionnement\n*de votre enfant*",
+   "intro": "Je réalise des bilans complets chez l’enfant et l’adolescent afin de comprendre ses difficultés, qu’elles soient scolaires, attentionnelles, émotionnelles ou relationnelles, et de proposer des solutions concrètes.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Un bilan peut être indiqué dans ces situations, ou dès que vous vous posez des questions.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Maryna*",
+   "presentation": [
+    "Psychologue clinicienne installée à Lambesc depuis janvier 2022, mon activité est aujourd’hui exclusivement dédiée à la réalisation de bilans chez l’enfant et l’adolescent.",
+    "Mon objectif n’est pas uniquement d’évaluer, mais de comprendre le fonctionnement global de l’enfant : ses ressources, ses fragilités, ses stratégies, afin de proposer des pistes concrètes, adaptées à son quotidien, à l’école comme à la maison."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Maryna Vidon, psychologue à Lambesc",
+   "seoDescription": "Parcours et formations de Maryna Vidon, psychologue à Lambesc.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne installée à Lambesc depuis janvier 2022, mon activité est aujourd’hui exclusivement dédiée à la réalisation de bilans chez l’enfant et l’adolescent.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Master de psychologie clinique et psychopathologie",
+     "texte": "Université de Lorraine, parcours Psychopathologie de la cognition et des interactions."
+    },
+    {
+     "date": "2017",
+     "titre": "Installation en libéral",
+     "texte": "Centre médical intercommunal de Bollène, puis cabinet pluridisciplinaire à Ventabren."
+    },
+    {
+     "date": "Depuis 2022",
+     "titre": "Cabinet de Lambesc"
+    },
+    {
+     "titre": "Formations",
+     "texte": "Psychothérapie de l’enfant (EFPP), dessins de l’enfant (APPEA), bilan psychoaffectif (COGITO’Z), tests projectifs."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Maryna Vidon, psychologue à Lambesc",
+   "seoDescription": "L’approche de Maryna Vidon, psychologue à Lambesc : bilans psychologiques et neuropsychologiques de l’enfant et de l’adolescent : bilans intellectuels, attentionnels, fonctions exécutives, troubles des apprentissages, évaluations psychoaffectives.",
+   "titre": "Un bilan\n*en quatre temps*",
+   "intro": "J’utilise des outils standardisés, validés scientifiquement et reconnus au niveau international : WISC-V, WPPSI-IV, TEA-Ch, NEPSY-II, Figure de Rey, test de Stroop, ainsi que des épreuves projectives.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Entretien préalable",
+     "texte": "Comprendre votre demande, le développement de votre enfant et les difficultés du quotidien. Des questionnaires sont transmis aux parents et aux enseignants.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Passation des tests",
+     "texte": "Adaptés à l’âge et aux difficultés de l’enfant, avec des pauses si nécessaire.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Analyse et rédaction",
+     "texte": "Un compte-rendu détaillé, transmis entre quelques jours et une semaine après la dernière séance.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Entretien de restitution",
+     "texte": "Les résultats vous sont expliqués clairement, avec des conseils concrets et personnalisés.",
+     "icone": "coche"
+    }
+   ],
+   "outilsSurtitre": "Déroulement",
+   "outilsTitre": "Comment *se passe un bilan*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Maryna Vidon, psychologue à Lambesc",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Maryna Vidon, psychologue à Lambesc.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les rendez-vous se prennent par téléphone ou sur Doctolib. Dans ce cas, je vous appelle systématiquement pour préciser votre demande, vous orienter vers le bilan le plus adapté et vous transmettre les informations utiles.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "En espèces ou par chèque. Les paiements peuvent, au besoin, être échelonnés sur plusieurs mois.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Maryna Vidon, psychologue à Lambesc",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Maryna Vidon, psychologue à Lambesc",
+   "seoDescription": "Adresse et téléphone de Maryna Vidon, psychologue, 33 C boulevard de la République à Lambesc.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se situe 33 C boulevard de la République, à Lambesc.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Maryna Vidon"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

@@ -1,0 +1,292 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marie Sebbag (prospect), d'après www.neuropsy-neuilly.com. Publiée sur youxdesign.fr/maquettes/marie-sebbag/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.neuropsy-neuilly.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F1F8F7",
+   "encre": "#281A39",
+   "accent": "#0E7F77",
+   "doux": "#D6F0EC",
+   "texte2": "#4F4A5A"
+  }
+ },
+ "praticien": {
+  "prenom": "Marie",
+  "nom": "Sebbag",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Neuropsychologue",
+  "specialite": "bilans neuropsychologiques de l’enfant, de l’adolescent et de l’adulte, tests de QI, évaluation du TDAH, remédiation cognitive, guidance parentale",
+  "specialiteCourte": "Bilans neuropsychologiques",
+  "adeli": "929322808",
+  "rpps": "10110054623",
+  "public": "Enfants, adolescents, adultes et personnes âgées"
+ },
+ "contact": {
+  "telephone": "07 83 03 87 06",
+  "email": "msebbag.neuropsy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/neuilly-sur-seine/marie-sebbag"
+  }
+ },
+ "cabinet": {
+  "adresse": "130 bis avenue Charles de Gaulle",
+  "codePostal": "92200",
+  "ville": "Neuilly-sur-Seine",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "09:00-19:00",
+   "mardi": "09:00-19:00",
+   "mercredi": "09:00-19:00",
+   "jeudi": "09:00-19:00",
+   "vendredi": "09:00-19:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation ou bilan",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles du neurodéveloppement",
+   "texte": "TDAH, troubles des apprentissages (DYS), trouble du spectre de l’autisme.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Évaluation intellectuelle",
+   "texte": "Retard ou précocité intellectuelle.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Pathologies neurologiques",
+   "texte": "Traumatisme crânien, AVC, méningite, tumeur cérébrale.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Maladies neurodégénératives",
+   "texte": "Alzheimer, Parkinson, sclérose en plaques.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Troubles psycho-affectifs",
+   "texte": "Dépression, anxiété et leur retentissement sur la cognition.",
+   "icone": "nuage"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marie Sebbag, psychologue à Neuilly-sur-Seine",
+   "seoDescription": "Marie Sebbag, neuropsychologue à Neuilly-sur-Seine. Bilans neuropsychologiques de l’enfant, de l’adolescent et de l’adulte, tests de qi, évaluation du tdah, remédiation cognitive, guidance parentale.",
+   "surtitre": "Neuropsychologue · Neuilly-sur-Seine",
+   "titre": "Comprendre ses difficultés,\n*s’appuyer sur ses ressources*",
+   "intro": "Le cabinet de neuropsychologie de Neuilly-sur-Seine accueille les enfants, les adolescents, les adultes et les personnes âgées, pour des bilans neuropsychologiques complets et ciblés.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marie*",
+   "presentation": [
+    "J’exerce en libéral depuis plus de dix ans. J’ai également travaillé pendant dix ans au sein d’une maison d’édition spécialisée dans les tests psychologiques, ce qui m’a permis de développer une expertise approfondie dans la passation, l’analyse et l’interprétation des outils psychométriques.",
+    "En parallèle de mon activité clinique, je suis formatrice en neuropsychologie auprès de professionnels de santé, notamment sur l’évaluation cognitive, le WISC-V et le TDAH."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marie Sebbag, psychologue à Neuilly-sur-Seine",
+   "seoDescription": "Parcours et formations de Marie Sebbag, psychologue à Neuilly-sur-Seine.",
+   "titre": "Mon *parcours*",
+   "intro": "J’exerce en libéral depuis plus de dix ans. J’ai également travaillé pendant dix ans au sein d’une maison d’édition spécialisée dans les tests psychologiques, ce qui m’a permis de développer une expertise approfondie dans la passation, l’analyse et l’interprétation des outils psychométriques.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marie Sebbag, psychologue à Neuilly-sur-Seine",
+   "seoDescription": "L’approche de Marie Sebbag, psychologue à Neuilly-sur-Seine : bilans neuropsychologiques de l’enfant, de l’adolescent et de l’adulte, tests de QI, évaluation du TDAH, remédiation cognitive, guidance parentale.",
+   "titre": "Le bilan,\n*étape par étape*",
+   "intro": "Le bilan permet d’élaborer précisément le profil cognitif, d’identifier les faiblesses et les ressources, et de contribuer à la démarche diagnostique.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Entretien d’anamnèse",
+     "texte": "Environ 1 heure, pour recueillir le motif de consultation et l’histoire de vie.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Le bilan",
+     "texte": "Tests standardisés et validés (WPPSI-IV, WISC-V, WAIS-IV, TEA-Ch, NEPSY-II…), de 2 à 3 heures.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "La restitution",
+     "texte": "1 heure, avec des recommandations, des conseils et des orientations.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Et après",
+     "texte": "Remédiation cognitive (dont COGMED), stimulation cognitive, guidance parentale (méthode Barkley).",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Déroulement",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marie Sebbag, psychologue à Neuilly-sur-Seine",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marie Sebbag, psychologue à Neuilly-sur-Seine.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Pour toute demande de bilan, une première consultation d’anamnèse est obligatoire ; le bilan est ensuite organisé ensemble. Les séances de remédiation cognitive, de guidance parentale ou de consultation durent 1 heure.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marie Sebbag, psychologue à Neuilly-sur-Seine",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marie Sebbag, psychologue à Neuilly-sur-Seine",
+   "seoDescription": "Adresse et téléphone de Marie Sebbag, psychologue, 130 bis avenue Charles de Gaulle à Neuilly-sur-Seine.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 130 bis avenue Charles de Gaulle, à Neuilly-sur-Seine.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marie Sebbag"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

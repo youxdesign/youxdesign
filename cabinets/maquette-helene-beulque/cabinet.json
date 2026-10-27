@@ -1,0 +1,345 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Hélène Beulque (prospect), d'après www.psychologue-a-annecy.fr. Publiée sur youxdesign.fr/maquettes/helene-beulque/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-a-annecy.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F7F9",
+   "encre": "#1B2A31",
+   "accent": "#2B7894",
+   "doux": "#DCEDF3",
+   "texte2": "#4D5B61"
+  }
+ },
+ "praticien": {
+  "prenom": "Hélène",
+  "nom": "Beulque",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "EMDR, musicothérapie, psychothérapie de l’enfant, de l’adolescent et de l’adulte",
+  "specialiteCourte": "EMDR, musicothérapie et psychothérapie",
+  "diplome": "DESS de psychologie clinique, praticienne EMDR",
+  "adeli": "749307211",
+  "public": "Enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 16 98 94 95",
+  "email": "helene.b@beulque-psychologue.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/annecy/helene-beulque"
+  }
+ },
+ "cabinet": {
+  "adresse": "1 rue de l’Industrie, 3e étage, porte E",
+  "codePostal": "74000",
+  "ville": "Annecy",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Gares",
+    "texte": "En face de la gare ferroviaire et de la gare routière.",
+    "icone": "metro"
+   },
+   {
+    "titre": "Stationnement",
+    "texte": "Gratuit au 4 avenue de Chambéry ; payant aux parkings Courrier et Sainte-Claire.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Visioconférence",
+    "texte": "Consultations possibles à distance.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Adulte",
+   "lieu": "Au cabinet ou en visio",
+   "prix": "65 €",
+   "duree": "1 h environ",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Enfant, adolescent",
+   "prix": "65 €"
+  },
+  {
+   "nom": "EMDR",
+   "prix": "65 €"
+  },
+  {
+   "nom": "Musicothérapie",
+   "prix": "65 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Traumatismes",
+   "texte": "Traumas simples ou complexes, stress post-traumatique.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Burn-out",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Stress, anxiété, dépression",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Changements de vie",
+   "icone": "marches"
+  },
+  {
+   "titre": "Troubles du langage",
+   "texte": "DYS, TSA : musicothérapie pour les enfants de 2 à 8 ans.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Difficultés relationnelles",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Hélène Beulque, psychologue à Annecy",
+   "seoDescription": "Hélène Beulque, psychologue clinicienne, psychothérapeute à Annecy. Emdr, musicothérapie, psychothérapie de l’enfant, de l’adolescent et de l’adulte.",
+   "surtitre": "Psychologue, praticienne EMDR · Annecy",
+   "titre": "L’écoute clinique,\n*et la connaissance du fonctionnement cognitif*",
+   "intro": "J’accompagne les enfants, les adolescents et les adultes avec différents supports : l’EMDR pour les traumatismes, la musicothérapie pour les troubles du langage, et la psychothérapie pour les changements de vie, les difficultés passagères ou le burn-out.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Hélène*",
+   "presentation": [
+    "Psychologue clinicienne, psychothérapeute, praticienne EMDR et musicothérapeute, je vous reçois sur rendez-vous ou en visioconférence, en face de la gare d’Annecy.",
+    "Avant de m’installer en libéral, j’ai exercé en centre hospitalier, en maternité, en CMP auprès d’adultes et d’adolescents, et en CAMSP. J’ai également été responsable de crèches et professeure des écoles en maternelle."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Hélène Beulque, psychologue à Annecy",
+   "seoDescription": "Parcours et formations de Hélène Beulque, psychologue à Annecy.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne, psychothérapeute, praticienne EMDR et musicothérapeute, je vous reçois sur rendez-vous ou en visioconférence, en face de la gare d’Annecy.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "DESS de psychologie clinique",
+     "texte": "Psychologue, psychothérapeute déclarée à l’ARS Rhône-Alpes."
+    },
+    {
+     "titre": "Praticienne EMDR"
+    },
+    {
+     "titre": "Formations",
+     "texte": "Neuropsychologie (Résodys), métacognition (PIFAM), musicothérapie (AMBx Bordeaux)."
+    },
+    {
+     "titre": "Expériences",
+     "texte": "Centre hospitalier, maternité, CMP adultes et adolescents, CAMSP ; direction de crèches, enseignement en maternelle."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Hélène Beulque, psychologue à Annecy",
+   "seoDescription": "L’approche de Hélène Beulque, psychologue à Annecy : EMDR, musicothérapie, psychothérapie de l’enfant, de l’adolescent et de l’adulte.",
+   "titre": "Un accompagnement\n*bienveillant et sans jugement*",
+   "intro": "En fonction de vos besoins, vous pourrez me consulter pour une psychothérapie, un entretien de soutien ou des séances d’EMDR. J’accompagne également votre enfant.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "EMDR",
+     "texte": "Recommandée pour le traitement du stress post-traumatique par la HAS (2007), l’OMS (2013) et l’Inserm (2015).",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Psychothérapie",
+     "texte": "Elle s’adapte à l’âge de la personne, à sa problématique et à ses attentes.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Entretien de soutien",
+     "texte": "Rencontrer un psychologue ponctuellement, pour mieux appréhender une situation.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Musicothérapie",
+     "texte": "Ateliers individuels ou en petit groupe pour les enfants de 2 à 8 ans ayant des troubles du langage.",
+     "icone": "plume"
+    }
+   ],
+   "outilsSurtitre": "Supports",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Hélène Beulque, psychologue à Annecy",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Hélène Beulque, psychologue à Annecy.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations se font sur rendez-vous et durent environ une heure ; la fréquence des séances est déterminée ensemble. Les honoraires ne sont pas pris en charge par la Sécurité sociale, mais certaines mutuelles remboursent tout ou partie des consultations.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "annulation": [
+    "Toute consultation non honorée sera due."
+   ],
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Hélène Beulque, psychologue à Annecy",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Hélène Beulque, psychologue à Annecy",
+   "seoDescription": "Adresse et téléphone de Hélène Beulque, psychologue, 1 rue de l’Industrie, 3e étage, porte E à Annecy.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 1 rue de l’Industrie (3e étage, porte E), à Annecy, en face de la gare.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Hélène Beulque"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

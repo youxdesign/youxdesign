@@ -1,0 +1,339 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Julien Ployé (prospect), d'après www.jploye-psychologue.fr. Publiée sur youxdesign.fr/maquettes/julien-ploye/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.jploye-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F5F5",
+   "encre": "#242B2B",
+   "accent": "#4E6464",
+   "doux": "#DFE7E7",
+   "texte2": "#535A5A"
+  }
+ },
+ "praticien": {
+  "prenom": "Julien",
+  "nom": "Ployé",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicien, spécialisé en TCC",
+  "specialite": "thérapies comportementales et cognitives, bilans psychologiques et neuropsychologiques, affirmation de soi, phobies et TOC",
+  "specialiteCourte": "Thérapies comportementales et cognitives",
+  "diplome": "Master 2 de psychologie clinique, spécialité neuropsychologie ; diplôme AFTCC de formation aux TCC",
+  "public": "Adultes et adolescents"
+ },
+ "contact": {
+  "telephone": "06 68 67 29 07",
+  "email": "jployepsy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/courbevoie/julien-ploye"
+  }
+ },
+ "cabinet": {
+  "adresse": "6 ter rue Denis Papin",
+  "codePostal": "92600",
+  "ville": "Asnières-sur-Seine",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "09:00-21:00",
+   "mardi": "09:00-21:00",
+   "mercredi": "09:00-14:00",
+   "jeudi": "09:00-21:00",
+   "vendredi": "09:00-14:00,15:00-21:00",
+   "samedi": "09:00-15:00",
+   "dimanche": ""
+  },
+  "horairesNote": "Mardi, jeudi et vendredi après-midi à Asnières ; lundi, mercredi et vendredi matin à Levallois-Perret. Un samedi sur deux.",
+  "acces": [
+   {
+    "titre": "Cabinet Horus",
+    "texte": "6 ter rue Denis Papin, Asnières-sur-Seine.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Espace Santé Marjolin",
+    "texte": "57 rue Marjolin, Levallois-Perret.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet",
+   "prix": "70 €",
+   "duree": "45 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan psychologique ou neuropsychologique complet",
+   "prix": "De 250 à 350 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Stress et émotions",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Affirmation de soi",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Estime de soi",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Phobies et TOC",
+   "texte": "Un protocole spécifique de traitement.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "États dépressifs",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Harcèlement, burn-out, difficultés d’affirmation de soi.",
+   "icone": "batterie"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Julien Ployé, psychologue à Asnières-sur-Seine",
+   "seoDescription": "Julien Ployé, psychologue clinicien, spécialisé en tcc à Asnières-sur-Seine. Thérapies comportementales et cognitives, bilans psychologiques et neuropsychologiques, affirmation de soi, phobies et toc.",
+   "surtitre": "Psychologue, TCC · Asnières et Levallois",
+   "titre": "Quand vos ressources\n*ne suffisent plus*",
+   "intro": "Bien que, la plupart du temps, nous trouvions des solutions à nos difficultés, certains maux peuvent être récurrents et durables. Lorsque le soutien de vos proches et vos ressources ne suffisent plus, je peux vous aider à surmonter ces épreuves.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Julien*",
+   "presentation": [
+    "Diplômé de psychologie clinique en 2007, je me suis spécialisé ensuite dans la pratique des thérapies comportementales et cognitives. Outre l’écoute et le soutien psychologique, je réalise des bilans psychologiques et neuropsychologiques.",
+    "Je consulte à Asnières-sur-Seine (cabinet Horus) et à Levallois-Perret (Espace Santé Marjolin)."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Julien Ployé, psychologue à Asnières-sur-Seine",
+   "seoDescription": "Parcours et formations de Julien Ployé, psychologue à Asnières-sur-Seine.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômé de psychologie clinique en 2007, je me suis spécialisé ensuite dans la pratique des thérapies comportementales et cognitives. Outre l’écoute et le soutien psychologique, je réalise des bilans psychologiques et neuropsychologiques.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2007",
+     "titre": "Master 2 de psychologie clinique, spécialité neuropsychologie",
+     "texte": "Université Lille III."
+    },
+    {
+     "date": "2008-2017",
+     "titre": "Psychologue clinicien",
+     "texte": "Centre hospitalier de Courbevoie, Neuilly-sur-Seine, Puteaux."
+    },
+    {
+     "date": "2011",
+     "titre": "Diplôme AFTCC",
+     "texte": "Trois ans de formation théorique, pratique et supervision aux TCC."
+    },
+    {
+     "titre": "Ateliers et formations",
+     "texte": "Thérapie d’acceptation et d’engagement, pleine conscience, affirmation de soi, psychotraumatisme."
+    },
+    {
+     "titre": "Formateur",
+     "texte": "Pour les équipes de soins en psychiatrie adulte, depuis 2013."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Julien Ployé, psychologue à Asnières-sur-Seine",
+   "seoDescription": "L’approche de Julien Ployé, psychologue à Asnières-sur-Seine : thérapies comportementales et cognitives, bilans psychologiques et neuropsychologiques, affirmation de soi, phobies et TOC.",
+   "titre": "Moins le passé,\n*davantage l’instant présent*",
+   "intro": "Les TCC vous apportent des outils, des clés pratiques et des exercices ciblés et progressifs, en collaboration active avec le thérapeute. L’éclairage arrière de votre voiture ne suffit pas à améliorer votre visibilité à l’avant.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapies cognitives et comportementales",
+     "texte": "Observer vos pensées, émotions et comportements, et expérimenter des changements.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Bilan psychologique",
+     "texte": "Humeur, anxiété, personnalité : une ligne de base avant de commencer une thérapie.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Bilan neuropsychologique",
+     "texte": "Efficience intellectuelle, mémoire, attention.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Thérapie de soutien",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Accompagnements",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Julien Ployé, psychologue à Asnières-sur-Seine",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Julien Ployé, psychologue à Asnières-sur-Seine.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Une consultation dure trois quarts d’heure. Un suivi psychologique n’est pas remboursé par la Sécurité sociale, mais certaines mutuelles remboursent tout ou partie des soins.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Julien Ployé, psychologue à Asnières-sur-Seine",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Julien Ployé, psychologue à Asnières-sur-Seine",
+   "seoDescription": "Adresse et téléphone de Julien Ployé, psychologue, 6 ter rue Denis Papin à Asnières-sur-Seine.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je consulte au cabinet Horus, 6 ter rue Denis Papin à Asnières-sur-Seine, et à l’Espace Santé Marjolin, 57 rue Marjolin à Levallois-Perret.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Julien Ployé"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": [
+  {
+   "titre": "AFTCC",
+   "detail": "Association française de thérapie comportementale et cognitive, dont je suis membre actif.",
+   "url": "https://www.aftcc.org/"
+  }
+ ]
+}

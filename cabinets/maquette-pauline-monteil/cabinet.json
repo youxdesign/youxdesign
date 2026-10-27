@@ -1,0 +1,329 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Pauline Monteil (prospect), d'après www.neuropsychologue-neuville-poitiers.com. Publiée sur youxdesign.fr/maquettes/pauline-monteil/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.neuropsychologue-neuville-poitiers.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F7F1",
+   "encre": "#1F2B1C",
+   "accent": "#4E7A2E",
+   "doux": "#E2ECD8",
+   "texte2": "#4F5A4A"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Pauline",
+  "nom": "Monteil",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, neuropsychologue",
+  "specialite": "évaluations psychométriques (QI) et neuropsychologiques de l’enfant et de l’adulte, thérapie cognitive et comportementale",
+  "specialiteCourte": "Neuropsychologie et TCC",
+  "diplome": "Master professionnel « Trouble de la cognition et du langage » (Université de Poitiers, 2009)",
+  "adeli": "869305060",
+  "public": "Enfants et adultes"
+ },
+ "contact": {
+  "email": "paulinemonteil.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Docorga",
+   "url": "https://docorga.com/praticien/69f060c5728f53c972781425"
+  }
+ },
+ "cabinet": {
+  "adresse": "Centre de santé, 28 rue des Chaumes",
+  "codePostal": "86240",
+  "ville": "Fontaine-le-Comte",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "09:00-18:00",
+   "mardi": "09:00-18:00",
+   "mercredi": "09:00-18:00",
+   "jeudi": "09:00-18:00",
+   "vendredi": "09:00-18:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Poitiers Sud",
+    "texte": "Le cabinet est situé à 2 minutes de la zone Auchan Poitiers Sud.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Première consultation avant évaluation",
+   "prix": "50 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Évaluation psychométrique (QI)",
+   "texte": "Enfant / adulte.",
+   "prix": "180 / 200 €"
+  },
+  {
+   "nom": "Approfondissement d’évaluation",
+   "texte": "Enfant / adulte.",
+   "prix": "145 / 150 €"
+  },
+  {
+   "nom": "Restitution d’évaluation",
+   "prix": "50 €"
+  },
+  {
+   "nom": "Consultation TCC",
+   "prix": "50 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Mémoire et concentration",
+   "texte": "Oublis, difficultés de concentration ou de planification.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "TDA/H, TSA, DYS",
+   "texte": "Un questionnement sur un trouble du neurodéveloppement.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Estimation du QI",
+   "texte": "Sensation de décalage, dossier MDPH.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Pathologies neurologiques",
+   "texte": "Épilepsie, AVC, traumatisme crânien, sclérose en plaques.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Maladies neurodégénératives",
+   "texte": "Alzheimer, Parkinson et maladies apparentées.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Anxiété et dépression",
+   "texte": "Prise en charge en TCC.",
+   "icone": "vagues"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Pauline Monteil, psychologue à Fontaine-le-Comte",
+   "seoDescription": "Pauline Monteil, psychologue, neuropsychologue à Fontaine-le-Comte. Évaluations psychométriques (qi) et neuropsychologiques de l’enfant et de l’adulte, thérapie cognitive et comportementale.",
+   "surtitre": "Neuropsychologue · Poitiers Sud",
+   "titre": "Évaluer la cognition,\n*comprendre ses difficultés*",
+   "intro": "Ma pratique est tournée vers deux aspects : l’évaluation et la prise en charge des troubles de la cognition, et la thérapie d’approche cognitive et comportementale (TCC).",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Toutes ces raisons, et bien d’autres, peuvent vous amener à consulter un neuropsychologue.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Pauline*",
+   "presentation": [
+    "Je suis psychologue et neuropsychologue, diplômée depuis 2009 du master professionnel « Trouble de la cognition et du langage » de l’Université de Poitiers, et formée aux TCC auprès de l’AFTCC de 2019 à 2022.",
+    "Je reçois au centre de santé de Fontaine-le-Comte, à deux minutes de la zone Auchan Poitiers Sud, uniquement sur rendez-vous, du lundi au vendredi."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Inscrivez-vous sur la liste d’attente en ligne : j’étudie votre demande pour vérifier qu’elle relève bien de mon champ de compétence."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Pauline Monteil, psychologue à Fontaine-le-Comte",
+   "seoDescription": "Parcours et formations de Pauline Monteil, psychologue à Fontaine-le-Comte.",
+   "titre": "Mon *parcours*",
+   "intro": "Je suis psychologue et neuropsychologue, diplômée depuis 2009 du master professionnel « Trouble de la cognition et du langage » de l’Université de Poitiers, et formée aux TCC auprès de l’AFTCC de 2019 à 2022.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Pauline Monteil, psychologue à Fontaine-le-Comte",
+   "seoDescription": "L’approche de Pauline Monteil, psychologue à Fontaine-le-Comte : évaluations psychométriques (QI) et neuropsychologiques de l’enfant et de l’adulte, thérapie cognitive et comportementale.",
+   "titre": "Des évaluations\n*rigoureuses*",
+   "intro": "J’utilise la dernière version de chaque échelle disponible : la WISC-5 de 6 à 16 ans, la WAIS-4 pour les plus de 16 ans.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Consultation initiale",
+     "texte": "Cerner votre demande et retracer l’histoire de vos difficultés : c’est l’entretien d’anamnèse.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Évaluation psychométrique (QI)",
+     "texte": "Une échelle de Wechsler pour évaluer le niveau intellectuel général.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Évaluation neuropsychologique",
+     "texte": "Mémoire, fonctions exécutives, attention, cognition sociale, anxiété, humeur.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Restitution",
+     "texte": "Un compte-rendu complet, des conseils et des préconisations.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Thérapie cognitive et comportementale",
+     "texte": "Comprendre et changer durablement ce qui empêche de vivre de manière satisfaisante.",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Prestations",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Pauline Monteil, psychologue à Fontaine-le-Comte",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Pauline Monteil, psychologue à Fontaine-le-Comte.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les demandes de bilan, pour enfants comme pour adultes, se font par une inscription sur liste d’attente en ligne. Les suivis de thérapie TCC sont actuellement complets.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou écrivez-moi.",
+   "paiement": "Le paiement s’effectue après chaque séance. Pas de paiement par carte bancaire.",
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Pauline Monteil, psychologue à Fontaine-le-Comte",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Pauline Monteil, psychologue à Fontaine-le-Comte",
+   "seoDescription": "Adresse et téléphone de Pauline Monteil, psychologue, Centre de santé, 28 rue des Chaumes à Fontaine-le-Comte.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve au centre de santé, 28 rue des Chaumes, à Fontaine-le-Comte, à 2 minutes de la zone Auchan Poitiers Sud.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Pauline Monteil"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

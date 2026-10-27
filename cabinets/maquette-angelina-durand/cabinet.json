@@ -1,0 +1,344 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Angélina Durand (prospect), d'après www.rdv-avec-mon-psy.com. Publiée sur youxdesign.fr/maquettes/angelina-durand/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.rdv-avec-mon-psy.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F7FA",
+   "encre": "#1F2A33",
+   "accent": "#3F7598",
+   "doux": "#DDEAF2",
+   "texte2": "#505A63"
+  }
+ },
+ "praticien": {
+  "prenom": "Angélina",
+  "nom": "Durand",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, neuropsychologue",
+  "specialite": "accompagnement psychologique, neuropsychologie, remédiation cognitive, thérapie de couple, groupes de parole, profils neuro-atypiques",
+  "specialiteCourte": "Psychologie et neuropsychologie",
+  "diplome": "Master professionnel de psychologie et neuropsychologie",
+  "public": "Enfants, adolescents, adultes, seniors et couples"
+ },
+ "contact": {
+  "telephone": "06 28 71 08 56",
+  "email": "adurand.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "ClicRDV",
+   "url": "https://www.clicrdv.com/durand-angelina"
+  }
+ },
+ "cabinet": {
+  "adresse": "Espace Gamma 1, 1er étage, 139 chemin des Deux Frères",
+  "codePostal": "83190",
+  "ville": "Ollioules",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "10:00-15:00,16:00-21:00",
+   "mardi": "10:00-15:00,16:00-21:00",
+   "mercredi": "10:00-15:00,16:00-21:00",
+   "jeudi": "10:00-15:00,16:00-21:00",
+   "vendredi": "10:00-15:00,16:00-21:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Espace Gamma",
+    "texte": "Un pôle de santé ouvert en 2019, qui réunit différents professionnels de santé.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Visio",
+    "texte": "Consultations possibles à distance.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Enfants",
+   "texte": "Thérapie classique ; remédiation cognitive sur l’attention, la concentration, la mémoire…",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Adultes et seniors",
+   "texte": "Thérapie classique ; remédiation cognitive sur les fonctions cognitives.",
+   "prix": "65 €"
+  },
+  {
+   "nom": "Thérapie de couple ou familiale",
+   "prix": "95 €"
+  },
+  {
+   "nom": "Groupe",
+   "texte": "Groupe de parole, groupe d’aide aux aidants familiaux.",
+   "prix": "20 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "HPI et hauts potentiels émotionnels",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Autisme Asperger",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Deuil",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Dépression",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Anxiété et angoisses",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Confiance en soi",
+   "icone": "marches"
+  },
+  {
+   "titre": "Couple",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Angélina Durand, psychologue à Ollioules",
+   "seoDescription": "Angélina Durand, psychologue, neuropsychologue à Ollioules. Accompagnement psychologique, neuropsychologie, remédiation cognitive, thérapie de couple, groupes de parole, profils neuro-atypiques.",
+   "surtitre": "Psychologue, neuropsychologue · Ollioules",
+   "titre": "Une écoute\n*en toute confidentialité*",
+   "intro": "Installée à Ollioules, j’accueille au cabinet les enfants, les adolescents, les adultes et les seniors, en présentiel et en visio, ainsi que les couples et des groupes de parole.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Angélina*",
+   "presentation": [
+    "Titulaire d’un master professionnel de psychologie et neuropsychologie, j’ai commencé ma carrière en établissement pour personnes âgées, puis exercé dix ans en Bretagne, en institution et en libéral à Brest.",
+    "J’y ai découvert une véritable passion pour l’accompagnement des enfants présentant des difficultés d’apprentissage, un manque de confiance ou des fragilités émotionnelles, ainsi que des personnes à hauts potentiels."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur ClicRDV, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Angélina Durand, psychologue à Ollioules",
+   "seoDescription": "Parcours et formations de Angélina Durand, psychologue à Ollioules.",
+   "titre": "Mon *parcours*",
+   "intro": "Titulaire d’un master professionnel de psychologie et neuropsychologie, j’ai commencé ma carrière en établissement pour personnes âgées, puis exercé dix ans en Bretagne, en institution et en libéral à Brest.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Master professionnel de psychologie et neuropsychologie",
+     "texte": "Études à Mont-Saint-Aignan, près de Rouen, puis à Caen."
+    },
+    {
+     "titre": "Établissement pour personnes âgées, Tosny",
+     "texte": "Remédiation cognitive, groupes de soutien, aide aux aidants."
+    },
+    {
+     "titre": "Dix années en Bretagne",
+     "texte": "Établissements à Brest, accueil de jour à Porspoder, premier cabinet libéral à Brest."
+    },
+    {
+     "date": "2020",
+     "titre": "Arrivée dans le Var",
+     "texte": "Bénévole dans une association d’aide aux personnes en situation de précarité, puis ouverture du cabinet d’Ollioules."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Angélina Durand, psychologue à Ollioules",
+   "seoDescription": "L’approche de Angélina Durand, psychologue à Ollioules : accompagnement psychologique, neuropsychologie, remédiation cognitive, thérapie de couple, groupes de parole, profils neuro-atypiques.",
+   "titre": "Un accompagnement\n*à chaque âge*",
+   "intro": "Je poursuis mon activité autour de plusieurs axes : accompagnement psychologique, neuropsychologique, remédiation cognitive, soutien aux familles et travail autour des profils neuro-atypiques.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Enfants",
+     "texte": "Séparation, deuil, difficultés d’apprentissage, d’attention : séance individuelle suivie d’un échange avec les parents.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Adolescents",
+     "texte": "Communication difficile, écrans : séance avec l’adolescent suivie d’un échange avec les parents.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Seniors",
+     "texte": "Bilan mémoire et remédiation cognitive pour maintenir ses capacités.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Couples",
+     "texte": "Difficultés de couple, séparation, sexualité.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Groupes de parole",
+     "texte": "Personnes HPI ou HPE, aidants familiaux, parents d’adolescents : de 5 à 7 personnes.",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Pour qui ?",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Angélina Durand, psychologue à Ollioules",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Angélina Durand, psychologue à Ollioules.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois du lundi au vendredi, de 10 h à 15 h et de 16 h à 21 h. Certaines mutuelles remboursent les consultations : rapprochez-vous de la vôtre.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Angélina Durand, psychologue à Ollioules",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Angélina Durand, psychologue à Ollioules",
+   "seoDescription": "Adresse et téléphone de Angélina Durand, psychologue, Espace Gamma 1, 1er étage, 139 chemin des Deux Frères à Ollioules.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve à l’Espace Gamma 1, au 1er étage, 139 chemin des Deux Frères, à Ollioules.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Angélina Durand"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

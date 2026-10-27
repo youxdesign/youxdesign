@@ -1,0 +1,327 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Rémy Vandevyvère-Ly (prospect), d'après www.vdv-neuropsy.com. Publiée sur youxdesign.fr/maquettes/remy-vandevyvere-ly/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.vdv-neuropsy.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6F9",
+   "encre": "#093B5A",
+   "accent": "#2B6CA3",
+   "doux": "#DDE8F2",
+   "texte2": "#4B5A66"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Rémy",
+  "nom": "Vandevyvère-Ly",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicien spécialisé en neuropsychologie",
+  "specialite": "bilans psychométriques et neuropsychologiques, remédiation cognitive de l’enfant, de l’adolescent et du jeune adulte",
+  "specialiteCourte": "Neuropsychologie de l’enfant et de l’adolescent",
+  "diplome": "Master professionnel de neuropsychologie cognitive et clinique (2016)",
+  "adeli": "179308309",
+  "rpps": "10008589003",
+  "public": "Enfants, adolescents et jeunes adultes"
+ },
+ "contact": {
+  "telephone": "06 46 64 61 12",
+  "email": "vdvly.neuropsy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Pôle paramédical Louis Guillet, 5 rue Alfred Sisley",
+  "codePostal": "17000",
+  "ville": "La Rochelle",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Bilan neuropsychologique complet",
+   "texte": "Bilan psychométrique et bilan complémentaire.",
+   "prix": "480 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan psychométrique",
+   "texte": "WISC-V ou WAIS-IV.",
+   "prix": "360 €"
+  },
+  {
+   "nom": "Bilan neuropsychologique complémentaire",
+   "texte": "Si le dernier bilan psychométrique date de moins de 2 ans.",
+   "prix": "360 €"
+  },
+  {
+   "nom": "Consultation de remédiation cognitive",
+   "prix": "70 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Haut potentiel intellectuel",
+   "icone": "soleil"
+  },
+  {
+   "titre": "TDAH",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Troubles des apprentissages",
+   "icone": "livre"
+  },
+  {
+   "titre": "Troubles du neurodéveloppement",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Gestion émotionnelle",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Après un événement neurologique",
+   "texte": "AVC, traumatisme crânien…",
+   "icone": "cerveau"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Rémy Vandevyvère-Ly, psychologue à La Rochelle",
+   "seoDescription": "Rémy Vandevyvère-Ly, psychologue clinicien spécialisé en neuropsychologie à La Rochelle. Bilans psychométriques et neuropsychologiques, remédiation cognitive de l’enfant, de l’adolescent et du jeune adulte.",
+   "surtitre": "Neuropsychologue · La Rochelle",
+   "titre": "Comprendre\n*le profil cognitif*",
+   "intro": "Psychologue clinicien spécialisé en neuropsychologie, je propose des bilans psychométriques et neuropsychologiques à destination des enfants, des adolescents et des jeunes adultes.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Rémy*",
+   "presentation": [
+    "Diplômé d’un master recherche « Cognition, neurosciences et psychologie » (2015) et d’un master professionnel de neuropsychologie cognitive et clinique (2016), j’exerce en libéral à La Rochelle depuis mars 2019.",
+    "J’ai travaillé en ITEP, en IME, en CMP et en clinique psychiatrique, et je me forme régulièrement : NEPSY-II, WISC-V, entraînement aux habiletés parentales (Barkley), haut potentiel, troubles du neurodéveloppement."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Rémy Vandevyvère-Ly, psychologue à La Rochelle",
+   "seoDescription": "Parcours et formations de Rémy Vandevyvère-Ly, psychologue à La Rochelle.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômé d’un master recherche « Cognition, neurosciences et psychologie » (2015) et d’un master professionnel de neuropsychologie cognitive et clinique (2016), j’exerce en libéral à La Rochelle depuis mars 2019.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2016",
+     "titre": "Master professionnel",
+     "texte": "Neuropsychologie cognitive et clinique."
+    },
+    {
+     "date": "Depuis 2019",
+     "titre": "Cabinet libéral, La Rochelle"
+    },
+    {
+     "titre": "Institutions",
+     "texte": "ITEP La Rochelle, réseau Aloïs (Paris), CMP de Poitiers, IME de Châtellerault, clinique psychiatrique de Tours."
+    },
+    {
+     "titre": "Formations certifiantes",
+     "texte": "WISC-V, NEPSY-II, programme Barkley, remédiation des fonctions exécutives."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Rémy Vandevyvère-Ly, psychologue à La Rochelle",
+   "seoDescription": "L’approche de Rémy Vandevyvère-Ly, psychologue à La Rochelle : bilans psychométriques et neuropsychologiques, remédiation cognitive de l’enfant, de l’adolescent et du jeune adulte.",
+   "titre": "L’organisation\n*d’un bilan*",
+   "intro": "Un bilan se déroule sur plusieurs consultations (2 à 4 heures au total), auxquelles s’ajoutent 2 à 4 heures de rédaction du compte-rendu.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Premier échange",
+     "texte": "Définir l’objectif du bilan et les dates des consultations.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Passation",
+     "texte": "Entretien préliminaire, épreuves standardisées, questionnaires.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Restitution",
+     "texte": "Restitution orale et compte-rendu détaillé sous une semaine maximum.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Remédiation cognitive",
+     "texte": "Attention, fonctions exécutives, mémoire, cognition sociale, selon les conclusions du bilan.",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Déroulement",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Rémy Vandevyvère-Ly, psychologue à La Rochelle",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Rémy Vandevyvère-Ly, psychologue à La Rochelle.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La prise de rendez-vous se fait directement sur Doctolib ; pour toute question, vous pouvez m’y envoyer un message. Les tarifs sont donnés à titre indicatif. Les consultations de neuropsychologie ne sont pas prises en charge par la Sécurité sociale.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque, en espèces ou par carte bancaire. Paiement possible en trois chèques.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Rémy Vandevyvère-Ly, psychologue à La Rochelle",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Rémy Vandevyvère-Ly, psychologue à La Rochelle",
+   "seoDescription": "Adresse et téléphone de Rémy Vandevyvère-Ly, psychologue, Pôle paramédical Louis Guillet, 5 rue Alfred Sisley à La Rochelle.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve au pôle paramédical Louis Guillet, 5 rue Alfred Sisley, à La Rochelle.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Rémy Vandevyvère-Ly"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

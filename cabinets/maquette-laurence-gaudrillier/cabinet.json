@@ -1,0 +1,319 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Laurence Gaudrillier (prospect), d'après laurencegaudrillie.wixsite.com/website. Publiée sur youxdesign.fr/maquettes/laurence-gaudrillier/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://laurencegaudrillie.wixsite.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F6F1",
+   "encre": "#23271C",
+   "accent": "#5E6A45",
+   "doux": "#E4E8DA",
+   "texte2": "#545A4A"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Laurence",
+  "nom": "Gaudrillier",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute en TCC",
+  "specialite": "thérapies cognitives et comportementales, thérapie des schémas, TDAH de l’adulte, accompagnement parental",
+  "specialiteCourte": "Thérapies cognitives et comportementales",
+  "diplome": "Master de psychologie, DIU de thérapie comportementale et cognitive",
+  "adeli": "269309225",
+  "rpps": "10008775883",
+  "public": "Adultes, individuellement ou en couple",
+  "citation": "Un voyage de mille lieues commence toujours par un premier pas. (Lao-Tseu)"
+ },
+ "contact": {
+  "telephone": "09 67 42 05 26",
+  "email": "gaudrillier.laurence@orange.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "12 rue Joseph Reynaud",
+  "codePostal": "26150",
+  "ville": "Die",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Téléconsultation",
+    "texte": "Ponctuellement, des interventions sont possibles à distance.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle ou de couple",
+   "lieu": "Au cabinet",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles anxieux",
+   "texte": "Anxiété généralisée, phobies, attaques de panique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Stress et surcharge mentale",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Épisodes dépressifs",
+   "texte": "Perte de motivation ou d’élan.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Événements de vie",
+   "texte": "Deuil, séparation, transition, douleurs chroniques.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Estime de soi",
+   "icone": "soleil"
+  },
+  {
+   "titre": "TDAH chez l’adulte",
+   "texte": "Organisation, gestion du temps, procrastination, régulation émotionnelle.",
+   "icone": "puzzle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Laurence Gaudrillier, psychologue à Die",
+   "seoDescription": "Laurence Gaudrillier, psychologue, psychothérapeute en tcc à Die. Thérapies cognitives et comportementales, thérapie des schémas, tdah de l’adulte, accompagnement parental.",
+   "surtitre": "Psychologue, TCC · Die",
+   "titre": "Apaiser les émotions,\n*retrouver sa liberté d’action*",
+   "intro": "La thérapie cognitive et comportementale (TCC) est une approche validée scientifiquement qui aide à comprendre les mécanismes contribuant à la souffrance psychologique et à développer des stratégies concrètes pour y faire face.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Je vous accompagne *pour…*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Laurence*",
+   "presentation": [
+    "Psychologue et psychothérapeute, je reçois les adultes, individuellement ou en couple, sur rendez-vous à Die. Résolument humanistes et ouverts, les accompagnements s’adaptent au rythme de chacun.",
+    "Je suis diplômée d’un master de psychologie (Université Savoie Mont Blanc) et d’un DIU de thérapie comportementale et cognitive (Université Lyon I), certifiée en thérapie des schémas et formée à la prise en charge TCC du TDAH de l’adulte."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Laurence Gaudrillier, psychologue à Die",
+   "seoDescription": "Parcours et formations de Laurence Gaudrillier, psychologue à Die.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue et psychothérapeute, je reçois les adultes, individuellement ou en couple, sur rendez-vous à Die. Résolument humanistes et ouverts, les accompagnements s’adaptent au rythme de chacun.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Master de psychologie",
+     "texte": "Université Savoie Mont Blanc."
+    },
+    {
+     "titre": "DIU de thérapie comportementale et cognitive",
+     "texte": "Université Lyon I."
+    },
+    {
+     "titre": "Certification en thérapie des schémas",
+     "texte": "CEFTI."
+    },
+    {
+     "titre": "Prise en charge TCC du TDAH adulte",
+     "texte": "Centre de formation clinique TDAH."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Laurence Gaudrillier, psychologue à Die",
+   "seoDescription": "L’approche de Laurence Gaudrillier, psychologue à Die : thérapies cognitives et comportementales, thérapie des schémas, TDAH de l’adulte, accompagnement parental.",
+   "titre": "Progressons\n*ensemble*",
+   "intro": "Pour apaiser les émotions qui vous submergent, modifier les mécanismes de pensée qui vous freinent, et enfin vivre des expériences qui vous guident vers vos objectifs.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapie cognitive et comportementale",
+     "texte": "Techniques corporelles pour accueillir et apaiser les émotions, méthodes cognitives pour prendre du recul, expériences graduelles pour développer de nouvelles compétences.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Thérapie des schémas",
+     "texte": "Comprendre et modifier des schémas émotionnels et relationnels construits dans l’enfance, qui continuent d’influencer le fonctionnement actuel.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "TDAH de l’adulte",
+     "texte": "Mieux comprendre son fonctionnement et mettre en place des stratégies adaptées au quotidien.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Accompagnement parental",
+     "texte": "Pour les parents d’un enfant présentant un TDAH, individuellement ou en groupe.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Approches",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Laurence Gaudrillier, psychologue à Die",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Laurence Gaudrillier, psychologue à Die.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois les adultes, individuellement ou en couple, sur rendez-vous. Appelez-moi pour en savoir plus ou pour prendre rendez-vous.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Laurence Gaudrillier, psychologue à Die",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Laurence Gaudrillier, psychologue à Die",
+   "seoDescription": "Adresse et téléphone de Laurence Gaudrillier, psychologue, 12 rue Joseph Reynaud à Die.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 12 rue Joseph Reynaud, à Die.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Laurence Gaudrillier"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
