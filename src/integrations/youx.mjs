@@ -117,6 +117,9 @@ export default function youx({ mode, carte, formulaires = [], agendas = [] }) {
           /* Site d'un cabinet : fichiers à télécharger (option « ressources ») */
           const fichiers = join(process.cwd(), 'cabinets', process.env.CABINET || '', 'fichiers');
           if (await stat(fichiers).catch(() => null)) await cp(fichiers, join(dist, 'fichiers'), { recursive: true });
+          /* Anciennes adresses du cabinet vers les nouvelles (fichier cabinets/<cabinet>/_redirects) */
+          const redirections = join(process.cwd(), 'cabinets', process.env.CABINET || '', '_redirects');
+          if (await stat(redirections).catch(() => null)) await cp(redirections, join(dist, '_redirects'));
         }
         logger.info(`Finitions : pages 404, _headers${vitrine ? ', _redirects et fichiers youXdesign' : ''}.`);
       }

@@ -1,0 +1,17 @@
+/index.php                                /                     301
+/index.php/                               /                     301
+/index.php/presentation/                  /a-propos/            301
+/index.php/presentation                   /a-propos/            301
+/index.php/specialites/                   /specialites/         301
+/index.php/specialites                    /specialites/         301
+/index.php/mon-approche-et-mes-outils/    /approche/            301
+/index.php/mon-approche-et-mes-outils     /approche/            301
+/index.php/consultations/                 /consultations/       301
+/index.php/consultations                  /consultations/       301
+/index.php/f-a-q/                         /faq/                 301
+/index.php/f-a-q                          /faq/                 301
+/index.php/contact/                       /contact/             301
+/index.php/contact                        /contact/             301
+/index.php/liens-utiles/                  /a-propos/            301
+/index.php/liens-utiles                   /a-propos/            301
+/index.php/*                              /                     301
