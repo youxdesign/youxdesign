@@ -13,7 +13,7 @@
       "ressources",
       "rdv-visible"
     ],
-    "fond": "zoom",
+    "fond": "entree",
     "voile": "moyen",
     "couleurs": {
       "fond": "#CBF0FF",
@@ -90,28 +90,28 @@
   ],
   "motifs": [
     {
-      "titre": "Anxiété",
-      "texte": "Stress, anxiété, procrastination, blocages émotionnels : peur, colère, tristesse, honte, culpabilité.",
+      "titre": "Stress et émotions",
+      "texte": "Stress, anxiété, procrastination ; blocages émotionnels : peur, colère, tristesse, honte, culpabilité.",
       "icone": "vagues"
     },
     {
-      "titre": "Stress et burn-out",
+      "titre": "Vie professionnelle",
       "texte": "Souffrance au travail, burn-out, harcèlement professionnel.",
       "icone": "batterie"
     },
     {
-      "titre": "Dépression",
-      "texte": "Troubles de l’humeur, épisode de vie difficile : séparation, rupture, deuil.",
+      "titre": "Épreuves de vie",
+      "texte": "Épisode de vie difficile : séparation, rupture, deuil, prise de décision ; troubles de l’humeur.",
       "icone": "nuage"
     },
     {
       "titre": "Estime de soi",
-      "texte": "Faible estime de soi, manque de confiance, difficultés à s’affirmer, schémas répétitifs.",
+      "texte": "Faible estime de soi, problèmes de confiance en soi, difficultés à s’affirmer.",
       "icone": "soleil"
     },
     {
       "titre": "Relations",
-      "texte": "Difficultés relationnelles, sociales, sentimentales et familiales ; relations d’emprise ou de dépendance.",
+      "texte": "Difficultés relationnelles, sociales, sentimentales et familiales ; relations d’emprise ou de dépendance ; schémas répétitifs.",
       "icone": "personnes"
     },
     {
@@ -122,11 +122,11 @@
   ],
   "pages": {
     "accueil": {
-      "seoTitre": "Audrey Legros, psychologue en ligne · téléconsultations",
-      "seoDescription": "Audrey Legros, psychologue clinicienne et psychothérapeute en ligne : téléconsultations pour adultes, en France et à l’étranger. Traumas complexes, emprise, expatriation.",
-      "surtitre": "Psychologue en ligne · Téléconsultations",
+      "seoTitre": "Audrey Legros, psychologue en ligne à Lille · téléconsultations",
+      "seoDescription": "Audrey Legros, psychologue clinicienne et psychothérapeute basée à Lille : téléconsultations pour adultes, à Lille, en France et à l’étranger. Traumas complexes, emprise, expatriation.",
+      "surtitre": "Psychologue en ligne à Lille · Téléconsultations",
       "titre": "Un temps\n*rien que pour vous*",
-      "intro": "Psychologue clinicienne et psychothérapeute, je reçois les adultes en téléconsultation, en France comme à l’étranger, dans un espace de parole libre, confidentiel et sécurisant. Tout ceci dans le respect de votre rythme et de votre demande.",
+      "intro": "Psychologue clinicienne et psychothérapeute basée à Lille, je reçois les adultes en téléconsultation, en France comme à l’étranger, dans un espace de parole libre, confidentiel et sécurisant. Tout ceci dans le respect de votre rythme et de votre demande.",
       "motifsSurtitre": "Motifs de consultation",
       "motifsTitre": "Je vous accompagne *pour…*",
       "motifsIntro": "Rencontrer des difficultés, souffrir d’une situation, répéter des comportements inadaptés font partie de la vie. Les motifs de consultation peuvent être divers.",

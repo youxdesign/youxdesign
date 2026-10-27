@@ -26,7 +26,7 @@ const schema = z.object({
     demo: z.boolean().default(false),
     options: z.array(z.string()).default([]),
     /* Style Immersif : animation du fond de l'accueil et voile sur l'image */
-    fond: z.enum(['zoom', 'diaporama', 'parallaxe', 'degrade', 'video']).default('zoom'),
+    fond: z.enum(['zoom', 'entree', 'diaporama', 'parallaxe', 'degrade', 'video']).default('zoom'),
     voile: z.enum(['leger', 'moyen', 'fort']).default('moyen')
   }),
   praticien: z.object({

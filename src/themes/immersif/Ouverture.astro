@@ -41,7 +41,7 @@ const video = Object.entries(videos).find(([k]) => k.startsWith(`/cabinets/${cab
       </dl>
       <div class="une__actions">
         {statut.rendre && <Statut cab={cab} classe="une__statut" cache={statut.cache} />}
-        <button class="une__pause" type="button" data-pause aria-pressed="false" hidden>Mettre l’animation en pause</button>
+        {cab.site.fond !== 'entree' && <button class="une__pause" type="button" data-pause aria-pressed="false" hidden>Mettre l’animation en pause</button>}
         <a class="une__defiler" href="#contenu-accueil">Défiler<span aria-hidden="true"> ↓</span></a>
       </div>
     </div>

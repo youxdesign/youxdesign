@@ -4,7 +4,8 @@
    posé dessus ; ensuite, une alternance de sections claires et sombres,
    une serif didone et des touches de laiton.
    Réglages de l'accueil (fiche : site.fond et site.voile) :
-     data-fond  = zoom | diaporama | parallaxe | degrade | video
+     data-fond  = zoom | entree | diaporama | parallaxe | degrade | video
+     (entree : un seul zoom lent de 5 s à l'ouverture, puis image fixe, sans bouton pause)
      data-voile = leger | moyen | fort
    ========================================================================== */
 :root {
@@ -154,12 +155,14 @@ h1 em, h2 em, h3 em, .titre em { color: var(--c-lien); }
   @supports (animation-timeline: scroll()) {
     [data-fond='parallaxe'] .une__couche--1 { animation: immersif-parallaxe linear both; animation-timeline: scroll(root); animation-range: 0 100vh; }
   }
+  [data-fond='entree'] .une__couche--1 { animation: immersif-entree 5s ease-out both; }
   [data-animations='pause'] .une__fond, [data-animations='pause'] .une__fond * { animation-play-state: paused !important; }
 }
 @media (prefers-reduced-motion: reduce) {
   [data-fond='degrade'] .une__couche { display: none; }
   [data-fond='degrade'] .une__fond { background: linear-gradient(125deg, var(--c-inverse), var(--c-accent2-texte)); }
 }
+@keyframes immersif-entree { from { transform: scale(1.08); } to { transform: scale(1); } }
 @keyframes immersif-zoom { from { transform: scale(1); } to { transform: scale(1.12); } }
 @keyframes immersif-diapo-2 {
   0%, 28% { opacity: 0; transform: scale(1.08); }
