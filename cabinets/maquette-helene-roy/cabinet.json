@@ -1,0 +1,336 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Hélène Roy (prospect), d'après www.akompagne.fr. Publiée sur youxdesign.fr/maquettes/helene-roy/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.akompagne.fr",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F6F8",
+   "encre": "#1B2630",
+   "accent": "#2C6E8E",
+   "doux": "#DBE8EF",
+   "texte2": "#4B5964"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Hélène",
+  "nom": "Roy",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue du travail",
+  "specialite": "psychologie du travail, EMDR, burn-out et épuisement professionnel, bilan de compétences, trajectoire professionnelle",
+  "specialiteCourte": "Psychologie du travail et EMDR",
+  "diplome": "Diplôme de psychologue du travail (Université Paris V)",
+  "adeli": "569303068",
+  "rpps": "10009522441",
+  "public": "Salariés, indépendants, dirigeants, demandeurs d’emploi et entreprises"
+ },
+ "contact": {
+  "telephone": "06 25 45 42 94",
+  "email": "contact@akompagne.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "3 bis rue Sainte-Anne",
+  "codePostal": "56250",
+  "ville": "Elven",
+  "accessiblePMR": true,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "8:00-20:00",
+   "mardi": "8:00-20:00",
+   "mercredi": "8:00-20:00",
+   "jeudi": "8:00-20:00",
+   "vendredi": "8:00-20:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous, et sur demande le samedi matin",
+  "acces": [
+   {
+    "titre": "Au cabinet",
+    "texte": "3 bis rue Sainte-Anne, à Elven : des locaux accessibles aux personnes en situation de handicap.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "À distance",
+    "texte": "Consultations en visio (Google Meet, Zoom ou Skype), ou en alternant présentiel et distanciel.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "62 €",
+   "texte": "Une première séance d’une heure pour cibler vos besoins.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan de compétences",
+   "prix": "Sur devis",
+   "texte": "Premier rendez-vous gratuit."
+  },
+  {
+   "nom": "Prestations en entreprise",
+   "prix": "Sur devis"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Burn-out",
+   "texte": "Accompagnement au bien-être au travail après un burn-out, prévention de l’épuisement professionnel.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Gestion du stress",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Relations professionnelles",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Équilibre vie personnelle et professionnelle",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Reprise du travail",
+   "texte": "Préparer son retour après un arrêt maladie.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Trajectoire professionnelle",
+   "texte": "Bilan de compétences, reconversion, projet professionnel, valorisation de soi.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Hélène Roy, psychologue à Elven",
+   "seoDescription": "Hélène Roy, psychologue du travail à Elven. Psychologie du travail, emdr, burn-out et épuisement professionnel, bilan de compétences, trajectoire professionnelle.",
+   "surtitre": "Psychologue du travail · Morbihan",
+   "titre": "Le mieux-être\n*dans sa vie professionnelle*",
+   "intro": "Psychologue du travail spécialisée en EMDR, j’accompagne à Elven, et à distance dans toute la France, les salariés, les indépendants, les dirigeants et les demandeurs d’emploi vers le mieux-être professionnel.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Hélène*",
+   "presentation": [
+    "J’ai créé le cabinet Akompagne pour favoriser le mieux-être au travail. Mon objectif : favoriser la connaissance et l’affirmation de soi pour faire face aux aléas et aux changements de la vie professionnelle.",
+    "Après plus de 20 ans comme salariée, dont 10 ans en ressources humaines et plus de 11 ans dans un centre de bilan de compétences, je me consacre à aider chacun à trouver sa place et à s’épanouir dans sa vie professionnelle."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Hélène Roy, psychologue à Elven",
+   "seoDescription": "Parcours et formations de Hélène Roy, psychologue à Elven.",
+   "titre": "Mon *parcours*",
+   "intro": "J’ai créé le cabinet Akompagne pour favoriser le mieux-être au travail. Mon objectif : favoriser la connaissance et l’affirmation de soi pour faire face aux aléas et aux changements de la vie professionnelle.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Diplôme de psychologue du travail",
+     "texte": "Université Paris V."
+    },
+    {
+     "titre": "10 ans en ressources humaines",
+     "texte": "Recrutement, coaching de cadres, préparation aux entretiens, management d’équipe, gestion prévisionnelle des emplois et des compétences."
+    },
+    {
+     "titre": "Plus de 11 ans en centre de bilan de compétences",
+     "texte": "Bilans de compétences et professionnels, VAE, création d’entreprise, formation de managers, encadrement d’une équipe de consultants."
+    },
+    {
+     "titre": "Création d’Akompagne",
+     "texte": "Un cabinet à Elven, dans le Morbihan, intervenant dans toute la France."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Hélène Roy, psychologue à Elven",
+   "seoDescription": "L’approche de Hélène Roy, psychologue à Elven : psychologie du travail, EMDR, burn-out et épuisement professionnel, bilan de compétences, trajectoire professionnelle.",
+   "titre": "Retrouver un pouvoir d’agir\n*dans la sérénité*",
+   "intro": "La consultation est un temps d’écoute et un lieu d’expression. Une approche globale vous aide à prendre du recul et à comprendre vos schémas de fonctionnement, organisationnels, professionnels et familiaux.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Consultation en psychologie du travail",
+     "texte": "Écoute, soutien et analyse pour retrouver confiance en vous, dans le respect du code de déontologie des psychologues.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Une thérapie brève qui diminue les blocages psychiques liés à des événements de la vie personnelle ou professionnelle, notamment lors d’un burn-out.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Bilan de compétences",
+     "texte": "Bilan professionnel, projet et plan d’action, valorisation de soi, préparation aux entretiens internes.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Entreprises",
+     "texte": "Des interventions sur devis, du lundi au vendredi.",
+     "icone": "calendrier"
+    }
+   ],
+   "outilsSurtitre": "Mes prestations",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Hélène Roy, psychologue à Elven",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Hélène Roy, psychologue à Elven.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois les particuliers du lundi au vendredi, de 8 h à 20 h, et sur demande le samedi matin, au cabinet ou à distance. Règlement à chaque entretien, par virement, chèque ou espèces. Certaines mutuelles remboursent les consultations de manière forfaitaire.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "annulation": [
+    "Toute annulation doit être signalée 48 h à l’avance. Tout rendez-vous non annulé sera facturé."
+   ],
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Hélène Roy, psychologue à Elven",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Hélène Roy, psychologue à Elven",
+   "seoDescription": "Adresse et téléphone de Hélène Roy, psychologue, 3 bis rue Sainte-Anne à Elven.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 3 bis rue Sainte-Anne, à Elven, près de Vannes, Auray, Ploërmel et Questembert.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Hélène Roy"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

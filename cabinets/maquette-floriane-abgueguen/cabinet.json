@@ -1,0 +1,356 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Floriane Abguéguen (prospect), d'après www.fa-psychologue.fr. Publiée sur youxdesign.fr/maquettes/floriane-abgueguen/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.fa-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6F8",
+   "encre": "#1E2730",
+   "accent": "#2F6C8F",
+   "doux": "#DCE8EF",
+   "texte2": "#4E5964"
+  }
+ },
+ "praticien": {
+  "prenom": "Floriane",
+  "nom": "Abguéguen",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute",
+  "specialite": "DEMO/EMDR, analyse appliquée du comportement (ABA), haute sensibilité, parentalité et périnatalité, troubles neurodéveloppementaux, souffrance au travail",
+  "specialiteCourte": "EMDR, ABA, thérapies brèves",
+  "diplome": "DESS-Master II de psychologie (Université Lille III, 2009)",
+  "adeli": "299312819",
+  "public": "Jeunes enfants, enfants, adolescents, adultes, seniors et couples",
+  "citation": "Lorsqu’une chose évolue, tout ce qui est autour évolue de même. (Paulo Coelho)"
+ },
+ "contact": {
+  "telephone": "06 61 72 96 35",
+  "email": "contact@fa-psychologue.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Perfactive",
+   "url": "https://perfactive.fr/floriane-abgueguen/book"
+  }
+ },
+ "cabinet": {
+  "adresse": "34 les Comarets",
+  "codePostal": "29800",
+  "ville": "Trémaouézan",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "9:00-11:45,13:45-16:00",
+   "mercredi": "9:50-11:45,15:00-16:45",
+   "jeudi": "8:45-11:45,13:45-17:30",
+   "vendredi": "8:45-11:45,13:45-17:30",
+   "samedi": "8:30-11:00",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "En voiture",
+    "texte": "Parking gratuit devant le cabinet, dans le lotissement. Accès facile depuis Landerneau, Guipavas, Brest et Lesneven.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Visio",
+    "texte": "Consultations possibles en visio (Teams) ou par téléphone, et séances à l’école possibles.",
+    "icone": "visio"
+   },
+   {
+    "titre": "Mobilité réduite",
+    "texte": "Le cabinet est difficilement accessible : contactez-moi pour un rendez-vous dans un autre cabinet ou à domicile, sans frais supplémentaires.",
+    "icone": "fauteuil"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "prix": "65 €",
+   "duree": "45 min",
+   "texte": "110 € pour une séance d’1 h 30.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation de couple",
+   "prix": "110 €",
+   "duree": "1 h 30",
+   "texte": "150 € pour une séance de 2 h."
+  },
+  {
+   "nom": "Parcours diagnostic autisme adulte",
+   "prix": "65 €",
+   "texte": "Par consultation d’évaluation (2 ou 3) et de restitution, plus un forfait de 100 € pour l’analyse et la rédaction du bilan."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Neuroatypies",
+   "texte": "Troubles neurodéveloppementaux dont l’autisme, troubles des apprentissages (« DYS »), difficultés de mémoire ou d’attention.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Haute sensibilité",
+   "texte": "Enfants, adolescents et adultes hautement sensibles, en couple comme au travail.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Épuisement professionnel, harcèlement, conflits, soutien à la pratique managériale.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Bien-être psychique",
+   "texte": "Traumatismes, stress, anxiété, angoisses, dépression, phobies, phobie scolaire.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Moments de vie sensibles",
+   "texte": "Séparation, deuil, maladie, harcèlement, conflits.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Grossesse, naissance, épuisement parental, coparentalité après une séparation, opposition chez l’enfant.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Floriane Abguéguen, psychologue à Trémaouézan",
+   "seoDescription": "Floriane Abguéguen, psychologue, psychothérapeute à Trémaouézan. Demo/emdr, analyse appliquée du comportement (aba), haute sensibilité, parentalité et périnatalité, troubles neurodéveloppementaux, souffrance au travail.",
+   "surtitre": "Psychologue · près de Landerneau",
+   "titre": "Un accompagnement sur mesure,\n*de la petite enfance à l’âge adulte*",
+   "intro": "Psychologue et psychothérapeute depuis 12 ans, j’accueille les jeunes enfants, les enfants, les adolescents, les adultes, les seniors et les couples, au cabinet près de Landerneau ou en visio.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Floriane*",
+   "presentation": [
+    "Psychologue de l’enfant et de l’adolescent, spécialisée en analyse appliquée du comportement (ABA), je suis diplômée de l’université de Lille III depuis 2009. J’accompagne aussi les personnes en situation de handicap et leurs aidants.",
+    "Praticienne en DEMO-EMDR, certifiée pour l’accompagnement des personnes hautement sensibles, j’accompagne également la parentalité, la périnatalité et la souffrance au travail."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Perfactive, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Floriane Abguéguen, psychologue à Trémaouézan",
+   "seoDescription": "Parcours et formations de Floriane Abguéguen, psychologue à Trémaouézan.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue de l’enfant et de l’adolescent, spécialisée en analyse appliquée du comportement (ABA), je suis diplômée de l’université de Lille III depuis 2009. J’accompagne aussi les personnes en situation de handicap et leurs aidants.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2009",
+     "titre": "DESS-Master II de psychologie",
+     "texte": "Université de Lille III : enfance, adolescence, situations de handicap."
+    },
+    {
+     "date": "2011",
+     "titre": "Master 2 Gestion des entreprises sanitaires et sociales",
+     "texte": "IAE de Lille, pour l’accompagnement de la souffrance au travail."
+    },
+    {
+     "titre": "Praticienne en DEMO-EMDR",
+     "texte": "Formée par Jacqueline Mahé."
+    },
+    {
+     "titre": "Haute sensibilité",
+     "texte": "Certification professionnelle par l’Observatoire de la sensibilité."
+    },
+    {
+     "titre": "Analyse appliquée du comportement (ABA)",
+     "texte": "Et accompagnement de la parentalité et de la périnatalité."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Floriane Abguéguen, psychologue à Trémaouézan",
+   "seoDescription": "L’approche de Floriane Abguéguen, psychologue à Trémaouézan : DEMO/EMDR, analyse appliquée du comportement (ABA), haute sensibilité, parentalité et périnatalité, troubles neurodéveloppementaux, souffrance au travail.",
+   "titre": "Comprendre la situation\n*dans sa globalité*",
+   "intro": "Ensemble, nous analysons les comportements, les émotions et les situations qui vous posent problème, en tenant compte de l’environnement familial, scolaire, professionnel et social, pour identifier des leviers de changement.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "DEMO/EMDR",
+     "texte": "Une thérapie brève par les mouvements oculaires, utilisée pour les traumatismes, le stress, l’anxiété, les troubles du sommeil, dès 5 ans.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Analyse appliquée du comportement",
+     "texte": "Un accompagnement sur mesure, fondé sur le comportement observé, ses fonctions et ses conséquences.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Haute sensibilité",
+     "texte": "Détection et accompagnement des enfants et des adultes hautement sensibles ; bilan du profil sur demande.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Enfants et parents",
+     "texte": "Les parents peuvent être reçus d’abord seuls ou avec l’enfant, puis un temps d’échange de 10 à 15 minutes est prévu à chaque séance.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Une palette d’outils",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Floriane Abguéguen, psychologue à Trémaouézan",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Floriane Abguéguen, psychologue à Trémaouézan.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La séance dure environ 45 minutes. Les premières séances sont espacées d’une à deux semaines, puis davantage quand vous allez mieux. Facilités de paiement pour les demandeurs d’emploi, les étudiants et les personnes en difficulté financière.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "annulation": [
+    "Toute consultation annulée moins de 48 h à l’avance est due."
+   ],
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Floriane Abguéguen, psychologue à Trémaouézan",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Floriane Abguéguen, psychologue à Trémaouézan",
+   "seoDescription": "Adresse et téléphone de Floriane Abguéguen, psychologue, 34 les Comarets à Trémaouézan.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 34 les Comarets, à Trémaouézan, dans le Finistère nord, près de Landerneau. Prenez rendez-vous avant de vous déplacer : il n’y a pas de secrétariat sur place.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Floriane Abguéguen"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

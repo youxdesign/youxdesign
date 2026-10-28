@@ -1,0 +1,320 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Cléa Oger (prospect), d'après www.cleaoger-psychologue.fr. Publiée sur youxdesign.fr/maquettes/clea-oger/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.cleaoger-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F6F3",
+   "encre": "#1F2622",
+   "accent": "#3D6B5A",
+   "doux": "#DFE8E2",
+   "texte2": "#4F5A54"
+  }
+ },
+ "praticien": {
+  "prenom": "Cléa",
+  "nom": "Oger",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, thérapeute EMDR",
+  "specialite": "psychotraumatologie, thérapie EMDR, approche intégrative, psycho-criminologie et victimologie",
+  "specialiteCourte": "Thérapie EMDR",
+  "diplome": "Psychologue clinicienne, spécialisation psycho-criminologie et victimologie (Université Rennes II)",
+  "adeli": "35 93 1628 8",
+  "rpps": "10008697079",
+  "public": "Enfants, adolescents et adultes",
+  "citation": "C’est toujours bien de ventiler l’effet des évènements par la parole. (Françoise Dolto)"
+ },
+ "contact": {
+  "telephone": "07 81 72 96 68",
+  "email": "cleaoger.psychologue@outlook.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "6 rue Francis Deniaud",
+  "codePostal": "35600",
+  "ville": "Redon",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "9:00-18:00",
+   "jeudi": "9:00-18:00",
+   "vendredi": "9:00-18:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation adulte et adolescent",
+   "prix": "65 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation enfant (moins de 10 ans)",
+   "prix": "55 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Psychotraumatisme",
+   "texte": "Événements douloureux, chocs traumatiques, souvenirs qui reviennent à la pensée.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Angoisse",
+   "texte": "Sentiment de danger permanent, irritabilité.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Repli sur soi",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Difficultés de sommeil",
+   "icone": "lune"
+  },
+  {
+   "titre": "Troubles du comportement alimentaire",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Difficultés de la vie",
+   "texte": "Familiales, relationnelles, professionnelles ou plus intimes.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Cléa Oger, psychologue à Redon",
+   "seoDescription": "Cléa Oger, psychologue clinicienne, thérapeute emdr à Redon. Psychotraumatologie, thérapie emdr, approche intégrative, psycho-criminologie et victimologie.",
+   "surtitre": "Psychologue clinicienne · Thérapeute EMDR · Redon",
+   "titre": "Digérer les expériences du passé,\n*avancer plus sereinement*",
+   "intro": "Psychologue clinicienne et thérapeute EMDR, je vous accueille à mon cabinet de Redon, que vous soyez enfant, adolescent ou adulte, avec une approche intégrative fondée sur la psychotraumatologie.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Cléa*",
+   "presentation": [
+    "Diplômée de l’Université Rennes II, spécialisée en psycho-criminologie et victimologie, je me suis ensuite formée à la thérapie EMDR à l’EDEPHE, et je suis membre de l’association EMDR France.",
+    "J’ai exercé dans un service d’actions sociales auprès d’un tribunal, dans un centre d’hébergement d’aide aux victimes et en protection de l’enfance. J’exerce aujourd’hui dans une unité médico-judiciaire qui accompagne les auditions de mineurs victimes, ainsi qu’en libéral à Redon."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Cléa Oger, psychologue à Redon",
+   "seoDescription": "Parcours et formations de Cléa Oger, psychologue à Redon.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée de l’Université Rennes II, spécialisée en psycho-criminologie et victimologie, je me suis ensuite formée à la thérapie EMDR à l’EDEPHE, et je suis membre de l’association EMDR France.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Psychologue clinicienne",
+     "texte": "Spécialisation psycho-criminologie et victimologie, Université Rennes II."
+    },
+    {
+     "titre": "Thérapeute EMDR",
+     "texte": "Formée à l’EDEPHE, membre de l’association EMDR France."
+    },
+    {
+     "titre": "Expériences",
+     "texte": "Service d’actions sociales auprès d’un tribunal, centre d’hébergement d’aide aux victimes, protection de l’enfance."
+    },
+    {
+     "titre": "Aujourd’hui",
+     "texte": "Unité médico-judiciaire (auditions de mineurs victimes) et cabinet libéral à Redon."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Cléa Oger, psychologue à Redon",
+   "seoDescription": "L’approche de Cléa Oger, psychologue à Redon : psychotraumatologie, thérapie EMDR, approche intégrative, psycho-criminologie et victimologie.",
+   "titre": "La thérapie EMDR,\n*pour digérer les souvenirs*",
+   "intro": "La thérapie EMDR permet de digérer des souvenirs et des expériences de vie perturbantes, à l’origine de nombreux troubles et difficultés dans la vie actuelle. Elle est recommandée par la Haute Autorité de Santé, l’OMS et l’INSERM pour le traitement du trouble de stress post-traumatique.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Une préparation indispensable",
+     "texte": "Des entretiens préliminaires pour établir une relation de confiance, se sentir en sécurité et identifier les souvenirs à l’origine des difficultés.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Les mouvements oculaires",
+     "texte": "Les souvenirs sont ensuite retraités, un à un, à l’aide des mouvements oculaires.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Soutien psychologique",
+     "texte": "Un besoin de parler, d’être écouté au sujet d’une situation, d’un événement, d’un moment de vie.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Psychothérapie",
+     "texte": "Brève ou plus longue, pour comprendre un comportement, une perception ou une situation qui vous pose problème.",
+     "icone": "cerveau"
+    }
+   ],
+   "outilsSurtitre": "En pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Cléa Oger, psychologue à Redon",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Cléa Oger, psychologue à Redon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Le cabinet est ouvert le mercredi, le jeudi et le vendredi, de 9 h à 18 h, exclusivement sur rendez-vous. Règlement en espèces, chèque ou virement à la fin de chaque séance.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "annulation": [
+    "Les rendez-vous sont annulables jusqu’à 48 h à l’avance (SMS, appel ou e-mail). Toute consultation non annulée dans ces conditions ou non honorée sera facturée.",
+    "En cas de retard, le rendez-vous ne peut pas être décalé : sa durée est réduite d’autant."
+   ],
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Cléa Oger, psychologue à Redon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Cléa Oger, psychologue à Redon",
+   "seoDescription": "Adresse et téléphone de Cléa Oger, psychologue, 6 rue Francis Deniaud à Redon.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 6 rue Francis Deniaud, à Redon. Je vous reçois sur rendez-vous, par téléphone ou par e-mail.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Cléa Oger"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

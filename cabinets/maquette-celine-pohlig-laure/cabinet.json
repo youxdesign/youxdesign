@@ -1,0 +1,332 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Céline Pohlig-Lauré (prospect), d'après celinelaurepsy.wixsite.com/website. Publiée sur youxdesign.fr/maquettes/celine-pohlig-laure/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://celinelaurepsy.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F7F9",
+   "encre": "#1D2A30",
+   "accent": "#2D7488",
+   "doux": "#D9EBF0",
+   "texte2": "#4C5B61"
+  }
+ },
+ "praticien": {
+  "prenom": "Céline",
+  "nom": "Pohlig-Lauré",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, thérapeute EMDR",
+  "specialite": "thérapie EMDR, périnatalité, attachement, protection de l’enfance, thérapie de couple et familiale",
+  "specialiteCourte": "Thérapie EMDR et périnatalité",
+  "diplome": "Master II de psychologie clinique et psychopathologie (Paris VII, 2003)",
+  "public": "Bébés, enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 24 40 18 51",
+  "email": "celine.laure.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "27 rue Dauvilliers",
+  "codePostal": "91290",
+  "ville": "Arpajon",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-19:00",
+   "mardi": "9:00-19:00",
+   "mercredi": "9:00-19:00",
+   "jeudi": "9:00-19:00",
+   "vendredi": "9:00-19:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Première séance",
+   "prix": "90 €",
+   "duree": "1 h 30",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance adulte (plus de 15 ans)",
+   "prix": "80 €",
+   "duree": "1 h 30"
+  },
+  {
+   "nom": "Séance individuelle d’EMDR enfant",
+   "prix": "65 €",
+   "duree": "30 à 50 min"
+  },
+  {
+   "nom": "Thérapie de couple ou séance familiale",
+   "prix": "90 €",
+   "duree": "1 h 30 à 2 h"
+  },
+  {
+   "nom": "Atelier familial personnalisé",
+   "prix": "90 €",
+   "duree": "1 h 30 à 2 h"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Traumatismes",
+   "texte": "Peurs, phobies, agressions, accidents de la vie.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Grossesse et naissance",
+   "texte": "Projet d’enfant, grossesse, accouchement, prématurité, accueil d’un nouvel enfant.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Développement de l’enfant",
+   "texte": "Sommeil, rythme, comportement alimentaire, adolescence, handicap.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Lien parent-enfant",
+   "texte": "Attachement, relation parentale, trouver sa place de parent, grande-parentalité.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Séparation et deuil",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Estime de soi et émotions",
+   "texte": "Culpabilité, insécurité, émotions.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Céline Pohlig-Lauré, psychologue à Arpajon",
+   "seoDescription": "Céline Pohlig-Lauré, psychologue, thérapeute emdr à Arpajon. Thérapie emdr, périnatalité, attachement, protection de l’enfance, thérapie de couple et familiale.",
+   "surtitre": "Psychologue · Thérapeute EMDR · Arpajon",
+   "titre": "Mieux vivre\n*les événements de la vie*",
+   "intro": "Psychologue depuis 2003 et thérapeute EMDR accréditée Europe, je vous propose à Arpajon un temps d’accueil personnalisé pour réfléchir ensemble à vos préoccupations, dans un cadre bienveillant, humain et constructif.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Céline*",
+   "presentation": [
+    "Diplômée en 2003 du Master II de psychologie clinique et psychopathologie de Paris VII, je suis formée depuis 2020 à l’Institut français d’EMDR et accréditée Europe pour les adultes, les adolescents, les enfants et les bébés.",
+    "Bébés, enfants, adolescents, adultes, parents, grands-parents, éducateurs ou enseignants : je vous offre un regard humain et concret, en toute confidentialité, face aux difficultés que vous vivez."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Céline Pohlig-Lauré, psychologue à Arpajon",
+   "seoDescription": "Parcours et formations de Céline Pohlig-Lauré, psychologue à Arpajon.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée en 2003 du Master II de psychologie clinique et psychopathologie de Paris VII, je suis formée depuis 2020 à l’Institut français d’EMDR et accréditée Europe pour les adultes, les adolescents, les enfants et les bébés.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2003",
+     "titre": "Master II de psychologie clinique et psychopathologie",
+     "texte": "Université Paris VII."
+    },
+    {
+     "titre": "Psychothérapeute",
+     "texte": "Titre enregistré auprès de l’Agence régionale de santé."
+    },
+    {
+     "titre": "Diplômes universitaires",
+     "texte": "Protection de l’enfance, psychopathologie périnatale, attachement du bébé à la personne âgée."
+    },
+    {
+     "date": "2020",
+     "titre": "Thérapeute EMDR accréditée Europe",
+     "texte": "Institut français d’EMDR ; membre d’EMDR France et de la Société Marcé francophone."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Céline Pohlig-Lauré, psychologue à Arpajon",
+   "seoDescription": "L’approche de Céline Pohlig-Lauré, psychologue à Arpajon : thérapie EMDR, périnatalité, attachement, protection de l’enfance, thérapie de couple et familiale.",
+   "titre": "Un échange, une écoute,\n*des propositions*",
+   "intro": "Une séance, c’est à la fois un échange, une écoute, des propositions, du soutien et un accompagnement, dont le thème central sera de mieux vivre les événements de la vie.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapie EMDR",
+     "texte": "Le mouvement des yeux pour s’alléger des traumatismes petits ou grands ; elle aide aussi pour l’estime de soi, la culpabilité, l’insécurité.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Atelier familial",
+     "texte": "Des temps d’échange conviviaux en famille, en couple ou entre amis, autour des écrans, de l’alimentation, des conflits, de l’adolescence.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "À domicile si besoin",
+     "texte": "Selon la situation : alitement, grossesse difficile, observation de l’enfant, jumeaux.",
+     "icone": "porte"
+    }
+   ],
+   "outilsSurtitre": "Mes propositions",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Céline Pohlig-Lauré, psychologue à Arpajon",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Céline Pohlig-Lauré, psychologue à Arpajon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois au cabinet du lundi au vendredi, de 9 h à 19 h, sur rendez-vous. Règlement par chèque, en espèces ou par carte. Une facture vous est délivrée sur demande.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "annulation": [
+    "Merci de prévenir en cas d’annulation : le cabinet se réserve le droit de facturer les séances non annulées."
+   ],
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Céline Pohlig-Lauré, psychologue à Arpajon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Céline Pohlig-Lauré, psychologue à Arpajon",
+   "seoDescription": "Adresse et téléphone de Céline Pohlig-Lauré, psychologue, 27 rue Dauvilliers à Arpajon.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 27 rue Dauvilliers, à Arpajon. Appelez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Céline Pohlig-Lauré"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

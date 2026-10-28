@@ -1,0 +1,335 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Eurielle Joly (prospect), d'après www.eurielle-joly.fr. Publiée sur youxdesign.fr/maquettes/eurielle-joly/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.eurielle-joly.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F7FA",
+   "encre": "#1C2833",
+   "accent": "#2F6F9F",
+   "doux": "#DCE9F3",
+   "texte2": "#4D5B67"
+  }
+ },
+ "praticien": {
+  "prenom": "Eurielle",
+  "nom": "Joly",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, thérapeute et coach professionnelle",
+  "specialite": "psychologie humaniste et positive, thérapies somato-psychiques et pleine conscience, EMDR, Brainspotting, psychologie du travail",
+  "specialiteCourte": "Approche humaniste et psychocorporelle",
+  "diplome": "Maîtrise de psychologie et DESS de psychologie du travail",
+  "adeli": "579311226",
+  "public": "Enfants, adolescents, adultes et couples",
+  "citation": "Très souvent un changement en soi est plus nécessaire qu’un changement de situation. (Théodore Monod)"
+ },
+ "contact": {
+  "telephone": "06 79 01 59 02",
+  "email": "eurielle.joly@yahoo.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/saint-avold/eurielle-joly"
+  }
+ },
+ "cabinet": {
+  "adresse": "3 rue de la Carrière",
+  "codePostal": "57500",
+  "ville": "Saint-Avold",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "12:30-17:30",
+   "mardi": "8:00-18:30",
+   "mercredi": "",
+   "jeudi": "8:00-18:30",
+   "vendredi": "8:00-13:30",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation ou thérapie individuelle",
+   "prix": "95 €",
+   "duree": "1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation ou thérapie de couple",
+   "prix": "115 €",
+   "duree": "1 h"
+  },
+  {
+   "nom": "Coaching professionnel",
+   "prix": "105 €",
+   "duree": "1 h",
+   "texte": "Méthodes de travail, organisation, gestion du temps, gestion des conflits, management."
+  },
+  {
+   "nom": "Bilan psychologique",
+   "prix": "Sur mesure",
+   "texte": "Selon le nombre de séances et les tests passés ; paiement échelonné sur les séances."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Stress et épuisement",
+   "texte": "Épuisement, stress, anxiété.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Conflit, séparation, deuil",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Accident, agression",
+   "texte": "Après un événement traumatique.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Sommeil, alimentation, addictions",
+   "texte": "Troubles du sommeil, troubles alimentaires, addictions (alcool, tabac, jeux).",
+   "icone": "lune"
+  },
+  {
+   "titre": "Estime et confiance en soi",
+   "texte": "Manque d’estime ou de confiance en soi, de motivation, de vitalité.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Projet professionnel",
+   "texte": "Reconversion, évolution, positionnement, orientation scolaire des enfants et adolescents.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Eurielle Joly, psychologue à Saint-Avold",
+   "seoDescription": "Eurielle Joly, psychologue, thérapeute et coach professionnelle à Saint-Avold. Psychologie humaniste et positive, thérapies somato-psychiques et pleine conscience, emdr, brainspotting, psychologie du travail.",
+   "surtitre": "Psychologue · Saint-Avold",
+   "titre": "Bien-être et équilibre,\n*santé et performance*",
+   "intro": "Psychologue, thérapeute et coach professionnelle, je vous accueille à mon cabinet de Saint-Avold pour un accompagnement personnalisé, face à vos difficultés personnelles, relationnelles et professionnelles.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Eurielle*",
+   "presentation": [
+    "Titulaire d’une maîtrise de psychologie et d’un DESS de psychologie du travail, je me reconnais dans la psychologie humaniste de Carl Rogers et dans la psychologie positive : chacun dispose en lui d’étonnantes ressources.",
+    "Après plus de 15 ans dans le conseil de direction et les ressources humaines, notamment sur les risques psychosociaux, j’accompagne aujourd’hui en thérapie et en coaching, avec une approche verbale ou psychocorporelle selon vos besoins."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Eurielle Joly, psychologue à Saint-Avold",
+   "seoDescription": "Parcours et formations de Eurielle Joly, psychologue à Saint-Avold.",
+   "titre": "Mon *parcours*",
+   "intro": "Titulaire d’une maîtrise de psychologie et d’un DESS de psychologie du travail, je me reconnais dans la psychologie humaniste de Carl Rogers et dans la psychologie positive : chacun dispose en lui d’étonnantes ressources.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Maîtrise de psychologie et DESS de psychologie du travail",
+     "texte": "Titre de psychologue obtenu à 24 ans."
+    },
+    {
+     "titre": "DU Pilotage social et socio-économique"
+    },
+    {
+     "titre": "Plus de 15 ans de conseil de direction",
+     "texte": "Management organisationnel et humain, puis directrice des ressources humaines : dialogue social, compétences et carrières, risques psychosociaux."
+    },
+    {
+     "titre": "Coach en communication non violente",
+     "texte": "Gestion du stress et des conflits."
+    },
+    {
+     "titre": "Thérapies",
+     "texte": "Thérapies somato-psychiques et pleine conscience, EMDR, Brainspotting."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Eurielle Joly, psychologue à Saint-Avold",
+   "seoDescription": "L’approche de Eurielle Joly, psychologue à Saint-Avold : psychologie humaniste et positive, thérapies somato-psychiques et pleine conscience, EMDR, Brainspotting, psychologie du travail.",
+   "titre": "Une approche verbale\n*ou psychocorporelle*",
+   "intro": "Je me réfère principalement aux courants de la psychologie humaniste et positive, ainsi qu’aux thérapies somato-psychiques basées sur la pleine conscience. Selon votre besoin, les consultations peuvent être plutôt verbales ou psychocorporelles.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Écoute active et thérapie",
+     "texte": "Un accompagnement sur mesure face à vos difficultés personnelles, relationnelles et professionnelles.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Une stimulation sensorielle bi-alternée, validée par la Haute Autorité de Santé, l’OMS et l’Inserm.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Brainspotting",
+     "texte": "Une thérapie développée en 2003 par David Grand, à partir de l’EMDR.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Coaching et évaluation",
+     "texte": "Positionnement, évaluation des aptitudes, projet personnel ou professionnel, adaptation scolaire et orientation.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Mes prestations",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Eurielle Joly, psychologue à Saint-Avold",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Eurielle Joly, psychologue à Saint-Avold.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois le lundi de 12 h 30 à 17 h 30, le mardi et le jeudi de 8 h à 18 h 30, et le vendredi de 8 h à 13 h 30. Règlement par chèque ou en espèces. Certaines mutuelles remboursent une partie des séances.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Eurielle Joly, psychologue à Saint-Avold",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Eurielle Joly, psychologue à Saint-Avold",
+   "seoDescription": "Adresse et téléphone de Eurielle Joly, psychologue, 3 rue de la Carrière à Saint-Avold.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 3 rue de la Carrière, à Saint-Avold, accessible depuis Folschviller, Hombourg-Haut, Freyming-Merlebach, Faulquemont, Creutzwald ou Forbach.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Eurielle Joly"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

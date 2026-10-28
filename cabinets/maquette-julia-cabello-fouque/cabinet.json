@@ -1,0 +1,308 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Julia Cabello Fredes (prospect), d'après jcabellof.free.fr. Publiée sur youxdesign.fr/maquettes/julia-cabello-fouque/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://jcabellof.free.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F4EF",
+   "encre": "#2A231D",
+   "accent": "#9A5B34",
+   "doux": "#EEE4D8",
+   "texte2": "#5C534A"
+  }
+ },
+ "praticien": {
+  "prenom": "Julia",
+  "nom": "Cabello Fredes",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "thérapie brève stratégique, approche systémique, thérapie de couple et de famille, psychologie de l’attachement",
+  "specialiteCourte": "Thérapie brève stratégique",
+  "diplome": "Master II Psychologie du développement et processus de socialisation (Université Toulouse 2)",
+  "adeli": "319304564",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 72 76 78 73",
+  "email": "jcabellof@free.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Sur rendez-vous",
+  "codePostal": "31000",
+  "ville": "Toulouse",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Thérapie individuelle, de couple ou de famille",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Estime de soi",
+   "texte": "Problèmes d’estime de soi, timidité.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Dépressions, deuils",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Phobies et obsessions",
+   "texte": "Peur, panique, phobies, obsessions.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Couple et famille",
+   "texte": "Relations et interactions familiales ; difficultés de couple, ruptures, divorces difficiles.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Problèmes émotionnels et comportementaux, conduites à risque, terreurs nocturnes, énurésie.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Julia Cabello Fredes, psychologue à Toulouse",
+   "seoDescription": "Julia Cabello Fredes, psychologue clinicienne à Toulouse. Thérapie brève stratégique, approche systémique, thérapie de couple et de famille, psychologie de l’attachement.",
+   "surtitre": "Psychologue clinicienne · Toulouse",
+   "titre": "Thérapie individuelle,\n*de couple et de famille*",
+   "intro": "Psychologue clinicienne à Toulouse, je reçois sur rendez-vous en thérapie individuelle, de couple et de famille, avec la thérapie brève stratégique. Consultations en français et en espagnol.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Julia*",
+   "presentation": [
+    "Psychologue clinicienne diplômée d’État, membre du SNP en France et du Collège des psychologues au Chili, je suis titulaire d’un Master II de psychologie du développement de l’Université Toulouse 2.",
+    "Je suis également thérapeute de couple et de famille (approche systémique) et titulaire d’un master en thérapie brève stratégique, reconnu par le Centre de thérapie brève stratégique d’Arezzo et le Mental Research Institute de Palo Alto."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Julia Cabello Fredes, psychologue à Toulouse",
+   "seoDescription": "Parcours et formations de Julia Cabello Fredes, psychologue à Toulouse.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne diplômée d’État, membre du SNP en France et du Collège des psychologues au Chili, je suis titulaire d’un Master II de psychologie du développement de l’Université Toulouse 2.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Master II Psychologie du développement et processus de socialisation",
+     "texte": "Université Toulouse 2."
+    },
+    {
+     "titre": "Thérapeute de couple et de famille",
+     "texte": "Approche systémique, Centre de psychologie appliquée, Université Toulouse 2."
+    },
+    {
+     "titre": "Master en thérapie brève stratégique",
+     "texte": "Reconnu par le Centre de thérapie brève stratégique (Arezzo, Italie) et le Mental Research Institute (Palo Alto)."
+    },
+    {
+     "titre": "DU Psychologie de l’attachement",
+     "texte": "Universidad del Desarrollo, Chili."
+    },
+    {
+     "titre": "DIU Maladie d’Alzheimer et syndromes apparentés",
+     "texte": "Faculté de médecine, Université Toulouse 3."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Julia Cabello Fredes, psychologue à Toulouse",
+   "seoDescription": "L’approche de Julia Cabello Fredes, psychologue à Toulouse : thérapie brève stratégique, approche systémique, thérapie de couple et de famille, psychologie de l’attachement.",
+   "titre": "Trois courants\n*complémentaires*",
+   "intro": "Mon orientation repose sur trois courants convergents et complémentaires : la théorie systémique, le constructivisme et la thérapie brève stratégique.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "L’approche systémique",
+     "texte": "Issue de l’École de Palo Alto, elle s’intéresse moins au pourquoi d’un symptôme qu’à la façon dont il se maintient dans le présent.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Le constructivisme",
+     "texte": "Il n’existe pas une seule réalité : ce que l’on observe dépend du point de vue que l’on choisit.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "La thérapie brève stratégique",
+     "texte": "Un suivi d’au moins dix séances, espacées d’une ou deux semaines, qui peut être prolongé sans dépasser une vingtaine de séances.",
+     "icone": "calendrier"
+    }
+   ],
+   "outilsSurtitre": "Mon orientation",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Julia Cabello Fredes, psychologue à Toulouse",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Julia Cabello Fredes, psychologue à Toulouse.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois sur rendez-vous, à Toulouse. La thérapie brève stratégique propose un suivi d’au moins dix séances ; si aucun progrès significatif n’apparaît au bout de la dixième, le traitement peut s’interrompre.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Julia Cabello Fredes, psychologue à Toulouse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Julia Cabello Fredes, psychologue à Toulouse",
+   "seoDescription": "Adresse et téléphone de Julia Cabello Fredes, psychologue, Sur rendez-vous à Toulouse.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je reçois sur rendez-vous à Toulouse. Appelez-moi ou écrivez-moi pour convenir d’un premier entretien.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Julia Cabello Fredes"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

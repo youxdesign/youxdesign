@@ -1,0 +1,337 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Béatrice Gabet (prospect), d'après surlechemin.life. Publiée sur youxdesign.fr/maquettes/beatrice-gabet/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://surlechemin.life",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F4F1",
+   "encre": "#262624",
+   "accent": "#6E6A3F",
+   "doux": "#E6E4DA",
+   "texte2": "#4A4A49"
+  }
+ },
+ "praticien": {
+  "prenom": "Béatrice",
+  "nom": "Gabet",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, thérapeute familiale et sophrologue",
+  "specialite": "approche systémique, thérapie conjugale et familiale, sophrologie caycédienne, soutien à la parentalité",
+  "specialiteCourte": "Approche systémique",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "07 66 45 42 75",
+  "email": "bgabet@surlechemin.life",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/villeneuve-d-ascq/beatrice-gabet"
+  }
+ },
+ "cabinet": {
+  "adresse": "Sur rendez-vous",
+  "codePostal": "59650",
+  "ville": "Villeneuve-d’Ascq",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Du lundi au vendredi, rendez-vous possibles en soirée et le samedi matin",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Thérapie individuelle",
+   "prix": "50 €",
+   "duree": "1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Thérapie conjugale",
+   "prix": "70 €",
+   "duree": "1 h"
+  },
+  {
+   "nom": "Thérapie familiale",
+   "prix": "85 €",
+   "duree": "1 h"
+  },
+  {
+   "nom": "Accompagnement des parents ou des couples",
+   "prix": "35 €",
+   "duree": "45 min",
+   "texte": "Pack de 3 séances : 85 €."
+  },
+  {
+   "nom": "Sophrologie, séance individuelle",
+   "prix": "45 €",
+   "duree": "1 h",
+   "texte": "Première séance avec entretien : 55 € (1 h 30). En petit groupe (4 personnes au plus) : 25 € par personne (1 h 30)."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Traverser une crise",
+   "texte": "Trouver des issues aux problèmes rencontrés, faire face aux événements de la vie.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Émotions",
+   "texte": "Reconnaître ses émotions et apprendre à les gérer.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Couple",
+   "texte": "Vie affective, relationnelle et sexuelle ; thérapie conjugale.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Famille et parentalité",
+   "texte": "Soutien à la parentalité, ateliers parents et parents-enfants, thérapie familiale.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Stress et burn-out",
+   "texte": "Tension, nervosité, anxiété, fatigue chronique, somatisations ; santé au travail.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Examens et prise de parole",
+   "texte": "Se préparer psychologiquement à un examen, une conférence, un projet.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Béatrice Gabet, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Béatrice Gabet, psychologue clinicienne, thérapeute familiale et sophrologue à Villeneuve-d’Ascq. Approche systémique, thérapie conjugale et familiale, sophrologie caycédienne, soutien à la parentalité.",
+   "surtitre": "Psychologue clinicienne · Villeneuve-d’Ascq",
+   "titre": "Poursuivons votre cheminement\n*ensemble*",
+   "intro": "Sur le chemin est un espace d’accompagnements et de consultations pour vous, pour votre couple, avec vos enfants, ou pour vos équipes, à partir de réflexions systémiques.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Béatrice*",
+   "presentation": [
+    "Je travaille depuis une trentaine d’années dans le champ de la protection de l’enfance en tant que psychologue clinicienne, et depuis 2011 dans un centre d’entretiens familiaux et conjugaux à Tourcoing.",
+    "Formée à l’intervention systémique et à la thérapie familiale à Psycom, je suis également sophrologue caycédienne diplômée."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Béatrice Gabet, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Parcours et formations de Béatrice Gabet, psychologue à Villeneuve-d’Ascq.",
+   "titre": "Mon *parcours*",
+   "intro": "Je travaille depuis une trentaine d’années dans le champ de la protection de l’enfance en tant que psychologue clinicienne, et depuis 2011 dans un centre d’entretiens familiaux et conjugaux à Tourcoing.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Psychologue clinicienne en protection de l’enfance",
+     "texte": "Une trentaine d’années auprès des enfants, des adolescents et de leurs familles, notamment en maisons d’enfants."
+    },
+    {
+     "date": "2011",
+     "titre": "Centre d’entretiens familiaux et conjugaux",
+     "texte": "À Tourcoing."
+    },
+    {
+     "titre": "Intervention systémique et thérapie familiale",
+     "texte": "Formation à Psycom, certifiée par une monographie : « Jouer le JE – Jeu, tu, elle.s, il.s, nous… »."
+    },
+    {
+     "titre": "Sophrologue caycédienne",
+     "texte": "École de sophrologie caycédienne de Lille, puis formation supérieure en Andorre."
+    }
+   ],
+   "parcoursTitre": "Mon *expérience*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Béatrice Gabet, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "L’approche de Béatrice Gabet, psychologue à Villeneuve-d’Ascq : approche systémique, thérapie conjugale et familiale, sophrologie caycédienne, soutien à la parentalité.",
+   "titre": "Que chacun\n*trouve sa place*",
+   "intro": "L’approche systémique prend en compte les relations et la communication entre les personnes d’un système, en restant attentive au contexte, afin que chacun trouve sa place.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Entretiens systémiques",
+     "texte": "Pour commencer la réflexion, seul, en couple ou en famille, puis poursuivre si besoin par une thérapie.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Thérapie conjugale et familiale",
+     "texte": "Pour éclairer la fonction du problème rencontré et qui fait souffrir, associée ou non à la sophrologie.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Sophrologie caycédienne",
+     "texte": "Un entraînement personnel fondé sur des techniques de relaxation et d’activation du corps et de l’esprit, en individuel ou en petit groupe.",
+     "icone": "poumons"
+    },
+    {
+     "titre": "En entreprise",
+     "texte": "L’approche systémique et la sophrologie s’adaptent aussi aux équipes et à leurs collaborateurs.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Les pistes d’accompagnement",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Béatrice Gabet, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Béatrice Gabet, psychologue à Villeneuve-d’Ascq.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois du lundi au vendredi, avec des rendez-vous possibles en soirée et le samedi matin. Prenez rendez-vous en ligne sur Doctolib, ou appelez-moi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Béatrice Gabet, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Béatrice Gabet, psychologue à Villeneuve-d’Ascq",
+   "seoDescription": "Adresse et téléphone de Béatrice Gabet, psychologue, Sur rendez-vous à Villeneuve-d’Ascq.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je reçois sur rendez-vous à Villeneuve-d’Ascq. Prenez rendez-vous en ligne, appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Béatrice Gabet"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
