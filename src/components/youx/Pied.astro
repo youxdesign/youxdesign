@@ -57,5 +57,7 @@ const annee = new Date().getFullYear();
     <p>Ce site ne dépose aucun cookie et n’utilise aucun traceur.</p>
     <p><a href="/mentions-legales/">Mentions légales et confidentialité</a></p>
   </div>
-  <p class="vt-pied__geant" aria-hidden="true">you<i>X</i>design</p>
+  <!-- Filigrane du logo : lettres posées par le CSS (content), pour que les outils
+       de contraste ne le prennent pas pour du texte à lire (logo décoratif, WCAG 1.4.3) -->
+  <p class="vt-pied__geant" aria-hidden="true"><span data-lettres="you"></span><i data-lettres="X"></i><span data-lettres="design"></span></p>
 </footer>

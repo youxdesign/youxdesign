@@ -1211,6 +1211,7 @@ ol.vt-etapes { position: relative; display: grid; grid-template-columns: repeat(
   color: rgb(43 26 78 / .06);
 }
 .vt-pied__geant i { font-style: italic; font-weight: 500; color: rgb(106 79 208 / .14); }
+.vt-pied__geant [data-lettres]::before { content: attr(data-lettres); }
 /* Quatre colonnes ajustées à leur contenu : l'adresse e-mail reste sur une ligne */
 @media (min-width: 72.0625rem) { .vt-pied__nav a[href^='mailto:'] { overflow-wrap: normal; white-space: nowrap; } }
 @media (max-width: 72rem) { .vt-pied__nav { grid-template-columns: repeat(2, minmax(0, 1fr)); justify-content: stretch; } }
