@@ -117,6 +117,21 @@ const PILIERS = [
   }
 ];
 
+/* Indices mesurés par Google PageSpeed Insights (mobile), sous les piliers.
+   N'afficher que des chiffres réellement mesurés : à chaque nouvelle mesure,
+   changer la date, les scores et le lien du rapport. */
+const MESURES = {
+  date: '29 octobre 2026',
+  rapport: 'https://pagespeed.web.dev/analysis/https-youxdesign-fr/2ddt0o489w?form_factor=mobile',
+  demo: 'https://pagespeed.web.dev/analysis/https-youxdesign-fr-demo/vkhqwdfpnl?form_factor=mobile',
+  scores: [
+    { note: 95, nom: 'Rapidité', texte: 'Le contenu s’affiche en 1,4 s sur téléphone, même en 4G lente.' },
+    { note: 97, nom: 'Accessibilité', texte: 'Contrastes, titres et textes pensés pour tous, lecteurs d’écran compris.' },
+    { note: 100, nom: 'Bonnes pratiques', texte: 'Connexion sécurisée, aucune erreur, aucun script tiers.' },
+    { note: 100, nom: 'Référencement', texte: 'Tout ce que Google vérifie pour bien présenter votre cabinet.' }
+  ]
+};
+
 const ETAPES = [
   { titre: 'Vous configurez', texte: 'Style, couleurs, textes, photos : l’aperçu se construit sous vos yeux, en dix minutes.' },
   { titre: 'Je conçois et rédige', texte: 'Toutes vos pages, avec vos retours. Vous validez chaque étape.' },
@@ -486,6 +501,23 @@ const fleche = '<path d="M3 8h10M9 4l4 4-4 4" />';
             </li>
           ))}
         </ul>
+
+        <aside class="vt-mesures" aria-labelledby="mesures-titre" data-apparait>
+          <p class="vt-mesures__titre" id="mesures-titre">Mesuré par Google, pas seulement promis</p>
+          <ul class="vt-mesures__liste">
+            {MESURES.scores.map((s) => (
+              <li class="vt-mesure">
+                <span class="vt-mesure__note">{s.note}<span class="sr-only"> sur 100</span><span aria-hidden="true">/100</span></span>
+                <strong>{s.nom}</strong>
+                <span class="vt-mesure__texte">{s.texte}</span>
+              </li>
+            ))}
+          </ul>
+          <p class="vt-mesures__source">
+            Ce site, mesuré sur mobile par Google PageSpeed Insights le {MESURES.date}. Le site de démonstration obtient 100 en rapidité, accessibilité et bonnes pratiques.
+            <a href={MESURES.rapport} target="_blank" rel="noopener">Voir le rapport<span class="sr-only"> (nouvel onglet)</span></a> · <a href={MESURES.demo} target="_blank" rel="noopener">celui de la démo<span class="sr-only"> (nouvel onglet)</span></a>
+          </p>
+        </aside>
 
         <div class="vt-options">
           <div class="vt-options__tete" data-apparait>
