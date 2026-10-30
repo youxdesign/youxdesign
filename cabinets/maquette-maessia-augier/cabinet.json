@@ -1,0 +1,347 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Maessia Augier (prospect), d'après augier-psychologue.fr. Publiée sur youxdesign.fr/maquettes/maessia-augier/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://augier-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F6F4",
+   "encre": "#1F2A26",
+   "accent": "#2F7A6B",
+   "doux": "#DCEAE5",
+   "texte2": "#4C5A55"
+  }
+ },
+ "praticien": {
+  "prenom": "Maessia",
+  "nom": "Augier",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue et praticienne EMDR",
+  "specialite": "psychotraumatisme, enfants, adolescents et guidance parentale, thérapie des schémas",
+  "specialiteCourte": "Trauma et EMDR",
+  "diplome": "Master 2 de psychologie, spécialité développement, éducation et handicap de la petite enfance à l’adolescence (2016)",
+  "adeli": "409303765",
+  "public": "Nourrissons et leurs parents, enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 31 12 09 24",
+  "email": "contact@augier-psychologue.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "423 boulevard Saint-Vincent-de-Paul",
+  "codePostal": "40990",
+  "ville": "Saint-Paul-lès-Dax",
+  "zone": "Landes",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-17:00",
+   "mardi": "9:00-17:00",
+   "mercredi": "9:00-17:00",
+   "jeudi": "9:00-17:00",
+   "vendredi": "9:00-17:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle adulte",
+   "duree": "1 h",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Premier entretien enfant-parent(s)",
+   "duree": "1 h",
+   "prix": "65 €"
+  },
+  {
+   "nom": "Séance enfant ou adolescent",
+   "duree": "30 à 45 min",
+   "prix": "60 €"
+  },
+  {
+   "nom": "Intervention en établissement scolaire",
+   "texte": "Équipes éducatives, ESS.",
+   "prix": "60 €"
+  },
+  {
+   "nom": "Séance de groupe d’habiletés sociales",
+   "texte": "Enfants et adolescents.",
+   "prix": "50 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Traumatismes",
+   "texte": "Violences, accidents, deuils, ou événements de vie difficiles passés inaperçus.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Enfants",
+   "texte": "Peurs, troubles du sommeil, colères, troubles des apprentissages, moments de vie difficiles.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Adolescents",
+   "texte": "Chute des notes, mal-être, isolement, troubles du comportement alimentaire.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Anxiété et dépression",
+   "texte": "Angoisse, stress, tristesse, baisse de l’estime de soi.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Burn-out et harcèlement",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Haut potentiel",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Guidance parentale",
+   "texte": "Pour les parents qui s’interrogent sur le développement de leur enfant.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Difficultés familiales",
+   "texte": "Séparation, divorce, relations conflictuelles.",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Maessia Augier, psychologue à Saint-Paul-lès-Dax",
+   "seoDescription": "Maessia Augier, psychologue et praticienne emdr à Saint-Paul-lès-Dax. Psychotraumatisme, enfants, adolescents et guidance parentale, thérapie des schémas.",
+   "surtitre": "Psychologue et praticienne EMDR · Saint-Paul-lès-Dax",
+   "titre": "Libérer le présent\n*des blessures du passé*",
+   "intro": "Psychologue depuis 2016 et praticienne EMDR, je suis installée en libéral à Saint-Paul-lès-Dax, dans les Landes. Je reçois sur rendez-vous les nourrissons et leurs parents, les enfants, les adolescents et les adultes.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Quelques motifs de consultation fréquents :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Maessia*",
+   "presentation": [
+    "Ma pratique s’articule autour de consultations et de psychothérapies individuelles et d’entretiens de guidance parentale. Une grande partie de mon travail porte sur la prise en charge du traumatisme psychique.",
+    "Mon travail s’appuie sur la compréhension des difficultés de chacun, mais aussi sur l’identification de vos ressources propres, pour vous accompagner vers un mieux-être."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Maessia Augier, psychologue à Saint-Paul-lès-Dax",
+   "seoDescription": "Parcours et formations de Maessia Augier, psychologue à Saint-Paul-lès-Dax.",
+   "titre": "Mon *parcours*",
+   "intro": "J’ai obtenu le titre de psychologue en 2016. Je suis formée à la prise en charge de la souffrance psychique, quelle qu’elle soit, tout au long de la vie, et je me forme continuellement au travers de formations, de colloques, de supervisions et d’intervisions. Ma pratique est guidée par le code de déontologie des psychologues.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "2016",
+     "texte": "Master 2 de psychologie, spécialité développement, éducation et handicap de la petite enfance à l’adolescence. Formation au repérage de la maltraitance chez l’enfant et l’adolescent."
+    },
+    {
+     "titre": "2019",
+     "texte": "Praticienne EMDR, niveaux 1 et 2 (École française de psychothérapie EMDR, Montpellier)."
+    },
+    {
+     "titre": "2020",
+     "texte": "Thérapie des schémas adultes, puis enfants et adolescents (CEFTI, Bordeaux)."
+    },
+    {
+     "titre": "2022-2023",
+     "texte": "Haut potentiel chez l’enfant, TCC enfants et adolescents, jeu thérapeutique."
+    }
+   ],
+   "parcoursTitre": "Quelques *formations*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Maessia Augier, psychologue à Saint-Paul-lès-Dax",
+   "seoDescription": "L’approche de Maessia Augier, psychologue à Saint-Paul-lès-Dax : psychotraumatisme, enfants, adolescents et guidance parentale, thérapie des schémas.",
+   "titre": "Une pratique\n*intégrative*",
+   "intro": "Mes stratégies, outils et choix thérapeutiques sont variés, structurés et créatifs : ils empruntent à différents courants pour accompagner chacun dans sa singularité.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "EMDR",
+     "texte": "Le traitement adaptatif de l’information, pour retraiter les souvenirs traumatiques.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Thérapie des schémas",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Approche cognitivo-comportementale",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Approches psychodynamique et systémique",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Attachement et neurosciences affectives",
+     "icone": "cerveau"
+    }
+   ],
+   "outilsSurtitre": "Approches",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Maessia Augier, psychologue à Saint-Paul-lès-Dax",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Maessia Augier, psychologue à Saint-Paul-lès-Dax.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les demandes de rendez-vous se font par téléphone. Je ne réponds pas pendant les consultations : laissez un message vocal avec vos coordonnées et la raison de votre appel. Vous pouvez aussi m’écrire ; avant toute proposition de rendez-vous, je vous rappelle. Pour un enfant, la première consultation se déroule en présence d’au moins un parent.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque ou en espèces, à la fin de chaque séance.",
+   "tarifsNote": "Les tarifs peuvent être adaptés dans certaines situations (étudiants, personnes en recherche d’emploi, précarité). Certaines mutuelles prennent en charge une partie ou la totalité des séances.",
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Maessia Augier, psychologue à Saint-Paul-lès-Dax",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Maessia Augier, psychologue à Saint-Paul-lès-Dax",
+   "seoDescription": "Adresse et téléphone de Maessia Augier, psychologue, 423 boulevard Saint-Vincent-de-Paul à Saint-Paul-lès-Dax.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet est ouvert du lundi au vendredi, de 9 h à 17 h, sur rendez-vous. Appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Maessia Augier"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

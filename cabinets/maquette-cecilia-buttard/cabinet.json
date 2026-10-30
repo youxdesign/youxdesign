@@ -1,0 +1,334 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Cecilia Buttard (prospect), d'après www.ceciliabuttard.com. Publiée sur youxdesign.fr/maquettes/cecilia-buttard/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.ceciliabuttard.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F8F4EE",
+   "encre": "#2A2320",
+   "accent": "#A3543A",
+   "doux": "#F0E3D8",
+   "texte2": "#5C514B"
+  }
+ },
+ "praticien": {
+  "prenom": "Cecilia",
+  "nom": "Buttard",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne et psychothérapeute",
+  "specialite": "périnatalité, parentalité, bébés, enfants, adolescents et adultes, approche psychodynamique",
+  "specialiteCourte": "Périnatalité et parentalité",
+  "diplome": "Psychologue clinicienne, diplômée de l’université de Besançon (2008), DU de périnatalité",
+  "public": "Bébés, enfants, adolescents, adultes et couples"
+ },
+ "contact": {
+  "telephone": "07 66 56 94 98",
+  "email": "contact@ceciliabuttard.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/dijon/cecilia-buttard"
+  }
+ },
+ "cabinet": {
+  "adresse": "41 ruelle des Poussots",
+  "codePostal": "21000",
+  "ville": "Dijon",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Stationnement",
+    "texte": "Possible dans les rues attenantes.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "À vélo",
+    "texte": "Vous pouvez attacher votre vélo dans la cour.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Accès",
+    "texte": "Accessible en poussette, mais pas en fauteuil : quelques marches à descendre.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation enfant, adolescent ou adulte",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation de couple",
+   "prix": "75 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Projet d’enfant",
+   "texte": "Angoisses ou doutes autour de l’infertilité, de la PMA ou de l’adoption.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Grossesse",
+   "texte": "IVG, menace d’accouchement précoce, annonce d’un diagnostic anténatal, angoisse de l’accouchement.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Après l’accouchement",
+   "texte": "Tristesse, épuisement, difficultés d’allaitement, inquiétudes.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Inquiétudes pour votre bébé, votre enfant ou votre adolescent : sommeil, alimentation, comportement.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Événement de vie douloureux",
+   "texte": "Deuil, rupture, traumatisme, maladie, difficultés relationnelles, scolaires ou professionnelles.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Difficultés durables",
+   "texte": "Épuisement, anxiété, angoisses, peurs, difficultés conjugales, troubles du sommeil ou de l’humeur.",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Cecilia Buttard, psychologue à Dijon",
+   "seoDescription": "Cecilia Buttard, psychologue clinicienne et psychothérapeute à Dijon. Périnatalité, parentalité, bébés, enfants, adolescents et adultes, approche psychodynamique.",
+   "surtitre": "Psychologue clinicienne et psychothérapeute · Dijon",
+   "titre": "Prendre du temps pour vous,\n*pour avancer et aller mieux*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je vous reçois à mon cabinet de Dijon : bébés, enfants, adolescents et leurs familles, adultes et couples. Je vous accueille comme vous êtes, je vous écoute avec bienveillance et je vous accompagne au mieux.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Les raisons de consulter sont multiples, et toujours légitimes :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Cecilia*",
+   "presentation": [
+    "Mon parcours m’a montré qu’un accompagnement psychologique précoce, lors de difficultés, de traumatismes ou de deuils, permet de prévenir l’installation de troubles plus lourds.",
+    "Je vous accueille dans un espace confortable, où vous pourrez vous sentir à l’aise."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Cecilia Buttard, psychologue à Dijon",
+   "seoDescription": "Parcours et formations de Cecilia Buttard, psychologue à Dijon.",
+   "titre": "Mon *parcours*",
+   "intro": "Au fil de mon parcours, j’ai travaillé auprès de bébés, d’enfants, d’adolescents et de leurs familles, d’adultes et de personnes âgées. Je suis aujourd’hui psychologue en pédopsychiatrie au CHU de Dijon.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Université de Besançon",
+     "texte": "Diplômée en 2008, psychologue clinicienne et psychothérapeute."
+    },
+    {
+     "titre": "Petite enfance et périnatalité",
+     "texte": "Centre de guidance infantile du CHS de Novillars, unité père-mère-bébé, la Maison Verte et la Velotte à Besançon, maternité de Dole."
+    },
+    {
+     "titre": "Enfance et adolescence",
+     "texte": "CMPP Paul Picardet à Dijon, puis pédopsychiatrie au CHU de Dijon."
+    },
+    {
+     "titre": "Formations",
+     "texte": "DU de périnatalité (hôpital Antoine-Béclère, Clamart), formation en thérapie familiale à Dijon, et travail de thérapie personnelle."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Cecilia Buttard, psychologue à Dijon",
+   "seoDescription": "L’approche de Cecilia Buttard, psychologue à Dijon : périnatalité, parentalité, bébés, enfants, adolescents et adultes, approche psychodynamique.",
+   "titre": "Une approche\n*psychodynamique*",
+   "intro": "Je prends en compte la personne dans son individualité psychique et dans toute son histoire personnelle.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Mettre du sens",
+     "texte": "Par la relation, je vous accompagne vers une meilleure compréhension de vous-même, afin d’alléger les symptômes qui vous font souffrir.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Écoute bienveillante et parole libre",
+     "texte": "Vous pourrez exprimer en confiance les difficultés et les épreuves de votre vie, présente et passée.",
+     "icone": "porte"
+    },
+    {
+     "titre": "Soutien psychologique",
+     "texte": "Quelques entretiens lors d’une difficulté passagère, d’une période de déséquilibre ou d’un moment de stress.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Travail psychothérapique",
+     "texte": "À plus long terme, pour des changements plus profonds et durables et une meilleure connaissance de soi.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Un accompagnement *selon votre demande*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Cecilia Buttard, psychologue à Dijon",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Cecilia Buttard, psychologue à Dijon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je vous reçois au cabinet, 41 ruelle des Poussots, à Dijon. Prenez rendez-vous en ligne au moment qui vous convient.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Cecilia Buttard, psychologue à Dijon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Cecilia Buttard, psychologue à Dijon",
+   "seoDescription": "Adresse et téléphone de Cecilia Buttard, psychologue, 41 ruelle des Poussots à Dijon.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Prenez rendez-vous sur Doctolib, ou contactez-moi par téléphone ou par e-mail pour toute information.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Cecilia Buttard"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

@@ -1,0 +1,358 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Irina Pinvin (prospect), d'après irinapinvin-psychologue.fr. Publiée sur youxdesign.fr/maquettes/irina-pinvin/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://irinapinvin-psychologue.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F5F1",
+   "encre": "#22281F",
+   "accent": "#53702A",
+   "doux": "#E2E8D6",
+   "texte2": "#4F5748"
+  }
+ },
+ "praticien": {
+  "prenom": "Irina",
+  "nom": "Pinvin",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "accompagnement des enfants, des adolescents et de leurs parents, stress post-traumatique simple et complexe, EMDR",
+  "specialiteCourte": "Enfance, adolescence et EMDR",
+  "diplome": "Diplôme universitaire « Psychopathologie de l’enfant et de l’adolescent » (CHU Robert Debré, Reims)",
+  "public": "Enfants, adolescents, adultes et familles"
+ },
+ "contact": {
+  "telephone": "07 83 25 90 79",
+  "email": "irina.pinvin@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/reims/irina-pinvin"
+  }
+ },
+ "cabinet": {
+  "adresse": "25 rue Général Jean Accart",
+  "codePostal": "51100",
+  "ville": "Reims",
+  "zone": "Reims et alentours",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "14:00-20:00",
+   "mardi": "10:00-19:00",
+   "mercredi": "",
+   "jeudi": "10:00-19:00",
+   "vendredi": "10:00-19:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le lundi au 18 rue Pierret ; le mardi, le jeudi et le vendredi au 25 rue Général Jean Accart. Sur rendez-vous.",
+  "acces": [
+   {
+    "titre": "Cabinet Accart",
+    "texte": "25 rue Général Jean Accart, 51100 Reims : mardi, jeudi et vendredi de 10 h à 19 h.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Cabinet Pierret",
+    "texte": "18 rue Pierret, 51100 Reims : le lundi de 14 h à 20 h. Sonner chez Mme Zampaglione.",
+    "icone": "porte"
+   },
+   {
+    "titre": "À distance",
+    "texte": "Rendez-vous en ligne possibles jusqu’à 21 h sur demande.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "En cabinet ou à distance",
+   "duree": "1 h",
+   "prix": "65 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation familiale",
+   "lieu": "En cabinet",
+   "duree": "1 h 30",
+   "prix": "95 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Anxiété, troubles du sommeil et de l’attention, difficultés scolaires, comportement.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Haut potentiel et hypersensibilité",
+   "texte": "Le monde émotionnel des enfants précoces, hypersensibles ou à haut potentiel.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Stress post-traumatique",
+   "texte": "Simple ou complexe, accompagné notamment par l’EMDR.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Questions de parentalité, relations complexes avec vos propres parents.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Deuil et séparation",
+   "texte": "Décès d’un proche, séparation ou divorce.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Dépression",
+   "texte": "Y compris baby-blues, dépression post-natale ou burn-out parental.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Émotions et conflits",
+   "texte": "Gestion des émotions et des conflits, en famille, en couple ou au travail.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Adaptation en immigration",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Irina Pinvin, psychologue à Reims",
+   "seoDescription": "Irina Pinvin, psychologue à Reims. Accompagnement des enfants, des adolescents et de leurs parents, stress post-traumatique simple et complexe, emdr.",
+   "surtitre": "Psychologue · Reims et alentours",
+   "titre": "Un espace de confiance\n*et d’écoute*",
+   "intro": "Psychologue à Reims depuis 2018, je reçois les enfants, les adolescents et les adultes en cabinet ou à distance, et les familles lorsque la situation le nécessite. Je suis spécialisée dans l’accompagnement des enfants, des adolescents et de leurs parents.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Les motifs de consultation les plus courants :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Irina*",
+   "presentation": [
+    "Mon rôle est de vous aider, de vous accueillir tel(le) que vous êtes et de vous accompagner sur votre chemin de vie lorsque vous en ressentez le besoin. Je vous propose de rester à vos côtés le temps nécessaire pour vous guider vers la résolution de votre problème.",
+    "Avec les enfants, l’implication des parents est essentielle : ils sont amenés à participer activement à la compréhension et à la gestion des difficultés."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Irina Pinvin, psychologue à Reims",
+   "seoDescription": "Parcours et formations de Irina Pinvin, psychologue à Reims.",
+   "titre": "Mon *parcours*",
+   "intro": "Depuis toujours, ma curiosité pour l’être humain et son fonctionnement psychologique m’a guidée vers ce métier. Je propose des consultations individuelles pour les enfants, les adolescents et les adultes, ainsi que des séances collectives pour les familles lorsque c’est nécessaire.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Diplôme reconnu en France",
+     "texte": "Originaire de Russie, j’ai fait reconnaître mon diplôme de psychologue en France."
+    },
+    {
+     "titre": "CHU Robert Debré, Reims",
+     "texte": "Diplôme universitaire « Psychopathologie de l’enfant et de l’adolescent »."
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Formée à l’EMDR pour le stress post-traumatique simple ou complexe, les phobies, les blocages émotionnels, les deuils et les attaques de panique."
+    },
+    {
+     "titre": "Depuis 2018",
+     "texte": "Psychologue en libéral à Reims."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Irina Pinvin, psychologue à Reims",
+   "seoDescription": "L’approche de Irina Pinvin, psychologue à Reims : accompagnement des enfants, des adolescents et de leurs parents, stress post-traumatique simple et complexe, EMDR.",
+   "titre": "Une méthode\n*intégrative*",
+   "intro": "J’utilise différents moyens selon la situation et les besoins de chacun, dans une approche avant tout humaniste.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Approche humaniste",
+     "texte": "Elle fait appel au développement et au questionnement personnels.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Approche systémique",
+     "texte": "Pour travailler avec toute la famille quand la situation le nécessite.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Théorie de l’attachement",
+     "texte": "Avec les apports de Gordon Neufeld.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Désensibilisation et retraitement par les mouvements oculaires.",
+     "icone": "eclat"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Irina Pinvin, psychologue à Reims",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Irina Pinvin, psychologue à Reims.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations ont lieu en cabinet, à Reims, ou à distance. La consultation en ligne s’adresse à toute personne qui souhaite consulter sans se déplacer, notamment les personnes à mobilité réduite ou alitées ; elle peut se poursuivre en cas d’hospitalisation ou de convalescence. Le rythme des séances est défini ensemble lors du premier rendez-vous.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "En cabinet : espèces ou chèque. En ligne : virement bancaire. La carte bancaire n’est pas acceptée. La facture vous est envoyée par e-mail sous 48 h.",
+   "annulation": [
+    "Un rendez-vous peut être annulé ou reporté par simple appel ou SMS.",
+    "Toute consultation non annulée au moins 24 h à l’avance reste due."
+   ],
+   "tarifsNote": "Certaines mutuelles prennent en charge tout ou partie des consultations : renseignez-vous auprès de la vôtre.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Irina Pinvin, psychologue à Reims",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Irina Pinvin, psychologue à Reims",
+   "seoDescription": "Adresse et téléphone de Irina Pinvin, psychologue, 25 rue Général Jean Accart à Reims.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Prenez rendez-vous sur Doctolib en choisissant votre créneau, ou contactez-moi par téléphone ou par e-mail.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Irina Pinvin"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

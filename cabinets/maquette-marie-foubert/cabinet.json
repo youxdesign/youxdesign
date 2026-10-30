@@ -1,0 +1,326 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marie Foubert (prospect), d'après mariefoubertpsychologue.sitew.fr. Publiée sur youxdesign.fr/maquettes/marie-foubert/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://mariefoubertpsychologue.sitew.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F4F2",
+   "encre": "#2A2527",
+   "accent": "#A0566E",
+   "doux": "#F0E2E6",
+   "texte2": "#5B5156"
+  }
+ },
+ "praticien": {
+  "prenom": "Marie",
+  "nom": "Foubert",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "périnatalité, enfance et adolescence, bilans psychologiques, accompagnement des adultes et des personnes âgées",
+  "specialiteCourte": "Du bébé à la personne âgée",
+  "diplome": "Master professionnel et Master recherche en psychologie de l’enfance et de l’adolescence (Université Paris 8, 2012), DU de psychopathologie du bébé et de sa famille (2018)",
+  "adeli": "25 93 0556 3",
+  "public": "Bébés, enfants, adolescents, adultes, couples, familles et personnes âgées"
+ },
+ "contact": {
+  "telephone": "06 52 16 11 19",
+  "email": "marie.foubertbailly@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Maison médicale, 1 allée des Sapins",
+  "codePostal": "25380",
+  "ville": "Belleherbe",
+  "zone": "Doubs",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": true,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "texte": "Du bébé à l’adulte.",
+   "prix": "55 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation de couple ou de famille",
+   "prix": "65 €"
+  },
+  {
+   "nom": "Bilan psychologique",
+   "texte": "Enfant ou adulte.",
+   "prix": "À partir de 280 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Périnatalité",
+   "texte": "Dès le souhait de conception, pendant la grossesse, à l’accouchement et après la naissance.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Difficultés scolaires, troubles du comportement ou de l’humeur, difficultés relationnelles ou liées au stress.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Handicap et neurodéveloppement",
+   "texte": "Accompagnement d’un handicap ou d’un trouble du neurodéveloppement.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Bilan psychologique",
+   "texte": "Pour évaluer les difficultés d’un enfant ou d’un adulte.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Adultes",
+   "texte": "Difficulté familiale, difficulté liée au travail, deuil, séparation.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Personnes âgées",
+   "icone": "lune"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marie Foubert, psychologue à Belleherbe",
+   "seoDescription": "Marie Foubert, psychologue à Belleherbe. Périnatalité, enfance et adolescence, bilans psychologiques, accompagnement des adultes et des personnes âgées.",
+   "surtitre": "Psychologue · Belleherbe (Doubs)",
+   "titre": "Du bébé\n*à la personne âgée*",
+   "intro": "Psychologue en libéral depuis 2012, je vous reçois à la maison médicale de Belleherbe, à domicile si votre état de santé le nécessite, ou à distance. J’accompagne les bébés dans leur développement, jusqu’aux personnes âgées.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Les consultations que je propose :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marie*",
+   "presentation": [
+    "Très vite intéressée par le développement psychique de l’être humain, je me suis d’abord intéressée à l’enfant et à l’adolescent, puis formée à la psychopathologie du bébé, avant de travailler auprès des personnes âgées.",
+    "Le travail en réseau et en partenariat est très important pour moi. Je m’engage à travailler dans le respect du code de déontologie des psychologues et à garantir la confidentialité des séances."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marie Foubert, psychologue à Belleherbe",
+   "seoDescription": "Parcours et formations de Marie Foubert, psychologue à Belleherbe.",
+   "titre": "Mon *parcours*",
+   "intro": "Je souhaitais comprendre la genèse du développement pour mieux accompagner le devenir de l’enfant, de l’adolescent et de l’adulte. Aujourd’hui, j’exerce en cabinet et, à temps partiel, au sein d’un EHPAD.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Études",
+     "texte": "Licence de psychologie (Université de Franche-Comté), Master professionnel et Master recherche en psychologie de l’enfance et de l’adolescence (Université Paris 8, 2012)."
+    },
+    {
+     "titre": "2018",
+     "texte": "DU de psychopathologie du bébé et de sa famille (Université de Bourgogne Franche-Comté)."
+    },
+    {
+     "titre": "Réseaux",
+     "texte": "Psychologue du réseau du CAMSP de l’Aire urbaine et du Doubs depuis 2015 (bilans de développement des enfants de 0 à 3 ans), et de l’OPSAT depuis 2020."
+    },
+    {
+     "titre": "Depuis 2020",
+     "texte": "Psychologue auprès des personnes âgées en EHPAD, à temps partiel."
+    },
+    {
+     "titre": "Formation continue",
+     "texte": "Crise suicidaire, stress post-traumatique et deuil compliqué, WISC-V, fondamentaux en TCC, autisme."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marie Foubert, psychologue à Belleherbe",
+   "seoDescription": "L’approche de Marie Foubert, psychologue à Belleherbe : périnatalité, enfance et adolescence, bilans psychologiques, accompagnement des adultes et des personnes âgées.",
+   "titre": "Une première consultation,\n*avant tout une rencontre*",
+   "intro": "Lors de ce premier échange, j’évalue votre demande et je vous propose en fin de séance une prise en charge adaptée.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Au cabinet",
+     "texte": "À la maison médicale de Belleherbe.",
+     "icone": "lieu"
+    },
+    {
+     "titre": "À domicile",
+     "texte": "Si votre état de santé le nécessite, dans un rayon de 20 km autour du cabinet.",
+     "icone": "voiture"
+    },
+    {
+     "titre": "À distance",
+     "texte": "Par Skype, Zoom ou WhatsApp, si vous le souhaitez.",
+     "icone": "visio"
+    },
+    {
+     "titre": "Bilan psychologique",
+     "texte": "Pour l’enfant ou l’adulte.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Consultations",
+   "outilsTitre": "Où et comment *je vous reçois*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marie Foubert, psychologue à Belleherbe",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marie Foubert, psychologue à Belleherbe.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Pour une première consultation d’un enfant ou d’un adolescent, au moins un des deux parents doit être présent. Je peux me déplacer à votre domicile si votre état de santé le nécessite, dans un rayon de 20 km autour du cabinet.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "tarifsNote": "Pour les consultations à domicile, les frais de déplacement sont en supplément (0,50 € du km)."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marie Foubert, psychologue à Belleherbe",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marie Foubert, psychologue à Belleherbe",
+   "seoDescription": "Adresse et téléphone de Marie Foubert, psychologue, Maison médicale, 1 allée des Sapins à Belleherbe.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois à la maison médicale de Belleherbe. Contactez-moi par téléphone, par WhatsApp ou par e-mail.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marie Foubert"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

@@ -1,0 +1,331 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Roxane Sauret (prospect), d'après psychologue-roxane-sauret.fr. Publiée sur youxdesign.fr/maquettes/roxane-sauret/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psychologue-roxane-sauret.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F8F4EF",
+   "encre": "#2B231E",
+   "accent": "#B2552A",
+   "doux": "#F1E2D6",
+   "texte2": "#5E5049"
+  }
+ },
+ "praticien": {
+  "prenom": "Roxane",
+  "nom": "Sauret",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "thérapies cognitives et comportementales, pleine conscience, thérapie ACT, accompagnement des atypies cognitives",
+  "specialiteCourte": "TCC et atypies cognitives",
+  "diplome": "Psychologie du travail et ergonomie cognitive (Université Paris 8), maîtrises de psychologie sociale et de psychologie cognitive",
+  "public": "Enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "07 66 12 67 57",
+  "email": "roxane.sauret.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Pôle de soins, 9 rue Maurice Koechlin, ZA La Grue",
+  "codePostal": "26120",
+  "ville": "Chabeuil",
+  "zone": "Drôme",
+  "accessiblePMR": true,
+  "visio": false,
+  "enLigne": false,
+  "domicile": true,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Du lundi au samedi, sur rendez-vous uniquement",
+  "acces": [
+   {
+    "titre": "Pôle de soins",
+    "texte": "9 rue Maurice Koechlin, ZA La Grue, à Chabeuil.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Parking",
+    "texte": "Le bâtiment dispose d’un parking.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Accessible",
+    "texte": "Bâtiment accessible aux personnes porteuses de handicaps.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance d’accompagnement et de thérapie",
+   "prix": "60 €",
+   "miseEnAvant": true,
+   "texte": "Première séance de 60 minutes, puis séances de 45 minutes."
+  },
+  {
+   "nom": "Atelier d’entraînement aux habiletés sociales",
+   "prix": "40 €",
+   "texte": "Atelier en groupe."
+  },
+  {
+   "nom": "Mindful UP enfants et adolescents",
+   "prix": "40 €",
+   "texte": "Programme de pleine conscience, en groupe."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Intelligences atypiques",
+   "texte": "DYS, TDA/H, troubles du spectre autistique, haut potentiel : chez l’enfant, l’adolescent et l’adulte.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Psychothérapie",
+   "texte": "Pour les adolescents et les adultes.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Habiletés sociales",
+   "texte": "Des ateliers en groupe pour s’entraîner aux relations avec les autres.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Pleine conscience",
+   "texte": "Le programme Mindful UP, pour les enfants et les adolescents.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Roxane Sauret, psychologue à Chabeuil",
+   "seoDescription": "Roxane Sauret, psychologue à Chabeuil. Thérapies cognitives et comportementales, pleine conscience, thérapie act, accompagnement des atypies cognitives.",
+   "surtitre": "Psychologue · Chabeuil (Drôme)",
+   "titre": "Un accompagnement adapté\n*à vos spécificités*",
+   "intro": "Psychologue à Chabeuil, j’accompagne les enfants, les adolescents et les adultes, notamment les personnes aux intelligences atypiques. Je vous reçois sur rendez-vous au Pôle de soins, du lundi au samedi.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Mes domaines d’intervention :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Roxane*",
+   "presentation": [
+    "Je vous propose un accueil bienveillant, dans le respect de votre individualité. Guidée par le souci de respecter vos objectifs, je me mets à votre service et à votre écoute.",
+    "Une atypie cognitive est une façon de percevoir et de traiter l’information différente de celle le plus souvent rencontrée. Ces particularités sont à la fois un atout et une difficulté : je vous aide à en faire une force."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Roxane Sauret, psychologue à Chabeuil",
+   "seoDescription": "Parcours et formations de Roxane Sauret, psychologue à Chabeuil.",
+   "titre": "Mon *parcours*",
+   "intro": "Les découvertes en neurosciences, l’évolution de l’approche des personnes porteuses d’atypies cognitives et le programme de réduction du stress par la pleine conscience ont renouvelé mes pratiques. Je vous propose aujourd’hui un accompagnement thérapeutique personnalisé, adapté à vos besoins et à vos spécificités.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Université Paris 8",
+     "texte": "Diplômée en psychologie du travail et ergonomie cognitive, titulaire de maîtrises de psychologie sociale et de psychologie cognitive."
+    },
+    {
+     "titre": "Recrutement et formation",
+     "texte": "Six ans auprès de personnes fragilisées."
+    },
+    {
+     "titre": "Adolescents et jeunes adultes",
+     "texte": "Douze ans d’accompagnement global : orientation, formation, santé, action sociale et emploi."
+    },
+    {
+     "titre": "Pleine conscience",
+     "texte": "Initiation au programme « Mindfulness Based Stress Reduction »."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Roxane Sauret, psychologue à Chabeuil",
+   "seoDescription": "L’approche de Roxane Sauret, psychologue à Chabeuil : thérapies cognitives et comportementales, pleine conscience, thérapie ACT, accompagnement des atypies cognitives.",
+   "titre": "Mes inspirations\n*thérapeutiques*",
+   "intro": "Vous accompagner, c’est être à vos côtés sur le chemin de votre évolution personnelle, en fonction des objectifs que vous visez. Je privilégie le travail en réseau avec les autres acteurs qui peuvent vous aider.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapies cognitives et comportementales",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Pleine conscience",
+     "texte": "Les thérapies cognitives basées sur la pleine conscience.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Thérapie ACT",
+     "icone": "marches"
+    },
+    {
+     "titre": "Psychologie positive et sociale",
+     "texte": "Avec l’apport des dernières découvertes en neurosciences.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Travail en réseau",
+     "texte": "Partenariats avec Planète Autisme Drôme Ardèche et l’Association française pour les enfants à haut potentiel de la Drôme.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Approches",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Roxane Sauret, psychologue à Chabeuil",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Roxane Sauret, psychologue à Chabeuil.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La première séance dure 60 minutes : elle permet de faire connaissance, de définir votre demande, vos besoins et la façon dont nous pourrons travailler ensemble. Les séances suivantes durent 45 minutes. Je peux aussi me déplacer à domicile ou en institution si la situation le nécessite.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Roxane Sauret, psychologue à Chabeuil",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Roxane Sauret, psychologue à Chabeuil",
+   "seoDescription": "Adresse et téléphone de Roxane Sauret, psychologue, Pôle de soins, 9 rue Maurice Koechlin, ZA La Grue à Chabeuil.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois sur rendez-vous au Pôle de soins de Chabeuil, du lundi au samedi. Appelez-moi ou écrivez-moi pour une demande de bilan, d’accompagnement ou de renseignements.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Roxane Sauret"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
