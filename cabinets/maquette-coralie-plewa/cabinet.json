@@ -1,0 +1,342 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Coralie Plewa (prospect), d'après www.psychologue-plewa.fr. Publiée sur youxdesign.fr/maquettes/coralie-plewa/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-plewa.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F3F5",
+   "encre": "#2A2227",
+   "accent": "#8E4F6E",
+   "doux": "#EFDFE7",
+   "texte2": "#5A4D54"
+  }
+ },
+ "praticien": {
+  "prenom": "Coralie",
+  "nom": "Plewa",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "approche clinique d’orientation analytique, accompagnement des adultes, addictions, handicap, douleur chronique, soutien des aidants",
+  "specialiteCourte": "Accompagnement des adultes",
+  "diplome": "Master 2 de psychopathologie et psychologie clinique (Université de Lille 3)",
+  "adeli": "62 93 0854 5",
+  "public": "Adultes"
+ },
+ "contact": {
+  "telephone": "07 68 08 22 58",
+  "email": "psychologue.coralie.plewa@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/lomme/coralie-plewa"
+  }
+ },
+ "cabinet": {
+  "adresse": "2 rue de l’Abbé Bonpain",
+  "codePostal": "59113",
+  "ville": "Seclin",
+  "zone": "Nord",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-18:00",
+   "mardi": "9:00-18:00",
+   "mercredi": "9:00-18:00",
+   "jeudi": "9:00-18:00",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Du lundi au jeudi, sur rendez-vous. Dernier rendez-vous à 17 h ; rendez-vous possibles sur l’heure du midi.",
+  "acces": [
+   {
+    "titre": "En train",
+    "texte": "Le cabinet est à proximité de la gare de Seclin.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Stationnement",
+    "texte": "Parkings et places de stationnement autour du cabinet.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Sur place",
+    "texte": "Sonnez, entrez : une salle d’attente est à votre disposition.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Thérapie individuelle",
+   "lieu": "Au cabinet",
+   "duree": "45 min environ",
+   "prix": "60 €",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Événements de vie",
+   "texte": "Deuil, séparation, naissance, maladie, accompagnement d’un proche malade.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Épuisement",
+   "texte": "Burn-out, mutation professionnelle, fatigue inexpliquée.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Anxiété",
+   "texte": "Angoisses, troubles anxieux, troubles du sommeil ou de l’alimentation.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Estime de soi",
+   "texte": "Troubles dépressifs, perte de confiance, baisse de l’estime de soi.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Agression et événements marquants, récents ou anciens.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Addictions",
+   "texte": "Avec ou sans produit : alcool, drogues, écrans, jeux.",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Coralie Plewa, psychologue à Seclin",
+   "seoDescription": "Coralie Plewa, psychologue clinicienne à Seclin. Approche clinique d’orientation analytique, accompagnement des adultes, addictions, handicap, douleur chronique, soutien des aidants.",
+   "surtitre": "Psychologue clinicienne · Seclin",
+   "titre": "Un espace d’écoute\n*sans jugement*",
+   "intro": "Psychologue en libéral depuis 2016, je vous accueille désormais dans mon nouveau cabinet à Seclin, un espace de non-jugement qui privilégie l’accompagnement, la parole et l’écoute active et bienveillante.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Coralie*",
+   "presentation": [
+    "Diplômée du master 2 de psychopathologie et psychologie clinique de l’université de Lille 3, je pratique une approche clinique d’orientation analytique, qui met en avant la singularité de chaque être humain et aide à dénouer, sous les symptômes apparents, certains liens complexes de l’histoire de vie.",
+    "J’ai consolidé ma pratique dans des secteurs variés : centre médico-psychologique pour adultes, addictologie, centre de rééducation, accompagnement des personnes déficientes visuelles, aide aux aidants et ESAT."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Coralie Plewa, psychologue à Seclin",
+   "seoDescription": "Parcours et formations de Coralie Plewa, psychologue à Seclin.",
+   "titre": "Mon *parcours*",
+   "intro": "J’ai eu l’opportunité de développer et de consolider ma pratique clinique dans des secteurs très variés.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "2016 – 2025",
+     "texte": "Psychologue libérale au cabinet de Lomme-Bourg, avant de m’installer à Seclin."
+    },
+    {
+     "titre": "Centre médico-psychologique",
+     "texte": "Suivi d’adultes souffrant de dépression, de troubles anxieux ou faisant face à des événements de vie difficiles."
+    },
+    {
+     "titre": "Addictologie (CSAPA)",
+     "texte": "Accompagnement des problématiques addictives, avec ou sans produit."
+    },
+    {
+     "titre": "Centre de rééducation",
+     "texte": "Suivi de patients après un accident ou une maladie ; consultations autour de la douleur chronique."
+    },
+    {
+     "titre": "Handicap et aidants",
+     "texte": "Association des chiens guides d’aveugles, plateforme d’aide aux aidants, ESAT."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Coralie Plewa, psychologue à Seclin",
+   "seoDescription": "L’approche de Coralie Plewa, psychologue à Seclin : approche clinique d’orientation analytique, accompagnement des adultes, addictions, handicap, douleur chronique, soutien des aidants.",
+   "titre": "Un premier rendez-vous\n*qui ne vous engage pas*",
+   "intro": "Ce premier rendez-vous vous permet de me rencontrer, de découvrir mon cadre de travail et d’exposer votre demande et vos attentes. Vous restez libre de poursuivre le suivi ou de l’arrêter : nous discutons ensemble de la suite à donner.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "La parole et l’écoute",
+     "texte": "Un lieu pour déposer ce qui pèse, sans jugement.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "L’alliance thérapeutique",
+     "texte": "Une relation de confiance qui se crée progressivement, pour un travail solide et approfondi.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Une approche analytique",
+     "texte": "Pour comprendre ce qui se joue sous les symptômes, dans votre histoire.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Sans ordonnance",
+     "texte": "Les consultations chez un psychologue ne nécessitent pas de prescription médicale.",
+     "icone": "porte"
+    }
+   ],
+   "outilsSurtitre": "Ma façon de travailler",
+   "outilsTitre": "Comment *je vous accompagne*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Coralie Plewa, psychologue à Seclin",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Coralie Plewa, psychologue à Seclin.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances durent environ 45 minutes, au cabinet de Seclin, du lundi au jeudi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "En espèces ou par chèque.",
+   "tarifsNote": "Les séances ne sont pas remboursées par la Sécurité sociale et je ne fais pas partie du dispositif Mon soutien psy. Certaines mutuelles participent : renseignez-vous auprès de la vôtre.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Coralie Plewa, psychologue à Seclin",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Coralie Plewa, psychologue à Seclin",
+   "seoDescription": "Adresse et téléphone de Coralie Plewa, psychologue, 2 rue de l’Abbé Bonpain à Seclin.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois dans un cabinet paramédical, 2 rue de l’Abbé Bonpain à Seclin, près de la gare. Prenez rendez-vous sur Doctolib, ou appelez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Coralie Plewa"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

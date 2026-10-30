@@ -1,0 +1,333 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Laure Zimmermann (prospect), d'après laurezimmermann.wixsite.com/psychologue. Publiée sur youxdesign.fr/maquettes/laure-zimmermann/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://laurezimmermann.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F8F4F1",
+   "encre": "#2B2422",
+   "accent": "#B0573F",
+   "doux": "#F2E1D9",
+   "texte2": "#5C4F4A"
+  }
+ },
+ "praticien": {
+  "prenom": "Laure",
+  "nom": "Zimmermann",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "psychologie du développement, consultations des bébés, des enfants, des adolescents, des parents et futurs parents, bilans psychologiques",
+  "specialiteCourte": "Bébés, enfants, adolescents et parents",
+  "diplome": "Master 2 professionnel en psychologie du développement de l’enfant et de l’adolescent (Université Toulouse Jean-Jaurès)",
+  "adeli": "319327177",
+  "public": "Bébés, enfants, adolescents, parents et futurs parents"
+ },
+ "contact": {
+  "telephone": "06 99 60 68 06",
+  "email": "zimmermann.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "11 rue Simone Noirot",
+  "codePostal": "31150",
+  "ville": "Fenouillet",
+  "zone": "Haute-Garonne",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "texte": "Bébé, enfant, adolescent, parents ou futurs parents.",
+   "duree": "45 min à 1 h",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan psychométrique",
+   "texte": "Test de QI.",
+   "prix": "300 €"
+  },
+  {
+   "nom": "Bilan projectif",
+   "texte": "Tests de personnalité.",
+   "prix": "200 €"
+  },
+  {
+   "nom": "Bilan psychologique complet",
+   "texte": "Bilan psychométrique et bilan projectif.",
+   "prix": "500 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Bébés",
+   "texte": "Sommeil, alimentation, pleurs et colères, entrée à la crèche ou chez la nounou.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Scolarité difficile, comportement, peurs et phobies, confiance en soi, harcèlement.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Difficultés à grandir",
+   "texte": "Propreté, langage, régression dans les apprentissages, questions identitaires à l’adolescence.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Parents et futurs parents",
+   "texte": "Questionnements sur le rôle de parent ou la grossesse, burn-out parental, baby blues.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Événements marquants",
+   "texte": "Deuil, séparation, divorce, maladie, déménagement, arrivée d’un nouvel enfant.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Bilan psychologique",
+   "texte": "Comprendre le fonctionnement d’une personne, éclairer une prise en charge ou affiner un diagnostic.",
+   "icone": "livre"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Laure Zimmermann, psychologue à Fenouillet",
+   "seoDescription": "Laure Zimmermann, psychologue clinicienne, psychothérapeute à Fenouillet. Psychologie du développement, consultations des bébés, des enfants, des adolescents, des parents et futurs parents, bilans psychologiques.",
+   "surtitre": "Psychologue clinicienne · Fenouillet",
+   "titre": "Accompagner les bébés, les enfants,\n*les adolescents et leurs parents*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois les bébés, les enfants, les adolescents, les parents et les futurs parents au cabinet médical de Fenouillet, en face de l’école Piquepeyre.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Quelques-unes des raisons pour lesquelles vous pouvez consulter :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Laure*",
+   "presentation": [
+    "Titulaire d’un master 2 professionnel en psychologie du développement de l’enfant et de l’adolescent (Université Toulouse Jean-Jaurès), j’accompagne les bébés, les enfants, les adolescents et les parents ou futurs parents qui rencontrent des difficultés ou qui sont en souffrance.",
+    "Je travaille dans le respect des valeurs éthiques et déontologiques de la profession, et du secret professionnel."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Laure Zimmermann, psychologue à Fenouillet",
+   "seoDescription": "Parcours et formations de Laure Zimmermann, psychologue à Fenouillet.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je suis formée à la psychologie du développement de l’enfant et de l’adolescent.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation",
+     "texte": "Master 2 professionnel en psychologie du développement de l’enfant et de l’adolescent, Université Toulouse Jean-Jaurès."
+    },
+    {
+     "titre": "Psychologue et psychothérapeute",
+     "texte": "Inscrite au répertoire ADELI sous le numéro 319327177."
+    },
+    {
+     "titre": "Bilans",
+     "texte": "Tests intellectuels (WISC-V) et épreuves de personnalité (Rorschach, Patte Noire, dessin de la famille)."
+    },
+    {
+     "titre": "Déontologie",
+     "texte": "Respect des valeurs éthiques et déontologiques, et du secret professionnel."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Laure Zimmermann, psychologue à Fenouillet",
+   "seoDescription": "L’approche de Laure Zimmermann, psychologue à Fenouillet : psychologie du développement, consultations des bébés, des enfants, des adolescents, des parents et futurs parents, bilans psychologiques.",
+   "titre": "Le premier rendez-vous,\n*une rencontre*",
+   "intro": "Le premier rendez-vous est une rencontre entre les parents, l’enfant et moi-même. Il permet de comprendre les raisons qui vous amènent à consulter, et de mieux connaître votre enfant. Ensemble, nous définissons ensuite les modalités des rencontres.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Bébés",
+     "texte": "Une première rencontre avec les parents et le bébé, pour comprendre ce qui vous inquiète.",
+     "icone": "lune"
+    },
+    {
+     "titre": "Enfants et adolescents",
+     "texte": "Avec les parents et/ou l’enfant ou l’adolescent, selon la situation.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Parents et futurs parents",
+     "texte": "Seul ou en couple, pour apprendre à mieux vous connaître.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Bilan psychologique",
+     "texte": "Deux rencontres pour les tests intellectuels et/ou une pour les épreuves de personnalité, puis un rendez-vous bilan avec un compte rendu oral et écrit.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Consultations",
+   "outilsTitre": "Les *consultations*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Laure Zimmermann, psychologue à Fenouillet",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Laure Zimmermann, psychologue à Fenouillet.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances durent de 45 minutes à 1 heure. Vous restez libre, comme votre enfant, de décider de la poursuite ou non de l’accompagnement : nous en discutons ensemble au cours d’un entretien.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Au début ou à la fin de la séance, par chèque ou en espèces.",
+   "tarifsNote": "Les séances ne sont pas remboursées par la Sécurité sociale : renseignez-vous auprès de votre mutuelle.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Laure Zimmermann, psychologue à Fenouillet",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Laure Zimmermann, psychologue à Fenouillet",
+   "seoDescription": "Adresse et téléphone de Laure Zimmermann, psychologue, 11 rue Simone Noirot à Fenouillet.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet médical se trouve 11 rue Simone Noirot, à Fenouillet, en face de l’école Piquepeyre. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Laure Zimmermann"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

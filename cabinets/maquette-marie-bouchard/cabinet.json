@@ -1,0 +1,335 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marie Bouchard (prospect), d'après www.mariebouchard.fr. Publiée sur youxdesign.fr/maquettes/marie-bouchard/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.mariebouchard.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F5F2",
+   "encre": "#1F2621",
+   "accent": "#4E6E5D",
+   "doux": "#DEE6DF",
+   "texte2": "#4C5650"
+  }
+ },
+ "praticien": {
+  "prenom": "Marie",
+  "nom": "Bouchard",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "psychotraumatisme, thérapie EMDR, périnatalité et parentalité, consultations adultes, supervision et analyse de pratiques",
+  "specialiteCourte": "Psychotraumatisme et EMDR",
+  "diplome": "Master 2 de psychologie clinique et pathologique (École de psychologues praticiens, Paris)",
+  "public": "Adultes, parents et familles"
+ },
+ "contact": {
+  "telephone": "06 35 27 41 83",
+  "email": "mariebouchard.lyon6@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "38 rue de Créqui",
+  "codePostal": "69006",
+  "ville": "Lyon",
+  "quartier": "Lyon 6e",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Métro et bus",
+    "texte": "À environ 5 minutes à pied du métro A Foch, facilement accessible en bus.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Stationnement",
+    "texte": "Parking place Zoé-Roche (181 m), parc LPA Morand (403 m).",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "duree": "45 min à 1 h",
+   "prix": "80 €",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Psychotraumatisme",
+   "texte": "Chocs émotionnels et traumatiques : agression, attentat, annonce d’une maladie grave, décès d’un proche.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Phobies et anxiété",
+   "texte": "Peurs, phobies, troubles anxieux.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Périnatalité et parentalité",
+   "texte": "Devenir parent, relations parents-enfants.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Harcèlement, burn-out, dépression, licenciement.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Mieux se connaître",
+   "texte": "Traverser une période difficile, faire le point dans sa vie, mieux se comprendre.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marie Bouchard, psychologue à Lyon",
+   "seoDescription": "Marie Bouchard, psychologue clinicienne, psychothérapeute à Lyon. Psychotraumatisme, thérapie emdr, périnatalité et parentalité, consultations adultes, supervision et analyse de pratiques.",
+   "surtitre": "Psychologue clinicienne · Lyon 6e",
+   "titre": "Prendre le temps\n*de comprendre votre demande*",
+   "intro": "Consulter un psychologue n’est pas une démarche facile, et la demande n’est pas toujours évidente à formuler. Je vous accueille dans mon cabinet de psychologie, 38 rue de Créqui, à Lyon 6e.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marie*",
+   "presentation": [
+    "Intéressée par la clinique du traumatisme, j’ai suivi une formation en victimologie à Montréal après mon diplôme de psychologue, puis je me suis spécialisée en psychotraumatologie. Je suis formée à l’EMDR, à la dissociation, à la théorie des états du moi et à la thérapie des schémas.",
+    "Lors du premier entretien, nous prenons le temps de faire connaissance et de comprendre ensemble votre demande. Je vous explique ma manière de travailler, et nous commençons un travail si cela vous convient."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marie Bouchard, psychologue à Lyon",
+   "seoDescription": "Parcours et formations de Marie Bouchard, psychologue à Lyon.",
+   "titre": "Mon *parcours*",
+   "intro": "Mon parcours m’a conduite de la Marine nationale aux Hospices civils de Lyon, toujours au plus près de la clinique du traumatisme.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation",
+     "texte": "Master 2 de psychologie clinique et pathologique, École de psychologues praticiens (Paris) ; formation en victimologie à l’Université de Montréal."
+    },
+    {
+     "titre": "Marine nationale",
+     "texte": "Service de psychologie : clinique du traumatisme et relations parents-enfants, suivi des militaires et de leur famille."
+    },
+    {
+     "titre": "Sapeur-pompier volontaire",
+     "texte": "Psychologue auprès des pompiers confrontés à des situations difficiles."
+    },
+    {
+     "titre": "Hospices civils de Lyon",
+     "texte": "Cinq ans autour de la souffrance au travail, du harcèlement, du burn-out et de la dépression, puis l’hôpital de jour Psypro."
+    },
+    {
+     "titre": "EMDR et schémas",
+     "texte": "Institut français d’EMDR (niveaux 1 et 2 et modules complémentaires), dissociation et traumas transgénérationnels, thérapie des schémas."
+    },
+    {
+     "titre": "Enseignement",
+     "texte": "Enseignante à l’École de psychologues praticiens depuis 9 ans : psychothérapies, psychotrauma, conceptualisation de cas."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marie Bouchard, psychologue à Lyon",
+   "seoDescription": "L’approche de Marie Bouchard, psychologue à Lyon : psychotraumatisme, thérapie EMDR, périnatalité et parentalité, consultations adultes, supervision et analyse de pratiques.",
+   "titre": "La thérapie EMDR,\n*après un choc*",
+   "intro": "L’EMDR (désensibilisation et reprogrammation par mouvement des yeux) permet de relancer le traitement naturel d’informations douloureuses restées bloquées, par exemple après un choc traumatique, de mobiliser les ressources psychiques et de restaurer l’estime de soi.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapie EMDR",
+     "texte": "Pour les traumatismes, les phobies et les troubles anxieux.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Thérapie des schémas",
+     "texte": "Intégrée à un travail d’élaboration, à votre rythme.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "En individuel ou en famille",
+     "texte": "Dans la discrétion et le secret qui caractérisent mon travail.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Supervision",
+     "texte": "Pour les psychologues au cabinet, et en analyse de pratiques pour les équipes en institution.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Ce que je propose",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marie Bouchard, psychologue à Lyon",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marie Bouchard, psychologue à Lyon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations ont lieu uniquement sur rendez-vous. Leur fréquence dépend de vos besoins : chaque semaine ou tous les quinze jours, puis adaptée à l’évolution du travail.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "À la fin de chaque séance, par chèque ou en espèces.",
+   "annulation": [
+    "Merci de me prévenir 48 h à l’avance pour annuler ou déplacer un rendez-vous ; à défaut, la consultation est due."
+   ],
+   "tarifsNote": "Les consultations ne sont pas remboursées par la Sécurité sociale, mais de nombreuses mutuelles remboursent plusieurs séances.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marie Bouchard, psychologue à Lyon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marie Bouchard, psychologue à Lyon",
+   "seoDescription": "Adresse et téléphone de Marie Bouchard, psychologue, 38 rue de Créqui à Lyon.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 38 rue de Créqui, à Lyon 6e, à environ 5 minutes à pied du métro Foch. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marie Bouchard"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

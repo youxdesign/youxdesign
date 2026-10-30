@@ -1,0 +1,336 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Joëlle Piram-Lende (prospect), d'après joellepiramlende.wixsite.com/psychologue. Publiée sur youxdesign.fr/maquettes/joelle-piram-lende/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://joellepiramlende.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F6F7",
+   "encre": "#1E292C",
+   "accent": "#3D7280",
+   "doux": "#DAE8EB",
+   "texte2": "#4B5A5E"
+  }
+ },
+ "praticien": {
+  "prenom": "Joëlle",
+  "nom": "Piram-Lende",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "psychothérapies des enfants, des adolescents et des adultes, clinique du nourrisson, bilans psychologiques",
+  "specialiteCourte": "Enfants, adolescents et adultes",
+  "diplome": "Master II professionnel en psychologie du développement de l’enfant et de l’adolescent",
+  "adeli": "349327197",
+  "public": "Nourrissons, enfants, adolescents, adultes et professionnels"
+ },
+ "contact": {
+  "telephone": "06 66 94 54 30",
+  "email": "piramlende.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "10 avenue Pasteur",
+  "codePostal": "34190",
+  "ville": "Ganges",
+  "zone": "Hérault",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "9:00-12:00",
+   "mercredi": "9:00-19:00",
+   "jeudi": "9:00-18:00",
+   "vendredi": "9:00-18:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "duree": "45 min à 1 h",
+   "prix": "50 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan psychologique complet",
+   "texte": "Trois séances au minimum.",
+   "prix": "350 €"
+  },
+  {
+   "nom": "Bilan intellectuel",
+   "texte": "Tests de QI.",
+   "prix": "250 €"
+  },
+  {
+   "nom": "Bilan projectif",
+   "texte": "Tests de personnalité.",
+   "prix": "250 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Nourrissons",
+   "texte": "La clinique du nourrisson et les premiers liens.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Entretiens et suivis psychologiques, avec les parents.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Adultes",
+   "texte": "Les moments de doute, de crise ou de souffrance psychique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Parcours de vie",
+   "texte": "Les expériences, les interactions et les environnements qui influencent chacun.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Bilan psychologique",
+   "texte": "Comprendre le fonctionnement psychique, ses ressources et ses fragilités.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Professionnels",
+   "texte": "Élaboration de projets d’accompagnement et animations thérapeutiques.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Joëlle Piram-Lende, psychologue à Ganges",
+   "seoDescription": "Joëlle Piram-Lende, psychologue clinicienne, psychothérapeute à Ganges. Psychothérapies des enfants, des adolescents et des adultes, clinique du nourrisson, bilans psychologiques.",
+   "surtitre": "Psychologue clinicienne · Ganges",
+   "titre": "Vous accompagner\n*dans les moments de doute*",
+   "intro": "Psychologue clinicienne et psychothérapeute, j’accueille les enfants, les adolescents et les adultes dans mon cabinet à Ganges, dans le respect du secret professionnel.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Joëlle*",
+   "presentation": [
+    "Titulaire d’un master II professionnel en psychologie du développement de l’enfant et de l’adolescent, je suis formée à la clinique du nourrisson, à la psychopathologie psychanalytique de l’adolescent et de l’adulte, et à l’évaluation psychologique de l’enfant et de l’adolescent.",
+    "J’accorde une importance particulière aux expériences, aux interactions, au parcours de vie et aux environnements qui influencent l’état psychologique et le développement de chacun. L’alliance thérapeutique qui se noue est la base même de la qualité du travail."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Joëlle Piram-Lende, psychologue à Ganges",
+   "seoDescription": "Parcours et formations de Joëlle Piram-Lende, psychologue à Ganges.",
+   "titre": "Mon *parcours*",
+   "intro": "Le psychologue prend comme engagement de vous accueillir et de vous accompagner dans les moments de doute, de crise et de souffrance psychique.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation",
+     "texte": "Master II professionnel en psychologie du développement de l’enfant et de l’adolescent."
+    },
+    {
+     "titre": "Clinique",
+     "texte": "Clinique du nourrisson ; psychopathologie psychanalytique de l’adolescent et de l’adulte."
+    },
+    {
+     "titre": "Évaluation",
+     "texte": "Évaluation et bilan psychologique de l’enfant et de l’adolescent."
+    },
+    {
+     "titre": "Pratique",
+     "texte": "Entretiens et suivis psychologiques, élaboration de projets d’accompagnement, animations thérapeutiques."
+    },
+    {
+     "titre": "Répertoire ADELI",
+     "texte": "Inscrite sous le numéro 349327197."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Joëlle Piram-Lende, psychologue à Ganges",
+   "seoDescription": "L’approche de Joëlle Piram-Lende, psychologue à Ganges : psychothérapies des enfants, des adolescents et des adultes, clinique du nourrisson, bilans psychologiques.",
+   "titre": "Convenir ensemble\n*de la meilleure prise en charge*",
+   "intro": "Venir consulter est une démarche personnelle. N’hésitez pas à m’appeler pour exposer votre demande : nous essaierons ensemble de convenir de la meilleure prise en charge. L’association avec d’autres professionnels peut parfois s’avérer utile, voire nécessaire.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Enfants et adolescents",
+     "texte": "Des consultations adaptées à chaque âge.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Adultes",
+     "texte": "Un accompagnement dans les moments de doute et de crise.",
+     "icone": "vagues"
+    },
+    {
+     "titre": "Professionnels",
+     "texte": "Des consultations pour les professionnels.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Bilan psychologique",
+     "texte": "Une première rencontre, une rencontre seule avec l’enfant, deux séances de tests, puis un rendez-vous de restitution quelques semaines plus tard.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Consultations",
+   "outilsTitre": "Les *consultations*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Joëlle Piram-Lende, psychologue à Ganges",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Joëlle Piram-Lende, psychologue à Ganges.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations durent entre 45 minutes et 1 heure, au cabinet de Ganges, du mardi au vendredi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "En espèces ou par chèque uniquement.",
+   "tarifsNote": "Certaines mutuelles prennent en charge la consultation : renseignez-vous auprès de la vôtre.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Joëlle Piram-Lende, psychologue à Ganges",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Joëlle Piram-Lende, psychologue à Ganges",
+   "seoDescription": "Adresse et téléphone de Joëlle Piram-Lende, psychologue, 10 avenue Pasteur à Ganges.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 10 avenue Pasteur, à Ganges. Appelez-moi pour exposer votre demande et prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Joëlle Piram-Lende"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

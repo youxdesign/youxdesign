@@ -1,0 +1,360 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Charlotte Reymond (prospect), d'après psychologue-charlotte-reymond.weebly.com. Publiée sur youxdesign.fr/maquettes/charlotte-reymond/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psychologue-charlotte-reymond.weebly.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6F1",
+   "encre": "#1F2A20",
+   "accent": "#4C7A45",
+   "doux": "#DFEAD9",
+   "texte2": "#4D5A4B"
+  }
+ },
+ "praticien": {
+  "prenom": "Charlotte",
+  "nom": "Reymond",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne du développement",
+  "specialite": "thérapies comportementales, cognitives et émotionnelles (TCCE), bilans psychologiques, remédiation cognitive, guidance parentale, groupes thérapeutiques",
+  "specialiteCourte": "TCC et développement, à tout âge",
+  "diplome": "Psychologie « Développement, éducation, handicap » (Université de Montpellier) ; DU de thérapies comportementales, cognitives et émotionnelles (Université de Nice)",
+  "public": "Enfants, adolescents, adultes, personnes âgées et familles"
+ },
+ "contact": {
+  "telephone": "06 29 36 07 90",
+  "email": "reymond.charlotte.pro@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "54 boulevard Michelet",
+  "codePostal": "13008",
+  "ville": "Marseille",
+  "quartier": "Marseille 8e",
+  "accessiblePMR": true,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Consultations au cabinet le mardi, sur rendez-vous. Consultations en visio possibles.",
+  "acces": [
+   {
+    "titre": "Métro et bus",
+    "texte": "Métro Rond-Point du Prado ; bus 19, B1, 22, 22S, 23, 45, 72 et 83.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Stationnement",
+    "texte": "Résidence face au stade Vélodrome, stationnement facile dans la résidence.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Accessibilité",
+    "texte": "Cabinet aux normes PMR.",
+    "icone": "fauteuil"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Suivi psychologique",
+   "duree": "45 min à 1 h",
+   "texte": "Remédiation cognitive, guidance parentale ou équipe éducative : 60 €.",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan psychologique",
+   "texte": "WPPSI, WISC ou WAIS : passation, analyse des résultats, compte rendu oral et écrit.",
+   "prix": "250 €"
+  },
+  {
+   "nom": "Bilan complémentaire",
+   "texte": "Attentionnel ou théorie de l’esprit.",
+   "prix": "160 €"
+  },
+  {
+   "nom": "Pack bilans",
+   "texte": "Bilan psychologique et un bilan complémentaire. Avec deux bilans complémentaires : 450 €.",
+   "prix": "350 €"
+  },
+  {
+   "nom": "Groupe thérapeutique",
+   "texte": "De 4 à 6 participants : 2 séances individuelles d’1 h et 8 séances de groupe d’1 h 30.",
+   "prix": "400 €"
+  },
+  {
+   "nom": "Hortithérapie à domicile",
+   "duree": "1 h",
+   "texte": "Jusqu’à 25 km autour du cabinet ; 75 € entre 26 et 40 km.",
+   "prix": "65 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Troubles des apprentissages, TDA/H, troubles du spectre autistique, haut potentiel, anxiété.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Questions autour de la parentalité, conflits intrafamiliaux, guidance parentale.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Adultes",
+   "texte": "Anxiété, phobies, dépression, burn-out, difficultés relationnelles, troubles du comportement alimentaire.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Personnes âgées",
+   "texte": "Perte d’autonomie, changements de vie, stimulation cognitive et sensorielle.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Bilans",
+   "texte": "Définir un profil cognitif, s’appuyer sur ses points forts, proposer des aménagements.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Confiance en soi",
+   "texte": "Manque de confiance, rapport aux émotions, habiletés sociales.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Charlotte Reymond, psychologue à Marseille",
+   "seoDescription": "Charlotte Reymond, psychologue clinicienne du développement à Marseille. Thérapies comportementales, cognitives et émotionnelles (tcce), bilans psychologiques, remédiation cognitive, guidance parentale, groupes thérapeutiques.",
+   "surtitre": "Psychologue · Marseille 8e",
+   "titre": "Un accompagnement\n*à chaque âge de la vie*",
+   "intro": "Psychologue clinicienne du développement, je reçois les enfants, les adolescents, les adultes, les personnes âgées et leurs familles, au cabinet de Marseille 8e ou en visio.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Charlotte*",
+   "presentation": [
+    "Diplômée de l’université de Montpellier en psychologie « Développement, éducation, handicap », je suis spécialisée dans les thérapies comportementales, cognitives et émotionnelles (DU de l’université de Nice). J’intègre également des outils de la psychologie systémique.",
+    "Mes expériences en centre médico-psychologique, en pédopsychiatrie, en hôpital de jour et en maison de retraite m’ont appris à accompagner chaque personne dans sa singularité et sa globalité, au fil des âges."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Charlotte Reymond, psychologue à Marseille",
+   "seoDescription": "Parcours et formations de Charlotte Reymond, psychologue à Marseille.",
+   "titre": "Mon *parcours*",
+   "intro": "Ma pratique est principalement issue du courant développemental, qui considère la personne tout au long de la vie, et des thérapies cognitivo-comportementales.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation",
+     "texte": "Psychologie « Développement, éducation, handicap », Université de Montpellier."
+    },
+    {
+     "titre": "Spécialisation",
+     "texte": "Diplôme universitaire de thérapies comportementales, cognitives et émotionnelles (TCCE), Université de Nice."
+    },
+    {
+     "titre": "Expériences",
+     "texte": "Centre médico-psychologique, pédopsychiatrie, hôpital de jour, maison de retraite."
+    },
+    {
+     "titre": "Formations complémentaires",
+     "texte": "Éducation structurée, stratégies de communication (supports imagés), hortithérapie."
+    },
+    {
+     "titre": "Déontologie",
+     "texte": "Une pratique fondée sur le code de déontologie des psychologues."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Charlotte Reymond, psychologue à Marseille",
+   "seoDescription": "L’approche de Charlotte Reymond, psychologue à Marseille : thérapies comportementales, cognitives et émotionnelles (TCCE), bilans psychologiques, remédiation cognitive, guidance parentale, groupes thérapeutiques.",
+   "titre": "La première consultation,\n*pour faire le point*",
+   "intro": "Une première consultation, d’environ une heure, est toujours nécessaire avant tout bilan ou toute prise en charge. Elle permet de recueillir votre demande, de retracer votre histoire et vos difficultés, puis de définir ensemble le cadre de nos rencontres.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Suivi psychologique",
+     "texte": "Thérapies cognitives et comportementales, enrichies d’outils systémiques.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Bilans psychologiques",
+     "texte": "Une à deux séances d’1 h 30 à 2 h, avec un compte rendu oral et écrit.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Groupes thérapeutiques",
+     "texte": "De 4 à 6 adultes, pour améliorer le rapport aux émotions, les habiletés sociales et la confiance en soi.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Hortithérapie",
+     "texte": "Les plantes et le jardin comme médiateurs, pour apaiser l’anxiété et accompagner notamment les personnes âgées.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Ce que je propose",
+   "outilsTitre": "Mes *accompagnements*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Charlotte Reymond, psychologue à Marseille",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Charlotte Reymond, psychologue à Marseille.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations au cabinet ont lieu le mardi. Des consultations en visio sont également possibles.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "tarifsNote": "Je ne participe pas au dispositif Mon soutien psy. Certaines mutuelles prennent en charge quelques séances : pensez à vous renseigner."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Charlotte Reymond, psychologue à Marseille",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Charlotte Reymond, psychologue à Marseille",
+   "seoDescription": "Adresse et téléphone de Charlotte Reymond, psychologue, 54 boulevard Michelet à Marseille.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 54 boulevard Michelet, à Marseille (8e), dans une résidence face au stade Vélodrome. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Charlotte Reymond"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
