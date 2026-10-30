@@ -1,0 +1,357 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Gaëlle Dufour (prospect), d'après psychologue-laparte.com. Publiée sur youxdesign.fr/maquettes/gaelle-dufour/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psychologue-laparte.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F4EF",
+   "encre": "#2A2420",
+   "accent": "#8A5A3C",
+   "doux": "#EADFD3",
+   "texte2": "#5C524A"
+  }
+ },
+ "praticien": {
+  "prenom": "Gaëlle",
+  "nom": "Dufour",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne du travail, thérapeute EMDR",
+  "specialite": "souffrance au travail, burn-out, psychotraumatisme, thérapie EMDR, psychodynamique et psychopathologie du travail",
+  "specialiteCourte": "Travail et trauma",
+  "diplome": "Doctorat de psychologie, DEA et DESS de psychologie mention ergonomie (Université Paris 5 – René Descartes)",
+  "adeli": "819306622",
+  "rpps": "10008743642",
+  "public": "Adultes"
+ },
+ "contact": {
+  "telephone": "05 63 58 26 13",
+  "email": "gaelledufour@psychologue-laparte.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/lavaur/gaelle-dufour"
+  }
+ },
+ "cabinet": {
+  "adresse": "1 bis, place du Foirail",
+  "codePostal": "81500",
+  "ville": "Lavaur",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "11:30-18:00",
+   "mardi": "9:00-17:00",
+   "mercredi": "9:00-12:30",
+   "jeudi": "9:00-18:00",
+   "vendredi": "9:00-18:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Centre-ville",
+    "texte": "Place du Foirail, près des allées Jean Jaurès.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Parking gratuit",
+    "texte": "Sur la place, en face du cabinet.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Entrée",
+    "texte": "Par une petite porte à gauche du bâtiment d’Harmonie mutuelle, puis ascenseur jusqu’au 1er étage.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Thérapie individuelle au cabinet",
+   "duree": "1 h",
+   "prix": "60 €",
+   "miseEnAvant": true,
+   "texte": "Première séance ou suivi psychologique : prévention de la souffrance au travail, du burn-out, traitement d’un traumatisme (EMDR)."
+  },
+  {
+   "nom": "Thérapie individuelle à distance",
+   "duree": "1 h",
+   "prix": "60 €",
+   "texte": "En téléconsultation via Doctolib."
+  },
+  {
+   "nom": "Intervention sur le terrain",
+   "prix": "Sur devis",
+   "texte": "Cellule de soutien psychologique, groupes de parole, accompagnement en entreprise ou en institution."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Stress, surcharge, perte de sens, conflit éthique, conflit avec un collègue ou un supérieur.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Burn-out et bore-out",
+   "texte": "Épuisement, pré-burn-out, arrêt maladie.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Harcèlement",
+   "texte": "Situations qui s’apparentent à du harcèlement moral ou sexuel.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Agression, accident, événement douloureux, stress post-traumatique.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Anxiété et mal-être",
+   "texte": "Fatigue, démotivation, dépression.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Confiance en soi",
+   "texte": "Affirmer sa posture au travail, apprendre à dire non.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Reconversion",
+   "texte": "Mobilité, projet de reconversion, décision importante dans sa carrière.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Gaëlle Dufour, psychologue à Lavaur",
+   "seoDescription": "Gaëlle Dufour, psychologue clinicienne du travail, thérapeute emdr à Lavaur. Souffrance au travail, burn-out, psychotraumatisme, thérapie emdr, psychodynamique et psychopathologie du travail.",
+   "surtitre": "Psychologue clinicienne du travail · EMDR · Lavaur",
+   "titre": "Retrouver goût et plaisir\n*à la vie, et au travail*",
+   "intro": "Psychologue clinicienne du travail et thérapeute EMDR, je vous reçois à mon cabinet L’Aparté, à Lavaur, ou en téléconsultation. J’accompagne les adultes en souffrance psychique, au travail comme dans leur vie personnelle.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici les thématiques sur lesquelles je travaille :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Gaëlle*",
+   "presentation": [
+    "Docteure en psychologie, formée en ergonomie et en psychodynamique du travail, je connais bien le monde du travail : j’ai été, comme vous, salariée d’une association, d’une entreprise, agent de la fonction publique, avant d’exercer en indépendante.",
+    "J’accompagne les salariés, agents, indépendants et dirigeants, ainsi que les adultes ayant vécu un événement douloureux ou traumatique. J’interviens aussi en entreprise et dans la fonction publique, pour une prise en charge rapide du collectif de travail après un événement grave."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Gaëlle Dufour, psychologue à Lavaur",
+   "seoDescription": "Parcours et formations de Gaëlle Dufour, psychologue à Lavaur.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne du travail, j’ai centré ma pratique sur la prise en charge des adultes en souffrance psychique, avec une approche intégrative : analyse cognitive et comportementale, psychodynamique et psychopathologie du travail, ergonomie. Je fais partie du réseau national « Souffrance et Travail » et suis membre de l’association EMDR France.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Université Paris 5 – René Descartes",
+     "texte": "Doctorat de psychologie (2006), DEA de psychologie (2003), DESS de psychologie mention ergonomie (major de promotion, 2002)."
+    },
+    {
+     "titre": "Psychotraumatologie et EMDR",
+     "texte": "Certification en psychotraumatologie (Institut français d’EMDR, 2020), formation à la thérapie EMDR (Institut EMDR France, niveau 2 en cours)."
+    },
+    {
+     "titre": "Psychopathologie du travail",
+     "texte": "Spécialisation avec C. Dejours et M. Pezé (IPDT Paris, 2023), psychodynamique et psychopathologie du travail (ASTI Toulouse, 2022)."
+    },
+    {
+     "titre": "Santé au travail",
+     "texte": "Psychologue du travail et ergonome en service de santé au travail de 2016 à 2022, puis psychologue clinicienne du travail indépendante (Montauban, Castres)."
+    },
+    {
+     "titre": "Aujourd’hui",
+     "texte": "Cabinet libéral L’Aparté à Lavaur depuis 2022."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Gaëlle Dufour, psychologue à Lavaur",
+   "seoDescription": "L’approche de Gaëlle Dufour, psychologue à Lavaur : souffrance au travail, burn-out, psychotraumatisme, thérapie EMDR, psychodynamique et psychopathologie du travail.",
+   "titre": "Comprendre le lien entre\n*travail et santé psychique*",
+   "intro": "Les contraintes liées à l’organisation du travail peuvent avoir des effets délétères sur la santé psychique. Mon approche relie votre situation de travail à votre vécu personnel, en tenant compte des processus mentaux, mais aussi du ressenti corporel et des émotions.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Psychopathologie du travail",
+     "texte": "Comprendre les symptômes et établir un lien entre l’organisation du travail et l’organisation psychique propre à chacun.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Psychodynamique du travail",
+     "texte": "Le rapport entre la santé mentale et l’organisation du travail : le travail est central pour l’identité et la santé.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Ergonomie",
+     "texte": "Mettre en lumière l’activité réelle, au-delà du travail prescrit, pour adapter le travail à l’humain.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Thérapie EMDR",
+     "texte": "Recommandée par la HAS, l’OMS et l’Inserm pour la prise en charge du stress post-traumatique.",
+     "icone": "eclat"
+    }
+   ],
+   "outilsSurtitre": "Approches et outils",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Gaëlle Dufour, psychologue à Lavaur",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Gaëlle Dufour, psychologue à Lavaur.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations sont individuelles et réservées aux adultes, au cabinet de Lavaur ou en téléconsultation via Doctolib. Je conseille, dans la mesure du possible, que la première consultation ait lieu au cabinet. Ce premier entretien permet d’échanger sur vos besoins, vos difficultés et vos ressentis, puis de co-construire le suivi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Au cabinet : chèque, espèces ou virement bancaire. En téléconsultation : par empreinte bancaire lors de la prise de rendez-vous sur Doctolib.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Gaëlle Dufour, psychologue à Lavaur",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Gaëlle Dufour, psychologue à Lavaur",
+   "seoDescription": "Adresse et téléphone de Gaëlle Dufour, psychologue, 1 bis, place du Foirail à Lavaur.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet L’Aparté se trouve 1 bis, place du Foirail, au centre-ville de Lavaur, avec un parking gratuit en face. Prenez rendez-vous sur Doctolib, ou contactez-moi par téléphone ou par e-mail.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Gaëlle Dufour"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

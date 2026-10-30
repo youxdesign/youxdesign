@@ -1,0 +1,341 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Laurence Royer (prospect), d'après www.laurenceroyer.com. Publiée sur youxdesign.fr/maquettes/laurence-royer/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.laurenceroyer.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ]
+ },
+ "praticien": {
+  "prenom": "Laurence",
+  "nom": "Royer",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, TCCE et victimologie",
+  "specialite": "thérapies cognitives, comportementales et émotionnelles (TCCE, dont ACT et thérapie fondée sur la compassion), victimologie et psychotraumatisme, EMDR (en cours de formation)",
+  "specialiteCourte": "TCCE et victimologie",
+  "diplome": "DU de clinique et psychothérapie cognitive, comportementale et émotionnelle (Université de Nîmes) · DU de victimologie (Université de Montpellier) · Diplôme d’État de conseiller d’orientation psychologue",
+  "adeli": "309301901",
+  "rpps": "10009930339",
+  "public": "Enfants de plus de 8 ans, adolescents, jeunes adultes et adultes"
+ },
+ "contact": {
+  "telephone": "07 66 26 68 06",
+  "email": "royerlaur@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Perfactive",
+   "url": "https://perfactive.fr/laurence-royer/book"
+  }
+ },
+ "cabinet": {
+  "adresse": "2 rue de la Bienfaisance",
+  "codePostal": "30000",
+  "ville": "Nîmes",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le mardi et le mercredi, sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "duree": "45 min",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation Mon soutien psy",
+   "duree": "45 min",
+   "prix": "50 €",
+   "texte": "Créneaux réservés, remboursés par la CPAM et votre mutuelle selon les critères du dispositif."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Stress et anxiété",
+   "texte": "Troubles anxieux, TOC, anxiété sociale et scolaire, trouble panique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Mal-être et dépression",
+   "texte": "Troubles de l’humeur, dysrégulation émotionnelle.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Émotions débordantes",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Psychotraumatisme, violences, événements critiques.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Événements de vie difficiles",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Difficultés relationnelles",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Addictions",
+   "texte": "Alcool, drogue, achats compulsifs, jeux.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Scolarité et orientation",
+   "texte": "Problématiques personnelles, professionnelles ou scolaires des adolescents et jeunes adultes.",
+   "icone": "livre"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Laurence Royer, psychologue à Nîmes",
+   "seoDescription": "Laurence Royer, psychologue clinicienne, tcce et victimologie à Nîmes. Thérapies cognitives, comportementales et émotionnelles (tcce, dont act et thérapie fondée sur la compassion), victimologie et psychotraumatisme, emdr (en cours de formation).",
+   "surtitre": "Psychologue clinicienne · TCCE · Victimologie · Nîmes",
+   "titre": "Mieux se connaître, soigner ses blessures,\n*rebondir*",
+   "intro": "Psychologue clinicienne à Nîmes, j’accompagne les adolescents, les jeunes adultes, les adultes et les enfants de plus de 8 ans, en présentiel ou en visio, pour du soutien ou des thérapies scientifiquement validées : TCCE, victimologie et EMDR.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Je vous accompagne notamment en cas de :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Laurence*",
+   "presentation": [
+    "J’offre un espace d’écoute et de confidentialité où chacun peut s’exprimer librement et sans jugement, avec un accompagnement fondé sur l’alliance thérapeutique. Après un temps d’analyse des difficultés rencontrées, nous définissons ensemble vos objectifs.",
+    "Il ne s’agit pas d’une simple écoute, mais de prendre le temps de mieux se connaître, soigner ses blessures, accueillir ses ressentis et questionnements, pour pouvoir faire face à la vie et rebondir. Je suis aussi psychologue de l’Éducation nationale depuis 2002, en collèges, lycées et CIO."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Perfactive, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Laurence Royer, psychologue à Nîmes",
+   "seoDescription": "Parcours et formations de Laurence Royer, psychologue à Nîmes.",
+   "titre": "Mon *parcours*",
+   "intro": "Passionnée par le psychisme et le fonctionnement de l’être humain, j’ai repris des études de psychologie en 1996, après des études de droit. Depuis, je n’ai jamais cessé de me former. Mon approche est intégrative : j’adapte ma pratique à chaque personne, à son histoire, à sa demande et à ses besoins.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Psychologie",
+     "texte": "DEUG et licence (Universités de Nîmes et Montpellier III), maîtrise (Université d’Aix-en-Provence)."
+    },
+    {
+     "titre": "Conseillère d’orientation psychologue",
+     "texte": "Diplôme d’État (CEFOCOP, Université d’Aix-en-Provence, 2003). Psychologue de l’Éducation nationale depuis 2002."
+    },
+    {
+     "titre": "TCCE",
+     "texte": "DU de clinique et psychothérapie cognitive, comportementale et émotionnelle (Université de Nîmes, 2015-2017), puis formations de 3e vague : ACT, thérapie fondée sur la compassion, pleine conscience."
+    },
+    {
+     "titre": "Victimologie",
+     "texte": "DU de victimologie (Université de Montpellier, 2025), formations en psychotraumatologie, psychocriminologie et intervention de crise."
+    },
+    {
+     "titre": "EMDR",
+     "texte": "En cours de formation à l’IFEMDR (modules 1 et 2, 2025-2026)."
+    },
+    {
+     "titre": "Pratiques corporelles",
+     "texte": "Enseignante de yoga, de relaxation et de méditation pleine conscience (association IMARA)."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Laurence Royer, psychologue à Nîmes",
+   "seoDescription": "L’approche de Laurence Royer, psychologue à Nîmes : thérapies cognitives, comportementales et émotionnelles (TCCE, dont ACT et thérapie fondée sur la compassion), victimologie et psychotraumatisme, EMDR (en cours de formation).",
+   "titre": "Des thérapies\n*scientifiquement validées*",
+   "intro": "Les thérapies cognitives, comportementales et émotionnelles s’intéressent à l’interaction entre nos pensées, nos émotions et nos sensations. Elles portent sur les problèmes actuels, sur la manière d’y faire face maintenant et d’envisager le futur plus sereinement. Vous y jouez un rôle actif : la relation est collaborative.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Les TCCE",
+     "texte": "Identifier et comprendre nos pensées et nos schémas pour changer nos comportements et ressentir un mieux-être.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "La 3e vague",
+     "texte": "ACT, thérapie fondée sur la compassion, pleine conscience : modifier sa relation au symptôme, accueillir émotions et pensées sans jugement.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Victimologie et psychotrauma",
+     "texte": "La prise en charge des victimes de violences et d’événements traumatiques. Une prise en charge rapide peut atténuer considérablement les souffrances.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "L’EMDR",
+     "texte": "Des mouvements oculaires guidés pour désensibiliser les souvenirs traumatiques et réduire leur impact émotionnel.",
+     "icone": "eclat"
+    }
+   ],
+   "outilsSurtitre": "Mes approches",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Laurence Royer, psychologue à Nîmes",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Laurence Royer, psychologue à Nîmes.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je vous reçois le mardi et le mercredi, au 2 rue de la Bienfaisance à Nîmes ou en visio. Lors du premier rendez-vous, vous pourrez exprimer votre demande librement : nous prendrons le temps d’une première analyse de vos questionnements et de vos objectifs.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Après chaque séance, par chèque ou en espèces. Pour les téléconsultations, par virement bancaire au moins 24 h avant la séance : vous recevez ensuite le lien par e-mail. Une facture vous est remise si besoin.",
+   "annulation": [
+    "En cas d’annulation ou de demande de déplacement d’un rendez-vous, merci de me prévenir au moins 48 h à l’avance. À défaut, la consultation sera due.",
+    "En cas de retard, la séance ne pourra pas être prolongée."
+   ],
+   "monSoutienPsy": true,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Laurence Royer, psychologue à Nîmes",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Laurence Royer, psychologue à Nîmes",
+   "seoDescription": "Adresse et téléphone de Laurence Royer, psychologue, 2 rue de la Bienfaisance à Nîmes.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois au 2 rue de la Bienfaisance, à Nîmes, ou en visio. Prenez rendez-vous en ligne, ou contactez-moi par téléphone ou par e-mail.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Laurence Royer"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
