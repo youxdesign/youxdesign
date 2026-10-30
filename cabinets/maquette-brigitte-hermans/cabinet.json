@@ -1,0 +1,317 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Brigitte Hermans (prospect), d'après neuropsychologue-ardeche.com. Publiée sur youxdesign.fr/maquettes/brigitte-hermans/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://neuropsychologue-ardeche.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F6F5F1",
+   "encre": "#23262B",
+   "accent": "#5B6E3C",
+   "doux": "#E3E7D8",
+   "texte2": "#545A50"
+  }
+ },
+ "praticien": {
+  "prenom": "Brigitte",
+  "nom": "Hermans",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue spécialisée en neuropsychologie",
+  "specialite": "bilans et rééducations neuropsychologiques de l’enfant et de l’adolescent",
+  "specialiteCourte": "Neuropsychologie",
+  "public": "Enfants et adolescents"
+ },
+ "contact": {
+  "telephone": "06 29 87 36 64",
+  "email": "neuropsy.ardeche@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Maison de santé Beaume Drobie",
+  "codePostal": "07260",
+  "ville": "Joyeuse",
+  "zone": "Ardèche",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Bilan neuropsychologique",
+   "duree": "1 demi-journée",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan psychométrique",
+   "duree": "1 demi-journée",
+   "prix": "Sur demande"
+  },
+  {
+   "nom": "QI et bilan neuropsychologique",
+   "duree": "2 demi-journées",
+   "prix": "Sur demande"
+  },
+  {
+   "nom": "Évaluation des séquelles d’une lésion cérébrale ou d’un trouble neurologique",
+   "duree": "2 demi-journées",
+   "prix": "Sur demande"
+  },
+  {
+   "nom": "Avis spécialisé ou séance de rééducation",
+   "duree": "3/4 h",
+   "prix": "Sur demande"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Attention et fonctions exécutives",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Hyperactivité",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Troubles de la mémoire",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Difficultés scolaires",
+   "texte": "Dyslexie, dysorthographie, dyscalculie.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Langage et praxies",
+   "texte": "Dysphasie, dyspraxie, dysgraphie, troubles visuo-spatiaux.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Haut potentiel intellectuel",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Autisme et retard de développement",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Contexte médical",
+   "texte": "Lésion cérébrale, traumatisme crânien, AVC, épilepsie, troubles du sommeil.",
+   "icone": "vagues"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Brigitte Hermans, neuropsychologue à Joyeuse",
+   "seoDescription": "Brigitte Hermans, psychologue spécialisée en neuropsychologie à Joyeuse. Bilans et rééducations neuropsychologiques de l’enfant et de l’adolescent.",
+   "surtitre": "Psychologue spécialisée en neuropsychologie · Joyeuse (Ardèche)",
+   "titre": "Bilans et rééducations\n*neuropsychologiques*",
+   "intro": "Psychologue spécialisée en neuropsychologie, je réalise des bilans et des rééducations neuropsychologiques pour les enfants et les adolescents, sur rendez-vous, à la maison de santé Beaume Drobie, à Joyeuse.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Chez l’enfant ou l’adolescent, l’évaluation neuropsychologique est indiquée notamment pour :",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Brigitte*",
+   "presentation": [
+    "La neuropsychologie est un domaine des neurosciences. Elle étudie les relations entre le cerveau et le fonctionnement cognitif, affectif et social, et s’exerce dans la recherche scientifique, le diagnostic clinique et la thérapie.",
+    "L’évaluation neuropsychologique permet d’évaluer les troubles cognitifs, émotionnels et comportementaux d’un enfant ou d’un adolescent. Elle peut inclure l’évaluation des fonctions intellectuelles, et débouche sur des conseils et des pistes de prise en charge."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Brigitte Hermans, neuropsychologue à Joyeuse",
+   "seoDescription": "Parcours et formations de Brigitte Hermans, neuropsychologue à Joyeuse.",
+   "titre": "La *neuropsychologie*",
+   "intro": "La neuropsychologie est un domaine des neurosciences. Elle étudie les relations entre le cerveau et le fonctionnement cognitif, affectif et social, et s’exerce dans la recherche scientifique, le diagnostic clinique et la thérapie. Le bilan permet de poser un diagnostic, d’informer sur les troubles et leurs répercussions dans la vie quotidienne, et d’orienter vers les prises en charge adaptées.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Brigitte Hermans, neuropsychologue à Joyeuse",
+   "seoDescription": "L’approche de Brigitte Hermans, neuropsychologue à Joyeuse : bilans et rééducations neuropsychologiques de l’enfant et de l’adolescent.",
+   "titre": "Le bilan,\n*étape par étape*",
+   "intro": "Pour un bilan, la consultation se déroule sur une ou deux demi-journées d’entretien et de tests, suivies de la restitution d’un compte rendu écrit.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Un entretien",
+     "texte": "Pour recueillir les plaintes du patient et de sa famille.",
+     "icone": "porte"
+    },
+    {
+     "titre": "Des tests",
+     "texte": "Pour évaluer les différentes fonctions cognitives.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Une restitution",
+     "texte": "Orale, avec un rapport écrit et un diagnostic fondé sur les résultats aux tests et les éléments cliniques observés.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Des conseils",
+     "texte": "Une information sur les troubles et leurs répercussions au quotidien, des conseils psychologiques, pédagogiques ou éducatifs, des suggestions de prises en charge rééducatives ou médicales.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Déroulement",
+   "outilsTitre": "Comment se déroule *un bilan*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Brigitte Hermans, neuropsychologue à Joyeuse",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Brigitte Hermans, neuropsychologue à Joyeuse.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations ont lieu sur rendez-vous, à la maison de santé Beaume Drobie, à Joyeuse. Un bilan se déroule sur une ou deux demi-journées, selon le type d’évaluation. Pour éviter des délais trop longs, je ne reçois plus les adultes actuellement.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Brigitte Hermans, psychologue à Joyeuse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Brigitte Hermans, neuropsychologue à Joyeuse",
+   "seoDescription": "Adresse et téléphone de Brigitte Hermans, neuropsychologue, Maison de santé Beaume Drobie à Joyeuse.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois sur rendez-vous à la maison de santé Beaume Drobie, à Joyeuse. Appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Brigitte Hermans"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
