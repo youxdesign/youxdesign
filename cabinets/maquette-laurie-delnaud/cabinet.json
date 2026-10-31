@@ -1,0 +1,337 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Laurie Delnaud (prospect), d'après www.lauriedelnaud.fr. Publiée sur youxdesign.fr/maquettes/laurie-delnaud/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.lauriedelnaud.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F4EE",
+   "encre": "#25261F",
+   "accent": "#5F7048",
+   "doux": "#E3E6D6",
+   "texte2": "#56584C"
+  }
+ },
+ "praticien": {
+  "prenom": "Laurie",
+  "nom": "Delnaud",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne et psychothérapeute",
+  "specialite": "psychothérapie d’orientation psychodynamique, enfance et adolescence, guidance parentale",
+  "specialiteCourte": "Enfants, ados et parents",
+  "diplome": "Master 2 de psychologie, psychopathologie de l’enfance et de l’adolescence (Université Paris 7)",
+  "rpps": "10008522228",
+  "public": "Enfants, adolescents, adultes et parents"
+ },
+ "contact": {
+  "telephone": "06 86 51 81 29",
+  "email": "delnaudlaurie@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "avenue Georges Pompidou",
+  "codePostal": "06220",
+  "ville": "Golfe-Juan Vallauris",
+  "quartier": "côté Antibes",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "16:00-19:00",
+   "mercredi": "15:00-19:00",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "10:15-16:00",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Situation",
+    "texte": "Avenue Georges Pompidou, à Golfe-Juan Vallauris, côté Antibes.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Parking gratuit au gymnase Allinéi, 176 avenue des Mimosas.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Psychothérapie ou guidance parentale",
+   "texte": "Enfants, adolescents, adultes et parents.",
+   "prix": "70 €",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Comportement",
+   "texte": "Agitation, opposition, colères, difficulté à gérer ses émotions.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Scolarité",
+   "texte": "Baisse des résultats, difficultés d’apprentissage.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Anxiété",
+   "texte": "Angoisses, phobies, rituels, grandes peurs.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Tristesse et repli",
+   "texte": "Isolement, perte de confiance, tendance à se dévaloriser.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Sommeil",
+   "texte": "Difficultés d’endormissement, réveils nocturnes, cauchemars.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Événements douloureux",
+   "texte": "Un deuil, une séparation, un échec, un traumatisme.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Vous sentir démuni, dépassé ou épuisé face à votre enfant.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Laurie Delnaud, psychologue à Golfe-Juan Vallauris",
+   "seoDescription": "Laurie Delnaud, psychologue clinicienne et psychothérapeute à Golfe-Juan Vallauris. Psychothérapie d’orientation psychodynamique, enfance et adolescence, guidance parentale.",
+   "surtitre": "Psychologue clinicienne · Golfe-Juan Vallauris",
+   "titre": "Un espace\n*qui vous ressemble*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois enfants, adolescents et adultes dans mon cabinet de Golfe-Juan Vallauris, proche d’Antibes, et je propose des consultations de guidance parentale.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Laurie*",
+   "presentation": [
+    "Psychologue clinicienne depuis 2016, j’ai un parcours diversifié dans les champs de la petite enfance, de l’enfance et du handicap.",
+    "Mon approche psychodynamique s’appuie sur la psychanalyse, notamment la prise en compte de l’inconscient. La fréquence des séances est définie ensemble, et le premier entretien est avant tout une rencontre."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Laurie Delnaud, psychologue à Golfe-Juan Vallauris",
+   "seoDescription": "Parcours et formations de Laurie Delnaud, psychologue à Golfe-Juan Vallauris.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne depuis 2016, j’ai travaillé auprès des jeunes, des familles et des personnes en situation de handicap avant d’ouvrir mon cabinet à Golfe-Juan en 2023.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "2012 – 2016",
+     "texte": "Licence, maîtrise puis master 2 de psychologie, psychopathologie de l’enfance et de l’adolescence (Université Paris 7)."
+    },
+    {
+     "titre": "2016",
+     "texte": "École des parents et des éducateurs, Fil Santé Jeunes (12-25 ans)."
+    },
+    {
+     "titre": "2018 – 2020",
+     "texte": "Dispositif d’éducation professionnelle pour les 16-25 ans (CRP Belle Alliance), puis ESAT hors les murs (LADAPT)."
+    },
+    {
+     "titre": "2021 – 2022",
+     "texte": "Centre médico-psycho-pédagogique du Val d’Yerres ; CMP enfants du centre hospitalier d’Antibes et crèches de la ville de Nice."
+    },
+    {
+     "titre": "Depuis 2023",
+     "texte": "Cabinet libéral à Golfe-Juan."
+    },
+    {
+     "titre": "Formations",
+     "texte": "Approche systémique et thérapie familiale (2020) ; prise en charge des adolescents (2021) ; jeux et dessins en psychothérapie, thérapie d’acceptation et d’engagement (2025) ; guidance parentale (2026)."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Laurie Delnaud, psychologue à Golfe-Juan Vallauris",
+   "seoDescription": "L’approche de Laurie Delnaud, psychologue à Golfe-Juan Vallauris : psychothérapie d’orientation psychodynamique, enfance et adolescence, guidance parentale.",
+   "titre": "Donner du sens\n*à ses symptômes*",
+   "intro": "Nous recherchons ensemble le sens de vos symptômes et les leviers sur lesquels vous appuyer pour les faire bouger. Ce travail d’élaboration vous permet de mieux vous connaître et de vous libérer de répétitions qui vous pèsent.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Adultes",
+     "texte": "Accueillir votre demande, saisir la problématique sous-jacente et en analyser les enjeux.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Enfants et adolescents",
+     "texte": "Des premières séances avec les parents, puis un espace d’expression avec des médiations : jeux, jouets, dessin.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Guidance parentale",
+     "texte": "Chercher ensemble des pistes pour répondre aux besoins de votre enfant et retrouver une parentalité épanouie.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Laurie Delnaud, psychologue à Golfe-Juan Vallauris",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Laurie Delnaud, psychologue à Golfe-Juan Vallauris.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois au cabinet le mardi de 16 h à 19 h, le mercredi de 15 h à 19 h et le samedi de 10 h 15 à 16 h. Les jeunes de 15 à 26 ans peuvent bénéficier du Pass Santé Jeunes de la région Sud, un e-coupon de 90 € pour une consultation.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque ou en espèces.",
+   "tarifsNote": "Certaines mutuelles remboursent les séances : renseignez-vous auprès de la vôtre.",
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Laurie Delnaud, psychologue à Golfe-Juan Vallauris",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Laurie Delnaud, psychologue à Golfe-Juan Vallauris",
+   "seoDescription": "Adresse et téléphone de Laurie Delnaud, psychologue, avenue Georges Pompidou à Golfe-Juan Vallauris.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve avenue Georges Pompidou, à Golfe-Juan Vallauris, côté Antibes, avec un parking gratuit à proximité. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Laurie Delnaud"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

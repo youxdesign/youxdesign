@@ -1,0 +1,348 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Laure Polge (prospect), d'après www.laurepolge-psychologuetoulouse-psychotherapies-testshpi.com. Publiée sur youxdesign.fr/maquettes/laure-polge/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.laurepolge-psychologuetoulouse-psychotherapies-testshpi.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F3F6",
+   "encre": "#2A1E27",
+   "accent": "#7D4A6E",
+   "doux": "#EBDDE7",
+   "texte2": "#5A4C56"
+  }
+ },
+ "praticien": {
+  "prenom": "Laure",
+  "nom": "Polge",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne et psychothérapeute",
+  "specialite": "psychothérapie intégrative, haut potentiel intellectuel (HPI), approche interculturelle",
+  "specialiteCourte": "Psychothérapie et HPI",
+  "diplome": "Master II de psychopathologie clinique psychanalytique (Université Toulouse-Jean-Jaurès)",
+  "adeli": "31 93 268 64",
+  "public": "Enfants dès 6 ans, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 52 12 61 39",
+  "email": "laurepolge.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "45 rue Roland Garros, 1er étage",
+  "codePostal": "31200",
+  "ville": "Toulouse",
+  "quartier": "Minimes – Ponts-Jumeaux",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Toulouse",
+    "texte": "45 rue Roland Garros, au 1er étage. Métro B, places gratuites dans la rue.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Colomiers",
+    "texte": "Cabinet paramédical de la Blanquette, 10 petit chemin de la Blanquette, le mardi et le vendredi. TER ligne 29 ou Linéo L2, parking gratuit devant le cabinet.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Séances à distance possibles pour les adultes.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Psychothérapie individuelle",
+   "texte": "Adultes, adolescents et enfants, au cabinet.",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Psychothérapie à distance",
+   "texte": "Pour les adultes.",
+   "prix": "60 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et stress",
+   "texte": "Inquiétudes, ruminations, crises d’angoisse, surcharge mentale.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Épuisement",
+   "texte": "Burn-out, souffrance au travail, changements professionnels.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Difficultés relationnelles et affectives, dépendance affective, emprise.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Événements de vie",
+   "texte": "Séparation, grossesse, post-partum, parentalité.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Haut potentiel",
+   "texte": "Comprendre un fonctionnement particulier, sans le réduire à une étiquette.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Peurs, troubles du sommeil, scolarité, confiance en soi.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Laure Polge, psychologue à Toulouse",
+   "seoDescription": "Laure Polge, psychologue clinicienne et psychothérapeute à Toulouse. Psychothérapie intégrative, haut potentiel intellectuel (hpi), approche interculturelle.",
+   "surtitre": "Psychologue psychothérapeute · Toulouse et Colomiers",
+   "titre": "Sortir du flou,\n*retrouver des repères*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois enfants, adolescents et adultes à Toulouse (Minimes – Ponts-Jumeaux) et à Colomiers, pour des psychothérapies individuelles et un accompagnement autour du haut potentiel intellectuel.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Laure*",
+   "presentation": [
+    "Les consultations sont des espaces d’échanges actifs : je ne me limite pas à une écoute silencieuse, je vous propose des retours cliniques, des pistes de compréhension et des liens entre vos émotions, votre histoire et vos fonctionnements actuels.",
+    "Mon approche est intégrative : elle s’adapte à votre demande, à votre rythme et à votre fonctionnement."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Laure Polge, psychologue à Toulouse",
+   "seoDescription": "Parcours et formations de Laure Polge, psychologue à Toulouse.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne interculturelle et psychothérapeute diplômée en 2017, je me suis spécialisée dans le haut potentiel et l’interculturalité.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation",
+     "texte": "Licence de psychologie (Université d’Aix-en-Provence) ; master II de psychopathologie clinique psychanalytique et parcours de psychologie interculturelle (Université Toulouse-Jean-Jaurès)."
+    },
+    {
+     "titre": "Écoles",
+     "texte": "Interventions dans des écoles maternelles et primaires autour de la petite enfance."
+    },
+    {
+     "titre": "Maison d’enfants",
+     "texte": "Accompagnement en maison d’enfants à caractère social."
+    },
+    {
+     "titre": "Médico-social",
+     "texte": "Accompagnement de personnes fragilisées vers l’insertion par le travail."
+    },
+    {
+     "titre": "Institut médico-éducatif",
+     "texte": "Psychologue auprès d’enfants et d’adolescents de 6 à 20 ans présentant une déficience intellectuelle ou des troubles du spectre de l’autisme."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Laure Polge, psychologue à Toulouse",
+   "seoDescription": "L’approche de Laure Polge, psychologue à Toulouse : psychothérapie intégrative, haut potentiel intellectuel (HPI), approche interculturelle.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "Il ne s’agit pas d’appliquer une méthode identique à chacun, mais de construire ensemble un accompagnement qui corresponde à vos besoins. Je tiens compte des contextes culturels dans lesquels vous évoluez : professionnels, familiaux, intergénérationnels.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Des échanges actifs",
+     "texte": "Des retours cliniques et des pistes concrètes, pas seulement une écoute silencieuse.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Avec les enfants",
+     "texte": "Un premier entretien avec les parents, puis trois séances avec l’enfant seul avant de refaire le point. Le jeu et le dessin soutiennent sa parole.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Haut potentiel",
+     "texte": "Des éléments fiables et validés sur le HPI, pour aborder la question sans étiquette stigmatisante.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Approche interculturelle",
+     "texte": "Pour les questions liées à la migration, aux croyances ou à l’intégration, à l’école comme au travail.",
+     "icone": "lieu"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Laure Polge, psychologue à Toulouse",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Laure Polge, psychologue à Toulouse.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je consulte à Toulouse et, le mardi et le vendredi, à Colomiers, en présentiel ou en visio. Pour les personnes aux revenus modestes (demandeurs d’emploi, étudiants), des honoraires adaptés peuvent être discutés.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque, en espèces ou par virement.",
+   "annulation": [
+    "Merci de me prévenir au moins 48 h à l’avance si vous devez annuler une séance.",
+    "En cas de retard, la séance a lieu sur le temps restant."
+   ],
+   "tarifsNote": "Certaines mutuelles remboursent les séances ; une facture peut vous être remise.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Laure Polge, psychologue à Toulouse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Laure Polge, psychologue à Toulouse",
+   "seoDescription": "Adresse et téléphone de Laure Polge, psychologue, 45 rue Roland Garros, 1er étage à Toulouse.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet de Toulouse se trouve 45 rue Roland Garros, au 1er étage, dans le quartier Minimes – Ponts-Jumeaux. Je consulte aussi à Colomiers le mardi et le vendredi. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Laure Polge"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

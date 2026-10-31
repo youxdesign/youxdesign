@@ -1,0 +1,340 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Pauline Crouzat (prospect), d'après www.pcrouzat-psychologue.com. Publiée sur youxdesign.fr/maquettes/pauline-crouzat/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.pcrouzat-psychologue.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F4F7",
+   "encre": "#1E2030",
+   "accent": "#535E93",
+   "doux": "#E0E2EE",
+   "texte2": "#4E5164"
+  }
+ },
+ "praticien": {
+  "prenom": "Pauline",
+  "nom": "Crouzat",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne et du travail",
+  "specialite": "psychothérapie, traumatologie, souffrance au travail, psychologie des organisations",
+  "specialiteCourte": "Clinique et travail",
+  "diplome": "Docteur en psychologie sociale ; psychologue diplômée depuis 2009",
+  "rpps": "10008725326",
+  "public": "Adultes, professionnels et organisations"
+ },
+ "contact": {
+  "telephone": "06 37 42 45 34",
+  "email": "crouzat.pauline@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "Cabinet Psystemic, 17 rue Jacques Roudil",
+  "codePostal": "31300",
+  "ville": "Toulouse",
+  "quartier": "Saint-Cyprien",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Métro",
+    "texte": "Ligne A, station Saint-Cyprien – République.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Bus",
+    "texte": "Lignes 13, 14, 31, 45 et 66.",
+    "icone": "marches"
+   },
+   {
+    "titre": "À distance",
+    "texte": "Téléconsultations en visioconférence ou par téléphone.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Première consultation",
+   "texte": "Au cabinet, en visioconférence ou par téléphone.",
+   "prix": "80 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Supervision",
+   "texte": "En visio, réservée aux psychologues.",
+   "prix": "80 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles émotionnels",
+   "texte": "Stress, anxiété, angoisse, syndrome dépressif, deuils difficiles.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Traumatologie",
+   "texte": "Après un accident, un événement difficile ou une infraction, judiciarisée ou non.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Épuisement, conflits, violence organisationnelle.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Errance diagnostique",
+   "texte": "Soutien, coordination et conseil au cours d’un parcours médical difficile.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Aidants et soignants",
+   "texte": "Soutien aux aidants de personnes malades et aux professionnels de santé.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Pauline Crouzat, psychologue à Toulouse",
+   "seoDescription": "Pauline Crouzat, psychologue clinicienne et du travail à Toulouse. Psychothérapie, traumatologie, souffrance au travail, psychologie des organisations.",
+   "surtitre": "Psychologue · Docteur en psychologie · Toulouse",
+   "titre": "La personne, le collectif\n*et la recherche*",
+   "intro": "Psychologue clinicienne et du travail, docteur en psychologie, je reçois les particuliers au cabinet Psystemic, dans le quartier Saint-Cyprien à Toulouse, ou à distance. J’interviens aussi auprès des professionnels et des organisations.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Pauline*",
+   "presentation": [
+    "Psychologue diplômée depuis 2009 et psychothérapeute, j’interviens essentiellement en présentiel dans le Sud-Ouest, auprès de particuliers comme de professionnels. Je suis également experte près la cour d’appel de Toulouse.",
+    "Mon parcours m’a amenée à me spécialiser dans les troubles affectifs et émotionnels, la traumatologie et la souffrance au travail."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Pauline Crouzat, psychologue à Toulouse",
+   "seoDescription": "Parcours et formations de Pauline Crouzat, psychologue à Toulouse.",
+   "titre": "Mon *parcours*",
+   "intro": "Docteur en psychologie, je suis chercheuse associée au Centre de recherche sur le travail et le développement (CRTD) du Conservatoire national des arts et métiers.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "2009",
+     "texte": "Diplôme de psychologue."
+    },
+    {
+     "titre": "Doctorat",
+     "texte": "Docteur en psychologie sociale."
+    },
+    {
+     "titre": "Expertise",
+     "texte": "Experte près la cour d’appel de Toulouse."
+    },
+    {
+     "titre": "Recherche",
+     "texte": "Chercheuse associée au CRTD du Cnam : dynamiques collectives et organisations du travail, accès à la santé, technologies et liens sociaux, articulation entre justice et santé."
+    },
+    {
+     "titre": "2026",
+     "texte": "« Un épuisement techno-informationnel : désaturer pour revivre ? », Le Journal des psychologues, n° 422."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Pauline Crouzat, psychologue à Toulouse",
+   "seoDescription": "L’approche de Pauline Crouzat, psychologue à Toulouse : psychothérapie, traumatologie, souffrance au travail, psychologie des organisations.",
+   "titre": "Une approche\n*intégrée*",
+   "intro": "Mon approche clinique intègre des analyses et des méthodes issues de la psychopathologie, de la psychanalyse contemporaine, de la psychologie cognitive, de la psychologie systémique et de certains apports de la neurobiologie. J’applique notamment le principe « avant tout, ne pas nuire ».",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapie verbale et narrative",
+     "texte": "Mettre en mots ce que vous traversez.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "EMDR et régulation psycho-corporelle",
+     "texte": "Des techniques et des exercices adaptés à certaines problématiques.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Tests et outils diagnostiques",
+     "texte": "Utilisés uniquement en cas de besoin, ou dans le cadre d’une expertise.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Organisations",
+     "texte": "Diagnostic de la qualité de vie au travail, prévention des risques psychosociaux, gestion de crise, analyse des pratiques.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Pauline Crouzat, psychologue à Toulouse",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Pauline Crouzat, psychologue à Toulouse.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois au cabinet ou en téléconsultation, par visioconférence ou par téléphone, avec des outils qui chiffrent les échanges.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "annulation": [
+    "Un rendez-vous peut être annulé et remboursé jusqu’à 24 h avant la consultation ; au-delà, il n’est pas remboursé."
+   ],
+   "tarifsNote": "Selon votre situation socio-professionnelle, des adaptations tarifaires sont possibles.",
+   "monSoutienPsy": false,
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Pauline Crouzat, psychologue à Toulouse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Pauline Crouzat, psychologue à Toulouse",
+   "seoDescription": "Adresse et téléphone de Pauline Crouzat, psychologue, Cabinet Psystemic, 17 rue Jacques Roudil à Toulouse.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet Psystemic se trouve 17 rue Jacques Roudil, dans le quartier Saint-Cyprien à Toulouse, près du métro Saint-Cyprien – République. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Pauline Crouzat"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

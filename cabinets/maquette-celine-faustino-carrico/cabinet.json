@@ -1,0 +1,351 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Céline Faustino Carrico (prospect), d'après www.psychologue-carbonne.com. Publiée sur youxdesign.fr/maquettes/celine-faustino-carrico/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-carbonne.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F1F6F6",
+   "encre": "#17282A",
+   "accent": "#2D7378",
+   "doux": "#D7E8E8",
+   "texte2": "#475A5C"
+  }
+ },
+ "praticien": {
+  "prenom": "Céline",
+  "nom": "Faustino Carrico",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne et de la santé",
+  "specialite": "approche intégrative : TCC, thérapie d’acceptation et d’engagement (ACT), EMDR",
+  "specialiteCourte": "TCC, ACT et EMDR",
+  "diplome": "Master 2 de psychologie clinique, psychopathologie et psychologie de la santé (Université Toulouse-Jean-Jaurès)",
+  "adeli": "319 326 120",
+  "rpps": "10009668822",
+  "public": "Adolescents dès 15 ans et adultes"
+ },
+ "contact": {
+  "telephone": "07 67 00 59 82",
+  "email": "psychologue.fc@outlook.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "11 rue Lucien Cassagne",
+  "codePostal": "31390",
+  "ville": "Carbonne",
+  "accessiblePMR": true,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "9:00-19:00",
+   "mercredi": "9:00-19:00",
+   "jeudi": "9:00-19:00",
+   "vendredi": "9:00-19:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Repère",
+    "texte": "À côté du groupe médical, sous le porche.",
+    "icone": "porte"
+   },
+   {
+    "titre": "Accessibilité",
+    "texte": "Cabinet accessible aux personnes à mobilité réduite.",
+    "icone": "fauteuil"
+   },
+   {
+    "titre": "À distance",
+    "texte": "Séances possibles par téléphone ou en visioconférence.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "duree": "1 h",
+   "prix": "50 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance d’EMDR",
+   "duree": "1 h 30",
+   "prix": "85 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "texte": "Trouble panique, phobies, TOC, anxiété généralisée.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Humeur",
+   "texte": "Dépression, repli sur soi, troubles bipolaires.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "État de stress post-traumatique, événements difficiles.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Santé et douleur",
+   "texte": "Douleur chronique, annonce d’une maladie, troubles du sommeil.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Travail",
+   "texte": "Souffrance au travail, burn-out, perte d’emploi, passage à la retraite.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Confiance en soi",
+   "texte": "Affirmation de soi, gestion des émotions, difficultés relationnelles.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Alimentation et addictions",
+   "texte": "Troubles alimentaires, addictions.",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Céline Faustino Carrico, psychologue à Carbonne",
+   "seoDescription": "Céline Faustino Carrico, psychologue clinicienne et de la santé à Carbonne. Approche intégrative : tcc, thérapie d’acceptation et d’engagement (act), emdr.",
+   "surtitre": "Psychologue clinicienne · Carbonne",
+   "titre": "Un espace de parole\n*et de confiance*",
+   "intro": "Psychologue clinicienne et de la santé, je reçois adolescents (dès 15 ans) et adultes à Carbonne, avec une approche intégrative : thérapies cognitives et comportementales, thérapie d’acceptation et d’engagement et EMDR.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Céline*",
+   "presentation": [
+    "Je vous propose un espace d’écoute bienveillante où évoquer vos difficultés en toute tranquillité. Je suis active dans la démarche thérapeutique : questionnements, reformulations, propositions de tâches.",
+    "Lors des premières rencontres, nous faisons connaissance, j’entends votre demande et nous élaborons ensemble des objectifs thérapeutiques."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Céline Faustino Carrico, psychologue à Carbonne",
+   "seoDescription": "Parcours et formations de Céline Faustino Carrico, psychologue à Carbonne.",
+   "titre": "Mon *parcours*",
+   "intro": "Mon master en psychologie de la santé m’a formée à l’accompagnement psychologique des personnes malades ou en situation de handicap, de leur famille et de leurs soignants.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation",
+     "texte": "Licence et master 2 professionnel de psychologie clinique, psychopathologie et psychologie de la santé (Université Toulouse-Jean-Jaurès)."
+    },
+    {
+     "titre": "Clinique des Minimes",
+     "texte": "Psychologue en soins de suite et de réadaptation, hôpital de jour, soins de longue durée et EHPAD, à Toulouse."
+    },
+    {
+     "titre": "Ligue contre le cancer",
+     "texte": "Psychologue vacataire à l’antenne de Saint-Gaudens, et bénévole en prévention de la santé."
+    },
+    {
+     "titre": "2017 – 2022",
+     "texte": "Cabinet libéral à Toulouse."
+    },
+    {
+     "titre": "Depuis 2021",
+     "texte": "Cabinet libéral à Carbonne."
+    },
+    {
+     "titre": "Formations",
+     "texte": "Praticienne EMDR accréditée EMDR Europe (EFPE), membre d’EMDR France ; thérapie d’acceptation et d’engagement ; intervention de crise en prévention du suicide."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Céline Faustino Carrico, psychologue à Carbonne",
+   "seoDescription": "L’approche de Céline Faustino Carrico, psychologue à Carbonne : approche intégrative : TCC, thérapie d’acceptation et d’engagement (ACT), EMDR.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "Je m’inscris dans le courant des thérapies intégratives, qui font dialoguer différentes approches : TCC, EMDR, thérapie des schémas, éclairage psychanalytique. Mon approche valorise la flexibilité et l’adaptation à chaque personne, et le travail se fait toujours à votre rythme.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "TCC",
+     "texte": "Comprendre et modifier les pensées, émotions et comportements qui perturbent votre quotidien, avec des outils comme la relaxation ou la pleine conscience.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "ACT",
+     "texte": "Se dégager des pensées qui font souffrir et s’engager vers ce qui compte pour vous.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Retraiter des souvenirs traumatiques qui font souffrir dans le présent.",
+     "icone": "eclat"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Céline Faustino Carrico, psychologue à Carbonne",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Céline Faustino Carrico, psychologue à Carbonne.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois du mardi au vendredi, de 9 h à 19 h, dans un bureau pensé comme un cocon chaleureux. Les séances par téléphone ou en visioconférence sont possibles, et vous pouvez aussi me consulter en portugais. Un tarif réduit est possible pour les étudiants et les demandeurs d’emploi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Après chaque séance, en espèces ou par chèque.",
+   "annulation": [
+    "En cas d’empêchement, merci de me prévenir 48 h à l’avance ; sinon la séance est due, sauf cas de force majeure."
+   ],
+   "tarifsNote": "Les séances ne sont pas prises en charge par la sécurité sociale, mais certaines mutuelles en remboursent une partie.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Céline Faustino Carrico, psychologue à Carbonne",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Céline Faustino Carrico, psychologue à Carbonne",
+   "seoDescription": "Adresse et téléphone de Céline Faustino Carrico, psychologue, 11 rue Lucien Cassagne à Carbonne.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 11 rue Lucien Cassagne, à Carbonne, à côté du groupe médical, sous le porche. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Céline Faustino Carrico"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

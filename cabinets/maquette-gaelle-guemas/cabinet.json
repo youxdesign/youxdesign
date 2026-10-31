@@ -1,0 +1,347 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Gaëlle Guémas (prospect), d'après www.gaelle-guemas.fr. Publiée sur youxdesign.fr/maquettes/gaelle-guemas/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.gaelle-guemas.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF4F1",
+   "encre": "#2B201D",
+   "accent": "#B4553F",
+   "doux": "#F3DDD5",
+   "texte2": "#5E4D48"
+  }
+ },
+ "praticien": {
+  "prenom": "Gaëlle",
+  "nom": "Guémas",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "périnatalité, enfance et parentalité",
+  "specialiteCourte": "Périnatalité et parentalité",
+  "diplome": "Master de psychologie clinique et psychopathologie (Université de Nantes)",
+  "adeli": "449320811",
+  "public": "Enfants de 0 à 12 ans, parents et adultes"
+ },
+ "contact": {
+  "telephone": "06 66 30 22 79",
+  "email": "gaelle.guemas@outlook.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "30 rue de Beaulieu",
+  "codePostal": "44340",
+  "ville": "Bouguenais",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "9:00-16:00",
+   "mercredi": "9:00-16:00",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Consultations le mardi et le mercredi, de 9 h à 16 h, sur rendez-vous.",
+  "acces": [
+   {
+    "titre": "En bus",
+    "texte": "Bus 36 ou 78, arrêt Pottier ; bus 88, arrêt Allende.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Si vous ne pouvez pas vous déplacer pour raison de santé (grossesse à risque, alitement, fatigue ou douleurs après la naissance), je peux venir chez vous.",
+    "icone": "porte"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Consultations possibles en visioconférence pour les adultes.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance enfant",
+   "texte": "Séance individuelle ou entretien familial.",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance individuelle adulte",
+   "prix": "60 €"
+  },
+  {
+   "nom": "Séance de couple",
+   "prix": "80 €"
+  },
+  {
+   "nom": "À domicile, séance individuelle",
+   "prix": "70 €"
+  },
+  {
+   "nom": "À domicile, séance de couple",
+   "prix": "90 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Désir d’enfant",
+   "texte": "Désir d’enfant, parcours de PMA, projet d’adoption.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Grossesse et naissance",
+   "texte": "Le vécu de la grossesse et de l’accouchement, les suites de couches, le post-partum.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Deuil périnatal",
+   "texte": "Une fausse couche, la perte d’un enfant à naître.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Devenir parent",
+   "texte": "Trouver un nouvel équilibre familial et conjugal, être parent à l’adolescence.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Relation parent-enfant",
+   "texte": "Les aléas de la relation, l’inquiétude pour le bien-être et le développement de son enfant.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Enfants",
+   "texte": "Un lieu d’expression et de soutien pour aider les plus jeunes à grandir.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Gaëlle Guémas, psychologue à Bouguenais",
+   "seoDescription": "Gaëlle Guémas, psychologue clinicienne à Bouguenais. Périnatalité, enfance et parentalité.",
+   "surtitre": "Psychologue clinicienne · Bouguenais, région nantaise",
+   "titre": "Un espace de parole\n*pour les parents et leurs enfants*",
+   "intro": "Psychologue clinicienne spécialisée dans la périnatalité, l’enfance et la parentalité, je reçois enfants et adultes à mon cabinet de Bouguenais, à domicile ou en visioconférence.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Gaëlle*",
+   "presentation": [
+    "Devenir parent est l’un des évènements majeurs d’une vie, et un intense bouleversement psychique. Mettre en mots ses ressentis et son vécu peut aider à retrouver du sens, à se soulager d’une charge émotionnelle trop pesante et à vivre sa parentalité plus sereinement.",
+    "L’accompagnement des plus jeunes est l’une des activités principales de mon cabinet. J’anime aussi des séances d’analyse des pratiques professionnelles en institution."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Gaëlle Guémas, psychologue à Bouguenais",
+   "seoDescription": "Parcours et formations de Gaëlle Guémas, psychologue à Bouguenais.",
+   "titre": "Mon *parcours*",
+   "intro": "Éducatrice spécialisée de formation, puis psychologue clinicienne, je me suis consacrée dès le début de mon parcours à la psychologie de l’enfant et à l’accompagnement de la relation parent-enfant.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation initiale",
+     "texte": "Diplôme d’État d’éducateur spécialisé (IRTS Île-de-France Montrouge Neuilly-sur-Marne)."
+    },
+    {
+     "titre": "Université",
+     "texte": "Licence de psychologie clinique (Université Paris 13) ; master de psychologie clinique et psychopathologie (Université de Nantes)."
+    },
+    {
+     "titre": "2017 – 2018",
+     "texte": "Recherches de master : la maternité à l’adolescence ; le déni de grossesse, la dépression post-partum et la psychose puerpérale."
+    },
+    {
+     "titre": "Sur le terrain",
+     "texte": "Rencontres avec des familles en protection de l’enfance, en centre maternel et en pédopsychiatrie."
+    },
+    {
+     "titre": "Aujourd’hui",
+     "texte": "Cabinet libéral ; analyse des pratiques dans des crèches et multi-accueils de Nantes ; formatrice à l’ARIFTS."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Gaëlle Guémas, psychologue à Bouguenais",
+   "seoDescription": "L’approche de Gaëlle Guémas, psychologue à Bouguenais : périnatalité, enfance et parentalité.",
+   "titre": "Une écoute\n*attentive et bienveillante*",
+   "intro": "Une écoute bienveillante de la parole de l’autre, dans le respect de sa subjectivité et de son individualité, avec une attention particulière à la dynamique inconsciente du psychisme : ce sont les pierres angulaires de ma pratique.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Entretiens de soutien",
+     "texte": "En individuel ou avec le couple parental, pour un soutien ponctuel ou un suivi régulier.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Avec les enfants",
+     "texte": "Selon la demande et l’âge de l’enfant, des temps d’entretien sans les parents, avec des jeux, des dessins ou la lecture de contes.",
+     "icone": "livre"
+    },
+    {
+     "titre": "La périnatalité",
+     "texte": "De la conception de l’enfant jusqu’à ses deux ans environ : désir d’enfant, grossesse, naissance et premiers liens entre parent et bébé.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Gaëlle Guémas, psychologue à Bouguenais",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Gaëlle Guémas, psychologue à Bouguenais.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois au cabinet le mardi et le mercredi, de 9 h à 16 h. Les séances à domicile sont possibles si vous ne pouvez pas vous déplacer pour raison de santé. Des tarifs adaptés sont possibles pour les personnes sans emploi, les étudiants et les personnes en difficulté financière.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "En espèces ou par chèque.",
+   "tarifsNote": "Les séances ne sont pas remboursées par la sécurité sociale, mais de nombreuses mutuelles proposent une prise en charge.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Gaëlle Guémas, psychologue à Bouguenais",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Gaëlle Guémas, psychologue à Bouguenais",
+   "seoDescription": "Adresse et téléphone de Gaëlle Guémas, psychologue, 30 rue de Beaulieu à Bouguenais.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 30 rue de Beaulieu, à Bouguenais, et accueille les habitants de toute la région nantaise. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Gaëlle Guémas"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
