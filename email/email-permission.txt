@@ -1,0 +1,15 @@
+Bonjour {{prenom}},
+
+Je suis psychologue, et je crée des sites pour les psychologues avec youXdesign.
+
+{{detail_personnalisation}} J'ai donc préparé, rien que pour vous, une maquette de site à partir des textes de votre site actuel.
+
+Voulez-vous que je vous envoie le lien ? Répondez simplement « oui » à ce message.
+
+Bien confraternellement,
+
+Younes
+Psychologue · Fondateur de youXdesign
+
+--
+Je vous écris car votre adresse professionnelle figure sur {{source}}. Pour ne plus recevoir de message de ma part, répondez simplement « STOP ».

@@ -17,7 +17,7 @@
                                                            d'ici : il est signalé, à annuler dans Gmail
 
    Fichier prospects (JSON), une entrée par personne :
-     { "prenom": "Nathalie", "email": "…", "modele": "refonte" | "creation" | "maquette",
+     { "prenom": "Nathalie", "email": "…", "modele": "refonte" | "creation" | "maquette" | "permission",
        "maquette": "nathalie-x" (modèle maquette : youxdesign.fr/maquettes/nathalie-x/),
        "site": "psychologue-vdascq.fr", "detail": "J’ai découvert…",
        "source": "…" (facultatif, remplace « votre site <site> » en bas de l’e-mail),
@@ -47,7 +47,8 @@ import MailComposer from 'nodemailer/lib/mail-composer/index.js';
 import { ImapFlow } from 'imapflow';
 import { DOMAINE } from '../src/config/youxdesign.mjs';
 
-const MODELES = { refonte: 'email-refonte', creation: 'email-prospection', maquette: 'email-maquette' };
+/* « permission » : e-mail court, sans lien, qui propose d'envoyer la maquette (le lien part seulement si la personne répond « oui ») */
+const MODELES = { refonte: 'email-refonte', creation: 'email-prospection', maquette: 'email-maquette', permission: 'email-permission' };
 const PAUSE_SECONDES = 90;
 
 const args = process.argv.slice(2);
@@ -85,11 +86,11 @@ const deposes = adresses((c) => c[4] === 'brouillon');
 const echapper = (t) => t.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 function preparer(p) {
   const sortie = MODELES[p.modele];
-  if (!sortie) throw new Error(`${p.prenom} : modèle inconnu « ${p.modele} » (refonte ou creation)`);
+  if (!sortie) throw new Error(`${p.prenom} : modèle inconnu « ${p.modele} » (refonte, creation, maquette ou permission)`);
   /* Modèle « maquette » : lien vers youxdesign.fr/maquettes/<nom>/ (compté : /e/<lot>/m-<nom>) */
   const maquette = p.maquette ? `${domaine}/maquettes/${p.maquette}/` : '';
   /* La phrase personnalisée est obligatoire pour le modèle maquette (ce que la maquette reprend de son site) */
-  if (p.modele === 'maquette' && !p.detail) throw new Error(`${p.prenom} : phrase personnalisée « detail » manquante`);
+  if (['maquette', 'permission'].includes(p.modele) && !p.detail) throw new Error(`${p.prenom} : phrase personnalisée « detail » manquante`);
   const v = { prenom: p.prenom, detail_personnalisation: p.detail ?? '', constat: p.constat ?? '', source: p.source ?? `votre site ${p.site}`, site_actuel: p.site,
     maquette_url: maquette, maquette_affiche: maquette.replace(/^https?:\/\//, ''), maquette_lien: p.maquette && lot ? `${domaine}/e/${lot}/m-${p.maquette}` : maquette };
   if (p.modele === 'maquette' && !p.maquette) throw new Error(`${p.prenom} : indiquez « maquette » (le nom de la maquette)`);
