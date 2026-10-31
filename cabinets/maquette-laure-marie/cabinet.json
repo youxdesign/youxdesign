@@ -1,0 +1,327 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Laure Marie (prospect), d'après lauremarie.wixsite.com/psychologue. Publiée sur youxdesign.fr/maquettes/laure-marie/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://lauremarie.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F8F4F2",
+   "encre": "#2A2321",
+   "accent": "#B0533F",
+   "doux": "#F2DFD8",
+   "texte2": "#5C4E49"
+  }
+ },
+ "praticien": {
+  "prenom": "Laure",
+  "nom": "Marie",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "psychothérapie des enfants et des adolescents, accompagnement des parents, bilans psychologiques",
+  "specialiteCourte": "Enfants et adolescents",
+  "diplome": "Diplômée de l’École de psychologues praticiens (2014)",
+  "adeli": "929333821",
+  "public": "Enfants dès 3 ans, adolescents et parents"
+ },
+ "contact": {
+  "telephone": "06 86 33 75 51",
+  "email": "lauremarie@outlook.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "1 place des Reflets",
+  "codePostal": "92400",
+  "ville": "Courbevoie",
+  "zone": "Hauts-de-Seine",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": []
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation thérapeutique",
+   "duree": "50 min",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan cognitif",
+   "texte": "Test d’efficience intellectuelle WISC-V, en trois séances : entretien (1 h), passation (environ 2 h), restitution avec compte rendu (1 h).",
+   "prix": "250 €"
+  },
+  {
+   "nom": "Bilan psychologique complet",
+   "texte": "Efficience intellectuelle et tests projectifs, en trois séances (passation d’environ 3 h).",
+   "prix": "350 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "texte": "Troubles anxieux, angoisses, stress, angoisse de séparation.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "École",
+   "texte": "Difficultés scolaires, phobie scolaire, harcèlement scolaire.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Sommeil",
+   "texte": "Troubles du sommeil, énurésie.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Deuil et séparation",
+   "texte": "Les événements qui bouleversent la vie de l’enfant.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Humeur",
+   "texte": "Tristesse, dépression.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Parents",
+   "texte": "Un accompagnement des parents qui rencontrent des difficultés avec leur enfant.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Laure Marie, psychologue à Courbevoie",
+   "seoDescription": "Laure Marie, psychologue clinicienne, psychothérapeute à Courbevoie. Psychothérapie des enfants et des adolescents, accompagnement des parents, bilans psychologiques.",
+   "surtitre": "Psychologue clinicienne · Courbevoie",
+   "titre": "Accompagner les enfants,\n*les adolescents et leurs parents*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois à Courbevoie les enfants à partir de 3 ans et les adolescents, accompagnés de leurs parents, et j’accompagne les parents qui rencontrent des difficultés avec leur enfant.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Laure*",
+   "presentation": [
+    "Diplômée de l’École de psychologues praticiens en 2014, j’ai travaillé en neuropsychologie dans le service de pédopsychiatrie de la Pitié-Salpêtrière.",
+    "Depuis septembre 2016, je suis aussi psychologue de l’Éducation nationale : d’abord en collège et en lycée, aujourd’hui en écoles maternelles et élémentaires à Ivry-sur-Seine, où je reçois les élèves et leurs parents."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Laure Marie, psychologue à Courbevoie",
+   "seoDescription": "Parcours et formations de Laure Marie, psychologue à Courbevoie.",
+   "titre": "Mon *parcours*",
+   "intro": "En parallèle de mon activité libérale, je travaille comme psychologue de l’Éducation nationale depuis septembre 2016.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "2014",
+     "texte": "Diplômée de l’École de psychologues praticiens."
+    },
+    {
+     "titre": "Pitié-Salpêtrière",
+     "texte": "Neuropsychologie, service de pédopsychiatrie."
+    },
+    {
+     "titre": "Depuis 2016",
+     "texte": "Psychologue de l’Éducation nationale : collèges et lycées, puis écoles maternelles et élémentaires à Ivry-sur-Seine."
+    },
+    {
+     "titre": "Aujourd’hui",
+     "texte": "Cabinet libéral à Courbevoie : suivis et bilans psychologiques."
+    },
+    {
+     "titre": "Répertoire ADELI",
+     "texte": "Inscrite sous le numéro 929333821."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Laure Marie, psychologue à Courbevoie",
+   "seoDescription": "L’approche de Laure Marie, psychologue à Courbevoie : psychothérapie des enfants et des adolescents, accompagnement des parents, bilans psychologiques.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "Mon approche est intégrative : je recherche les points communs entre les différentes approches et mets l’accent sur leur complémentarité, car aucune technique n’est à elle seule suffisamment complète.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Avec l’enfant",
+     "texte": "Prendre le temps de comprendre ses difficultés, souvent par le jeu et le dessin.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Avec l’adolescent",
+     "texte": "L’accompagner dans cette période de transition et l’aider à mieux comprendre son comportement.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Avec les parents",
+     "texte": "Un accompagnement des parents qui ressentent des difficultés avec leur enfant.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Bilans psychologiques",
+     "texte": "Faire le point sur le fonctionnement psychologique, cognitif et affectif de l’enfant ou de l’adolescent.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Prestations",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Laure Marie, psychologue à Courbevoie",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Laure Marie, psychologue à Courbevoie.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Une consultation dure 50 minutes. Un bilan comprend toujours trois séances : un premier entretien, la passation des tests et un entretien de restitution, avec la remise du compte rendu.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Laure Marie, psychologue à Courbevoie",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Laure Marie, psychologue à Courbevoie",
+   "seoDescription": "Adresse et téléphone de Laure Marie, psychologue, 1 place des Reflets à Courbevoie.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois désormais 1 place des Reflets, à Courbevoie. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Laure Marie"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

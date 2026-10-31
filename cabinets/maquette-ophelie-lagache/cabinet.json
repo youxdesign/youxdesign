@@ -1,0 +1,347 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Ophélie Lagache (prospect), d'après www.psychologuelyontcc.fr. Publiée sur youxdesign.fr/maquettes/ophelie-lagache/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologuelyontcc.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F5F8",
+   "encre": "#1C2530",
+   "accent": "#2F6390",
+   "doux": "#DCE6F0",
+   "texte2": "#4A5563"
+  }
+ },
+ "praticien": {
+  "prenom": "Ophélie",
+  "nom": "Lagache",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "thérapies cognitives et comportementales (TCC), thérapie d’acceptation et d’engagement (ACT), EMDR",
+  "specialiteCourte": "TCC, ACT et EMDR",
+  "diplome": "Master de psychologie clinique en thérapies cognitives et comportementales (Strasbourg)",
+  "adeli": "699354239",
+  "public": "Adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "07 69 30 33 71",
+  "email": "psychologue.lagache@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/lyon/ophelie-lagache"
+  }
+ },
+ "cabinet": {
+  "adresse": "39 rue Molière",
+  "codePostal": "69006",
+  "ville": "Lyon",
+  "quartier": "Lyon 6e",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-18:00",
+   "mardi": "9:00-18:00",
+   "mercredi": "9:00-13:00",
+   "jeudi": "9:00-13:00",
+   "vendredi": "9:00-13:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Au cabinet et en téléconsultation, sur rendez-vous ; le vendredi en visio.",
+  "acces": [
+   {
+    "titre": "Métro et tram",
+    "texte": "Métro A, station Foch ; tramway T1, arrêt Saxe – Préfecture.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Des places de stationnement autour du cabinet.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Le cabinet",
+    "texte": "Cabinet de consultations au rez-de-chaussée.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet ou en téléconsultation",
+   "duree": "45 à 50 min",
+   "prix": "70 €",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Période de vie difficile",
+   "texte": "Maladie, deuil, difficultés au travail, crise conjugale ou familiale, traumatisme.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Anxiété",
+   "texte": "Stress, crises d’angoisse, anxiété sociale, phobies, TOC, trouble anxieux généralisé.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Humeur et émotions",
+   "texte": "Tristesse durable, dépression, irritabilité, difficultés à gérer ses émotions.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Estime de soi",
+   "texte": "Manque de confiance, affirmation de soi, difficultés relationnelles.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Travail et études",
+   "texte": "Épuisement professionnel, souffrance au travail, harcèlement.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Des souvenirs ou des expériences difficiles qui pèsent encore aujourd’hui.",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Ophélie Lagache, psychologue à Lyon",
+   "seoDescription": "Ophélie Lagache, psychologue clinicienne à Lyon. Thérapies cognitives et comportementales (tcc), thérapie d’acceptation et d’engagement (act), emdr.",
+   "surtitre": "Psychologue clinicienne · Lyon 6e",
+   "titre": "Mieux comprendre ce qui vous fait souffrir,\n*et avancer*",
+   "intro": "Psychologue clinicienne spécialisée en thérapies cognitives et comportementales, en EMDR et en ACT, je vous reçois dans mon cabinet du 39 rue Molière, à Lyon 6e, ou en téléconsultation.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Ophélie*",
+   "presentation": [
+    "Débuter une thérapie n’est pas toujours facile : cela demande de reconnaître que l’on ne va pas bien et que l’on a besoin d’aide. C’est faire preuve de courage, et c’est souvent l’aboutissement d’une longue réflexion.",
+    "Choisir un thérapeute, c’est avant tout choisir une personne avec qui vous vous sentez à l’aise et en confiance. Ce site vous permet de mieux me connaître et de comprendre en quoi consiste ma pratique."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Ophélie Lagache, psychologue à Lyon",
+   "seoDescription": "Parcours et formations de Ophélie Lagache, psychologue à Lyon.",
+   "titre": "Mon *parcours*",
+   "intro": "Je reçois les adolescents et les adultes au cabinet ou en téléconsultation, et j’utilise différentes approches thérapeutiques selon votre demande.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Master",
+     "texte": "Psychologie clinique en thérapies cognitives et comportementales (TCC), Strasbourg."
+    },
+    {
+     "titre": "Licence",
+     "texte": "Université de Reims Champagne-Ardenne."
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Niveaux 1 et 2 et module complémentaire, Institut français d’EMDR (IFEMDR)."
+    },
+    {
+     "titre": "ACT",
+     "texte": "Formation à la thérapie d’acceptation et d’engagement, institut Actiff."
+    },
+    {
+     "titre": "Répertoire ADELI",
+     "texte": "Inscrite auprès de l’ARS Auvergne-Rhône-Alpes sous le numéro 699354239."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Ophélie Lagache, psychologue à Lyon",
+   "seoDescription": "L’approche de Ophélie Lagache, psychologue à Lyon : thérapies cognitives et comportementales (TCC), thérapie d’acceptation et d’engagement (ACT), EMDR.",
+   "titre": "Un travail collaboratif,\n*avec des objectifs concrets*",
+   "intro": "Nous commençons par faire connaissance, aborder votre parcours de vie et identifier vos difficultés. Très vite, nous fixons ensemble des objectifs thérapeutiques concrets, puis nous construisons des exercices à réaliser entre les séances.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "TCC",
+     "texte": "Des thérapies brèves, validées scientifiquement, centrées sur les liens entre pensées, émotions et comportements.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "ACT",
+     "texte": "Accepter ce que l’on ne peut pas contrôler et s’engager dans des actions qui enrichissent sa vie.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Pour se libérer de souvenirs ou d’expériences difficiles qui ont encore un impact aujourd’hui.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "En téléconsultation",
+     "texte": "Les séances peuvent aussi se faire à distance.",
+     "icone": "visio"
+    }
+   ],
+   "outilsSurtitre": "Mes approches",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Ophélie Lagache, psychologue à Lyon",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Ophélie Lagache, psychologue à Lyon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La consultation dure de 45 à 50 minutes. Sa fréquence est définie selon votre situation, votre demande et vos disponibilités, et peut être rediscutée tout au long de la thérapie.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par chèque ou en espèces uniquement (ni carte bancaire, ni carte Vitale). Facture sur demande.",
+   "annulation": [
+    "Toute consultation non annulée au moins 48 h à l’avance est due."
+   ],
+   "tarifsNote": "Certaines mutuelles prennent en charge une partie des consultations : renseignez-vous auprès de la vôtre.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Ophélie Lagache, psychologue à Lyon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Ophélie Lagache, psychologue à Lyon",
+   "seoDescription": "Adresse et téléphone de Ophélie Lagache, psychologue, 39 rue Molière à Lyon.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 39 rue Molière, à Lyon 6e, près du métro Foch. Vous avez une question ou une appréhension ? Appelez-moi ou écrivez-moi, je prendrai le temps de vous répondre.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Ophélie Lagache"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

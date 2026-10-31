@@ -1,0 +1,349 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Astrid Frotier (prospect), d'après astridfrotier.wixsite.com/psychologue-systemie. Publiée sur youxdesign.fr/maquettes/astrid-frotier/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://astridfrotier.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F6F5",
+   "encre": "#1D2927",
+   "accent": "#2E7568",
+   "doux": "#D9EAE6",
+   "texte2": "#4A5956"
+  }
+ },
+ "praticien": {
+  "prenom": "Astrid",
+  "nom": "Frotier",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, sexologue",
+  "specialite": "intervention systémique, thérapies brèves, thérapie de couple et familiale, sexologie",
+  "specialiteCourte": "Systémie et sexologie",
+  "diplome": "Licence et master de psychologie clinique, parcours développement (IPSA, Angers) ; DIU d’étude de la sexualité humaine (Université de Nantes)",
+  "adeli": "449317692",
+  "public": "Adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 63 90 31 84",
+  "email": "astrid.frotier@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/nantes/astrid-frotier"
+  }
+ },
+ "cabinet": {
+  "adresse": "10 rue Gaëtan Rondeau",
+  "codePostal": "44200",
+  "ville": "Nantes",
+  "quartier": "Île de Nantes",
+  "accessiblePMR": true,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "10:00-20:00",
+   "mardi": "10:00-20:00",
+   "mercredi": "10:00-20:00",
+   "jeudi": "10:00-20:00",
+   "vendredi": "10:00-20:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Transports",
+    "texte": "Bus 26 et Chronobus C5, arrêt Conservatoire ; Busway 4, arrêt Beaulieu ou Île de Nantes.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Parking de la galerie commerciale, 2 h de stationnement gratuit.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Accessibilité",
+    "texte": "Cabinet en rez-de-chaussée, accessible aux personnes à mobilité réduite.",
+    "icone": "fauteuil"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "duree": "45 min environ",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance de sexologie",
+   "prix": "70 €"
+  },
+  {
+   "nom": "Séance de couple ou familiale",
+   "prix": "80 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Doutes et remises en question",
+   "texte": "Dans votre vie personnelle ou professionnelle, pour prendre de la distance.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Stress et anxiété",
+   "texte": "Quand ils affectent votre sommeil ou votre appétit.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Deuils et diagnostics",
+   "texte": "Un deuil, ou l’annonce d’un diagnostic médical pour vous ou un proche.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Couple",
+   "texte": "Retrouver une communication, améliorer vos relations.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Sexualité",
+   "texte": "Désir, douleurs, difficultés sexuelles, questions d’identité ou d’orientation.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Famille",
+   "texte": "Des relations avec vos proches devenues conflictuelles.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Astrid Frotier, psychologue à Nantes",
+   "seoDescription": "Astrid Frotier, psychologue clinicienne, sexologue à Nantes. Intervention systémique, thérapies brèves, thérapie de couple et familiale, sexologie.",
+   "surtitre": "Psychologue clinicienne · Nantes",
+   "titre": "Vous aider à prendre\n*un nouvel envol*",
+   "intro": "Psychologue clinicienne formée à l’intervention systémique et à l’étude de la sexualité humaine, je vous reçois sur l’île de Nantes, en individuel, en couple ou en famille.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Astrid*",
+   "presentation": [
+    "Mon cabinet de psychologie, ouvert en mars 2017, se situe au sein d’un cabinet paramédical sur l’île Beaulieu, où exercent aussi une ostéopathe et une pédicure-podologue.",
+    "Formée à l’intervention systémique, je vous propose des thérapies brèves centrées sur le présent et sur vos relations personnelles et professionnelles. Depuis octobre 2022, je propose aussi des consultations de sexologie."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Astrid Frotier, psychologue à Nantes",
+   "seoDescription": "Parcours et formations de Astrid Frotier, psychologue à Nantes.",
+   "titre": "Mon *parcours*",
+   "intro": "Le titre de psychologue est protégé : il suppose une licence, un master 1 et un master 2 de psychologie, et une inscription auprès de l’Agence régionale de santé.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation",
+     "texte": "Licence de psychologie et master de psychologie clinique, parcours développement, IPSA d’Angers (UCO)."
+    },
+    {
+     "titre": "Systémie",
+     "texte": "Formation à l’intervention systémique."
+    },
+    {
+     "titre": "Sexologie",
+     "texte": "DIU d’étude de la sexualité humaine, Université de Nantes (3 ans)."
+    },
+    {
+     "titre": "2017",
+     "texte": "Ouverture du cabinet de psychologie sur l’île de Nantes."
+    },
+    {
+     "titre": "Répertoire ADELI",
+     "texte": "Inscrite sous le numéro 449317692."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Astrid Frotier, psychologue à Nantes",
+   "seoDescription": "L’approche de Astrid Frotier, psychologue à Nantes : intervention systémique, thérapies brèves, thérapie de couple et familiale, sexologie.",
+   "titre": "Vous êtes l’acteur\n*de votre changement*",
+   "intro": "Nous étudions d’abord votre demande et déterminons ensemble les objectifs que vous souhaitez atteindre, et les éléments concrets qui vous permettront de voir s’ils sont atteints. Je me tiens à côté de vous pour vous guider et vous proposer des pistes de réflexion.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapies brèves",
+     "texte": "Une approche systémique, centrée sur le présent et vos relations actuelles.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "En couple",
+     "texte": "Le psychologue sert de tiers pour améliorer la communication.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "En famille",
+     "texte": "Travailler avec vos proches, en respectant le rythme de chacun.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Sexologie",
+     "texte": "Une demande individuelle ou de couple. Si besoin, je vous oriente vers un médecin.",
+     "icone": "soleil"
+    }
+   ],
+   "outilsSurtitre": "Les thérapies",
+   "outilsTitre": "Comment *je vous accompagne*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Astrid Frotier, psychologue à Nantes",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Astrid Frotier, psychologue à Nantes.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Le cabinet est ouvert du lundi au vendredi, de 10 h à 20 h. Une séance dure en moyenne 45 minutes, en individuel ou en groupe selon votre demande.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par chèque ou en espèces.",
+   "tarifsNote": "Certaines mutuelles prennent parfois en charge quelques séances avec un psychologue.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Astrid Frotier, psychologue à Nantes",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Astrid Frotier, psychologue à Nantes",
+   "seoDescription": "Adresse et téléphone de Astrid Frotier, psychologue, 10 rue Gaëtan Rondeau à Nantes.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 10 rue Gaëtan Rondeau, sur l’île de Nantes. Prenez rendez-vous par téléphone ou en ligne sur Doctolib.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Astrid Frotier"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

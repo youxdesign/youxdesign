@@ -1,0 +1,341 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Juliette Rataud (prospect), d'après jrataud.wixsite.com/psychologue. Publiée sur youxdesign.fr/maquettes/juliette-rataud/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://jrataud.wixsite.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F6F3F6",
+   "encre": "#262027",
+   "accent": "#7B4B7E",
+   "doux": "#EADFEB",
+   "texte2": "#564C57"
+  }
+ },
+ "praticien": {
+  "prenom": "Juliette",
+  "nom": "Rataud",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "accompagnement des adolescents et des adultes, pratique intégrative, musicothérapie",
+  "specialiteCourte": "Psychologue et musicothérapeute",
+  "diplome": "Psychologie clinique et psychopathologie (Université Paris Descartes, 2009) ; formation universitaire en art-thérapie de niveau master (Université Paris 3 Sorbonne Nouvelle)",
+  "adeli": "339320392",
+  "public": "Adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 48 54 71 89",
+  "email": "juliette.rataud@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/bordeaux/juliette-rataud"
+  }
+ },
+ "cabinet": {
+  "adresse": "1 rue Lagraveyre",
+  "codePostal": "33200",
+  "ville": "Bordeaux",
+  "quartier": "Caudéran",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "En bus",
+    "texte": "Arrêt Domion (lignes 2 et 41) ou Pins Francs (lignes 3 et 41).",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Parking réservé à la patientèle du cabinet.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "À vélo",
+    "texte": "Stationnement vélo rue Domion, au niveau de l’école primaire Stéhelin.",
+    "icone": "marches"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "texte": "Tarif indicatif.",
+   "prix": "50 €",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Événements de vie",
+   "texte": "Maladie, deuil, séparation, traumatisme, perte d’emploi, épuisement professionnel.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Difficultés personnelles",
+   "texte": "Les difficultés conjugales, parentales, familiales, sociales, professionnelles ou scolaires.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Mal-être",
+   "texte": "Une souffrance qui s’exprime parfois au travers de symptômes envahissants.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Donner du sens",
+   "texte": "À votre histoire personnelle et familiale, présente et passée.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "S’exprimer autrement",
+   "texte": "La musicothérapie, quand les mots ne suffisent pas.",
+   "icone": "plume"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Juliette Rataud, psychologue à Bordeaux",
+   "seoDescription": "Juliette Rataud, psychologue clinicienne à Bordeaux. Accompagnement des adolescents et des adultes, pratique intégrative, musicothérapie.",
+   "surtitre": "Psychologue clinicienne · Bordeaux Caudéran",
+   "titre": "(Re)trouver\n*un équilibre*",
+   "intro": "Psychologue clinicienne, je vous apporte une écoute active et réflexive pour vous aider à (re)trouver un équilibre individuel, conjugal, familial ou socio-professionnel. Je reçois les adolescents et les adultes dans le quartier de Caudéran, à Bordeaux.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Juliette*",
+   "presentation": [
+    "Que ce soit pour un accompagnement ponctuel ou pour une psychothérapie, le cadre de nos entretiens est défini avec vous, pour que vous puissiez vous approprier cette démarche et vous y engager au mieux.",
+    "Face à la diversité des situations, j’ai fait le choix de faire cohabiter plusieurs orientations théoriques, dans une pratique intégrative. Je me suis également formée à la musicothérapie."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Juliette Rataud, psychologue à Bordeaux",
+   "seoDescription": "Parcours et formations de Juliette Rataud, psychologue à Bordeaux.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée en psychologie clinique et psychopathologie de l’université Paris Descartes en 2009, j’ai eu des premières années d’expérience riches et variées.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "2009",
+     "texte": "Psychologie clinique et psychopathologie, Université Paris Descartes."
+    },
+    {
+     "titre": "Au Canada",
+     "texte": "Une première expérience dans le champ social."
+    },
+    {
+     "titre": "Clinique",
+     "texte": "Protection de l’enfance et soutien à la parentalité, addictologie, psychiatrie adulte."
+    },
+    {
+     "titre": "2015",
+     "texte": "Formation universitaire en art-thérapie de niveau master (Université Paris 3 Sorbonne Nouvelle), pour me former à la musicothérapie."
+    },
+    {
+     "titre": "Aujourd’hui",
+     "texte": "Un groupe de travail entre pairs et les conférences de la profession nourrissent ma réflexion."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Juliette Rataud, psychologue à Bordeaux",
+   "seoDescription": "L’approche de Juliette Rataud, psychologue à Bordeaux : accompagnement des adolescents et des adultes, pratique intégrative, musicothérapie.",
+   "titre": "Quand les mots\n*ne suffisent pas*",
+   "intro": "Confrontée parfois aux limites de la psychothérapie verbale, j’ai souhaité ouvrir un espace de créativité dans la rencontre clinique. La musicothérapie utilise le son, le rythme et la musique, en lien avec votre histoire et vos possibilités de communication.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Entretiens",
+     "texte": "Un accompagnement ponctuel ou une psychothérapie, dans une pratique intégrative.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Musicothérapie active",
+     "texte": "Des instruments et des médiateurs sonores pour favoriser l’expression de soi.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Musicothérapie réceptive",
+     "texte": "Des moments d’écoute musicale, qui font appel à la libre association.",
+     "icone": "vagues"
+    },
+    {
+     "titre": "Bilan psychomusical",
+     "texte": "Une première rencontre autour de votre monde sonore et musical, pour définir l’indication.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Juliette Rataud, psychologue à Bordeaux",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Juliette Rataud, psychologue à Bordeaux.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations, individuelles, s’adressent principalement aux adolescents et aux adultes, sur rendez-vous.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par chèque ou en espèces, à l’issue de chaque séance.",
+   "annulation": [
+    "Merci de prévenir au moins 24 h à l’avance en cas d’annulation : à défaut, la séance est facturée."
+   ],
+   "tarifsNote": "Les consultations ne sont pas prises en charge par la Sécurité sociale : je vous fournis sur demande des notes d’honoraires pour votre mutuelle.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Juliette Rataud, psychologue à Bordeaux",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Juliette Rataud, psychologue à Bordeaux",
+   "seoDescription": "Adresse et téléphone de Juliette Rataud, psychologue, 1 rue Lagraveyre à Bordeaux.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 1 rue Lagraveyre, dans le quartier de Caudéran à Bordeaux, avec un parking réservé aux patients. Prenez rendez-vous en ligne, ou appelez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Juliette Rataud"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
