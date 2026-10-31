@@ -193,6 +193,9 @@ html.lenis, html.lenis body { height: auto; }
   clip-path: inset(0 0 100% 0);
   transition: clip-path .7s var(--vt-ease);
 }
+/* Le flou de l'en-tête défilé ferait du menu (position fixe) un enfant de l'en-tête : réduit à sa hauteur, il disparaîtrait.
+   On retire donc le flou tant que le menu est affiché, fermeture comprise. */
+.vt-entete.est-ouvert, .vt-entete:has(.vt-menu:not([hidden])) { -webkit-backdrop-filter: none; backdrop-filter: none; }
 .vt-entete.est-ouvert { background: var(--vt-fond); box-shadow: none; }
 .vt-entete.est-ouvert .vt-menu { clip-path: inset(0 0 0 0); }
 .vt-menu__liens { display: grid; gap: .25rem; }
