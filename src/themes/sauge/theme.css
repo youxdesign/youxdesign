@@ -280,8 +280,8 @@ main:focus { outline: none; }
 .hero__text { display: grid; gap: 28px; align-content: start; }
 .hero .lead { max-width: 33em; }
 .hero__meta { display: flex; flex-wrap: wrap; gap: 10px 22px; color: var(--ink-3); font-size: 14px; }
-.hero__meta span { display: inline-flex; align-items: center; gap: 8px; }
-.hero__meta span::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--sage); }
+.hero__meta > span { display: inline-flex; align-items: center; gap: 8px; }
+.hero__meta > span::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--sage); }
 
 /* Titres révélés ligne par ligne, et éléments qui apparaissent en fondu.
    Animations purement CSS : le texte reste lisible même sans JavaScript. */
