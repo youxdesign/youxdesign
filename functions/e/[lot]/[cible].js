@@ -32,7 +32,8 @@ export async function onRequestGet({ params, request, env, waitUntil }) {
   const destination = maquette ? `${DOMAINE}/maquettes/${maquette[1]}/` : CIBLES[cible];
   if (!destination || !LOT.test(lot)) return redirection(`${DOMAINE}/`);
   if (!ROBOT.test(request.headers.get('User-Agent') || '')) {
-    waitUntil(transmettre(env, { type: 'etape', etape: `Clic e-mail · ${lot} · ${cible}` }));
+    /* Pour une maquette, on compte « maquette » sans son nom : on ne sait pas qui a cliqué */
+    waitUntil(transmettre(env, { type: 'etape', etape: `Clic e-mail · ${lot} · ${maquette ? 'maquette' : cible}` }));
   }
   return redirection(destination);
 }
