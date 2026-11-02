@@ -190,6 +190,8 @@ h1 em, h2 em, h3 em, .titre em { font-style: normal; color: var(--c-lien); }
   text-align: center;
   --c-encre: var(--c-sur-bouton);
   --c-texte2: var(--c-sur-bouton);
+  /* Les mots en relief du titre (« première séance ») prennent la couleur du lien : sur ce fond, elle doit être celle du texte */
+  --c-lien: var(--c-sur-bouton);
   --c-focus: var(--c-sur-bouton);
 }
 .appel-final .appel__texte { justify-items: center; }
