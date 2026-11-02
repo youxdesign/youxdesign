@@ -1,0 +1,344 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Julie Micoud (prospect), d'après www.juliemicoud-psychologue.fr. Publiée sur youxdesign.fr/maquettes/julie-micoud/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.juliemicoud-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FAF4F0",
+   "encre": "#2A1F1A",
+   "accent": "#A35A3C",
+   "doux": "#F0DDD2",
+   "texte2": "#5C4D45"
+  }
+ },
+ "praticien": {
+  "prenom": "Julie",
+  "nom": "Micoud",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "psychothérapie intégrative, hypnose thérapeutique, EMDR",
+  "specialiteCourte": "Hypnose et EMDR",
+  "diplome": "Psychologie de la santé (Université Lumière Lyon 2)",
+  "rpps": "10008766403",
+  "public": "Adultes, couples, personnes âgées et leurs proches"
+ },
+ "contact": {
+  "telephone": "07 67 31 10 58",
+  "email": "juliemicoud.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/lyon/julie-micoud"
+  }
+ },
+ "cabinet": {
+  "adresse": "63 rue Léon Jouhaux",
+  "codePostal": "69003",
+  "ville": "Lyon",
+  "quartier": "3e arrondissement",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Du lundi au vendredi, sur rendez-vous.",
+  "acces": [
+   {
+    "titre": "Métro",
+    "texte": "Ligne D, station Garibaldi.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Bus",
+    "texte": "C7 Félix Faure – Vivier Merle, C11 Bir Hakeim, C25 Rancy.",
+    "icone": "marches"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Parkings à proximité : Bir Hakeim, Garibaldi.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Thérapie individuelle",
+   "duree": "45 à 50 min",
+   "prix": "70 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Thérapie individuelle en visio",
+   "duree": "45 à 50 min",
+   "prix": "70 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "texte": "Stress, anxiété, trouble panique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Phobies et peurs",
+   "texte": "Phobies spécifiques, sociales, d’impulsion.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Vécus dépressifs",
+   "texte": "Dépression, tristesse, deuil.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Sommeil",
+   "texte": "Difficultés d’endormissement, réveils fréquents, cauchemars, insomnies.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Accidents, agressions, événements à facteur de stress.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Travail",
+   "texte": "Mal-être, conflits, burn-out ou bore-out.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Couple",
+   "texte": "Disputes fréquentes, arrivée d’un enfant, séparation.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Julie Micoud, psychologue à Lyon",
+   "seoDescription": "Julie Micoud, psychologue clinicienne à Lyon. Psychothérapie intégrative, hypnose thérapeutique, emdr.",
+   "surtitre": "Psychologue clinicienne · Lyon 3e",
+   "titre": "Trouver les clés\n*pour avancer*",
+   "intro": "Psychologue clinicienne formée à l’hypnose thérapeutique et à l’EMDR, je vous reçois du lundi au vendredi à mon cabinet du 3e arrondissement de Lyon, ou en visio.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Julie*",
+   "presentation": [
+    "Parfois, nous nous sentons dépassés par des événements dont nous avons du mal à nous remettre, ou des comportements nous empêchent d’avancer. La thérapie permet de mieux les comprendre et de trouver les clés pour les dépasser.",
+    "Ma pratique est plurielle et intégrative : j’associe les approches psychodynamique et humaniste à l’hypnose clinique, aux thérapies cognitives et comportementales, à la thérapie systémique et à la relaxation."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Julie Micoud, psychologue à Lyon",
+   "seoDescription": "Parcours et formations de Julie Micoud, psychologue à Lyon.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée en psychologie de la santé de l’université Lumière Lyon 2, je suis formée à l’hypnose thérapeutique et à l’EMDR.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Formation",
+     "texte": "Psychologie de la santé, Université Lumière Lyon 2."
+    },
+    {
+     "titre": "Hypnose",
+     "texte": "Hypnose thérapeutique, IMELyon."
+    },
+    {
+     "titre": "EMDR",
+     "texte": "EMDR, IFEMDR."
+    },
+    {
+     "titre": "Aujourd’hui",
+     "texte": "Cabinet libéral dans le 3e arrondissement de Lyon ; accompagnement des adultes, des couples, des personnes âgées et de leurs proches."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Julie Micoud, psychologue à Lyon",
+   "seoDescription": "L’approche de Julie Micoud, psychologue à Lyon : psychothérapie intégrative, hypnose thérapeutique, EMDR.",
+   "titre": "Une pratique\n*plurielle*",
+   "intro": "Le premier entretien est le temps de la rencontre : vous exposez vos difficultés et vos attentes. Nous déterminons ensuite ensemble les modalités et les objectifs des séances suivantes.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Hypnose thérapeutique",
+     "texte": "L’hypnose ericksonienne s’appuie sur l’état de conscience modifiée ; votre conscience reste présente, et l’auto-hypnose prolonge le travail entre les séances.",
+     "icone": "lune"
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Une thérapie en 8 phases : un plan de ciblage, puis le retraitement d’une situation par des stimulations bilatérales, oculaires ou tactiles.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Psychodynamique et humaniste",
+     "texte": "Une écoute fondée sur le non-jugement, pour mettre en mots la souffrance et les émotions.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Julie Micoud, psychologue à Lyon",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Julie Micoud, psychologue à Lyon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois du lundi au vendredi, au cabinet ou en visio. Les séances d’hypnose durent de 45 à 60 minutes, celles d’EMDR de 60 à 75 minutes.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "annulation": [
+    "Tout rendez-vous non annulé 48 h à l’avance est facturé."
+   ],
+   "tarifsNote": "Les séances ne sont pas remboursées par la sécurité sociale, mais de plus en plus de mutuelles en remboursent une partie : je vous fournis une facture.",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Julie Micoud, psychologue à Lyon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Julie Micoud, psychologue à Lyon",
+   "seoDescription": "Adresse et téléphone de Julie Micoud, psychologue, 63 rue Léon Jouhaux à Lyon.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 63 rue Léon Jouhaux, dans le 3e arrondissement de Lyon, près du métro Garibaldi. Vous pouvez prendre rendez-vous sur Doctolib, m’appeler ou m’écrire.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Julie Micoud"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

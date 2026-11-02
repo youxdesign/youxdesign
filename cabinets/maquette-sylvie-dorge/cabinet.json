@@ -1,0 +1,346 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Sylvie Dorge (prospect), d'après www.sylviedorge-psychologue.fr. Publiée sur youxdesign.fr/maquettes/sylvie-dorge/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.sylviedorge-psychologue.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F4FA",
+   "encre": "#1E1C30",
+   "accent": "#5048A0",
+   "doux": "#E2E0F2",
+   "texte2": "#504E64"
+  }
+ },
+ "praticien": {
+  "prenom": "Sylvie",
+  "nom": "Dorge",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue spécialisée en neuropsychologie",
+  "specialite": "bilans neuropsychologiques et psychométriques, TDAH, TSA, haut potentiel, mémoire et vieillissement",
+  "specialiteCourte": "Bilans neuropsychologiques",
+  "public": "Enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 82 62 74 39",
+  "email": "dorgesylvie@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "12 avenue de Paris",
+  "codePostal": "78000",
+  "ville": "Versailles",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Soisy-sur-Seine",
+    "texte": "Je consulte aussi au 1 allée des Marronniers, à Soisy-sur-Seine (Essonne).",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "texte": "Entretien clinique : comprendre un bilan réalisé ailleurs, guidance parentale.",
+   "prix": "130 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan attentionnel (6–16 ans)",
+   "prix": "390 €"
+  },
+  {
+   "nom": "Bilan psychométrique, QI (6–16 ans)",
+   "prix": "610 €"
+  },
+  {
+   "nom": "Bilan neuropsychologique (6–16 ans)",
+   "prix": "650 €"
+  },
+  {
+   "nom": "Bilan psychométrique, QI (adulte)",
+   "prix": "680 €"
+  },
+  {
+   "nom": "Bilan neuropsychologique, mémoire (adulte)",
+   "prix": "760 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Difficultés scolaires",
+   "texte": "Des difficultés persistantes malgré les efforts.",
+   "icone": "livre"
+  },
+  {
+   "titre": "Attention et TDAH",
+   "texte": "Inattention, impulsivité, agitation, chez l’enfant comme chez l’adulte.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Autisme (TSA)",
+   "texte": "Un questionnement autour d’un trouble du spectre de l’autisme.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Haut potentiel",
+   "texte": "Identifier et comprendre un fonctionnement intellectuel particulier.",
+   "icone": "cerveau"
+  },
+  {
+   "titre": "Mémoire et vieillissement",
+   "texte": "Plaintes de mémoire, distinguer vieillissement normal et trouble.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Opposition",
+   "texte": "Accompagner les parents d’un enfant opposant ou défiant.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Concentration chez l’adulte",
+   "texte": "Fatigue cognitive, difficultés d’organisation, sentiment de décalage.",
+   "icone": "batterie"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Sylvie Dorge, psychologue à Versailles",
+   "seoDescription": "Sylvie Dorge, psychologue spécialisée en neuropsychologie à Versailles. Bilans neuropsychologiques et psychométriques, tdah, tsa, haut potentiel, mémoire et vieillissement.",
+   "surtitre": "Neuropsychologie · Versailles et Soisy-sur-Seine",
+   "titre": "Comprendre\n*son fonctionnement*",
+   "intro": "Psychologue spécialisée en neuropsychologie, je réalise des bilans cognitifs et neuropsychologiques pour les enfants, les adolescents et les adultes, à Versailles et à Soisy-sur-Seine.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Sylvie*",
+   "presentation": [
+    "Depuis plus de 25 ans, j’accompagne des enfants, des adolescents et des adultes qui présentent des difficultés d’apprentissage, d’attention, de mémoire, ou des questionnements sur leur fonctionnement intellectuel et émotionnel.",
+    "Au-delà des résultats chiffrés, le bilan apporte une vision globale et personnalisée de votre fonctionnement, pour comprendre l’origine des difficultés et orienter vers des solutions adaptées."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Sylvie Dorge, psychologue à Versailles",
+   "seoDescription": "Parcours et formations de Sylvie Dorge, psychologue à Versailles.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue spécialisée en neuropsychologie depuis plus de 25 ans, je travaille en réseau avec les médecins, les orthophonistes, les psychomotriciens, les ergothérapeutes et les équipes scolaires.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Plus de 25 ans",
+     "texte": "Bilans et accompagnement d’enfants, d’adolescents et d’adultes."
+    },
+    {
+     "titre": "Bilans",
+     "texte": "Neuropsychologiques, psychométriques, attentionnels, TSA, mémoire, orientation scolaire."
+    },
+    {
+     "titre": "Guidance parentale",
+     "texte": "Accompagnement des parents d’enfants qui présentent un trouble de l’opposition."
+    },
+    {
+     "titre": "En réseau",
+     "texte": "Médecins, orthophonistes, psychomotriciens, ergothérapeutes, équipes scolaires."
+    },
+    {
+     "titre": "Deux cabinets",
+     "texte": "Versailles (Yvelines) et Soisy-sur-Seine (Essonne)."
+    }
+   ],
+   "parcoursTitre": "Ma *pratique*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Sylvie Dorge, psychologue à Versailles",
+   "seoDescription": "L’approche de Sylvie Dorge, psychologue à Versailles : bilans neuropsychologiques et psychométriques, TDAH, TSA, haut potentiel, mémoire et vieillissement.",
+   "titre": "Le bilan\n*neuropsychologique*",
+   "intro": "La neuropsychologie étudie les liens entre le fonctionnement du cerveau et les comportements. Le bilan analyse le fonctionnement intellectuel, cognitif, émotionnel et comportemental, pour identifier les forces et les fragilités et proposer des recommandations concrètes.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Entretien initial",
+     "texte": "Faire le point sur l’histoire, les difficultés et les questions.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Passation des tests",
+     "texte": "Des tests adaptés à l’âge et à la demande.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Restitution et compte rendu",
+     "texte": "Un compte rendu écrit détaillé : profil cognitif, analyse clinique, conclusions et recommandations.",
+     "icone": "livre"
+    },
+    {
+     "titre": "Travail en réseau",
+     "texte": "Avec les médecins, les rééducateurs et les équipes scolaires, pour un accompagnement cohérent.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Sylvie Dorge, psychologue à Versailles",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Sylvie Dorge, psychologue à Versailles.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les bilans comprennent l’entretien initial, la passation des tests, l’analyse, la restitution et un compte rendu écrit détaillé. Une prescription médicale n’est pas obligatoire. Les tarifs ci-dessous sont un extrait : d’autres bilans existent pour les 3–6 ans, les 6–16 ans et les adultes (TSA, TDAH, gériatrique…).",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "tarifsNote": "Les bilans ne sont pas remboursés par la sécurité sociale ; certaines mutuelles peuvent en prendre une partie en charge."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Sylvie Dorge, psychologue à Versailles",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Sylvie Dorge, psychologue à Versailles",
+   "seoDescription": "Adresse et téléphone de Sylvie Dorge, psychologue, 12 avenue de Paris à Versailles.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je consulte au 12 avenue de Paris, à Versailles, et au 1 allée des Marronniers, à Soisy-sur-Seine. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Sylvie Dorge"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

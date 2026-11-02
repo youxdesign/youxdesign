@@ -1,0 +1,353 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marion Deher (prospect), d'après www.tassin-psychologue.fr. Publiée sur youxdesign.fr/maquettes/marion-deher/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.tassin-psychologue.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F4EF",
+   "encre": "#28211A",
+   "accent": "#8A5A2B",
+   "doux": "#EDE2D3",
+   "texte2": "#5A5047"
+  }
+ },
+ "praticien": {
+  "prenom": "Marion",
+  "nom": "Deher",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne et psychothérapeute",
+  "specialite": "approche intégrative : thérapie centrée sur la personne, psychodynamique, LI-ICV (intégration du cycle de la vie)",
+  "specialiteCourte": "Approche intégrative et ICV",
+  "diplome": "Diplôme d’État de psychologie clinique, master 2 de psychopathologie (École des psychologues praticiens, Lyon, 2006)",
+  "adeli": "699308276",
+  "rpps": "10008753799",
+  "public": "Enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 80 18 41 21",
+  "email": "mariondeher@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "26 avenue de la République, 2e étage",
+  "codePostal": "69160",
+  "ville": "Tassin-la-Demi-Lune",
+  "quartier": "quartier de l’Horloge",
+  "accessiblePMR": true,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "9:00-19:30",
+   "mercredi": "9:00-19:30",
+   "jeudi": "",
+   "vendredi": "9:00-19:30",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "En voiture",
+    "texte": "Grand parking public juste en face : parking de l’Horloge.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "Bus",
+    "texte": "Lignes 55, 98 et C21, arrêt Demi-Lune Vaubouin.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Train",
+    "texte": "Gare de Tassin à 1 km à pied.",
+    "icone": "marches"
+   },
+   {
+    "titre": "Accessibilité",
+    "texte": "Locaux climatisés, aux normes d’accessibilité et de sécurité.",
+    "icone": "fauteuil"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "duree": "45 min à 1 h",
+   "texte": "Tarif spécial possible pour les étudiants ou les personnes en difficulté financière, sur justificatif.",
+   "prix": "70 €",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Troubles anxieux",
+   "texte": "Angoisses, inquiétudes, stress.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Troubles de l’humeur",
+   "texte": "Quand l’humeur pèse sur le quotidien.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Corps et maladie",
+   "texte": "Troubles somatoformes, pathologies chroniques somatiques.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Alimentation",
+   "texte": "Troubles du comportement alimentaire.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Problèmes relationnels, troubles de la personnalité.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Confiance en soi",
+   "texte": "Problèmes de confiance et d’estime de soi.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Précocité et parentalité",
+   "texte": "Précocité intellectuelle, guidance parentale.",
+   "icone": "cerveau"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marion Deher, psychologue à Tassin-la-Demi-Lune",
+   "seoDescription": "Marion Deher, psychologue clinicienne et psychothérapeute à Tassin-la-Demi-Lune. Approche intégrative : thérapie centrée sur la personne, psychodynamique, li-icv (intégration du cycle de la vie).",
+   "surtitre": "Psychologue clinicienne · Tassin-la-Demi-Lune",
+   "titre": "Avancer\n*à votre rythme*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois enfants, adolescents et adultes, sur rendez-vous, à mon cabinet de Tassin-la-Demi-Lune, dans le quartier de l’Horloge.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marion*",
+   "presentation": [
+    "Mon approche est intégrative : elle s’inspire de plusieurs courants et outils pour mettre en place des stratégies thérapeutiques créatives et structurées, adaptées à votre problématique et à votre personnalité.",
+    "Avec empathie et bienveillance, en toute discrétion, je vous accompagne en tenant compte de vos besoins, de vos résistances au changement et de votre propre rythme."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marion Deher, psychologue à Tassin-la-Demi-Lune",
+   "seoDescription": "Parcours et formations de Marion Deher, psychologue à Tassin-la-Demi-Lune.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée en 2006 de l’École des psychologues praticiens de Lyon, j’exerce en cabinet depuis 2015 et à l’hôpital Lyon Sud depuis 2008, auprès de patients atteints de pathologies chroniques.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "2006",
+     "texte": "Diplôme d’État de psychologie clinique, master 2 de psychopathologie, École des psychologues praticiens, Lyon."
+    },
+    {
+     "titre": "Depuis 2008",
+     "texte": "Hôpital Lyon Sud : patients atteints de pathologies chroniques (pneumologie, rhumatologie, immuno-allergologie)."
+    },
+    {
+     "titre": "Depuis 2015",
+     "texte": "Psychologue clinicienne et psychothérapeute en cabinet, à Tassin-la-Demi-Lune."
+    },
+    {
+     "titre": "Depuis 2019",
+     "texte": "Hospices civils de Lyon (UTEP) : formation et accompagnement des équipes et des patients en éducation thérapeutique."
+    },
+    {
+     "titre": "Expériences",
+     "texte": "Centre Léon Bérard, hôpital Debrousse, soins palliatifs à Saint-Chamond et à Firminy, psychiatrie adulte à la clinique Villa des Roses."
+    },
+    {
+     "titre": "Formations",
+     "texte": "Relaxation (2013), démarche éducative (2016), analyse de la pratique (2021), LI-ICV niveaux 1 et 2 et enfants-adolescents (2021 à 2025)."
+    },
+    {
+     "titre": "Enseignement",
+     "texte": "Soins palliatifs en IFSI ; éducation thérapeutique aux universités Lyon 1 et Lyon 2."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marion Deher, psychologue à Tassin-la-Demi-Lune",
+   "seoDescription": "L’approche de Marion Deher, psychologue à Tassin-la-Demi-Lune : approche intégrative : thérapie centrée sur la personne, psychodynamique, LI-ICV (intégration du cycle de la vie).",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "L’objectif n’est pas d’utiliser toutes les thérapies possibles, mais de s’inspirer de plusieurs courants pour s’adapter à la problématique, au besoin et à la personnalité de chacun, plutôt que d’imposer un cadre unique de pensée.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapie centrée sur la personne",
+     "texte": "Une pratique interactive, qui s’adapte à vous.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Analytique et psychodynamique",
+     "texte": "Comprendre ce qui se joue dans votre histoire.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "LI-ICV",
+     "texte": "L’intégration du cycle de la vie aide à intégrer un événement difficile et son histoire de vie, pour retrouver un sentiment de sécurité intérieure.",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marion Deher, psychologue à Tassin-la-Demi-Lune",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marion Deher, psychologue à Tassin-la-Demi-Lune.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Le premier rendez-vous sert à faire connaissance et à mettre en place le cadre de la thérapie. Une séance dure entre 45 minutes et 1 heure, en général tous les 15 jours, selon vos besoins.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "À la fin de chaque séance, par chèque, virement ou en espèces.",
+   "tarifsNote": "Sur demande, je vous remets une facture pour le remboursement par votre mutuelle.",
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marion Deher, psychologue à Tassin-la-Demi-Lune",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marion Deher, psychologue à Tassin-la-Demi-Lune",
+   "seoDescription": "Adresse et téléphone de Marion Deher, psychologue, 26 avenue de la République, 2e étage à Tassin-la-Demi-Lune.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 26 avenue de la République, au 2e étage, à Tassin-la-Demi-Lune, face au parking de l’Horloge. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marion Deher"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

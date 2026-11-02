@@ -1,0 +1,358 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Gaëlle Bongeot (prospect), d'après www.gaellebongeot-psychologue.org. Publiée sur youxdesign.fr/maquettes/gaelle-bongeot/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.gaellebongeot-psychologue.org",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F5F4",
+   "encre": "#18242A",
+   "accent": "#2F5F73",
+   "doux": "#D9E6E8",
+   "texte2": "#4A585E"
+  }
+ },
+ "praticien": {
+  "prenom": "Gaëlle",
+  "nom": "Bongeot",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Docteure en psychologie, psychologue clinicienne",
+  "specialite": "approche intégrative : EMDR, TCC, thérapie des schémas ; bilans psychologiques ; troubles du neurodéveloppement",
+  "specialiteCourte": "EMDR, TCC et bilans",
+  "diplome": "Doctorat de psychologie clinique (Université de Toulouse)",
+  "rpps": "10008646332",
+  "public": "Enfants, adolescents, adultes et couples"
+ },
+ "contact": {
+  "telephone": "06 11 21 42 05",
+  "email": "gaelle.bongeot@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "275 route des Creuses",
+  "codePostal": "74600",
+  "ville": "Annecy",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "7:00-16:30",
+   "mardi": "7:00-16:30",
+   "mercredi": "7:00-16:30",
+   "jeudi": "7:00-16:30",
+   "vendredi": "7:00-16:30",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Repère",
+    "texte": "Le cabinet est dans le business center, derrière la boulangerie « Comme à la maison ». Entrez et patientez sur les fauteuils : je viens vous chercher.",
+    "icone": "porte"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Entretiens classiques et séances d’EMDR possibles en visio.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Thérapie individuelle",
+   "duree": "45 min",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Thérapie EMDR",
+   "duree": "1 h à 1 h 30",
+   "texte": "Selon le profil et l’âge.",
+   "prix": "80 à 120 €"
+  },
+  {
+   "nom": "Thérapie de couple",
+   "duree": "1 h 30",
+   "prix": "100 €"
+  },
+  {
+   "nom": "Groupe de parole ou atelier",
+   "duree": "1 h 30",
+   "texte": "Selon le nombre de participants.",
+   "prix": "30 à 40 €"
+  },
+  {
+   "nom": "Bilans psychologiques",
+   "texte": "Bilan psychométrique, diagnostic TDAH ou TSA, programme Barkley.",
+   "prix": "Selon la demande"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "texte": "Anxiété généralisée, phobies, trouble panique.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Les traumatismes psychiques, récents ou anciens.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Dépression",
+   "texte": "Quand l’humeur et l’énergie ne sont plus là.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Épreuves de vie",
+   "texte": "Une séparation douloureuse, un deuil, des difficultés familiales.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Travail",
+   "texte": "Harcèlement, licenciement, souffrance professionnelle.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Confiance en soi",
+   "texte": "Faire le point, modifier le regard que vous portez sur vous-même.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Neurodéveloppement",
+   "texte": "Autisme, TDAH et autres troubles du neurodéveloppement.",
+   "icone": "puzzle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Gaëlle Bongeot, psychologue à Annecy",
+   "seoDescription": "Gaëlle Bongeot, docteure en psychologie, psychologue clinicienne à Annecy. Approche intégrative : emdr, tcc, thérapie des schémas ; bilans psychologiques ; troubles du neurodéveloppement.",
+   "surtitre": "Docteure en psychologie · Annecy",
+   "titre": "Il est temps\n*de prendre soin de vous*",
+   "intro": "Docteure en psychologie clinique, je reçois enfants, adolescents, adultes et couples à mon cabinet d’Annecy ou en visio, avec une approche intégrative : EMDR, TCC, thérapie des schémas et bilans psychologiques.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Gaëlle*",
+   "presentation": [
+    "Vous ne vous adaptez pas à la thérapie que le psychologue choisit : c’est le psychologue qui adapte ses thérapies à vos problématiques.",
+    "Mettre des mots permet de diminuer progressivement la souffrance. Être accompagné par une personne neutre, dans un cadre qui vous est réservé, aide à y voir plus clair."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Gaëlle Bongeot, psychologue à Annecy",
+   "seoDescription": "Parcours et formations de Gaëlle Bongeot, psychologue à Annecy.",
+   "titre": "Mon *parcours*",
+   "intro": "Titulaire d’un doctorat en psychologie clinique de l’université de Toulouse, j’enseigne aussi la psychologie, notamment dans le master Autisme et autres troubles neurodéveloppementaux.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Doctorat",
+     "texte": "Psychologie clinique, Université de Toulouse : une thèse sur la féminité chez les femmes atteintes d’un cancer du sein (image du corps, sexualité, vie de couple)."
+    },
+    {
+     "titre": "Spécialisations",
+     "texte": "DU de prise en charge de la douleur chronique ; traumatismes psychologiques et troubles anxieux."
+    },
+    {
+     "titre": "Formations",
+     "texte": "EMDR et psychotrauma ; formation continue en TCC, thérapie des schémas et ACT."
+    },
+    {
+     "titre": "Enseignement",
+     "texte": "Enseignante en psychologie à l’université de Toulouse, master Autisme et autres troubles neurodéveloppementaux."
+    },
+    {
+     "titre": "Aujourd’hui",
+     "texte": "Psychologue clinicienne et psychothérapeute en cabinet à Annecy, après une année d’exercice à La Réunion."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Gaëlle Bongeot, psychologue à Annecy",
+   "seoDescription": "L’approche de Gaëlle Bongeot, psychologue à Annecy : approche intégrative : EMDR, TCC, thérapie des schémas ; bilans psychologiques ; troubles du neurodéveloppement.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "La thérapie se pense en fonction du contexte, de la problématique et de la personne : c’est une démarche multiréférentielle, qui intègre plusieurs thérapies. Nous convenons ensemble de ce qui vous convient le mieux.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "EMDR",
+     "texte": "Recommandée par l’OMS et la HAS pour le stress post-traumatique : le traumatisme n’est pas effacé, mais il perd son caractère angoissant.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "TCC",
+     "texte": "Remplacer un comportement inadapté, comme une phobie, par un comportement plus adapté, avec des objectifs définis ensemble.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Thérapie des schémas",
+     "texte": "Identifier les schémas nés dans l’enfance ou l’adolescence, en comprendre les origines et les assouplir.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Bilans",
+     "texte": "Bilan psychométrique, diagnostic du TDAH et des TSA, programme Barkley pour les parents.",
+     "icone": "puzzle"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Gaëlle Bongeot, psychologue à Annecy",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Gaëlle Bongeot, psychologue à Annecy.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois du lundi au vendredi, de 7 h à 16 h 30, au cabinet ou en visio. Vous pouvez me joindre par appel ou par SMS. Les nouveaux patients sont inscrits sur une liste d’attente, et un rendez-vous leur est proposé dans les 15 jours.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Toutes les séances sont réglées pendant la séance.",
+   "monSoutienPsy": true,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Gaëlle Bongeot, psychologue à Annecy",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Gaëlle Bongeot, psychologue à Annecy",
+   "seoDescription": "Adresse et téléphone de Gaëlle Bongeot, psychologue, 275 route des Creuses à Annecy.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 275 route des Creuses, à Annecy, dans le business center derrière la boulangerie « Comme à la maison ». Appelez-moi, envoyez-moi un SMS ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Gaëlle Bongeot"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
