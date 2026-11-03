@@ -1,0 +1,336 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Aurélie Antonienko (prospect), d'après aurelieantonienko.com. Publiée sur youxdesign.fr/maquettes/aurelie-antonienko/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://aurelieantonienko.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F5FA",
+   "encre": "#1C2433",
+   "accent": "#37589B",
+   "doux": "#DCE4F2",
+   "texte2": "#4C5566"
+  }
+ },
+ "praticien": {
+  "prenom": "Aurélie",
+  "nom": "Antonienko",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue du travail",
+  "specialite": "psychologie du travail, épuisement professionnel, accompagnement des aidants, situations d’emprise",
+  "specialiteCourte": "Travail, aidants, emprise",
+  "rpps": "10010007069",
+  "public": "Adultes, adolescents et aidants"
+ },
+ "contact": {
+  "telephone": "06 23 53 06 44",
+  "telephoneNote": "Aussi sur WhatsApp.",
+  "email": "aurelie.antonienko@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Calendly",
+   "url": "https://calendly.com/aurelie-antonienko-psychologue"
+  }
+ },
+ "cabinet": {
+  "adresse": "86 avenue d’Embrun",
+  "codePostal": "05000",
+  "ville": "Gap",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous, au cabinet ou en visio",
+  "acces": [
+   {
+    "titre": "Cabinet médical de Tokoro",
+    "texte": "Au 86 avenue d’Embrun, à Gap.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Les consultations individuelles se déroulent aussi en visio.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "lieu": "Au cabinet, à Gap, ou en visio",
+   "prix": "Sur demande",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Surcharge mentale",
+   "texte": "Une surcharge mentale ou émotionnelle liée au travail.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Épuisement professionnel",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Conflits au travail",
+   "texte": "Tensions relationnelles, environnements délétères.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Perte de sens",
+   "texte": "Un questionnement professionnel.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Transitions",
+   "texte": "Prise de poste, reconversion, évolution.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Fragilisation personnelle",
+   "texte": "Ruptures, perte de repères, maladie.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Aidants",
+   "texte": "Accompagner un proche malade, vieillissant ou dépendant.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Emprise",
+   "texte": "Manipulation, dépendance, perte de discernement.",
+   "icone": "eclat"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Aurélie Antonienko, psychologue à Gap",
+   "seoDescription": "Aurélie Antonienko, psychologue du travail à Gap. Psychologie du travail, épuisement professionnel, accompagnement des aidants, situations d’emprise.",
+   "surtitre": "Psychologue du travail · Gap",
+   "titre": "Retrouver\n*des repères stables*",
+   "intro": "Psychologue du travail, je reçois en consultation individuelle au cabinet médical de Tokoro, à Gap, ou en visio, dans un cadre confidentiel et respectueux du rythme de chacun.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Aurélie*",
+   "presentation": [
+    "Après près de dix ans dans la fonction publique territoriale, j’ai créé mon activité indépendante en 2021. J’ai accompagné des structures et des publics très variés : animation, administratif, technique, médico-social, sport, police municipale, culture.",
+    "J’ai aussi été pendant trois ans coordinatrice de l’association France Alzheimer 05, une expérience qui a renforcé mon engagement auprès des personnes concernées par la maladie d’Alzheimer et de leurs proches aidants."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Calendly, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Aurélie Antonienko, psychologue à Gap",
+   "seoDescription": "Parcours et formations de Aurélie Antonienko, psychologue à Gap.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue du travail de formation, j’interviens aujourd’hui auprès des personnes, en accompagnement individuel, et auprès d’organismes privés, publics et associatifs.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Fonction publique territoriale",
+     "texte": "Près de dix ans d’exercice, avant de créer mon activité indépendante en 2021."
+    },
+    {
+     "titre": "France Alzheimer 05",
+     "texte": "Trois ans de coordination de l’association, auprès des personnes malades et de leurs proches aidants."
+    },
+    {
+     "titre": "Formatrice",
+     "texte": "Pour Alpes Sud Formation, sur les thématiques liées à la maladie d’Alzheimer."
+    },
+    {
+     "titre": "Brain Up",
+     "texte": "Partenaire de l’association : ateliers mémoire pour les seniors et ateliers de prévention."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Aurélie Antonienko, psychologue à Gap",
+   "seoDescription": "L’approche de Aurélie Antonienko, psychologue à Gap : psychologie du travail, épuisement professionnel, accompagnement des aidants, situations d’emprise.",
+   "titre": "Comprendre ce qui se joue,\n*retrouver des marges de manœuvre*",
+   "intro": "Chaque accompagnement s’inscrit dans un cadre sécurisant, respectueux du rythme et de la singularité de la personne. Il ne s’agit pas de donner des réponses toutes faites, mais de vous aider à clarifier votre position et à avancer avec davantage de discernement.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Psychologie du travail",
+     "texte": "Analyser la situation, clarifier les enjeux et retrouver des repères stables dans l’environnement professionnel.",
+     "icone": "batterie"
+    },
+    {
+     "titre": "Périodes de fragilisation",
+     "texte": "Différencier émotions, stress et influences extérieures, et prendre un temps pour soi.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Accompagnement des aidants",
+     "texte": "Mettre des mots sur ce qui est vécu, prendre du recul et retrouver une forme d’équilibre.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Situations d’emprise",
+     "texte": "Comprendre les mécanismes d’emprise, restaurer des limites claires et retrouver son autonomie.",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Mes accompagnements",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Aurélie Antonienko, psychologue à Gap",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Aurélie Antonienko, psychologue à Gap.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations individuelles se déroulent au cabinet, à Gap, ou en visio. Vous pouvez réserver votre séance en ligne, ou me contacter par e-mail, par téléphone ou sur WhatsApp pour voir si mon approche peut vous convenir.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Aurélie Antonienko, psychologue à Gap",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Aurélie Antonienko, psychologue à Gap",
+   "seoDescription": "Adresse et téléphone de Aurélie Antonienko, psychologue, 86 avenue d’Embrun à Gap.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois au cabinet médical de Tokoro, 86 avenue d’Embrun, à Gap, ou en visio. Réservez en ligne, ou contactez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Aurélie Antonienko"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

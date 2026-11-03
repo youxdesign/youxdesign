@@ -1,0 +1,335 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Tifenn Cebron (prospect), d'après www.tifenncebron.com. Publiée sur youxdesign.fr/maquettes/tifenn-cebron/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.tifenncebron.com",
+  "style": "immersif",
+  "palette": 2,
+  "police": 4,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F6F1",
+   "encre": "#1F2A1E",
+   "accent": "#4F6B3A",
+   "doux": "#E1E8D6",
+   "texte2": "#55604F"
+  },
+  "fond": "zoom"
+ },
+ "praticien": {
+  "prenom": "Tifenn",
+  "nom": "Cebron",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, neuropsychologue",
+  "specialite": "psychothérapie systémique pour adolescents, adultes et personnes âgées",
+  "specialiteCourte": "Approche systémique",
+  "diplome": "UFR de psychologie, université de Nantes",
+  "adeli": "449317585",
+  "public": "Adolescents, adultes et personnes âgées"
+ },
+ "contact": {
+  "telephone": "07 68 56 26 14",
+  "email": "tifenncebron@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "2 rue d’Allonville",
+  "codePostal": "44000",
+  "ville": "Nantes",
+  "quartier": "Dalby",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le lundi matin, le jeudi et le vendredi matin, sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Quartier Dalby",
+    "texte": "Le cabinet se trouve 2 rue d’Allonville, à Nantes.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Entretien individuel",
+   "duree": "30 à 45 min",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Entretien collectif",
+   "duree": "1 h",
+   "prix": "75 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Crise existentielle",
+   "texte": "Sortir d’une crise de vie.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Anxiété et dépression",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Confiance en soi",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Relations familiales et conjugales",
+   "texte": "Clarifier une relation, baisser l’intensité émotionnelle.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Soutien parental",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Vieillissement et deuil",
+   "texte": "Vieillissement, accompagnement palliatif, deuil.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Aide aux aidants",
+   "texte": "Maladies neurodégénératives ou psychiatriques, annonce d’un diagnostic.",
+   "icone": "cerveau"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Tifenn Cebron, psychologue à Nantes",
+   "seoDescription": "Tifenn Cebron, psychologue, neuropsychologue à Nantes. Psychothérapie systémique pour adolescents, adultes et personnes âgées.",
+   "surtitre": "Psychologue · Nantes",
+   "titre": "Replacer la difficulté\n*dans son contexte*",
+   "intro": "Psychologue et neuropsychologue, je propose au cabinet, à Nantes, des psychothérapies systémiques pour les adolescents, les adultes et les personnes âgées.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Tifenn*",
+   "presentation": [
+    "Après un parcours professionnel en rééducation fonctionnelle et une analyse personnelle, j’ai choisi de mettre l’accompagnement clinique au cœur de ma pratique : comprendre les enjeux affectifs et cognitifs de la personne dans son contexte.",
+    "Formée à l’UFR de psychologie de l’université de Nantes, j’ai exercé en neurologie, en centre d’examen de santé, en action sociale et auprès des personnes âgées dépendantes. Depuis 2017, j’exerce aussi à titre indépendant."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Tifenn Cebron, psychologue à Nantes",
+   "seoDescription": "Parcours et formations de Tifenn Cebron, psychologue à Nantes.",
+   "titre": "Mon *parcours*",
+   "intro": "Mes pratiques m’ont offert des compétences plurielles, à l’hôpital, en santé publique, dans l’action sociale et auprès des personnes âgées.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Neurologie",
+     "texte": "Service de neurologie du Centre hospitalier de Saint-Nazaire."
+    },
+    {
+     "titre": "Santé publique",
+     "texte": "Centre d’examen de santé de la CPAM de Loire-Atlantique."
+    },
+    {
+     "titre": "Action sociale",
+     "texte": "Centre communal d’action sociale de Nantes."
+    },
+    {
+     "titre": "Grand âge",
+     "texte": "Établissements pour personnes âgées dépendantes de l’agglomération nantaise."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Tifenn Cebron, psychologue à Nantes",
+   "seoDescription": "L’approche de Tifenn Cebron, psychologue à Nantes : psychothérapie systémique pour adolescents, adultes et personnes âgées.",
+   "titre": "L’approche\n*systémique*",
+   "intro": "L’approche systémique replace la problématique individuelle dans un contexte relationnel plus global. Le symptôme exprimé est souvent la partie visible du problème : mieux comprendre sa place dans le système aide à s’en libérer.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Repérer",
+     "texte": "Les dysfonctionnements du contexte d’échange et les solutions déjà essayées.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Définir",
+     "texte": "Clairement le changement souhaité, puis le mettre en œuvre.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Outils systémiques",
+     "texte": "Génogramme, carte relationnelle, représentation de soi, dessins, outils analogiques.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Écoute active",
+     "texte": "Clarifier pensées, sentiments, émotions et ressentis, pour entrevoir de nouvelles perspectives.",
+     "icone": "boucle"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Tifenn Cebron, psychologue à Nantes",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Tifenn Cebron, psychologue à Nantes.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois au cabinet le lundi matin, le jeudi et le vendredi matin. Je propose trois séances préliminaires, pour vous laisser le choix de poursuivre le travail engagé. Je ne propose plus de bilans neuropsychologiques pour le moment.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque ou en espèces, en fin de séance.",
+   "annulation": [
+    "Toute séance non annulée dans les 72 heures (3 jours ouvrables) qui précèdent est due."
+   ],
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Tifenn Cebron, psychologue à Nantes",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Tifenn Cebron, psychologue à Nantes",
+   "seoDescription": "Adresse et téléphone de Tifenn Cebron, psychologue, 2 rue d’Allonville à Nantes.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 2 rue d’Allonville, à Nantes, dans le quartier Dalby. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Tifenn Cebron"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

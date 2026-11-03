@@ -1,0 +1,337 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Eva Demarecaux (prospect), d'après sites.google.com/view/eva-demarecaux-psychologue. Publiée sur youxdesign.fr/maquettes/eva-demarecaux/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://sites.google.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F1F7F7",
+   "encre": "#15282B",
+   "accent": "#1E6B70",
+   "doux": "#D6EBEC",
+   "texte2": "#4A5C5E"
+  }
+ },
+ "praticien": {
+  "prenom": "Eva",
+  "nom": "Demarecaux",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue et psychothérapeute",
+  "specialite": "approche intégrative, TCC et ICV (Intégration du Cycle de la Vie), psychotraumatisme",
+  "specialiteCourte": "TCC et ICV",
+  "diplome": "Psychologue et psychothérapeute, diplômée de l’université de Lille",
+  "public": "Adultes et adolescents"
+ },
+ "contact": {
+  "telephone": "06 51 87 48 20",
+  "email": "demarecaux.e@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "600 rue d’Armentières",
+  "codePostal": "59850",
+  "ville": "Nieppe",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous, y compris en soirée et le mercredi après-midi",
+  "acces": [
+   {
+    "titre": "Nouveau cabinet",
+    "texte": "Après Clerques, je m’installe début novembre à Nieppe, au 600 rue d’Armentières.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Par Google Meet, quand il est difficile de se déplacer ou de franchir le pas du premier rendez-vous.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation adulte",
+   "duree": "1 h environ",
+   "prix": "55 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation adolescent",
+   "duree": "1 h environ",
+   "prix": "55 €"
+  },
+  {
+   "nom": "Créneau long",
+   "duree": "1 h 30",
+   "prix": "75 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "texte": "Troubles anxieux, attaques de panique, agoraphobie.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Psychotraumatisme",
+   "texte": "Apaiser les traumatismes et renforcer le sentiment de sécurité intérieure.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Deuil",
+   "icone": "lune"
+  },
+  {
+   "titre": "Addictions",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Harcèlement scolaire",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Estime de soi",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Séparations douloureuses",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Eva Demarecaux, psychologue à Nieppe",
+   "seoDescription": "Eva Demarecaux, psychologue et psychothérapeute à Nieppe. Approche intégrative, tcc et icv (intégration du cycle de la vie), psychotraumatisme.",
+   "surtitre": "Psychologue · Nieppe",
+   "titre": "Un cadre sécurisant\n*pour avancer*",
+   "intro": "Psychologue et psychothérapeute diplômée de l’université de Lille, je reçois les adultes et les adolescents dans mon nouveau cabinet de Nieppe, et en visio.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Eva*",
+   "presentation": [
+    "Formée initialement avec une orientation « Justice » (victimologie et criminologie), j’ai développé un savoir-faire dans l’accompagnement du psychotraumatisme et des parcours de vie complexes.",
+    "D’orientation intégrative, j’adapte la prise en charge aux besoins de chacun, en m’appuyant notamment sur les TCC et sur l’ICV, une méthode efficace pour apaiser les traumatismes et renforcer le sentiment de sécurité intérieure."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Eva Demarecaux, psychologue à Nieppe",
+   "seoDescription": "Parcours et formations de Eva Demarecaux, psychologue à Nieppe.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue et psychothérapeute diplômée de l’université de Lille, j’ai principalement exercé auprès d’adultes en situation de précarité, en addictologie et dans l’insertion sociale.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Université de Lille",
+     "texte": "Psychologue et psychothérapeute, formée initialement avec une orientation « Justice » : victimologie et criminologie."
+    },
+    {
+     "titre": "Psychotraumatisme",
+     "texte": "Des formations complémentaires dans la prise en charge du psychotraumatisme."
+    },
+    {
+     "titre": "Addictologie et insertion",
+     "texte": "Une expérience principalement auprès d’adultes en situation de précarité."
+    },
+    {
+     "titre": "Psychiatrie",
+     "texte": "En parallèle, j’exerce dans une clinique de réhabilitation psychosociale à Calais."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Eva Demarecaux, psychologue à Nieppe",
+   "seoDescription": "L’approche de Eva Demarecaux, psychologue à Nieppe : approche intégrative, TCC et ICV (Intégration du Cycle de la Vie), psychotraumatisme.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "J’accorde une place importante à votre histoire de vie et à un cadre sécurisant, propice à l’exploration de vos expériences et de vos émotions.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Les TCC",
+     "texte": "Les thérapies comportementales et cognitives aident à identifier et à changer les schémas de pensées et de comportements nuisibles, pour mieux gérer ses difficultés.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "L’ICV",
+     "texte": "L’Intégration du Cycle de la Vie, fondée sur les neurosciences et la théorie de l’attachement, aide à traiter les traumatismes et les troubles émotionnels.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Le concret et le profond",
+     "texte": "Travailler à la fois sur la vie quotidienne et sur des dimensions plus profondes de l’expérience personnelle.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Eva Demarecaux, psychologue à Nieppe",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Eva Demarecaux, psychologue à Nieppe.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "La première rencontre nous permet de faire connaissance et de préciser ensemble votre situation, vos besoins et votre demande. Nous définissons ensuite les objectifs du suivi et la fréquence des rendez-vous. Pour un mineur, merci de prévoir un court échange téléphonique préalable avec l’un des parents.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque, en espèces ou par virement bancaire. En visio, le lien Google Meet et les modalités de règlement (virement, carte bancaire ou PayPal) vous sont envoyés par e-mail.",
+   "annulation": [
+    "Pour annuler ou déplacer un rendez-vous, merci de prévenir plus de 48 heures à l’avance.",
+    "En dehors de ce délai, un dédommagement de 25 € pourra être demandé en cas d’annulation sans motif valable."
+   ],
+   "tarifsNote": "Les consultations ne sont pas remboursées par la Sécurité sociale, mais certaines mutuelles prennent en charge quelques séances par an. Une facture peut vous être remise sur demande.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Eva Demarecaux, psychologue à Nieppe",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Eva Demarecaux, psychologue à Nieppe",
+   "seoDescription": "Adresse et téléphone de Eva Demarecaux, psychologue, 600 rue d’Armentières à Nieppe.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 600 rue d’Armentières, à Nieppe. Appelez-moi ou écrivez-moi pour prendre rendez-vous, au cabinet ou en visio.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Eva Demarecaux"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

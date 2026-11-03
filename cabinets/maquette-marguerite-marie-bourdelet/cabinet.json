@@ -1,0 +1,340 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marguerite-Marie Bourdelet (prospect), d'après www.bourdeletpsychologuebordeaux.com. Publiée sur youxdesign.fr/maquettes/marguerite-marie-bourdelet/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.bourdeletpsychologuebordeaux.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FBF7EE",
+   "encre": "#2B2418",
+   "accent": "#9A6F14",
+   "doux": "#F3E7C9",
+   "texte2": "#5E5546"
+  }
+ },
+ "praticien": {
+  "prenom": "Marguerite-Marie",
+  "nom": "Bourdelet",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne et psychothérapeute",
+  "specialite": "soutien psychologique et psychothérapie pour enfants, adolescents et adultes",
+  "specialiteCourte": "Enfants, adolescents, adultes",
+  "diplome": "École de Psychologues Praticiens de Paris",
+  "adeli": "339324683",
+  "public": "Enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 42 51 72 95",
+  "email": "mmbourdelet.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "105 avenue du Maine",
+  "codePostal": "75014",
+  "ville": "Paris",
+  "quartier": "Paris 14e",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-20:00",
+   "mardi": "9:00-20:00",
+   "mercredi": "9:00-20:00",
+   "jeudi": "9:00-20:00",
+   "vendredi": "10:00-20:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous : au cabinet le lundi, en visio du mardi au vendredi",
+  "acces": [
+   {
+    "titre": "Cabinet Gaîté-Montparnasse",
+    "texte": "Le lundi, au 105 avenue du Maine.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Du mardi au vendredi.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance de psychothérapie individuelle",
+   "duree": "45 min environ",
+   "texte": "La première consultation dure environ une heure, le temps de faire connaissance et de faire émerger votre demande.",
+   "prix": "80 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation parentale",
+   "duree": "1 h 30",
+   "texte": "En amont de la prise en charge d’un enfant ou d’un adolescent.",
+   "prix": "150 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Mettre des mots",
+   "texte": "Sur vos difficultés, vos questionnements, vos inquiétudes, vos émotions.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Une période difficile",
+   "texte": "Être accompagné(e) dans une situation de vie éprouvante.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Des schémas qui se répètent",
+   "texte": "Identifier les processus qui se rejouent au quotidien.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Vos ressources",
+   "texte": "Identifier vos ressources personnelles.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Le travail",
+   "texte": "Difficultés professionnelles, organisationnelles ou institutionnelles.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "L’adolescence",
+   "texte": "Angoisse, écrans et réseaux sociaux, séparation des parents.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Orientation",
+   "texte": "Vous orienter, sur le plan personnel et professionnel.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marguerite-Marie Bourdelet, psychologue à Paris",
+   "seoDescription": "Marguerite-Marie Bourdelet, psychologue clinicienne et psychothérapeute à Paris. Soutien psychologique et psychothérapie pour enfants, adolescents et adultes.",
+   "surtitre": "Psychologue clinicienne · Paris 14e",
+   "titre": "Une écoute bienveillante\n*et empathique*",
+   "intro": "Psychologue clinicienne et psychothérapeute, diplômée de l’École de Psychologues Praticiens de Paris, je reçois des enfants, des adolescents et des adultes à mon cabinet du 105 avenue du Maine, ou en visio.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marguerite-Marie*",
+   "presentation": [
+    "J’accompagne chaque patient individuellement, pour répondre à ses besoins : soutien psychologique ou psychothérapie.",
+    "Je propose également aux établissements scolaires et aux entreprises des conférences et des formations thématiques, et j’interviens dans le podcast « Parentalité et Adolescence »."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marguerite-Marie Bourdelet, psychologue à Paris",
+   "seoDescription": "Parcours et formations de Marguerite-Marie Bourdelet, psychologue à Paris.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée de l’École de Psychologues Praticiens de Paris, j’exerce en cabinet libéral au 105 avenue du Maine, au cabinet Gaîté-Montparnasse, et en visio.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "École de Psychologues Praticiens",
+     "texte": "Psychologue clinicienne et psychothérapeute, diplômée de l’École de Psychologues Praticiens de Paris."
+    },
+    {
+     "titre": "Cabinet Gaîté-Montparnasse",
+     "texte": "Consultations au 105 avenue du Maine, à Paris, et en visio."
+    },
+    {
+     "titre": "Conférences et formations",
+     "texte": "Pour les établissements scolaires et les entreprises."
+    },
+    {
+     "titre": "Podcast « Parentalité et Adolescence »",
+     "texte": "Numérique et adolescence (2020), angoisse et adolescence (2021), séparation et divorce à l’adolescence (2022)."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marguerite-Marie Bourdelet, psychologue à Paris",
+   "seoDescription": "L’approche de Marguerite-Marie Bourdelet, psychologue à Paris : soutien psychologique et psychothérapie pour enfants, adolescents et adultes.",
+   "titre": "Soutien psychologique\n*et psychothérapie*",
+   "intro": "La psychothérapie est d’abord une relation : je vous écoute et vous accompagne dans la compréhension de vos difficultés, jusqu’au changement recherché. Il ne s’agit pas d’affirmer qu’une méthode est bonne ou mauvaise, mais de choisir la plus adaptée à votre personnalité et à votre problématique.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Soutien psychologique",
+     "texte": "Une écoute bienveillante et empathique, sans jugement, pour mieux vous connaître et mieux affronter vos difficultés.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Psychothérapie",
+     "texte": "Comprendre ce qui se joue, élaborer votre problématique et aller vers le changement recherché.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Des méthodes adaptées",
+     "texte": "Psychanalyse, thérapie systémique, thérapies cognitives et comportementales, EMDR, art-thérapie…",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Suivi personnalisé",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marguerite-Marie Bourdelet, psychologue à Paris",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marguerite-Marie Bourdelet, psychologue à Paris.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je vous reçois sur rendez-vous, à mon cabinet du 105 avenue du Maine le lundi, et en visio du mardi au vendredi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par espèces ou par virement.",
+   "annulation": [
+    "Toute séance annulée moins de 48 heures à l’avance est due."
+   ],
+   "tarifsNote": "La sécurité sociale ne prend pas en charge les consultations : renseignez-vous auprès de votre mutuelle, qui peut en rembourser une partie, ou un certain nombre.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marguerite-Marie Bourdelet, psychologue à Paris",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marguerite-Marie Bourdelet, psychologue à Paris",
+   "seoDescription": "Adresse et téléphone de Marguerite-Marie Bourdelet, psychologue, 105 avenue du Maine à Paris.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 105 avenue du Maine, dans le 14e arrondissement de Paris. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marguerite-Marie Bourdelet"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

@@ -1,0 +1,359 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Christelle Guicherd (prospect), d'après www.grenoble-psy.fr. Publiée sur youxdesign.fr/maquettes/christelle-guicherd/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.grenoble-psy.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F7F2",
+   "encre": "#1E2A22",
+   "accent": "#3F7D5C",
+   "doux": "#DCEBDF",
+   "texte2": "#4E5E54"
+  }
+ },
+ "praticien": {
+  "prenom": "Christelle",
+  "nom": "Guicherd",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute EMDR",
+  "specialite": "psychologie clinique, psychosomatique, thérapie EMDR, consultations au cabinet et à domicile",
+  "specialiteCourte": "Psychosomatique et EMDR",
+  "diplome": "Psychologie clinique, psychopathologie, psychologie médicale, psychosomatique et psychothérapies (universités de Bourgogne et Lyon 2)",
+  "adeli": "389314857",
+  "public": "Adultes, seniors, adolescents et enfants"
+ },
+ "contact": {
+  "telephone": "06 25 14 46 74",
+  "email": "c.guicherd38@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "2 rue de la Grange",
+  "codePostal": "38240",
+  "ville": "Meylan",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous, au cabinet ou à domicile",
+  "acces": [
+   {
+    "titre": "En bus",
+    "texte": "Ligne C1, arrêt Plaine Fleurie, à 4 minutes à pied.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Stationnement gratuit à proximité.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Je me déplace aussi chez vous : frais de déplacement ou forfait selon le lieu.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "lieu": "Au cabinet, à Meylan",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Consultation à domicile",
+   "texte": "Plus les frais de déplacement, ou un forfait selon le lieu de votre domicile.",
+   "prix": "60 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Santé psychique",
+   "texte": "Dépression, anxiété, addictions, mal-être, troubles obsessionnels.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Maladie et douleurs",
+   "texte": "Cancer, maladies évolutives, douleurs, handicap.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Notamment avec la thérapie EMDR.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Deuil et ruptures",
+   "texte": "Maladie, fin de vie, décès, séparation, licenciement.",
+   "icone": "lune"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Stress, épuisement professionnel, harcèlement.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Monde agricole",
+   "texte": "Difficultés de l’exploitation, stress, équilibre entre vie professionnelle et personnelle.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Grand âge et aidants",
+   "texte": "Les questions de la personne âgée, le soutien aux aidants.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Conflits, ruptures familiales, placement.",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Christelle Guicherd, psychologue à Meylan",
+   "seoDescription": "Christelle Guicherd, psychologue clinicienne, psychothérapeute emdr à Meylan. Psychologie clinique, psychosomatique, thérapie emdr, consultations au cabinet et à domicile.",
+   "surtitre": "Psychologue clinicienne · Meylan",
+   "titre": "Être là sur votre chemin,\n*à un moment de votre vie*",
+   "intro": "Psychologue clinicienne, psychothérapeute et thérapeute EMDR, je reçois des adultes, des seniors, des adolescents et des enfants à mon cabinet de Meylan, ou à domicile, l’un de mes champs d’expertise.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Christelle*",
+   "presentation": [
+    "Psychologue de terrain, j’ai toujours travaillé en immersion, au plus près des personnes et dans différentes institutions : cela me permet d’appréhender rapidement le contexte et les problématiques.",
+    "Convaincue que chacun, quel que soit son âge, a des ressources inestimables en lui, et parce qu’une rencontre est toujours une occasion de mise en mouvement, je considère mon métier de psychologue comme celui d’un passeur."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Christelle Guicherd, psychologue à Meylan",
+   "seoDescription": "Parcours et formations de Christelle Guicherd, psychologue à Meylan.",
+   "titre": "Mon *parcours*",
+   "intro": "De mon premier métier de travailleur social à la psychologie clinique, j’ai accompagné des personnes de tous âges, en institution comme à domicile.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Travail social",
+     "texte": "Un premier métier auprès d’enfants, d’adolescents, d’adultes et de seniors en difficulté, puis l’encadrement d’un service de l’aide sociale à l’enfance."
+    },
+    {
+     "titre": "Soins palliatifs et grand âge",
+     "texte": "Psychologue dans une équipe mobile de soins palliatifs, un réseau de santé à domicile, puis un établissement pour personnes âgées."
+    },
+    {
+     "titre": "Monde agricole",
+     "texte": "Depuis plus de 15 ans aux côtés des exploitants agricoles, avec la Mutualité Sociale Agricole et les associations du monde paysan."
+    },
+    {
+     "titre": "Cancérologie",
+     "texte": "Co-animation, avec l’Institut Daniel Hollard à Grenoble, du groupe d’échanges « La parenthèse, un moment pour faire une pause »."
+    }
+   ],
+   "parcoursTitre": "Mon *expérience*",
+   "formations": [
+    {
+     "titre": "Psychologie clinique et psychosomatique",
+     "texte": "Universités de Bourgogne et Lyon 2 : psychologie clinique, psychopathologie, psychologie médicale, psychosomatique et psychothérapies."
+    },
+    {
+     "titre": "Thérapie EMDR",
+     "texte": "Référencée dans l’annuaire de l’Institut Français d’EMDR."
+    },
+    {
+     "titre": "Prévention",
+     "texte": "Accompagnement aux changements, risques psychosociaux, épuisement professionnel, stress, prévention du suicide et deuil."
+    }
+   ],
+   "formationsTitre": "Mes *formations*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Christelle Guicherd, psychologue à Meylan",
+   "seoDescription": "L’approche de Christelle Guicherd, psychologue à Meylan : psychologie clinique, psychosomatique, thérapie EMDR, consultations au cabinet et à domicile.",
+   "titre": "Le corps et la psyché,\n*ensemble*",
+   "intro": "La démarche thérapeutique est avant tout, pour moi, une rencontre humaine, toujours singulière, et un climat de confiance propice à l’émergence de la parole. Parce que le corps est indissociable de la psyché, j’accompagne chaque personne dans sa globalité.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Un espace d’échanges",
+     "texte": "Pour exprimer vos questionnements, vos difficultés, vos inquiétudes, ou simplement bénéficier d’un soutien moral.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "La thérapie EMDR",
+     "texte": "Recommandée par la Haute Autorité de Santé et l’OMS pour le stress post-traumatique.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Visualisation et symbolisation",
+     "texte": "Des outils qui facilitent le changement et l’expression, consciente et inconsciente.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "À domicile",
+     "texte": "Une pratique peu répandue dont j’ai l’expertise, notamment auprès de patients atteints de maladies graves et de leur famille.",
+     "icone": "porte"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Des thérapies *sur mesure*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Christelle Guicherd, psychologue à Meylan",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Christelle Guicherd, psychologue à Meylan.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je vous reçois sur rendez-vous à mon cabinet de Meylan, ou à domicile. Des consultations par téléphone ou en visio sont également possibles : ensemble, nous déterminerons les modalités les plus adaptées.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "tarifsNote": "Les séances ne sont pas remboursées par la sécurité sociale, mais les mutuelles peuvent les prendre en charge."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Christelle Guicherd, psychologue à Meylan",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Christelle Guicherd, psychologue à Meylan",
+   "seoDescription": "Adresse et téléphone de Christelle Guicherd, psychologue, 2 rue de la Grange à Meylan.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 2 rue de la Grange, à Meylan (bus C1, arrêt Plaine Fleurie). Appelez-moi et laissez-moi un message sur mon répondeur, ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Christelle Guicherd"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
