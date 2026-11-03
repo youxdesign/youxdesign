@@ -1,0 +1,383 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Fatoumata Mballo (prospect), d'après www.lueurespoir.fr. Publiée sur youxdesign.fr/maquettes/fatoumata-mballo/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.lueurespoir.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F5F0",
+   "encre": "#2A1F17",
+   "accent": "#8E4E23",
+   "doux": "#EFE3D6",
+   "texte2": "#5E5249"
+  }
+ },
+ "praticien": {
+  "prenom": "Fatoumata",
+  "nom": "Mballo",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue spécialisée en santé",
+  "specialite": "psychologie de la santé, approche intégrative à prédominance cognitivo-comportementale, bilans psychologiques",
+  "specialiteCourte": "Psychologie de la santé",
+  "diplome": "Master en psychologie de la santé (Université de Bordeaux)",
+  "adeli": "339335226",
+  "rpps": "10009707299",
+  "public": "Enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "07 52 07 14 83",
+  "email": "psychologue@lueurespoir.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/merignac/fatoumata-mballo-56969b64-72c1-4aab-aea5-b85250298f5c"
+  }
+ },
+ "cabinet": {
+  "adresse": "22 rue Jacques Prévert",
+  "codePostal": "33700",
+  "ville": "Mérignac",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "10:00-20:00",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "10:00-20:00",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le lundi et le jeudi, sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Bâtiment Béryl 1",
+    "texte": "Le cabinet Lueur Espoir se trouve au 22 rue Jacques Prévert, à Mérignac.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation de psychologie",
+   "duree": "1 h",
+   "texte": "Séance de 45 min : 50 €.",
+   "prix": "60 €",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Tarifs solidaires",
+   "duree": "45 min",
+   "texte": "Revenus modestes : 40 € ; minima sociaux : 30 €.",
+   "prix": "30 à 40 €"
+  },
+  {
+   "nom": "Consultation de groupe ou familiale",
+   "prix": "70 €"
+  },
+  {
+   "nom": "Bilan psychologique complet",
+   "texte": "4 à 5 séances et un compte rendu détaillé, paiement en plusieurs fois possible. Évaluation spécifique : 240 € ; rapport psychologique judiciaire : 330 €.",
+   "prix": "400 €"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Stress post-traumatique",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Dépression",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Maladies chroniques",
+   "texte": "Douleurs chroniques, maladies inflammatoires ou auto-immunes, affections de longue durée.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Autisme",
+   "texte": "Troubles du spectre de l’autisme, bilans pour les enfants.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Liens familiaux",
+   "texte": "Mère-enfant, père-enfant, fratrie : apaiser et mieux se comprendre.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Questionnements identitaires",
+   "texte": "Questions d’identité ou de spiritualité, périodes de crise.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Hygiène de vie",
+   "texte": "Sommeil, alimentation, activité physique, arrêt du tabac ou de l’alcool.",
+   "icone": "boucle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Fatoumata Mballo, psychologue à Mérignac",
+   "seoDescription": "Fatoumata Mballo, psychologue spécialisée en santé à Mérignac. Psychologie de la santé, approche intégrative à prédominance cognitivo-comportementale, bilans psychologiques.",
+   "surtitre": "Psychologue de la santé · Mérignac",
+   "titre": "Prendre soin de votre santé,\n*psychique et physique*",
+   "intro": "Psychologue spécialisée en santé, diplômée de l’Université de Bordeaux, je reçois les enfants, les adolescents et les adultes au cabinet Lueur Espoir, à Mérignac.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Fatoumata*",
+   "presentation": [
+    "Je propose une prise en charge intégrative, à prédominance cognitivo-comportementale, qui tient compte de vos besoins psychologiques, mais aussi de votre contexte culturel, spirituel et de santé.",
+    "Psychologue de la santé, j’intègre aussi votre hygiène de vie au suivi : sommeil, alimentation et activité physique. Particulièrement sensible aux spécificités interculturelles, j’aime accueillir des profils variés, chacun avec sa singularité."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Fatoumata Mballo, psychologue à Mérignac",
+   "seoDescription": "Parcours et formations de Fatoumata Mballo, psychologue à Mérignac.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée d’un Master en psychologie de la santé (Université de Bordeaux), j’accompagne les personnes confrontées à la maladie et à la douleur chronique, ainsi que les comportements de santé.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Personnes âgées",
+     "texte": "En maison de retraite à Monségur et à Mérignac : bilans de mémoire et d’humeur, écoute et soutien des résidents."
+    },
+    {
+     "titre": "Adolescents",
+     "texte": "Au Centre éducatif fermé de Sainte-Eulalie, sur les enjeux identitaires, relationnels et les traumas."
+    },
+    {
+     "titre": "Enfants",
+     "texte": "Au CMPP de Saintes, avec les familles et les équipes, pour les troubles du développement et les difficultés émotionnelles et scolaires."
+    },
+    {
+     "titre": "Adultes",
+     "texte": "À l’EDEA Access de Cenon, auprès de personnes en situation de handicap ou de précarité."
+    }
+   ],
+   "parcoursTitre": "Mes *expériences*",
+   "formations": [
+    {
+     "titre": "Psychologie de la santé",
+     "texte": "Master, Université de Bordeaux."
+    },
+    {
+     "titre": "Éducation thérapeutique du patient",
+     "texte": "Université de Bordeaux."
+    },
+    {
+     "titre": "Neuropsychologie",
+     "texte": "Université de Caen."
+    },
+    {
+     "titre": "Prévention du risque suicidaire",
+     "texte": "Université de Bordeaux."
+    },
+    {
+     "titre": "Bilan de l’enfant avec un trouble du spectre de l’autisme",
+     "texte": "ESPAS-SUP."
+    },
+    {
+     "titre": "Psychologie islamique",
+     "texte": "Formation en cours (Institut Al Balagh, Certificat de psychologie islamique)."
+    }
+   ],
+   "formationsTitre": "Mes *formations*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Fatoumata Mballo, psychologue à Mérignac",
+   "seoDescription": "L’approche de Fatoumata Mballo, psychologue à Mérignac : psychologie de la santé, approche intégrative à prédominance cognitivo-comportementale, bilans psychologiques.",
+   "titre": "Une approche\n*intégrative*",
+   "intro": "J’adapte l’accompagnement à votre souffrance, à votre demande et à votre mode de fonctionnement, en combinant plusieurs approches. Je m’appuie sur les données de la recherche pour actualiser mes connaissances.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapies cognitives et comportementales",
+     "texte": "Avec la thérapie des schémas et la thérapie d’acceptation et d’engagement.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Psychologie de la santé",
+     "texte": "Aborder la dimension émotionnelle de la maladie, développer des stratégies d’adaptation et améliorer la qualité de vie.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Dimension spirituelle",
+     "texte": "La psychologie islamique (formation en cours), avec une ouverture à tout type de croyance.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Un espace patient",
+     "texte": "Pour suivre votre accompagnement : exercices, courriers, attestations.",
+     "icone": "livre"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Fatoumata Mballo, psychologue à Mérignac",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Fatoumata Mballo, psychologue à Mérignac.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois le lundi et le jeudi, de 10 h à 20 h, sur rendez-vous. Je ne propose pas de thérapie de couple, mais j’accompagne les autres liens familiaux ou de groupe.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Espèces, chèque, carte bancaire ou virement.",
+   "annulation": [
+    "Annulation possible jusqu’à 48 heures avant la séance ; à défaut, 50 % du tarif est dû."
+   ],
+   "tarifsNote": "Les consultations ne sont pas remboursées par la Sécurité sociale ; certaines mutuelles en remboursent une partie. Je propose aussi des tarifs sociaux et solidaires.",
+   "monSoutienPsy": false,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Fatoumata Mballo, psychologue à Mérignac",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Fatoumata Mballo, psychologue à Mérignac",
+   "seoDescription": "Adresse et téléphone de Fatoumata Mballo, psychologue, 22 rue Jacques Prévert à Mérignac.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet Lueur Espoir se trouve 22 rue Jacques Prévert, bâtiment Béryl 1, à Mérignac. Prenez rendez-vous sur Doctolib, ou appelez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Fatoumata Mballo"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
