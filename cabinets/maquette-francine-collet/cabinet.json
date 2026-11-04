@@ -1,0 +1,358 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Francine Collet (prospect), d'après www.psychologue-montpellier-enfants.fr. Publiée sur youxdesign.fr/maquettes/francine-collet/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-montpellier-enfants.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F7F2",
+   "encre": "#1F2A1F",
+   "accent": "#527A43",
+   "doux": "#E0EAD9",
+   "texte2": "#4F5A4C"
+  }
+ },
+ "praticien": {
+  "prenom": "Francine",
+  "nom": "Collet",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue pour enfants, adolescents et adultes",
+  "specialite": "thérapies cognitives et comportementales, thérapie d’acceptation et d’engagement, bilans psychologiques, remédiation cognitive, accompagnement des parents",
+  "specialiteCourte": "TCC, ACT et bilans",
+  "diplome": "Master 2 professionnel de psychologie clinique du développement et des apprentissages (Université de Bourgogne, 2009)",
+  "adeli": "349315150",
+  "public": "Enfants, adolescents, adultes et futurs ou jeunes parents"
+ },
+ "contact": {
+  "telephone": "07 84 27 05 59",
+  "email": "collet.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Primocreno",
+   "url": "https://www.primocreno.com/psychologue-clinicien/montpellier-34090/francine-collet"
+  }
+ },
+ "cabinet": {
+  "adresse": "84 rue des Cétoines",
+  "codePostal": "34090",
+  "ville": "Montpellier",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Consultations et bilans au cabinet, du mardi au samedi, sur rendez-vous.",
+  "acces": [
+   {
+    "titre": "En tramway",
+    "texte": "Ligne 1, arrêt Saint-Éloi ; ligne 2, arrêt Aiguelongue ; ligne 5, arrêt Université Paul-Valéry.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En bus",
+    "texte": "Ligne 15, arrêt Major Flandre ou Charles de Gaulle / Saint-Cléophas.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "55 €",
+   "duree": "environ 45 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance Mon soutien psy",
+   "prix": "50 €",
+   "texte": "Une feuille de soins vous est remise pour le remboursement ; pas d’avance de frais pour les bénéficiaires du tiers payant (CSS, ALD, AME)."
+  },
+  {
+   "nom": "Bilan psychométrique",
+   "prix": "250 €",
+   "texte": "WISC-V ou WPPSI-IV selon l’âge, avec compte rendu écrit et oral."
+  },
+  {
+   "nom": "Bilan neuropsychologique",
+   "prix": "300 €",
+   "texte": "Avec compte rendu écrit et oral."
+  },
+  {
+   "nom": "Interventions extérieures",
+   "prix": "À partir de 60 €",
+   "texte": "Réunions éducatives, guidance parentale à domicile, interventions psycho-éducatives, selon la distance."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Quotidien de l’enfant",
+   "texte": "Endormissement, réveils nocturnes, alimentation, énurésie, relations dans la fratrie.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Émotions",
+   "texte": "Crises de colère, peurs intenses, anxiété.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Scolarité",
+   "texte": "Baisse des notes, stress des examens, difficultés d’attention, précocité.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Adolescence",
+   "texte": "Isolement, oppositions, dépression, troubles alimentaires.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Mal-être de l’adulte",
+   "texte": "Tristesse, angoisses, épuisement professionnel, manque de confiance en soi.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Grossesse, arrivée du bébé, autorité, inquiétudes de parent.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Francine Collet, psychologue à Montpellier",
+   "seoDescription": "Francine Collet, psychologue pour enfants, adolescents et adultes à Montpellier. Thérapies cognitives et comportementales, thérapie d’acceptation et d’engagement, bilans psychologiques, remédiation cognitive, accompagnement des parents.",
+   "surtitre": "Psychologue · Montpellier",
+   "titre": "Grandir et avancer\n*plus sereinement*",
+   "intro": "Psychologue pour enfants, adolescents et adultes à Montpellier, formée aux TCC, je vous accueille au cabinet avec bienveillance et empathie, pour un accompagnement psychologique, une thérapie ou un bilan.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Que ce soit pour un trouble défini, un mal-être passager ou un événement de vie douloureux, les raisons de consulter sont variées.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Francine*",
+   "presentation": [
+    "Diplômée d’un master de psychologie clinique du développement et des apprentissages et d’un diplôme universitaire en thérapie cognitive et comportementale, je vous propose un accompagnement personnalisé, dans un cadre bienveillant, chaleureux et confidentiel.",
+    "Le cadre du psychologue est celui de l’écoute, de la neutralité, du non-jugement et de la confidentialité. Le cabinet est conventionné dans le cadre du dispositif Mon soutien psy."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Primocreno, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Francine Collet, psychologue à Montpellier",
+   "seoDescription": "Parcours et formations de Francine Collet, psychologue à Montpellier.",
+   "titre": "Mon *parcours*",
+   "intro": "Depuis l’obtention de mon diplôme, j’ai exercé dans différentes structures spécialisées dans l’accompagnement des enfants et des adolescents.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2009",
+     "titre": "Master 2 de psychologie clinique du développement et des apprentissages",
+     "texte": "Université de Bourgogne."
+    },
+    {
+     "date": "2011",
+     "titre": "DU d’initiation aux thérapies cognitivo-comportementales",
+     "texte": "Université Montpellier I."
+    },
+    {
+     "titre": "Formations complémentaires",
+     "texte": "ABA fonctionnel, aides visuelles, communication alternative (PECS), Early Start Denver Model, TCC des troubles anxieux et du comportement."
+    },
+    {
+     "titre": "Structures spécialisées",
+     "texte": "IME, école spécialisée, unité d’enseignement maternelle, association de soutien aux familles d’enfants handicapés."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Francine Collet, psychologue à Montpellier",
+   "seoDescription": "L’approche de Francine Collet, psychologue à Montpellier : thérapies cognitives et comportementales, thérapie d’acceptation et d’engagement, bilans psychologiques, remédiation cognitive, accompagnement des parents.",
+   "titre": "Des approches\n*validées scientifiquement*",
+   "intro": "Les TCC regroupent des techniques validées scientifiquement qui agissent sur les pensées, les comportements et les émotions. C’est une approche concrète et collaborative : des objectifs adaptés, des exercices entre les séances, et une évolution évaluée régulièrement.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapies cognitives et comportementales",
+     "texte": "Pour les troubles anxieux, le TDAH, l’opposition, la dépression, les troubles alimentaires ou du sommeil.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Thérapie d’acceptation et d’engagement",
+     "texte": "Aborder autrement ses pensées et ses émotions douloureuses, clarifier ses valeurs et agir dans leur sens.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Bilans psychologiques",
+     "texte": "Bilan psychométrique (WISC-V, WPPSI-IV) et bilan neuropsychologique, pour comprendre les difficultés et les ressources de l’enfant.",
+     "icone": "cerveau"
+    },
+    {
+     "titre": "Remédiation cognitive",
+     "texte": "Améliorer l’attention, la mémoire et l’organisation, en s’appuyant sur les forces de l’enfant.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Accompagnement des parents",
+     "texte": "De la grossesse à l’adolescence, des guidances parentales adaptées à votre quotidien.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Les prises en charge",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Francine Collet, psychologue à Montpellier",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Francine Collet, psychologue à Montpellier.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances durent environ 45 minutes. Les consultations et les bilans se déroulent au cabinet, du mardi au samedi. Prenez rendez-vous en ligne sur Primocreno, ou contactez-moi par téléphone ou par e-mail.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par virement immédiat ou en espèces, à la fin de chaque séance.",
+   "monSoutienPsy": true,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Francine Collet, psychologue à Montpellier",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Francine Collet, psychologue à Montpellier",
+   "seoDescription": "Adresse et téléphone de Francine Collet, psychologue, 84 rue des Cétoines à Montpellier.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet de psychologie se trouve 84 rue des Cétoines, à Montpellier, accessible en tramway et en bus. Prenez rendez-vous en ligne, appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Francine Collet"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

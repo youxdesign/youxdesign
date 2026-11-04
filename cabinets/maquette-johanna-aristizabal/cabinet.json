@@ -1,0 +1,306 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Johanna Aristizabal (prospect), d'après johannaaristizabal.wixsite.com/aristizabalpsy. Publiée sur youxdesign.fr/maquettes/johanna-aristizabal/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://johannaaristizabal.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6F7",
+   "encre": "#1E2A2E",
+   "accent": "#3A7180",
+   "doux": "#DAE8EB",
+   "texte2": "#4D5A5E"
+  }
+ },
+ "praticien": {
+  "prenom": "Johanna",
+  "nom": "Aristizabal",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, praticienne EMDR",
+  "specialite": "psychothérapie psychodynamique, thérapie EMDR, thérapie familiale et de couple",
+  "specialiteCourte": "Psychodynamique et EMDR",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 27 38 25 78",
+  "email": "aristizabal.psy-latresne@yahoo.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "32 avenue de la Libération",
+  "codePostal": "33360",
+  "ville": "Latresne",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "À Latresne",
+    "texte": "Je vous accueille dans un espace chaleureux, 32 avenue de la Libération.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "Sur demande",
+   "texte": "Psychothérapie individuelle, thérapie familiale ou de couple, entretiens de soutien.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Dépression",
+   "texte": "Vécu dépressif, perte d’élan.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Anxiété",
+   "texte": "Paniques, phobies, angoisses, inquiétudes excessives.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Violence, abus, accidents, deuils, maladie grave, ou situations passées qui pèsent encore aujourd’hui.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Deuils et séparations",
+   "texte": "Et les transitions de vie.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Difficultés relationnelles, confiance en soi.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Souffrance familiale",
+   "texte": "Quand le mal-être d’un membre de la famille touche tous les autres.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Johanna Aristizabal, psychologue à Latresne",
+   "seoDescription": "Johanna Aristizabal, psychologue clinicienne, praticienne emdr à Latresne. Psychothérapie psychodynamique, thérapie emdr, thérapie familiale et de couple.",
+   "surtitre": "Psychologue clinicienne · Latresne",
+   "titre": "Comprendre ce qui\n*nous échappe*",
+   "intro": "Psychologue clinicienne et praticienne EMDR à Latresne, j’interviens auprès des enfants, des adolescents et des adultes, dans le cadre d’une écoute bienveillante et d’un travail autour de l’échange.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Il existe parfois des choses en nous qui nous échappent et qui pèsent sur nos pensées, nos émotions, nos comportements et nos relations.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Johanna*",
+   "presentation": [
+    "Entreprendre une thérapie correspond sans doute à un moment de son histoire où l’on souhaite sortir des répétitions et tenter de rendre sa vie plus harmonieuse.",
+    "Un premier entretien vous est proposé pour évaluer votre demande et vous offrir l’aide la mieux adaptée : psychothérapie individuelle, psychodynamique ou EMDR, thérapie familiale ou de couple, ou entretiens de soutien."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Johanna Aristizabal, psychologue à Latresne",
+   "seoDescription": "Parcours et formations de Johanna Aristizabal, psychologue à Latresne.",
+   "titre": "Mon *parcours*",
+   "intro": "Entreprendre une thérapie correspond sans doute à un moment de son histoire où l’on souhaite sortir des répétitions et tenter de rendre sa vie plus harmonieuse.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Johanna Aristizabal, psychologue à Latresne",
+   "seoDescription": "L’approche de Johanna Aristizabal, psychologue à Latresne : psychothérapie psychodynamique, thérapie EMDR, thérapie familiale et de couple.",
+   "titre": "Psychodynamique\n*et EMDR*",
+   "intro": "Les psychothérapies que je propose sont essentiellement fondées sur la parole : vous êtes invité à parler librement, sans crainte d’être jugé, de tout ce qui vous vient à l’esprit.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapie psychodynamique",
+     "texte": "Issue de la psychanalyse, enrichie des théories relationnelles, constructivistes et de l’attachement. Pour les enfants, des médiateurs (dessin, modelage, jeux) facilitent l’expression.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Thérapie EMDR",
+     "texte": "Une méthode dont l’efficacité dans le stress post-traumatique a été démontrée, pour les grands traumatismes comme pour les situations passées qui pèsent encore aujourd’hui.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Thérapie familiale ou de couple",
+     "texte": "Quand la souffrance de l’un semble liée à celle de tous : chacun peut exprimer ce qu’il ressent, ou garder pour soi ce qu’il ne veut pas dévoiler.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Entretiens de soutien",
+     "texte": "Pour traiter un problème limité et clairement défini.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Mes propositions",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Johanna Aristizabal, psychologue à Latresne",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Johanna Aristizabal, psychologue à Latresne.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations se font uniquement sur rendez-vous : contactez-moi par téléphone, SMS ou e-mail, en m’indiquant vos disponibilités et la raison de votre demande. La fréquence des séances est déterminée ensemble.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque, virement ou en espèces, à la fin de chaque séance. Paiement étalé possible pour les bilans ou en cas de difficulté financière : n’hésitez pas à m’en parler.",
+   "annulation": [
+    "Toute séance oubliée ou non décommandée 48 h à l’avance est due."
+   ],
+   "tarifsNote": "Les honoraires des psychologues ne sont pas pris en charge par la Sécurité sociale, mais certaines mutuelles remboursent tout ou partie des consultations.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Johanna Aristizabal, psychologue à Latresne",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Johanna Aristizabal, psychologue à Latresne",
+   "seoDescription": "Adresse et téléphone de Johanna Aristizabal, psychologue, 32 avenue de la Libération à Latresne.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous accueille 32 avenue de la Libération, à Latresne. Appelez-moi, envoyez-moi un SMS ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Johanna Aristizabal"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

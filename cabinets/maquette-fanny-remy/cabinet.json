@@ -1,0 +1,328 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Fanny Rémy (prospect), d'après www.psychologue-paca-cagnes.com. Publiée sur youxdesign.fr/maquettes/fanny-remy/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-paca-cagnes.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F6F9",
+   "encre": "#1B2733",
+   "accent": "#2E6A96",
+   "doux": "#DAE7F1",
+   "texte2": "#4A5864"
+  }
+ },
+ "praticien": {
+  "prenom": "Fanny",
+  "nom": "Rémy",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute, thérapeute EMDR",
+  "specialite": "psychologie clinique, thérapie EMDR, relaxation, autisme et handicap",
+  "specialiteCourte": "Psychologie clinique et EMDR",
+  "diplome": "Master de psychologie clinique, psychanalyse et psychopathologie (Université Paris V Descartes)",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 50 26 93 37",
+  "email": "psychologuefannyremy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/cagnes-sur-mer/fanny-remy-cagnes-sur-mer"
+  }
+ },
+ "cabinet": {
+  "adresse": "77 chemin du Val Fleuri",
+  "codePostal": "06800",
+  "ville": "Cagnes-sur-Mer",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "En voiture",
+    "texte": "Stationnement gratuit dans la rue.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "En train",
+    "texte": "La gare du Cros-de-Cagnes est à 900 m.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En bus",
+    "texte": "Arrêts Petit Castel (lignes 41 et 42), Sécurité sociale (41, 42, C43, C58) et Les Chênes (56, SLV42).",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "Sur demande",
+   "texte": "Individuelle, en couple ou en famille.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Traumatismes",
+   "texte": "États de stress post-traumatique.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Anxiété et dépression",
+   "texte": "Troubles anxieux et dépressifs, phobies.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Deuil",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Sommeil et alimentation",
+   "texte": "Troubles du sommeil et de l’alimentation, addictions.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Famille et relations",
+   "texte": "Demandes familiales, sentimentales, relationnelles.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Scolarité, remaniements de l’adolescence ; autisme et handicap.",
+   "icone": "puzzle"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Fanny Rémy, psychologue à Cagnes-sur-Mer",
+   "seoDescription": "Fanny Rémy, psychologue clinicienne, psychothérapeute, thérapeute emdr à Cagnes-sur-Mer. Psychologie clinique, thérapie emdr, relaxation, autisme et handicap.",
+   "surtitre": "Psychologue clinicienne · Cagnes-sur-Mer",
+   "titre": "Ce qui paraît insurmontable\n*est possible ensemble*",
+   "intro": "Psychologue clinicienne, psychothérapeute et thérapeute EMDR, je vous accompagne à tout âge, en consultation individuelle, en couple ou en famille, à Cagnes-sur-Mer.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Chaque moment de la vie a ses propres difficultés et ses étapes à franchir.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Fanny*",
+   "presentation": [
+    "Diplômée de l’université Paris V Descartes, je suis formée à la relaxation dans la thérapie, à la méditation et à l’EMDR.",
+    "Je travaille aussi pour Lenval, dans un centre médico-psychologique pour enfants et adolescents, et dans une clinique privée, en médecine, chirurgie, chimiothérapie et maternité."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Fanny Rémy, psychologue à Cagnes-sur-Mer",
+   "seoDescription": "Parcours et formations de Fanny Rémy, psychologue à Cagnes-sur-Mer.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicienne et psychothérapeute, j’aide chacun à mettre en avant les ressources qu’il a en lui, pour retrouver un équilibre et vivre plus sereinement.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Master de psychologie clinique",
+     "texte": "Psychanalyse et psychopathologie, université Paris V Descartes."
+    },
+    {
+     "titre": "EMDR, relaxation et méditation",
+     "texte": "Formations complémentaires pour adapter la thérapie à chacun."
+    },
+    {
+     "titre": "Lenval et clinique privée",
+     "texte": "CMP pour enfants et adolescents ; services de médecine, chirurgie, chimiothérapie et maternité."
+    },
+    {
+     "titre": "Formatrice",
+     "texte": "À la faculté de médecine, au centre hospitalier Pasteur de Nice ; cofondatrice de l’organisme de formation Safe Consult."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Fanny Rémy, psychologue à Cagnes-sur-Mer",
+   "seoDescription": "L’approche de Fanny Rémy, psychologue à Cagnes-sur-Mer : psychologie clinique, thérapie EMDR, relaxation, autisme et handicap.",
+   "titre": "Une thérapie\n*à votre rythme*",
+   "intro": "Selon la problématique, j’adapte la thérapie : par la parole, le jeu ou la relaxation. Le but est d’accompagner chaque personne dans ses propres difficultés, à son rythme.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Psychologie clinique",
+     "texte": "Un travail mené ensemble pour faire face à une situation difficile, passée ou actuelle.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Thérapie EMDR",
+     "texte": "Recommandée par l’Organisation mondiale de la santé, elle utilise une stimulation bi-alternée pour retraiter des vécus traumatiques non digérés.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Relaxation",
+     "texte": "Pour apaiser les tensions et compléter le travail par la parole.",
+     "icone": "poumons"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Fanny Rémy, psychologue à Cagnes-sur-Mer",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Fanny Rémy, psychologue à Cagnes-sur-Mer.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois au centre de soins du chemin du Val Fleuri, à Cagnes-sur-Mer, en consultation individuelle, en couple ou en famille. Prenez rendez-vous en ligne sur Doctolib, ou appelez-moi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "En espèces, par chèque ou par carte bancaire.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Fanny Rémy, psychologue à Cagnes-sur-Mer",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Fanny Rémy, psychologue à Cagnes-sur-Mer",
+   "seoDescription": "Adresse et téléphone de Fanny Rémy, psychologue, 77 chemin du Val Fleuri à Cagnes-sur-Mer.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je consulte au centre de soins, 77 chemin du Val Fleuri à Cagnes-sur-Mer. Prenez rendez-vous sur Doctolib, appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Fanny Rémy"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

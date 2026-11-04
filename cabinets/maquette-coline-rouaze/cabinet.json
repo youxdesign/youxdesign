@@ -1,0 +1,330 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Coline Rouaze (prospect), d'après coline-psychologue-coudoux.fr. Publiée sur youxdesign.fr/maquettes/coline-rouaze/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://coline-psychologue-coudoux.fr",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#FAF6F0",
+   "encre": "#2A231B",
+   "accent": "#A0703A",
+   "doux": "#F2E5D2",
+   "texte2": "#5C5247"
+  }
+ },
+ "praticien": {
+  "prenom": "Coline",
+  "nom": "Rouaze",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "psychologie et psychopathologie clinique, thérapie EMDR, thérapie familiale et de couple",
+  "specialiteCourte": "Psychologie clinique et EMDR",
+  "diplome": "Diplôme de psychologie et psychopathologie clinique (Université d’Aix-Marseille)",
+  "adeli": "139327290",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "07 67 66 70 23",
+  "email": "contact@coline-psychologue-coudoux.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Perfactive",
+   "url": "https://perfactive.fr/coline-rouaze/book"
+  }
+ },
+ "cabinet": {
+  "adresse": "28 bis avenue de la République",
+  "codePostal": "13111",
+  "ville": "Coudoux",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Alentours",
+    "texte": "Le cabinet reçoit aussi des patients de La Fare-les-Oliviers, Ventabren et Venelles.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "prix": "55 €",
+   "duree": "45 min",
+   "texte": "Enfants, adolescents et adultes.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance de couple ou de famille",
+   "prix": "60 €",
+   "duree": "45 min"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Deuil et séparation",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Dépression et burn-out",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Psychothérapie EMDR des expériences de vie traumatisantes.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Devenir parent",
+   "texte": "L’accès à la parentalité, les changements soudains.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Agressivité, chute des résultats, peurs durables, sommeil, isolement.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Couple et famille",
+   "texte": "Restaurer la communication, dépasser les conflits.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Coline Rouaze, psychologue à Coudoux",
+   "seoDescription": "Coline Rouaze, psychologue clinicienne à Coudoux. Psychologie et psychopathologie clinique, thérapie emdr, thérapie familiale et de couple.",
+   "surtitre": "Psychologue clinicienne · Coudoux",
+   "titre": "Comprendre votre fonctionnement,\n*trouver vos solutions*",
+   "intro": "Psychologue clinicienne à Coudoux, je reçois les enfants, les adolescents et les adultes en entretien individuel, ainsi que les couples et les familles.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "La vie n’est pas un long fleuve tranquille : certaines situations laissent des questions et des émotions qui nous échappent.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Coline*",
+   "presentation": [
+    "Diplômée de psychologie et psychopathologie clinique de l’université d’Aix-Marseille, j’ai exercé auprès d’un public varié : en EHPAD, en clinique psychiatrique pour adultes, en IME, en foyer de vie et en foyer d’accueil médicalisé.",
+    "Je travaille en coopération avec mes patients : c’est un travail de co-construction, sans jugement, avec une attitude humaine, chaleureuse, attentive et encourageante."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Perfactive, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Coline Rouaze, psychologue à Coudoux",
+   "seoDescription": "Parcours et formations de Coline Rouaze, psychologue à Coudoux.",
+   "titre": "Mon *parcours*",
+   "intro": "J’enrichis ma pratique par des formations tout au long de mon parcours, pour accompagner au mieux les personnes que je reçois.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Psychologie et psychopathologie clinique",
+     "texte": "Université d’Aix-Marseille."
+    },
+    {
+     "titre": "Institutions",
+     "texte": "EHPAD, clinique psychiatrique pour adultes, IME, foyer de vie, foyer d’accueil médicalisé."
+    },
+    {
+     "titre": "Prévention",
+     "texte": "Avec l’association PACTeS, dans les écoles élémentaires et les collèges : harcèlement, addictions."
+    },
+    {
+     "titre": "Formatrice",
+     "texte": "Auprès d’équipes soignantes dans les hôpitaux de la région."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Coline Rouaze, psychologue à Coudoux",
+   "seoDescription": "L’approche de Coline Rouaze, psychologue à Coudoux : psychologie et psychopathologie clinique, thérapie EMDR, thérapie familiale et de couple.",
+   "titre": "Un accompagnement\n*adapté à chacun*",
+   "intro": "J’accueille chaque personne en fonction de son questionnement et j’adapte ma pratique à chacun. La durée du suivi se définit ensemble : chaque histoire est unique et singulière.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Suivi individuel",
+     "texte": "Réduire les souffrances psychiques, modifier sa perception des choses, trouver des solutions à un problème précis.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Enfants et adolescents",
+     "texte": "Une première séance avec les parents, puis l’enfant est reçu seul, avec du matériel pour s’exprimer.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Thérapie EMDR",
+     "texte": "Quelques séances de préparation, puis le retraitement des souvenirs perturbants, l’un après l’autre.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Famille et couple",
+     "texte": "Faciliter une communication souvent bloquée, explorer la cause profonde des difficultés.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Coline Rouaze, psychologue à Coudoux",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Coline Rouaze, psychologue à Coudoux.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois sur rendez-vous : vous pouvez réserver en ligne une première consultation ou une consultation de suivi. Les séances durent 45 minutes et se déroulent dans la confidentialité, sous le secret professionnel.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "En espèces ou par chèque.",
+   "tarifsNote": "Certaines mutuelles remboursent ou participent au financement des séances : une facture vous est remise à cet effet.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Coline Rouaze, psychologue à Coudoux",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Coline Rouaze, psychologue à Coudoux",
+   "seoDescription": "Adresse et téléphone de Coline Rouaze, psychologue, 28 bis avenue de la République à Coudoux.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 28 bis avenue de la République, à Coudoux. Prenez rendez-vous en ligne, appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Coline Rouaze"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

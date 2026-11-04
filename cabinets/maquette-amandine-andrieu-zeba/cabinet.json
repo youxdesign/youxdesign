@@ -1,0 +1,355 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Amandine Andrieu-Zeba (prospect), d'après andrieupsychologue.wixsite.com/monsite. Publiée sur youxdesign.fr/maquettes/amandine-andrieu-zeba/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://andrieupsychologue.wixsite.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F3F0",
+   "encre": "#25221F",
+   "accent": "#6A5A8C",
+   "doux": "#E6E1EC",
+   "texte2": "#54504C"
+  }
+ },
+ "praticien": {
+  "prenom": "Amandine",
+  "nom": "Andrieu-Zeba",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue, psychothérapeute",
+  "specialite": "psychologie clinique de la santé, thérapies cognitives, comportementales et émotionnelles, EMDR, ACT, troubles du comportement alimentaire",
+  "specialiteCourte": "TCC, EMDR et psychologie de la santé",
+  "diplome": "Master 2 de psychologie clinique de la santé (2016)",
+  "adeli": "319323861",
+  "rpps": "10009665711",
+  "public": "Adultes et personnes âgées, en individuel"
+ },
+ "contact": {
+  "telephone": "07 65 23 57 65",
+  "email": "andrieu.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/labege/amandine-andrieu-zeba"
+  }
+ },
+ "cabinet": {
+  "adresse": "150 rue de la Découverte",
+  "codePostal": "31670",
+  "ville": "Labège",
+  "quartier": "Innopôle",
+  "accessiblePMR": true,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "13:30-20:00",
+   "mardi": "10:00-20:00",
+   "mercredi": "10:00-20:00",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Bureau Parc II",
+    "texte": "Au 1er étage, avec accès PMR. Parking disponible.",
+    "icone": "fauteuil"
+   },
+   {
+    "titre": "En transports",
+    "texte": "Métro Ramonville, puis bus 79, arrêt « Commerce ».",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "prix": "60 €",
+   "duree": "environ 45 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance EMDR",
+   "prix": "70 à 100 €",
+   "duree": "environ 1 h 30"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et stress",
+   "texte": "Anxiété, gestion du stress, obsessions et compulsions.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Dépression et deuil",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Comportement alimentaire",
+   "texte": "Grignotage, hyperphagie, boulimie, anorexie, orthorexie ; surpoids et obésité.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Burn-out",
+   "texte": "Épuisement professionnel, gestion des émotions.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Psychothérapie EMDR.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Addictions",
+   "texte": "Tabac, alcool, drogues, jeux ; sevrage tabagique.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Confiance en soi",
+   "texte": "Affirmation de soi, problèmes relationnels.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Maladie somatique",
+   "texte": "Accepter une maladie, douleurs chroniques.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Amandine Andrieu-Zeba, psychologue à Labège",
+   "seoDescription": "Amandine Andrieu-Zeba, psychologue, psychothérapeute à Labège. Psychologie clinique de la santé, thérapies cognitives, comportementales et émotionnelles, emdr, act, troubles du comportement alimentaire.",
+   "surtitre": "Psychologue · Labège",
+   "titre": "Un espace d’expression,\n*des outils pour agir*",
+   "intro": "Psychologue et psychothérapeute à Labège, j’accompagne les adultes et les personnes âgées en individuel, avec une orientation intégrative : TCC, EMDR et outils à médiation corporelle.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Il n’y a pas une mais de multiples raisons de consulter : travailler sur une difficulté particulière, ou simplement prendre du temps pour soi.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Amandine*",
+   "presentation": [
+    "Je travaille depuis 9 ans dans des structures de soins accueillant des personnes atteintes de pathologies somatiques : obésité, douleurs chroniques, cancers, addiction au tabac, maladies cardio-respiratoires, troubles du comportement alimentaire.",
+    "Ma pratique est centrée sur la relation de confiance, l’alliance thérapeutique : nous sommes loin des clichés du divan et du monologue du patient. Les séances sont LGBTQIA+ friendly."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Amandine Andrieu-Zeba, psychologue à Labège",
+   "seoDescription": "Parcours et formations de Amandine Andrieu-Zeba, psychologue à Labège.",
+   "titre": "Mon *parcours*",
+   "intro": "Salariée à mi-temps à la clinique de réhabilitation de Saint-Orens, j’interviens aussi comme formatrice auprès des élèves infirmiers, et j’exerce en libéral depuis 3 ans.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2016",
+     "titre": "Master 2 de psychologie clinique de la santé"
+    },
+    {
+     "date": "2019",
+     "titre": "Éducation thérapeutique du patient",
+     "texte": "Et formations à la pleine conscience et aux addictions (AFPRO)."
+    },
+    {
+     "date": "2020",
+     "titre": "Troubles du comportement alimentaire",
+     "texte": "AFPRO."
+    },
+    {
+     "date": "2021",
+     "titre": "Praticienne EMDR",
+     "texte": "EFPE."
+    },
+    {
+     "date": "2024",
+     "titre": "Thérapie d’acceptation et d’engagement",
+     "texte": "ACTiff."
+    }
+   ],
+   "parcoursTitre": "Diplômes *et formations*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Amandine Andrieu-Zeba, psychologue à Labège",
+   "seoDescription": "L’approche de Amandine Andrieu-Zeba, psychologue à Labège : psychologie clinique de la santé, thérapies cognitives, comportementales et émotionnelles, EMDR, ACT, troubles du comportement alimentaire.",
+   "titre": "Une approche intégrative,\n*adaptée à chacun*",
+   "intro": "Mon orientation est intégrative : adaptée à la singularité de chaque personne et à ses besoins. Mes objectifs : vous offrir un espace d’expression, mais aussi les connaissances et les compétences pour agir selon vos besoins et vos valeurs.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapies cognitives et comportementales",
+     "texte": "Des outils des thérapies cognitives, comportementales et émotionnelles (TCCE), et la thérapie d’acceptation et d’engagement.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Psychothérapie EMDR",
+     "texte": "Son efficacité est largement prouvée dans la prise en charge des traumatismes et du stress post-traumatique.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Médiation corporelle",
+     "texte": "Cohérence cardiaque, méditation de pleine conscience, relaxation.",
+     "icone": "poumons"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Amandine Andrieu-Zeba, psychologue à Labège",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Amandine Andrieu-Zeba, psychologue à Labège.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois le lundi après-midi, le mardi et le mercredi. La fréquence des séances est à discuter ensemble, selon vos besoins et vos possibilités. Prenez rendez-vous par téléphone, par e-mail ou sur Doctolib.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par carte bancaire, chèque, espèces ou virement.",
+   "annulation": [
+    "Tout rendez-vous annulé moins de 24 h à l’avance est dû, sauf justification."
+   ],
+   "tarifsNote": "Je ne fais pas partie du dispositif de remboursement par la Sécurité sociale ; certaines mutuelles remboursent quelques séances par an.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Amandine Andrieu-Zeba, psychologue à Labège",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Amandine Andrieu-Zeba, psychologue à Labège",
+   "seoDescription": "Adresse et téléphone de Amandine Andrieu-Zeba, psychologue, 150 rue de la Découverte à Labège.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve au Bureau Parc II, 150 rue de la Découverte à Labège Innopôle, au 1er étage avec accès PMR. Prenez rendez-vous sur Doctolib, appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Amandine Andrieu-Zeba"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
