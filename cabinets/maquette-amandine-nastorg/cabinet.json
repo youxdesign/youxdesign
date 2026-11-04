@@ -1,0 +1,335 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Amandine Nastorg (prospect), d'après amandinenastorg.wixsite.com/cabinet. Publiée sur youxdesign.fr/maquettes/amandine-nastorg/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://amandinenastorg.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F6F2",
+   "encre": "#1F2A22",
+   "accent": "#4C7A5A",
+   "doux": "#DDE9DF",
+   "texte2": "#4E5A51"
+  }
+ },
+ "praticien": {
+  "prenom": "Amandine",
+  "nom": "Nastorg",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne",
+  "specialite": "psychologie clinique de la santé, approche intégrative, thérapies brèves, accompagnement des seniors",
+  "specialiteCourte": "Psychologie de la santé",
+  "diplome": "Master professionnel de psychologie clinique de la santé (Université Toulouse Jean-Jaurès)",
+  "adeli": "319330585",
+  "public": "Adolescents, adultes et seniors, en thérapie individuelle"
+ },
+ "contact": {
+  "telephone": "07 61 58 30 15",
+  "email": "amandinenastorg.cab@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "1D rue de Mélican",
+  "codePostal": "31330",
+  "ville": "Grenade",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "8:30-17:00",
+   "mardi": "9:30-19:00",
+   "mercredi": "9:30-18:00",
+   "jeudi": "9:30-19:00",
+   "vendredi": "8:30-17:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le mercredi, une semaine sur deux (semaines paires). Uniquement sur rendez-vous.",
+  "acces": [
+   {
+    "titre": "Espace Santé du Mélican",
+    "texte": "Le cabinet se trouve 1D rue de Mélican, à Grenade.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "À domicile si besoin",
+    "texte": "Je peux me déplacer si vous n’êtes pas en mesure de venir au cabinet : les modalités sont à discuter ensemble (des frais kilométriques peuvent s’appliquer).",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance individuelle",
+   "prix": "50 €",
+   "duree": "jusqu’à 1 h",
+   "texte": "Adolescents et adultes.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et stress",
+   "texte": "Gestion du stress, phobies, TOC.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Dépression et deuil",
+   "texte": "Tristesse, perte d’élan, deuil, séparation.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Maladie chronique",
+   "texte": "Douleurs chroniques, vécu de la maladie, épuisement de l’aidant.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Burn-out",
+   "texte": "Épuisement professionnel, changement de travail.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Traumatisme",
+   "texte": "Stress post-traumatique.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Sommeil et alimentation",
+   "texte": "Troubles du sommeil, troubles alimentaires, addictions.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Événements de vie",
+   "texte": "Naissance, divorce, déménagement, mariage, prise de décision.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Affirmation de soi",
+   "texte": "Initier un changement, mieux s’affirmer.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Amandine Nastorg, psychologue à Grenade",
+   "seoDescription": "Amandine Nastorg, psychologue clinicienne à Grenade. Psychologie clinique de la santé, approche intégrative, thérapies brèves, accompagnement des seniors.",
+   "surtitre": "Psychologue clinicienne · Grenade",
+   "titre": "Trouver en soi\n*les ressources pour avancer*",
+   "intro": "Psychologue clinicienne, je propose à Grenade, à l’Espace Santé du Mélican, des psychothérapies individuelles pour les adolescents, les adultes et les seniors.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Chacun fait l’expérience de périodes difficiles : un deuil, un changement de vie, un événement inattendu, ou une addition de « petits tracas ». Voici quelques exemples de raisons de consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Amandine*",
+   "presentation": [
+    "Titulaire d’un master de psychologie clinique de la santé, j’exerce depuis 2015. J’ai travaillé plus de six ans auprès des personnes âgées en EHPAD, en accompagnant chacun et ses proches face aux changements qu’entraîne l’entrée en structure.",
+    "Installée en cabinet depuis 2019, je me consacre aujourd’hui à temps plein à la pratique libérale, avec une approche intégrative qui respecte l’individualité de chacun."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Amandine Nastorg, psychologue à Grenade",
+   "seoDescription": "Parcours et formations de Amandine Nastorg, psychologue à Grenade.",
+   "titre": "Mon *parcours*",
+   "intro": "Ma pratique conjointe, en institution et en libéral, m’a offert une réelle complémentarité dans l’accompagnement que je propose.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Master de psychologie clinique de la santé",
+     "texte": "Université Toulouse Jean-Jaurès. Mémoires sur l’attente de transplantation dans l’insuffisance rénale, et sur le vécu des infirmiers en soins palliatifs."
+    },
+    {
+     "date": "2015",
+     "titre": "Psychologue en EHPAD",
+     "texte": "Plus de six ans auprès des personnes âgées et de leurs proches."
+    },
+    {
+     "date": "2019",
+     "titre": "Installation en cabinet",
+     "texte": "À Grenade, aujourd’hui à temps plein en libéral."
+    },
+    {
+     "titre": "Formation continue",
+     "texte": "Je me forme régulièrement et j’actualise mes connaissances par la lecture d’articles et d’ouvrages récents."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Amandine Nastorg, psychologue à Grenade",
+   "seoDescription": "L’approche de Amandine Nastorg, psychologue à Grenade : psychologie clinique de la santé, approche intégrative, thérapies brèves, accompagnement des seniors.",
+   "titre": "Une approche intégrative,\n*adaptée à votre histoire*",
+   "intro": "La psychologie de la santé prend en compte les interactions entre les facteurs psychologiques, sociaux et biologiques. Elle privilégie des thérapies brèves dont l’efficacité a été scientifiquement validée, avec des outils adaptés à votre histoire et à vos valeurs.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Une relation de confiance",
+     "texte": "Vous êtes acteur de votre thérapie : par l’écoute active et des exercices concrets, je vous aide à trouver en vous, et autour de vous, les ressources nécessaires.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Le premier entretien",
+     "texte": "Je recueille ce qui vous amène à consulter, je vous présente ma méthode, et nous convenons ensemble du suivi et de ses modalités.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Un cadre qui s’ajuste",
+     "texte": "À tout moment, le cadre peut être rediscuté en séance, pour que vous vous sentiez le plus à l’aise possible.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Mon accompagnement",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Amandine Nastorg, psychologue à Grenade",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Amandine Nastorg, psychologue à Grenade.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Le cabinet est ouvert du lundi au vendredi. Je reçois les adolescents, les adultes et les seniors, en thérapie individuelle uniquement. Les rendez-vous se prennent par téléphone ou par e-mail.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "À la fin de chaque séance, par chèque, en espèces ou par virement (pas de carte bancaire).",
+   "monSoutienPsy": true,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Amandine Nastorg, psychologue à Grenade",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Amandine Nastorg, psychologue à Grenade",
+   "seoDescription": "Adresse et téléphone de Amandine Nastorg, psychologue, 1D rue de Mélican à Grenade.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve à l’Espace Santé du Mélican, 1D rue de Mélican à Grenade. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Amandine Nastorg"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

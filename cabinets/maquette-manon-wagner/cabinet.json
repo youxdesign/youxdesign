@@ -1,0 +1,325 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Manon Wagner (prospect), d'après psychologue-domicile.wixsite.com/psychologue-wagner. Publiée sur youxdesign.fr/maquettes/manon-wagner/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://psychologue-domicile.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F5F8",
+   "encre": "#22252E",
+   "accent": "#5A5F99",
+   "doux": "#E1E3EF",
+   "texte2": "#51545F"
+  }
+ },
+ "praticien": {
+  "prenom": "Manon",
+  "nom": "Wagner",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, géronto-psychologue",
+  "specialite": "psychologie clinique, psychologie de la santé, géronto-psychologie, accompagnement des proches aidants",
+  "specialiteCourte": "Psychologie clinique et géronto-psychologie",
+  "diplome": "Master 2 de psychologie clinique, psychopathologie et psychologie de la santé (Université Toulouse II Jean Jaurès)",
+  "public": "Enfants, adolescents, adultes, personnes âgées et leurs proches aidants"
+ },
+ "contact": {
+  "telephone": "06 26 54 30 58",
+  "email": "psycho.domicile31@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "À domicile",
+  "codePostal": "31180",
+  "ville": "Lapeyrouse-Fossat",
+  "zone": "Lapeyrouse-Fossat et ses environs, au nord-est de Toulouse",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": true,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "À domicile",
+    "texte": "J’interviens à domicile, à Lapeyrouse-Fossat et dans ses environs.",
+    "icone": "porte"
+   },
+   {
+    "titre": "En visio ou par téléphone",
+    "texte": "Le suivi peut aussi se faire à distance.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Suivi psychologique",
+   "prix": "60 €",
+   "duree": "1 h",
+   "texte": "Enfants, adolescents, adultes.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Suivi en groupe",
+   "prix": "120 €",
+   "duree": "1 h",
+   "texte": "Couple, famille."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Événements difficiles",
+   "texte": "Traumatismes, décès, séparations, changements de vie.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Angoisses et phobies",
+   "texte": "Chez l’enfant, l’adolescent ou l’adulte.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Scolarité",
+   "texte": "Difficultés de concentration, absentéisme, sentiment d’échec, intégration.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Relations et famille",
+   "texte": "Timidité, solitude, sentiment d’abandon, conflits familiaux.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Vieillissement",
+   "texte": "Troubles cognitifs, tristesse, isolement, appréhension de la fin de vie.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Proches aidants",
+   "texte": "Fatigue, solitude, besoin de conseils et de comprendre.",
+   "icone": "feuille"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Manon Wagner, psychologue à Lapeyrouse-Fossat",
+   "seoDescription": "Manon Wagner, psychologue clinicienne, géronto-psychologue à Lapeyrouse-Fossat. Psychologie clinique, psychologie de la santé, géronto-psychologie, accompagnement des proches aidants.",
+   "surtitre": "Psychologue à domicile · Haute-Garonne",
+   "titre": "Un suivi psychologique\n*chez vous*",
+   "intro": "Psychologue clinicienne et géronto-psychologue, je vous propose un suivi psychologique à domicile, autour de Lapeyrouse-Fossat, en visio ou par téléphone.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques situations pour lesquelles vous pouvez me contacter, pour vous ou pour un proche.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Manon*",
+   "presentation": [
+    "Diplômée d’un Master 2 de psychologie clinique, psychopathologie et psychologie de la santé à l’université Toulouse II Jean Jaurès, j’interviens auprès de toute population : enfants, adolescents, adultes, sportifs…",
+    "En géronto-psychologie, j’accompagne les personnes âgées et leurs proches aidants. Les rendez-vous peuvent se faire en individuel ou en famille."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Manon Wagner, psychologue à Lapeyrouse-Fossat",
+   "seoDescription": "Parcours et formations de Manon Wagner, psychologue à Lapeyrouse-Fossat.",
+   "titre": "Mon *parcours*",
+   "intro": "Ma pratique professionnelle m’a permis d’élargir mes connaissances sur des problématiques variées, en établissement comme à domicile.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Master 2 de psychologie clinique et de la santé",
+     "texte": "Université Toulouse II Jean Jaurès."
+    },
+    {
+     "titre": "En EHPAD",
+     "texte": "Accompagnement des résidents et de leurs familles : deuil, acceptation, culpabilité, angoisse ; bilans et stimulation cognitive."
+    },
+    {
+     "titre": "En libéral, à domicile",
+     "texte": "Enfants, adolescents, personnes atteintes de maladies neurodégénératives et leurs proches."
+    },
+    {
+     "titre": "« Allo j’aide un proche »",
+     "texte": "Intervention dans ce projet du pôle maladies neurodégénératives."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Manon Wagner, psychologue à Lapeyrouse-Fossat",
+   "seoDescription": "L’approche de Manon Wagner, psychologue à Lapeyrouse-Fossat : psychologie clinique, psychologie de la santé, géronto-psychologie, accompagnement des proches aidants.",
+   "titre": "Une prise en charge\n*adaptée à votre demande*",
+   "intro": "La première rencontre permet de vous proposer une prise en charge adaptée : soutien psychologique ou bilan cognitif, en individuel ou en famille.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Psychologie clinique",
+     "texte": "Un accompagnement pour les enfants, les adolescents et les adultes face aux difficultés du quotidien.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Géronto-psychologie",
+     "texte": "Évaluation et stimulation cognitive, soutien face au vieillissement et à la fin de vie.",
+     "icone": "marches"
+    },
+    {
+     "titre": "Soutien des aidants",
+     "texte": "Conseils, aide et écoute pour les proches qui accompagnent une personne malade ou âgée.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Manon Wagner, psychologue à Lapeyrouse-Fossat",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Manon Wagner, psychologue à Lapeyrouse-Fossat.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Le suivi se fait à votre domicile, en visio ou par téléphone, en individuel ou en famille. Une séance dure une heure.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Manon Wagner, psychologue à Lapeyrouse-Fossat",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Manon Wagner, psychologue à Lapeyrouse-Fossat",
+   "seoDescription": "Adresse et téléphone de Manon Wagner, psychologue, À domicile à Lapeyrouse-Fossat.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "J’interviens à domicile, à Lapeyrouse-Fossat et dans ses environs, ainsi qu’en visio. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Manon Wagner"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

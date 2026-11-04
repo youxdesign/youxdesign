@@ -1,0 +1,342 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Gwenaëlle Prévot (prospect), d'après www.psyadomicile59.com. Publiée sur youxdesign.fr/maquettes/gwenaelle-prevot/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psyadomicile59.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F4F1",
+   "encre": "#2A2321",
+   "accent": "#9A5B4E",
+   "doux": "#EFE1DB",
+   "texte2": "#5B504C"
+  }
+ },
+ "praticien": {
+  "prenom": "Gwenaëlle",
+  "nom": "Prévot",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "consultations psychologiques à domicile, psychogérontologie, accompagnement de tous les âges de la vie",
+  "specialiteCourte": "Consultations à domicile",
+  "diplome": "DESS de psychologie clinique et pathologique (Université Lille 3, 2003)",
+  "adeli": "599338753",
+  "public": "Enfants, adolescents, adultes et personnes âgées"
+ },
+ "contact": {
+  "telephone": "06 11 84 14 61",
+  "telephoneNote": "Je ne réponds jamais pendant mes consultations : laissez-moi votre nom et votre numéro sur ma boîte vocale, je vous rappelle dans les plus brefs délais.",
+  "email": "gwenaelleprevot.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "À domicile",
+  "codePostal": "59930",
+  "ville": "La Chapelle-d’Armentières",
+  "zone": "Dans un rayon de 20 km autour de La Chapelle-d’Armentières, au nord et à l’ouest de la métropole lilloise",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": true,
+  "horaires": {
+   "lundi": "8:00-19:00",
+   "mardi": "8:00-19:00",
+   "mercredi": "8:00-19:00",
+   "jeudi": "8:00-19:00",
+   "vendredi": "8:00-19:00",
+   "samedi": "8:00-19:00",
+   "dimanche": ""
+  },
+  "horairesNote": "À domicile, du lundi au samedi, de 8 h à 19 h.",
+  "acces": [
+   {
+    "titre": "Je me déplace chez vous",
+    "texte": "La Chapelle-d’Armentières, Armentières, Houplines, Nieppe, Bailleul, Erquinghem-Lys, Comines, Lambersart, Lomme, Lille, La Madeleine…",
+    "icone": "porte"
+   },
+   {
+    "titre": "Ou dans un autre lieu",
+    "texte": "Dans la mesure où les conditions d’écoute respectent le cadre déontologique, je peux aussi vous rencontrer dans un autre lieu de votre choix.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation à domicile",
+   "prix": "60 €",
+   "duree": "environ 1 h",
+   "texte": "Frais de déplacement inclus. Ajustement possible pour les étudiants, les personnes sans emploi et les bénéficiaires des minima sociaux et de retraite.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Mal-être et estime de soi",
+   "texte": "Souffrance, mal-être, mauvaise estime de soi.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Angoisse et stress",
+   "texte": "Troubles anxieux et phobiques, troubles du sommeil.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Dépression",
+   "texte": "Troubles dépressifs, deuil.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Maladie et handicap",
+   "texte": "Maladie chronique, douleur, oncologie, maladies neurodégénératives, perte d’autonomie.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Famille",
+   "texte": "Soutien à la parentalité, séparation, accompagnement d’un parent dépendant.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Avancée en âge",
+   "texte": "Vieillissement, isolement, départ en retraite, entrée en établissement.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Psychotraumatisme",
+   "texte": "Victimologie, situations traumatiques professionnelles.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Travail et école",
+   "texte": "Stress professionnel, burn-out, phobie scolaire, harcèlement.",
+   "icone": "batterie"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières",
+   "seoDescription": "Gwenaëlle Prévot, psychologue clinicienne, psychothérapeute à La Chapelle-d’Armentières. Consultations psychologiques à domicile, psychogérontologie, accompagnement de tous les âges de la vie.",
+   "surtitre": "Psychologue à domicile · Nord",
+   "titre": "Tout commence\n*par une rencontre*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je me déplace à votre domicile, au nord et à l’ouest de la métropole lilloise, pour un accompagnement personnalisé, quel que soit votre âge.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Du simple besoin de conseil à celui de confier sa souffrance, chaque demande est singulière. Il n’y a pas de bonnes ni de mauvaises raisons de consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Gwenaëlle*",
+   "presentation": [
+    "J’ai débuté ma carrière de psychologue en 2003, dans des structures médico-sociales et hospitalières : EHPAD, accueils de jour Alzheimer, aide sociale à l’enfance, hôpital gériatrique, services de neurologie…",
+    "Aujourd’hui en libéral, je vais à la rencontre de la personne dans son univers, dans sa globalité et sa singularité. Bienveillante et positive, j’ai le souhait d’accompagner en douceur."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières",
+   "seoDescription": "Parcours et formations de Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières.",
+   "titre": "Mon *parcours*",
+   "intro": "J’ai exercé de nombreuses années dans le secteur médico-social, où j’ai rencontré des personnes aux parcours riches et variés : résidents, familles, collègues, professionnels.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2002",
+     "titre": "DU Approche clinique et neuropsychologique des situations de handicap",
+     "texte": "Université Paris 7."
+    },
+    {
+     "date": "2003",
+     "titre": "DESS de psychologie clinique et pathologique",
+     "texte": "Université Lille 3."
+    },
+    {
+     "titre": "Secteur médico-social et hospitalier",
+     "texte": "EHPAD, accueils de jour Alzheimer, résidence services seniors, CCAS, foyer de vie, aide sociale à l’enfance, PMI, hôpital gériatrique, neurochirurgie infantile, neurologie."
+    },
+    {
+     "titre": "Formation continue",
+     "texte": "Fin de vie et soins palliatifs, méthode Montessori adaptée aux personnes âgées, concept Snoezelen, prise en charge des victimes, suicide et lien social, histoire de vie."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières",
+   "seoDescription": "L’approche de Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières : consultations psychologiques à domicile, psychogérontologie, accompagnement de tous les âges de la vie.",
+   "titre": "Être écouté\n*chez soi*",
+   "intro": "L’accompagnement à domicile permet d’être écouté dans un cadre connu et rassurant. Il favorise le sentiment de sécurité, facilite les échanges et la confiance, indispensable à tout travail psychologique.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Pour tous",
+     "texte": "Par convenance personnelle, pour alléger votre organisation, ou parce que se déplacer est difficile : alitement, handicap, phobies, dépression, isolement.",
+     "icone": "porte"
+    },
+    {
+     "titre": "Une approche plus complète",
+     "texte": "Intervenir dans le lieu de vie permet une analyse globale de la situation et un accompagnement adapté concrètement à votre quotidien.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Clinique de la personne âgée",
+     "texte": "Psychogérontologie : je prends en compte l’histoire de la personne, je travaille sur les capacités préservées et je cherche à donner du sens.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Le domicile",
+   "outilsTitre": "Pourquoi *à domicile ?*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les consultations ont lieu à votre domicile, du lundi au samedi, de 8 h à 19 h. Une consultation dure en moyenne une heure. Il suffit de disposer d’un endroit calme où vous vous sentez à l’aise pour échanger en toute discrétion.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "En espèces ou par chèque ; une facture vous est remise sur simple demande.",
+   "annulation": [
+    "Prévenez-moi au moins 48 h à l’avance pour annuler un rendez-vous.",
+    "Une séance manquée ou annulée au dernier moment est due."
+   ],
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Gwenaëlle Prévot, psychologue à La Chapelle-d’Armentières",
+   "seoDescription": "Adresse et téléphone de Gwenaëlle Prévot, psychologue, À domicile à La Chapelle-d’Armentières.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je me déplace à votre domicile, dans un rayon de 20 km autour de La Chapelle-d’Armentières. Appelez-moi ou écrivez-moi pour un rendez-vous ou une simple question.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Gwenaëlle Prévot"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

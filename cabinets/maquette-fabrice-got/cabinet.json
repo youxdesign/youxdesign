@@ -1,0 +1,351 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Fabrice Got (prospect), d'après www.psy-adomicile.com. Publiée sur youxdesign.fr/maquettes/fabrice-got/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psy-adomicile.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F4F2",
+   "encre": "#22272A",
+   "accent": "#3E6470",
+   "doux": "#DFE6E6",
+   "texte2": "#4B5357"
+  }
+ },
+ "praticien": {
+  "prenom": "Fabrice",
+  "nom": "Got",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicien, psychothérapeute",
+  "specialite": "thérapies cognitives et comportementales, thérapie d’acceptation et d’engagement, thérapie des schémas",
+  "specialiteCourte": "TCC, ACT et thérapie des schémas",
+  "diplome": "Diplôme d’État de psychologie clinique (Université Toulouse Jean Jaurès)",
+  "adeli": "319327326",
+  "public": "Adolescents, adultes et personnes âgées (de 12 à 99 ans et plus)"
+ },
+ "contact": {
+  "telephone": "06 86 48 03 04",
+  "telephoneNote": "Du lundi au vendredi, de 8 h à 19 h 30. N’hésitez pas à laisser un message avec vos coordonnées.",
+  "email": "psyadomicile.got@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/toulouse/fabrice-got-toulouse"
+  }
+ },
+ "cabinet": {
+  "adresse": "93 boulevard Déodat de Séverac",
+  "codePostal": "31300",
+  "ville": "Toulouse",
+  "quartier": "Arènes",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "10:00-20:00",
+   "mardi": "10:00-20:00",
+   "mercredi": "",
+   "jeudi": "10:00-17:30",
+   "vendredi": "10:00-19:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Le jeudi, je consulte au cabinet des Minimes. Uniquement sur rendez-vous.",
+  "acces": [
+   {
+    "titre": "Cabinet des Arènes",
+    "texte": "93 boulevard Déodat de Séverac, à Toulouse : le lundi, le mardi et le vendredi.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Cabinet des Minimes",
+    "texte": "Le jeudi, je vous reçois dans mon cabinet du quartier des Minimes.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance d’une heure",
+   "prix": "70 €",
+   "duree": "1 h",
+   "texte": "Remboursement possible par votre mutuelle.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance Mon soutien psy",
+   "prix": "50 €",
+   "duree": "40 min",
+   "texte": "Dispositif « Mon soutien psy » : 12 séances par an remboursées."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "texte": "Anxiété généralisée, trouble panique, agoraphobie, phobies, anxiété sociale.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Humeur et dépression",
+   "texte": "Déprime, dépression, fatigue, perte de motivation.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Psychotraumatisme",
+   "texte": "Stress post-traumatique, pensées intrusives.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Souffrance au travail",
+   "texte": "Burn-out, prise de parole, difficultés à mener une réunion ou à faire une demande.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Estime et affirmation de soi",
+   "texte": "Timidité, hypersensibilité, oser dire non.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Périnatalité",
+   "texte": "Infertilité, fausse-couche, dépression du post-partum, deuil périnatal.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Couple et famille",
+   "texte": "Difficultés relationnelles dans le couple ou au sein de la famille.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Avancée en âge",
+   "texte": "Maladie d’Alzheimer, entrée en maison de retraite, pertes de repères.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Fabrice Got, psychologue à Toulouse",
+   "seoDescription": "Fabrice Got, psychologue clinicien, psychothérapeute à Toulouse. Thérapies cognitives et comportementales, thérapie d’acceptation et d’engagement, thérapie des schémas.",
+   "surtitre": "Psychologue clinicien · Toulouse",
+   "titre": "Un cadre bienveillant,\n*des solutions adaptées*",
+   "intro": "Psychologue clinicien et psychothérapeute, je vous reçois à Toulouse, dans mes cabinets des Arènes et des Minimes, pour parler de vos difficultés et trouver ensemble des solutions adaptées.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Il n’y a pas de bonne ou de mauvaise raison de consulter. Voici quelques exemples : n’hésitez pas à me contacter si votre demande n’y figure pas.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Fabrice*",
+   "presentation": [
+    "Je reçois les adolescents, les adultes et les personnes âgées, dans un cadre bienveillant et sans jugement : anxiété, dépression, pensées intrusives, psychotrauma, stress post-traumatique, souffrance au travail…",
+    "Formé aux thérapies cognitives et comportementales, à la thérapie d’acceptation et d’engagement et à la thérapie des schémas, je me réfère au code de déontologie des psychologues. Les séances sont un espace sécure pour la communauté LGBTQIA+."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Fabrice Got, psychologue à Toulouse",
+   "seoDescription": "Parcours et formations de Fabrice Got, psychologue à Toulouse.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômé de psychologie clinique à Toulouse après une licence à Bordeaux, j’ai été formé à des approches complémentaires : neurosciences, psychodynamique et TCC.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "titre": "Licence de psychologie",
+     "texte": "Université de Bordeaux, avec un enseignement tourné vers les neurosciences."
+    },
+    {
+     "titre": "Diplôme d’État de psychologie clinique",
+     "texte": "Université Toulouse Jean Jaurès : approches psychodynamique et TCC."
+    },
+    {
+     "titre": "Stages cliniques",
+     "texte": "Psychothérapies individuelles, ateliers thérapeutiques de groupe, groupes de parole pour les aidants familiaux, soutien aux familles."
+    },
+    {
+     "titre": "Recherche en périnatalité",
+     "texte": "Le vécu des hommes face à la fausse-couche ; sexualité et ménopause. Publications dans Psychologie Française et le Journal of Women & Aging."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Fabrice Got, psychologue à Toulouse",
+   "seoDescription": "L’approche de Fabrice Got, psychologue à Toulouse : thérapies cognitives et comportementales, thérapie d’acceptation et d’engagement, thérapie des schémas.",
+   "titre": "Des thérapies\n*validées scientifiquement*",
+   "intro": "Les thérapies cognitives et comportementales s’appuient sur des théories régulièrement testées par la recherche. Elles visent à modifier les comportements inadaptés et les pensées qui vous gênent au quotidien, dans la relation aux autres, au monde et à vous-même.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapies cognitives et comportementales",
+     "texte": "Techniques comportementales (exposition graduelle), cognitives (questionner les pensées liées à une situation) et émotionnelles (relaxation, respiration, pleine conscience).",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Thérapie d’acceptation et d’engagement",
+     "texte": "Des exercices concrets pour prendre de la distance avec les pensées intrusives, accueillir ses émotions et s’engager dans des actions qui ont du sens.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Thérapie des schémas",
+     "texte": "Identifier les schémas qui engendrent des émotions envahissantes et des comportements répétitifs, pour développer des schémas sains.",
+     "icone": "puzzle"
+    }
+   ],
+   "outilsSurtitre": "Mes approches",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Fabrice Got, psychologue à Toulouse",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Fabrice Got, psychologue à Toulouse.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Chaque séance dure entre 45 minutes et 1 heure. La première permet de faire connaissance et de définir ensemble les axes du suivi, sa durée et la fréquence des séances. Les séances peuvent aussi se faire à plusieurs, pour les difficultés de couple ou de famille ; pour les nouveaux parents, bébé est bien entendu le bienvenu.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "paiement": "Par chèque ou en espèces, à la fin de chaque séance ; une facture vous est remise si vous le souhaitez.",
+   "annulation": [
+    "Merci de décommander au moins 24 h à l’avance : à défaut, une somme compensatoire de 30 € vous sera demandée.",
+    "Toute séance non décommandée est due."
+   ],
+   "monSoutienPsy": true,
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Fabrice Got, psychologue à Toulouse",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Fabrice Got, psychologue à Toulouse",
+   "seoDescription": "Adresse et téléphone de Fabrice Got, psychologue, 93 boulevard Déodat de Séverac à Toulouse.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois au cabinet des Arènes, 93 boulevard Déodat de Séverac à Toulouse, et le jeudi au cabinet des Minimes. Prenez rendez-vous sur Doctolib, appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Fabrice Got"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

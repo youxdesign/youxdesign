@@ -1,0 +1,332 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Irène Morpain (prospect), d'après irenemorpain.wixsite.com/psychologue. Publiée sur youxdesign.fr/maquettes/irene-morpain/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://irenemorpain.wixsite.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F3EF",
+   "encre": "#26231F",
+   "accent": "#7A5F3A",
+   "doux": "#E9E1D4",
+   "texte2": "#55504A"
+  }
+ },
+ "praticien": {
+  "prenom": "Irène",
+  "nom": "Morpain",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "psychothérapie d’orientation intégrative, thérapie familiale et de couple, bilans cognitifs, remédiation cognitive",
+  "specialiteCourte": "Psychothérapie et bilans cognitifs",
+  "diplome": "DESS de psychologie clinique et psychopathologique (Bordeaux II) et Master 2 de recherche en psychopathologie (Paris VII)",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 61 59 37 52",
+  "email": "irene.morpain@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "17 avenue des Écoles",
+  "codePostal": "33370",
+  "ville": "Tresses",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Centre médical",
+    "texte": "Le cabinet se trouve au centre médical, 17 avenue des Écoles, à Tresses.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Téléconsultation",
+    "texte": "Des consultations à distance sont aussi possibles.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "Sur demande",
+   "texte": "Psychothérapie individuelle, familiale ou de couple, guidance parentale.",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Bilan cognitif",
+   "prix": "Sur demande",
+   "texte": "WISC-V, NEPSY-II, WAIS-IV, MEM-IV, avec compte rendu écrit et séance de restitution."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Dépression et anxiété",
+   "texte": "États dépressifs ou anxieux, sentiment de ne pas vivre pleinement.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Deuil et séparation",
+   "texte": "La perte d’un être cher, une séparation, un divorce.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Agression, maladie, « accidents de la vie ».",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Difficultés relationnelles dans la vie privée ou professionnelle, manque de confiance en soi.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Enfants",
+   "texte": "Apprentissages, scolarité, sommeil, alimentation, agitation, anxiété, inhibition.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Adolescence",
+   "texte": "Une période souvent difficile, parfois douloureuse.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Attention et mémoire",
+   "texte": "Déficit attentionnel, troubles des apprentissages, surcharge d’informations.",
+   "icone": "cerveau"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Irène Morpain, psychologue à Tresses",
+   "seoDescription": "Irène Morpain, psychologue clinicienne, psychothérapeute à Tresses. Psychothérapie d’orientation intégrative, thérapie familiale et de couple, bilans cognitifs, remédiation cognitive.",
+   "surtitre": "Psychologue clinicienne · Tresses",
+   "titre": "Comprendre sa souffrance\n*pour s’en libérer*",
+   "intro": "Psychologue clinicienne et psychothérapeute, je reçois enfants, adolescents et adultes au centre médical de Tresses, pour une psychothérapie, un bilan cognitif ou une remédiation cognitive.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "De nombreuses raisons peuvent vous amener à consulter. Cette liste n’est pas exhaustive : nous sommes tous différents et uniques.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Irène*",
+   "presentation": [
+    "Diplômée de l’université Bordeaux II (DESS de psychologie clinique et psychopathologique) et de l’université Paris VII (Master 2 de recherche en psychopathologie), je suis psychothérapeute enregistrée à l’Agence régionale de santé.",
+    "Thérapeute familiale et de couple formée par l’APSYFA, je suis aussi certifiée Cogmed, un programme informatisé de remédiation cognitive, et membre du RéPOP, réseau de lutte contre l’obésité en Aquitaine."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Irène Morpain, psychologue à Tresses",
+   "seoDescription": "Parcours et formations de Irène Morpain, psychologue à Tresses.",
+   "titre": "Mon *parcours*",
+   "intro": "Je propose, selon votre demande, votre âge et votre problématique, un travail psychothérapeutique, un bilan cognitif ou une remédiation cognitive.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "DESS de psychologie clinique et psychopathologique",
+     "texte": "Université Bordeaux II Victor Segalen."
+    },
+    {
+     "titre": "Master 2 de recherche en psychopathologie",
+     "texte": "Université Paris VII Denis Diderot."
+    },
+    {
+     "titre": "Thérapeute familiale et de couple",
+     "texte": "Formée par l’APSYFA."
+    },
+    {
+     "titre": "Remédiation cognitive",
+     "texte": "Psychologue certifiée Cogmed ; membre du RéPOP Aquitaine."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Irène Morpain, psychologue à Tresses",
+   "seoDescription": "L’approche de Irène Morpain, psychologue à Tresses : psychothérapie d’orientation intégrative, thérapie familiale et de couple, bilans cognitifs, remédiation cognitive.",
+   "titre": "Une aide adaptée\n*à chaque demande*",
+   "intro": "Un premier entretien me permet d’évaluer votre demande afin de vous proposer l’aide la mieux adaptée. Il vous permet aussi d’évaluer votre désir d’entreprendre un travail psychothérapeutique, essentiellement fondé sur la parole.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Psychothérapie individuelle",
+     "texte": "Analytique, au rythme d’une à deux séances par semaine, ou brève, de type comportemental, une séance par semaine.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Thérapie familiale ou de couple",
+     "texte": "Une séance tous les quinze jours.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Guidance parentale",
+     "texte": "Aider les parents à surmonter l’anxiété, les doutes et le découragement dans l’éducation de leurs enfants.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Bilan et remédiation cognitive",
+     "texte": "Évaluer les fonctions cognitives, puis entraîner la mémoire de travail avec le programme Cogmed, sur cinq semaines.",
+     "icone": "cerveau"
+    }
+   ],
+   "outilsSurtitre": "Mes propositions",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Irène Morpain, psychologue à Tresses",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Irène Morpain, psychologue à Tresses.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Tout commence par un entretien, pour comprendre votre demande et choisir ensemble l’accompagnement le plus adapté. Pour un enfant ou un adolescent, la présence des parents est préconisée lors du premier rendez-vous. Je suis soumise au secret professionnel.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Irène Morpain, psychologue à Tresses",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Irène Morpain, psychologue à Tresses",
+   "seoDescription": "Adresse et téléphone de Irène Morpain, psychologue, 17 avenue des Écoles à Tresses.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois au centre médical, 17 avenue des Écoles à Tresses, ou en téléconsultation. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Irène Morpain"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
