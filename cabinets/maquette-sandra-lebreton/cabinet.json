@@ -1,0 +1,329 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Sandra Lebreton Da Silva (prospect), d'après www.psychologue95-lebreton.com. Publiée sur youxdesign.fr/maquettes/sandra-lebreton/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue95-lebreton.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F6F4",
+   "encre": "#1F2922",
+   "accent": "#3F7560",
+   "doux": "#DCE9E2",
+   "texte2": "#4E5A53"
+  }
+ },
+ "praticien": {
+  "prenom": "Sandra",
+  "nom": "Lebreton Da Silva",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "soutien ponctuel, psychothérapie individuelle et de couple, accompagnement familial et parental, analyse des pratiques",
+  "specialiteCourte": "Approche intégrative",
+  "diplome": "DESS de psychopathologie clinique (Université Paris XIII, 2003)",
+  "adeli": "959307364",
+  "rpps": "10008887936",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 61 23 89 53",
+  "email": "sandralebreton.psychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "35 Grande Rue",
+  "codePostal": "95630",
+  "ville": "Mériel",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Du lundi au vendredi, sur rendez-vous.",
+  "acces": [
+   {
+    "titre": "Centre médical de Mériel",
+    "texte": "Le cabinet se trouve au centre médical, 35 Grande Rue, près de L’Isle-Adam et de Méry-sur-Oise.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation individuelle",
+   "prix": "70 €",
+   "duree": "1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Thérapie de couple",
+   "prix": "90 €",
+   "duree": "1 h 15"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Moment de souffrance",
+   "texte": "Un soutien ponctuel ou une psychothérapie.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Questionnements",
+   "texte": "Un cheminement personnel, un temps de réflexion sur soi.",
+   "icone": "plume"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Les empreintes traumatiques, leur réactivation, la somatisation.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Couple",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Famille et parentalité",
+   "texte": "Accompagnement familial et parental.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Professionnels",
+   "texte": "Interroger sa pratique dans le médico-social.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Sandra Lebreton Da Silva, psychologue à Mériel",
+   "seoDescription": "Sandra Lebreton Da Silva, psychologue clinicienne, psychothérapeute à Mériel. Soutien ponctuel, psychothérapie individuelle et de couple, accompagnement familial et parental, analyse des pratiques.",
+   "surtitre": "Psychologue clinicienne · Mériel",
+   "titre": "Un accompagnateur\n*temporaire de vie*",
+   "intro": "Psychologue clinicienne et psychothérapeute depuis 2003, j’accompagne les enfants, les adolescents et les adultes au centre médical de Mériel, dans le Val-d’Oise.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Je propose du soutien ponctuel ou des psychothérapies individuelles, de couple, ainsi qu’un accompagnement familial et parental. Je ne pratique pas les bilans et les tests.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Sandra*",
+   "presentation": [
+    "Je considère le psychologue comme un « accompagnateur temporaire de vie », dans un moment de souffrance, de questionnement ou de cheminement personnel. L’authenticité dans la rencontre est essentielle : l’important est d’accueillir la singularité de chacun.",
+    "Je me suis formée pour proposer un accompagnement plus en résonance avec le corps et les émotions, mais aussi avec les empreintes traumatiques, leur réactivation et la somatisation."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Sandra Lebreton Da Silva, psychologue à Mériel",
+   "seoDescription": "Parcours et formations de Sandra Lebreton Da Silva, psychologue à Mériel.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée en 2003, j’ai travaillé dans de nombreuses institutions avant d’ouvrir mon cabinet en 2017.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2003",
+     "titre": "DESS de psychopathologie clinique",
+     "texte": "Université Paris XIII."
+    },
+    {
+     "titre": "En institution",
+     "texte": "Psychologue du personnel à l’hôpital, Samu social, ESAT, IME pour enfants et adolescents polyhandicapés."
+    },
+    {
+     "titre": "Protection de l’enfance",
+     "texte": "En foyer, auprès d’adolescents et de jeunes adultes accompagnés par l’aide sociale à l’enfance."
+    },
+    {
+     "date": "2017",
+     "titre": "Ouverture du cabinet",
+     "texte": "Et interventions en crèche, auprès des enfants, des équipes et des parents."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Sandra Lebreton Da Silva, psychologue à Mériel",
+   "seoDescription": "L’approche de Sandra Lebreton Da Silva, psychologue à Mériel : soutien ponctuel, psychothérapie individuelle et de couple, accompagnement familial et parental, analyse des pratiques.",
+   "titre": "Un échange\n*avant tout humain*",
+   "intro": "La rencontre avec le psychologue est un temps de réflexion au creux de soi-même, un accompagnement au travers de ses souffrances, de ses doutes et de ses questionnements : un lieu où l’on trouve ses propres réponses.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Une approche intégrative",
+     "texte": "Formée d’abord à la psychanalyse, j’aborde aujourd’hui mon travail avec plusieurs courants de pensée.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Le corps et les émotions",
+     "texte": "Au-delà de la verbalisation, un accompagnement en résonance avec le corps et les empreintes traumatiques.",
+     "icone": "poumons"
+    },
+    {
+     "titre": "Couple et famille",
+     "texte": "Thérapies de couple, accompagnement familial et parental.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Analyse des pratiques",
+     "texte": "Pour les professionnels du médico-social.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Ma pratique",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Sandra Lebreton Da Silva, psychologue à Mériel",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Sandra Lebreton Da Silva, psychologue à Mériel.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je consulte du lundi au vendredi, au centre médical de Mériel. La fréquence des rendez-vous est évoquée ensemble, mais c’est à vous que revient ce choix. Contactez-moi par téléphone, SMS ou e-mail.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "À la fin de la séance, par chèque, en espèces, par PayPal ou par virement.",
+   "tarifsNote": "Je ne suis pas conventionnée : les consultations ne sont pas remboursées par la Sécurité sociale, mais certaines mutuelles les remboursent sur présentation d’une note d’honoraires.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Sandra Lebreton Da Silva, psychologue à Mériel",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Sandra Lebreton Da Silva, psychologue à Mériel",
+   "seoDescription": "Adresse et téléphone de Sandra Lebreton Da Silva, psychologue, 35 Grande Rue à Mériel.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je vous reçois au centre médical de Mériel, 35 Grande Rue. Appelez-moi, envoyez-moi un SMS ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Sandra Lebreton Da Silva"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

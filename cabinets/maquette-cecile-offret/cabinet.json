@@ -1,0 +1,319 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Cécile Offret (prospect), d'après cecileoffret83.wixsite.com/website. Publiée sur youxdesign.fr/maquettes/cecile-offret/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://cecileoffret83.wixsite.com",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F6F2EF",
+   "encre": "#29211F",
+   "accent": "#8A5547",
+   "doux": "#ECDDD7",
+   "texte2": "#59504C"
+  }
+ },
+ "praticien": {
+  "prenom": "Cécile",
+  "nom": "Offret",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute",
+  "specialite": "écoute analytique, thérapie de couple, accompagnement des femmes enceintes, guidance parentale",
+  "specialiteCourte": "Écoute analytique",
+  "diplome": "Master 2 (ex-DESS) de psychologie clinique et pathologique (Université René Descartes Paris V, 2000)",
+  "adeli": "839309747",
+  "public": "Enfants, adultes, couples, femmes enceintes et parents"
+ },
+ "contact": {
+  "telephone": "06 61 16 25 10",
+  "email": "cecileoffretpsychologue@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance.",
+  "rendezVous": {
+   "plateforme": "Doctolib",
+   "url": "https://www.doctolib.fr/psychologue/le-beausset/cecile-offret"
+  }
+ },
+ "cabinet": {
+  "adresse": "Espace Santé, 39 RN 8",
+  "codePostal": "83330",
+  "ville": "Le Beausset",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Espace Santé",
+    "texte": "Le cabinet se trouve à l’Espace Santé, 39 RN 8, au Beausset.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "Sur demande",
+   "texte": "D’un simple entretien de conseil à un accompagnement psychothérapeutique.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété et fatigue",
+   "texte": "Se sentir anxieux ou constamment fatigué.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Échecs",
+   "texte": "Un échec amoureux ou professionnel difficile à accepter.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Sens de sa vie",
+   "texte": "L’impression de passer à côté de sa vie.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Couple",
+   "texte": "Thérapie de couple.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Grossesse",
+   "texte": "Une période riche en remaniements psychologiques.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Parentalité",
+   "texte": "Guidance parentale.",
+   "icone": "marches"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Cécile Offret, psychologue à Le Beausset",
+   "seoDescription": "Cécile Offret, psychologue clinicienne, psychothérapeute à Le Beausset. Écoute analytique, thérapie de couple, accompagnement des femmes enceintes, guidance parentale.",
+   "surtitre": "Psychologue clinicienne · Le Beausset",
+   "titre": "Mettre des mots\n*pour soigner les maux*",
+   "intro": "Psychologue clinicienne et psychothérapeute au Beausset, j’interviens auprès des enfants, des adultes et des couples, et j’accompagne les femmes enceintes.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Chaque situation est singulière : une unique consultation pour faire le point, ou le début d’un suivi plus régulier.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Cécile*",
+   "presentation": [
+    "Dans une démarche d’écoute active et d’approche analytique, mon but est de vous aider à mettre en mots votre souffrance, pour analyser et comprendre l’origine de votre mal-être et prendre de la distance : « penser pour panser ».",
+    "Je vous reçois de façon adaptée à votre situation, à votre rythme et en toute confidentialité, selon le code de déontologie des psychologues."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "En ligne sur Doctolib, au moment qui vous convient."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Cécile Offret, psychologue à Le Beausset",
+   "seoDescription": "Parcours et formations de Cécile Offret, psychologue à Le Beausset.",
+   "titre": "Mon *parcours*",
+   "intro": "Titulaire d’un master 2 de psychologie clinique et pathologique, j’ai exercé en institution avant de m’installer en cabinet libéral.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "parcours": [
+    {
+     "date": "2000",
+     "titre": "Master 2 de psychologie clinique et pathologique",
+     "texte": "Université René Descartes, Paris V."
+    },
+    {
+     "titre": "Grossesse à risque",
+     "texte": "Expérience en service de grossesse à risque, à l’hôpital Bichat."
+    },
+    {
+     "date": "2019",
+     "titre": "Thérapie de couple",
+     "texte": "Formation au CERFPA."
+    },
+    {
+     "titre": "Recherche",
+     "texte": "« Entre mère et fille : la question des identifications féminines à l’adolescence », Paris V."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Cécile Offret, psychologue à Le Beausset",
+   "seoDescription": "L’approche de Cécile Offret, psychologue à Le Beausset : écoute analytique, thérapie de couple, accompagnement des femmes enceintes, guidance parentale.",
+   "titre": "Penser\n*pour panser*",
+   "intro": "Initiée à la psychanalyse, ma pratique est fondée sur l’écoute analytique. La thérapie est un processus de découverte de soi : j’encourage la transformation par l’exploration de vos ressources.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi.",
+   "outils": [
+    {
+     "titre": "Entretien et psychothérapie",
+     "texte": "Du simple entretien en vue d’un conseil à un accompagnement psychothérapeutique.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Thérapie de couple",
+     "texte": "Une formation spécifique pour accompagner les couples.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Grossesse et parentalité",
+     "texte": "Accompagner les femmes enceintes, et soutenir les parents par la guidance parentale.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Les consultations",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Cécile Offret, psychologue à Le Beausset",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Cécile Offret, psychologue à Le Beausset.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je vous reçois à l’Espace Santé du Beausset. Ensemble, nous définissons vos besoins et vos attentes. Prenez rendez-vous sur Doctolib, ou appelez-moi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Prenez rendez-vous en ligne, ou appelez-moi."
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Cécile Offret, psychologue à Le Beausset",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Cécile Offret, psychologue à Le Beausset",
+   "seoDescription": "Adresse et téléphone de Cécile Offret, psychologue, Espace Santé, 39 RN 8 à Le Beausset.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve à l’Espace Santé, 39 RN 8, au Beausset. Prenez rendez-vous sur Doctolib, appelez-moi ou écrivez-moi.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Cécile Offret"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

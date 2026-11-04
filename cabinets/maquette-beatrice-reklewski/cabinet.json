@@ -1,0 +1,334 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Béatrice Reklewski (prospect), d'après www.therapiegrenoble.fr. Publiée sur youxdesign.fr/maquettes/beatrice-reklewski/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.therapiegrenoble.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F3F4F6",
+   "encre": "#22252B",
+   "accent": "#4C5E8A",
+   "doux": "#E0E4EE",
+   "texte2": "#50545D"
+  }
+ },
+ "praticien": {
+  "prenom": "Béatrice",
+  "nom": "Reklewski",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "thérapies comportementales et cognitives, thérapie individuelle et de couple, périnatalité et parentalité, TOC, anxiété, traumatismes",
+  "specialiteCourte": "Thérapies comportementales et cognitives",
+  "diplome": "Master 2 de psychologie (Université d’Aix-en-Provence)",
+  "adeli": "389307349",
+  "public": "Adultes et couples"
+ },
+ "contact": {
+  "telephone": "06 43 97 10 55",
+  "telephoneNote": "Du lundi au vendredi, de 9 h à 20 h.",
+  "email": "psy.grenoble@yahoo.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "53 cours Jean Jaurès",
+  "codePostal": "38000",
+  "ville": "Grenoble",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-20:00",
+   "mardi": "9:00-20:00",
+   "mercredi": "9:00-20:00",
+   "jeudi": "9:00-20:00",
+   "vendredi": "9:00-20:00",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Au cabinet",
+    "texte": "53 cours Jean Jaurès, à Grenoble.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Les consultations peuvent aussi avoir lieu sur Teams.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "57 €",
+   "duree": "45 min",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Tarif étudiant",
+   "prix": "52 €",
+   "duree": "45 min"
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Peurs et phobies",
+   "texte": "Attaques de panique, crises d’angoisse, anxiété sociale.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "TOC",
+   "texte": "Pensées intrusives, rituels, phobie d’impulsion, y compris après une naissance.",
+   "icone": "boucle"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Stress post-traumatique, traumatisme complexe.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Deuil et événements de vie",
+   "texte": "Ruptures, séparation, divorce, maladie.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Burn-out",
+   "texte": "Épuisement professionnel.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Confiance en soi",
+   "texte": "Et gestion de la colère ou de l’agressivité.",
+   "icone": "soleil"
+  },
+  {
+   "titre": "Périnatalité",
+   "texte": "Avant la grossesse, pendant, et après l’accouchement.",
+   "icone": "personnes"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Béatrice Reklewski, psychologue à Grenoble",
+   "seoDescription": "Béatrice Reklewski, psychologue à Grenoble. Thérapies comportementales et cognitives, thérapie individuelle et de couple, périnatalité et parentalité, toc, anxiété, traumatismes.",
+   "surtitre": "Psychologue · Grenoble",
+   "titre": "Avancer plus sereinement,\n*vers vos solutions*",
+   "intro": "Psychologue à Grenoble, je vous accueille au cabinet ou en visio pour une thérapie individuelle ou une thérapie de couple, auprès des adultes.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Il n’y a pas de bonnes ou de mauvaises raisons de consulter, mais avant tout un cheminement personnel, toujours singulier.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Béatrice*",
+   "presentation": [
+    "Ma pratique est centrée sur l’accompagnement et la relation d’aide, dans le cadre d’une psychothérapie auprès des adultes.",
+    "La thérapie permet d’accompagner votre singularité, pour vous aider à avancer plus sereinement, avec moins de souffrance, vers les solutions qui vous conviennent."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Béatrice Reklewski, psychologue à Grenoble",
+   "seoDescription": "Parcours et formations de Béatrice Reklewski, psychologue à Grenoble.",
+   "titre": "Mon *parcours*",
+   "intro": "Diplômée d’un master 2 de psychologie de l’université d’Aix-en-Provence, je pratique les thérapies comportementales et cognitives.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Master 2 de psychologie",
+     "texte": "Université d’Aix-en-Provence."
+    },
+    {
+     "titre": "AFFORTHECC",
+     "texte": "Membre de l’Association francophone de formation et de recherche en thérapie comportementale et cognitive."
+    },
+    {
+     "titre": "FFPP",
+     "texte": "Membre de la Fédération française des psychologues et de psychologie."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Béatrice Reklewski, psychologue à Grenoble",
+   "seoDescription": "L’approche de Béatrice Reklewski, psychologue à Grenoble : thérapies comportementales et cognitives, thérapie individuelle et de couple, périnatalité et parentalité, TOC, anxiété, traumatismes.",
+   "titre": "Une première séance\n*pour faire connaissance*",
+   "intro": "La première séance est un temps de rencontre : elle me permet de cerner votre problématique, et vous permet de me poser vos questions. En fin de consultation, je vous dis si je pense pouvoir vous aider, ou je vous réoriente vers un autre professionnel.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapie individuelle",
+     "texte": "Nous faisons le point sur votre souhait de vous engager dans la thérapie et nous définissons ensemble ses objectifs.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Thérapie de couple",
+     "texte": "Quand le couple ne parvient plus à se réorganiser après des turbulences, ou que le silence s’installe.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Périnatalité et parentalité",
+     "texte": "Exprimer un mal-être ou des difficultés liés à l’arrivée d’un enfant, même quand la maternité ou la paternité est très valorisée.",
+     "icone": "feuille"
+    }
+   ],
+   "outilsSurtitre": "Les thérapies",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Béatrice Reklewski, psychologue à Grenoble",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Béatrice Reklewski, psychologue à Grenoble.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Une consultation dure trois quarts d’heure. Les consultations ont lieu au cabinet, cours Jean Jaurès, ou sur Teams. Pour prendre rendez-vous, appelez-moi du lundi au vendredi de 9 h à 20 h, ou écrivez-moi.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Au cabinet, par chèque ou en espèces.",
+   "annulation": [
+    "Toute séance non annulée 48 h à l’avance (jours ouvrés) est due en totalité."
+   ],
+   "tarifsNote": "Les consultations ne sont pas remboursées par la Sécurité sociale, mais certaines mutuelles prennent en charge quelques séances.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Béatrice Reklewski, psychologue à Grenoble",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Béatrice Reklewski, psychologue à Grenoble",
+   "seoDescription": "Adresse et téléphone de Béatrice Reklewski, psychologue, 53 cours Jean Jaurès à Grenoble.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 53 cours Jean Jaurès, à Grenoble. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Béatrice Reklewski"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

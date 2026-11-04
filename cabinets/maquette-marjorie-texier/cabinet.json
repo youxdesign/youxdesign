@@ -1,0 +1,325 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Marjorie Texier (prospect), d'après marjorietexierpsy.wixsite.com/mtpsy. Publiée sur youxdesign.fr/maquettes/marjorie-texier/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://marjorietexierpsy.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F2F5F8",
+   "encre": "#1D2530",
+   "accent": "#3D6690",
+   "doux": "#DBE5EF",
+   "texte2": "#4C5562"
+  }
+ },
+ "praticien": {
+  "prenom": "Marjorie",
+  "nom": "Texier",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue",
+  "specialite": "psychologie intégrative, thérapie des schémas, thérapies cognitives et comportementales",
+  "specialiteCourte": "Psychologie intégrative et thérapie des schémas",
+  "diplome": "Master de psychologie clinique et affective (Université de Genève, 2015)",
+  "adeli": "019308642",
+  "public": "Adultes et jeunes adultes"
+ },
+ "contact": {
+  "telephone": "07 49 79 50 33",
+  "email": "marjorie.texier.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "67 rue Madame de Staël",
+  "codePostal": "74160",
+  "ville": "Saint-Julien-en-Genevois",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Genevois Medical",
+    "texte": "Centre pluridisciplinaire, juste à côté de la maison de la couture, en passant sous l’arche.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En visio",
+    "texte": "Les consultations peuvent aussi se faire en téléconsultation.",
+    "icone": "visio"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "prix": "70 €",
+   "duree": "1 h",
+   "texte": "Au cabinet ou en visio.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Périodes difficiles",
+   "texte": "Traverser une épreuve et retrouver un mieux-être.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Comprendre son fonctionnement",
+   "texte": "Repérer ce qui se répète aujourd’hui, à la lumière de l’attachement.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Une difficulté précise",
+   "texte": "Une psychothérapie plus ciblée et plus brève.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Souffrance psychique",
+   "texte": "Une longue expérience auprès des adultes en institution psychiatrique.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Résilience",
+   "texte": "Des outils pour s’épanouir et rebondir.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Marjorie Texier, psychologue à Saint-Julien-en-Genevois",
+   "seoDescription": "Marjorie Texier, psychologue à Saint-Julien-en-Genevois. Psychologie intégrative, thérapie des schémas, thérapies cognitives et comportementales.",
+   "surtitre": "Psychologue · Saint-Julien-en-Genevois",
+   "titre": "Un espace accueillant\n*pour aller vers le mieux-être*",
+   "intro": "Psychologue à Saint-Julien-en-Genevois, au centre pluridisciplinaire Genevois Medical, je reçois les adultes et les jeunes adultes au cabinet ou en visio.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Il peut arriver à chacun de traverser des périodes de vie difficiles, pendant lesquelles l’accompagnement d’un professionnel peut être bénéfique.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Marjorie*",
+   "presentation": [
+    "Psychologue intégrative, je suis formée à la thérapie des schémas et en cours de formation aux TCC : sensibilisée à plusieurs approches, je vous guide vers celle qui vous conviendra le mieux.",
+    "Je vous propose un espace de non-jugement et de bienveillance, porté par vos besoins et vos questionnements actuels."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Marjorie Texier, psychologue à Saint-Julien-en-Genevois",
+   "seoDescription": "Parcours et formations de Marjorie Texier, psychologue à Saint-Julien-en-Genevois.",
+   "titre": "Mon *parcours*",
+   "intro": "Après un master de psychologie clinique et affective à l’université de Genève en 2015, j’ai travaillé auprès d’adultes et de jeunes adultes en souffrance psychique, principalement en institution psychiatrique.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2015",
+     "titre": "Master de psychologie clinique et affective",
+     "texte": "Université de Genève."
+    },
+    {
+     "titre": "Institutions psychiatriques",
+     "texte": "Auprès d’adultes et de jeunes adultes en souffrance psychique."
+    },
+    {
+     "date": "2021",
+     "titre": "Ouverture du cabinet",
+     "texte": "À Saint-Julien-en-Genevois, en parallèle de mon poste de psychologue en clinique."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Marjorie Texier, psychologue à Saint-Julien-en-Genevois",
+   "seoDescription": "L’approche de Marjorie Texier, psychologue à Saint-Julien-en-Genevois : psychologie intégrative, thérapie des schémas, thérapies cognitives et comportementales.",
+   "titre": "La thérapie\n*en quelques mots*",
+   "intro": "La psychologie intégrative s’appuie sur de nombreuses techniques de psychothérapie, pour comprendre la personne dans son ensemble : affectif, émotionnel, cognitif, comportemental et relationnel.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Rencontre et objectif",
+     "texte": "La première séance permet de se rencontrer, de définir vos besoins et d’orienter la thérapie vers l’approche la plus adaptée.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Thérapie des schémas",
+     "texte": "Fondée sur la théorie de l’attachement et la thérapie cognitive, elle éclaire votre fonctionnement d’aujourd’hui et favorise un changement vers un fonctionnement plus sain.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Thérapies cognitives et comportementales",
+     "texte": "Une thérapie brève, centrée sur la résolution de votre problématique.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Envol",
+     "texte": "La thérapie, brève (une dizaine de séances) ou plus longue, prend fin quand le processus est terminé.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Mon approche",
+   "outilsTitre": "Comment *je travaille*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Marjorie Texier, psychologue à Saint-Julien-en-Genevois",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Marjorie Texier, psychologue à Saint-Julien-en-Genevois.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Une séance dure une heure, au cabinet ou en visio, selon vos besoins et vos disponibilités. Contactez-moi par téléphone ou par e-mail pour toute question ou pour prendre rendez-vous.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "En espèces, par chèque ou par virement.",
+   "annulation": [
+    "Une séance annulée moins de 24 h à l’avance est due."
+   ],
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Marjorie Texier, psychologue à Saint-Julien-en-Genevois",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Marjorie Texier, psychologue à Saint-Julien-en-Genevois",
+   "seoDescription": "Adresse et téléphone de Marjorie Texier, psychologue, 67 rue Madame de Staël à Saint-Julien-en-Genevois.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je consulte au centre Genevois Medical, 67 rue Madame de Staël à Saint-Julien-en-Genevois, et en visio. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Marjorie Texier"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
