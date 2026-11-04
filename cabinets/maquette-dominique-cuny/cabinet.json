@@ -1,0 +1,319 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Dominique Cuny (prospect), d'après www.psychologue-cuny.fr. Publiée sur youxdesign.fr/maquettes/dominique-cuny/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.psychologue-cuny.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F5F2EE",
+   "encre": "#27221E",
+   "accent": "#7A4E3A",
+   "doux": "#EADDD3",
+   "texte2": "#57504A"
+  }
+ },
+ "praticien": {
+  "prenom": "Dominique",
+  "nom": "Cuny",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicien, psychanalyste",
+  "specialite": "psychanalyse, psychothérapie, soutien psychologique, supervision",
+  "specialiteCourte": "Psychologie et psychanalyse",
+  "diplome": "Psychologue clinicien, diplômé de l’université Paris 5",
+  "adeli": "789300035",
+  "public": "Adultes"
+ },
+ "contact": {
+  "telephone": "06 07 83 74 47",
+  "email": "cabinetpsy@me.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "16 avenue Meissonier",
+  "codePostal": "78300",
+  "ville": "Poissy",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "9:00-20:00",
+   "mardi": "9:00-20:00",
+   "mercredi": "9:00-20:00",
+   "jeudi": "9:00-20:00",
+   "vendredi": "9:00-20:00",
+   "samedi": "9:00-18:00",
+   "dimanche": ""
+  },
+  "horairesNote": "Uniquement sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Centre-ville",
+    "texte": "À 300 mètres de la gare de Poissy (RER A), à proximité de la clinique Saint-Louis.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Parking à proximité.",
+    "icone": "voiture"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance",
+   "prix": "50 €",
+   "texte": "Soutien psychologique, psychothérapie ou cure psychanalytique.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Difficultés familiales",
+   "texte": "Conflits familiaux, divorce, séparation.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Deuil",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Dépression et mal-être",
+   "texte": "Troubles de l’humeur et du comportement.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Phobies et anorexie",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Stress et traumatisme",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Maladie et travail",
+   "texte": "Quand la maladie ou le travail font souffrir.",
+   "icone": "batterie"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Dominique Cuny, psychologue à Poissy",
+   "seoDescription": "Dominique Cuny, psychologue clinicien, psychanalyste à Poissy. Psychanalyse, psychothérapie, soutien psychologique, supervision.",
+   "surtitre": "Psychologue psychanalyste · Poissy",
+   "titre": "Remonter aux origines\n*de la souffrance*",
+   "intro": "Psychologue clinicien et psychanalyste, je vous reçois au centre de Poissy, à 300 mètres de la gare du RER A, pour un soutien psychologique, une psychothérapie ou une cure psychanalytique.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Voici quelques-unes des difficultés pour lesquelles vous pouvez consulter.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Dominique*",
+   "presentation": [
+    "La psychologie vise à la connaissance de l’être humain dans sa singularité. La psychanalyse est un dispositif clinique, appelé cure, qui permet de remonter aux origines inconscientes de la souffrance psychique.",
+    "Lorsqu’un individu souffre psychiquement, c’est sa vie tout entière qui est concernée. Je propose un suivi personnalisé, au cabinet, à domicile ou à distance, en audio et en vidéo."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Dominique Cuny, psychologue à Poissy",
+   "seoDescription": "Parcours et formations de Dominique Cuny, psychologue à Poissy.",
+   "titre": "Mon *parcours*",
+   "intro": "Psychologue clinicien diplômé de l’université Paris 5, je suis membre d’une école de psychanalyse.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "titre": "Psychologue clinicien",
+     "texte": "Diplômé de l’université Paris 5."
+    },
+    {
+     "titre": "Psychanalyste",
+     "texte": "Membre de l’École de psychanalyse des forums du champ lacanien (EPFCL-France), inscrit à son annuaire."
+    },
+    {
+     "titre": "Superviseur",
+     "texte": "En groupe, analyse de la pratique, et en individuel pour les professionnels de santé."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Dominique Cuny, psychologue à Poissy",
+   "seoDescription": "L’approche de Dominique Cuny, psychologue à Poissy : psychanalyse, psychothérapie, soutien psychologique, supervision.",
+   "titre": "Psychologie\n*et psychanalyse*",
+   "intro": "Selon votre demande, je vous propose un soutien psychologique, une psychothérapie, ou une cure psychanalytique sur le divan.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Soutien psychologique",
+     "texte": "Pour traverser une période difficile.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Psychothérapie",
+     "texte": "Un travail en face à face, au fil des séances.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Cure psychanalytique",
+     "texte": "Sur le divan, pour remonter aux origines inconscientes de la souffrance.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Supervision",
+     "texte": "Pour les professionnels de santé, en groupe ou en individuel.",
+     "icone": "marches"
+    }
+   ],
+   "outilsSurtitre": "Les séances",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Dominique Cuny, psychologue à Poissy",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Dominique Cuny, psychologue à Poissy.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Le cabinet est ouvert du lundi au vendredi de 9 h à 20 h, et le samedi de 9 h à 18 h. Un suivi personnalisé est aussi possible à domicile, ou à distance en audio et en vidéo.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque, en espèces ou par carte bancaire (dont American Express).",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Dominique Cuny, psychologue à Poissy",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Dominique Cuny, psychologue à Poissy",
+   "seoDescription": "Adresse et téléphone de Dominique Cuny, psychologue, 16 avenue Meissonier à Poissy.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 16 avenue Meissonier, au centre de Poissy, à 300 mètres de la gare du RER A. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Dominique Cuny"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

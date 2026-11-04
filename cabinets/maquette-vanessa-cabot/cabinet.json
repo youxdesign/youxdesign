@@ -1,0 +1,339 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Vanessa Cabot (prospect), d'après vanessacabotpsy.wixsite.com/psychologue. Publiée sur youxdesign.fr/maquettes/vanessa-cabot/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://vanessacabotpsy.wixsite.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F8F5F0",
+   "encre": "#28241D",
+   "accent": "#8C6B2F",
+   "doux": "#EFE5D3",
+   "texte2": "#5A544A"
+  }
+ },
+ "praticien": {
+  "prenom": "Vanessa",
+  "nom": "Cabot",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute, thérapeute EMDR",
+  "specialite": "psychothérapie intégrative d’orientation psychodynamique, thérapie EMDR, thérapies parents-bébé",
+  "specialiteCourte": "Psychodynamique et EMDR",
+  "diplome": "Master 2 professionnel et recherche de psychologie clinique et psychopathologie (Université d’Aix-en-Provence, 2010)",
+  "public": "Bébés et leurs parents, enfants, adolescents et adultes"
+ },
+ "contact": {
+  "telephone": "06 13 98 36 43",
+  "email": "vanessacabot.psy@gmail.com",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "8 allée Frédéric Chopin",
+  "codePostal": "83390",
+  "ville": "Pierrefeu-du-Var",
+  "accessiblePMR": false,
+  "visio": true,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "Au cœur du village",
+    "texte": "Le cabinet est aménagé dans une dépendance, dans un quartier calme de Pierrefeu-du-Var.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "Alentours",
+    "texte": "À proximité de Cuers, Puget-Ville, Carnoules, Collobrières, La Crau, La Farlède et Solliès-Pont, et à 20 minutes de Hyères et de Toulon.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "À domicile",
+    "texte": "Dans un rayon de 20 km, pour les personnes qui ne peuvent pas se déplacer et pour les thérapies parents-bébé.",
+    "icone": "porte"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Séance au cabinet ou en ligne",
+   "prix": "50 €",
+   "duree": "45 min à 1 h",
+   "miseEnAvant": true
+  },
+  {
+   "nom": "Séance à domicile",
+   "prix": "55 €",
+   "texte": "Dans un rayon de 20 km."
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Arrivée d’un bébé",
+   "texte": "Doutes, angoisses, épuisement, grossesse ou accouchement difficiles, liens précoces parents-enfant.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Enfants et adolescents",
+   "texte": "Difficultés ou souffrance de votre enfant.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Moments de vie",
+   "texte": "Un soutien dans une période particulière.",
+   "icone": "marches"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Thérapie EMDR.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Mal-être",
+   "texte": "Sortir de son mal-être, être acteur de ses choix.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Ressources",
+   "texte": "Développer et mobiliser ses ressources psychiques.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Vanessa Cabot, psychologue à Pierrefeu-du-Var",
+   "seoDescription": "Vanessa Cabot, psychologue clinicienne, psychothérapeute, thérapeute emdr à Pierrefeu-du-Var. Psychothérapie intégrative d’orientation psychodynamique, thérapie emdr, thérapies parents-bébé.",
+   "surtitre": "Psychologue clinicienne · Pierrefeu-du-Var",
+   "titre": "Consulter,\n*une preuve de courage*",
+   "intro": "Psychologue clinicienne, psychothérapeute et thérapeute EMDR, je vous reçois à Pierrefeu-du-Var, en ligne ou à domicile, des bébés et de leurs parents jusqu’aux adultes.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Quelle qu’en soit la raison, on peut tous avoir besoin d’être accompagné à un moment de sa vie.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Vanessa*",
+   "presentation": [
+    "Contrairement aux idées reçues, consulter un psy n’est pas un signe de faiblesse : c’est le courage de se remettre en question et en mouvement, pour être acteur de ses choix.",
+    "Je vous accompagne avec écoute, empathie, respect et bienveillance, pour explorer vos ressources et les mobiliser."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Vanessa Cabot, psychologue à Pierrefeu-du-Var",
+   "seoDescription": "Parcours et formations de Vanessa Cabot, psychologue à Pierrefeu-du-Var.",
+   "titre": "Mon *parcours*",
+   "intro": "J’ai exercé pendant plus de dix ans en institution, auprès de bébés, d’enfants, d’adolescents, d’adultes et de leurs familles, avant de m’installer en libéral en 2021.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2010",
+     "titre": "Master 2 de psychologie clinique et psychopathologie",
+     "texte": "Université d’Aix-en-Provence. Psychothérapeute répertoriée à l’Agence régionale de santé."
+    },
+    {
+     "titre": "Thérapeute EMDR",
+     "texte": "Formée à l’IFEMDR."
+    },
+    {
+     "titre": "En institution",
+     "texte": "Services hospitaliers, psychiatrie, secteur social et médico-social, crèche."
+    },
+    {
+     "titre": "Formatrice",
+     "texte": "Groupes d’analyse des pratiques et supervisions pour les professionnels du soin et de l’éducation."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Vanessa Cabot, psychologue à Pierrefeu-du-Var",
+   "seoDescription": "L’approche de Vanessa Cabot, psychologue à Pierrefeu-du-Var : psychothérapie intégrative d’orientation psychodynamique, thérapie EMDR, thérapies parents-bébé.",
+   "titre": "Une approche intégrative,\n*essentiellement psychodynamique*",
+   "intro": "Formée principalement aux thérapies psychodynamiques, je me suis aussi ouverte aux thérapies brèves et humanistes. Il s’agit de prendre conscience de l’influence de conflits psychiques sur votre fonctionnement, pour mieux vous en dégager.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "L’entretien préliminaire",
+     "texte": "Nous faisons connaissance, évoquons vos attentes et posons ensemble le cadre du suivi.",
+     "icone": "feuille"
+    },
+    {
+     "titre": "Thérapies parents-bébé",
+     "texte": "Dès les premières semaines de vie, un travail conjoint avec les parents et le bébé.",
+     "icone": "personnes"
+    },
+    {
+     "titre": "Enfants et adolescents",
+     "texte": "Un accompagnement adapté à chaque âge.",
+     "icone": "puzzle"
+    },
+    {
+     "titre": "Thérapie EMDR",
+     "texte": "Parmi les thérapies brèves auxquelles je suis formée.",
+     "icone": "eclat"
+    }
+   ],
+   "outilsSurtitre": "Les psychothérapies",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Vanessa Cabot, psychologue à Pierrefeu-du-Var",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Vanessa Cabot, psychologue à Pierrefeu-du-Var.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Les séances durent entre 45 minutes et une heure, au cabinet ou en ligne. La durée de la thérapie dépend de la problématique : quelques séances ou un suivi plus long.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "annulation": [
+    "Sauf exception, toute séance non annulée 48 h à l’avance est due."
+   ],
+   "tarifsNote": "Les consultations ne sont pas remboursées par la Sécurité sociale, mais les mutuelles peuvent prendre en charge quelques séances : demandez une facture. Les tarifs peuvent être adaptés à votre situation : parlons-en lors de l’entretien préliminaire.",
+   "annulationSurtitre": "Annulation",
+   "annulationTitre": "Annuler *ou déplacer*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Vanessa Cabot, psychologue à Pierrefeu-du-Var",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Vanessa Cabot, psychologue à Pierrefeu-du-Var",
+   "seoDescription": "Adresse et téléphone de Vanessa Cabot, psychologue, 8 allée Frédéric Chopin à Pierrefeu-du-Var.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 8 allée Frédéric Chopin, à Pierrefeu-du-Var. Appelez-moi ou écrivez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Vanessa Cabot"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

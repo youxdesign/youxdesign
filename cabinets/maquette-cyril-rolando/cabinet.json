@@ -1,0 +1,327 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Cyril Rolando (prospect), d'après sixio.free.fr. Publiée sur youxdesign.fr/maquettes/cyril-rolando/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://sixio.free.fr",
+  "style": "wabi",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F4F3F0",
+   "encre": "#232527",
+   "accent": "#2F6F73",
+   "doux": "#DCE8E8",
+   "texte2": "#4F5456"
+  }
+ },
+ "praticien": {
+  "prenom": "Cyril",
+  "nom": "Rolando",
+  "accord": "m",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicien, psychothérapeute",
+  "specialite": "psychothérapie d’inspiration analytique et comportementale, médiation artistique, thérapies de couple, familiales et de groupe",
+  "specialiteCourte": "Psychologie clinique",
+  "diplome": "Psychologie clinique et psychopathologie (Université d’Aix-en-Provence, 2007)",
+  "adeli": "839306149",
+  "public": "Enfants, adolescents, adultes, couples et familles"
+ },
+ "contact": {
+  "telephone": "06 66 78 58 03",
+  "email": "sixio@free.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "403 rue Jean Jaurès",
+  "codePostal": "83000",
+  "ville": "Toulon",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "CADEXPSY",
+    "texte": "Le cabinet se trouve au 403 rue Jean Jaurès, dans le centre de Toulon.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En voiture",
+    "texte": "Parkings Place d’Armes et Place de la Liberté.",
+    "icone": "voiture"
+   },
+   {
+    "titre": "En bus ou en train",
+    "texte": "Arrêt de bus Liberté ; gare de Toulon.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "50 €",
+   "duree": "30 à 45 min",
+   "texte": "Aménagements possibles pour les personnes en grande difficulté sociale, financière ou de santé.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Épreuves de vie",
+   "texte": "Événement douloureux, deuil, perte, échec, décision importante.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Angoisses et peurs",
+   "texte": "Peurs sans raison apparente, angoisse, mal-être, déprime.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Relations",
+   "texte": "Difficultés en famille, au travail, dans le couple ; solitude, dépendance.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Enfants",
+   "texte": "Échec scolaire, troubles du comportement, du sommeil, de l’alimentation.",
+   "icone": "puzzle"
+  },
+  {
+   "titre": "Mieux se connaître",
+   "texte": "S’épanouir, vivre sa vie différemment, réfléchir sur soi.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Cyril Rolando, psychologue à Toulon",
+   "seoDescription": "Cyril Rolando, psychologue clinicien, psychothérapeute à Toulon. Psychothérapie d’inspiration analytique et comportementale, médiation artistique, thérapies de couple, familiales et de groupe.",
+   "surtitre": "Psychologue clinicien · Toulon",
+   "titre": "Donner du sens,\n*comprendre ses émotions*",
+   "intro": "Psychologue clinicien et psychothérapeute, je reçois enfants, adolescents et adultes sur rendez-vous à CADEXPSY, dans le centre de Toulon.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Les raisons qui invitent à consulter sont multiples.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Cyril*",
+   "presentation": [
+    "Le psychologue n’est ni un parent, ni un ami, ni un juge : c’est une personne extérieure, neutre et bienveillante, qui vous aide à faire du lien, à donner du sens, à comprendre vos émotions et à envisager un autre point de vue.",
+    "Psychologue clinicien depuis 2007, je m’appuie sur des socles essentiellement psychanalytiques et comportementalistes, et sur des médiations artistiques comme le dessin, la peinture ou le jeu de rôle."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Cyril Rolando, psychologue à Toulon",
+   "seoDescription": "Parcours et formations de Cyril Rolando, psychologue à Toulon.",
+   "titre": "Mon *parcours*",
+   "intro": "J’ai effectué mon cursus de psychologie clinique et pathologique à la faculté d’Aix-en-Provence, de 2002 à 2007, et j’ai ouvert mon cabinet libéral en 2011.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "2007",
+     "titre": "Psychologie clinique et psychopathologie",
+     "texte": "Université d’Aix-en-Provence ; initiation à la psychanalyse, aux techniques comportementales, à la relaxation et aux thérapies par l’expression artistique."
+    },
+    {
+     "date": "2009",
+     "titre": "Hôpital de jour adulte et CMP",
+     "texte": "Suivis psychothérapeutiques et entretiens courts de relation d’aide."
+    },
+    {
+     "date": "2010",
+     "titre": "« Sortir du miroir »",
+     "texte": "Article paru dans la revue Santé mentale, sur l’utilisation du dessin avec une jeune femme psychotique."
+    },
+    {
+     "date": "2011",
+     "titre": "Cabinet libéral",
+     "texte": "À Toulon, auprès des enfants, des adolescents et des adultes."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Cyril Rolando, psychologue à Toulon",
+   "seoDescription": "L’approche de Cyril Rolando, psychologue à Toulon : psychothérapie d’inspiration analytique et comportementale, médiation artistique, thérapies de couple, familiales et de groupe.",
+   "titre": "La parole,\n*au cœur du soin*",
+   "intro": "Le premier entretien vous permet d’exposer votre demande, pour une prise en charge adaptée, tant pour le nombre de séances que pour la nature de la thérapie. La parole reste une dimension constante, quelle que soit la modalité de soin.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Pour les adultes",
+     "texte": "Thérapies brèves, d’inspiration analytique, de couple, familiales et de groupe ; jeux de rôle et expression corporelle.",
+     "icone": "plume"
+    },
+    {
+     "titre": "Pour les adolescents",
+     "texte": "Psychothérapie par médiation artistique : dessin, peinture, musique.",
+     "icone": "soleil"
+    },
+    {
+     "titre": "Pour les enfants",
+     "texte": "Suivis pour les enfants en échec scolaire ou présentant des troubles du comportement, avec soutien parental.",
+     "icone": "puzzle"
+    }
+   ],
+   "outilsSurtitre": "Les psychothérapies",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Cyril Rolando, psychologue à Toulon",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Cyril Rolando, psychologue à Toulon.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "L’entretien dure entre 30 et 45 minutes. La régularité des entretiens permet une meilleure prise en charge : entreprendre une thérapie est un engagement.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "À la séance, par chèque ou en espèces.",
+   "tarifsNote": "Les consultations ne sont pas prises en charge par la Sécurité sociale, mais certaines mutuelles en remboursent une partie.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Cyril Rolando, psychologue à Toulon",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Cyril Rolando, psychologue à Toulon",
+   "seoDescription": "Adresse et téléphone de Cyril Rolando, psychologue, 403 rue Jean Jaurès à Toulon.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Je consulte sur rendez-vous à CADEXPSY, 403 rue Jean Jaurès, dans le centre de Toulon. Appelez-moi pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Cyril Rolando"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}

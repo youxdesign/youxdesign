@@ -1,0 +1,339 @@
+{
+ "_lisezmoi": "Maquette youXdesign pour Élodia de Almeida (prospect), d'après www.dealmeida-elodia.com. Publiée sur youxdesign.fr/maquettes/elodia-de-almeida/, jamais référencée. Rien d'inventé : textes, photos et liens repris de son site.",
+ "site": {
+  "domaine": "https://www.dealmeida-elodia.com",
+  "style": "pastel",
+  "palette": 0,
+  "police": 0,
+  "demo": true,
+  "options": [
+   "faq"
+  ],
+  "couleurs": {
+   "fond": "#F7F3F5",
+   "encre": "#2A2026",
+   "accent": "#8E4A6B",
+   "doux": "#EEDDE6",
+   "texte2": "#5A4F55"
+  }
+ },
+ "praticien": {
+  "prenom": "Élodia",
+  "nom": "de Almeida",
+  "accord": "f",
+  "profession": "psychologue",
+  "titre": "Psychologue clinicienne, psychothérapeute, docteure en psychologie",
+  "specialite": "thérapies comportementales et cognitives, hypnose ericksonienne, EMDR, thérapie sexofonctionnelle",
+  "specialiteCourte": "TCC, hypnose et EMDR",
+  "diplome": "Doctorat de psychologie clinique (Université Paris X Nanterre, 2003)",
+  "adeli": "949304471",
+  "public": "Adolescents, jeunes adultes, adultes et couples"
+ },
+ "contact": {
+  "telephone": "06 81 94 67 62",
+  "telephoneNote": "Contactez-moi de préférence par téléphone ou par SMS.",
+  "email": "elodia_dealmeida@yahoo.fr",
+  "emailNote": "Merci de ne pas transmettre d’informations médicales par e-mail : nous en parlerons en séance."
+ },
+ "cabinet": {
+  "adresse": "25 rue Jean Moulin",
+  "codePostal": "94300",
+  "ville": "Vincennes",
+  "accessiblePMR": false,
+  "visio": false,
+  "enLigne": false,
+  "domicile": false,
+  "horaires": {
+   "lundi": "",
+   "mardi": "",
+   "mercredi": "",
+   "jeudi": "",
+   "vendredi": "",
+   "samedi": "",
+   "dimanche": ""
+  },
+  "horairesNote": "Sur rendez-vous",
+  "acces": [
+   {
+    "titre": "En métro",
+    "texte": "À une minute à pied de la station Bérault (ligne 1), sortie rue des Vignerons.",
+    "icone": "lieu"
+   },
+   {
+    "titre": "En RER",
+    "texte": "À 5 minutes à pied de la station Vincennes (RER A), à 3 minutes du château.",
+    "icone": "lieu"
+   }
+  ]
+ },
+ "tarifs": [
+  {
+   "nom": "Consultation",
+   "prix": "Sur demande",
+   "texte": "En individuel ou en couple.",
+   "miseEnAvant": true
+  }
+ ],
+ "motifs": [
+  {
+   "titre": "Anxiété",
+   "texte": "Phobies, crises d’angoisse, anxiété sociale ou généralisée.",
+   "icone": "vagues"
+  },
+  {
+   "titre": "Stress",
+   "texte": "Trac, surmenage, difficultés de concentration ou de mémoire.",
+   "icone": "batterie"
+  },
+  {
+   "titre": "Humeur",
+   "texte": "Dépression, troubles bipolaires.",
+   "icone": "nuage"
+  },
+  {
+   "titre": "Douleurs et maladies chroniques",
+   "texte": "Maux de tête, maux de dos, troubles psychosomatiques.",
+   "icone": "feuille"
+  },
+  {
+   "titre": "Traumatismes",
+   "texte": "Deuil, harcèlement, rupture, agressions et violences, divorce.",
+   "icone": "eclat"
+  },
+  {
+   "titre": "Sexualité",
+   "texte": "Difficultés sexuelles essentiellement féminines : désir, anorgasmie, vaginisme, dyspareunie, traumatisme sexuel.",
+   "icone": "personnes"
+  },
+  {
+   "titre": "Affirmation de soi",
+   "texte": "Entraînement aux compétences sociales.",
+   "icone": "soleil"
+  }
+ ],
+ "pages": {
+  "accueil": {
+   "seoTitre": "Élodia de Almeida, psychologue à Vincennes",
+   "seoDescription": "Élodia de Almeida, psychologue clinicienne, psychothérapeute, docteure en psychologie à Vincennes. Thérapies comportementales et cognitives, hypnose ericksonienne, emdr, thérapie sexofonctionnelle.",
+   "surtitre": "Psychologue clinicienne · Vincennes",
+   "titre": "Une aide réelle\n*et pragmatique*",
+   "intro": "Psychologue clinicienne, psychothérapeute et docteure en psychologie, je vous reçois à Vincennes pour une écoute attentive et compréhensive, une analyse structurée de vos difficultés et une aide concrète.",
+   "motifsSurtitre": "Motifs de consultation",
+   "motifsTitre": "Pourquoi *consulter ?*",
+   "motifsIntro": "Je prends en charge divers troubles psychiques, psychosomatiques, douloureux et sexuels, et j’apporte un soutien dans les moments de crise.",
+   "presentationSurtitre": "Votre psychologue",
+   "presentationTitre": "Bonjour, *je suis Élodia*",
+   "presentation": [
+    "Installée en libéral à Vincennes depuis 2004, je reçois les adolescents, les jeunes adultes et les adultes, en individuel ou en couple, dans une ambiance chaleureuse et accueillante.",
+    "Les thérapies comportementales et cognitives, l’hypnose ericksonienne, l’EMDR et la thérapie sexofonctionnelle sont autant d’outils dans lesquels je puise pour consolider et enrichir cette aide."
+   ],
+   "etapesSurtitre": "Votre première séance",
+   "etapesTitre": "Comment se passe *une première séance ?*",
+   "etapesIntro": "Consulter pour la première fois peut impressionner. Voici comment se déroule le début de l’accompagnement, étape par étape.",
+   "etapes": [
+    {
+     "titre": "Vous prenez rendez-vous",
+     "texte": "Par téléphone ou par e-mail, sur rendez-vous."
+    },
+    {
+     "titre": "Nous faisons connaissance",
+     "texte": "Vous expliquez ce qui vous amène, avec vos mots et à votre rythme."
+    },
+    {
+     "titre": "Nous convenons d’un cadre",
+     "texte": "Ensemble, nous voyons si un accompagnement vous convient et comment il peut se dérouler."
+    },
+    {
+     "titre": "Le travail commence",
+     "texte": "Au fil des séances, à votre rythme, en faisant régulièrement le point."
+    }
+   ],
+   "respirationSurtitre": "Une minute pour vous",
+   "respirationTitre": "Respirer, *avant toute chose*",
+   "finTitre": "Et si vous faisiez *le premier pas ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "questionsAccueil": [
+    "Que se passe-t-il lors de la première séance ?",
+    "Faut-il une ordonnance pour consulter ?",
+    "Ce que je dis reste-t-il confidentiel ?",
+    "Les séances sont-elles remboursées ?"
+   ]
+  },
+  "a-propos": {
+   "seoTitre": "À propos · Élodia de Almeida, psychologue à Vincennes",
+   "seoDescription": "Parcours et formations de Élodia de Almeida, psychologue à Vincennes.",
+   "titre": "Mon *parcours*",
+   "intro": "Avant de m’installer en libéral, j’ai diversifié ma pratique : soin, enseignement, recherche et formation.",
+   "cabinetLegende": "Le cabinet",
+   "finTitre": "Faisons *connaissance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "parcours": [
+    {
+     "date": "1993",
+     "titre": "Psychologue clinicienne",
+     "texte": "Diplômée de Paris X Nanterre."
+    },
+    {
+     "date": "2003",
+     "titre": "Docteure en psychologie clinique",
+     "texte": "Paris X Nanterre, thèse sur la lombalgie chronique."
+    },
+    {
+     "titre": "Institutions hospitalières",
+     "texte": "Auprès de patients polytraumatisés et douloureux chroniques."
+    },
+    {
+     "titre": "Formation et enseignement",
+     "texte": "Chargée de mission à l’Institut Milton Erickson de Paris et à l’Institut français d’hypnose ; attachée d’enseignement et de recherche à Paris X ; formations sur le stress au travail."
+    },
+    {
+     "date": "2004",
+     "titre": "Cabinet libéral",
+     "texte": "À Vincennes."
+    }
+   ],
+   "parcoursTitre": "Mon *parcours*"
+  },
+  "approche": {
+   "seoTitre": "Mon approche · Élodia de Almeida, psychologue à Vincennes",
+   "seoDescription": "L’approche de Élodia de Almeida, psychologue à Vincennes : thérapies comportementales et cognitives, hypnose ericksonienne, EMDR, thérapie sexofonctionnelle.",
+   "titre": "Plusieurs outils,\n*une même attention*",
+   "intro": "Les psychothérapies visent à modifier les processus psychiques et psychosomatiques qui entretiennent les difficultés. Elles reposent sur les échanges, mais peuvent aussi faire appel à d’autres moyens d’expression et d’intervention.",
+   "finTitre": "Envie d’essayer *cette approche ?*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "outils": [
+    {
+     "titre": "Thérapies comportementales et cognitives",
+     "texte": "Une approche structurée et concrète, avec des exercices pratiques.",
+     "icone": "boucle"
+    },
+    {
+     "titre": "Hypnose ericksonienne",
+     "texte": "Et relaxation, pour accompagner le changement.",
+     "icone": "vagues"
+    },
+    {
+     "titre": "EMDR",
+     "texte": "Pour les événements difficiles et les traumatismes.",
+     "icone": "eclat"
+    },
+    {
+     "titre": "Thérapie sexofonctionnelle",
+     "texte": "Un accompagnement des difficultés sexuelles, en particulier chez les femmes.",
+     "icone": "personnes"
+    }
+   ],
+   "outilsSurtitre": "Les thérapies",
+   "outilsTitre": "Ce que *je propose*"
+  },
+  "consultations": {
+   "seoTitre": "Consultations · Élodia de Almeida, psychologue à Vincennes",
+   "seoDescription": "Séances, tarifs et informations pratiques avec Élodia de Almeida, psychologue à Vincennes.",
+   "surtitre": "Consultations & tarifs",
+   "titre": "Les séances,\n*en pratique*",
+   "intro": "Je reçois les adolescents, les jeunes adultes et les adultes, en individuel ou en couple. Contactez-moi de préférence par téléphone ou par SMS.",
+   "finTitre": "Réserver une *première séance*",
+   "finTexte": "Pour prendre rendez-vous, appelez-moi ou écrivez-moi.",
+   "paiement": "Par chèque ou en espèces.",
+   "paiementSurtitre": "Règlement",
+   "paiementTitre": "Moyens *de paiement*"
+  },
+  "faq": {
+   "seoTitre": "Questions fréquentes · Élodia de Almeida, psychologue à Vincennes",
+   "seoDescription": "Psychologue ou psychiatre, ordonnance, première séance, confidentialité, durée du suivi, remboursement : les réponses aux questions fréquentes avant de consulter.",
+   "titre": "Vos questions,\n*mes réponses*",
+   "intro": "Consulter un psychologue soulève souvent des questions. Si vous ne trouvez pas la réponse ici, vous pouvez me contacter directement.",
+   "groupes": [
+    {
+     "titre": "Avant de consulter",
+     "questions": [
+      {
+       "question": "Quelle différence entre psychologue, psychiatre et psychothérapeute ?",
+       "reponse": [
+        "Le **psychologue** est titulaire d’un master en psychologie. Il accompagne par l’écoute et des méthodes psychothérapeutiques. Il ne prescrit pas de médicaments.",
+        "Le **psychiatre** est un médecin spécialisé en santé mentale. Il peut poser un diagnostic médical et prescrire un traitement ; ses consultations sont remboursées par l’Assurance Maladie.",
+        "Le titre de **psychothérapeute** est réglementé : il est réservé aux professionnels (médecins, psychologues…) ayant suivi une formation spécifique en psychopathologie. Psychologues et psychiatres travaillent souvent ensemble."
+       ]
+      },
+      {
+       "question": "Faut-il une ordonnance pour consulter ?",
+       "reponse": [
+        "Non. Vous pouvez prendre rendez-vous directement, sans passer par votre médecin. Si vous êtes suivi par ailleurs, il peut être utile de l’en informer, avec votre accord."
+       ]
+      },
+      {
+       "question": "Que se passe-t-il lors de la première séance ?",
+       "reponse": [
+        "C’est un temps pour faire connaissance. Vous m’expliquez ce qui vous amène, je vous pose quelques questions sur votre situation et je vous présente ma façon de travailler.",
+        "À la fin, nous voyons ensemble si un suivi vous semble adapté. Vous n’avez rien à préparer."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Pendant le suivi",
+     "questions": [
+      {
+       "question": "Combien de séances faut-il prévoir ?",
+       "reponse": [
+        "Cela dépend de votre situation et de ce que vous souhaitez travailler. Nous en parlons ensemble dès les premières séances, et nous faisons le point régulièrement."
+       ]
+      },
+      {
+       "question": "Ce que je dis reste-t-il confidentiel ?",
+       "reponse": [
+        "Oui. Les psychologues sont tenus au secret professionnel : ce que vous dites en séance reste entre nous. Les seules exceptions sont prévues par la loi, en cas de danger grave et imminent pour vous ou pour autrui."
+       ]
+      },
+      {
+       "question": "Puis-je arrêter quand je le souhaite ?",
+       "reponse": [
+        "Oui, à tout moment, sans avoir à vous justifier. Si vous le souhaitez, nous pouvons prévoir une dernière séance pour faire le bilan et envisager la suite."
+       ]
+      }
+     ]
+    },
+    {
+     "titre": "Remboursement et urgences",
+     "questions": [
+      {
+       "question": "Les séances sont-elles remboursées ?",
+       "reponse": [
+        "Les séances chez un psychologue en libéral ne sont en général pas remboursées par l’Assurance Maladie.",
+        "De nombreuses mutuelles prennent en charge une partie des séances : renseignez-vous auprès de la vôtre."
+       ]
+      },
+      {
+       "question": "Que faire en cas d’urgence ?",
+       "urgence": true,
+       "reponse": [
+        "Un cabinet de psychologue n’est pas un service d’urgence. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+        "Si vous avez des idées suicidaires, ou si vous êtes inquiet pour un proche, appelez le 3114, numéro national de prévention du suicide, gratuit et joignable 24 h/24, 7 j/7."
+       ]
+      }
+     ]
+    }
+   ],
+   "finTitre": "Une autre *question ?*",
+   "finTexte": "Une autre question ? Appelez-moi ou écrivez-moi."
+  },
+  "contact": {
+   "seoTitre": "Contact · Élodia de Almeida, psychologue à Vincennes",
+   "seoDescription": "Adresse et téléphone de Élodia de Almeida, psychologue, 25 rue Jean Moulin à Vincennes.",
+   "surtitre": "Contact & accès",
+   "titre": "Venir *au cabinet*",
+   "intro": "Le cabinet se trouve 25 rue Jean Moulin à Vincennes, à une minute du métro Bérault. Appelez-moi ou envoyez-moi un SMS pour prendre rendez-vous.",
+   "accesSurtitre": "Accès",
+   "accesTitre": "Comment *venir*",
+   "visioSurtitre": "Consultations à distance",
+   "visioTitre": "Vous préférez *la visio ?*"
+  }
+ },
+ "legal": {
+  "miseAJour": "octobre 2026",
+  "directeurPublication": "Élodia de Almeida"
+ },
+ "ressources": [],
+ "ateliers": [],
+ "liens": []
+}
